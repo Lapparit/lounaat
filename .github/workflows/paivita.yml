@@ -1,0 +1,41 @@
+name: Päivitä lounaat
+
+on:
+  # Ajetaan automaattisesti joka arkipäivä klo 7:00 Suomen aikaa (UTC+2/+3)
+  # Cron on UTC-ajassa, joten 5:00 UTC = 7:00 Suomen aikaa talvella, 8:00 kesäaikaan
+  schedule:
+    - cron: "0 5 * * 1-5"
+  # Voi myös ajaa käsin GitHubin web-käyttöliittymästä
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  paivita:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hae repo
+        uses: actions/checkout@v4
+
+      - name: Asenna Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Asenna riippuvuudet
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Aja scraperit
+        run: python scrape.py
+
+      - name: Tallenna muutokset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lounaat.json
+          # Commit vain jos jotain muuttui
+          git diff --staged --quiet || git commit -m "Päivitä lounaat $(date -u +%Y-%m-%d)"
+          git push
