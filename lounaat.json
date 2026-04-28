@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-04-28T12:53:40.718747+00:00",
+  "paivitetty": "2026-04-28T16:16:12.793536+00:00",
   "ravintolat": [
     {
       "nimi": "Sisu Buffet",
@@ -411,57 +411,11 @@
       ]
     },
     {
-      "nimi": "Hermianfarmi",
+      "nimi": "Hermian Farmi",
       "alue": "Hervanta",
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "G, L, MMiltä maistui?",
-            "A, G, L, MMiltä maistui?",
-            "A, LMiltä maistui?",
-            "G, L, M, VEG",
-            "G, L, M, VEG",
-            "A, G, L"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "A, G, LMiltä maistui?",
-            "AMiltä maistui?",
-            "A, G, L, M, VEGMiltä maistui?",
-            "A, G, L",
-            "G, L, M, VEG",
-            "A, G, L"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "A, G, LMiltä maistui?",
-            "A, G, L, MMiltä maistui?",
-            "A, LMiltä maistui?",
-            "A, G, VL",
-            "G, L, M, VEG"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "A, GMiltä maistui?",
-            "A, G, LMiltä maistui?",
-            "G, L, MMiltä maistui?",
-            "G, L, M, VEGMiltä maistui?",
-            "A, G, L",
-            "G, L, M, VEG",
-            "G, L, M, VEG",
-            "A, G, L, M"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Munkkimiehet",
@@ -560,7 +514,7 @@
       ]
     },
     {
-      "nimi": "Aitokoti",
+      "nimi": "Aito kotilounas Sääksjärvi",
       "alue": "Lempäälä",
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
@@ -568,7 +522,7 @@
     },
     {
       "nimi": "Fastelle",
-      "alue": "Hervanta",
+      "alue": "Lahdesjärvi",
       "url": "https://linkosuo.fi/toimipaikka/ravintola-fastelle/",
       "huom": "",
       "paivat": [
@@ -581,14 +535,7 @@
             "Lihapyörykät sweet&sour-kastikkeella L,G",
             "Maalaisperunamuusia vuolukermalla ja ruohosipulilla L,G",
             "Paahdettuja kasviksia ja siemeniä M,G,V",
-            "Kukkakaali-kikherne paneer L,G",
-            "**",
-            "Eastern sweet potato vegetable puree soup with coconut M,G,V",
-            "Lemon-lime chicken L,G",
-            "Meatballs with sweet & sour sauce L,G",
-            "Rustic mashed potatoes with pouring cream and chives L,G",
-            "Roasted vegetables and seeds M,G,V",
-            "Cauliflower-chickpea paneer L,G"
+            "Kukkakaali-kikherne paneer L,G"
           ]
         },
         {
@@ -601,15 +548,7 @@
             "Artesaani makkarapannu M,G",
             "Paahdetut kauden kasvikset M,G,V",
             "Paahdettuja pesto-siemenperunoita M,G,V -pähkinätön pesto",
-            "Tofua & kasviksia satay kastikkeella L,G,pähkinä",
-            "**",
-            "Silky soup of roasted bell pepper & ginger L,G",
-            "Crispy tempura-breaded cod L",
-            "Citrusy spring onion dip L,G",
-            "Artisan sausage pan M,G",
-            "Roasted seasonal vegetables M,G,V",
-            "Roasted pesto-seed potatoes M,G,V – nut-free pesto",
-            "Tofu & vegetables with satay sauce L,G,nut"
+            "Tofua & kasviksia satay kastikkeella L,G,pähkinä"
           ]
         },
         {
@@ -622,15 +561,7 @@
             "Paahdetut yrttiperunat M,G,V",
             "Paahdetut kauden kasvikset M,G,V",
             "Punajuuripyörykkä M,G,V",
-            "Hummusdippi L,G",
-            "**",
-            "Fresh pea puree soup L,G",
-            "Greek meatloaf L",
-            "Chicken drumstick bbq M,G",
-            "Roasted herb potatoes M,G,V",
-            "Roasted seasonal vegetables M,G,V",
-            "Beetroot ball M,G,V",
-            "Hummus dip L,G"
+            "Hummusdippi L,G"
           ]
         },
         {
@@ -643,15 +574,7 @@
             "Paahdetut yrttiperunat  M,G,V",
             "Paahdetut kauden kasvikset  M,G,V",
             "Punainen curry kasvis-nuudeliwok L",
-            "Jälkiruoaksi: Pannukakkua, hilloa ja kermavaahtoa",
-            "**",
-            "Traditional pea soup M,G",
-            "Chicken in smoky paprika sauce L,G",
-            "Spicy kebab sauce M,G",
-            "Roasted herb potatoes M,G,V",
-            "Roasted seasonal vegetables M,G,V",
-            "Red curry vegetable noodle wok L",
-            "For dessert: Pancakes, jam, and whipped cream"
+            "Jälkiruoaksi: Pannukakkua, hilloa ja kermavaahtoa"
           ]
         },
         {
@@ -744,6 +667,20 @@
       "alue": "Hervanta",
       "url": "https://www.gateofindia.fi/",
       "huom": "Ei lounaslistaa nettisivulla",
+      "paivat": []
+    },
+    {
+      "nimi": "Malakai",
+      "alue": "Hervanta",
+      "url": "https://malakairavintola.fi/",
+      "huom": "Ei lounaslistaa nettisivulla",
+      "paivat": []
+    },
+    {
+      "nimi": "Heval",
+      "alue": "Hervanta",
+      "url": "https://heval.fi/lounas/",
+      "huom": "Avaa lounaslista ravintolan sivulta",
       "paivat": []
     }
   ]
