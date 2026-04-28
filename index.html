@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hervannan lounaat</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f4f1ec;
+    color: #2a2a2a;
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+  header {
+    max-width: 1200px;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 0.25rem;
+    font-size: 2rem;
+    color: #5a3a1f;
+  }
+  header p {
+    margin: 0;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  #suodatin {
+    max-width: 1200px;
+    margin: 0 auto 1rem;
+    text-align: center;
+  }
+  #suodatin input {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .ravintola {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+  }
+  .ravintola h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+  }
+  .ravintola h2 a {
+    color: #5a3a1f;
+    text-decoration: none;
+  }
+  .ravintola h2 a:hover { text-decoration: underline; }
+  .alue {
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 0.5rem;
+  }
+  .paiva {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #e0d8cc;
+  }
+  .paiva:first-of-type { border-top: none; padding-top: 0; }
+  .paiva-otsikko {
+    font-weight: 600;
+    color: #5a3a1f;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+  .paiva-otsikko.tanaan {
+    background: #5a3a1f;
+    color: white;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  ul.ruoat {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.9rem;
+  }
+  ul.ruoat li {
+    margin-bottom: 0.15rem;
+  }
+  .huom {
+    color: #888;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  .virhe {
+    color: #b94a48;
+    font-size: 0.85rem;
+    font-style: italic;
+  }
+  footer {
+    text-align: center;
+    color: #999;
+    font-size: 0.8rem;
+    margin: 2rem 0 1rem;
+  }
+  .piilotettu { display: none !important; }
+
+  @media (prefers-color-scheme: dark) {
+    body { background: #1f1c19; color: #e8e3dc; }
+    header h1 { color: #d9b48a; }
+    .ravintola { background: #2c2823; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+    .ravintola h2 a { color: #d9b48a; }
+    .paiva { border-top-color: #3d3833; }
+    .paiva-otsikko { color: #d9b48a; }
+    .paiva-otsikko.tanaan { background: #d9b48a; color: #1f1c19; }
+    #suodatin input { background: #2c2823; color: #e8e3dc; border-color: #3d3833; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🍽️ Hervannan lounaat</h1>
+  <p id="paivitetty">Ladataan...</p>
+</header>
+
+<div id="suodatin">
+  <input type="text" id="haku" placeholder="Etsi ravintolaa tai ruokalajia...">
+</div>
+
+<div class="grid" id="lista">Ladataan lounaslistoja...</div>
+
+<footer>
+  Tiedot kerätty automaattisesti ravintoloiden omilta sivuilta. 
+  Lähteet: <a href="https://lounaat.info" target="_blank">lounaat.info</a> ja ravintoloiden omat sivut.
+</footer>
+
+<script>
+const PAIVAT = ["maanantai", "tiistai", "keskiviikko", "torstai", "perjantai", "lauantai", "sunnuntai"];
+
+function tanaanIndeksi() {
+  // 0 = sunnuntai JS:ssä, mutta haluamme 0 = maanantai
+  const js = new Date().getDay();
+  return js === 0 ? 6 : js - 1;
+}
+
+function onTanaan(paivaTeksti) {
+  if (!paivaTeksti) return false;
+  const idx = tanaanIndeksi();
+  const teksti = paivaTeksti.toLowerCase();
+  const paiva = PAIVAT[idx];
+  // "maanantai" matchaa "Maanantaina 27.4." ja "Maanantai 27.04."
+  return teksti.includes(paiva) || teksti.includes(paiva.slice(0, -1));
+}
+
+function rendoiPaiva(paiva) {
+  const tanaan = onTanaan(paiva.paiva);
+  const lk = tanaan ? "paiva-otsikko tanaan" : "paiva-otsikko";
+  const ruoat = paiva.ruoat.map(r => `<li>${escapoi(r)}</li>`).join("");
+  return `
+    <div class="paiva">
+      <div class="${lk}">${escapoi(paiva.paiva)}</div>
+      <ul class="ruoat">${ruoat}</ul>
+    </div>
+  `;
+}
+
+function escapoi(t) {
+  const div = document.createElement("div");
+  div.textContent = t;
+  return div.innerHTML;
+}
+
+function rendoiRavintola(r) {
+  let sisalto = "";
+  if (r.huom && (!r.paivat || r.paivat.length === 0)) {
+    sisalto = `<p class="huom">${escapoi(r.huom)}</p>`;
+  } else if (r.virhe) {
+    sisalto = `<p class="virhe">⚠️ Listaa ei voitu hakea automaattisesti. Avaa ravintolan sivu linkistä.</p>`;
+  } else if (!r.paivat || r.paivat.length === 0) {
+    sisalto = `<p class="huom">Lounaslistaa ei löytynyt — avaa ravintolan sivu linkistä.</p>`;
+  } else {
+    // Suodatetaan vain tämä viikko ja näytetään tämä päivä ensimmäisenä
+    const idx = tanaanIndeksi();
+    const tanaan = r.paivat.filter(p => onTanaan(p.paiva));
+    const muut = r.paivat.filter(p => !onTanaan(p.paiva));
+    const jarjestetty = [...tanaan, ...muut];
+    sisalto = jarjestetty.map(rendoiPaiva).join("");
+  }
+
+  return `
+    <div class="ravintola" data-haku="${escapoi((r.nimi + " " + (r.paivat || []).map(p => p.ruoat.join(" ")).join(" ")).toLowerCase())}">
+      <h2><a href="${escapoi(r.url)}" target="_blank" rel="noopener">${escapoi(r.nimi)}</a></h2>
+      <div class="alue">${escapoi(r.alue || "")}</div>
+      ${sisalto}
+    </div>
+  `;
+}
+
+function muotoileAika(iso) {
+  if (!iso) return "";
+  try {
+    const d = new Date(iso);
+    return d.toLocaleString("fi-FI", { 
+      day: "numeric", month: "numeric", year: "numeric",
+      hour: "2-digit", minute: "2-digit"
+    });
+  } catch (e) { return iso; }
+}
+
+async function lataa() {
+  try {
+    // Lisätään aikaleima jotta selain ei käytä vanhaa cache-versiota
+    const r = await fetch("lounaat.json?t=" + Date.now());
+    if (!r.ok) throw new Error("Ei löytynyt: " + r.status);
+    const data = await r.json();
+
+    document.getElementById("paivitetty").textContent = 
+      "Päivitetty: " + muotoileAika(data.paivitetty);
+
+    const lista = document.getElementById("lista");
+    lista.innerHTML = data.ravintolat.map(rendoiRavintola).join("");
+
+    // Hakukenttä
+    document.getElementById("haku").addEventListener("input", e => {
+      const q = e.target.value.toLowerCase().trim();
+      document.querySelectorAll(".ravintola").forEach(el => {
+        if (!q || el.dataset.haku.includes(q)) {
+          el.classList.remove("piilotettu");
+        } else {
+          el.classList.add("piilotettu");
+        }
+      });
+    });
+  } catch (e) {
+    document.getElementById("lista").innerHTML = 
+      `<p style="text-align:center; color:#888;">Virhe ladattaessa: ${e.message}<br>
+      Tämä on normaalia jos GitHub Actions ei ole vielä ajanut ensimmäistä kertaa.</p>`;
+  }
+}
+
+lataa();
+</script>
+</body>
+</html>
