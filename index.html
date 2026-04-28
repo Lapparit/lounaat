@@ -3,13 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hervannan lounaat</title>
+<title>Lähilounaat Tampere</title>
 <style>
   * { box-sizing: border-box; }
+  :root {
+    --bg: #faf6ef;
+    --bg-card: #ffffff;
+    --bg-input: #ffffff;
+    --border: #e8e0d0;
+    --border-strong: #ddd0b9;
+    --text-primary: #2d2a24;
+    --text-secondary: #5a5448;
+    --text-tertiary: #8a857a;
+    --text-muted: #a59f91;
+    --accent: #a8553d;
+    --accent-bg: #f3e3d4;
+    --accent-text: #8c4528;
+    --divider: #ede5d5;
+  }
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: #f4f1ec;
-    color: #2a2a2a;
+    background: var(--bg);
+    color: var(--text-primary);
     margin: 0;
     padding: 1rem;
     line-height: 1.5;
@@ -22,11 +37,12 @@
   header h1 {
     margin: 0 0 0.25rem;
     font-size: 2rem;
-    color: #5a3a1f;
+    color: var(--text-primary);
+    font-weight: 500;
   }
   header p {
     margin: 0;
-    color: #777;
+    color: var(--text-tertiary);
     font-size: 0.9rem;
   }
   #suodatin {
@@ -35,12 +51,18 @@
     text-align: center;
   }
   #suodatin input {
-    padding: 0.5rem 0.75rem;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid var(--border-strong);
+    border-radius: 8px;
     width: 100%;
     max-width: 400px;
     font-size: 1rem;
+    background: var(--bg-input);
+    color: var(--text-primary);
+  }
+  #suodatin input:focus {
+    outline: none;
+    border-color: var(--accent);
   }
   .grid {
     display: grid;
@@ -50,87 +72,113 @@
     margin: 0 auto;
   }
   .ravintola {
-    background: white;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 1rem 1.1rem;
     display: flex;
     flex-direction: column;
   }
   .ravintola h2 {
-    margin: 0 0 0.5rem;
-    font-size: 1.15rem;
+    margin: 0 0 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 500;
   }
   .ravintola h2 a {
-    color: #5a3a1f;
+    color: var(--accent);
     text-decoration: none;
   }
   .ravintola h2 a:hover { text-decoration: underline; }
   .alue {
-    font-size: 0.8rem;
-    color: #999;
-    margin-bottom: 0.5rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 0.6rem;
   }
   .paiva {
     margin-top: 0.75rem;
     padding-top: 0.75rem;
-    border-top: 1px dashed #e0d8cc;
+    border-top: 1px dashed var(--divider);
   }
-  .paiva:first-of-type { border-top: none; padding-top: 0; }
+  .paiva:first-of-type {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
   .paiva-otsikko {
-    font-weight: 600;
-    color: #5a3a1f;
-    font-size: 0.9rem;
-    margin-bottom: 0.25rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    font-size: 0.88rem;
+    margin-bottom: 0.3rem;
   }
   .paiva-otsikko.tanaan {
-    background: #5a3a1f;
-    color: white;
-    padding: 0.15rem 0.5rem;
-    border-radius: 4px;
+    background: var(--accent-bg);
+    color: var(--accent-text);
+    padding: 3px 10px;
+    border-radius: 8px;
     display: inline-block;
   }
   ul.ruoat {
     margin: 0;
     padding-left: 1.2rem;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--text-primary);
   }
   ul.ruoat li {
     margin-bottom: 0.15rem;
   }
+  /* Tulevat (ei tämä päivä) ovat vähän haaleampia */
+  .paiva:not(:has(.tanaan)) ul.ruoat {
+    color: var(--text-secondary);
+  }
   .huom {
-    color: #888;
+    color: var(--text-secondary);
     font-style: italic;
     font-size: 0.9rem;
+    margin: 0;
   }
   .virhe {
     color: #b94a48;
     font-size: 0.85rem;
     font-style: italic;
+    margin: 0;
   }
   footer {
     text-align: center;
-    color: #999;
+    color: var(--text-tertiary);
     font-size: 0.8rem;
     margin: 2rem 0 1rem;
   }
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  footer a:hover { text-decoration: underline; }
   .piilotettu { display: none !important; }
 
+  /* Tumma tila — haaleampi versio samasta paletista */
   @media (prefers-color-scheme: dark) {
-    body { background: #1f1c19; color: #e8e3dc; }
-    header h1 { color: #d9b48a; }
-    .ravintola { background: #2c2823; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
-    .ravintola h2 a { color: #d9b48a; }
-    .paiva { border-top-color: #3d3833; }
-    .paiva-otsikko { color: #d9b48a; }
-    .paiva-otsikko.tanaan { background: #d9b48a; color: #1f1c19; }
-    #suodatin input { background: #2c2823; color: #e8e3dc; border-color: #3d3833; }
+    :root {
+      --bg: #1f1c19;
+      --bg-card: #2c2823;
+      --bg-input: #2c2823;
+      --border: #3d3833;
+      --border-strong: #4a4540;
+      --text-primary: #e8e3dc;
+      --text-secondary: #b8b0a4;
+      --text-tertiary: #8a857a;
+      --text-muted: #6f6a60;
+      --accent: #d9a487;
+      --accent-bg: #4a352a;
+      --accent-text: #f3d4bf;
+      --divider: #3d3833;
+    }
   }
 </style>
 </head>
 <body>
 <header>
-  <h1>🍽️ Hervannan lounaat</h1>
+  <h1>Lähilounaat Tampere</h1>
   <p id="paivitetty">Ladataan...</p>
 </header>
 
@@ -141,7 +189,7 @@
 <div class="grid" id="lista">Ladataan lounaslistoja...</div>
 
 <footer>
-  Tiedot kerätty automaattisesti ravintoloiden omilta sivuilta. 
+  Tiedot kerätty automaattisesti ravintoloiden omilta sivuilta.
   Lähteet: <a href="https://lounaat.info" target="_blank">lounaat.info</a> ja ravintoloiden omat sivut.
 </footer>
 
@@ -149,7 +197,6 @@
 const PAIVAT = ["maanantai", "tiistai", "keskiviikko", "torstai", "perjantai", "lauantai", "sunnuntai"];
 
 function tanaanIndeksi() {
-  // 0 = sunnuntai JS:ssä, mutta haluamme 0 = maanantai
   const js = new Date().getDay();
   return js === 0 ? 6 : js - 1;
 }
@@ -159,7 +206,6 @@ function onTanaan(paivaTeksti) {
   const idx = tanaanIndeksi();
   const teksti = paivaTeksti.toLowerCase();
   const paiva = PAIVAT[idx];
-  // "maanantai" matchaa "Maanantaina 27.4." ja "Maanantai 27.04."
   return teksti.includes(paiva) || teksti.includes(paiva.slice(0, -1));
 }
 
@@ -186,12 +232,10 @@ function rendoiRavintola(r) {
   if (r.huom && (!r.paivat || r.paivat.length === 0)) {
     sisalto = `<p class="huom">${escapoi(r.huom)}</p>`;
   } else if (r.virhe) {
-    sisalto = `<p class="virhe">⚠️ Listaa ei voitu hakea automaattisesti. Avaa ravintolan sivu linkistä.</p>`;
+    sisalto = `<p class="virhe">⚠️ Listaa ei voitu hakea — avaa ravintolan sivu linkistä.</p>`;
   } else if (!r.paivat || r.paivat.length === 0) {
     sisalto = `<p class="huom">Lounaslistaa ei löytynyt — avaa ravintolan sivu linkistä.</p>`;
   } else {
-    // Suodatetaan vain tämä viikko ja näytetään tämä päivä ensimmäisenä
-    const idx = tanaanIndeksi();
     const tanaan = r.paivat.filter(p => onTanaan(p.paiva));
     const muut = r.paivat.filter(p => !onTanaan(p.paiva));
     const jarjestetty = [...tanaan, ...muut];
@@ -211,7 +255,7 @@ function muotoileAika(iso) {
   if (!iso) return "";
   try {
     const d = new Date(iso);
-    return d.toLocaleString("fi-FI", { 
+    return d.toLocaleString("fi-FI", {
       day: "numeric", month: "numeric", year: "numeric",
       hour: "2-digit", minute: "2-digit"
     });
@@ -220,18 +264,16 @@ function muotoileAika(iso) {
 
 async function lataa() {
   try {
-    // Lisätään aikaleima jotta selain ei käytä vanhaa cache-versiota
     const r = await fetch("lounaat.json?t=" + Date.now());
     if (!r.ok) throw new Error("Ei löytynyt: " + r.status);
     const data = await r.json();
 
-    document.getElementById("paivitetty").textContent = 
+    document.getElementById("paivitetty").textContent =
       "Päivitetty: " + muotoileAika(data.paivitetty);
 
     const lista = document.getElementById("lista");
     lista.innerHTML = data.ravintolat.map(rendoiRavintola).join("");
 
-    // Hakukenttä
     document.getElementById("haku").addEventListener("input", e => {
       const q = e.target.value.toLowerCase().trim();
       document.querySelectorAll(".ravintola").forEach(el => {
@@ -243,8 +285,8 @@ async function lataa() {
       });
     });
   } catch (e) {
-    document.getElementById("lista").innerHTML = 
-      `<p style="text-align:center; color:#888;">Virhe ladattaessa: ${e.message}<br>
+    document.getElementById("lista").innerHTML =
+      `<p style="text-align:center; color:var(--text-tertiary);">Virhe ladattaessa: ${e.message}<br>
       Tämä on normaalia jos GitHub Actions ei ole vielä ajanut ensimmäistä kertaa.</p>`;
   }
 }
