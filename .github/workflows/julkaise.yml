@@ -1,0 +1,39 @@
+name: Julkaise GitHub Pages
+
+on:
+  # Julkaistaan kun pää-haaraan tulee muutoksia (mm. lounaat.json päivittyy)
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Estetään päällekkäiset julkaisut
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  julkaise:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hae repo
+        uses: actions/checkout@v4
+
+      - name: Aseta Pages
+        uses: actions/configure-pages@v5
+
+      - name: Pakkaa sivut
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Julkaise
+        id: deployment
+        uses: actions/deploy-pages@v4
