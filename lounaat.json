@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-04-28T16:16:12.793536+00:00",
+  "paivitetty": "2026-04-29T11:17:47.733068+00:00",
   "ravintolat": [
     {
       "nimi": "Sisu Buffet",
@@ -182,12 +182,12 @@
         {
           "paiva": "Keskiviikko 29.4.2026",
           "ruoat": [
-            "Punajuuri-halloumilasagnettea (A, ILM, VL)",
+            "Punajuuri-halloumilasagnettea (gluteeniton ja vegaaninen vaihtoehto falafelpihvit) (A, ILM, VL)",
             "Metsäsienikeittoa (A, G, ILM, L, M, Veg)",
-            "Jauhelihakebakoita (A, L, M)",
+            "Jauhelihakebakoita 3kpl/annos, extra 0,90€/kpl (A, L, M)",
             "BBQ -majoneesia (A, G, L, M, VS)",
             "Paahdettua perunaa (*, G, ILM, L, M, Veg)",
-            "Kylmäsavulohipastaa ja tilliä (*, A, ILM, L, VS)"
+            "Kylmäsavulohipastaa ja tilliä (gluteeniton pastavuoka saatavilla) (*, A, ILM, L, VS)"
           ]
         },
         {
@@ -237,10 +237,10 @@
           "paiva": "Keskiviikko 29.04.",
           "ruoat": [
             "Mannapuuro & hillo L klo 7.45-9.30 á 2,30 €",
-            "Rapeaa pangasius filettä & Big mac majoneesia ruohosipulilla M, G",
-            "Lihapullat Västerbotten kastikkeella L, G",
-            "Keitto: Tuoreherne- kukkakaalikeitto & paahdetut kikherneet M, G, VEG",
-            "Chef´s menu: Bearnaise broileria, paahdettua varsiparsakaalia  cajun maustettua perunaa G",
+            "Rapeaa pangasius filettä & Big mac majoneesia ruohosipulilla M, G (kananmuna, sinappi)",
+            "Lihapullat Västerbotten kastikkeella L, G (sinappi, selleri, maito)",
+            "Keitto: Tuorehernesosekeitto M, G, VEG",
+            "Chef´s menu: Bearnaise broileria, höyrytettyä varsiparsakaalia & cajun maustettua perunaa M, G (kananmuna)",
             "Vegaaniruoka: Kesäkurpitsa-kikherne curry M, G, VEG"
           ]
         },
@@ -294,6 +294,7 @@
           "paiva": "Keskiviikko 29.04.",
           "ruoat": [
             "Karamellipossua ja aiolia M,G",
+            "– paahdettua perunaa ja punajuurta VEG,G",
             "Juustoinen cheddar-fetapizza basilikaöljyllä L",
             "Rosmariini-metsäsienikeitto L,G"
           ]
@@ -301,7 +302,7 @@
         {
           "paiva": "Torstai 30.04.",
           "ruoat": [
-            "Toiveruoka: Paahdettua chorizomakkaraa ja lihapullia M,G",
+            "Toiveruoka: Paahdettua chorizomakkaraa ja lihapullia L,G",
             "– pekoni-kevätsipulimajoneesi M,G ja lämmin perunasalaatti L,G",
             "Currykana-ananasmunakasrulla L",
             "Omenainen parsakeitto M,G",
@@ -342,10 +343,10 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Gratinoitua pekoni-vuohenjuustolasagnea ja raikasta salaattia pinjansiemenillä",
-            "Appelsiini glaseerattua kanaa, timjamikastiketta, perunaa ja lämpimiä vihanneksia",
-            "Quorn fileetä, lime-soijajogurttia, kikherne- couscousia ja kasviksia",
-            "Jättirapu Bowly"
+            "Pekoni-vuohenjuustolasagnettea",
+            "Appelsiini glaseerattua kanaa, timjamikastiketta, lohkoperunoita ja lämpimiä kasviksia",
+            "Quorn fileetä, lime-soijajogurttia, kikherne- couscousia ja lämpimiä kasviksia",
+            "Rapu Bowly"
           ]
         },
         {
@@ -354,7 +355,7 @@
             "Kokonaisena paistettua possun sisäfileetä, marokkolaista bulguria ja harissakastiketta",
             "Savulohipastaa ja rucola-hernesalaattia",
             "Salaatti paahdetuista punajuurista ja vuohenjuustosta",
-            "Soijapyöryköitä kookos- mangokastikkeessa, basmatiriisiä ja wokattuja kasviksia"
+            "Jälkiruokana Simaa ja minimunkkeja"
           ]
         },
         {
@@ -556,12 +557,11 @@
           "ruoat": [
             "Puuro/porridge 8.00-9.30",
             "Tuorehernesosekeitto L,G",
-            "Kreikkalainen lihamureke L",
+            "Kreikkalainen lihamureke L,G",
             "Broilerin koipinuija bbq M,G",
             "Paahdetut yrttiperunat M,G,V",
             "Paahdetut kauden kasvikset M,G,V",
-            "Punajuuripyörykkä M,G,V",
-            "Hummusdippi L,G"
+            "Punajuuripyörykkä M,G,V"
           ]
         },
         {
