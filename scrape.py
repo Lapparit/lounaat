@@ -1,11 +1,11 @@
 """
-Tampereen Hervannan lounaslistojen kerääjä.
+Tampereen lähilounaslistojen kerääjä.
 
 Käy läpi listan ravintoloita, hakee niiden lounaslistat ja tallentaa
 tulokset tiedostoon lounaat.json.
 
-Jokaisella hankalalla ravintolalla on oma scraper-funktio joka tuntee
-sen sivun rakenteen tarkasti.
+Päivien nimet normalisoidaan muotoon "Maanantai", "Tiistai", jne.
+ennen tallennusta — sivun JavaScript hoitaa loput.
 
 Käyttö: python scrape.py
 """
@@ -31,12 +31,15 @@ HEADERS = {
 }
 
 
-PAIVA_JARJESTYS = {
-    "maanantai": 0, "tiistai": 1, "keskiviikko": 2, "torstai": 3,
-    "perjantai": 4, "lauantai": 5, "sunnuntai": 6,
+PAIVA_NIMET = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai",
+               "Perjantai", "Lauantai", "Sunnuntai"]
+
+PAIVA_INDEKSI = {nimi.lower(): i for i, nimi in enumerate(PAIVA_NIMET)}
+# Lisätään myös englanninkielisille
+PAIVA_INDEKSI.update({
     "monday": 0, "tuesday": 1, "wednesday": 2, "thursday": 3,
     "friday": 4, "saturday": 5, "sunday": 6,
-}
+})
 
 
 def hae_sivu(url: str) -> str | None:
@@ -51,15 +54,75 @@ def hae_sivu(url: str) -> str | None:
         return None
 
 
-def jarjesta_paivat(paivat: list[dict]) -> list[dict]:
-    """Järjestää päivät ma-pe-järjestykseen."""
-    def avain(p):
-        teksti = (p.get("paiva") or "").lower()
-        for nimi, idx in PAIVA_JARJESTYS.items():
-            if nimi in teksti or nimi.rstrip("i") in teksti:
-                return idx
-        return 99
-    return sorted(paivat, key=avain)
+def normalisoi_paiva(teksti: str) -> str:
+    """
+    Muuntaa minkä tahansa päivätekstin pelkkään viikonpäivän nimeen.
+
+    "Maanantaina 27.4." → "Maanantai"
+    "TIISTAI"           → "Tiistai"
+    "ke 29.4."          → "Keskiviikko"
+    "2026-04-28"        → "Tiistai" (päivämäärästä)
+
+    Jos viikonpäivää ei löydy, palautetaan alkuperäinen siivottuna.
+    """
+    if not teksti:
+        return ""
+
+    # 1. Yritä ensin tunnistaa viikonpäivä tekstistä
+    teksti_lower = teksti.lower()
+
+    # Pisin sopiva nimi ensin (jotta "torstaina" ei matchaa "ti")
+    nimet_pituuden_mukaan = sorted(
+        list(PAIVA_INDEKSI.keys()),
+        key=len,
+        reverse=True,
+    )
+    for nimi in nimet_pituuden_mukaan:
+        if nimi in teksti_lower:
+            return PAIVA_NIMET[PAIVA_INDEKSI[nimi]]
+
+    # 2. Lyhenteet (ma, ti, ke, to, pe) — vain jos koko sana
+    lyhenteet = {"ma": 0, "ti": 1, "ke": 2, "to": 3, "pe": 4, "la": 5, "su": 6}
+    sanat = re.split(r"[\s,.\-]+", teksti_lower)
+    for sana in sanat:
+        if sana in lyhenteet:
+            return PAIVA_NIMET[lyhenteet[sana]]
+
+    # 3. Päivämäärä-muoto (esim. "2026-04-28" tai "27.4.2026")
+    # ISO 8601: yyyy-mm-dd
+    iso_match = re.search(r"(\d{4})-(\d{1,2})-(\d{1,2})", teksti)
+    if iso_match:
+        try:
+            d = datetime(int(iso_match[1]), int(iso_match[2]), int(iso_match[3]))
+            return PAIVA_NIMET[d.weekday()]
+        except (ValueError, OverflowError):
+            pass
+
+    # Suomalainen: dd.mm.yyyy
+    fi_match = re.search(r"(\d{1,2})\.(\d{1,2})\.(\d{4})", teksti)
+    if fi_match:
+        try:
+            d = datetime(int(fi_match[3]), int(fi_match[2]), int(fi_match[1]))
+            return PAIVA_NIMET[d.weekday()]
+        except (ValueError, OverflowError):
+            pass
+
+    # Ei löytynyt — palautetaan alkuperäinen
+    return teksti.strip()
+
+
+def normalisoi_paivat(paivat: list[dict]) -> list[dict]:
+    """Normalisoi listan päivien nimet ja järjestä ma-pe."""
+    tulos = []
+    nahdyt = set()
+    for p in paivat:
+        nimi = normalisoi_paiva(p.get("paiva", ""))
+        if nimi and nimi in PAIVA_NIMET and nimi not in nahdyt:
+            nahdyt.add(nimi)
+            tulos.append({"paiva": nimi, "ruoat": p.get("ruoat", [])})
+    # Järjestä ma-pe
+    tulos.sort(key=lambda p: PAIVA_NIMET.index(p["paiva"]))
+    return tulos
 
 
 def siivoa(teksti: str) -> str:
@@ -73,7 +136,6 @@ def siivoa(teksti: str) -> str:
 
 
 def scrape_sisu_buffet() -> list[dict]:
-    """Sisu Buffet — Lounaat.infosta. Vain lounas-otsikot, ei arvosteluja."""
     url = "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere"
     return _scrape_lounaat_info_yleinen(url)
 
@@ -107,7 +169,7 @@ def scrape_speakeasy() -> list[dict]:
             if ruoat:
                 paivat.append({"paiva": nykyinen, "ruoat": ruoat[:6]})
             nykyinen = None
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
 def scrape_kontukeittio() -> list[dict]:
@@ -146,7 +208,7 @@ def _scrape_lounaat_info_yleinen(url: str) -> list[dict]:
                 ruoat.append(t)
         if ruoat:
             paivat.append({"paiva": otsikko, "ruoat": ruoat})
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
 def scrape_reaktori() -> list[dict]:
@@ -179,14 +241,11 @@ def scrape_reaktori() -> list[dict]:
                                 ruoat.append(t)
         if ruoat:
             paivat.append({"paiva": teksti, "ruoat": ruoat[:8]})
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
 def scrape_linkosuo(url: str) -> list[dict]:
-    """
-    Linkosuo (Hertta, Orvokki) — dl/dt/dd-rakenne.
-    HUOM: Fastellelle on oma funktio koska siellä on suomi+englanti.
-    """
+    """Linkosuo (Hertta, Orvokki) — dl/dt/dd-rakenne."""
     html = hae_sivu(url)
     if not html:
         return []
@@ -202,14 +261,13 @@ def scrape_linkosuo(url: str) -> list[dict]:
             ruoat = [r.strip() for r in teksti.split("\n") if r.strip()]
             if paiva and ruoat:
                 paivat.append({"paiva": paiva, "ruoat": ruoat})
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
 def scrape_fastelle() -> list[dict]:
     """
     Fastelle — sama dl/dt/dd-rakenne kuin muilla Linkosuoilla, MUTTA
     sisältää sekä suomi- että englanti-listan, eroteltuna '**'-merkillä.
-    Otetaan vain suomenkielinen osa (ennen '**').
     """
     url = "https://linkosuo.fi/toimipaikka/ravintola-fastelle/"
     html = hae_sivu(url)
@@ -225,16 +283,15 @@ def scrape_fastelle() -> list[dict]:
             paiva = dt.get_text(" ", strip=True)
             teksti = dd.get_text("\n", strip=True)
 
-            # Katkaistaan englannin osuus pois — se alkaa '**':lla
+            # Katkaistaan englannin osuus pois
             if "**" in teksti:
                 teksti = teksti.split("**")[0]
 
             ruoat = [r.strip() for r in teksti.split("\n") if r.strip()]
-            # Suodatetaan tähdet jos jäänyt yksittäisiä
             ruoat = [r for r in ruoat if r and r != "*" and r != "**"]
             if paiva and ruoat:
                 paivat.append({"paiva": paiva, "ruoat": ruoat})
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
 def scrape_sodexo(rajapinta_id: int) -> list[dict]:
@@ -261,19 +318,23 @@ def scrape_sodexo(rajapinta_id: int) -> list[dict]:
     return paivat
 
 
-def scrape_hermianfarmi() -> list[dict]:
+def scrape_hermian_farmi() -> list[dict]:
     """
-    Antell Hermianfarmi — sivulla on jokaiselle päivälle paneeli #panel-Monday jne.
-    Sisällä kategoriat (Pääruoaksi, Grilliannos, Delilounas, Pizzalounas).
-    Jokaisen kategorian alla <ul> jossa <li>-elementit.
+    Antell Hermian Farmi.
 
-    Jokainen ruoka-li sisältää:
-    - ruoan nimen suoraan tekstinä li:n alussa (ennen "Allergeenit" tms.)
-    - alielementtejä (allergiatiedot, "Miltä maistui?" -linkki)
+    Sivulla on jokaiselle päivälle paneeli #panel-Monday, #panel-Tuesday jne.
+    Jokaisessa h5-otsikoita kategorioille (Pääruoaksi, Grilliannos, Delilounas...)
+    Jokaisessa kategoria-h5:n alla <ul> jossa <li>-elementit jokaisesta ruoasta.
 
-    Aiempi versio nappasi "Miltä maistui?" -tekstin koska li:n .get_text() palautti
-    koko sisällön. Korjaus: otetaan vain li:n SUORAAN sisältönä oleva teksti
-    (NavigableString-tyyppiset lapset, eivät elementtien sisällä olevat).
+    Yksittäisessä li:ssä rakenne on:
+      <li>
+        <p class="course-title">Possunpihvit pippurikastikkeella</p>
+        <p class="allergens">Allergeenit: A, G, L</p>
+        <a>Miltä maistui?</a>
+      </li>
+
+    Ratkaisu: etsitään ruoan nimi luokasta course-title TAI suoraan li:n
+    ensimmäisestä non-empty tekstilapsesta.
     """
     url = "https://antell.fi/lounas/tampere/hermianfarmi/"
     html = hae_sivu(url)
@@ -286,10 +347,10 @@ def scrape_hermianfarmi() -> list[dict]:
         "Thursday": "Torstai", "Friday": "Perjantai",
     }
 
-    # Hyväksyttävät kategoriat — otetaan kaikki pääruoat, grilli, deli, pizza
-    hyvaksytyt_kategoriat = ("pääruoa", "grilli", "deli", "pizza")
-    # Suodatetaan pois lisäkkeet ja jälkkärit
-    hylataan_kategoriat = ("kaveri", "jälkiruo", "salaatti")
+    # Hyväksyttävät kategoriat — pääruoat ja yleisemmät linjat
+    hyvaksytyt = ("pääruo", "grill", "deli", "pizza", "kasvis", "keitto")
+    # Skipataan jälkkärit ja kaverit-linjat
+    hylataan = ("jälkiruo", "kaveri")
 
     paivat = []
     for eng, fi in paivat_kaannos.items():
@@ -299,63 +360,80 @@ def scrape_hermianfarmi() -> list[dict]:
         ruoat = []
         for h5 in panel.find_all("h5"):
             ryhma = siivoa(h5.get_text()).lower()
-            if not any(k in ryhma for k in hyvaksytyt_kategoriat):
+            if not any(k in ryhma for k in hyvaksytyt):
                 continue
-            if any(k in ryhma for k in hylataan_kategoriat):
+            if any(k in ryhma for k in hylataan):
                 continue
-            # Etsitään seuraava ul, joka kuuluu tähän kategoriaan
             ul = h5.find_next("ul")
             if not ul:
                 continue
             for li in ul.find_all("li", recursive=False):
-                # Otetaan li:n SUORAAN sisältönä oleva teksti (ei alielementtien)
-                # Tämä on ruoan nimi ennen "Allergeenit"-osiota
-                suorat_tekstit = []
-                for child in li.children:
-                    # NavigableString = puhdas tekstinpätkä, ei elementti
-                    if isinstance(child, str):
-                        teksti = child.strip()
-                        if teksti:
-                            suorat_tekstit.append(teksti)
-                    # Pysähdy ennen <p> tai <div> jossa "Allergeenit"
-                    elif hasattr(child, "name") and child.name in ("p", "div"):
-                        if "allergeenit" in child.get_text("").lower():
-                            break
-                        # Jos ei allergeenit, mutta on muu p, voi sisältää nimen
-                        teksti = child.get_text(" ", strip=True)
-                        if teksti and "allergeenit" not in teksti.lower() and "miltä maistui" not in teksti.lower():
-                            suorat_tekstit.append(teksti)
+                ruoan_nimi = ""
 
-                nimi = siivoa(" ".join(suorat_tekstit))
-                # Suodatetaan pois tyhjät ja "Miltä maistui?"
-                if not nimi or len(nimi) < 4:
+                # Yritys 1: löytyykö course-title -luokka?
+                title_el = li.find(class_=re.compile("title|course"))
+                if title_el:
+                    ehdokas = siivoa(title_el.get_text(" "))
+                    if ehdokas and "miltä maistui" not in ehdokas.lower():
+                        ruoan_nimi = ehdokas
+
+                # Yritys 2: ensimmäinen <p>-elementti joka ei ole allergeenit
+                if not ruoan_nimi:
+                    for p in li.find_all("p", recursive=True):
+                        t = siivoa(p.get_text(" "))
+                        if not t:
+                            continue
+                        t_lower = t.lower()
+                        if "allergeenit" in t_lower or "miltä maistui" in t_lower:
+                            continue
+                        ruoan_nimi = t
+                        break
+
+                # Yritys 3: li:n suora teksti (kaikki paitsi a-tagi)
+                if not ruoan_nimi:
+                    li_kopio = BeautifulSoup(str(li), "html.parser")
+                    for a in li_kopio.find_all("a"):
+                        a.decompose()
+                    teksti = siivoa(li_kopio.get_text(" "))
+                    # Poista "Allergeenit: ..." -osa
+                    teksti = re.sub(
+                        r"\s*Allergeenit\s*:.*$", "", teksti, flags=re.I,
+                    ).strip()
+                    if teksti and "miltä maistui" not in teksti.lower():
+                        ruoan_nimi = teksti
+
+                if not ruoan_nimi or len(ruoan_nimi) < 4:
                     continue
-                if "miltä maistui" in nimi.lower():
-                    continue
-                # Joskus rivin lopussa on allergeenikoodit kuten "A, G, L"
-                # Poistetaan ne
-                nimi = re.sub(r",?\s*[A-Z](,\s*[A-Z]+)+\s*$", "", nimi).strip()
-                if nimi and len(nimi) > 3:
-                    ruoat.append(nimi)
-        # Poistetaan duplikaatit säilyttäen järjestys
+
+                # Poista mahdolliset jäljelle jääneet allergeenikoodit lopusta
+                ruoan_nimi = re.sub(
+                    r"\s*[A-Z](\s*,\s*[A-Z]+)+\s*$", "", ruoan_nimi,
+                ).strip()
+
+                if ruoan_nimi and len(ruoan_nimi) > 3:
+                    ruoat.append(ruoan_nimi)
+
+        # Poista duplikaatit järjestyksen säilyen
         nahdyt = set()
         ruoat_uniq = []
         for r in ruoat:
             if r not in nahdyt:
                 nahdyt.add(r)
                 ruoat_uniq.append(r)
+
         if ruoat_uniq:
             paivat.append({"paiva": fi, "ruoat": ruoat_uniq[:10]})
+
     return paivat
 
 
 def scrape_munkkimiehet() -> list[dict]:
-    """Munkkimiehet — lista on kuvana, ei voida automaattisesti lukea."""
+    """Munkkimiehet — lista on kuvana, ei voida lukea automaattisesti."""
     return []
 
 
-def scrape_ruskonhelmi() -> list[dict]:
-    """Ruskonhelmi — <strong>-tagilla merkityt päivät."""
+def scrape_ruskon_helmi() -> list[dict]:
+    """Ruskon Helmi — <strong>-tagilla merkityt päivät."""
     url = "https://ruskonhelmi.fi/lounaslista/"
     html = hae_sivu(url)
     if not html:
@@ -395,7 +473,7 @@ def scrape_ruskonhelmi() -> list[dict]:
     if nykyinen_paiva and nykyiset_ruoat:
         paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat[:6]})
 
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
 def scrape_osku() -> list[dict]:
@@ -434,12 +512,6 @@ def scrape_osku() -> list[dict]:
         if paiva_re.match(teksti):
             if nykyinen_paiva and nykyiset_ruoat:
                 paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat})
-            kaannos = {"Ma": "Maanantai", "Ti": "Tiistai", "Ke": "Keskiviikko",
-                       "To": "Torstai", "Pe": "Perjantai"}
-            for lyhyt, pitka in kaannos.items():
-                if teksti.startswith(lyhyt):
-                    teksti = teksti.replace(lyhyt, pitka, 1)
-                    break
             nykyinen_paiva = teksti
             nykyiset_ruoat = []
         elif nykyinen_paiva and len(teksti) > 5:
@@ -452,17 +524,15 @@ def scrape_osku() -> list[dict]:
     if nykyinen_paiva and nykyiset_ruoat:
         paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat})
 
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
-def scrape_aitokoti() -> list[dict]:
+def scrape_aito_kotilounas() -> list[dict]:
     """
-    Lounas Lempäälä (Sääksjärven lounaskahvila) - 'Aitokoti' on yrityksen
-    domain, mutta ravintolan virallinen nimi on 'Lounas Lempäälä'.
+    Aito kotilounas Sääksjärvi.
 
-    Yritetään hakea oikea lounaslista. Sivu voi olla 403-suojattu osalle
-    palvelimista (esim. tämän tutkimuksen ympäristö), mutta toimii
-    GitHub Actionsista. Yleisparseri tunnistaa viikonpäivät tekstistä.
+    Sivulla on viikonpäivien jälkeen ruokalistat. Käytetään yleistä parseria
+    joka tunnistaa viikonpäivät tekstistä.
     """
     url = "https://www.aitokotilounas.fi/lounaslista/"
     html = hae_sivu(url)
@@ -499,7 +569,7 @@ def scrape_aitokoti() -> list[dict]:
     if nykyinen_paiva and nykyiset_ruoat:
         paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat[:6]})
 
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
 def scrape_caffitella() -> list[dict]:
@@ -548,25 +618,26 @@ def scrape_caffitella() -> list[dict]:
     if nykyinen_paiva and nykyiset_ruoat:
         paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat[:6]})
 
-    return jarjesta_paivat(paivat)
+    return paivat
 
 
 # ============================================================
-# RAVINTOLAT
+# RAVINTOLAT — alueet käyttäjän päättämällä tavalla
 # ============================================================
 
 RAVINTOLAT = [
-    {
-        "nimi": "Sisu Buffet",
-        "alue": "Hervanta",
-        "url": "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere",
-        "scraper": lambda: scrape_sisu_buffet(),
-    },
+    # ----- HERVANTA -----
     {
         "nimi": "Speakeasy",
         "alue": "Hervanta",
         "url": "https://www.speakeasy.fi/hervanta/lounas/",
         "scraper": lambda: scrape_speakeasy(),
+    },
+    {
+        "nimi": "Sisu Buffet",
+        "alue": "Hervanta",
+        "url": "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere",
+        "scraper": lambda: scrape_sisu_buffet(),
     },
     {
         "nimi": "Kontukeittiö",
@@ -581,79 +652,10 @@ RAVINTOLAT = [
         "scraper": lambda: scrape_reaktori(),
     },
     {
-        "nimi": "Hertta",
-        "alue": "Hervanta",
-        "url": "https://linkosuo.fi/toimipaikka/hertta/",
-        "scraper": lambda: scrape_linkosuo("https://linkosuo.fi/toimipaikka/hertta/"),
-    },
-    {
-        "nimi": "Orvokki",
-        "alue": "Hervanta",
-        "url": "https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/",
-        "scraper": lambda: scrape_linkosuo("https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/"),
-    },
-    {
-        "nimi": "Hermia 5",
-        "alue": "Hervanta",
-        "url": "https://www.sodexo.fi/ravintolat/ravintola-hermia-5",
-        "scraper": lambda: scrape_sodexo(107),
-    },
-    {
-        "nimi": "Hermia 6",
-        "alue": "Hervanta",
-        "url": "https://www.sodexo.fi/ravintolat/tampere/hermia-6",
-        "scraper": lambda: scrape_sodexo(108),
-    },
-    {
-        "nimi": "Hermian Farmi",
-        "alue": "Hervanta",
-        "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
-        "scraper": lambda: scrape_hermianfarmi(),
-    },
-    {
-        "nimi": "Munkkimiehet",
-        "alue": "Hervanta",
-        "url": "https://munkkimiehet.fi/kuluttajille/",
-        "scraper": lambda: scrape_munkkimiehet(),
-        "huom": "Lounaslista on kuvana — avaa ravintolan sivulta",
-    },
-    {
-        "nimi": "Ruskonhelmi",
-        "alue": "Hervanta",
-        "url": "https://ruskonhelmi.fi/lounaslista/",
-        "scraper": lambda: scrape_ruskonhelmi(),
-    },
-    {
-        "nimi": "Ravintola Osku",
-        "alue": "Rusko",
-        "url": "https://ravintolaosku.fi/",
-        "scraper": lambda: scrape_osku(),
-    },
-    {
-        "nimi": "Aito kotilounas Sääksjärvi",
-        "alue": "Lempäälä",
-        "url": "https://www.aitokotilounas.fi/lounaslista/",
-        "scraper": lambda: scrape_aitokoti(),
-    },
-    {
-        "nimi": "Fastelle",
-        "alue": "Lahdesjärvi",
-        "url": "https://linkosuo.fi/toimipaikka/ravintola-fastelle/",
-        "scraper": lambda: scrape_fastelle(),
-    },
-    {
         "nimi": "Caffitella",
         "alue": "Hervanta",
         "url": "https://www.caffitella.fi/lounaslista/",
         "scraper": lambda: scrape_caffitella(),
-    },
-    # Vain linkit (ei lounaslistaa nettisivulla)
-    {
-        "nimi": "Ravintola Idaho",
-        "alue": "Hervanta",
-        "url": "https://www.facebook.com/people/Ravintola-Idaho-Oy/100070629319742/",
-        "scraper": None,
-        "huom": "Lounaslista löytyy Facebookista",
     },
     {
         "nimi": "Malabadi",
@@ -670,18 +672,94 @@ RAVINTOLAT = [
         "huom": "Ei lounaslistaa nettisivulla",
     },
     {
-        "nimi": "Malakai",
-        "alue": "Hervanta",
-        "url": "https://malakairavintola.fi/",
-        "scraper": None,
-        "huom": "Ei lounaslistaa nettisivulla",
-    },
-    {
         "nimi": "Heval",
         "alue": "Hervanta",
         "url": "https://heval.fi/lounas/",
         "scraper": None,
         "huom": "Avaa lounaslista ravintolan sivulta",
+    },
+
+    # ----- HERMIA -----
+    {
+        "nimi": "Hermia 5",
+        "alue": "Hermia",
+        "url": "https://www.sodexo.fi/ravintolat/ravintola-hermia-5",
+        "scraper": lambda: scrape_sodexo(107),
+    },
+    {
+        "nimi": "Hermia 6",
+        "alue": "Hermia",
+        "url": "https://www.sodexo.fi/ravintolat/tampere/hermia-6",
+        "scraper": lambda: scrape_sodexo(108),
+    },
+    {
+        "nimi": "Hermian Farmi",
+        "alue": "Hermia",
+        "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
+        "scraper": lambda: scrape_hermian_farmi(),
+    },
+    {
+        "nimi": "Orvokki",
+        "alue": "Hermia",
+        "url": "https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/",
+        "scraper": lambda: scrape_linkosuo("https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/"),
+    },
+    {
+        "nimi": "Hertta",
+        "alue": "Hermia",
+        "url": "https://linkosuo.fi/toimipaikka/hertta/",
+        "scraper": lambda: scrape_linkosuo("https://linkosuo.fi/toimipaikka/hertta/"),
+    },
+
+    # ----- RUSKO -----
+    {
+        "nimi": "Munkkimiehet",
+        "alue": "Rusko",
+        "url": "https://munkkimiehet.fi/kuluttajille/",
+        "scraper": lambda: scrape_munkkimiehet(),
+        "huom": "Lounaslista on kuvana — avaa ravintolan sivulta",
+    },
+    {
+        "nimi": "Ruskon Helmi",
+        "alue": "Rusko",
+        "url": "https://ruskonhelmi.fi/lounaslista/",
+        "scraper": lambda: scrape_ruskon_helmi(),
+    },
+    {
+        "nimi": "Ravintola Osku",
+        "alue": "Rusko",
+        "url": "https://ravintolaosku.fi/",
+        "scraper": lambda: scrape_osku(),
+    },
+
+    # ----- LAHDESJÄRVI -----
+    {
+        "nimi": "Fastelle",
+        "alue": "Lahdesjärvi",
+        "url": "https://linkosuo.fi/toimipaikka/ravintola-fastelle/",
+        "scraper": lambda: scrape_fastelle(),
+    },
+
+    # ----- SÄÄKSJÄRVI -----
+    {
+        "nimi": "Aito kotilounas Sääksjärvi",
+        "alue": "Sääksjärvi",
+        "url": "https://www.aitokotilounas.fi/lounaslista/",
+        "scraper": lambda: scrape_aito_kotilounas(),
+    },
+    {
+        "nimi": "Ravintola Idaho",
+        "alue": "Sääksjärvi",
+        "url": "https://www.facebook.com/people/Ravintola-Idaho-Oy/100070629319742/",
+        "scraper": None,
+        "huom": "Lounaslista löytyy Facebookista",
+    },
+    {
+        "nimi": "Malakai",
+        "alue": "Sääksjärvi",
+        "url": "https://malakairavintola.fi/",
+        "scraper": None,
+        "huom": "Ei lounaslistaa nettisivulla",
     },
 ]
 
@@ -699,7 +777,9 @@ def main():
         }
         if ravintola["scraper"] is not None:
             try:
-                rivi["paivat"] = ravintola["scraper"]()
+                raakapaivat = ravintola["scraper"]()
+                # Normalisoi päivien nimet ja järjestä ma-pe
+                rivi["paivat"] = normalisoi_paivat(raakapaivat)
                 print(f"  -> {len(rivi['paivat'])} päivää löytyi")
             except Exception as e:
                 print(f"  ! Virhe: {e}")
