@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-04T07:58:17.554099+00:00",
+  "paivitetty": "2026-05-04T11:26:31.510723+00:00",
   "ravintolat": [
     {
       "nimi": "Speakeasy",
@@ -519,7 +519,7 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Kaurapuuro & hillo M klo 7.45-9.30 á 2,30 €",
-            "Marry me broileria & aioli perunoita L, G (kananmuna, sinappi, maito)",
+            "Marry me broileria L, G (maito) SAA M, G",
             "Pepperoni-paprika tortillavuoka L (maito, vehnä)",
             "Keitto: Basilikainen kasvis-papukeitto pastalla M, VEG",
             "Chef´s menu: Tuplajuustoburgeri naudan jauhelihasta valkosipulimajoneesilla & ranskanperunat L (maito, vehnä)"
@@ -687,7 +687,7 @@
             "Kaurakermainen maissichowder-keitto L,G",
             "Jalapeno-cheddar broileria L,G",
             "Sitruuna-smetana uunikalaa L,G",
-            "Paahdettuja perunoita M,G,V",
+            "Kurkumariisiä M,G,V",
             "Paahdetut kauden kasvikset",
             "Papu‑pinaattiohrattoa sitruunalla M,G,V"
           ]
@@ -700,7 +700,7 @@
             "Argentiinalaisittain paahdettua chimichurrikanaa M,G",
             "Jauhelihapihviä kermaisessa pippurikastikkeessa L,G",
             "Paahdetut kauden kasvikset M,G,V",
-            "Paahdetut lohkoperunat M,G,V",
+            "Peruna-juuressose L,G",
             "Curry-kukkakaalipyörykät"
           ]
         },
@@ -712,7 +712,7 @@
             "Lamminpään lumous -possua mausteisessa kastikkeessa L,G",
             "Lohi-pinaattilasagnea L",
             "Paahdetut kauden kasvikset M,G,V",
-            "Peruna-juuressose L,G",
+            "Paahdettuja perunoita M,G,V",
             "Chili con Härkis M,G,V"
           ]
         },
@@ -726,7 +726,7 @@
             "Yrttijogurttia L,G",
             "Paahdetut kauden kasvikset M,G,V",
             "Uunipaahdettuja paprikaperunoita M,G,V",
-            "Marry Me Vegan M,G,V",
+            "Marry Me Vegan Tofulla M,G,V",
             "Jälkiruoaksi: Pannukakkua, kermavaahtoa ja hilloa"
           ]
         },
