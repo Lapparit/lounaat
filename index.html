@@ -6,21 +6,47 @@
 <title>Lähilounaat Tampere</title>
 <style>
   * { box-sizing: border-box; }
+
+  /* VAALEA TEEMA — kerma + sammalvihreä */
   :root {
-    --bg: #faf6ef;
-    --bg-card: #ffffff;
-    --bg-input: #ffffff;
-    --border: #e8e0d0;
-    --border-strong: #ddd0b9;
+    --bg:           #faf6ef;
+    --bg-card:      #ffffff;
+    --bg-input:     #ffffff;
+    --border:       #e8e0d0;
+    --border-strong:#ddd0b9;
+    --divider:      #ede5d5;
     --text-primary: #2d2a24;
-    --text-secondary: #5a5448;
-    --text-tertiary: #8a857a;
-    --text-muted: #a59f91;
-    --accent: #a8553d;
-    --accent-bg: #f3e3d4;
-    --accent-text: #8c4528;
-    --divider: #ede5d5;
+    --text-secondary:#5a5448;
+    --text-tertiary:#8a857a;
+    --text-muted:   #a59f91;
+    --accent:       #4a6b58;
+    --accent-bg:    #e3eee5;
+    --accent-text:  #2d4936;
+    --section-rule: #d8cfbe;
+    --section-text: #6e6552;
   }
+
+  /* TUMMA TEEMA — neutraali harmaa + sammalvihreä */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:           #1a1a1c;
+      --bg-card:      #24252a;
+      --bg-input:     #2a2b30;
+      --border:       #33343a;
+      --border-strong:#3d3e44;
+      --divider:      #2e2f35;
+      --text-primary: #e6e3dd;
+      --text-secondary:#b8b0a4;
+      --text-tertiary:#a09b94;
+      --text-muted:   #7d7a73;
+      --accent:       #9bb5a4;
+      --accent-bg:    #2a3530;
+      --accent-text:  #b8d4c0;
+      --section-rule: #2e2f35;
+      --section-text: #d4cbbe;
+    }
+  }
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: var(--bg);
@@ -29,6 +55,7 @@
     padding: 1rem;
     line-height: 1.5;
   }
+
   header {
     max-width: 1200px;
     margin: 0 auto 1.5rem;
@@ -37,14 +64,15 @@
   header h1 {
     margin: 0 0 0.25rem;
     font-size: 2rem;
-    color: var(--text-primary);
     font-weight: 500;
+    color: var(--text-primary);
   }
   header p {
     margin: 0;
     color: var(--text-tertiary);
     font-size: 0.9rem;
   }
+
   #suodatin {
     max-width: 1200px;
     margin: 0 auto 1rem;
@@ -64,13 +92,27 @@
     outline: none;
     border-color: var(--accent);
   }
+
+  main { max-width: 1200px; margin: 0 auto; }
+
+  .ryhma-otsikko {
+    margin: 1.5rem 0 0.7rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--section-text);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--section-rule);
+  }
+  .ryhma-otsikko:first-child { margin-top: 0.5rem; }
+
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
   }
+
   .ravintola {
     background: var(--bg-card);
     border-radius: 12px;
@@ -80,7 +122,7 @@
     flex-direction: column;
   }
   .ravintola h2 {
-    margin: 0 0 0.4rem;
+    margin: 0 0 0.3rem;
     font-size: 1.1rem;
     font-weight: 500;
   }
@@ -94,29 +136,23 @@
     color: var(--text-muted);
     margin-bottom: 0.6rem;
   }
-  .paiva {
-    margin-top: 0.75rem;
-    padding-top: 0.75rem;
-    border-top: 1px dashed var(--divider);
-  }
-  .paiva:first-of-type {
-    border-top: none;
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .paiva-otsikko {
-    font-weight: 500;
-    color: var(--text-secondary);
-    font-size: 0.88rem;
-    margin-bottom: 0.3rem;
-  }
-  .paiva-otsikko.tanaan {
+
+  .paiva-merkki {
+    display: inline-block;
     background: var(--accent-bg);
     color: var(--accent-text);
+    font-size: 0.78rem;
+    font-weight: 500;
     padding: 3px 10px;
     border-radius: 8px;
-    display: inline-block;
+    margin-bottom: 0.5rem;
   }
+  .paiva-merkki.ei-tanaan {
+    background: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-strong);
+  }
+
   ul.ruoat {
     margin: 0;
     padding-left: 1.2rem;
@@ -124,13 +160,45 @@
     line-height: 1.55;
     color: var(--text-primary);
   }
-  ul.ruoat li {
-    margin-bottom: 0.15rem;
+  ul.ruoat li { margin-bottom: 0.15rem; }
+
+  .loppuviikko {
+    margin-top: 0.85rem;
   }
-  /* Tulevat (ei tämä päivä) ovat vähän haaleampia */
-  .paiva:not(:has(.tanaan)) ul.ruoat {
+  .loppuviikko summary {
+    cursor: pointer;
+    font-size: 0.78rem;
+    color: var(--text-tertiary);
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--divider);
+    list-style: none;
+    text-align: center;
+    user-select: none;
+  }
+  .loppuviikko summary::-webkit-details-marker { display: none; }
+  .loppuviikko summary::after {
+    content: " ▼";
+    font-size: 0.7rem;
+    transition: transform 0.2s;
+    display: inline-block;
+  }
+  .loppuviikko[open] summary::after {
+    content: " ▲";
+  }
+  .loppuviikko summary:hover { color: var(--accent); }
+
+  .tuleva-paiva { margin-top: 0.8rem; }
+  .tuleva-paiva-otsikko {
+    font-size: 0.85rem;
+    font-weight: 500;
     color: var(--text-secondary);
+    margin: 0 0 0.3rem;
   }
+  .tuleva-paiva ul.ruoat {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+  }
+
   .huom {
     color: var(--text-secondary);
     font-style: italic;
@@ -143,37 +211,22 @@
     font-style: italic;
     margin: 0;
   }
+  @media (prefers-color-scheme: dark) {
+    .virhe { color: #d97a78; }
+  }
+
   footer {
+    max-width: 1200px;
+    margin: 2rem auto 1rem;
     text-align: center;
     color: var(--text-tertiary);
     font-size: 0.8rem;
-    margin: 2rem 0 1rem;
   }
-  footer a {
-    color: var(--accent);
-    text-decoration: none;
-  }
+  footer a { color: var(--accent); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
-  .piilotettu { display: none !important; }
 
-  /* Tumma tila — haaleampi versio samasta paletista */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #1f1c19;
-      --bg-card: #2c2823;
-      --bg-input: #2c2823;
-      --border: #3d3833;
-      --border-strong: #4a4540;
-      --text-primary: #e8e3dc;
-      --text-secondary: #b8b0a4;
-      --text-tertiary: #8a857a;
-      --text-muted: #6f6a60;
-      --accent: #d9a487;
-      --accent-bg: #4a352a;
-      --accent-text: #f3d4bf;
-      --divider: #3d3833;
-    }
-  }
+  .piilotettu { display: none !important; }
+  .ryhma-tyhja { display: none !important; }
 </style>
 </head>
 <body>
@@ -186,7 +239,7 @@
   <input type="text" id="haku" placeholder="Etsi ravintolaa tai ruokalajia...">
 </div>
 
-<div class="grid" id="lista">Ladataan lounaslistoja...</div>
+<main id="lista">Ladataan lounaslistoja...</main>
 
 <footer>
   Tiedot kerätty automaattisesti ravintoloiden omilta sivuilta.
@@ -195,60 +248,23 @@
 
 <script>
 const PAIVAT = ["maanantai", "tiistai", "keskiviikko", "torstai", "perjantai", "lauantai", "sunnuntai"];
+const RYHMA_JARJESTYS = ["Sääksjärvi", "Hervanta", "Hermia", "Rusko", "Lahdesjärvi"];
 
 function tanaanIndeksi() {
+  // 0=su JS:ssä, 0=ma meidän taulukossa
   const js = new Date().getDay();
   return js === 0 ? 6 : js - 1;
 }
 
-function onTanaan(paivaTeksti) {
-  if (!paivaTeksti) return false;
-  const idx = tanaanIndeksi();
-  const teksti = paivaTeksti.toLowerCase();
-  const paiva = PAIVAT[idx];
-  return teksti.includes(paiva) || teksti.includes(paiva.slice(0, -1));
-}
-
-function rendoiPaiva(paiva) {
-  const tanaan = onTanaan(paiva.paiva);
-  const lk = tanaan ? "paiva-otsikko tanaan" : "paiva-otsikko";
-  const ruoat = paiva.ruoat.map(r => `<li>${escapoi(r)}</li>`).join("");
-  return `
-    <div class="paiva">
-      <div class="${lk}">${escapoi(paiva.paiva)}</div>
-      <ul class="ruoat">${ruoat}</ul>
-    </div>
-  `;
+function paivanIndeksi(paivaTeksti) {
+  if (!paivaTeksti) return -1;
+  return PAIVAT.indexOf(paivaTeksti.toLowerCase());
 }
 
 function escapoi(t) {
   const div = document.createElement("div");
   div.textContent = t;
   return div.innerHTML;
-}
-
-function rendoiRavintola(r) {
-  let sisalto = "";
-  if (r.huom && (!r.paivat || r.paivat.length === 0)) {
-    sisalto = `<p class="huom">${escapoi(r.huom)}</p>`;
-  } else if (r.virhe) {
-    sisalto = `<p class="virhe">⚠️ Listaa ei voitu hakea — avaa ravintolan sivu linkistä.</p>`;
-  } else if (!r.paivat || r.paivat.length === 0) {
-    sisalto = `<p class="huom">Lounaslistaa ei löytynyt — avaa ravintolan sivu linkistä.</p>`;
-  } else {
-    const tanaan = r.paivat.filter(p => onTanaan(p.paiva));
-    const muut = r.paivat.filter(p => !onTanaan(p.paiva));
-    const jarjestetty = [...tanaan, ...muut];
-    sisalto = jarjestetty.map(rendoiPaiva).join("");
-  }
-
-  return `
-    <div class="ravintola" data-haku="${escapoi((r.nimi + " " + (r.paivat || []).map(p => p.ruoat.join(" ")).join(" ")).toLowerCase())}">
-      <h2><a href="${escapoi(r.url)}" target="_blank" rel="noopener">${escapoi(r.nimi)}</a></h2>
-      <div class="alue">${escapoi(r.alue || "")}</div>
-      ${sisalto}
-    </div>
-  `;
 }
 
 function muotoileAika(iso) {
@@ -262,6 +278,118 @@ function muotoileAika(iso) {
   } catch (e) { return iso; }
 }
 
+function rendoiPaivanRuoat(ruoat) {
+  return ruoat.map(r => `<li>${escapoi(r)}</li>`).join("");
+}
+
+function rendoiRavintola(r) {
+  // Hakukentän indeksointi: kaikki tekstit yhdessä stringissä
+  const hakuTeksti = (
+    r.nimi + " " + (r.alue || "") + " " +
+    (r.paivat || []).map(p => p.paiva + " " + p.ruoat.join(" ")).join(" ")
+  ).toLowerCase();
+
+  let sisalto = "";
+
+  // Erikoistapaukset: ei scrapea, virhe, tai tyhjä
+  if (r.huom && (!r.paivat || r.paivat.length === 0)) {
+    sisalto = `<p class="huom">${escapoi(r.huom)}</p>`;
+  } else if (r.virhe) {
+    sisalto = `<p class="virhe">⚠️ Listaa ei voitu hakea — avaa ravintolan sivu linkistä.</p>`;
+  } else if (!r.paivat || r.paivat.length === 0) {
+    sisalto = `<p class="huom">Lounaslistaa ei löytynyt — avaa ravintolan sivu linkistä.</p>`;
+  } else {
+    const tanaanIdx = tanaanIndeksi();
+
+    // Etsi tämän päivän ja tulevat päivät
+    const tanaan = r.paivat.find(p => paivanIndeksi(p.paiva) === tanaanIdx);
+    const tulevat = r.paivat
+      .filter(p => paivanIndeksi(p.paiva) > tanaanIdx)
+      .sort((a, b) => paivanIndeksi(a.paiva) - paivanIndeksi(b.paiva));
+
+    // Aina näkyvissä: tänään, tai jos tänään ei ole, ensimmäinen tuleva
+    let nakyvissa = tanaan;
+    let lisapaivat = tulevat;
+
+    if (!nakyvissa && tulevat.length > 0) {
+      nakyvissa = tulevat[0];
+      lisapaivat = tulevat.slice(1);
+    }
+
+    if (nakyvissa) {
+      const onTanaan = paivanIndeksi(nakyvissa.paiva) === tanaanIdx;
+      const merkkiLk = onTanaan ? "paiva-merkki" : "paiva-merkki ei-tanaan";
+      sisalto += `
+        <span class="${merkkiLk}">${escapoi(nakyvissa.paiva)}</span>
+        <ul class="ruoat">${rendoiPaivanRuoat(nakyvissa.ruoat)}</ul>
+      `;
+
+      if (lisapaivat.length > 0) {
+        const sisat = lisapaivat.map(p => `
+          <div class="tuleva-paiva">
+            <p class="tuleva-paiva-otsikko">${escapoi(p.paiva)}</p>
+            <ul class="ruoat">${rendoiPaivanRuoat(p.ruoat)}</ul>
+          </div>
+        `).join("");
+        sisalto += `
+          <details class="loppuviikko">
+            <summary>Näytä loppuviikko</summary>
+            ${sisat}
+          </details>
+        `;
+      }
+    } else {
+      // Ei tätä päivää eikä tulevia (esim. perjantai-ilta tai viikonloppu)
+      sisalto = `<p class="huom">Loppuviikon lounaslistaa ei löytynyt — avaa ravintolan sivu linkistä.</p>`;
+    }
+  }
+
+  return `
+    <article class="ravintola" data-haku="${escapoi(hakuTeksti)}">
+      <h2><a href="${escapoi(r.url)}" target="_blank" rel="noopener">${escapoi(r.nimi)}</a></h2>
+      <div class="alue">${escapoi(r.alue || "")}</div>
+      ${sisalto}
+    </article>
+  `;
+}
+
+function ryhmittele(ravintolat) {
+  // Ryhmittele alueen mukaan, säilytä RYHMA_JARJESTYS-järjestys.
+  // Per ryhmä: menulliset aakkosissa ensin, menuttomat aakkosissa lopussa.
+
+  const ryhmat = {};
+  for (const r of ravintolat) {
+    const alue = r.alue || "Muut";
+    if (!ryhmat[alue]) ryhmat[alue] = [];
+    ryhmat[alue].push(r);
+  }
+
+  // Järjestä jokainen ryhmä
+  for (const alue in ryhmat) {
+    const onMenu = r => r.paivat && r.paivat.length > 0;
+    const lista = ryhmat[alue];
+    const menulliset = lista.filter(onMenu).sort((a, b) =>
+      a.nimi.localeCompare(b.nimi, "fi"));
+    const menuttomat = lista.filter(r => !onMenu(r)).sort((a, b) =>
+      a.nimi.localeCompare(b.nimi, "fi"));
+    ryhmat[alue] = [...menulliset, ...menuttomat];
+  }
+
+  // Palauta järjestyksessä [{alue, ravintolat}]
+  const tulos = [];
+  for (const alue of RYHMA_JARJESTYS) {
+    if (ryhmat[alue] && ryhmat[alue].length > 0) {
+      tulos.push({ alue, ravintolat: ryhmat[alue] });
+      delete ryhmat[alue];
+    }
+  }
+  // Mahdolliset muut alueet jotka eivät olleet etukäteen tunnettuja
+  for (const alue in ryhmat) {
+    tulos.push({ alue, ravintolat: ryhmat[alue] });
+  }
+  return tulos;
+}
+
 async function lataa() {
   try {
     const r = await fetch("lounaat.json?t=" + Date.now());
@@ -271,11 +399,23 @@ async function lataa() {
     document.getElementById("paivitetty").textContent =
       "Päivitetty: " + muotoileAika(data.paivitetty);
 
-    const lista = document.getElementById("lista");
-    lista.innerHTML = data.ravintolat.map(rendoiRavintola).join("");
+    const ryhmitelty = ryhmittele(data.ravintolat);
 
+    const lista = document.getElementById("lista");
+    lista.innerHTML = ryhmitelty.map(({alue, ravintolat}) => `
+      <section class="alue-osio" data-alue="${escapoi(alue)}">
+        <h2 class="ryhma-otsikko">${escapoi(alue)}</h2>
+        <div class="grid">
+          ${ravintolat.map(rendoiRavintola).join("")}
+        </div>
+      </section>
+    `).join("");
+
+    // Hakukenttä
     document.getElementById("haku").addEventListener("input", e => {
       const q = e.target.value.toLowerCase().trim();
+
+      // Suodata kortit
       document.querySelectorAll(".ravintola").forEach(el => {
         if (!q || el.dataset.haku.includes(q)) {
           el.classList.remove("piilotettu");
@@ -283,7 +423,18 @@ async function lataa() {
           el.classList.add("piilotettu");
         }
       });
+
+      // Piilota tyhjäksi jääneet alue-osiot
+      document.querySelectorAll(".alue-osio").forEach(osio => {
+        const nakyvia = osio.querySelectorAll(".ravintola:not(.piilotettu)").length;
+        if (nakyvia === 0) {
+          osio.classList.add("ryhma-tyhja");
+        } else {
+          osio.classList.remove("ryhma-tyhja");
+        }
+      });
     });
+
   } catch (e) {
     document.getElementById("lista").innerHTML =
       `<p style="text-align:center; color:var(--text-tertiary);">Virhe ladattaessa: ${e.message}<br>
