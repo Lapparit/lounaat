@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-05T10:56:59.198509+00:00",
+  "paivitetty": "2026-05-05T11:06:20.362644+00:00",
   "ravintolat": [
     {
       "nimi": "Speakeasy",
@@ -228,7 +228,72 @@
       "alue": "Hervanta",
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Crispy Chicken (M) (suomalaista broileria)",
+            "Caffitellan kebabia (G,L) (naudanlihaa)",
+            "Lohkoperunaa (G,M)",
+            "Riisiä (G,M)",
+            "Salaattibuffet",
+            "Broiler burger (L) Tofu poke (G,VE) (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Lihapullia kermakastikkeessa (G,L)(suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa feta-pinaatti täytteellä (G)",
+            "Sitruunainen kermaviilikastike (G,L)",
+            "Perunamuusia (G,L)",
+            "Salaattibuffet",
+            "Chicken & fries (M) Halloumi poke (G,L) (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Ylikypsää possua BBQ kastikkeessa (G,L) (suomalaista possua)",
+            "Yrttimarinoitua broileria (G,M) (suomalaista broileria)",
+            "Paahdettua perunaa (G,M)",
+            "Salaattibuffet",
+            "Aioli burger (L) Tofu salaatti (G,VE) (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Broilerin rintafileetä red curry kastikkeessa (G,L) (suomalaista broileria)",
+            "Possun pikkupaistia hunaja-dijonkastikkeessa (G,M) (suomalaista possua)",
+            "Kermaperunaa (G,L)",
+            "Riisiä (G,M)",
+            "Salaattibuffet",
+            "Vuohenjuusto burger (L) Teriyaki poke (G,M) (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Pannupihvejä ruskeassa kastikkeessa (G,L) (suomalaista nautaa ja possua)",
+            "Lohivuokaa (G,L)",
+            "Perunamuusia (G,L)",
+            "Salaattibuffet",
+            "Pulled Pork burger (L) (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Kievinkanaa (L) (suomalaista broileria)",
+            "Nakki&lihapulla mix (G,M)",
+            "Caffitellan majoneesia (G,M)",
+            "Kermaperunaa (G,L)",
+            "Salaattibuffet",
+            "Sunnuntai"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
