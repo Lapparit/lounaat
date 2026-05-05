@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-04T11:26:31.510723+00:00",
+  "paivitetty": "2026-05-05T07:34:12.606127+00:00",
   "ravintolat": [
     {
       "nimi": "Speakeasy",
@@ -178,11 +178,11 @@
           "ruoat": [
             "Kanaton kukkakaali-punajuurigratiini ja paahdettuja siemeniä (*, A, G, ILM, L, M, Veg)",
             "Tomaattista kikhernekeittoa (*, A, G, ILM, L, M, Veg, VS)",
-            "Savupalvikastiketta (*, A, ILM, L)",
-            "Luomutäysjyväpastaa (*, A, ILM, L, M, Veg)",
-            "Kalapyöryköitä (*, A, G, ILM, L, M)",
+            "Savupalvikastiketta (*, A, G, ILM, L)",
+            "Tummaa riisiä (*, G, L, M, Veg)",
+            "Kalapyöryköitä 6kpl/annos, extra 0,50€/kpl (*, A, G, ILM, L, M)",
             "Tartarjogurttia (*, A, G, L)",
-            "Keitettyjä perunoita (*, A, G, ILM, L, M, Veg)"
+            "Paahdettua perunaa (*, G, ILM, L, M, Veg)"
           ]
         },
         {
@@ -334,8 +334,8 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Buffet: Paahdettua cajunkanaa, kasvisriisiä ja currykastiketta",
-            "Buffet: Koljaa tomaattisessa rapukastikkeessa sekä paahdettuja pikkuperunoita ja tuoretta tilliä",
+            "Buffet: Paahdettua cajunkanaa, kasviksia, riisiä ja currykastiketta",
+            "Buffet: Paistettua koljaa, rapukastiketta sekä paahdettuja pikkuperunoita",
             "Grilli: Possun lehtipihvi, maustevoita, lohkoperunoita ja grillattuja kasviksia",
             "Grilli: Grillattua vuohenjuustosalaattia ja marinoitua päärynää"
           ]
@@ -529,11 +529,12 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Haudutettu ohrapuuro & hillo L klo 7.45-9.30 á 2,30 €",
-            "Mallaspossua & pippurimajoneesia",
-            "Juustoinen broileri-kasvisgratiini",
-            "Keitto: Mausteinen myskikurpitsasosekeitto",
-            "Chef´s menu: Halloumi burgeri paholaisenhillolla & lohkoperunat",
-            "Jälkiruoaksi marjainen smoothie"
+            "Mallaspossua (ohra, ruis) & pippurimajoneesia M (kananmuna, sinappi, selleri)",
+            "Juustoinen broileri-kasvisgratiini L, G (maito, selleri)",
+            "Keitto: Mausteinen myskikurpitsasosekeitto M, G, VEG",
+            "Chef´s menu: Halloumi burgeri paholaisenhillolla ja paahdetulla sipulilla & ranskanperunat L, KASVIS (vehnä, maito)",
+            "Vegaaniruoka keittiöstä: tofu-kasvisgratiini (selleri, soija)",
+            "Jälkiruoaksi marjainen smoothie L, G (maito) (SAA VEG)"
           ]
         },
         {
