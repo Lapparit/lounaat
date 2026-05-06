@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-05T11:06:20.362644+00:00",
+  "paivitetty": "2026-05-06T11:25:32.970918+00:00",
   "ravintolat": [
     {
       "nimi": "Speakeasy",
@@ -95,7 +95,8 @@
           "paiva": "Torstai",
           "ruoat": [
             "Siivet l g",
-            "Spagetti bolgnaIse"
+            "Spagetti bolgnaIse",
+            "Munkkia l"
           ]
         },
         {
@@ -180,7 +181,7 @@
             "Tomaattista kikhernekeittoa (*, A, G, ILM, L, M, Veg, VS)",
             "Savupalvikastiketta (*, A, G, ILM, L)",
             "Tummaa riisiä (*, G, L, M, Veg)",
-            "Kalapyöryköitä 6kpl/annos, extra 0,50€/kpl (*, A, G, ILM, L, M)",
+            "Rapeita kalapyöryköitä 6kpl/annos 0,50€/extra kpl (A, G, L)",
             "Tartarjogurttia (*, A, G, L)",
             "Paahdettua perunaa (*, G, ILM, L, M, Veg)"
           ]
@@ -188,12 +189,12 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Rapeita kasvispuikkoja (*, G, L, M, Veg)",
-            "Harissajogurttia (*, A, G, L)",
+            "Rapeita kasvispuikkoja 3kpl/annos, extra 0,90€/kpl (*, G, L, M, Veg)",
+            "Currymajoneesi, kysy vegaaninen vaihtoehto (A, G, L, M)",
             "Paahdettua perunaa (*, G, ILM, L, M, Veg)",
             "Linssi-kikhernekeitto Berkoukeh (*, A, ILM, L, M, Veg)",
             "Yrteillä maustettua jauheliha-tomaattipastaa (*, A, L, M)",
-            "Broilerinugetteja (A, L, M)",
+            "Broilerinugetteja 7kpl/annos, extra 0,50€/kpl , kysy gluteeniton vaihtoehto (A, L, M)",
             "Currymajoneesia (A, G, L, M)",
             "Paahdettua perunaa (*, G, ILM, L, M, Veg)"
           ]
@@ -343,8 +344,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Buffet: Bbq possua, talon omia lohkoperunoita ja coleslow",
-            "Buffet: Italialaiset paprikat ja lämmintä herkkusieni-kasvissalaattia",
+            "Buffet: Bbq naudanrintaa, talon omia lohkoperunoita ja pippurikastiketta",
+            "Buffet: Täytetyt paprikat ja lämmintä herkkusieni-kasvissalaattia",
             "Grilli: Uunipaahdettua kirjolohta, remouladekastiketta, yrttiperunoita ja kasviksia",
             "Grilli: Chili-rapubowl"
           ]
@@ -353,8 +354,8 @@
           "paiva": "Torstai",
           "ruoat": [
             "Buffet: Anopin lihapullat sipulikastikkeessa, muusia ja uunissa paahdettuja yrttijuureksia",
-            "Buffet: Tandoorikanaa, jasmineriisiä, kasviksia ja kurkkuraitaa",
-            "Grilli: Kreikkalaisia kasvis-halloumipihvejä, kapris-jogurttikastiketta, mausteisia perunoita ja kasviksia",
+            "Buffa: Kreikkalaisia kasvis-halloumipihvejä, kapris-jogurttikastiketta, mausteisia perunoita ja kasviksia",
+            "Grilli: Tandoorikanaa, jasmineriisiä, kasviksia ja kurkkuraitaa",
             "Grilli: Lohi Bowl"
           ]
         },
@@ -483,9 +484,11 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Currykanaa pekonikastikkeessa L,G",
+            "– riisiä ja paahdettuja kasviksia VEG,G",
             "Juusto-ananaskuorrutetut kasvispihvit L,G",
-            "Aasialainen bataattisosekeitto L,G",
-            "Kahvin kanssa puolukkarahkaa biscoff-raidalla L"
+            "Aasialainen bataattisosekeitto VEG,G",
+            "Päivän vegaani: Mexican-kasvispihvit ja sweet chili dippi VEG,G",
+            "Kahvin kanssa puolukkarahkaa biscoff-raidalla L (saa myös puolukkamoussea VEG,G)"
           ]
         },
         {
@@ -503,7 +506,7 @@
           "ruoat": [
             "Broileria cordon bleu",
             "– paprikamajoneesia M,G ja parmesan-persiljalohkoperunat VL,G",
-            "Savuporopasta katajanmarjalla ja leipäjuustolla L",
+            "Savuporopasta katajanmarjalla ja leipäjuustolla L (saa myös L,G)",
             "Kermainen herkkusienikeitto L,G",
             "Kahvin kanssa suklaamoussea L,G"
           ]
@@ -542,10 +545,11 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Mannapuuro & hillo L klo 7.45-9.30 á 2,30 €",
-            "Rapeaa turskaa, jogurttikastike & ranskanperunat",
-            "Häränmurekepihvit kerma- pippurikastikkeella",
-            "Keitto: Appelsiininen porkkanasosekeitto",
-            "Chef´s menu: BBQ-kanaburgeri & bataattiranskalaiset"
+            "Rapeaa turskaa M (vehnä, sinappi), jogurttikastike L, G (maito) & ranskanperunat (vehnä)",
+            "Häränmurekepihvit kerma- pippurikastikkeella L, G (maito, selleri, sinappi, kananmuna)",
+            "Keitto: Appelsiininen porkkanasosekeitto M, G, VEG",
+            "Chef´s menu: BBQ-kanaburgeri & bataattiranskalaiset M (vehnä, sinappi, kananmuna)",
+            "Vegaaniruoka keittiöstä: Kasvispihvit ja vege majoneesi"
           ]
         },
         {
@@ -710,7 +714,7 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Puuro/porridge 8.00-9.30",
-            "Täyteläisen kaurakermainen pinaattikeitto M,G,V",
+            "Täyteläinen pinaattikeitto L,G",
             "Lamminpään lumous -possua mausteisessa kastikkeessa L,G",
             "Lohi-pinaattilasagnea L",
             "Paahdetut kauden kasvikset M,G,V",
