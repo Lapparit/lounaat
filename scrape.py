@@ -130,6 +130,135 @@ def siivoa(teksti: str) -> str:
     return re.sub(r"\s+", " ", teksti).strip()
 
 
+# Allergeenitiedot ja muut termit jotka voi tunnistaa sulkujen sisältä.
+# Jos sulkujen sisus koostuu PELKÄSTÄÄN näistä sanoista (pilkulla erotettuna),
+# koko sulkupätkä poistetaan.
+ALLERGEENISANAT = {
+    # Lyhenteet
+    "a", "g", "l", "m", "v", "vs", "vl", "gl", "veg", "vegaani", "kasvis", "kasvi",
+    "ilm", "mr", "saa", "ssaa", "saa veg", "vegan",
+    # Yleiset allergeenit suomeksi
+    "maito", "muna", "munat", "kananmuna", "vehnä", "ohra", "ruis", "kaura",
+    "soija", "soja", "selleri", "sinappi", "kala", "äyriäinen", "äyriäiset",
+    "nivelelain", "siemen", "siemenet", "seesami", "seesaminsiemen", "pähkinä",
+    "pähkinät", "maapähkinä", "maapähkinät",
+    "lupiini", "simpukka", "simpukat", "sulfiitti", "sulfiitit",
+    "rikkidioksidi", "gluteeni",
+    # Joskus listattuja: alkuperätietojen yhteydessä (jätetään pois suoraan)
+}
+
+
+def siivoa_ruoka(rivi: str) -> str | None:
+    """
+    Siivoaa yksittäisen ruokarivin: poistaa allergeenitiedot, hinnat ja
+    kellonajat. Pudottaa puuro-/aamupala-rivit.
+
+    Palauttaa puhdistetun rivin tai None jos rivi pitää pudottaa.
+    """
+    if not rivi:
+        return None
+    s = rivi.strip()
+    if not s:
+        return None
+
+    # 1) Poista hinnat: "á 2,30 €", "8,90e", "1,50€/kpl", "12,20€", "10€"
+    # Numero (mahdollisella desimaalilla) + e/E/€ + mahdollinen suffiksi.
+    # Lookahead varmistaa että €/e on oikea hintamerkki (ei osa sanaa).
+    s = re.sub(
+        r"\s*á?\s*\d+(?:[,.]\d+)?\s*[€eE](?=[\s/,.;)]|$)(?:\s*/\s*\w+)?",
+        " ",
+        s,
+    )
+
+    # 2) Poista kellonajat: "klo 7.45-9.30", "8.00-9.30", "10:30-13:00"
+    s = re.sub(
+        r"\s*\bklo\s*\d{1,2}[:.]\d{2}\s*[–-]\s*\d{1,2}[:.]\d{2}",
+        "",
+        s,
+        flags=re.I,
+    )
+    s = re.sub(
+        r"\s*\b\d{1,2}[:.]\d{2}\s*[–-]\s*\d{1,2}[:.]\d{2}\b",
+        "",
+        s,
+    )
+
+    # 3) Poista allergeenisulut: ne joiden sisus on pelkkiä allergeenisanoja.
+    # Esim. "(maito)", "(L, G)", "(VEG, G)", "(suomalaista broileria)" jää.
+    def poista_allergeenisulut(m: re.Match) -> str:
+        sisus = m.group(1).strip()
+        if not sisus or len(sisus) > 50:
+            return m.group(0)
+        # Jaa pilkuilla ja välilyönneillä
+        osat = re.split(r"[,\s/]+", sisus.lower())
+        osat = [o.strip().rstrip(".") for o in osat if o.strip()]
+        if not osat:
+            return m.group(0)
+        # Sallitaan myös pelkkä 1-2 merkin "koodi" (G, GL, VEG jne.) vaikka ei
+        # olisi listalla
+        def on_allergeeni(s: str) -> bool:
+            if s in ALLERGEENISANAT:
+                return True
+            # Lyhyt isokirjaiminen koodi alkuperäisessä tekstissä
+            return len(s) <= 4 and s.replace(".", "").isalpha()
+        if all(on_allergeeni(o) for o in osat):
+            return ""
+        return m.group(0)
+
+    s = re.sub(r"\s*\(([^()]+)\)", poista_allergeenisulut, s)
+
+    # 4) Poista lopussa olevat irralliset allergeenikoodit.
+    # Eri muotoja:
+    #   "M, G", "L, G, M", "A, G, L, M, Veg"   ← pilkulla erotettu
+    #   "l g k", "M G"                         ← välilyönnillä erotettu, lyhyet
+    #   "L KASVIS", "Riisi Veg"                ← yksi koodi lopussa
+
+    # 4a) Pilkulla erotetut: vähintään 2 lyhyttä "sanaa" (1-6 merkkiä)
+    # Sallitaan 6 merkkiä koska KASVIS on 6 ja vegaani 7 — tämä riskeeraa
+    # syödä oikeita sanoja jos rivi päättyy esim. "Salaatti, kurkku"
+    s = re.sub(
+        r"\s+[A-Za-zÄÖäö]{1,7}(?:\s*,\s*[A-Za-zÄÖäö]{1,7}){1,}\s*$",
+        "",
+        s,
+    )
+    # 4b) Välilyönnillä erotetut LYHYET (1-3 merkkiä), vähintään 2 peräkkäin
+    #     Esim. "l g k", "M G", "A, L M G" (loppupätkä)
+    s = re.sub(
+        r"\s+[A-Za-zÄÖäö]{1,3}(?:\s+[A-Za-zÄÖäö]{1,3}){1,}\s*$",
+        "",
+        s,
+    )
+    # 4c) Yksittäinen isokirjaiminen koodi tai "Veg"/"Kasvis" lopussa
+    s = re.sub(r"\s+[A-ZÄÖ]{1,4}\s*$", "", s)
+    s = re.sub(r"\s+[Vv]eg\.?\s*$", "", s)
+    s = re.sub(r"\s+[Kk]asvis\s*$", "", s)
+
+    # Siisti välilyönnit
+    s = re.sub(r"\s+", " ", s).strip()
+    s = s.rstrip(",;:-")  # Joskus jää roikkumaan välimerkki
+
+    if not s or len(s) < 4:
+        return None
+
+    # 5) Pudota aamupala-/puurorivit (Hertta, Fastelle alkavat puurolla)
+    s_lower = s.lower()
+    aamupala_avainsanat = ("puuro", "porridge")
+    if any(w in s_lower for w in aamupala_avainsanat):
+        return None
+
+    return s
+
+
+def siivoa_ruoat(ruoat: list[str]) -> list[str]:
+    """Soveltaa siivoa_ruoka kaikkiin ruokariveihin, suodattaa Nonet pois."""
+    tulos = []
+    for r in ruoat:
+        siivottu = siivoa_ruoka(r)
+        if siivottu is not None:
+            tulos.append(siivottu)
+    return tulos
+
+
 # ============================================================
 # RAVINTOLAKOHTAISET SCRAPERIT
 # ============================================================
@@ -323,19 +452,26 @@ def scrape_hermian_farmi() -> list[dict]:
     Antell Hermian Farmi.
 
     Sivulla on jokaiselle päivälle paneeli #panel-Monday, #panel-Tuesday jne.
-    Jokaisessa h5-otsikoita kategorioille (Pääruoaksi, Grilliannos, Delilounas...)
-    Jokaisessa kategoria-h5:n alla <ul> jossa <li>-elementit jokaisesta ruoasta.
+    Jokaisessa h5-otsikoita kategorioille (Pääruoaksi, Grilliannos, Delilounas...).
+    Kategoria-h5:n jälkeen <ul> jonka jokainen <li> on yksi ruoka.
 
-    Yksittäisessä li:ssä rakenne on:
+    li:n todellinen rakenne (toukokuu 2026):
       <li>
-        <p class="course-title">Possunpihvit pippurikastikkeella</p>
-        <p class="allergens">Allergeenit: A, G, L</p>
+        Kanaa paholaisenkastikkeessa
+        <p><strong>Allergeenit</strong>: ...</p>
+        <p>Huomioi, että raaka-aineet...</p>
+        <p>Ravintoarvot ...</p>
+        ...
         <a>Miltä maistui?</a>
       </li>
 
-    Ratkaisu: etsitään ruoan nimi luokasta course-title TAI suoraan li:n
-    ensimmäisestä non-empty tekstilapsesta.
+    Eli ruoan nimi on li:n SUORANA tekstinä, ENNEN ensimmäistä <p>-tagia.
+
+    Ratkaisu: käy li:n suorat lapset järjestyksessä ja kerää teksti
+    kunnes osutaan ensimmäiseen blokkielementtiin (<p> tai vastaava).
     """
+    from bs4 import NavigableString
+
     url = "https://antell.fi/lounas/tampere/hermianfarmi/"
     html = hae_sivu(url)
     if not html:
@@ -347,10 +483,13 @@ def scrape_hermian_farmi() -> list[dict]:
         "Thursday": "Torstai", "Friday": "Perjantai",
     }
 
-    # Hyväksyttävät kategoriat — pääruoat ja yleisemmät linjat
+    # Hyväksyttävät kategoriat
     hyvaksytyt = ("pääruo", "grill", "deli", "pizza", "kasvis", "keitto")
     # Skipataan jälkkärit ja kaverit-linjat
     hylataan = ("jälkiruo", "kaveri")
+
+    # Block-elementit jotka aloittavat info-osion li:ssä
+    block_tagit = ("p", "div", "ul", "ol", "table", "section", "article")
 
     paivat = []
     for eng, fi in paivat_kaannos.items():
@@ -368,50 +507,42 @@ def scrape_hermian_farmi() -> list[dict]:
             if not ul:
                 continue
             for li in ul.find_all("li", recursive=False):
-                ruoan_nimi = ""
-
-                # Yritys 1: löytyykö course-title -luokka?
-                title_el = li.find(class_=re.compile("title|course"))
-                if title_el:
-                    ehdokas = siivoa(title_el.get_text(" "))
-                    if ehdokas and "miltä maistui" not in ehdokas.lower():
-                        ruoan_nimi = ehdokas
-
-                # Yritys 2: ensimmäinen <p>-elementti joka ei ole allergeenit
-                if not ruoan_nimi:
-                    for p in li.find_all("p", recursive=True):
-                        t = siivoa(p.get_text(" "))
-                        if not t:
+                # Kerää li:n suorat lapset järjestyksessä,
+                # pysähdy ensimmäiseen block-elementtiin
+                nimi_osat = []
+                for child in li.children:
+                    if isinstance(child, NavigableString):
+                        teksti = str(child)
+                        if teksti.strip():
+                            nimi_osat.append(teksti)
+                    else:
+                        # Tag-objekti
+                        if child.name in block_tagit:
+                            break  # info-osio alkaa
+                        # Inline-elementti (strong, em, span, a, br...)
+                        # → ota sen teksti mukaan, paitsi linkki
+                        if child.name == "a":
+                            # Ohitetaan linkit ("Miltä maistui?" jne.)
                             continue
-                        t_lower = t.lower()
-                        if "allergeenit" in t_lower or "miltä maistui" in t_lower:
-                            continue
-                        ruoan_nimi = t
-                        break
+                        teksti = child.get_text(" ")
+                        if teksti.strip():
+                            nimi_osat.append(teksti)
 
-                # Yritys 3: li:n suora teksti (kaikki paitsi a-tagi)
-                if not ruoan_nimi:
-                    li_kopio = BeautifulSoup(str(li), "html.parser")
-                    for a in li_kopio.find_all("a"):
-                        a.decompose()
-                    teksti = siivoa(li_kopio.get_text(" "))
-                    # Poista "Allergeenit: ..." -osa
-                    teksti = re.sub(
-                        r"\s*Allergeenit\s*:.*$", "", teksti, flags=re.I,
-                    ).strip()
-                    if teksti and "miltä maistui" not in teksti.lower():
-                        ruoan_nimi = teksti
+                ruoan_nimi = siivoa(" ".join(nimi_osat))
 
                 if not ruoan_nimi or len(ruoan_nimi) < 4:
                     continue
-
-                # Poista mahdolliset jäljelle jääneet allergeenikoodit lopusta
+                # Suodatetaan selvät ei-ruoat
+                if "miltä maistui" in ruoan_nimi.lower():
+                    continue
+                # Allergeenikoodit kuten "A, G, L, M" lopussa
                 ruoan_nimi = re.sub(
                     r"\s*[A-Z](\s*,\s*[A-Z]+)+\s*$", "", ruoan_nimi,
                 ).strip()
+                if len(ruoan_nimi) < 4:
+                    continue
 
-                if ruoan_nimi and len(ruoan_nimi) > 3:
-                    ruoat.append(ruoan_nimi)
+                ruoat.append(ruoan_nimi)
 
         # Poista duplikaatit järjestyksen säilyen
         nahdyt = set()
@@ -690,7 +821,7 @@ RAVINTOLAT = [
         "nimi": "Hermia 6",
         "alue": "Hermia",
         "url": "https://www.sodexo.fi/ravintolat/tampere/hermia-6",
-        "scraper": lambda: scrape_sodexo(108),
+        "scraper": lambda: scrape_sodexo(110),
     },
     {
         "nimi": "Hermian Farmi",
@@ -779,7 +910,15 @@ def main():
             try:
                 raakapaivat = ravintola["scraper"]()
                 # Normalisoi päivien nimet ja järjestä ma-pe
-                rivi["paivat"] = normalisoi_paivat(raakapaivat)
+                normalisoidut = normalisoi_paivat(raakapaivat)
+                # Siivoa jokaisen päivän ruokarivit (allergeenit, hinnat, kellonajat)
+                # ja pudota päivät joilla ei jäänyt yhtään ruokaa
+                siivotut = []
+                for p in normalisoidut:
+                    puhtaat = siivoa_ruoat(p["ruoat"])
+                    if puhtaat:
+                        siivotut.append({"paiva": p["paiva"], "ruoat": puhtaat})
+                rivi["paivat"] = siivotut
                 print(f"  -> {len(rivi['paivat'])} päivää löytyi")
             except Exception as e:
                 print(f"  ! Virhe: {e}")
