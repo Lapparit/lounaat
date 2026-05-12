@@ -1,9 +1,17 @@
 name: Julkaise GitHub Pages
 
 on:
-  # Julkaistaan kun pää-haaraan tulee muutoksia (mm. lounaat.json päivittyy)
+  # Käynnistyy kun Päivitä lounaat -workflow on valmistunut onnistuneesti.
+  # Tämä korjaa ongelman, ettei GITHUB_TOKEN:in tekemä commit laukaise
+  # toista workflow:ia automaattisesti.
+  workflow_run:
+    workflows: ["Päivitä lounaat"]
+    types: [completed]
+    branches: [main]
+  # Käynnistyy myös kun pushaat muutoksia (esim. korjaat index.html:n)
   push:
     branches: [main]
+  # Voi myös ajaa käsin
   workflow_dispatch:
 
 permissions:
@@ -18,6 +26,8 @@ concurrency:
 
 jobs:
   julkaise:
+    # Älä julkaise jos Päivitä lounaat epäonnistui
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -25,6 +35,10 @@ jobs:
     steps:
       - name: Hae repo
         uses: actions/checkout@v4
+        with:
+          # Tärkeää: hae viimeisin commit main-haarasta
+          # (workflow_run-eventti voi muuten käyttää workflow:in alkuperäistä SHA:ta)
+          ref: main
 
       - name: Aseta Pages
         uses: actions/configure-pages@v5
