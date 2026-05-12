@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-11T16:18:11.672187+00:00",
+  "paivitetty": "2026-05-12T10:04:00.639499+00:00",
   "ravintolat": [
     {
       "nimi": "Speakeasy",
@@ -170,9 +170,10 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Pennepastaa ja mifua Margherita (A, L, VS)",
-            "Intialaista jogurttikalaa (*, A, G, L)",
+            "Gluteeniton ja vegaaninen vaihtoehto: Currylla maustettuja kukkakaalipyöryköitä",
+            "Intialaista jogurttikalaa 1kpl/annos 3€/extra kpl (*, A, G, L)",
             "Keitettyjä perunoita (*, A, G, ILM, L, M, Veg)",
-            "Vehnätortillat (A, L, M, Veg)",
+            "Vehnätortillat 1kpl/annos 2,50€/extra kpl (A, L, M, Veg)",
             "Savustetulla paprikalla maustettua kebabtäytettä (*, A, G, L, M, VS)"
           ]
         },
@@ -311,10 +312,10 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Buffet:Paistettua puna-ahventa, pinaatti-smetanamoussea, röstiperunoita ja curry vihanneksia",
-            "Buffet:Massaman tofua, vihanneksia ja jasminriisiä",
-            "Grilli: Broilerin fileetä, parmesan-tuorejuustokastiketta, parsakaalia ja sahramiriisiä",
-            "Grilli: Mexican kana Bowl"
+            "Buffa: Broilerin fileetä, parmesan-tuorejuustokastiketta, parsakaalia ja kikherne-couscousia",
+            "Buffet: Massaman tofua, vihanneksia ja jasminriisiä",
+            "Grilli: Paistettua puna-ahventa, pinaatti-smetanamoussea, röstiperunoita ja curry vihanneksia",
+            "Grilli: Mexican chicken Bowl"
           ]
         },
         {
@@ -417,7 +418,7 @@
             "Teemana Etelä-afrikka – makuja kokin kotimaasta:",
             "Salaattipöydästä löytyy muun muassa porkkana-ananassalaattia, persikkaista curry-nuudelisalaattia, banaanisalaattia, mintulla ja sitruunalla maustettua couscous-juustosalaattia siemenillä…",
             "Green bean beef stew – mureaa naudan lapaa ja vihreitä papuja M,G",
-            "Cape Malay chicken curry with sambal – mausteinen broilericurry sekä Orvokin oma sambal-chilikastike M,G",
+            "Cape Malay chicken curry with sambal – mausteinen broilericurry L,G sekä Orvokin oma sambal-chilikastike VEG,G",
             "Chakalaka –  Tomaattinen papu-kasvispata VEG,G",
             "Lisukkeina keltainen riisi rusinoilla sekä paahdetut bataattilohkot VEG",
             "Tarjolla myös paahdetulla chilillä maustettua kurpitsasosekeittoa VEG,G",
@@ -478,7 +479,6 @@
             "Hot honey chicken & curry-ananasdippi M, G (kananmuna, sinappi)",
             "Shahi paneer halloumijuustolla L, G (maito)",
             "Keitto: Paahdettu paprika-tomaattikeitto M, G",
-            "Chef´s menu: French onion naudanlihaburgeri & ranskanperunat M (sis. naudan jauhelihapihvi, sipuli, viinietikkasipsit, tomaattia. salaattia, miso-kevätsipulimajoneesia) (sis. kananmuna, soija, sinappi)",
             "Jälkiruoaksi raikas hedelmäsalaatti M, G, VEG"
           ]
         },
@@ -645,7 +645,11 @@
             "Keitettyä riisiä M,G,V",
             "Fastellen juustoista makaronilaatikkoa L",
             "Paahdetut kauden kasvikset M,G,V",
-            "Linssi-kukkakaali muhennosta L,G"
+            "Linssi-kukkakaali muhennosta L,G",
+            "Kilohinnalla punnittavan salaatin proteiinilisukkeet:",
+            "-Paahdettua halloumia G",
+            "– Marinoitua tofua M,G,V",
+            "– Tonnikalaa M,G"
           ]
         },
         {
