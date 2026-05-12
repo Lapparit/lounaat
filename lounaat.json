@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-12T13:47:09.804760+00:00",
+  "paivitetty": "2026-05-12T14:15:44.052118+00:00",
   "ravintolat": [
     {
       "nimi": "Speakeasy",
@@ -157,11 +157,11 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Currylla maustettuja kukkakaalipyöryköitä - Aloo Gobi 8kpl/annos kpl",
-            "Ruohosipulijogurttia (Vegaaninen kastike saatavilla) (*, A, G, ILM, L)",
-            "Paahdettua perunaa (*, G, ILM, L, M, Veg)",
-            "Ahvenpyöryköitä 6kpl/annos kpl (*, A, G, ILM, L)",
-            "Ruohosipulijogurttia (*, A, G, ILM, L)",
-            "Paahdettua perunaa (*, G, ILM, L, M, Veg)",
+            "Ruohosipulijogurttia (Vegaaninen kastike saatavilla)",
+            "Paahdettua perunaa",
+            "Ahvenpyöryköitä 6kpl/annos kpl",
+            "Ruohosipulijogurttia",
+            "Paahdettua perunaa",
             "Täyteläistä jauhelihakastiketta"
           ]
         },
@@ -170,23 +170,23 @@
           "ruoat": [
             "Pennepastaa ja mifua Margherita",
             "Gluteeniton ja vegaaninen vaihtoehto: Currylla maustettuja kukkakaalipyöryköitä",
-            "Intialaista jogurttikalaa 1kpl/annos kpl (*, A, G, L)",
-            "Keitettyjä perunoita (*, A, G, ILM, L, M, Veg)",
+            "Intialaista jogurttikalaa 1kpl/annos kpl",
+            "Keitettyjä perunoita",
             "Vehnätortillat 1kpl/annos kpl",
-            "Savustetulla paprikalla maustettua kebabtäytettä (*, A, G, L, M, VS)"
+            "Savustetulla paprikalla maustettua kebabtäytettä"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Juurespyöryköitä (*, A, G, ILM, L, M)",
-            "Kapriskastiketta (*, A, G, L)",
-            "Paahdettua perunaa (*, G, ILM, L, M, Veg)",
-            "Bataattisosekeittoa (*, A, G, L, M, Veg)",
-            "Aasialaista broileripataa ja tuoretta korianteria (*, A, G, L, M, VS)",
-            "Riisiä ja kotimaista kauraa (*, A, G, L, M, Veg)",
-            "Rapeaa yrttikalaa (*, A, ILM, L, M, VS)",
-            "Kapriskastiketta (*, A, G, L)"
+            "Juurespyöryköitä",
+            "Kapriskastiketta",
+            "Paahdettua perunaa",
+            "Bataattisosekeittoa",
+            "Aasialaista broileripataa ja tuoretta korianteria",
+            "Riisiä ja kotimaista kauraa",
+            "Rapeaa yrttikalaa",
+            "Kapriskastiketta"
           ]
         },
         {
@@ -194,10 +194,10 @@
           "ruoat": [
             "Mexican kasvispihvejä",
             "Ranch-kastiketta",
-            "Paahdettua perunaa (*, G, ILM, L, M, Veg)",
-            "Jauhelihapyöryköitä (*, A, L, M)",
-            "Pippurikastiketta (*, A, ILM, L)",
-            "Paahdettua perunaa (*, G, ILM, L, M, Veg)"
+            "Paahdettua perunaa",
+            "Jauhelihapyöryköitä",
+            "Pippurikastiketta",
+            "Paahdettua perunaa"
           ]
         }
       ]
@@ -400,7 +400,53 @@
       "alue": "Hermia",
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kanaa paholaisenkastikkeessa",
+            "Cheddar-uunimakkaraa",
+            "Musta dal makhani – linssipataa",
+            "Kirjolohi remouladekastikkeella #",
+            "Paahdettua kukka- ja parsakaalia",
+            "Maalaisranskalaiset",
+            "Tomaatti-mozzarellakeittoa",
+            "Mausteisia kanansiipiä",
+            "Peruna-pinaatti-oliivimunakasta",
+            "Aurinkokuivattu tomaatti-pastasalaatti #"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Antellin lasagnea",
+            "Chicken madras – mausteista intialaista kanacurrya",
+            "Herne-mantelipastaa",
+            "Lehtipihvi ranskalaisilla",
+            "Vihreä tankoparsa",
+            "Kanakeittoa",
+            "Mustamakkaraa",
+            "Kaura-punajuuripyöryköitä",
+            "Aioli-katkarapuja",
+            "Caesar-salaattia"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Ylikypsää possua ramenliemessä",
+            "Maissipaneroitua kanaa",
+            "Itte tehtyjä punajuuriohukaisia",
+            "Smash-burger",
+            "Ranskalaisia perunoita",
+            "Itämaista lohikeittoa",
+            "Pulled pork",
+            "BBQ-majoneesia",
+            "Täytettyjä paprikoita",
+            "Maalaisperunasalaattia"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Orvokki",
