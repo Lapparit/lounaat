@@ -195,14 +195,17 @@ def siivoa_ruoka(rivi: str) -> str | None:
         if not osat:
             return m.group(0)
         # Sallitaan myös pelkkä 1-2 merkin "koodi" (G, GL, VEG jne.) vaikka ei
-        # olisi listalla
+        # olisi listalla. Myös merkit kuten "*" ja "#" sallitaan (Reaktori käyttää).
         def on_allergeeni(s: str) -> bool:
             if s in ALLERGEENISANAT:
+                return True
+            # Yksittäinen erikoismerkki kuten "*", "#", "-"
+            if len(s) == 1 and not s.isalnum():
                 return True
             # Lyhyt isokirjaiminen koodi alkuperäisessä tekstissä
             return len(s) <= 4 and s.replace(".", "").isalpha()
         if all(on_allergeeni(o) for o in osat):
-            return ""
+            return " "  # välilyönti ettei viereiset sanat liimaudu yhteen
         return m.group(0)
 
     s = re.sub(r"\s*\(([^()]+)\)", poista_allergeenisulut, s)
@@ -455,23 +458,24 @@ def scrape_hermian_farmi() -> list[dict]:
     Jokaisessa h5-otsikoita kategorioille (Pääruoaksi, Grilliannos, Delilounas...).
     Kategoria-h5:n jälkeen <ul> jonka jokainen <li> on yksi ruoka.
 
-    li:n todellinen rakenne (toukokuu 2026):
-      <li>
-        Kanaa paholaisenkastikkeessa
-        <p><strong>Allergeenit</strong>: ...</p>
-        <p>Huomioi, että raaka-aineet...</p>
-        <p>Ravintoarvot ...</p>
-        ...
-        <a>Miltä maistui?</a>
-      </li>
+    Yksittäinen ruoka-li voi olla joko:
+        <li>
+          Kanaa paholaisenkastikkeessa
+          <p><strong>Allergeenit</strong>: ...</p>
+          <p>Huomioi, että raaka-aineet...</p>
+          ...
+        </li>
+    TAI:
+        <li>
+          <p>Kanaa paholaisenkastikkeessa</p>
+          <p>Allergeenit: ...</p>
+          ...
+        </li>
 
-    Eli ruoan nimi on li:n SUORANA tekstinä, ENNEN ensimmäistä <p>-tagia.
-
-    Ratkaisu: käy li:n suorat lapset järjestyksessä ja kerää teksti
-    kunnes osutaan ensimmäiseen blokkielementtiin (<p> tai vastaava).
+    Strategia: otetaan li:n KOKO teksti ja katkaistaan ensimmäiseen tunnettuun
+    info-avainsanaan ("Allergeenit", "Huomioi, että", "Ravintoarvot" jne.).
+    Tämä toimii molemmissa rakenteissa.
     """
-    from bs4 import NavigableString
-
     url = "https://antell.fi/lounas/tampere/hermianfarmi/"
     html = hae_sivu(url)
     if not html:
@@ -488,8 +492,17 @@ def scrape_hermian_farmi() -> list[dict]:
     # Skipataan jälkkärit ja kaverit-linjat
     hylataan = ("jälkiruo", "kaveri")
 
-    # Block-elementit jotka aloittavat info-osion li:ssä
-    block_tagit = ("p", "div", "ul", "ol", "table", "section", "article")
+    # Sanat joista ruoan nimen jälkeen tulee info-osio
+    # (järjestys ei ole tärkeä: etsitään AIKAISIN esiintymä)
+    INFO_AVAINSANAT = (
+        "Allergeenit",
+        "Huomioi, että",
+        "Ravintoarvot",
+        "Hiilijalanjälki",
+        "Ainesosat",
+        "Katso lisätiedot",
+        "Miltä maistui",
+    )
 
     paivat = []
     for eng, fi in paivat_kaannos.items():
@@ -507,39 +520,27 @@ def scrape_hermian_farmi() -> list[dict]:
             if not ul:
                 continue
             for li in ul.find_all("li", recursive=False):
-                # Kerää li:n suorat lapset järjestyksessä,
-                # pysähdy ensimmäiseen block-elementtiin
-                nimi_osat = []
-                for child in li.children:
-                    if isinstance(child, NavigableString):
-                        teksti = str(child)
-                        if teksti.strip():
-                            nimi_osat.append(teksti)
-                    else:
-                        # Tag-objekti
-                        if child.name in block_tagit:
-                            break  # info-osio alkaa
-                        # Inline-elementti (strong, em, span, a, br...)
-                        # → ota sen teksti mukaan, paitsi linkki
-                        if child.name == "a":
-                            # Ohitetaan linkit ("Miltä maistui?" jne.)
-                            continue
-                        teksti = child.get_text(" ")
-                        if teksti.strip():
-                            nimi_osat.append(teksti)
-
-                ruoan_nimi = siivoa(" ".join(nimi_osat))
-
-                if not ruoan_nimi or len(ruoan_nimi) < 4:
+                # Otetaan li:n KOKO teksti
+                teksti = li.get_text(separator=" ", strip=True)
+                if not teksti:
                     continue
-                # Suodatetaan selvät ei-ruoat
-                if "miltä maistui" in ruoan_nimi.lower():
-                    continue
-                # Allergeenikoodit kuten "A, G, L, M" lopussa
+
+                # Etsi aikaisin info-avainsanan esiintymä
+                katkaisupiste = len(teksti)
+                for w in INFO_AVAINSANAT:
+                    idx = teksti.find(w)
+                    if idx >= 0 and idx < katkaisupiste:
+                        katkaisupiste = idx
+
+                ruoan_nimi = teksti[:katkaisupiste].strip()
+                ruoan_nimi = siivoa(ruoan_nimi)
+
+                # Poista mahdolliset allergeenikoodit lopusta
                 ruoan_nimi = re.sub(
                     r"\s*[A-Z](\s*,\s*[A-Z]+)+\s*$", "", ruoan_nimi,
                 ).strip()
-                if len(ruoan_nimi) < 4:
+
+                if not ruoan_nimi or len(ruoan_nimi) < 4:
                     continue
 
                 ruoat.append(ruoan_nimi)
