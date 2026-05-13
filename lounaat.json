@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-13T10:02:23.346311+00:00",
+  "paivitetty": "2026-05-13T13:09:30.949871+00:00",
   "ravintolat": [
     {
       "nimi": "Speakeasy",
@@ -389,8 +389,7 @@
             "Paneroitu porsaanleike, valkosipuliperunoita, pippurikastiketta ja paistettuja kasviksia",
             "Tofua vihreessä curry-kookoskastikeessa ja bastimatiriisiä",
             "Bataatti-kookoskeittoa",
-            "Pizzat pepperoni-ananas-aurajuusto ja zukkini-tomaatti-mozzarella",
-            "Grab&Go! Artesaanileipinä curry-tonno ja tex mex-seitanvebab sekä Tomaatti-mozzarella-pestosalaattia 6 €"
+            "Pizzat pepperoni-ananas-aurajuusto ja zukkini-tomaatti-mozzarella"
           ]
         }
       ]
@@ -413,7 +412,7 @@
             "Tomaatti-mozzarellakeittoa",
             "Mausteisia kanansiipiä",
             "Peruna-pinaatti-oliivimunakasta",
-            "Aurinkokuivattu tomaatti-pastasalaatti #"
+            "Pastasalaatti aurinkokuivatuilla tomaateilla"
           ]
         },
         {
@@ -537,7 +536,7 @@
           "ruoat": [
             "Mureaa puolukka-karamellipossua",
             "– hölskyperunat tillillä ja smetanalla L, G (amito)",
-            "Hertan pinaattiletut",
+            "Kasvispihvejä",
             "Keitto: Tomaattinen katkarapukeitto",
             "Chef´s menu: Rapeita kanan boneless wingsejä Texas Pete kastikkeella, ranskalaiset, sinihomejuustodippiä ja dippikasviksia",
             "Vegaaniruoka keittiöstä: Kasvispihvit soijadipillä & ranskalaisia"
@@ -725,9 +724,14 @@
           "paiva": "Perjantai",
           "ruoat": [
             "Balsamico-karamellipossua",
-            "Pippuriset yrttilohkoperunat",
+            "Talon broileria",
+            "Paahdetut perunat",
             "Paahdetut kauden kasvikset",
-            "Kukkakaaliwingsit"
+            "Kukkakaaliwingsit",
+            "Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "– Raejuustoa",
+            "– Marinoitua tofua",
+            "– Tonnikalaa"
           ]
         }
       ]
@@ -737,7 +741,49 @@
       "alue": "Sääksjärvi",
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kalaleikettä ja muusia",
+            "Kanaleikettä currykastikkeessa ja riisiä",
+            "Marjajogurttia",
+            "Keittiöstä: Lohisalaatti"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Wieninkeikettä ja kermaperunaa",
+            "Taco-kanakastiketta ja riisiä",
+            "Kana-nachopelti",
+            "Mokkapaloja",
+            "Keittiöstä: Savulohisalaatti"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Hernekeittoa",
+            "Pulled Pork BBQ ja juustoperunaa",
+            "Butter Chicken ja riisiä",
+            "Lettuja, hilloa ja kermavaahtoa",
+            "Keittiöstä: Kana-pekonisalaatti"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Helatorstai, ei lounasta"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Vapaapäivä, ei lounasta"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Ravintola Idaho",
