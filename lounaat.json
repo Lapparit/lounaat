@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-13T13:57:04.814484+00:00",
+  "paivitetty": "2026-05-13T14:06:03.588753+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -360,8 +360,43 @@
       "alue": "Rusko",
       "kategoria": 1,
       "url": "https://munkkimiehet.fi/kuluttajille/",
-      "huom": "Lounaslista on kuvana — avaa ravintolan sivulta",
-      "paivat": []
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Lihakeitto",
+            "Uunimakkara"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihakeitto",
+            "Butter chicken"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Makkarakeitto",
+            "Lihamureke"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "NN SULJETTU!"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Nakkikeitto",
+            "Porsaan kasleria"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Ravintola Idaho",
