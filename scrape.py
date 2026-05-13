@@ -1125,7 +1125,6 @@ RAVINTOLAT = [
         "kategoria": 1,
         "url": "https://munkkimiehet.fi/kuluttajille/",
         "scraper": lambda: scrape_munkkimiehet(),
-        "huom": "Lounaslista on kuvana — avaa ravintolan sivulta",
     },
     {
         "nimi": "Ravintola Idaho",
