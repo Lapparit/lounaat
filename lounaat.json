@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-12T14:15:44.052118+00:00",
+  "paivitetty": "2026-05-13T10:02:23.346311+00:00",
   "ravintolat": [
     {
       "nimi": "Speakeasy",
@@ -179,14 +179,14 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Juurespyöryköitä",
-            "Kapriskastiketta",
+            "Juurespyöryköitä 5kpl/annos kpl",
+            "Vegaaninen vaihtoehto: Currylla maustetut kukkakaalipyörykät",
             "Paahdettua perunaa",
+            "Ruohosipulijogurttia",
             "Bataattisosekeittoa",
             "Aasialaista broileripataa ja tuoretta korianteria",
-            "Riisiä ja kotimaista kauraa",
-            "Rapeaa yrttikalaa",
-            "Kapriskastiketta"
+            "Paahdettua perunaa",
+            "Rapeaa yrttikalaa 2kpl/annos kpl"
           ]
         },
         {
@@ -320,8 +320,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Buffet:Talon pannupihvi karamellisoidulla sipulilla, rosmariinikastiketta, perunamuusia ja lämpimiä kasviksia",
-            "Buffet:Välimeren kasvispyöryköitä, fetaa, paahdettuja bataattilohkoja sekä sitruuna aiolia",
+            "Buffet: Talon pannupihvi paistetulla sipulilla, rosmariinikastiketta, perunamuusia ja lämpimiä kasviksia",
+            "Buffet: Kasvispyöryköitä, paahdettuja bataattilohkoja ja fetaa sekä sitruuna aiolia",
             "Grilli: Turkkilaista kebabpastaa ja fetasalaattia",
             "Grilli: Kanacaesar rapeilla leipäkrutongeilla"
           ]
@@ -442,7 +442,7 @@
             "Itämaista lohikeittoa",
             "Pulled pork",
             "BBQ-majoneesia",
-            "Täytettyjä paprikoita",
+            "Hummuksella täytettyjä kesäkurpitsoja",
             "Maalaisperunasalaattia"
           ]
         }
@@ -482,7 +482,7 @@
           "ruoat": [
             "Kievin kana",
             "– paahdettu valkosipulidippi L,G ja sitruuna-persiljaperunat",
-            "Japanilainen yakisoba-nuudeliwok rapealla possun kyljellä",
+            "Japanilaistyylinen yakisoba-nuudeliwok ylikypsällä possun kyljellä M (sis merilevä)",
             "Kookoksella ja limellä maustettu porkkanasosekeitto",
             "Päivän vegaani: Yakisoba-nuudeliwok vegelastuilla"
           ]
@@ -536,10 +536,11 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Mureaa puolukka-karamellipossua",
-            "– hölskyperunat tillillä ja smetanalla",
-            "hertan pinaattiletut",
+            "– hölskyperunat tillillä ja smetanalla L, G (amito)",
+            "Hertan pinaattiletut",
             "Keitto: Tomaattinen katkarapukeitto",
-            "Chef´s menu: Rapeita kanan boneless wingsejä Texas Pete kastikkeella, ranskalaiset, sinihomejuustodippiä ja dippikasviksia"
+            "Chef´s menu: Rapeita kanan boneless wingsejä Texas Pete kastikkeella, ranskalaiset, sinihomejuustodippiä ja dippikasviksia",
+            "Vegaaniruoka keittiöstä: Kasvispihvit soijadipillä & ranskalaisia"
           ]
         },
         {
@@ -706,7 +707,11 @@
             "Bataatti-perunamuusia",
             "Paahdetut kauden kasvikset",
             "Talon Pinaattiletut",
-            "Puolukkahillo"
+            "Puolukkahillo",
+            "Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "– Raejuustoa",
+            "– Marinoitua tofua",
+            "– Tonnikalaa"
           ]
         },
         {
