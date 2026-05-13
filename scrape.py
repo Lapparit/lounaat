@@ -913,140 +913,156 @@ def scrape_caffitella() -> list[dict]:
 # ============================================================
 
 RAVINTOLAT = [
-    # ----- HERVANTA -----
+    # ----- KATEGORIA 1 -----
     {
-        "nimi": "Speakeasy",
-        "alue": "Hervanta",
-        "url": "https://www.speakeasy.fi/hervanta/lounas/",
-        "scraper": lambda: scrape_speakeasy(),
-    },
-    {
-        "nimi": "Sisu Buffet",
-        "alue": "Hervanta",
-        "url": "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere",
-        "scraper": lambda: scrape_sisu_buffet(),
-    },
-    {
-        "nimi": "Kontukeittiö",
-        "alue": "Hervanta",
-        "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
-        "scraper": lambda: scrape_kontukeittio(),
-    },
-    {
-        "nimi": "Reaktori (FoodCo)",
-        "alue": "Hervanta",
-        "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/reaktori/",
-        "scraper": lambda: scrape_reaktori(),
+        "nimi": "Aito kotilounas Sääksjärvi",
+        "alue": "Sääksjärvi",
+        "kategoria": 1,
+        "url": "https://www.aitokotilounas.fi/lounaslista/",
+        "scraper": lambda: scrape_aito_kotilounas(),
     },
     {
         "nimi": "Caffitella",
         "alue": "Hervanta",
+        "kategoria": 1,
         "url": "https://www.caffitella.fi/lounaslista/",
         "scraper": lambda: scrape_caffitella(),
     },
     {
-        "nimi": "Malabadi",
-        "alue": "Hervanta",
-        "url": "https://www.malabadi.fi/",
-        "scraper": None,
-        "huom": "Ei lounaslistaa nettisivulla",
+        "nimi": "Farmi",
+        "alue": "Hermia",
+        "kategoria": 1,
+        "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
+        "scraper": lambda: scrape_hermian_farmi(),
     },
     {
-        "nimi": "Gate of India",
-        "alue": "Hervanta",
-        "url": "https://www.gateofindia.fi/",
-        "scraper": None,
-        "huom": "Ei lounaslistaa nettisivulla",
+        "nimi": "Fastelle",
+        "alue": "Lahdesjärvi",
+        "kategoria": 1,
+        "url": "https://linkosuo.fi/toimipaikka/ravintola-fastelle/",
+        "scraper": lambda: scrape_fastelle(),
     },
-    {
-        "nimi": "Heval",
-        "alue": "Hervanta",
-        "url": "https://heval.fi/lounas/",
-        "scraper": None,
-        "huom": "Avaa lounaslista ravintolan sivulta",
-    },
-
-    # ----- HERMIA -----
     {
         "nimi": "Hermia 5",
         "alue": "Hermia",
+        "kategoria": 1,
         "url": "https://www.sodexo.fi/ravintolat/ravintola-hermia-5",
         "scraper": lambda: scrape_sodexo(107),
     },
     {
         "nimi": "Hermia 6",
         "alue": "Hermia",
+        "kategoria": 1,
         "url": "https://www.sodexo.fi/ravintolat/tampere/hermia-6",
         "scraper": lambda: scrape_sodexo(110),
     },
     {
-        "nimi": "Hermian Farmi",
-        "alue": "Hermia",
-        "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
-        "scraper": lambda: scrape_hermian_farmi(),
-    },
-    {
-        "nimi": "Orvokki",
-        "alue": "Hermia",
-        "url": "https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/",
-        "scraper": lambda: scrape_linkosuo("https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/"),
-    },
-    {
-        "nimi": "Hertta",
-        "alue": "Hermia",
-        "url": "https://linkosuo.fi/toimipaikka/hertta/",
-        "scraper": lambda: scrape_linkosuo("https://linkosuo.fi/toimipaikka/hertta/"),
-    },
-
-    # ----- RUSKO -----
-    {
         "nimi": "Munkkimiehet",
         "alue": "Rusko",
+        "kategoria": 1,
         "url": "https://munkkimiehet.fi/kuluttajille/",
         "scraper": lambda: scrape_munkkimiehet(),
         "huom": "Lounaslista on kuvana — avaa ravintolan sivulta",
     },
     {
-        "nimi": "Ruskon Helmi",
-        "alue": "Rusko",
-        "url": "https://ruskonhelmi.fi/lounaslista/",
-        "scraper": lambda: scrape_ruskon_helmi(),
-    },
-    {
-        "nimi": "Ravintola Osku",
-        "alue": "Rusko",
-        "url": "https://ravintolaosku.fi/",
-        "scraper": lambda: scrape_osku(),
-    },
-
-    # ----- LAHDESJÄRVI -----
-    {
-        "nimi": "Fastelle",
-        "alue": "Lahdesjärvi",
-        "url": "https://linkosuo.fi/toimipaikka/ravintola-fastelle/",
-        "scraper": lambda: scrape_fastelle(),
-    },
-
-    # ----- SÄÄKSJÄRVI -----
-    {
-        "nimi": "Aito kotilounas Sääksjärvi",
-        "alue": "Sääksjärvi",
-        "url": "https://www.aitokotilounas.fi/lounaslista/",
-        "scraper": lambda: scrape_aito_kotilounas(),
-    },
-    {
         "nimi": "Ravintola Idaho",
         "alue": "Sääksjärvi",
+        "kategoria": 1,
         "url": "https://www.facebook.com/people/Ravintola-Idaho-Oy/100070629319742/",
         "scraper": None,
         "huom": "Lounaslista löytyy Facebookista",
     },
     {
+        "nimi": "Ravintola Osku",
+        "alue": "Rusko",
+        "kategoria": 1,
+        "url": "https://ravintolaosku.fi/",
+        "scraper": lambda: scrape_osku(),
+    },
+    {
+        "nimi": "Ruskon Helmi",
+        "alue": "Rusko",
+        "kategoria": 1,
+        "url": "https://ruskonhelmi.fi/lounaslista/",
+        "scraper": lambda: scrape_ruskon_helmi(),
+    },
+
+    # ----- KATEGORIA 2 -----
+    {
+        "nimi": "Gate of India",
+        "alue": "Hervanta",
+        "kategoria": 2,
+        "url": "https://www.gateofindia.fi/",
+        "scraper": None,
+        "huom": "Ei lounaslistaa nettisivulla",
+    },
+    {
+        "nimi": "Hertta",
+        "alue": "Hermia",
+        "kategoria": 2,
+        "url": "https://linkosuo.fi/toimipaikka/hertta/",
+        "scraper": lambda: scrape_linkosuo("https://linkosuo.fi/toimipaikka/hertta/"),
+    },
+    {
+        "nimi": "Kontukeittiö",
+        "alue": "Hervanta",
+        "kategoria": 2,
+        "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
+        "scraper": lambda: scrape_kontukeittio(),
+    },
+    {
+        "nimi": "Malabadi",
+        "alue": "Hervanta",
+        "kategoria": 2,
+        "url": "https://www.malabadi.fi/",
+        "scraper": None,
+        "huom": "Ei lounaslistaa nettisivulla",
+    },
+
+    # ----- KATEGORIA 3 -----
+    {
+        "nimi": "Heval",
+        "alue": "Hervanta",
+        "kategoria": 3,
+        "url": "https://heval.fi/lounas/",
+        "scraper": None,
+        "huom": "Avaa lounaslista ravintolan sivulta",
+    },
+    {
         "nimi": "Malakai",
         "alue": "Sääksjärvi",
+        "kategoria": 3,
         "url": "https://malakairavintola.fi/",
         "scraper": None,
         "huom": "Ei lounaslistaa nettisivulla",
+    },
+    {
+        "nimi": "Orvokki",
+        "alue": "Hermia",
+        "kategoria": 3,
+        "url": "https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/",
+        "scraper": lambda: scrape_linkosuo("https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/"),
+    },
+    {
+        "nimi": "Reaktori",
+        "alue": "Hervanta",
+        "kategoria": 3,
+        "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/reaktori/",
+        "scraper": lambda: scrape_reaktori(),
+    },
+    {
+        "nimi": "Sisu",
+        "alue": "Hervanta",
+        "kategoria": 3,
+        "url": "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere",
+        "scraper": lambda: scrape_sisu_buffet(),
+    },
+    {
+        "nimi": "Speakeasy",
+        "alue": "Hervanta",
+        "kategoria": 3,
+        "url": "https://www.speakeasy.fi/hervanta/lounas/",
+        "scraper": lambda: scrape_speakeasy(),
     },
 ]
 
@@ -1058,6 +1074,7 @@ def main():
         rivi = {
             "nimi": ravintola["nimi"],
             "alue": ravintola["alue"],
+            "kategoria": ravintola.get("kategoria", 0),
             "url": ravintola["url"],
             "huom": ravintola.get("huom", ""),
             "paivat": [],
