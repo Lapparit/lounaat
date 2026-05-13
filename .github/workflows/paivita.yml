@@ -27,7 +27,7 @@ jobs:
       - name: Asenna riippuvuudet
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 pypdf
 
       - name: Aja scraperit
         run: python scrape.py
