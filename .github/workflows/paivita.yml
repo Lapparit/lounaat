@@ -1,11 +1,16 @@
 name: Päivitä lounaat
 
 on:
-  # Yksi cron-ajo arkiyönä klo 02:00 (talviaika) / 03:00 (kesäaika) Suomen aikaa.
-  # GitHub ei tue aikavyöhykkeitä cronissa, joten käytetään 00:00 UTC.
-  # Yöllä GitHub Actionsin viive on yleensä pieni, joten ajo on tuoreena aamulla.
+  # Kolme cron-ajoa eri yöajoilla. GitHub Actionsin cron viivästyy joskus
+  # tunteja ruuhka-aikana, varsinkin tasatuntien kohdalla — siksi käytetään
+  # parittomia minuutteja ja useampaa ajoa, niin yksi yleensä onnistuu
+  # nopeasti. Lounaat.json päivittyy vain kerran (myöhemmät ajot näkevät
+  # samat ravintolat ja päivittävät vain aikaleiman).
+  # Suomen ajat: kesä = UTC+3, talvi = UTC+2.
   schedule:
-    - cron: "0 0 * * 1-5"
+    - cron: "37 22 * * *"   # ~01:37 / 00:37 Suomen aikaa
+    - cron: "37 0 * * *"    # ~03:37 / 02:37 Suomen aikaa
+    - cron: "37 2 * * *"    # ~05:37 / 04:37 Suomen aikaa
   # Voi myös ajaa käsin GitHubin web-käyttöliittymästä
   workflow_dispatch:
 
