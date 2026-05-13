@@ -560,8 +560,171 @@ def scrape_hermian_farmi() -> list[dict]:
 
 
 def scrape_munkkimiehet() -> list[dict]:
-    """Munkkimiehet — lista on kuvana, ei voida lukea automaattisesti."""
-    return []
+    """
+    Munkkimiehet — lounaslista on PNG-kuvana sivulla.
+
+    Strategia:
+    1. Hae HTML
+    2. Parsi kuvan URL <img>-tagista jonka src sisältää "netti"
+    3. Lataa kuva
+    4. Esikäsittele: pidä vain valkoinen ja punainen teksti (puutekstuuri pois)
+    5. Aja Tesseract OCR suomenkielisellä sanastolla
+    6. Parsi viikonpäivät ja ruoat
+    """
+    from io import BytesIO
+
+    url = "https://munkkimiehet.fi/kuluttajille/"
+    html = hae_sivu(url)
+    if not html:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+
+    # 1) Etsi kuvan URL — <img> jonka src sisältää "netti"
+    kuva_url = None
+    for img in soup.find_all("img"):
+        src = img.get("src", "") or img.get("data-src", "")
+        if "netti" in src.lower() and src.endswith((".png", ".jpg", ".jpeg")):
+            kuva_url = src
+            break
+
+    if not kuva_url:
+        # Fallback: etsitään suurikokoinen kuva uploads-polusta
+        for img in soup.find_all("img"):
+            src = img.get("src", "")
+            if ("wp-content/uploads" in src and
+                "logo" not in src.lower() and
+                "ikoni" not in src.lower() and
+                "valmistettu" not in src.lower() and
+                src.endswith((".png", ".jpg", ".jpeg"))):
+                kuva_url = src
+                break
+
+    if not kuva_url:
+        print("  [Munkki] Kuvan URL ei löytynyt HTML:stä")
+        return []
+
+    print(f"  [Munkki] Kuva: {kuva_url}")
+
+    # 2) Lataa kuva
+    try:
+        r = requests.get(kuva_url, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        kuva_data = r.content
+    except Exception as e:
+        print(f"  [Munkki] Kuvan lataus epäonnistui: {e}")
+        return []
+
+    # 3) Esikäsittely: pidä vain valkoinen ja punainen teksti
+    try:
+        from PIL import Image
+        import numpy as np
+    except ImportError:
+        print("  [Munkki] Pillow tai numpy puuttuu — lisää requirements.txt:hen")
+        return []
+
+    try:
+        img = Image.open(BytesIO(kuva_data)).convert("RGB")
+        # Crop: poista 15% molemmilta sivuilta — kuvan reunoissa on
+        # koristekuvioita (lusikat, ruutukangas) jotka aiheuttavat roskaa
+        w, h = img.size
+        margin_x = int(w * 0.15)
+        img = img.crop((margin_x, 0, w - margin_x, h))
+        arr = np.array(img)
+        r_ch, g_ch, b_ch = arr[:, :, 0], arr[:, :, 1], arr[:, :, 2]
+        # Valkoinen teksti: kaikki kanavat kirkkaita
+        valkoinen = (r_ch > 180) & (g_ch > 180) & (b_ch > 180)
+        # Punainen teksti: R kirkas, G ja B tummat
+        punainen = (r_ch > 150) & (g_ch < 100) & (b_ch < 100)
+        # Yhdistä — teksti = musta, muu = valkoinen
+        teksti_maski = (valkoinen | punainen)
+        bw = np.where(teksti_maski, 0, 255).astype(np.uint8)
+        bw_img = Image.fromarray(bw)
+    except Exception as e:
+        print(f"  [Munkki] Esikäsittely epäonnistui: {e}")
+        return []
+
+    # 4) OCR
+    try:
+        import pytesseract
+    except ImportError:
+        print("  [Munkki] pytesseract puuttuu — lisää requirements.txt:hen")
+        return []
+
+    try:
+        teksti = pytesseract.image_to_string(bw_img, lang="fin", config="--psm 6")
+    except Exception as e:
+        print(f"  [Munkki] OCR epäonnistui: {e}")
+        return []
+
+    if not teksti.strip():
+        print("  [Munkki] OCR palautti tyhjän — onko tesseract-ocr-fin asennettu?")
+        return []
+
+    # 5) Parsi viikonpäivät ja ruoat
+    return _parsi_munkki_teksti(teksti)
+
+
+def _parsi_munkki_teksti(teksti: str) -> list[dict]:
+    """Parsii Munkkimiesten OCR-tekstistä päivät ja ruoat."""
+    PAIVA_NIMET_TR = ("MAANANTAI", "TIISTAI", "KESKIVIIKKO", "TORSTAI",
+                      "PERJANTAI")
+    NIMET_NORM = {p: p.capitalize() for p in PAIVA_NIMET_TR}
+
+    paivat_dict: dict[str, list[str]] = {}
+    nykyinen: str | None = None
+
+    for raw in teksti.splitlines():
+        rivi = siivoa(raw)
+        if not rivi:
+            continue
+
+        # Onko rivi päivä-otsikko? Sallitaan pieniä OCR-virheitä:
+        # rivi sisältää päivän nimen suurin osa kirjaimista oikein.
+        # Yksinkertaisin: tarkistetaan onko rivin alkupätkä jonkin päivän nimen
+        # kanssa lähes sama
+        rivi_iso = rivi.upper()
+        loytyi_paiva = None
+        for p in PAIVA_NIMET_TR:
+            if p in rivi_iso and len(rivi) < 30:
+                loytyi_paiva = p
+                break
+
+        if loytyi_paiva:
+            nykyinen = NIMET_NORM[loytyi_paiva]
+            paivat_dict.setdefault(nykyinen, [])
+            continue
+
+        if not nykyinen:
+            continue
+
+        # Siivoa rivin alusta yksittäiset merkit ja kirjaimet (OCR-roskaa)
+        # Esim. ". Lihakeitto" → "Lihakeitto", "L. SULJETTU!" → "SULJETTU!"
+        import re as _re
+        rivi = _re.sub(r"^[^A-Za-zÄÖÅäöå0-9]+", "", rivi)
+        rivi = _re.sub(r"^[A-Za-zÄÖÅäöå]\.\s+", "", rivi)
+        rivi = rivi.strip()
+
+        # Suodatetaan roskat: lyhyet (<5 merkkiä) tai erikoismerkkejä täynnä
+        if len(rivi) < 4:
+            continue
+        # Vaaditaan että rivissä on vähintään 3 peräkkäistä kirjainta
+        import re as _re
+        if not _re.search(r"[A-Za-zÄÖÅäöå]{3,}", rivi):
+            continue
+        # Suodatetaan header-rivit
+        rivi_l = rivi.lower()
+        if any(w in rivi_l for w in ("rusko lounas", "viikko ", "10:00", "14:30")):
+            continue
+
+        # Hyväksy ruokarivit
+        paivat_dict[nykyinen].append(rivi)
+
+    JARJESTYS = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai"]
+    paivat = []
+    for p in JARJESTYS:
+        if p in paivat_dict and paivat_dict[p]:
+            paivat.append({"paiva": p, "ruoat": paivat_dict[p][:6]})
+    return paivat
 
 
 def scrape_ruskon_helmi() -> list[dict]:
