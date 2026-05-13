@@ -1,203 +1,52 @@
 {
-  "paivitetty": "2026-05-13T13:09:30.949871+00:00",
+  "paivitetty": "2026-05-13T13:25:15.491980+00:00",
   "ravintolat": [
     {
-      "nimi": "Speakeasy",
-      "alue": "Hervanta",
-      "url": "https://www.speakeasy.fi/hervanta/lounas/",
+      "nimi": "Aito kotilounas Sääksjärvi",
+      "alue": "Sääksjärvi",
+      "kategoria": 1,
+      "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
       "paivat": [
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "11.5.",
-            "Kievinkana ja mangomajoneesi, ranskalaiset",
-            "Kebabpasta",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Mustikkarahka"
+            "Kalaleikettä ja muusia",
+            "Kanaleikettä currykastikkeessa ja riisiä",
+            "Marjajogurttia",
+            "Keittiöstä: Lohisalaatti"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "12.5.",
-            "Broileria teriyakikastikkeella, riisi",
-            "Lohikiusaus",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Omenapiirakka ja vaniljakastike"
+            "Wieninkeikettä ja kermaperunaa",
+            "Taco-kanakastiketta ja riisiä",
+            "Kana-nachopelti",
+            "Mokkapaloja",
+            "Keittiöstä: Savulohisalaatti"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "13.5.",
-            "Karjalanpaisti, muusi",
-            "Kalapuikot kermaviilikastikkeella",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Suklaa-dominomousse"
+            "Hernekeittoa",
+            "Pulled Pork BBQ ja juustoperunaa",
+            "Butter Chicken ja riisiä",
+            "Lettuja, hilloa ja kermavaahtoa",
+            "Keittiöstä: Kana-pekonisalaatti"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "All you can eat! -siipipäiviä",
-            "Tusinatorstaisin Hervannan Speakeasy viettää",
-            "All you can eat! -siipipäiviä klo 12 alkaen aina iltaan asti",
-            "0,5l limsan kanssa"
+            "Helatorstai, ei lounasta"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "SPEAKEASYN BURGERBUFFET",
-            "Talon naudanlihapihvejä ja paneroitua kanaa",
-            "Maalaisranskalaisia ja olutpaneroituja sipulirenkaita",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla(l",
-            "Mansikkapirtelö"
-          ]
-        }
-      ]
-    },
-    {
-      "nimi": "Sisu Buffet",
-      "alue": "Hervanta",
-      "url": "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Pyttipannua",
-            "Broilerileike l"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Lohikeitto+salaatti",
-            "Pihvipataa",
-            "Kalapihvi/pangasius l"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Pizzaa l",
-            "Pariloitua maksaa",
-            "Uunifilettä"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Kiinni hyvää helatorstaita"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Winkkari",
-            "Pippuripihvi",
-            "Broileria curry"
-          ]
-        }
-      ]
-    },
-    {
-      "nimi": "Kontukeittiö",
-      "alue": "Hervanta",
-      "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Kookos-bataattikeittoa",
-            "Italialaisia lihapullia tomaattikastikkeessa",
-            "Välimeren kasvispyöryköitä tomaattikastikkeessa"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Juustoista savuriistakeittoa",
-            "Mantelikalaa l",
-            "Kasvisjauhispyöryköitä pestokastikkeessa"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Nakkikeittoa",
-            "Omena-siideribroileria",
-            "Kikherne-porkkanapihvejä ja kylmäkastiketta"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Ravintolamme on tänään suljettu"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Ravintolamme on tänään suljettu"
-          ]
-        }
-      ]
-    },
-    {
-      "nimi": "Reaktori (FoodCo)",
-      "alue": "Hervanta",
-      "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/reaktori/",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Currylla maustettuja kukkakaalipyöryköitä - Aloo Gobi 8kpl/annos kpl",
-            "Ruohosipulijogurttia (Vegaaninen kastike saatavilla)",
-            "Paahdettua perunaa",
-            "Ahvenpyöryköitä 6kpl/annos kpl",
-            "Ruohosipulijogurttia",
-            "Paahdettua perunaa",
-            "Täyteläistä jauhelihakastiketta"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Pennepastaa ja mifua Margherita",
-            "Gluteeniton ja vegaaninen vaihtoehto: Currylla maustettuja kukkakaalipyöryköitä",
-            "Intialaista jogurttikalaa 1kpl/annos kpl",
-            "Keitettyjä perunoita",
-            "Vehnätortillat 1kpl/annos kpl",
-            "Savustetulla paprikalla maustettua kebabtäytettä"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Juurespyöryköitä 5kpl/annos kpl",
-            "Vegaaninen vaihtoehto: Currylla maustetut kukkakaalipyörykät",
-            "Paahdettua perunaa",
-            "Ruohosipulijogurttia",
-            "Bataattisosekeittoa",
-            "Aasialaista broileripataa ja tuoretta korianteria",
-            "Paahdettua perunaa",
-            "Rapeaa yrttikalaa 2kpl/annos kpl"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Mexican kasvispihvejä",
-            "Ranch-kastiketta",
-            "Paahdettua perunaa",
-            "Jauhelihapyöryköitä",
-            "Pippurikastiketta",
-            "Paahdettua perunaa"
+            "Vapaapäivä, ei lounasta"
           ]
         }
       ]
@@ -205,6 +54,7 @@
     {
       "nimi": "Caffitella",
       "alue": "Hervanta",
+      "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
       "paivat": [
@@ -273,130 +123,9 @@
       ]
     },
     {
-      "nimi": "Malabadi",
-      "alue": "Hervanta",
-      "url": "https://www.malabadi.fi/",
-      "huom": "Ei lounaslistaa nettisivulla",
-      "paivat": []
-    },
-    {
-      "nimi": "Gate of India",
-      "alue": "Hervanta",
-      "url": "https://www.gateofindia.fi/",
-      "huom": "Ei lounaslistaa nettisivulla",
-      "paivat": []
-    },
-    {
-      "nimi": "Heval",
-      "alue": "Hervanta",
-      "url": "https://heval.fi/lounas/",
-      "huom": "Avaa lounaslista ravintolan sivulta",
-      "paivat": []
-    },
-    {
-      "nimi": "Hermia 5",
+      "nimi": "Farmi",
       "alue": "Hermia",
-      "url": "https://www.sodexo.fi/ravintolat/ravintola-hermia-5",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Buffet:Koljaa pestopaahdettuna, punajuurihummusta, kikherne couscousia ja kasviksia",
-            "Buffet:Punajuuri-halloumipihvejä, kapris-jogurttikastiketta, yrttiperunoita ja kasviksia",
-            "Grilli: Porsaanleike, choronkastiketta, ranskalaisia ja paistettuja kasviksia",
-            "Grilli: Satay kana Bowl"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Buffa: Broilerin fileetä, parmesan-tuorejuustokastiketta, parsakaalia ja kikherne-couscousia",
-            "Buffet: Massaman tofua, vihanneksia ja jasminriisiä",
-            "Grilli: Paistettua puna-ahventa, pinaatti-smetanamoussea, röstiperunoita ja curry vihanneksia",
-            "Grilli: Mexican chicken Bowl"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Buffet: Talon pannupihvi paistetulla sipulilla, rosmariinikastiketta, perunamuusia ja lämpimiä kasviksia",
-            "Buffet: Kasvispyöryköitä, paahdettuja bataattilohkoja ja fetaa sekä sitruuna aiolia",
-            "Grilli: Turkkilaista kebabpastaa ja fetasalaattia",
-            "Grilli: Kanacaesar rapeilla leipäkrutongeilla"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Helatorstai"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Ravintola suljettu. Hermia 6:n ravintola palvelee normaalisti."
-          ]
-        }
-      ]
-    },
-    {
-      "nimi": "Hermia 6",
-      "alue": "Hermia",
-      "url": "https://www.sodexo.fi/ravintolat/tampere/hermia-6",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Wokattua teriyakikanaa sekä basmatiriisiä",
-            "Butter tofua ja lämmintä kasvissalaattia",
-            "Gratinoitua lasagnea ja hedelmäistä rucolasalaattia",
-            "Cheddar burger, bataattiranut ja keittiön omaa chilidippiä",
-            "Keväinen Creme ninon ja salaattibuffet",
-            "Grab&Go! Artesaanileipä curry-tonno ja tex mex-seitanvebab patonki sekä Tomaatti-mozzarella-pestosalaattia"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Paneroitua porsaanleikettä ja omenaista kastiketta",
-            "Rosmariinilla maustettua appelsiinikanaa ja yrttiriisiä",
-            "Kanttarelli-härkislasagnettea ja kevätkasviksia",
-            "Kenko Pop Up: Inkivääripossua, seesampaahdettua tofua, mungpapu-sienipannaria sekä muita japanialaisia makuja",
-            "Inkivääri-porkkanakeittoa ja salaattibuffet",
-            "Grab&Go! Artesaanileipinä curry-tonno ja tex mex-seitanvebab sekä Tomaatti-mozzarella-pestosalaattia"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Curry bar: Kofta Dopiaza lihapullia, Kana Kormaa, Kasvis Jalfreziä, raitaa, ananaschutneyta ja naanleipää",
-            "Kenko Pop Up: Inkivääripossua, seesampaahdettua tofua, mungpapu-sienipannaria sekä muita japanialaisia makuja",
-            "Japanilainen nuudelikeitto ja salaattibuffet",
-            "Grab&Go! Artesaanileipinä curry-tonno ja tex mex-seitanvebab sekä Tomaatti-mozzarella-pestosalaattia"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Helatorstai"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Paneroitu porsaanleike, valkosipuliperunoita, pippurikastiketta ja paistettuja kasviksia",
-            "Tofua vihreessä curry-kookoskastikeessa ja bastimatiriisiä",
-            "Bataatti-kookoskeittoa",
-            "Pizzat pepperoni-ananas-aurajuusto ja zukkini-tomaatti-mozzarella"
-          ]
-        }
-      ]
-    },
-    {
-      "nimi": "Hermian Farmi",
-      "alue": "Hermia",
+      "kategoria": 1,
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
       "paivat": [
@@ -448,222 +177,9 @@
       ]
     },
     {
-      "nimi": "Orvokki",
-      "alue": "Hermia",
-      "url": "https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Possun baby back ribsit",
-            "– juustoinen bourbon whiskey BBQ- dippi L,G ja savupaprikaperunat",
-            "Punajuuri-vuohenjuustolasagne",
-            "Keittiöstä päivän vegaani: Punajuuritagliatellea voipavuilla ja pestolla",
-            "Vihreä kalakeitto"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Teemana Etelä-afrikka – makuja kokin kotimaasta",
-            "Salaattipöydästä löytyy muun muassa porkkana-ananassalaattia, persikkaista curry-nuudelisalaattia, banaanisalaattia, mintulla ja sitruunalla maustettua couscous-juustosalaattia siemenillä…",
-            "Green bean beef stew – mureaa naudan lapaa ja vihreitä papuja",
-            "Cape Malay chicken curry with sambal – mausteinen broilericurry L,G sekä Orvokin oma sambal-chilikastike",
-            "Chakalaka – Tomaattinen papu-kasvispata",
-            "Lisukkeina keltainen riisi rusinoilla sekä paahdetut bataattilohkot",
-            "Tarjolla myös paahdetulla chilillä maustettua kurpitsasosekeittoa",
-            "Kahvin kanssa milktart – kanelilla maustettua maitotorttua"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Kievin kana",
-            "– paahdettu valkosipulidippi L,G ja sitruuna-persiljaperunat",
-            "Japanilaistyylinen yakisoba-nuudeliwok ylikypsällä possun kyljellä M (sis merilevä)",
-            "Kookoksella ja limellä maustettu porkkanasosekeitto",
-            "Päivän vegaani: Yakisoba-nuudeliwok vegelastuilla"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Helatorstai"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Rapea porsaanleike",
-            "– sinappinen kurkkumajoneesi",
-            "– uuniranskalaiset",
-            "Havaijin huli huli kanapata",
-            "Keittiöstä päivän vegaani: Seitanrulla",
-            "Tikka masala-tuoretomaattikeitto paahdetuilla kikherneillä",
-            "Kahvin kanssa vaahtokarkkimousse ja mustikkakastike"
-          ]
-        }
-      ]
-    },
-    {
-      "nimi": "Hertta",
-      "alue": "Hermia",
-      "url": "https://linkosuo.fi/toimipaikka/hertta/",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Valkosipuligratinoitua uunimakkaraa & kermaperunaa",
-            "Broileria Tikka masala & riisiä",
-            "Keitto: Parsakaalisosekeitto",
-            "Chef´s menu: Lohimurekepihvit Hollandaisekastikkeella",
-            "Vegaaniruoka keittiöstä: Tofua Tikka masala"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Hot honey chicken & curry-ananasdippi",
-            "Shahi paneer halloumijuustolla",
-            "Keitto: Paahdettu paprika-tomaattikeitto",
-            "Jälkiruoaksi raikas hedelmäsalaatti"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Mureaa puolukka-karamellipossua",
-            "– hölskyperunat tillillä ja smetanalla L, G (amito)",
-            "Kasvispihvejä",
-            "Keitto: Tomaattinen katkarapukeitto",
-            "Chef´s menu: Rapeita kanan boneless wingsejä Texas Pete kastikkeella, ranskalaiset, sinihomejuustodippiä ja dippikasviksia",
-            "Vegaaniruoka keittiöstä: Kasvispihvit soijadipillä & ranskalaisia"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "HELATORSTAI"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Parmesan paneroitua broileria & appelsiinijogurttia",
-            "– harissajuureksia & sitrus-timjami perunat",
-            "Kaalikääryleitä & puolukkaa",
-            "Keitto: Kasvissosekeitto",
-            "Chef´s menu: Lohi-caesar salaatti paistetulla parsalla & lehtikaalilla",
-            "Jälkiruoaksi uuniomena rahkaa"
-          ]
-        }
-      ]
-    },
-    {
-      "nimi": "Munkkimiehet",
-      "alue": "Rusko",
-      "url": "https://munkkimiehet.fi/kuluttajille/",
-      "huom": "Lounaslista on kuvana — avaa ravintolan sivulta",
-      "paivat": []
-    },
-    {
-      "nimi": "Ruskon Helmi",
-      "alue": "Rusko",
-      "url": "https://ruskonhelmi.fi/lounaslista/",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "MUSTAMAKKARA",
-            "TERIYAKIKANAA"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "MAISSIPANEROITU KALA",
-            "KAALIKÄÄRYLEET",
-            "VALKOSIPULIHÄRKÄÄ"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "KOOKOS-KANAKEITTO",
-            "PULLEDPORK VUOKA",
-            "LIHAPULLAT"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "SULJETTU"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "SULJETTU"
-          ]
-        }
-      ]
-    },
-    {
-      "nimi": "Ravintola Osku",
-      "alue": "Rusko",
-      "url": "https://ravintolaosku.fi/",
-      "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Korealainen kanapata, basmatia, korianteria",
-            "Kasvispyörykkä, yrtti-lohkoperunat, ruohosipuli-kermaviili, lämmin",
-            "Delisalaatti (juusto) & kesäkurpitsakeitto",
-            "Appelsiini-suklaacookierahka / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Grilli-ja maustemakkaraa, paistetut perunat, sinappinen kurkkudippi, höyrytetyt kasvikset / Kana-kookoskeitto",
-            "Kukkakaali-parsakaaligratiini & perunat",
-            "Delisalaatti (falafel & punajuurihummus) & vegaaninen bataatti-kookoskeitto",
-            "Hedelmäsalaatti lime-inkivääriliemellä / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possua smetana-paprikakastikkeessa, perunasose paahdetulla sipulilla, paahdettua punajuurta",
-            "Risotto limonello",
-            "Delisalaatti (uuniperuna broileri-sinihomejuustotäytteellä) & kevyt tomaatti-kasviskeitto",
-            "Ananas-passionsmoothie / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Helatorstai, ravintola suljettu!"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Fish& Chips, aiolia / Kanapasta & juusto",
-            "Välimeren paneroitu kasvispihvi, ranskanperunat, aiolia",
-            "Delisalaatti (Välimeren kana) & kermainen sipulikeitto",
-            "Suklaamousse / hedelmä"
-          ]
-        }
-      ]
-    },
-    {
       "nimi": "Fastelle",
       "alue": "Lahdesjärvi",
+      "kategoria": 1,
       "url": "https://linkosuo.fi/toimipaikka/ravintola-fastelle/",
       "huom": "",
       "paivat": [
@@ -737,67 +253,571 @@
       ]
     },
     {
-      "nimi": "Aito kotilounas Sääksjärvi",
-      "alue": "Sääksjärvi",
-      "url": "https://www.aitokotilounas.fi/lounaslista/",
+      "nimi": "Hermia 5",
+      "alue": "Hermia",
+      "kategoria": 1,
+      "url": "https://www.sodexo.fi/ravintolat/ravintola-hermia-5",
       "huom": "",
       "paivat": [
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kalaleikettä ja muusia",
-            "Kanaleikettä currykastikkeessa ja riisiä",
-            "Marjajogurttia",
-            "Keittiöstä: Lohisalaatti"
+            "Buffet:Koljaa pestopaahdettuna, punajuurihummusta, kikherne couscousia ja kasviksia",
+            "Buffet:Punajuuri-halloumipihvejä, kapris-jogurttikastiketta, yrttiperunoita ja kasviksia",
+            "Grilli: Porsaanleike, choronkastiketta, ranskalaisia ja paistettuja kasviksia",
+            "Grilli: Satay kana Bowl"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Wieninkeikettä ja kermaperunaa",
-            "Taco-kanakastiketta ja riisiä",
-            "Kana-nachopelti",
-            "Mokkapaloja",
-            "Keittiöstä: Savulohisalaatti"
+            "Buffa: Broilerin fileetä, parmesan-tuorejuustokastiketta, parsakaalia ja kikherne-couscousia",
+            "Buffet: Massaman tofua, vihanneksia ja jasminriisiä",
+            "Grilli: Paistettua puna-ahventa, pinaatti-smetanamoussea, röstiperunoita ja curry vihanneksia",
+            "Grilli: Mexican chicken Bowl"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Hernekeittoa",
-            "Pulled Pork BBQ ja juustoperunaa",
-            "Butter Chicken ja riisiä",
-            "Lettuja, hilloa ja kermavaahtoa",
-            "Keittiöstä: Kana-pekonisalaatti"
+            "Buffet: Talon pannupihvi paistetulla sipulilla, rosmariinikastiketta, perunamuusia ja lämpimiä kasviksia",
+            "Buffet: Kasvispyöryköitä, paahdettuja bataattilohkoja ja fetaa sekä sitruuna aiolia",
+            "Grilli: Turkkilaista kebabpastaa ja fetasalaattia",
+            "Grilli: Kanacaesar rapeilla leipäkrutongeilla"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Helatorstai, ei lounasta"
+            "Helatorstai"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Vapaapäivä, ei lounasta"
+            "Ravintola suljettu. Hermia 6:n ravintola palvelee normaalisti."
           ]
         }
       ]
     },
     {
+      "nimi": "Hermia 6",
+      "alue": "Hermia",
+      "kategoria": 1,
+      "url": "https://www.sodexo.fi/ravintolat/tampere/hermia-6",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Wokattua teriyakikanaa sekä basmatiriisiä",
+            "Butter tofua ja lämmintä kasvissalaattia",
+            "Gratinoitua lasagnea ja hedelmäistä rucolasalaattia",
+            "Cheddar burger, bataattiranut ja keittiön omaa chilidippiä",
+            "Keväinen Creme ninon ja salaattibuffet",
+            "Grab&Go! Artesaanileipä curry-tonno ja tex mex-seitanvebab patonki sekä Tomaatti-mozzarella-pestosalaattia"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Paneroitua porsaanleikettä ja omenaista kastiketta",
+            "Rosmariinilla maustettua appelsiinikanaa ja yrttiriisiä",
+            "Kanttarelli-härkislasagnettea ja kevätkasviksia",
+            "Kenko Pop Up: Inkivääripossua, seesampaahdettua tofua, mungpapu-sienipannaria sekä muita japanialaisia makuja",
+            "Inkivääri-porkkanakeittoa ja salaattibuffet",
+            "Grab&Go! Artesaanileipinä curry-tonno ja tex mex-seitanvebab sekä Tomaatti-mozzarella-pestosalaattia"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Curry bar: Kofta Dopiaza lihapullia, Kana Kormaa, Kasvis Jalfreziä, raitaa, ananaschutneyta ja naanleipää",
+            "Kenko Pop Up: Inkivääripossua, seesampaahdettua tofua, mungpapu-sienipannaria sekä muita japanialaisia makuja",
+            "Japanilainen nuudelikeitto ja salaattibuffet",
+            "Grab&Go! Artesaanileipinä curry-tonno ja tex mex-seitanvebab sekä Tomaatti-mozzarella-pestosalaattia"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Helatorstai"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Paneroitu porsaanleike, valkosipuliperunoita, pippurikastiketta ja paistettuja kasviksia",
+            "Tofua vihreessä curry-kookoskastikeessa ja bastimatiriisiä",
+            "Bataatti-kookoskeittoa",
+            "Pizzat pepperoni-ananas-aurajuusto ja zukkini-tomaatti-mozzarella"
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Munkkimiehet",
+      "alue": "Rusko",
+      "kategoria": 1,
+      "url": "https://munkkimiehet.fi/kuluttajille/",
+      "huom": "Lounaslista on kuvana — avaa ravintolan sivulta",
+      "paivat": []
+    },
+    {
       "nimi": "Ravintola Idaho",
       "alue": "Sääksjärvi",
+      "kategoria": 1,
       "url": "https://www.facebook.com/people/Ravintola-Idaho-Oy/100070629319742/",
       "huom": "Lounaslista löytyy Facebookista",
       "paivat": []
     },
     {
+      "nimi": "Ravintola Osku",
+      "alue": "Rusko",
+      "kategoria": 1,
+      "url": "https://ravintolaosku.fi/",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Korealainen kanapata, basmatia, korianteria",
+            "Kasvispyörykkä, yrtti-lohkoperunat, ruohosipuli-kermaviili, lämmin",
+            "Delisalaatti (juusto) & kesäkurpitsakeitto",
+            "Appelsiini-suklaacookierahka / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Grilli-ja maustemakkaraa, paistetut perunat, sinappinen kurkkudippi, höyrytetyt kasvikset / Kana-kookoskeitto",
+            "Kukkakaali-parsakaaligratiini & perunat",
+            "Delisalaatti (falafel & punajuurihummus) & vegaaninen bataatti-kookoskeitto",
+            "Hedelmäsalaatti lime-inkivääriliemellä / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Possua smetana-paprikakastikkeessa, perunasose paahdetulla sipulilla, paahdettua punajuurta",
+            "Risotto limonello",
+            "Delisalaatti (uuniperuna broileri-sinihomejuustotäytteellä) & kevyt tomaatti-kasviskeitto",
+            "Ananas-passionsmoothie / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Helatorstai, ravintola suljettu!"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Fish& Chips, aiolia / Kanapasta & juusto",
+            "Välimeren paneroitu kasvispihvi, ranskanperunat, aiolia",
+            "Delisalaatti (Välimeren kana) & kermainen sipulikeitto",
+            "Suklaamousse / hedelmä"
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Ruskon Helmi",
+      "alue": "Rusko",
+      "kategoria": 1,
+      "url": "https://ruskonhelmi.fi/lounaslista/",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "MUSTAMAKKARA",
+            "TERIYAKIKANAA"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "MAISSIPANEROITU KALA",
+            "KAALIKÄÄRYLEET",
+            "VALKOSIPULIHÄRKÄÄ"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "KOOKOS-KANAKEITTO",
+            "PULLEDPORK VUOKA",
+            "LIHAPULLAT"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "SULJETTU"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "SULJETTU"
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Gate of India",
+      "alue": "Hervanta",
+      "kategoria": 2,
+      "url": "https://www.gateofindia.fi/",
+      "huom": "Ei lounaslistaa nettisivulla",
+      "paivat": []
+    },
+    {
+      "nimi": "Hertta",
+      "alue": "Hermia",
+      "kategoria": 2,
+      "url": "https://linkosuo.fi/toimipaikka/hertta/",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Valkosipuligratinoitua uunimakkaraa & kermaperunaa",
+            "Broileria Tikka masala & riisiä",
+            "Keitto: Parsakaalisosekeitto",
+            "Chef´s menu: Lohimurekepihvit Hollandaisekastikkeella",
+            "Vegaaniruoka keittiöstä: Tofua Tikka masala"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Hot honey chicken & curry-ananasdippi",
+            "Shahi paneer halloumijuustolla",
+            "Keitto: Paahdettu paprika-tomaattikeitto",
+            "Jälkiruoaksi raikas hedelmäsalaatti"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Mureaa puolukka-karamellipossua",
+            "– hölskyperunat tillillä ja smetanalla L, G (amito)",
+            "Kasvispihvejä",
+            "Keitto: Tomaattinen katkarapukeitto",
+            "Chef´s menu: Rapeita kanan boneless wingsejä Texas Pete kastikkeella, ranskalaiset, sinihomejuustodippiä ja dippikasviksia",
+            "Vegaaniruoka keittiöstä: Kasvispihvit soijadipillä & ranskalaisia"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "HELATORSTAI"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Parmesan paneroitua broileria & appelsiinijogurttia",
+            "– harissajuureksia & sitrus-timjami perunat",
+            "Kaalikääryleitä & puolukkaa",
+            "Keitto: Kasvissosekeitto",
+            "Chef´s menu: Lohi-caesar salaatti paistetulla parsalla & lehtikaalilla",
+            "Jälkiruoaksi uuniomena rahkaa"
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Kontukeittiö",
+      "alue": "Hervanta",
+      "kategoria": 2,
+      "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kookos-bataattikeittoa",
+            "Italialaisia lihapullia tomaattikastikkeessa",
+            "Välimeren kasvispyöryköitä tomaattikastikkeessa"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Juustoista savuriistakeittoa",
+            "Mantelikalaa l",
+            "Kasvisjauhispyöryköitä pestokastikkeessa"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Nakkikeittoa",
+            "Omena-siideribroileria",
+            "Kikherne-porkkanapihvejä ja kylmäkastiketta"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Malabadi",
+      "alue": "Hervanta",
+      "kategoria": 2,
+      "url": "https://www.malabadi.fi/",
+      "huom": "Ei lounaslistaa nettisivulla",
+      "paivat": []
+    },
+    {
+      "nimi": "Heval",
+      "alue": "Hervanta",
+      "kategoria": 3,
+      "url": "https://heval.fi/lounas/",
+      "huom": "Avaa lounaslista ravintolan sivulta",
+      "paivat": []
+    },
+    {
       "nimi": "Malakai",
       "alue": "Sääksjärvi",
+      "kategoria": 3,
       "url": "https://malakairavintola.fi/",
       "huom": "Ei lounaslistaa nettisivulla",
       "paivat": []
+    },
+    {
+      "nimi": "Orvokki",
+      "alue": "Hermia",
+      "kategoria": 3,
+      "url": "https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Possun baby back ribsit",
+            "– juustoinen bourbon whiskey BBQ- dippi L,G ja savupaprikaperunat",
+            "Punajuuri-vuohenjuustolasagne",
+            "Keittiöstä päivän vegaani: Punajuuritagliatellea voipavuilla ja pestolla",
+            "Vihreä kalakeitto"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Teemana Etelä-afrikka – makuja kokin kotimaasta",
+            "Salaattipöydästä löytyy muun muassa porkkana-ananassalaattia, persikkaista curry-nuudelisalaattia, banaanisalaattia, mintulla ja sitruunalla maustettua couscous-juustosalaattia siemenillä…",
+            "Green bean beef stew – mureaa naudan lapaa ja vihreitä papuja",
+            "Cape Malay chicken curry with sambal – mausteinen broilericurry L,G sekä Orvokin oma sambal-chilikastike",
+            "Chakalaka – Tomaattinen papu-kasvispata",
+            "Lisukkeina keltainen riisi rusinoilla sekä paahdetut bataattilohkot",
+            "Tarjolla myös paahdetulla chilillä maustettua kurpitsasosekeittoa",
+            "Kahvin kanssa milktart – kanelilla maustettua maitotorttua"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Kievin kana",
+            "– paahdettu valkosipulidippi L,G ja sitruuna-persiljaperunat",
+            "Japanilaistyylinen yakisoba-nuudeliwok ylikypsällä possun kyljellä M (sis merilevä)",
+            "Kookoksella ja limellä maustettu porkkanasosekeitto",
+            "Päivän vegaani: Yakisoba-nuudeliwok vegelastuilla"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Helatorstai"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Rapea porsaanleike",
+            "– sinappinen kurkkumajoneesi",
+            "– uuniranskalaiset",
+            "Havaijin huli huli kanapata",
+            "Keittiöstä päivän vegaani: Seitanrulla",
+            "Tikka masala-tuoretomaattikeitto paahdetuilla kikherneillä",
+            "Kahvin kanssa vaahtokarkkimousse ja mustikkakastike"
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Reaktori",
+      "alue": "Hervanta",
+      "kategoria": 3,
+      "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/reaktori/",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Currylla maustettuja kukkakaalipyöryköitä - Aloo Gobi 8kpl/annos kpl",
+            "Ruohosipulijogurttia (Vegaaninen kastike saatavilla)",
+            "Paahdettua perunaa",
+            "Ahvenpyöryköitä 6kpl/annos kpl",
+            "Ruohosipulijogurttia",
+            "Paahdettua perunaa",
+            "Täyteläistä jauhelihakastiketta"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Pennepastaa ja mifua Margherita",
+            "Gluteeniton ja vegaaninen vaihtoehto: Currylla maustettuja kukkakaalipyöryköitä",
+            "Intialaista jogurttikalaa 1kpl/annos kpl",
+            "Keitettyjä perunoita",
+            "Vehnätortillat 1kpl/annos kpl",
+            "Savustetulla paprikalla maustettua kebabtäytettä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Juurespyöryköitä 5kpl/annos kpl",
+            "Vegaaninen vaihtoehto: Currylla maustetut kukkakaalipyörykät",
+            "Paahdettua perunaa",
+            "Ruohosipulijogurttia",
+            "Bataattisosekeittoa",
+            "Aasialaista broileripataa ja tuoretta korianteria",
+            "Paahdettua perunaa",
+            "Rapeaa yrttikalaa 2kpl/annos kpl"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Mexican kasvispihvejä",
+            "Ranch-kastiketta",
+            "Paahdettua perunaa",
+            "Jauhelihapyöryköitä",
+            "Pippurikastiketta",
+            "Paahdettua perunaa"
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Sisu",
+      "alue": "Hervanta",
+      "kategoria": 3,
+      "url": "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Pyttipannua",
+            "Broilerileike l"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Lohikeitto+salaatti",
+            "Pihvipataa",
+            "Kalapihvi/pangasius l"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Pizzaa l",
+            "Pariloitua maksaa",
+            "Uunifilettä"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Kiinni hyvää helatorstaita"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Winkkari",
+            "Pippuripihvi",
+            "Broileria curry"
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Speakeasy",
+      "alue": "Hervanta",
+      "kategoria": 3,
+      "url": "https://www.speakeasy.fi/hervanta/lounas/",
+      "huom": "",
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "11.5.",
+            "Kievinkana ja mangomajoneesi, ranskalaiset",
+            "Kebabpasta",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
+            "Mustikkarahka"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "12.5.",
+            "Broileria teriyakikastikkeella, riisi",
+            "Lohikiusaus",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
+            "Omenapiirakka ja vaniljakastike"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "13.5.",
+            "Karjalanpaisti, muusi",
+            "Kalapuikot kermaviilikastikkeella",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
+            "Suklaa-dominomousse"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "All you can eat! -siipipäiviä",
+            "Tusinatorstaisin Hervannan Speakeasy viettää",
+            "All you can eat! -siipipäiviä klo 12 alkaen aina iltaan asti",
+            "0,5l limsan kanssa"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "SPEAKEASYN BURGERBUFFET",
+            "Talon naudanlihapihvejä ja paneroitua kanaa",
+            "Maalaisranskalaisia ja olutpaneroituja sipulirenkaita",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla(l",
+            "Mansikkapirtelö"
+          ]
+        }
+      ]
     }
   ]
 }
