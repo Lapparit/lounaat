@@ -35,7 +35,7 @@ jobs:
       - name: Asenna riippuvuudet
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 pypdf Pillow pytesseract
+          pip install requests beautifulsoup4 pypdf Pillow pytesseract numpy
 
       - name: Aja scraperit
         run: python scrape.py
