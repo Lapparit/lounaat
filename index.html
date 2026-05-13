@@ -248,7 +248,7 @@
 
 <script>
 const PAIVAT = ["maanantai", "tiistai", "keskiviikko", "torstai", "perjantai", "lauantai", "sunnuntai"];
-const RYHMA_JARJESTYS = ["Sääksjärvi", "Hervanta", "Hermia", "Rusko", "Lahdesjärvi"];
+const KATEGORIAT = [1, 2, 3];
 
 function tanaanIndeksi() {
   // 0=su JS:ssä, 0=ma meidän taulukossa
@@ -354,38 +354,38 @@ function rendoiRavintola(r) {
 }
 
 function ryhmittele(ravintolat) {
-  // Ryhmittele alueen mukaan, säilytä RYHMA_JARJESTYS-järjestys.
-  // Per ryhmä: menulliset aakkosissa ensin, menuttomat aakkosissa lopussa.
+  // Ryhmittele kategorian mukaan (1, 2, 3).
+  // Per kategoria: menulliset aakkosissa ensin, menuttomat aakkosissa lopussa.
 
   const ryhmat = {};
   for (const r of ravintolat) {
-    const alue = r.alue || "Muut";
-    if (!ryhmat[alue]) ryhmat[alue] = [];
-    ryhmat[alue].push(r);
+    const kat = r.kategoria || 0;
+    if (!ryhmat[kat]) ryhmat[kat] = [];
+    ryhmat[kat].push(r);
   }
 
   // Järjestä jokainen ryhmä
-  for (const alue in ryhmat) {
+  for (const kat in ryhmat) {
     const onMenu = r => r.paivat && r.paivat.length > 0;
-    const lista = ryhmat[alue];
+    const lista = ryhmat[kat];
     const menulliset = lista.filter(onMenu).sort((a, b) =>
       a.nimi.localeCompare(b.nimi, "fi"));
     const menuttomat = lista.filter(r => !onMenu(r)).sort((a, b) =>
       a.nimi.localeCompare(b.nimi, "fi"));
-    ryhmat[alue] = [...menulliset, ...menuttomat];
+    ryhmat[kat] = [...menulliset, ...menuttomat];
   }
 
-  // Palauta järjestyksessä [{alue, ravintolat}]
+  // Palauta järjestyksessä [{kategoria, ravintolat}]
   const tulos = [];
-  for (const alue of RYHMA_JARJESTYS) {
-    if (ryhmat[alue] && ryhmat[alue].length > 0) {
-      tulos.push({ alue, ravintolat: ryhmat[alue] });
-      delete ryhmat[alue];
+  for (const kat of KATEGORIAT) {
+    if (ryhmat[kat] && ryhmat[kat].length > 0) {
+      tulos.push({ kategoria: kat, ravintolat: ryhmat[kat] });
+      delete ryhmat[kat];
     }
   }
-  // Mahdolliset muut alueet jotka eivät olleet etukäteen tunnettuja
-  for (const alue in ryhmat) {
-    tulos.push({ alue, ravintolat: ryhmat[alue] });
+  // Mahdolliset muut kategoriat jotka eivät olleet etukäteen tunnettuja
+  for (const kat in ryhmat) {
+    tulos.push({ kategoria: kat, ravintolat: ryhmat[kat] });
   }
   return tulos;
 }
@@ -402,9 +402,9 @@ async function lataa() {
     const ryhmitelty = ryhmittele(data.ravintolat);
 
     const lista = document.getElementById("lista");
-    lista.innerHTML = ryhmitelty.map(({alue, ravintolat}) => `
-      <section class="alue-osio" data-alue="${escapoi(alue)}">
-        <h2 class="ryhma-otsikko">${escapoi(alue)}</h2>
+    lista.innerHTML = ryhmitelty.map(({kategoria, ravintolat}) => `
+      <section class="alue-osio" data-kategoria="${escapoi(String(kategoria))}">
+        <h2 class="ryhma-otsikko">${escapoi(String(kategoria))}.</h2>
         <div class="grid">
           ${ravintolat.map(rendoiRavintola).join("")}
         </div>
