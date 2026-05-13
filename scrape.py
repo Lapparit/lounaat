@@ -661,45 +661,200 @@ def scrape_osku() -> list[dict]:
 
 def scrape_aito_kotilounas() -> list[dict]:
     """
-    Aito kotilounas Sääksjärvi.
+    Aito kotilounas Sääksjärvi (Sääksjärven Lounaskahvila).
 
-    Sivulla on viikonpäivien jälkeen ruokalistat. Käytetään yleistä parseria
-    joka tunnistaa viikonpäivät tekstistä.
+    Sivu: https://www.aitokotilounas.fi/lounaslista/
+
+    HUOM: Lounaslista on PDF-tiedostona, ei HTML-sisältönä. Sivu käyttää
+    WordPressin pdf-poster -pluginia. Strategia:
+    1. Hae HTML
+    2. Parsi PDF:n URL data-attributes -attribuutista
+    3. Lataa PDF
+    4. Lue teksti pypdf:llä
+    5. Parsi teksti viikonpäiviksi ja ruoiksi
     """
+    import json
+    from io import BytesIO
+
     url = "https://www.aitokotilounas.fi/lounaslista/"
     html = hae_sivu(url)
     if not html:
+        print("  [Aito] hae_sivu palautti None")
         return []
+
     soup = BeautifulSoup(html, "html.parser")
 
-    main = soup.find("main") or soup.find(class_="entry-content") or soup
-
-    paivat_nimet = ("Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai")
-    paivat = []
-    nykyinen_paiva = None
-    nykyiset_ruoat: list[str] = []
-
-    for el in main.find_all(["p", "strong", "h2", "h3", "h4", "li"]):
-        teksti = siivoa(el.get_text(" "))
-        if not teksti:
+    # 1) Etsi PDF-URL data-attributes -atribuutista
+    pdf_url = None
+    for div in soup.find_all(class_="wp-block-pdfp-pdf-poster"):
+        attrs = div.get("data-attributes")
+        if not attrs:
             continue
-        on_paiva = False
-        for paiva in paivat_nimet:
-            if teksti.lower().startswith(paiva.lower()) and len(teksti) < 60:
-                if nykyinen_paiva and nykyiset_ruoat:
-                    paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat[:6]})
-                nykyinen_paiva = teksti
-                nykyiset_ruoat = []
-                on_paiva = True
+        try:
+            data = json.loads(attrs)
+            if data.get("file"):
+                pdf_url = data["file"]
                 break
-        if on_paiva:
+        except (json.JSONDecodeError, AttributeError):
             continue
-        if nykyinen_paiva and 5 < len(teksti) < 150:
-            if teksti not in nykyiset_ruoat:
-                nykyiset_ruoat.append(teksti)
 
-    if nykyinen_paiva and nykyiset_ruoat:
-        paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat[:6]})
+    if not pdf_url:
+        print("  [Aito] PDF-URL ei löytynyt HTML:stä")
+        return []
+
+    print(f"  [Aito] PDF: {pdf_url}")
+
+    # 2) Lataa PDF
+    try:
+        r = requests.get(pdf_url, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        pdf_data = r.content
+    except Exception as e:
+        print(f"  [Aito] PDF-lataus epäonnistui: {e}")
+        return []
+
+    # 3) Lue teksti pypdf:llä
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        print("  [Aito] pypdf-kirjasto puuttuu — lisää 'pypdf' "
+              "requirements.txt:hen")
+        return []
+
+    try:
+        reader = PdfReader(BytesIO(pdf_data))
+        teksti = ""
+        for page in reader.pages:
+            teksti += (page.extract_text() or "") + "\n"
+    except Exception as e:
+        print(f"  [Aito] PDF-luku epäonnistui: {e}")
+        return []
+
+    if not teksti.strip():
+        print("  [Aito] PDF:stä ei saatu tekstiä (skannattu kuva?)")
+        return []
+
+    # 4) Parsi teksti viikonpäiviksi ja ruoiksi
+    return _parsi_aito_pdf_teksti(teksti)
+
+
+def _parsi_aito_pdf_teksti(teksti: str) -> list[dict]:
+    """
+    Parsii Aito kotilounas -PDF:n teksti päiviksi ja ruoiksi.
+
+    PDF on 2-sarakkeinen, joten pypdf tuottaa tekstin jossa:
+    - Otsikkorivillä on 1 tai 2 päivää (esim. "MAANANTAI 11.05. TORSTAI 14.05.")
+    - Bullet (•) -ruoat kuuluvat vasempaan sarakkeen päivään
+    - Multilinet ruoat: jatkorivi ei ala bulletilla eikä isolla kirjaimella
+    - Erikoispäivien viestit ("Helatorstai, ei lounasta") kuuluvat oikean
+      sarakkeen päivään
+    """
+    import re as _re
+
+    PAIVA_NIMET_TR = ("MAANANTAI", "TIISTAI", "KESKIVIIKKO", "TORSTAI",
+                      "PERJANTAI")
+    NIMET_NORM = {p: p.capitalize() for p in PAIVA_NIMET_TR}
+
+    paivat_dict: dict[str, list[str]] = {}
+    nykyinen_vasen: str | None = None
+    nykyinen_oikea: str | None = None
+
+    # Rivit jotka eivät ole ruokia (header/footer)
+    def on_otsikko_tai_footer(rivi: str) -> bool:
+        rl = rivi.lower()
+        avainsanat = (
+            "pitkäahteentie", "puh.", "lempäälä", "sääksjärven liikekeskus",
+            "annokset myös", "lounastoimitukset",
+            "lounas tarjoillaan", "sis. lounas", "salaattipöytä, leivät",
+            "vesi/maito", "kahvi/tee",
+        )
+        return any(w in rl for w in avainsanat)
+
+    # Erikoisviestit jotka kuuluvat oikealle sarakkeelle
+    def on_erikoisviesti(rivi: str) -> bool:
+        rl = rivi.lower()
+        return ("ei lounasta" in rl or
+                "vapaapäivä" in rl or
+                "helatorstai" in rl or
+                "pyhäpäivä" in rl or
+                "suljettu" in rl)
+
+    for raw in teksti.splitlines():
+        rivi = siivoa(raw)
+        if not rivi:
+            continue
+        if on_otsikko_tai_footer(rivi):
+            continue
+
+        # Onko tämä otsikkorivi? Etsi päivien nimet rivillä (vain isolla
+        # kirjaimella, koska PDF:ssä käytetään isoja kirjaimia otsikoissa).
+        loydot = []
+        for p in PAIVA_NIMET_TR:
+            idx = rivi.find(p)
+            if idx >= 0:
+                # Tarkistetaan että ei ole keskellä sanaa (esim. ei matchaa
+                # "TIISTAI" sisällä jossain). Tarkistetaan ympäröivät merkit.
+                ennen = rivi[idx-1] if idx > 0 else " "
+                jalkeen_idx = idx + len(p)
+                jalkeen = rivi[jalkeen_idx] if jalkeen_idx < len(rivi) else " "
+                if not ennen.isalpha() and not jalkeen.isalpha():
+                    loydot.append((idx, p))
+        loydot.sort()
+
+        if loydot:
+            # Otsikkorivi
+            nykyinen_vasen = NIMET_NORM[loydot[0][1]]
+            paivat_dict.setdefault(nykyinen_vasen, [])
+            if len(loydot) >= 2:
+                nykyinen_oikea = NIMET_NORM[loydot[1][1]]
+                paivat_dict.setdefault(nykyinen_oikea, [])
+            else:
+                nykyinen_oikea = None
+            continue
+
+        # Sisältörivi — minne kuuluu?
+        if on_erikoisviesti(rivi):
+            # Erikoisviesti — oikealle sarakkeelle jos sellainen on
+            kohde = nykyinen_oikea or nykyinen_vasen
+            if kohde and rivi not in paivat_dict.get(kohde, []):
+                paivat_dict[kohde].append(rivi)
+            continue
+
+        if not nykyinen_vasen:
+            continue
+
+        # Tämä on ruokarivi tai sen jatko, kuuluu vasemmalle sarakkeelle
+        # Tunnistetaan jatkorivi: ei ala bulletilla EIKÄ "Keittiöstä":lla
+        # EIKÄ isolla kirjaimella (lauseen alku)
+        on_uusi_rivi = (rivi.startswith("•") or
+                       rivi.lower().startswith("keittiöstä") or
+                       (rivi[0].isupper() and not rivi[0].islower()))
+        # Erikoisuus: "riisiä (L)" alkaa pienellä → on jatkorivi
+        # "Keittiöstä:" alkaa isolla → uusi rivi
+        # "• Kalaleikettä" alkaa bulletilla → uusi rivi
+        on_jatkorivi = not (rivi.startswith("•") or
+                            rivi.lower().startswith("keittiöstä") or
+                            (rivi[0].isupper() if rivi else False))
+
+        if on_jatkorivi and paivat_dict[nykyinen_vasen]:
+            # Yhdistä edelliseen
+            paivat_dict[nykyinen_vasen][-1] += " " + rivi
+        else:
+            # Poista bullet ja whitespace alusta
+            puhdas = _re.sub(r"^[•\-\*]\s*", "", rivi)
+            if puhdas:
+                paivat_dict[nykyinen_vasen].append(puhdas)
+
+    # Muunna ma-pe-järjestykseen
+    JARJESTYS = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai"]
+    paivat = []
+    for p in JARJESTYS:
+        if p in paivat_dict and paivat_dict[p]:
+            paivat.append({"paiva": p, "ruoat": paivat_dict[p][:8]})
+
+    if not paivat:
+        print(f"  [Aito] PDF:n teksti löytyi mutta ei päiviä. "
+              f"Ote tekstistä:\n  {teksti[:500]!r}")
 
     return paivat
 
