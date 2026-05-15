@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-14T11:05:55.949357+00:00",
+  "paivitetty": "2026-05-15T09:36:34.732246+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -350,7 +350,7 @@
             "Paneroitu porsaanleike, valkosipuliperunoita, pippurikastiketta ja paistettuja kasviksia",
             "Tofua vihreessä curry-kookoskastikeessa ja bastimatiriisiä",
             "Bataatti-kookoskeittoa",
-            "Pizzat pepperoni-ananas-aurajuusto ja zukkini-tomaatti-mozzarella"
+            "Pizzat jauheliha-ananas-punasipulipizza, tomaatti-paprika-ricotta-munakoisopizza"
           ]
         }
       ]
@@ -555,12 +555,14 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Parmesan paneroitua broileria & appelsiinijogurttia",
-            "– harissajuureksia & sitrus-timjami perunat",
+            "Parmesan paneroitua broileria & appelsiini-jogurttia VL (sis.maito,vehnä)",
+            "– harissajuureksia & sitrus-timjami perunat M,G (sis.selleri)",
             "Kaalikääryleitä & puolukkaa",
             "Keitto: Kasvissosekeitto",
-            "Chef´s menu: Lohi-caesar salaatti paistetulla parsalla & lehtikaalilla",
-            "Jälkiruoaksi uuniomena rahkaa"
+            "Chef´s menu: Lohi-caesar salaatti paistetulla parsalla & lehtikaalilla L (sis.kananmuna,maito,vehnä)",
+            "Vegaani ruoka keittiöstä: Seitan kasvis stir fry VEG",
+            "Jälkiruoaksi uuniomena rahkaa L, G (sis.maito)",
+            "Saa vegaanisen uuniomena vaahdon Veg, G,( Sis.soija)"
           ]
         }
       ]
@@ -683,11 +685,11 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Rapea porsaanleike",
+            "Rapea porsaanleike M (saa myös possun fileepihviä M,G)",
             "– sinappinen kurkkumajoneesi",
             "– uuniranskalaiset",
             "Havaijin huli huli kanapata",
-            "Keittiöstä päivän vegaani: Seitanrulla",
+            "Päivän vegaani: Huli huli tofua",
             "Tikka masala-tuoretomaattikeitto paahdetuilla kikherneillä",
             "Kahvin kanssa vaahtokarkkimousse ja mustikkakastike"
           ]
@@ -740,10 +742,11 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Mexican kasvispihvejä",
+            "Mexican kasvispihvejä 2kpl/annos kpl",
             "Ranch-kastiketta",
             "Paahdettua perunaa",
-            "Jauhelihapyöryköitä",
+            "Jauhelihapyöryköitä 6kpl/ annos kpl",
+            "(Gluteeniton vaihtoehto saatavilla)",
             "Pippurikastiketta",
             "Paahdettua perunaa"
           ]
