@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-16T07:34:15.100335+00:00",
+  "paivitetty": "2026-05-16T09:10:30.788822+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -15,70 +15,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Paneroitua porsaanleikettä (suomalaista possua)",
-            "Chimichurri Majoneesi",
-            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
-            "Juures perunamuusia",
-            "Salaattibuffet",
-            "Paprika burger Halloumi salaatti (Annosruoka ei sis. buffettin)"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Jauhelihapihvejä talon pippuri-kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Paneroitua kalaa",
-            "Perunamuusia",
-            "Salaattibuffet",
-            "Yrttibroileri burger Vuohenjuusto poke (Annosruoka ei sis. buffettin)"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
-            "Bearnaise kanaa (suomalaista broileria)",
-            "Paahdettua perunaa",
-            "Riisiä",
-            "Salaattibuffet",
-            "Halloumi burger Burger salaatti (Annosruoka ei sis. buffettin)"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Crispy chicken (suomalaista broileria)",
-            "Caffitellan Chorizopyörykät",
-            "Juustoinen kermaperuna",
-            "Salaattibuffet",
-            "Pulled Pork fries & fries Paneroitu broileri poke (Annosruoka ei sis. buffettin)"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
-            "Broileria & kasviksia (suomalaista broileria)",
-            "Salaattibuffet",
-            "Kanaburger (Annosruoka ei sis. buffettin)"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Uunijuurekset",
-            "Kermaperunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 20"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
