@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-18T06:22:50.277568+00:00",
+  "paivitetty": "2026-05-18T12:02:37.858137+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -276,9 +276,9 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Buffet: Ylikypsää häränposkea tomaatti-punaviinikastikkeessa ja kurkumariisiä",
+            "Buffet: Ylikypsää häränrintaa tomaatti-punaviinikastikkeessa ja kurkumariisiä",
             "Buffet: Bataattipihvejä, lohkoperunoita ja grillattuja kasviksia, omenatzatzikia",
-            "Grilli: Grillattua kirjolohta, chimichurri kastiketta, perunamuusia ja kasviksia",
+            "Grilli: Grillattua kirjolohta, chimichurrikastiketta, perunamuusia ja kasviksia",
             "Grilli: Sataykana Bowl"
           ]
         },
@@ -332,7 +332,7 @@
             "Appelsiinillä ja chilillä maustettua uunikalaa, paahdettuja bataattilohkoja ja lime- inkivääriaiolia",
             "Mausteista kasvisriisiä ja rapeaa quornia",
             "Kananpojan lehtipihvi, pico de gallo-tuore salsaa, lohkoperunoita ja jalapeno-majoneesia",
-            "Paneroitu kalaburger, ranut, coleslow ja kurkkumajoneesia",
+            "Paneroitu kalaburger, lohkot, coleslow ja kurkkumajoneesia",
             "Parsakaali-cheddarkeittoa ja salaattibuffet",
             "Aspretto aulakahvilasta Lounasleipinä kinkku- meetvursti ja feta- tzatziki sekä take away maalaisalaatti kanalla"
           ]
@@ -393,7 +393,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Lihakeitto",
+            "o Lihakeitto",
             "Kinkkukiusaus"
           ]
         },
@@ -408,21 +408,21 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Lihakeitto",
-            "Maksakastike"
+            "Makaronilaatikko"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
             "Hernekeitto",
-            "Pekonipasta"
+            "PekonipastaL"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
             "Kaalikeitto",
-            "Makaronilaatikko"
+            "Maksakastike"
           ]
         }
       ]
@@ -518,7 +518,7 @@
             "Rapeaa broilerin paistileikettä Texas pete kastikkeella",
             "Tomaattinen possumuhennos",
             "Keitto: Paahdettu fenkoli -appelsiinikeitto",
-            "Chef´s Menu: Fish and chips Hertan tyyliin M",
+            "Chef´s Menu: paistettua lohta, ranskanperunoita ja majoneesia",
             "Vegaaniruoka keititöstä: Tomaatti-linssimuhennos"
           ]
         },
@@ -569,7 +569,48 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Lohikeittoa",
+            "Juustoista uunimakkaraa",
+            "Kasvispyöryköitä ja paprikakastiketta"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihakeittoa",
+            "Broileri-savujuustokiusausta",
+            "Juustoista mifukiusausta"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Kermaista kanakeittoa",
+            "Kaalikääryleitä",
+            "Kasviskaalikääryleitä"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Unkarilaista lihakeittoa",
+            "Slaavilaista kanaa",
+            "Halloumi - tomaattikastiketta"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Siskonmakkarakeittoa",
+            "Juustomestarin uuniseitä",
+            "Feta-pinaattimunakasta"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
@@ -669,14 +710,14 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kasvis-kvinoapihvit 2kpl/annos kpl",
             "Ruohosipulijogurttia",
             "(Vegaaninen kastike saatavilla)",
             "Paahdettua perunaa",
-            "Rapeita kalapuikkoja 6kpl/annos kpl",
+            "Italialaiset kasvispyörykät 8kpl/annos kpl",
             "(Gluteeniton vaihtoehto saatavilla)",
             "Ruohosipulijogurttia",
-            "Perunamuusia"
+            "Perunamuusia",
+            "Siemenpaneroitua kalaa 1 kpl/annos"
           ]
         },
         {
