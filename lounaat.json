@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-18T14:43:51.758079+00:00",
+  "paivitetty": "2026-05-19T10:50:00.077599+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -219,12 +219,16 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Samettinen kasvissosekeitto",
-            "Cherry barbeque paahdettua ylikypsää porsaan niskaa",
+            "Cherry barbeque paahdettua ylikypsää possua",
             "Kylmäsavulohipasta",
             "Juustoripote",
             "Paahdetut yrttiperunat",
             "Paahdetut kauden kasvikset",
-            "Ratatouillea jättipavuilla"
+            "Ratatouillea jättipavuilla",
+            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Raejuusto",
+            "-Tonnikala",
+            "-Marinoitu härkis"
           ]
         },
         {
@@ -285,10 +289,10 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Buffet: Paneroitua possua, valkosipulilla muhennettua perunaa, grillattuja vihanneksia ja RANCH-kastiketta",
-            "Buffet: Soijapyöryköitä kookos-mangokastikkeessa, basmatiriisiä ja wokattuja kasviksia",
+            "Buffet: Pannupihvejä, valkosipuli-kermaperunoita, vihanneksia ja Ranch-kastiketta",
+            "Buffet: Falafelpyöryköitä sataya-mangokastikkeessa, basmatiriisiä ja kasviksia",
             "Grilli: Gratinoitua paholaisen kana-vuohenjuustopastaa",
-            "Grilli: Salaatti hunajaglaseeratuilla juureksilla, västerbottenilla ja paahdetuilla pähkinöillä"
+            "Grilli: Hedelmäinen salaatti västerbottenilla ja pähkinöillä"
           ]
         },
         {
@@ -340,7 +344,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Dijonilla ja rakuunalla maustettua kanaa ja parsa-kasviscouscous",
+            "Dijonilla ja rakuunalla maustettua kanaa ja riisiä",
             "Savulohivuokaa, fenkoli-tilli-kurkkusalaattia",
             "Kasvis-couscous, fetaa, aurinkokuivattua tomaattia ja jeeraporkkanoita",
             "POKE BOWL: Sataykanaa, marinoitua tofua, kimchiä, kaali-porkkanasalaattia sekä quinoasalaattia",
@@ -526,10 +530,10 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Mureaa pippurihärkää & lohkoperunoita",
-            "Lempeän tulinen myskikurpitsa-kikherne korma M, G, VEG (Sis. manteli)",
+            "Lempeän tulinen myskikurpitsa-kikherne korma",
             "Keitto: Pinaattikeitto keitetyillä kananmunilla",
             "Chef`s Menu: Pariloitua broileria Bearnaise kastikkeella & paahdetut juurekset",
-            "Jälkiruoaksi: Hedelmäinen kääretorttu",
+            "Jälkiruoaksi: Hedelmäinen kääretorttu L (kananmuna, maito, manteli)",
             "Saa VEG ja G jälkiruoat keittiöstä"
           ]
         },
@@ -726,7 +730,7 @@
           "ruoat": [
             "Kikherne-bataattipataa",
             "Tummaa riisiä",
-            "Jauhelihakebakoita",
+            "Jauhelihakebakoita 3kpl/annos, extra , kysy gluteeniton vaihtoehto",
             "BBQ -majoneesia",
             "Paahdettua perunaa"
           ]
