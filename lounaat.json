@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-19T13:46:21.934448+00:00",
+  "paivitetty": "2026-05-20T10:34:58.792697+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,42 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Jauheliha-sipulipihvejä ja muusia",
+            "Teriyakipossua ja riisiä",
+            "Daimrahkaa",
+            "Keittiöstä: Mozzarellasalaatti",
+            "Hernekeittoa",
+            "Uunimakkaraa ja muusia",
+            "Chicken Tikka Masala ja riisiä",
+            "Lettuja, hilloa ja kermavaahtoa"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Kievin kanaa ja kermaperunaa",
+            "Paahdettuja kanansiipiä",
+            "Marjapiirakkaa",
+            "Keittiöstä: Halloumisalaatti",
+            "Porsaan uunifilettä ja muusia",
+            "Kiinalaista kanakastiketta ja riisiä",
+            "Kerroskiisseliä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Naudan palapaistia ja valkosipuliperunaa",
+            "Kanafilettä pinaattikastikkeella ja muusia",
+            "Kaura-omenapaistosta",
+            "Keittiöstä: Kana-pekonisalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -126,7 +161,7 @@
             "Lehtipihvi ranskalaisilla",
             "Misokeittoa",
             "Tomaatti-basilikamunakasta",
-            "Metsäsienisalaatti #",
+            "Metsäsienisalaatti",
             "Paholaisen kanapizzaa",
             "Vihreäsalaatti"
           ]
@@ -205,7 +240,11 @@
             "Puolukkahillo",
             "Perinteinen perunamuusi",
             "Paahdetut kauden kasvikset",
-            "Talon halloum-punajuuriröstit"
+            "Talon halloum-punajuuriröstit",
+            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Halloum",
+            "-Keitetty kananmuna",
+            "-Broileria Alabama"
           ]
         },
         {
@@ -263,10 +302,10 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Buffet: Turskaa hollandaise, tilliperunoita ja sitrusmarinoituja kasviksia",
-            "Buffet: Itsetehtyjä kasvispihvejä, bataatti-kesäkurpitsapaistosta ja kurkku-omenatzatzikia",
-            "Grilli: Grillattu possun lehtipihvi chili-limevoilla sekä maissi-papusalaattia ja ranskalaisia",
-            "Grilli: Paistettua halloumisalaattia ja balsamicovinegretiä"
+            "Buffet: Turskaa hollandaise, tilliperunoita ja kasviksia",
+            "Buffet: Itsetehtyjä kasvispihvejä, kasviksia ja kurkku-omenatzatzikia",
+            "Grilli: Grillattu possun lehtipihvi maustevoilla sekä maissi-papusalaattia ja ranskalaisia",
+            "Grilli: Hedelmäinen halloumisalaatti"
           ]
         },
         {
@@ -506,9 +545,10 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Puna-ahventa mausteisessa harissakastikkeessa",
-            "Juustolla gratinoitu makkarapannu sekä perunamuusia",
+            "Juustolla gratinoitu makkarapannu sekä perunamuusia L",
             "Keitto: Inkiväärinen chilikeitto",
-            "Chef`s Menu: Fetajuusto pinsa rucolalla ja kirsikkatomaateilla"
+            "Chef`s Menu: Fetajuusto pinsa rucolalla ja kirsikkatomaateilla",
+            "Vegaaniruoka keittiöstä: Vegaaninen pinsa"
           ]
         },
         {
@@ -638,12 +678,10 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Possua crying tiger",
-            "(sis. osterikastike)",
+            "Makuja Thaimaasta – Possua Crying Tiger M (sis.vehnä, osterikastike)",
             "– basmatiriisiä",
             "Orvokin oma: Punajuuri-halloumpihvit ja tsatsiki",
-            "Chorizomakkarakeitto",
-            "Kahvin kanssa Orvokin rocky road"
+            "Chorizomakkarakeitto"
           ]
         },
         {
@@ -704,8 +742,9 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Kikherneitä ja kasviksia kormakastikkeessa",
-            "Tummaa riisiä",
-            "Pekonilla ja sipulilla täytettyä uunimakkaraa",
+            "(Vegaaninen vaihtoehto saatavilla)",
+            "Paahdettua perunaa",
+            "Pekonilla ja sipulilla täytettyä uunimakkaraa 1kpl/annos kpl",
             "Paahdettua perunaa"
           ]
         },
