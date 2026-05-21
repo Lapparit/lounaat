@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-20T12:11:35.647061+00:00",
+  "paivitetty": "2026-05-21T10:55:49.788645+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -172,7 +172,7 @@
             "Porsaanleikkeitä",
             "Dijon-bearnaisekalaa",
             "Härkis-kaalilaatikkoa",
-            "Crispy chicken leipä",
+            "Crispy chicken leipä ranskalaisilla",
             "Savukirjolohikeittoa",
             "Linssi-kasvispihvjä",
             "Zhug-maustettua kanaa",
@@ -256,7 +256,11 @@
             "Maksa-pekoni kastike",
             "Paahdetut yrttiperunat",
             "Paahdettuja uunijuureksia",
-            "Pähkinäinen tofuwok"
+            "Tuorejuustotäytteiset pinaattipihvit",
+            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Paahdettua halloumia",
+            "-Kimchimarinoitua broileria",
+            "-Paahdettuja kikherneitä"
           ]
         },
         {
@@ -311,10 +315,10 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Buffet: Riistakäryä, perunamuusia ja puolukkaa",
-            "Buffet: Uuni paahdettua kanaa, kasvisriisiä ja cajunkastiketta",
-            "Grilli: Kasvisrullia, sweet and sour kastiketta ja wokattuja kasviksia",
-            "Grilli: Rapuceasar rapeilla leipäkrutongeilla"
+            "Buffet: Riistakäristystä, perunamuusia ja puolukkaa",
+            "Buffet: Uuni paahdettua kanaa cajunkastikkeessa ja riisiä",
+            "Buffa: Kasvisrullia, sweet and sour kastiketta ja wokattuja kasviksia",
+            "Grilli: Katkarapucaesar rapeilla leipäkrutongeilla"
           ]
         },
         {
@@ -370,9 +374,9 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Tulisen makeaa gochujang härkää ja kasviksia, basmatiriisiä",
-            "Feta-pinaattitäytteisiä kampelaleikkeitä ja porkkana-perunapaistosta, tillijugurttia",
-            "Lehtikaali-pähkinäpastaa, yrttiporkkanoita",
+            "Tulisen makeaa gochujang härkää ja kasviksia, yrttiperunamuusia",
+            "Feta-pinaattitäytteisiä kampelaleikkeitä ja yrttiporkkanaa, tillijugurttia",
+            "Rucola-pähkinäpastaa, yrttiporkkanoita",
             "POKE BOWL: Sataykanaa, marinoitua tofua, kimchiä, kaali-porkkanasalaattia sekä quinoasalaattia",
             "Kesäkurpitsa-vuohenjuustokeittoa ja salaattibuffet",
             "Aspretto aulakahvilasta Lounasleipinä kinkku- meetvursti ja feta- tzatziki sekä take away maalaisalaatti kanalla"
@@ -751,7 +755,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Tomaatti-vuohenjuustokastiketta",
+            "Tomaatti-vuohenjuustokastiketta (Kysy vegaaninen vaihtoehto)",
             "Luomutäysjyväpastaa",
             "Burgundin broileripataa",
             "Tummaa riisiä"
