@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-24T08:05:39.925908+00:00",
+  "paivitetty": "2026-05-24T09:25:45.728841+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -407,36 +407,36 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "o Lihakeitto",
-            "Kinkkukiusaus"
+            "Nakkikeitto",
+            "Broilerin fileet"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Tomaattinen jauhelihakeitto",
-            "Sweet chili broileria"
+            "Lihakeitto",
+            "Janssoninkiusaus"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Lihakeitto",
-            "Makaronilaatikko"
+            "Jauhelihakeitto",
+            "Läskisoosi"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
             "Hernekeitto",
-            "PekonipastaL"
+            "Kebabkastike"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kaalikeitto",
-            "Maksakastike"
+            "Lohikeittto",
+            "Porsaan ulkofilettä"
           ]
         }
       ]
