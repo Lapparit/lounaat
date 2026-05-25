@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-25T06:52:36.992109+00:00",
+  "paivitetty": "2026-05-25T12:07:05.251215+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -51,72 +51,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Jauhelihamureke talon kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Crispy chicken nuggets (suomalaista broileria)",
-            "Mexican crema",
-            "Bataatti Perunamuusia",
-            "Salaattibuffet",
-            "Halloumi burger Burger salaatti (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Kanaa talon marinadissa (G;M) (suomalaista broileria)",
-            "Paneroitua Possua",
-            "Jalapeno-valkosipuli majoneesi",
-            "Juustoinen perunapaistos",
-            "Riisi",
-            "Vuohenjuusto burger Teriyaki poke (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possun sisäfilettä tummassa rosmariini kastikeessa (suomalaista possua)",
-            "Parmesan broileria (suomalaista broileria)",
-            "Paahdettu peruna",
-            "Salaattibuffet",
-            "Pulled Pork fries&fries Paneroitu broileri poke (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Paneroitua kanaa (suomalaista broileria)",
-            "Talon Ranch majoneesi",
-            "Makkaramix",
-            "Lohkoperuna",
-            "Salaattibuffet",
-            "Juusto burger ja Broilerisalaatti (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Smetanainen uunilohi (suomalaista kirjolohta)",
-            "Uunimakkaraa juustokuorrutteella",
-            "Perunamuusia",
-            "Salaattibuffet",
-            "Halloum burger (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Crispy chicken (suomalaista broileria)",
-            "Sweetchili majoneesi",
-            "Nakki-lihapulla mix",
-            "Grilli perunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -638,7 +573,48 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kurpitsasosekeittoa",
+            "Pekonista broilerpataa",
+            "Kookos-tofupataa"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Kanakeittoa",
+            "Lihamureketta ja kermakastiketta",
+            "Yrttinen kikhernepihvi ja kylmäkastike"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Lihakeittoa",
+            "Purjo-juustokastikkeessa haudutettua seitä",
+            "Kasvisjauhispyöryköitä juustokastikkeessa"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Kermaista fenkoli-kalakeittoa",
+            "Bbq broileria",
+            "Soija-kasviskastiketta"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Yrttistä kasviskeittoa",
+            "Lamminpään lumousta",
+            "Kikherne-kukkakaalicurrya"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
