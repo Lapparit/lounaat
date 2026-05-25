@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-25T12:53:37.323216+00:00",
+  "paivitetty": "2026-05-25T14:18:29.463091+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,43 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kinkkukiusausta",
+            "Kanaa Igorin tapaan",
+            "Jauheliha-nachovuoka",
+            "Daimrahkaa",
+            "Keittiöstä: Lohisalaattisalaatti",
+            "Hernekeittoa",
+            "Jauhelihapihvejä ja muusia",
+            "Butter Chicken ja riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Mustaamakkaraa ja muusia",
+            "Hawajinleikettä ja kermaperunaa",
+            "Paahdettuja kanansiipiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Halloumisalaatti",
+            "Kalaleikettä ja muusia",
+            "Kebabkastiketta ja ranskalaisia",
+            "Suklaamoussea"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Pyttipannua ja paistettua kananmunaa",
+            "Currykanaa ja riisiä",
+            "Mokkapaloja",
+            "Keittiöstä: Texmex-kanasalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
