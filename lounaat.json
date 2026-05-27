@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-26T12:49:05.435433+00:00",
+  "paivitetty": "2026-05-27T14:41:45.455725+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,43 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kinkkukiusausta",
+            "Kanaa Igorin tapaan",
+            "Jauheliha-nachovuoka",
+            "Daimrahkaa",
+            "Keittiöstä: Lohisalaattisalaatti",
+            "Hernekeittoa",
+            "Jauhelihapihvejä ja muusia",
+            "Butter Chicken ja riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Mustaamakkaraa ja muusia",
+            "Hawajinleikettä ja kermaperunaa",
+            "Paahdettuja kanansiipiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Halloumisalaatti",
+            "Kalaleikettä ja muusia",
+            "Kebabkastiketta ja ranskalaisia",
+            "Suklaamoussea"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Pyttipannua ja paistettua kananmunaa",
+            "Currykanaa ja riisiä",
+            "Mokkapaloja",
+            "Keittiöstä: Texmex-kanasalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -124,12 +160,12 @@
             "Hawaijilaista huli huli -kanaa",
             "Juusto-pinaattilasagnettea luomuviljasta",
             "Grillattua lohta ja kasviksia",
+            "Tilliperunoita",
             "Pinaattikeittoa ja kananmunia",
             "Chorizopyöryköitä",
             "Koskenlaskija-herkkusienimunakasta",
             "Nizzansalaatti #",
-            "Vihreää salaattia",
-            "Kebabpizzaa"
+            "Vihreää salaattia"
           ]
         },
         {
@@ -155,9 +191,7 @@
             "Butter tofu – intialaista tofukastiketta",
             "Kermaista pippurikastiketta",
             "Lankkuperuna",
-            "Lehtipihvi ranskalaisilla",
-            "Pepperonipizzaa",
-            "Vihreää salaattia"
+            "Lehtipihvi ranskalaisilla"
           ]
         }
       ]
@@ -203,22 +237,30 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Kaurakermainen purjo- perunasosekeitto",
-            "Possua Sinappisessa kermakastikkeessa",
+            "Kermainen purjo-perunasosekeitto",
+            "Possua sinappisessa kermakastikkeessa",
             "Havaijin Chicken pasta",
             "Juustoripote",
             "Paahdetut yrttiperunat",
             "Paahdetut kauden kasvikset",
-            "Falafelpyörykät",
+            "Falafel-pyörykät",
             "Jogurttikastike",
-            "Oat-cream leek and potato puree soup",
+            "*Kilohinnalla punnittavan salaatin proteiinit",
+            "– Marinoitua broileria",
+            "– Halloumia",
+            "– Mozzarellaa",
+            "Creamy leek and potato puree soup",
             "Pork in mustard cream sauce",
             "Hawaiian Chicken pasta",
             "Cheese sprinkle",
             "Roasted herb potatoes",
             "Roasted seasonal vegetables",
             "Falafel balls",
-            "Yogurt sauce"
+            "Yogurt sauce",
+            "*Proteins of salad sold by kilogram",
+            "– Marinated chicken",
+            "– Halloumi",
+            "– Mozzarella"
           ]
         },
         {
@@ -244,7 +286,6 @@
             "Paahdettu sipulirouhe",
             "Paahdetut lohkoperunat",
             "Paahdetut talon kasvikset",
-            "Pyttipannua kasvismakkaralla",
             "Creamy fish soup",
             "Beef pan steaks",
             "Hamburger buns",
@@ -287,10 +328,10 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Buffet: Kanaa pot au feu, pilahviriisiä ja kasviksia",
+            "Buffet: Paholaisen kanaa, pilahviriisiä ja kasviksia",
             "Buffet: Västerbotten piirakkaa ja hedelmä-pähkinäsalaattia",
             "Grilli: Kalkkunan cordon bleu, sitruuna-perunamuusia, kaprisvoita ja kevät parsaa",
-            "Grilli: Lämminsavulohi-rapu foccassiaa"
+            "Grilli: Lämminsavulohi-rapu foccaciaa"
           ]
         },
         {
@@ -346,8 +387,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Possua sweet & sour, basmatiriisiä",
-            "Daegu Jorim, korealainen seesam-kalagratiini ja paahdettua perunaa",
+            "Possua sweet & sour, jasminiriisiä",
+            "Daegu Jorim, korealainen kala-seesamgratiini",
             "Kookos-linssikastiketta ja harissa couscousia, paistettuja kasviksia",
             "KREIKKA POP UP! Moussakaa, feta gratinoitua munakoisoa ja kesäkurpitsaa, ricottaperunaa, tzatzikia, punajuurta ja jugurttia",
             "Kardemummalla maustettua omena-palsternakkakeittoa ja salaattibuffet",
@@ -702,8 +743,9 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Broileria tikka masala",
-            "Orvokin oma: Pinaattiletut",
+            "Broileria tikka masala L,G (Keittiöstä M,G)",
+            "– riisiä ja paistetut kasvikset",
+            "Orvokin oma: Voissa paistetut pinaattiletut",
             "– puolukkahillo",
             "Paahdettu paprikasosekeitto"
           ]
@@ -758,7 +800,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Seitan-kookoscurrya ja korianteria",
+            "Seitan-kookoscurrya ja korianteria (gluteeniton vaihtoehto tofu-kookoscurrya ja korianteria)",
             "Tummaa riisiä",
             "Broileripataa Sweet & Sour",
             "Tummaa riisiä"
