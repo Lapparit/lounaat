@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-28T04:53:44.126409+00:00",
+  "paivitetty": "2026-05-28T06:39:04.230700+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -271,6 +271,10 @@
             "Paahdettuja perunoita",
             "Paahdetut kauden kasvikset",
             "Kasviswokkia",
+            "*Kilohinnalla punnittavan salaatin proteiinit",
+            "-bbq possua",
+            "-halloumia",
+            "-pestomozzarella",
             "Jälkiruoaksi: Pannukakkua, hilloa ja kermavaahtoa"
           ]
         },
@@ -340,7 +344,7 @@
             "Buffet: Grillattua broilerin fileetä, herkkusienikastiketta, pilahviriisiä ja marinoitua paksoisalaattia",
             "Buffet: Ricotta-juustolla ja pinaatilla täytettyjä canneloneja tomaattikastikkeessa, parmesaania",
             "Grilli: Hollandaisekuorrutettua turskaa, tilliperunoita ja kasvissalaattia",
-            "Grilli: Vegan budha tofu bowl"
+            "Grilli: Tofu bowl"
           ]
         },
         {
@@ -625,7 +629,8 @@
             "Juures muussi",
             "Riisi",
             "Keitto: Täyteläinen kukkakaalikeitto",
-            "Chef`s Menu: Meatfree burger, coleslaw & frittiperunat"
+            "Chef`s Menu: Meatfree burger, coleslaw & bataattiranskalaiset",
+            "SAA VEG burgeri keittiöstä"
           ]
         },
         {
@@ -809,9 +814,11 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kasvisbolognese-pastavuokaa",
-            "Broileripyöryköitä",
+            "Kasvisbolognese-pastavuokaa (gluteeniton vaihtoehto kasvisbolognesekastike ja paahdetut perunat)",
+            "Broileripyöryköitä 6kpl/annos, extra",
             "Tzatsiki-jogurttia",
+            "Paahdettua perunaa",
+            "Uunimakkaraa pekoni-sipulitäytteellä 1kpl/annos, extra",
             "Paahdettua perunaa"
           ]
         },
