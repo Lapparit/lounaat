@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-28T06:39:04.230700+00:00",
+  "paivitetty": "2026-05-28T23:53:16.883237+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -191,7 +191,9 @@
             "Butter tofu – intialaista tofukastiketta",
             "Kermaista pippurikastiketta",
             "Lankkuperuna",
-            "Lehtipihvi ranskalaisilla"
+            "Lehtipihvi ranskalaisilla",
+            "Pepperonipizzaa",
+            "Vihreää salaattia"
           ]
         }
       ]
@@ -403,19 +405,19 @@
           "paiva": "Torstai",
           "ruoat": [
             "Lohi-pinaattilasagnettea ja appelsiini-fenkolisalaattia",
-            "Kanaa makeassa tomaatti- paprikakastikkeessa ja jasmine riisiä",
+            "Kanaa makeassa tomaatti-paprikakastikkeessa ja jasmine riisiä",
             "Bataattia ja kikherneitä maapähkinäkastikkeessa, grillattuja maissintähkiä",
             "KREIKKA POP UP! Moussakaa, feta gratinoitua munakoisoa ja kesäkurpitsaa, ricottaperunaa, tzatsikia, punajuurta ja jugurttia, artisokka- papusalaattia",
-            "Artesaanileivät kana-curry sekä tomaatti-mozzarella ja take away salaaattina vuohenjuusto",
-            "Jalapeno-kasviskeittoa ja salaattibuffet"
+            "Jalapeno-kasviskeittoa ja salaattibuffet",
+            "Artesaanileivät kana-curry sekä tomaatti-mozzarella ja take away salaaattina vuohenjuusto"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Sitruunakanaa, valkosipuli-rosmariiniperunoita ja keväistä salaattia",
+            "Sitruunakanaa, valkosipuli-timjamiperunoita ja keväistä salaattia",
             "Parsa-vuohenjuustopiirakkaa ja herne-päärynäsalaattia",
-            "MARRY ME! -tofua ja basmatiriisiä",
+            "Härkää punaisessa currykastikkeessa ja jasminiriisiä",
             "Maalaissalaatti yrttikanalla tai paahdetulla vuohenjuustolla",
             "Perjantain pizzat: kebab-sipuli-, kinkku-aura-ananas ja margherita",
             "Bataattisosekeitto",
