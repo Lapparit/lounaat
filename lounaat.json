@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-05-30T06:02:40.537234+00:00",
+  "paivitetty": "2026-05-30T23:38:28.056445+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,43 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Makkarakastiketta ja muusia",
+            "Puna-ahvenleikettä ja muusia",
+            "Panang Curry ja riisiä",
+            "Marjajogurttia",
+            "Keittiöstä: Lohisalaatti",
+            "Hernekeittoa",
+            "Lihapullat ja muusia",
+            "Chicken Tikka Masala ja riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Metsästäjänleikettä ja kermaperunaa",
+            "Kanawok",
+            "Paahdettuja kanansiipiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Tonnikalasalaatti",
+            "Paistettuja muikkuja ja varhaisperunaa",
+            "Possuwok ja riisiä",
+            "Suklaamoussea"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Karjalanpaistia ja keitettyjä perunoita",
+            "Crispykanaa, currykastiketta ja riisiä",
+            "Marjapiirakkaa",
+            "Keittiöstä: Mozzarellasalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -521,7 +557,59 @@
       "kategoria": 2,
       "url": "https://linkosuo.fi/toimipaikka/hertta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "KREIKKA TEEMA",
+            "Tomaattiset lihapullat feta-murulla",
+            "Kreikkalainen kalavuoka",
+            "Paahdetut perunat",
+            "Keitto: Kylmä kurkkukeitto",
+            "Chef´s menu: Kana souvlaki, tsatsiki & ranskanperunat"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "KREIKKA TEEMA",
+            "Naudanliha stifado",
+            "Linssi moussaka",
+            "Keitto: Papu-kasviskeitto",
+            "Chef´s menu: Sitruuna-oregano broileria",
+            "Jälkiruoaksi Rizogalo (kreikkalainen riisifrutti)"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Paneroitua kananpojan sisäfilettä, ranch kastike",
+            "Pinaatti-härkäpapulasagne",
+            "Keitto: Tomaattikeitto",
+            "Chef´s menu: Lohikeitto"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Karjalanpaisti",
+            "Paneroitua hietakampelaa",
+            "Perunamuusia",
+            "Keitto: Hernekeitto palvikinkulla",
+            "Chef´s menu: Palak paneer halloumijuustolla",
+            "Jälkiruoaksi pannukakkua & hilloa"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Mallasglaseerattua possun niskaa",
+            "Juustoinen cheddar-feta pannupizza",
+            "Keitto: Juuressosekeitto",
+            "Chef´s menu: Big mac burgeri & ranskanperunat"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Kontukeittiö",
@@ -575,7 +663,7 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Broileria hot honey-kastikkeessa",
-            "Tuplapepperoni-paprikaspagettivuoka",
+            "Tuplapepperoni-spagettivuoka",
             "Kukkakaalisosekeitto sinihomejuustolla"
           ]
         },
