@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-01T05:28:02.593546+00:00",
+  "paivitetty": "2026-06-01T07:31:13.229093+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -129,7 +129,6 @@
             "Satay-tofukastiketta",
             "Bearnaiselohta ranskalaisilla",
             "Paahdettuja tandoorikasviksia",
-            "Maalaisranskalaisia",
             "Kermaista lohikeittoa",
             "Porsaanpaistia (Suomi)",
             "Falafelpyöryköitä",
@@ -205,11 +204,14 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Samettinen kasvissosekeitto",
-            "Sitruunalla & timjamilla paahdettua kananpoikaa",
+            "Bbq-paahdettua kananpoikaa",
             "Täysjyväpaneroitua kalafilettä",
             "Basilikakermaviiliä",
-            "Paahdettuja uunijuureksia kuminalla maustettuna",
-            "Kikherne-kukkakaalipannua"
+            "Paahdettuja uunijuureksia",
+            "Kikherne-kukkakaalipannua",
+            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Salaattijuustoa",
+            "-Keitettyä kananmunaa"
           ]
         },
         {
@@ -277,10 +279,10 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Buffet: Broilerinfileetä, choritzoriisiä, jerkypapuja ja limejogurttia",
+            "Buffet: Broilerinfileetä, choritzoriisiä, jerkypapuja ja kurkkutzatzikia",
             "Buffet: Halloumi-punajuuripihvejä, grillattua munakoisoa ja zucchinia, kurkkutzatzikia",
-            "Grilli: Club sandwich ja ranskalaisia, myös kasvisversiona",
-            "Grilli: Brie-päärynäsalaattia, paahdettuja saksanpähkinöitä"
+            "Grilli: Club sandwich ja ranskalaisia, myös kasvisversiona tofulla",
+            "Grilli: Brie-päärynäsalaattia, paahdettuja cashewpähkinöitä"
           ]
         },
         {
@@ -557,18 +559,19 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "KREIKKA TEEMA",
+            "MAKUMATKA KREIKKAAN",
             "Tomaattiset lihapullat feta-murulla",
             "Kreikkalainen kalavuoka",
-            "Paahdetut perunat",
+            "Paahdetut perunat M",
             "Keitto: Kylmä kurkkukeitto",
-            "Chef´s menu: Kana souvlaki, tsatsiki & ranskanperunat"
+            "Chef´s menu: Kana souvlaki, tsatsiki & ranskanperunat",
+            "Vegaaniruoka keittiöstä: Meatfree pihvi tomaattikastikkeella"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "KREIKKA TEEMA",
+            "MAKUMATKA KREIKKAAN",
             "Naudanliha stifado",
             "Linssi moussaka",
             "Keitto: Papu-kasviskeitto",
@@ -613,7 +616,48 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Metsäsienikeittoa",
+            "Lindströminpihvejä kermasipulikastikkeessa",
+            "Halloumi – punajuuripihvejä ja kylmäkastiketta"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Juustoista kesäkeittoa",
+            "Broileria pestokastikkeessa",
+            "Kikherne-bataattipataa"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Lohikeittoa",
+            "Pekonista porsaanlihakastiketta",
+            "Soija-kasvispataa"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Broilerjauhelihakeittoa",
+            "Silakkapihvejä ja kylmää munakastiketta l",
+            "Tuorejuustotäytteisiä pinaatti-kasvispihvejä"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Pinaattikeittoa ja kananmunia",
+            "Koskenlaskijan lihapataa",
+            "Tortilloita soija-paputäytteellä"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
@@ -709,11 +753,12 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kvinoa pihvejä",
-            "Hummuksella maustettua kauragurttia",
+            "Kvinoa pihvejä 2kpl/annos, extra",
+            "Hummuksella maustettua soijagurttia",
             "Paahdettua perunaa",
             "Tandoorikanaa jogurttikastikkeessa",
-            "Tummaa riisiä"
+            "Tummaa riisiä",
+            "Meidän keittiön lasagnettea"
           ]
         },
         {
