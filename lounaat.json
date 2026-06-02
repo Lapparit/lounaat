@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-01T23:55:12.730971+00:00",
+  "paivitetty": "2026-06-02T05:14:20.965991+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -144,7 +144,7 @@
             "Smash-burger",
             "Maalaisranskalaisia",
             "Kanakeittoa thaimaalaisittain",
-            "Kasvis-munakasrullaa",
+            "Kasvis-munakas",
             "Chimichurri-maustettua possua",
             "Katkarapu-lasinuudelisalaatti #",
             "Paholaisen kanapizzaa"
@@ -222,13 +222,12 @@
             "Moussakaa Fastellen tapaan",
             "Lihapullia kreikkalaisittain",
             "Lämmin couscous",
+            "Paahdettua porkkanaa ja paprikaa",
             "Kreikkalaista fetapastaa",
-            "A Taste Trip to Greece!",
-            "Avgolemono – Greek chicken soup",
-            "Moussaka in Fastellen style",
-            "Greek-style meatballs",
-            "Warm couscous",
-            "Greek feta pasta"
+            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Salaattijuustoa",
+            "-Marinoitua broileria",
+            "-Paahdettua tofua"
           ]
         },
         {
@@ -582,6 +581,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
+            "HUOM! Ravintolassa ruuhkaa klo 11-12",
             "Paneroitua kananpojan sisäfilettä, ranch kastike",
             "Pinaatti-härkäpapulasagne",
             "Keitto: Tomaattikeitto",
@@ -616,48 +616,7 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Metsäsienikeittoa",
-            "Lindströminpihvejä kermasipulikastikkeessa",
-            "Halloumi – punajuuripihvejä ja kylmäkastiketta"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Juustoista kesäkeittoa",
-            "Broileria pestokastikkeessa",
-            "Kikherne-bataattipataa"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Lohikeittoa",
-            "Pekonista porsaanlihakastiketta",
-            "Soija-kasvispataa"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Broilerjauhelihakeittoa",
-            "Silakkapihvejä ja kylmää munakastiketta l",
-            "Tuorejuustotäytteisiä pinaatti-kasvispihvejä"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Pinaattikeittoa ja kananmunia",
-            "Koskenlaskijan lihapataa",
-            "Tortilloita soija-paputäytteellä"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Malabadi",
@@ -703,10 +662,11 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Broileria hot honey-kastikkeessa",
+            "Broilerin rintaa hot honey-kastikkeella",
             "– riisiä",
             "Tuplapepperoni-spagettivuoka",
-            "Kukkakaalisosekeitto sinihomejuustolla"
+            "Kukkakaalisosekeitto sinihomejuustolla",
+            "Päivän kasvis: Mureita vegelastuja ja kasviksia hot honey-tyyliin"
           ]
         },
         {
