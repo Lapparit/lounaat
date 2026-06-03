@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-03T05:30:53.419795+00:00",
+  "paivitetty": "2026-06-03T07:27:26.144823+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -67,78 +67,7 @@
       "kategoria": 1,
       "url": "https://linkosuo.fi/toimipaikka/ravintola-fastelle/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Samettinen kasvissosekeitto",
-            "Bbq-paahdettua kananpoikaa",
-            "Täysjyväpaneroitua kalafilettä",
-            "Basilikakermaviiliä",
-            "Paahdettuja uunijuureksia",
-            "Kikherne-kukkakaalipannua",
-            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
-            "-Salaattijuustoa",
-            "-Keitettyä kananmunaa"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Makumatka Kreikkaan! 1/2",
-            "Avgolemono – kreikkalainen kanakeitto",
-            "Moussakaa Fastellen tapaan",
-            "Lihapullia kreikkalaisittain",
-            "Lämmin couscous",
-            "Paahdettua porkkanaa ja paprikaa",
-            "Kreikkalaista fetapastaa",
-            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
-            "-Salaattijuustoa",
-            "-Marinoitua broileria",
-            "-Paahdettua tofua"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Makumatka Kreikkaan! 2/2",
-            "Fasolado – kreikkalainen papukeitto",
-            "Broileria kreikkalaisittain",
-            "Stifado, kreikkalainen lihapata",
-            "Perunamuusia kreikkalaisittain",
-            "Paahdettua munakoisoa",
-            "Kesäkurpitsamoussaka",
-            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
-            "-Salaattijuustoa",
-            "-Marinoitua broileria",
-            "-Paahdettua tofua"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Perinteistä hernekeittoa palvikinkulla",
-            "Sipulirouhe",
-            "Kananpoikaa savuisessa paprikakastikkeessa",
-            "Jauhelihalasagne",
-            "Paahdetut yrttiperunat",
-            "Paahdetut satokauden kasvikset",
-            "Vegepyöryköitä",
-            "Tomaattinen pestodippi",
-            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Kermaisen tomaattinen kalakeitto",
-            "Karamellisoitua mureaa porsaanlapaa",
-            "Patatas Bravas – mausteiset espanjanperunat",
-            "Paahdetut satokauden kasvikset",
-            "Juustoinen kasvispizza rucolalla"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Hermia 5",
@@ -168,16 +97,16 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Buffet: Grillattua turskaa ja lämmintä bataattisalaattia",
-            "Buffet: Mexicolaisia kasvispihvejä, muhennettuja papuja, lohkoperunoita ja lime-minttujugurttia",
-            "Grilli: Paahtopaisti-dijon smörrebröd",
+            "Buffet: Grillattua turskaa, sienikastiketta, lohkoperunoita ja lämmintä bataattisalaattia",
+            "Buffet: Mexicolaisia kasvispihvejä, muhennettuja papuja, lohkoperunoita ja kurkkutzatzikia",
+            "Grilli: Paahtopaisti smörrebröd",
             "Grilli: Maalaissalaattia pekonimurulla ja makealla savukanalla"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Buffet: Broilerinfileetä ja grillattua halloumia, paholaisen salaattia, riisiä ja seesam-vihanneksia",
+            "Buffet: Polpette in salsa cremosa al pesto-lihapullat samettisessa pestokastikkeessa ja pastaa",
             "Buffet: Falafelpihvi,muhennettua punajuurta ja pikku perunoita, basilikakreemiä",
             "Grilli: Blue cheese burger ja lohkoperunoita",
             "Grilli: Papu-couscous salaattia, päärynää ja vuohenjuustoa, hernehummusta"
@@ -186,7 +115,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Buffet: Polpette in salsa cremosa al pesto-lihapullat samettisessa pestokastikkeessa ja pastaa",
+            "Buffet: Broilerinfileetä ja grillattua halloumia, paholaisen salaattia, riisiä ja seesam-vihanneksia",
             "Buffet: Paahdettua parsakaalia ja tofua, punakaalicoleslow ja yrttiperunaa",
             "Grilli: Porsaanlehtipihvi maustevoilla, lohkoperunoita ja kevätsalaattia sitrusvinegretillä",
             "Grilli: Rapucaesar, krutonkeja ja melonia"
@@ -230,7 +159,7 @@
             "Talon omatekemää lasagnea ja tomaatti-kevätsipulisalaattia",
             "Kalaa tikka masala ja basmatiriisiä",
             "Fetalla ja polentalla täytetyt paprikat",
-            "SOPPA POP UP! Massaman kanakeittoa sekä cheddar-jalapenosandwich",
+            "SOPPA POP UP! Massaman kanakeittoa sekä cheddar-jalapenosandwich ja tonnikalasandwich",
             "Purjo-perunasosekeittoa, paahdettuja siemeniä ja salaattibuffet",
             "Artesaanileipinä sriracha-kana / tofu-avokado take away salaattina rapucaesar"
           ]
@@ -342,61 +271,7 @@
       "kategoria": 2,
       "url": "https://linkosuo.fi/toimipaikka/hertta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "MAKUMATKA KREIKKAAN",
-            "Tomaattiset lihapullat feta-murulla",
-            "Kreikkalainen kalavuoka",
-            "Paahdetut perunat M",
-            "Keitto: Kylmä kurkkukeitto",
-            "Chef´s menu: Kana souvlaki, tsatsiki & ranskanperunat",
-            "Vegaaniruoka keittiöstä: Meatfree pihvi tomaattikastikkeella"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "MAKUMATKA KREIKKAAN",
-            "Naudanliha stifado",
-            "Linssi moussaka L, G, KASVIS SAA VEG keittiöstä!",
-            "Keitto: Papu-kasviskeitto",
-            "Chef´s menu: Sitruuna-oregano broileria & parmesaani- risottoa",
-            "Jälkiruoaksi Rizogalo (kreikkalainen riisifrutti) L, G SAA M, VEG keittiöstä, sis. soija"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "HUOM! Ravintolassa ruuhkaa klo 11-12",
-            "Paneroitua kananpojan sisäfilettä, ranch kastike",
-            "Pinaatti-härkäpapulasagne",
-            "Keitto: Tomaattikeitto",
-            "Chef´s menu: Lohikeitto"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Karjalanpaisti",
-            "Paneroitua hietakampelaa",
-            "Perunamuusia",
-            "Keitto: Hernekeitto palvikinkulla",
-            "Chef´s menu: Palak paneer halloumijuustolla",
-            "Jälkiruoaksi pannukakkua & hilloa"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Mallasglaseerattua possun niskaa",
-            "Juustoinen cheddar-feta pannupizza",
-            "Keitto: Juuressosekeitto",
-            "Chef´s menu: Big mac burgeri & ranskanperunat"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Kontukeittiö",
@@ -477,60 +352,7 @@
       "kategoria": 3,
       "url": "https://linkosuo.fi/toimipaikka/lounasravintola-orvokki/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Fetajuustolla ja pinaatilla täytetyt rapeat kalapalat",
-            "– yrttijogurttikastike L,G ja paahdetut pellavaperunat",
-            "Orvokin oma: Oluessa haudutettu pulled pork",
-            "– timjamipunajuuret",
-            "Red curry-kookoskeitto paahdetulla kylmäsavutofulla"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Rapea broilerin paistileike ja hot honey kastike",
-            "– riisiä",
-            "Tuplapepperoni-spagettivuoka",
-            "Kukkakaalisosekeitto sinihomejuustolla",
-            "Päivän kasvis: Mureita vegelastuja ja kasviksia hot honey-tyyliin"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Makumatka Kreikkaan",
-            "Souvlakivartaat viljaporsaan sisäfileestä",
-            "– tuoreella oreganolla maustetut perunanpuolikkaat",
-            "Psari plaki – valkoista kalaa tomaatti-sipulikastikkeessa",
-            "Avgolemono – fermentoidulla sitruunalla maustettu kanakeitto"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Makumatka Kreikkaan",
-            "Kanaburgerit",
-            "– rapeaa kananpojan paistileikettä, htipiti-paprikafetakastiketta, pihvitomaattia, aurinkokuivattua tomaattia ja punasipulia",
-            "– ranskalaiset perunat",
-            "Pastitsio – kreikkalainen lihamakaronilaatikko",
-            "Fakes – tomaattinen linssikeitto",
-            "Kahvin kanssa Orvokin oma appelsiini-maitopiirakka"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Kalifornian kana",
-            "Kebabkastike",
-            "– riisiä ja Orvokin oma chilikastike",
-            "Juustoinen kesäkeitto",
-            "Kahvin kanssa suklaapannacotta"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Reaktori",
@@ -561,11 +383,12 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Porkkanaohukaisia",
+            "Porkkanaohukaisia 3kpl/annos, extra , kysy gluteeniton ja vegaaninen vaihtoehto",
             "Puolukkahilloa",
             "Perunamuusia",
-            "Juustokuorrutettua uunimakkaraa",
-            "Perunamuusia"
+            "Juustokuorrutettua uunimakkaraa 1kpl/annos, extra",
+            "Perunamuusia",
+            "Possua paprika-herkkusienikastikkeessa"
           ]
         },
         {
