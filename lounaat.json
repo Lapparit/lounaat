@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-10T05:04:15.446488+00:00",
+  "paivitetty": "2026-06-10T06:51:37.343567+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -52,67 +52,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Paneroitua porsaanleikettä (suomalaista possua)",
-            "Chimichurri Majoneesi",
-            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
-            "Perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
-            "(suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa pinaatti-feta täytteellä",
-            "perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
-            "Bearnaise kanaa (suomalaista broileria)",
-            "Paahdettua perunaa",
-            "Riisiä",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Parmesan paneroitua broileria",
-            "Caffitellan Chorizopyörykät",
-            "Kolmen Sipulin kermaviili",
-            "kermaperuna",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
-            "Broileria & kasviksia (suomalaista broileria)",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Uunijuurekset",
-            "Kermaperunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 24"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -155,11 +95,11 @@
             "Kasvismoussakaa",
             "Black & white bbq burger",
             "Ranskalaisia perunoita",
+            "Mango-jogurttikastiketta",
             "Kahden kalan keittoa",
             "Gremolata-maustettua kanaa",
             "BBQ-majoneesia",
-            "Täytettyjä paprikoita",
-            "Katkarapu-caesarsalaatti #"
+            "Täytettyjä paprikoita"
           ]
         },
         {
@@ -289,9 +229,9 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Buffet: Anopin lihapullat kermakastikkeessa, perunamuusia ja kasviksia",
-            "Buffet: Ricotta-juustolla ja pinaatilla täytettyjä canneloneja tomaattikastikkeessa, parmesaania",
-            "Grilli: Katkarapu-parsakaalisalaattia ja yrttifocacciaa",
-            "Terassimenu: Uuniperunaa, kana-curry ja lohi-tzatziki + pikkulimu"
+            "Buffet: Munakoiso tortelliineja tomaattikastikkeessa, parmesaania",
+            "Grilli: Täytetty foccaccia katkaravuilla ja kananmunalla",
+            "Terassimenu: Uuniperunaa kana-curry tai lohi-tzatziki täytteellä + pikkulimu"
           ]
         },
         {
@@ -569,10 +509,11 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Sitruuna-timjami paahdettua broileria",
+            "Sitruuna-timjami paahdettua broileria L",
             "Tofu-kookos curry",
+            "Riisiä",
             "Keitto: Punajuurikeitto",
-            "Chef´s menu: Mureaa naudanrintaa kukkakaalirisotolla & rosmariinikastikkeella"
+            "Chef´s menu: Mureaa naudanrintaa kukkakaalilisukkeella & rosmariinikastikkeella"
           ]
         },
         {
@@ -755,7 +696,7 @@
           "ruoat": [
             "Tofua, kasviksia ja pähkinää",
             "Tummaa riisiä",
-            "Jauhelihakebakoita",
+            "Jauhelihakebakoita 3kpl/annos, extra , kysy gluteeniton vaihtoehto",
             "BBQ -majoneesia",
             "Paahdettua perunaa"
           ]
