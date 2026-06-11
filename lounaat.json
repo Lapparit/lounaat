@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-10T06:51:37.343567+00:00",
+  "paivitetty": "2026-06-11T00:02:35.438823+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -52,7 +52,67 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Paneroitua porsaanleikettä (suomalaista possua)",
+            "Chimichurri Majoneesi",
+            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
+            "Perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
+            "(suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa pinaatti-feta täytteellä",
+            "perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Possun sisäfileetä hunaja-sinappikastikkeessa (suomalaista possua)",
+            "Bearnaise kanaa (suomalaista broileria)",
+            "Paahdettua perunaa",
+            "Riisiä",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Parmesan paneroitua broileria",
+            "Caffitellan chorizopyöryköitä",
+            "Kolmen sipulin kermaviilikastiketta",
+            "Kermaperunaa",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Caffitellan jauhelihalasagnea (suomalaista nautaa ja possua)",
+            "Broileria & kasviksia (suomalaista broileria)",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Uunijuureksia",
+            "Kermaperunaa",
+            "Salaattibuffet",
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
+            "VKO 24"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Farmi",
@@ -228,10 +288,11 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Buffet: Anopin lihapullat kermakastikkeessa, perunamuusia ja kasviksia",
+            "Buffet: Anopin lihapullat kermakastikkeessa, paistettuja perunoita ja kasviksia",
             "Buffet: Munakoiso tortelliineja tomaattikastikkeessa, parmesaania",
             "Grilli: Täytetty foccaccia katkaravuilla ja kananmunalla",
-            "Terassimenu: Uuniperunaa kana-curry tai lohi-tzatziki täytteellä + pikkulimu"
+            "Terassimenu: Uuniperunaa kana-curry tai lohi-tzatziki täytteellä + pikkulimu",
+            "*********************************************"
           ]
         },
         {
@@ -289,7 +350,7 @@
             "Meze-katu: Harissakanaa, lihapullia, falafelpyöryköitä, kvinoa-fetasalaattia, pitaa, tzatzikia, baba ganoushia ja hummusta",
             "Kokonaisena kypsennettyä possun ulkofileetä, viherpippurikastiketta ja yrttiperunaa",
             "Massaman kalaa ja riisiä",
-            "Paistos kesäkurpitsasta, mifusta ja herkkusienistä sekä hunajaisia rosmariinivihanneksia",
+            "Paistos kesäkurpitsasta, mifusta ja herkkusienistä",
             "Bataattikeittoa ja inkivääripaahdettua härkistä sekä salaattibuffet",
             "Grap&Go! Artesaanileivät serrano / feta- tzatziki sekä take away salaattina vuohenjuusto"
           ]
@@ -653,7 +714,8 @@
             "Orvokin oma: Punajuuriletut",
             "– puolukkahilloa",
             "Savulihahernekeitto",
-            "– Ahvenanmaan pannukakkua ja hilloa"
+            "– Ahvenanmaan pannukakkua L ja hilloa",
+            "– saa myös lettuja"
           ]
         },
         {
@@ -661,9 +723,10 @@
           "ruoat": [
             "Orvokki nakkikioskilla",
             "Porilaiset lauantaimakkaralla",
-            "Juustoiset pekoniperunat jalapenomajoneesilla",
+            "Juustoiset pekoniranskalaiset jalapenomajoneesilla",
             "Vegemakkaraperunat kaikilla mausteilla",
-            "Karamellisoitu sipuli-sienikeitto"
+            "Karamellisoitu sipuli-sienikeitto",
+            "Kahvin kanssa snickers-tuorejuustomousse"
           ]
         }
       ]
