@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-11T05:13:26.493093+00:00",
+  "paivitetty": "2026-06-11T07:17:31.382368+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -60,7 +60,74 @@
       "kategoria": 1,
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Pyttipannua",
+            "Yrttivoissa paahdettua rapeaa kanaa",
+            "Kukkakaalicurrya ja korianterijogurttia",
+            "Grillattu lohi,kasvikset ja tilliperunaa",
+            "Tomaatti-mozzarellakeittoa",
+            "BBQ-maustettua kanaa",
+            "Peruna-pinaatti-oliivimunakasta",
+            "Kreikkalainen salaatti"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Kanaa Napolin tapaan",
+            "Piparjuurihollandaise kuorrutettua kalaa",
+            "Itte tehtyä omena-hapankaalipiirakkaa",
+            "Lehtipihvi ranskalaisilla",
+            "Kanakeittoa",
+            "Herne-punajuuripihvejä",
+            "Aioli-katkarapuja",
+            "Caesar-salaattia"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Rapeita kanansiipiä",
+            "Valkosipulihärkää",
+            "Kasvismoussakaa",
+            "Black & white bbq burger",
+            "Ranskalaisia perunoita",
+            "Mango-jogurttikastiketta",
+            "Kahden kalan keittoa",
+            "Gremolata-maustettua kanaa",
+            "BBQ-majoneesia",
+            "Täytettyjä paprikoita"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Butter chicken – kanaa intialaisittain",
+            "Cheddar-burgereita",
+            "Feta-pinaattimunakasta",
+            "Lehtipihvi ranskalaisilla",
+            "Kermaista pippurikastiketta",
+            "Parsakeittoa",
+            "Chorizopyörykkä, Suomi",
+            "Mangomajoneesia",
+            "Porsaanpaisti, viipaloitu",
+            "Caesar-kanasalaattia"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Lamminpään lumous – possua mausteisessa kastikkeessa",
+            "Rapeita chilikalafileitä",
+            "Falafelpihvejä",
+            "Smash-burger",
+            "Maalaisranskalaisia"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Fastelle",
@@ -117,7 +184,11 @@
             "Paahdetut yrttiperunat",
             "Paahdetut satokauden kasvikset",
             "Marokkolaiset kasvispihvit",
-            "Jälkiruoaksi: Pannukakkua, kermavaahtoa ja hilloa"
+            "Jälkiruoaksi: Pannukakkua, kermavaahtoa ja hilloa",
+            "*Kg-hinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Raejuusto",
+            "-Halloum",
+            "-Marinoitua broileria"
           ]
         },
         {
@@ -171,10 +242,11 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Buffet: Kookoshärkää, basmatia ja papu-maissisalaattia",
-            "Buffet: Rapeeta kampelaa, ranskalaisia, hernemursketta, aiolia sekä pikkelivihanneksia",
-            "Grilli: Kreikkalainen maalaissalaatti grillatulla pitalla",
-            "Terassimenu: Bearnaisekastikkeella kuorrutettua ja juustolla gratinoitua kanaleipää, vihersalaaattia + pikkulimu"
+            "Buffet: Kookos-curry lihapataa, basmatia ja lämpimiä kasviksia",
+            "Buffet: Rapeeta kampelaa, ranskalaisia, aiolia sekä lämpimiä kasviksia",
+            "Grilli: Maalaissalaattia fetalla",
+            "Terassimenu: Bearnaisekastikkeella kuorrutettua ja juustolla gratinoitua kanaleipää + pikkulimu",
+            "**************************************************"
           ]
         },
         {
@@ -232,10 +304,10 @@
           "paiva": "Torstai",
           "ruoat": [
             "Meze-katu: Harissakanaa, lihapullia, falafelpyöryköitä, kvinoa-fetasalaattia, pitaa, tzatzikia, baba ganoushia ja hummusta",
-            "Sitrushollandaisella kuorrutettua sein seläkettä, tilliperunoita ja kevätkasviksia, parsaa ja porkkanaa",
+            "Sitrushollandaisella kuorrutettua kalaa, tilliperunoita ja kevätkasviksia, parsaa ja porkkanaa",
             "Kansasin bbq-kanaa, kasvis-cajunriisiä ja mangomajoneesia",
-            "Bataattipihvejä, linssejä, curryjuureksia sekä appelsiini-tahinijugurttia",
-            "Savupaprika-tuorejuustokeittoa ja salaattibuffet",
+            "Porkkanapihvejä, linssejä, curryjuureksia sekä appelsiini-tahinijugurttia",
+            "Porkkanakeittoa ja salaattibuffet",
             "Grap&Go! Artesaanileivät serrano / feta- tzatziki sekä take away salaattina vuohenjuusto"
           ]
         },
@@ -368,10 +440,11 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Lihamureketta",
-            "Smetanaista uunikalaa",
+            "Sipulinen lihapata",
+            "Smetanaista uunikalaa & perunamuusia L, G M/VEG muusi keittiöstä",
             "Keitto: Voipapukeitto",
-            "Chef´s menu: Hedelmäinen vuohenjuustosalaatti"
+            "Chef´s menu: Hedelmäinen vuohenjuustosalaatti",
+            "Vegaaniruoka keittiöstä: Sipulinen nochicken pata"
           ]
         },
         {
@@ -557,7 +630,7 @@
           "ruoat": [
             "Härkispataa teriyaki",
             "Tummaa riisiä",
-            "Rapeat kalapalat",
+            "Rapeat kalapalat 3kpl/annos, extra",
             "Tartarjogurttia",
             "Paahdettua perunaa"
           ]
