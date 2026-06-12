@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-12T05:18:32.212809+00:00",
+  "paivitetty": "2026-06-12T07:07:17.719440+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -52,67 +52,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Paneroitua porsaanleikettä (suomalaista possua)",
-            "Chimichurri Majoneesi",
-            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
-            "Perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
-            "(suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa pinaatti-feta täytteellä",
-            "perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possun sisäfileetä hunaja-sinappikastikkeessa (suomalaista possua)",
-            "Bearnaise kanaa (suomalaista broileria)",
-            "Paahdettua perunaa",
-            "Riisiä",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Parmesan paneroitua broileria",
-            "Caffitellan chorizopyöryköitä",
-            "Kolmen sipulin kermaviilikastiketta",
-            "Kermaperunaa",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Caffitellan jauhelihalasagnea (suomalaista nautaa ja possua)",
-            "Broileria & kasviksia (suomalaista broileria)",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Uunijuureksia",
-            "Kermaperunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 24"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -312,10 +252,11 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Buffet: Maissi kuorrutettua broilerinfilettä, cheddarkastike, pinaattiriisi ja tuoreita lämpimiä kasviksia",
-            "Buffet: Bataatti-myskikurpitsavuokaa, kasvispihvejä ja omenakermaviiliä",
+            "Buffet: Maissi kuorrutettua broilerinfilettä, salsaa, pinaattiriisiä ja lämpimiä kasviksia",
+            "Buffet: Kasvispihvejä, sienikastiketta ja bataatti-myskikurpitsavuokaa",
             "Grilli: Tomaatti-mozzarellasalaattia hot honey",
-            "Terassimenu: SUMMER PLATE! graavilohta, tzatzikia, uusia perunoita, juustoa, serranoa, oliivi-tomaattisalaattia + pikkulimu"
+            "Terassimenu: SUMMER PLATE! Graavilohta, tzatzikia, uusia perunoita, juustoa, serranoa, oliivi-tomaattisalaattia + pikkulimu",
+            "**************************************************"
           ]
         }
       ]
@@ -598,7 +539,8 @@
             "BBQ paahdettuja possun luuttomia ribsejä",
             "Falafel pyöryköitä VEG, G & valkosipulinen yrttidippi",
             "Keitto: Porkkana-kookoskeitto",
-            "Jälkiruoaksi porkkanakakkua L (sis.vehnä, kananmuna, Maito)"
+            "Jälkiruoaksi porkkanakakkua L (sis. vehnä, kananmuna, maito, manteli, pähkinä)",
+            "M, G, VEG jälkiruoka keittiöstä (sis. manteli & pähkinä)"
           ]
         }
       ]
@@ -782,11 +724,12 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Tex Mex maustettuja kasvispyöryköitä",
+            "Tex Mex maustettuja kasvispyöryköitä 10kpl/annos, extra",
             "Aiolia",
             "Paahdettua perunaa",
             "Tulista ja aromaattista kanacurrya - Madras Chicken",
-            "Tummaa riisiä"
+            "Tummaa riisiä",
+            "Kebab-pastavuokaa"
           ]
         }
       ]
