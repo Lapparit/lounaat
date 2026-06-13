@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-13T06:40:47.620203+00:00",
+  "paivitetty": "2026-06-13T23:43:29.921551+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,45 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Puna-ahvenleikettä ja muusia",
+            "Kanaa igorin tapaan ja riisiä",
+            "Daim-rahkaa",
+            "Keittiöstä: Savulohisalaatti",
+            "Hernekeittoa",
+            "Lasagnea",
+            "Kana-currykastiketta ja riisiä",
+            "Lettuja, hilloa ja kermavaahtoa"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Porsaan uunifilettä herkkusienikastikkeessa",
+            "Kievin kanaa ja varhaisperunaa",
+            "Mascarponeherkkua",
+            "Keittiöstä: Kana-caesarsalaatti"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Pekoninakkeja ja muusia",
+            "Jauhelihapihvejä ja kermaperunaa",
+            "Mokkapaloja",
+            "Keittiöstä: Mozzarellasalaatti"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Keittiön vapaapäivä, ei lounasta"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -15,7 +53,67 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Paneroitua porsaanleikettä (suomalaista possua)",
+            "Chimichurri Majoneesi",
+            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
+            "Perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
+            "(suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa pinaatti-feta täytteellä",
+            "perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Possun sisäfileetä hunaja-sinappikastikkeessa (suomalaista possua)",
+            "Bearnaise kanaa (suomalaista broileria)",
+            "Paahdettua perunaa",
+            "Riisiä",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Parmesan paneroitua broileria",
+            "Caffitellan chorizopyöryköitä",
+            "Kolmen sipulin kermaviilikastiketta",
+            "Kermaperunaa",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Caffitellan jauhelihalasagnea (suomalaista nautaa ja possua)",
+            "Broileria & kasviksia (suomalaista broileria)",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Uunijuureksia",
+            "Kermaperunaa",
+            "Salaattibuffet",
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
+            "VKO 24"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Farmi",
