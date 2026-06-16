@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-16T06:13:04.697384+00:00",
+  "paivitetty": "2026-06-16T08:32:19.853393+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -53,66 +53,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Kanaa pippurisessa koskenlaskijakastikkeessa (suomalaista broileria)",
-            "Caffitellan kebabia",
-            "Paahdettua perunaa",
-            "Riisiä",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Kievin kanaa (suomalaista broileria)",
-            "Lime aiolia",
-            "Talon lihakastiketta (suomalaista possua ja nautaa)",
-            "Perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Karamellisoitua ylikypsää possua (suomalaista possua)",
-            "Yrttimarinoitua broileria (suomalaista broileria)",
-            "Kermaperunaa",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Jauhelihapyöryköitä ruskeassa kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa",
-            "Tilli-kermaviilikastiketta",
-            "Yrttiperunaa",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Perjantai",
-            "Ei lounasbuffetia",
-            "Hyvää Juhannusta!"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Lauantai",
-            "Ei lounasbuffetia",
-            "Hyvää Juhannusta!",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 25",
-            "Maanantai"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -248,8 +189,8 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Buffet: Sweet chilikanaa, maissiriisiä, grillattuja vihanneksia ja limejogurttikastiketta",
-            "Buffet: Maukkaita lohimureke- ja kasvispihvejä, kirkasta perunasalaattia ja sitruunakermaviiliä",
-            "Grilli: Jättirapubowl",
+            "Buffet: Maukkaita lohimurekepihvejä, kirkasta perunasalaattia ja limejogurttikastiketta",
+            "Grilli: Katkarapubowl",
             "Terassimenu: Metsästäjänleipä ja vihersalaattia + pikkulimu"
           ]
         },
@@ -623,8 +564,10 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Rapeat wieninleikkeet",
+            "(keittiöstä possun ulkofileepihviä M,G)",
             "– ranskalaiset ja sitruunamajoneesi",
             "Täyteläinen metsäsienilasagne",
+            "– paahdettua porkkanaa",
             "Juustoinen savuporokeitto"
           ]
         },
@@ -679,7 +622,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Bataatti-kookoscurrya",
+            "Bataatti-kookoscurrya, kysy gluteeniton vaihtoehto",
             "Tummaa riisiä",
             "Mausteista broileripataa - Broileripataa Mexicali",
             "Tummaa riisiä"
