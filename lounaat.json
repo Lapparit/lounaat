@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-16T00:16:05.707527+00:00",
+  "paivitetty": "2026-06-16T06:13:04.697384+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -53,7 +53,66 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kanaa pippurisessa koskenlaskijakastikkeessa (suomalaista broileria)",
+            "Caffitellan kebabia",
+            "Paahdettua perunaa",
+            "Riisiä",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Kievin kanaa (suomalaista broileria)",
+            "Lime aiolia",
+            "Talon lihakastiketta (suomalaista possua ja nautaa)",
+            "Perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Karamellisoitua ylikypsää possua (suomalaista possua)",
+            "Yrttimarinoitua broileria (suomalaista broileria)",
+            "Kermaperunaa",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Jauhelihapyöryköitä ruskeassa kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa",
+            "Tilli-kermaviilikastiketta",
+            "Yrttiperunaa",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Perjantai",
+            "Ei lounasbuffetia",
+            "Hyvää Juhannusta!"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Lauantai",
+            "Ei lounasbuffetia",
+            "Hyvää Juhannusta!",
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
+            "VKO 25",
+            "Maanantai"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Farmi",
@@ -125,36 +184,17 @@
       "huom": "",
       "paivat": [
         {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Juustoinen kasvissosekeitto",
-            "Currybroileri Vindaloo",
-            "Paahdetut satokauden kasvikset",
-            "Kauraleivitettyjä silakkapihvejä",
-            "Punajuuridippi",
-            "Kasvis-chavrepyörykkä",
-            "Kilohinnalla punnittavan salaatin proteiinilisäkkeet",
-            "-Sinihomejuustobroileria",
-            "-Raejuustoa"
-          ]
-        },
-        {
           "paiva": "Tiistai",
           "ruoat": [
             "Lempeän mausteinen myskikurpitsasosekeitto",
             "Argentiinalaisittain paahdettua chimichurri kanaa",
-            "Paahdettua valkosipulidippiä",
             "Uunimakkaraa sweet chili ranskankermalla gratinoituna",
             "Paahdetut satokauden kasvikset",
             "Peruna-juuressose",
             "Sinihomejuusto-punajuuripasta",
-            "Gently spiced pumpkin puree soup",
-            "Argentinian-style roasted chimichurri chicken",
-            "Roasted garlic dip",
-            "Oven-baked sausage with sweet chili and sour cream gratin",
-            "Roasted seasonal vegetables",
-            "Potato and root vegetable purée",
-            "Blue cheese and beetroot pasta"
+            "Kilohinnalla punnittavan salaatin proteiinilisäkkeet",
+            "– halloumi",
+            "– marnoitu tofu"
           ]
         },
         {
@@ -165,12 +205,6 @@
             "Lohi-Pinaatti lasagne",
             "Paahdetut satokauden kasvikset",
             "Paahdetut lohkoperunat",
-            "Chili con Härkis",
-            "Creamy oat cream spinach soup",
-            "Lamminpää enchantment",
-            "Salmon-Spinach lasagna",
-            "Roasted seasonal vegetables",
-            "Roasted potato wedges",
             "Chili con Härkis"
           ]
         },
@@ -180,18 +214,16 @@
             "Paahdetut kookos‑pähkinä‑chiliribsit",
             "Harissa jogurtti",
             "Paahdetut satokauden kasvikset",
-            "Marry Me Vegan",
-            "Roasted coconut-nut-chili ribs",
-            "Harissa yogurt",
-            "Roasted seasonal vegetables",
             "Marry Me Vegan"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Ravintola suljettu, hyvää juhannusta!",
-            "Restaurant closed, happy midsummer!"
+            "HYVÄÄ JUHANNUSTA !",
+            "FASTELLE JUHANNUKSEN VIETOSSA 19.6. – 21.6. VÄLISEN",
+            "HAPPY MIDSUMMER !",
+            "FASTELLE’S Celebrate Midsummer 19.6.–21.6."
           ]
         }
       ]
