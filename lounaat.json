@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-17T05:29:19.935394+00:00",
+  "paivitetty": "2026-06-17T07:37:43.049736+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -61,7 +61,61 @@
       "kategoria": 1,
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Paneroituja hietakampelafileitä",
+            "Kanaa mausteisessa cajun-kastikkeessa",
+            "Butter tofu – intialaista tofukastiketta",
+            "Lehtipihvi bataattiranskalaisilla",
+            "Remoulade-majoneesia",
+            "Pinaattikeittoa ja kananmunia",
+            "Inkiväärikalkkunaa",
+            "Koskenlaskija-herkkusienimunakasta",
+            "Paahtopaistisalaatti"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Lihapyöryköitä kastikkeessa",
+            "Kanakormaa",
+            "Chili con Härkistä",
+            "Smash-burger",
+            "Maalaislohkoperunoita",
+            "Tomaatti-vuohenjuustokeittoa",
+            "Herne-punajuuripihvejä",
+            "Taco-maustettu jauheliha",
+            "Sumakilla maustettua kanasalaattia"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Makkaramix",
+            "Maissipaneroitua kanaa",
+            "Itte tehtyjä pinaattiohukaisia",
+            "Chilipaahdettua uunilohta",
+            "Lime-kermaviilikastiketta",
+            "Maalaislohkoperunoita",
+            "Balsamico-punajuuret #",
+            "Omena-sellerikeittoa",
+            "Tomaatti-basilikamunakasta",
+            "Chili-mangokanaa"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Chilipaahdettua uunilohta",
+            "Kievin kanaa",
+            "Kasvis-fetapannua",
+            "Cheddar-chiliburgereita",
+            "Lohkoperunoita"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Fastelle",
@@ -143,7 +197,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Buffet: Possua tulisen makeassa paprikakastikkeessa ja nachoja, basmatiriisiä",
+            "Buffet: Possua tulisen makeassa paprikakastikkeessa ja",
             "Buffet: Lohi-pinaattilasagnettea ja kesäkasviksia",
             "Grilli: Bibim guksu, mausteinen nuudeli-tofusalaatti",
             "Terassimenu: Uuniperunaa, kana-curry ja lohi-tzatziki, side salad+ pikkulimu"
@@ -320,7 +374,7 @@
           "ruoat": [
             "Pippuripossua & paahdettua perunaa",
             "Juustoinen tonnikala tortillavuoka",
-            "Keitto: Yrtiinen porkkanakeitto",
+            "Keitto: Yrttinen porkkanakeitto",
             "Chef´s menu: Kana caprese salaatti"
           ]
         },
@@ -449,6 +503,7 @@
             "Tempurapaneroitua turskaa",
             "– tilli-sitruunakermaviili",
             "Kreikkalainen jauhelihabolognese",
+            "(sis.muskottipähkinä)",
             "– yrttispagettia",
             "Punajuurisosekeitto sulatejuustolla"
           ]
@@ -505,9 +560,9 @@
           "ruoat": [
             "Luomutofua ja kasviksia hapanimeläkastikkeessa",
             "Tummaa riisiä",
-            "Broilerinugetteja",
+            "Broilerinugetteja 7 kpl/annos, extra",
             "Currymajoneesia",
-            "Paahdettua perunaa"
+            "Suikalekermaperunaa"
           ]
         },
         {
