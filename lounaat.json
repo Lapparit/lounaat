@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-18T05:21:26.579130+00:00",
+  "paivitetty": "2026-06-18T07:18:19.834633+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -221,10 +221,12 @@
         {
           "paiva": "Torstai",
           "ruoat": [
+            "Perinteistä hernekeittoa palvikinkulla",
             "Paahdetut kookos‑pähkinä‑chiliribsit",
             "Harissa jogurtti",
             "Paahdetut satokauden kasvikset",
-            "Marry Me Vegan"
+            "Marry Me Vegan",
+            "Jälkiruoaksi pannukakkua, hilloa ja kermavaahtoa!"
           ]
         },
         {
@@ -275,7 +277,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "JUHANNUS buffet! Lohta, makkaroita, kasvispyöryköitä, uutta perunaa ja tilliä, pastasalaattia, caesarsalaattia, rucolapestoa...",
+            "JUHANNUS buffet! Lohta, makkaroita, kasvispihvejä, uutta perunaa ja tilliä, pastasalaattia, caesarsalaattia, rucolapestoa...",
             "Mansikkakakkua ja lasi kuohuvaa!"
           ]
         },
@@ -658,7 +660,7 @@
             "Orvokin oma: Mureaa possun rosvopaistia",
             "– pippuridippiä",
             "Orvokin oma: Suolaiset letut",
-            "– leppäsavukirjolohi-kananmunamousse L,G ja varhaisperunat & tillivoisula",
+            "– kananmunamousse graavilohella ja leppäsavukirjolohella L,G ja varhaisperunat & tillivoisula",
             "Kanakeitto riisinuudeleilla ja sitruunaruoholla",
             "Kahvin kanssa vaniljapannacotta L,G ja Orvokin mansikka-raparperihilloke"
           ]
@@ -711,9 +713,9 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Välimeren juusto-kasvispataa",
+            "Välimeren juusto-kasvispataa (vegaaninen tofu-kasvispata saatavilla)",
             "Paahdettua perunaa",
-            "Italialaista jauheliha-cappelipastaa"
+            "Italialaista jauheliha-cappelipastaa (gluteeniton pastavuoka saatavilla)"
           ]
         }
       ]
