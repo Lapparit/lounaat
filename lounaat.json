@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-23T06:33:42.205402+00:00",
+  "paivitetty": "2026-06-23T23:38:19.399976+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -51,7 +51,67 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Jauhelihamureketta talon kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Crispy chicken nuggets (suomalaista broileria)",
+            "Mexican cremaa",
+            "Bataatti-perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Kanaa talon marinadissa (suomalaista broileria)",
+            "Paneroitua possua",
+            "Jalapeno-valkosipulimajoneesi",
+            "Juustoista perunapaistosta",
+            "Riisiä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Possun sisäfilettä tummassa rosmariinikastikeessa (suomalaista possua)",
+            "Parmesan broileria (suomalaista broileria)",
+            "Paahdettua perunaa",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Paneroitua kanaa (suomalaista broileria)",
+            "Talon Ranch -majoneesi",
+            "Makkaramixiä",
+            "Lohkoperunaa",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Smetanaista uunilohta (suomalaista kirjolohta)",
+            "Uunimakkaraa juustokuorrutteella",
+            "Perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Crispy chicken (suomalaista broileria)",
+            "Sweet chili -majoneesia",
+            "Nakki-lihapullamixiä",
+            "Grilliperunaa",
+            "Salaattibuffet",
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Farmi",
@@ -144,7 +204,8 @@
             "Halloum-pinaattipastaa",
             "Kilohinnalla punnittavan salaatin proteiinilisukkeet",
             "-Raejuusto",
-            "-Sinihomejuusto"
+            "-Sinihomejuusto",
+            "-Marinoitua broileria"
           ]
         },
         {
@@ -155,7 +216,11 @@
             "Ranch kastiketta",
             "Paahdetut satokauden kasvikset",
             "Jauhelihakastike",
-            "Linssi-kukkakaali muhennos"
+            "Linssi-kukkakaali muhennos",
+            "Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Raejuusto",
+            "-Sinihomejuusto",
+            "-Marinoitua broileria"
           ]
         },
         {
@@ -215,9 +280,9 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Savulohimurekepihvejä, tartarkastiketta sekä paahdettua perunaa, Marry me-kasvispastaa, lämmintä kasvissalaattia",
-            "Korean burger&bataattiranet",
-            "Terassimenu: metsästäjänleipä&vihersalaattia, pieni virvoitusjuoma"
+            "Savulohimurekepihvejä ( saatavilla gluteeiniton kala), tartarkastiketta sekä paahdettua perunaa, Marry me-kasvispastaa",
+            "Korean burger&bataattiranet (gluteiiniton hamburilainen saatavilla)",
+            "Terassimenu: metsästäjänleipä&vihersalaattia, pieni virvoitusjuoma ( gluteeniton leipä saatavilla)"
           ]
         },
         {
@@ -438,12 +503,13 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Keitto: Gazpacho",
-            "sitruunainen Broileri paella",
+            "Keitto: Gazpacho- kylmä paprika-tomaattikeitto",
+            "Sitruunainen broileri paella",
             "Makean mausteinen Nyhtökaura-kasvis wokki",
-            "paahdettua perunaa ja juureksia",
-            "CHEF: Lohi Nicoise salaatti",
-            "Jälkiruoaksi: Bakeryn marjapiirakkaa"
+            "– paahdettua perunaa ja juureksia",
+            "Chef´s menu: Nizzan salaatti lohella",
+            "Jälkiruoaksi Bakeryn marjapiirakkaa",
+            "M, G, VEG jälkiruoka keittiöstä"
           ]
         },
         {
@@ -451,31 +517,31 @@
           "ruoat": [
             "Keitto: Juuressose keitto",
             "Balsamico-karamelli possua",
-            "tofu-kasvis red curry",
-            "kasvis-Basmatiriisiä",
-            "Chef: Chicken Katsu bowl"
+            "Tofu-kasvis red curry",
+            "– kasvis-basmatiriisiä",
+            "Chef´s menu: Chicken Katsu bowl"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Keitto: creme ninon",
-            "Rapeaa kievin kanaa",
+            "Keitto: Creme ninon",
+            "Rapeaa Kievin kanaa",
             "Tomaatti-yrtti kalapata",
-            "Riisiä & ranch dippi",
-            "CHEF: Makkara perunat kurkku relissi ja salaattiraaste"
+            "– riisiä & ranch dippiä",
+            "Chef´s menu: Makkara perunat, kurkku relissi ja salaattiraaste"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Keitto: basillikalla höystettyä linssi keittoa",
-            "Texas pete paahdetut siivet",
+            "Keitto: Basillikalla höystettyä linssi keittoa",
+            "Texas pete paahdetut broilerin siivet",
             "Lihapullat kermaisessa kastikkeessa",
-            "lohkoperunoita",
-            "sinihomejuusto dippi",
-            "CHEF: Possun lehtipihvi, ranskanperunoita ja maustevoiL,G",
-            "Jälkiruoaksi: Suklaamousse"
+            "– lohkoperunoita",
+            "– sinihomejuusto dippiä",
+            "Chef´s menu: Possun lehtipihvi, ranskanperunoita ja maustevoita",
+            "Jälkiruoaksi: Suklaavanukas"
           ]
         }
       ]
@@ -590,7 +656,8 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Mifua Margherita ja pennepastaa, kysy vegaaninen vaihtoehto",
-            "Jauhelihapastavuoka",
+            "Intialaista jogurttikalaa, 1kpl/annos, extra",
+            "Paahdettuja perunoita",
             "Intialaista jogurttikalaa, 1kpl/annos, extra",
             "Paahdettuja perunoita"
           ]
