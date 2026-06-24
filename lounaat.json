@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-24T06:30:58.873668+00:00",
+  "paivitetty": "2026-06-24T23:46:43.788115+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -496,48 +496,7 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Lohikeittoa",
-            "Lihapullia sinappi-kermakastikkeessa",
-            "Kasvispyöryköitä ja paprikakastiketta"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Jauhelihakeittoa",
-            "Broileri-savujuustokiusausta",
-            "Juustoista mifukiusausta"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Kermaista kanakeittoa",
-            "Kaalikääryleitä",
-            "Kasviskaalikääryleitä"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Unkarilaista lihakeittoa",
-            "Slaavilaista kanaa",
-            "Halloumi - tomaattikastiketta"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Siskonmakkarakeittoa",
-            "Juustomestarin uuniseitä",
-            "Feta-pinaattimunakasta"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Malabadi",
@@ -612,7 +571,7 @@
             "Juurespyöryköitä 5kpl/annos, extra , kysy vegaaninen vaihtoehto",
             "Kapriskastiketta",
             "Paahdettua perunaa",
-            "Paprika-herkkusieni possupataa",
+            "Rapeaa yrttikalaa 2kpl/annos, extra , kysy gluteeniton vaihtoehto",
             "Rapeaa yrttikalaa 2kpl/annos, extra , kysy gluteeniton vaihtoehto"
           ]
         },
