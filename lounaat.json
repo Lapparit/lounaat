@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-25T06:34:03.353844+00:00",
+  "paivitetty": "2026-06-25T23:56:04.927313+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -200,10 +200,10 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kermainen kalakeitto",
+            "Kalaseljanka",
             "Jauheliha-ananaspizza",
-            "Pippuriset yrtti lohkoperunat",
             "Paahdetut satokauden kasvikset",
+            "Paistettua riisiä M,G,kananmuna",
             "Kevätkääryleet sweet chilikastikkeella",
             "Papudippi",
             "Hyvää kesää ihanille asiakkaillemme <3"
@@ -245,15 +245,15 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Yrtti-valkosipulikanaa, jasmiiniriisiä, paahdettua härkäpapua&juureksia, pesto-perunapeltipizzaa&hernepestoa",
+            "Yrttikanaa, jasmiiniriisiä, paahdettua härkäpapua&juureksia L,G, pesto-perunapeltipizzaa&hernepestoa",
             "Halloumi-Hot Honey-salaatti",
-            "Terassimenu: Bearnaisekuorreutettu kanaleipä, ananasta&paholisenhilloa, pieni virvoitusjuoma"
+            "Terassimenu: Bearnaisekuorreutettu kanaleipä, ananasta&paholaisenhilloa, pieni virvoitusjuoma"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kalkkunaa&chimichurria, porkkana-kauraohukaisia&puolukka survosta",
+            "Kalkkunanfileetä&chimichurria, kasvispyöryköitä, riisiä ja lämmintä kasvissalaattia",
             "Pizza Americano&Tomaatti-mozzarellapizza",
             "Summer Plate: Graavilohta, tzatzikia, uusia perunoita, juustoa, serranonkinkkua, oliivi-tomaattirucolasalaattia, pieni virvoitusjuoma"
           ]
@@ -474,11 +474,12 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Keitto: Creme ninon",
-            "Rapeaa Kievin kanaa",
+            "Keitto: Creme ninon eli ranskalainen hernesosekeitto",
+            "Rapeaa Kievin kanaa & ranch majoneesia",
             "Tomaatti-yrtti kalapata",
-            "– riisiä & ranch dippiä",
-            "Chef´s menu: Makkara perunat, kurkku relissi ja salaattiraaste"
+            "– riisiä",
+            "Chef´s menu: Makkara perunat, kurkku relissi ja salaattiraaste",
+            "Vegaaniruoka keittiöstä: Tomaatti-yrtti papupata"
           ]
         },
         {
