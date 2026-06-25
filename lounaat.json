@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-25T04:48:44.409931+00:00",
+  "paivitetty": "2026-06-25T06:34:03.353844+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,43 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Pekoninen kinkkukiusaus",
+            "Mozzarella-basilikabroileria ja riisiä",
+            "Kebabkastiketta ja ranskalaisia",
+            "Suklaamoussea",
+            "Keittiöstä: Fetasalaatti",
+            "Hernekeittoa",
+            "Naudan palapaistia ja keitettyjä perunoita",
+            "Butter Chicken ja riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Metsästäjänleikettä ja varhaisperunoita",
+            "Nachovuoka",
+            "Paahdettuja kanansiipiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Kana-caesarsalaatti",
+            "Mantelikalaa ja muusia",
+            "Possuwok ja riisiä",
+            "Mokkapaloja"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Mustaamakkaraa ja muusia",
+            "Pinaattilettuja ja puolukkahilloa",
+            "Intialaisia lihapullia ja riisiä",
+            "Keittiöstä: Mozzarellasalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -75,8 +111,8 @@
             "Maalaisranskalaisia",
             "Paahdettua tomaattikeittoa",
             "Sitruuna-timjamimarinoitua kanaa",
-            "Kaura-punajuuripyörykkä",
-            "Katkarapu-lasinuudelisalaatti #"
+            "Katkarapu-lasinuudelisalaatti #",
+            "Herne-punajuuripihvejä"
           ]
         },
         {
@@ -153,7 +189,12 @@
             "Paahdetut satokauden kasvikset",
             "Kasviskaalikääryleitä",
             "Puolukkahilloa",
-            "Jälkiruoaksi pannukakkua, kermavaahtoa ja hilloa"
+            "Punajuuripyöryköitä",
+            "Jälkiruoaksi pannukakkua, kermavaahtoa ja hilloa",
+            "Kilohinnalla punnittavan salaatin proteiinilisäkkeet",
+            "-Paahdettua halloumia",
+            "-Keitettyä kananmunaa",
+            "-Broileria saa linjastosta 🙂"
           ]
         },
         {
@@ -180,7 +221,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kievinkanaa&currymajoneesia sekä basmatiriisiä, pinaatti-munakoisolasagnea&lehtikaali-kurpitsansiemensalaattia",
+            "Kievinkanaa&currymajoneesia sekä basmatiriisiä / pinaatti-munakoisolasagnea&lehtikaali-kurpitsansiemensalaattia",
             "Grillattua lohta&tzatzikia, sitruuna-tillivoissa pyöräytettyjäuusia perunoita ja kesäkasviksia",
             "Terassimenu: Hermian Corn Chicken, valkosipuli&harissamajoneesia sekä lohkoperunaa, pieni virvoitusjuoma"
           ]
@@ -583,7 +624,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Porkkana-pestolasagnettea",
+            "Porkkana-pestolasagnettea (gluteeniton ja vegaaninen vaihtoehto kasviskepukat)",
             "Broileria tulisessa ja mausteisessa kastikkeessa - Broileri Vindaloo",
             "Tummaa riisiä"
           ]
