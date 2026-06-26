@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-25T23:56:04.927313+00:00",
+  "paivitetty": "2026-06-26T04:53:19.504047+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -122,7 +122,7 @@
             "Nachopelti cheddarkastikkeella",
             "Sitruunarisottoa",
             "Sriracha-maustettuja kanaburgereita",
-            "Maalaisranskalaisia"
+            "Bataattiranskalaisia"
           ]
         }
       ]
@@ -327,53 +327,7 @@
       "kategoria": 1,
       "url": "https://ravintolaosku.fi/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Aasialainen kanapata, basmati, kasvikset",
-            "Kevätkääryleet, maapähkinäkastiketta, basmati, grillatut kasvikset",
-            "Delisalaatti (juusto) & kesäkeitto",
-            "Appelsiini-keksirahka / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Grillimakkaraa, sinappinen juustokastike, perunasose, höyrytetyt kasvikset / Kana-sinihomejuustokiusaus",
-            "Kasvisgratiini, perunasose & linssisalaatti",
-            "Delisalaatti (falafel & hummus) & punajuuri-savujuustokeitto",
-            "Sitrushedelmäsalaatti / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Kermainen lihapata, perunasose paahdetulla sipulilla, grillattua punajuurta",
-            "Risotto limonello",
-            "Delisalaatti (uuniperuna savulohitäytteellä) & kirkas kasviskeitto",
-            "Mustikka-vadelmakiisseli & kermavaahto / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Päivän kala, hollandaisekastiketta, uudet perunat, kasviksia & artisokkaa / Lihapulla-chorizopasta & juusto",
-            "Feta-pinaatti-nyhtökauralasagnette",
-            "Delisalaatti (Välimeren kana), juustoinen sipulikeitto & tapenadeleipää",
-            "Lakumousse / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Grillattua possua, valkosipuli-seesami-chilidippi, lämmin kesäperunasalaatti",
-            "Kasvis hot dog, valkosipuli-seesami-chilidippi, lämmin kesäperunasalaatti",
-            "Delisalaatti (chili tonnikala) & kasviskeitto",
-            "Raparperi-pullavanukas & vaniljakastike / hedelmä"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Ruskon Helmi",
@@ -381,46 +335,7 @@
       "kategoria": 1,
       "url": "https://ruskonhelmi.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "BROILER-RUUKKU",
-            "MAUKAS MAKKARAKASTIKE"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "SISKONMAKKARAKEITTO",
-            "JAUHELIHAKÄÄRÖT",
-            "SILAKKAPIHVIT"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "KOSKENLASKIJA-JAUHELIHAKEITTO",
-            "PAHOLAISEN BROILER",
-            "SEITÄ BALILAISITTAIN"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "HERNEKEITTO G,L JA PANNARI",
-            "BBQ-POSSUA",
-            "PAPU-LINSSIPIHVIT"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "RAPEAT BROILERIT",
-            "LAPINKIUSAUS"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Gate of India",
@@ -490,7 +405,7 @@
             "Lihapullat kermaisessa kastikkeessa",
             "– lohkoperunoita",
             "– sinihomejuusto dippiä",
-            "Chef´s menu: Possun lehtipihvi, ranskanperunoita ja maustevoita",
+            "Chef´s menu: Possun lehtipihvi, ranskanperunoita ja sriracha aioli",
             "Jälkiruoaksi: Suklaavanukas"
           ]
         }
@@ -707,55 +622,7 @@
       "kategoria": 3,
       "url": "https://www.speakeasy.fi/hervanta/lounas/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Broileria cheddar-jalapenokastikkeella, basmatiriisi",
-            "Kinkkukiusaus",
-            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
-            "Puolukkarahka"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Possunpihvit hekkusienikastikkeessa",
-            "Spaghetti bolognese",
-            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
-            "Munkki"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Makkarastroganoff, perunamuusi",
-            "Paneroitu kampela kermaviilikastikkeella",
-            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
-            "Jogurttia ja marjoja"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "SPEAKEASYN LOHIBUFFET",
-            "Uunilohta remouladella, pariisinperunat",
-            "Porsaanleike choronkastikkeella, ranskalaiset",
-            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla",
-            "Pannari mansikkahillolla ja kermavaahdolla"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "SPEAKEASYN BURGERBUFFET",
-            "Talon naudanlihapihvejä ja paneroitua kanaa",
-            "Maalaisranskalaisia ja olutpaneroituja sipulirenkaita",
-            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla",
-            "Mansikkapirtelö"
-          ]
-        }
-      ]
+      "paivat": []
     }
   ]
 }
