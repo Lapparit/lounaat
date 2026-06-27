@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-26T23:45:55.504211+00:00",
+  "paivitetty": "2026-06-27T04:38:11.915447+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -51,67 +51,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Jauhelihamureketta talon kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Crispy chicken nuggets (suomalaista broileria)",
-            "Mexican cremaa",
-            "Bataatti-perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Kanaa talon marinadissa (suomalaista broileria)",
-            "Paneroitua possua",
-            "Jalapeno-valkosipulimajoneesi",
-            "Juustoista perunapaistosta",
-            "Riisiä"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possun sisäfilettä tummassa rosmariinikastikeessa (suomalaista possua)",
-            "Parmesan broileria (suomalaista broileria)",
-            "Paahdettua perunaa",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Paneroitua kanaa (suomalaista broileria)",
-            "Talon Ranch -majoneesi",
-            "Makkaramixiä",
-            "Lohkoperunaa",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Smetanaista uunilohta (suomalaista kirjolohta)",
-            "Uunimakkaraa juustokuorrutteella",
-            "Perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Crispy chicken (suomalaista broileria)",
-            "Sweet chili -majoneesia",
-            "Nakki-lihapullamixiä",
-            "Grilliperunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -193,88 +133,7 @@
       "kategoria": 1,
       "url": "https://linkosuo.fi/toimipaikka/ravintola-fastelle/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Lihapyörykät pippuri-kermakastikkeessa",
-            "Broileria Limonello",
-            "Paahdetut yrttiperunat",
-            "Paahdetut satokauden kasvikset",
-            "Halloum-pinaattipastaa",
-            "Kilohinnalla punnittavan salaatin proteiinilisukkeet",
-            "-Raejuusto",
-            "-Sinihomejuusto",
-            "-Marinoitua broileria"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Parsakaalisosekeitto tuorejuustolla",
-            "Maissipaneroitua kananfilettä",
-            "Ranch kastiketta",
-            "Paahdetut satokauden kasvikset",
-            "Jauhelihakastike",
-            "Linssi-kukkakaali muhennos",
-            "Kilohinnalla punnittavan salaatin proteiinilisukkeet",
-            "-Raejuusto",
-            "-Sinihomejuusto",
-            "-Marinoitua broileria"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Kookos-porkkanakeitto",
-            "Teriyaki glaseerattua porsaan niskaa",
-            "Mausteista kebabpastapaistosta",
-            "Paahdetut satokauden kasvikset",
-            "Riisiä",
-            "Talon metsäsienilätyt",
-            "Puolukkahillo",
-            "Kilohinnalla punnittavan salaatin proteiinilisäkkeet",
-            "-Paahdettua halloumia",
-            "-Marinoitua broileria",
-            "-Raejuustoa"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Perinteistä hernekeittoa palvikinkulla",
-            "Blackened broileri ja makea kirsikkakastike",
-            "Juustoinen pekoni-kinkkukiusaus",
-            "Keitettyä riisiä",
-            "Paahdetut satokauden kasvikset",
-            "Kasviskaalikääryleitä",
-            "Puolukkahilloa",
-            "Punajuuripyöryköitä",
-            "Jälkiruoaksi pannukakkua, kermavaahtoa ja hilloa",
-            "Kilohinnalla punnittavan salaatin proteiinilisäkkeet",
-            "-Paahdettua halloumia",
-            "-Keitettyä kananmunaa",
-            "-Broileria saa linjastosta 🙂"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Kalaseljanka",
-            "Jauheliha-ananaspizza",
-            "Saatavana gluteeniton vaihtoehto",
-            "Paahdetut satokauden kasvikset",
-            "Paistettua riisiä M,G,kananmuna",
-            "Kevätkääryleet sweet chilikastikkeella",
-            "Papudippi",
-            "Proteiinit kilohinnalla punnittavaan salaattiin",
-            "-Halloum",
-            "-Keitettyä kananmunaa",
-            "-Sinihomejuustoa",
-            "Hyvää kesää ihanille asiakkaillemme <3"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Hermia 5",
@@ -462,66 +321,7 @@
       "kategoria": 2,
       "url": "https://linkosuo.fi/toimipaikka/hertta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Keitto: Välimeren tuoretomaatti keitto",
-            "Nyhtöpossua",
-            "Kermainen broileri herkkusienipasta",
-            "– paahdettuja yrttiperunoita",
-            "– raikas sitruunadippi",
-            "Chef´s menu: Hot honey halloumi wrap",
-            "Gluteenitonta broileria keittiöstä!"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Keitto: Gazpacho- kylmä paprika-tomaattikeitto",
-            "Sitruunainen broileri paella",
-            "Makean mausteinen Nyhtökaura-kasvis wokki",
-            "– paahdettua perunaa ja juureksia",
-            "Chef´s menu: Nizzan salaatti lohella",
-            "Jälkiruoaksi Bakeryn marjapiirakkaa",
-            "M, G, VEG jälkiruoka keittiöstä"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Keitto: Juuressosekeitto",
-            "Balsamico-karamelli possua",
-            "Tofu-kasvis red curry",
-            "– kasvis-basmatiriisiä",
-            "Chef´s menu: Chicken Katsu bowl paneroidulla broilerilla ja nuudeleilla"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Keitto: Creme ninon eli ranskalainen hernesosekeitto",
-            "Rapeaa Kievin kanaa & ranch majoneesia",
-            "Tomaatti-yrtti kalapata",
-            "– riisiä",
-            "Chef´s menu: Makkara perunat, kurkku relissi ja salaattiraaste",
-            "Vegaaniruoka keittiöstä: Tomaatti-yrtti papupata"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Keitto: Basillikalla höystettyä linssi keittoa",
-            "Texas pete paahdetut broilerin siivet",
-            "Lihapullat kermaisessa kastikkeessa",
-            "– lohkoperunoita",
-            "– sinihomejuusto dippiä",
-            "Chef´s menu: Possun lehtipihvi, ranskanperunoita ja sriracha aiolia",
-            "Jälkiruoaksi: Suklaavanukas",
-            "M, VEG suklaavaahto keittiöstä"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Kontukeittiö",
@@ -529,48 +329,7 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Lohikeittoa",
-            "Lihapullia sinappi-kermakastikkeessa",
-            "Kasvispyöryköitä ja paprikakastiketta"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Jauhelihakeittoa",
-            "Broileri-savujuustokiusausta",
-            "Juustoista mifukiusausta"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Kermaista kanakeittoa",
-            "Kaalikääryleitä",
-            "Kasviskaalikääryleitä"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Unkarilaista lihakeittoa",
-            "Slaavilaista kanaa",
-            "Halloumi - tomaattikastiketta"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Siskonmakkarakeittoa",
-            "Juustomestarin uuniseitä",
-            "Feta-pinaattimunakasta"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Malabadi",
@@ -606,7 +365,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Orvokki on kesälomalla, palaa taas 3.8.2026",
+            "Orvokki on lomalla ja palaa taas maanantaina 3.8.2026",
             "Linkosuo Hertta palvelee koko kesän ajan Hermiankadun toisella puolella!"
           ]
         }
@@ -679,8 +438,6 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Pannupihvit l g paistettu kanamuna",
-            "Broileria curry",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -688,9 +445,6 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lohikeitto+salaatti",
-            "Kassleria",
-            "Pangasius l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -698,9 +452,6 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pizzaa l",
-            "Pariloitua maksaa",
-            "Kebablihaa",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -708,9 +459,6 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Siivet",
-            "Lihapullat",
-            "Munkkeja l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -718,9 +466,6 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Talo pippuripihvi",
-            "Wieninleike l",
-            "Broileripataa",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
