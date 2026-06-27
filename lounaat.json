@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-27T06:10:00.297429+00:00",
+  "paivitetty": "2026-06-27T23:38:33.455617+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -321,7 +321,53 @@
       "kategoria": 2,
       "url": "https://linkosuo.fi/toimipaikka/hertta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Alabama style chicken",
+            "Currywurst & perunamuusia",
+            "Keitto: Kikherne-myskikurpitsakeitto",
+            "Chef´s menu: Falafel pitaleipä tsatsikilla & raikkaalla coleslawlla"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihalasagne",
+            "Kasvis caponata",
+            "Keitto: Samettinen kasvissosekeitto",
+            "Jälkiruoaksi Banoffee rahkaa"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Butter chicken & pilahviriisiä",
+            "Porkkananapit & lime-chilidippi",
+            "Keitto: Jauhelihakeitto"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Tapolan mustaa makkaraa & perunamuusia",
+            "Tonnikalapastaa",
+            "Keitto: Paahteinen palsternakka-juurisellerikeitto",
+            "Chef´s menu: Kanakori"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Maissikanaa & parmesan perunoita",
+            "Pulled pork nachopelti",
+            "Keitto: Basilika-bataattikeitto",
+            "Chef´s menu: Talon burgeri & ranskanperunoita",
+            "Jälkiruoaksi omena-kaurapaistosta"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Kontukeittiö",
