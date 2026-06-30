@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-06-30T04:48:34.922636+00:00",
+  "paivitetty": "2026-06-30T06:40:39.390287+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,43 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Pekoninen kinkkukiusaus",
+            "Mozzarella-basilikabroileria ja riisiä",
+            "Kebabkastiketta ja ranskalaisia",
+            "Suklaamoussea",
+            "Keittiöstä: Fetasalaatti",
+            "Hernekeittoa",
+            "Naudan palapaistia ja keitettyjä perunoita",
+            "Butter Chicken ja riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Metsästäjänleikettä ja varhaisperunoita",
+            "Nachovuoka",
+            "Paahdettuja kanansiipiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Kana-caesarsalaatti",
+            "Mantelikalaa ja muusia",
+            "Possuwok ja riisiä",
+            "Mokkapaloja"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Mustaamakkaraa ja muusia",
+            "Pinaattilettuja ja puolukkahilloa",
+            "Intialaisia lihapullia ja riisiä",
+            "Keittiöstä: Mozzarellasalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -284,9 +320,12 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Jauhelihalasagne",
+            "(M, G jauhelihakastiketta keittöstä)",
             "Kasvis caponata",
+            "– paahdettuja perunoita",
             "Keitto: Samettinen kasvissosekeitto",
-            "Jälkiruoaksi Banoffee rahkaa"
+            "Jälkiruoaksi Banoffee rahkaa",
+            "M, G, VEG banaani-suklaavaahto keittiöstä"
           ]
         },
         {
@@ -430,9 +469,9 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Mifupataa gochujang",
-            "Paahdettua perunaa",
-            "Jauhelihakebakoita",
+            "Mifupataa gochujang (gluteeniton ja vegaaninen kasviskepukka saatavilla)",
+            "Tummaa riisiä",
+            "Jauhelihakebakoita 3kpl/annos, extra (gluteeniton lihapyörykkä saatavilla)",
             "BBQ -majoneesia",
             "Paahdettua perunaa"
           ]
