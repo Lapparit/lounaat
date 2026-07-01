@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-01T05:08:45.088149+00:00",
+  "paivitetty": "2026-07-01T06:53:14.511509+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,43 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Pekoninen kinkkukiusaus",
+            "Mozzarella-basilikabroileria ja riisiä",
+            "Kebabkastiketta ja ranskalaisia",
+            "Suklaamoussea",
+            "Keittiöstä: Fetasalaatti",
+            "Hernekeittoa",
+            "Naudan palapaistia ja keitettyjä perunoita",
+            "Butter Chicken ja riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Metsästäjänleikettä ja varhaisperunoita",
+            "Nachovuoka",
+            "Paahdettuja kanansiipiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Kana-caesarsalaatti",
+            "Mantelikalaa ja muusia",
+            "Possuwok ja riisiä",
+            "Mokkapaloja"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Mustaamakkaraa ja muusia",
+            "Pinaattilettuja ja puolukkahilloa",
+            "Intialaisia lihapullia ja riisiä",
+            "Keittiöstä: Mozzarellasalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -504,9 +540,9 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Kikherneitä ja kasviksia kormakastikkeessa",
+            "Kikherneitä ja kasviksia kormakastikkeessa (vegaaninen kasvispyörykkä saatavilla)",
             "Tummaa riisiä",
-            "Pekonilla ja sipulilla täytettyä uunimakkaraa",
+            "Pekonilla ja sipulilla täytettyä uunimakkaraa 1kpl/annos, extra",
             "Perunamuusia"
           ]
         },
