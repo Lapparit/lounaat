@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-01T06:53:14.511509+00:00",
+  "paivitetty": "2026-07-01T23:53:28.520882+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -206,15 +206,15 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pollo limonello, parsakaalia, linssi-täysjyväriisiä / Falafelpyöryköitä, hummusta, tomaattikastiketta",
-            "Bacon burger, bataattiranet & chilimajo",
-            "Terassimenu: Uuniperunaa savulohi- ja broilertäytteillä + pikkulimu"
+            "Pollo limonello pastaa ja parsakaalia L / Falafelpyöryköitä, hummusta, tomaattikastiketta ja linssi-riisiä",
+            "Bacon burger, bataattiranet & majoneesia",
+            "Terassimenu: Broken halloumipitaa ja tzatzikia + pikkulimu"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Paneroitua kampelaleikettä, remouladekastiketta, paahdettua lehtikaalia, keitettyjä perunoita, paahdettuja maapähkinöitä / tomaatista-härkisvuokaatista mozzarella-härkisperunavuokaa",
+            "Paneroitua kampelaleikettä, remouladekastiketta, paahdettua lehtikaalia, keitettyjä perunoita, paahdettuja maapähkinöitä / tomaatista mozzarella-härkisperunavuokaa",
             "BBQ kana-ananaspizzaa, tomaatti-mozzarella-pestopizzaa",
             "Terassimenu: Bearnaisekuorrutettu kanaleipä, ananasta, paholaisenhilloa + pikkulimu"
           ]
@@ -392,8 +392,10 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Butter chicken L,G & pilahviriisiä",
-            "Porkkananapit M,G,VEG & lime-chilidippi",
+            "Butter chicken L, G SAA M, G keittiöstä",
+            "– pilahviriisiä",
+            "Porkkananapit M, G, VEG & sitruuna-chilidippi",
+            "SAA M, G, VEG dippi keittiöstä!",
             "Keitto: Jauhelihakeitto"
           ]
         },
@@ -401,9 +403,9 @@
           "paiva": "Torstai",
           "ruoat": [
             "Tapolan mustaa makkaraa M & perunamuusia",
+            "puolukka survos",
             "Tonnikalapastaa",
-            "Keitto: Paahteinen palsternakka-juurisellerikeitto",
-            "Chef´s menu: Kanakori"
+            "Keitto: Paahteinen palsternakka-juurisellerikeitto"
           ]
         },
         {
