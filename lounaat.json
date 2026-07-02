@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-02T06:24:50.474156+00:00",
+  "paivitetty": "2026-07-02T23:42:50.536644+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -153,8 +153,8 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Paneroitua kampelaleikettä, remouladekastiketta, paahdettua lehtikaalia, keitettyjä perunoita, paahdettuja maapähkinöitä / tomaatista mozzarella-härkisperunavuokaa",
-            "BBQ kana-ananaspizzaa, tomaatti-mozzarella-pestopizzaa",
+            "Paneroitua kampelaleikettä, remouladekastiketta, lämpimiä kasviksia ja keitettyjä perunoita M / Mozzarella-härkisperunavuokaa",
+            "BBQ kana-ananaspizzaa tai tomaatti-mozzarella-pestopizzaa",
             "Terassimenu: Bearnaisekuorrutettu kanaleipä, ananasta, paholaisenhilloa + pikkulimu"
           ]
         },
@@ -341,19 +341,20 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Tapolan mustaa makkaraa M & perunamuusia",
-            "puolukka survos",
+            "Tapolan mustaa makkaraa",
+            "– perunamuusia",
+            "G, M bratwurstia ja perunamuusia keittiöstä!",
             "Tonnikalapastaa",
-            "Keitto: Paahteinen palsternakka-juurisellerikeitto"
+            "Keitto: Paahteinen palsternakka-juurisellerikeitto",
+            "M, VEG kasvispasta soijarouheella keittiöstä"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Maissikanaa M,G & parmesan perunoita",
+            "Maissikanaa M, G & parmesan perunoita",
             "Pulled pork nachopelti",
             "Keitto: Basilika-bataattikeitto",
-            "Chef´s menu: Talon burgeri & ranskanperunoita",
             "Jälkiruoaksi omena-kaurapaistosta"
           ]
         }
@@ -490,7 +491,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Tomaatti-vuohenjuustokastiketta",
+            "Tomaatti-vuohenjuustokastiketta (vegaaninen kasvispyörykkä saatavilla)",
             "Luomutäysjyväpastaa",
             "Burgundin broileripataa",
             "Tummaa riisiä"
