@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-03T06:10:25.018474+00:00",
+  "paivitetty": "2026-07-03T23:39:04.883386+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -222,8 +222,8 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kebabia tomaattikastikkeessa, pitaleipää, valkosipulikermaviilikastiketta / kasvismoussakaa",
-            "Grillattua lohta & tzatzikia, sitruuna-tillivoissa pyöräytettyjä uusia perunoita ja kesäkasviksia",
+            "Kebabia tomaattikastikkeessa, pitaleipää, valkosipulikermaviilikastiketta L / Kasvismoussakaa",
+            "Grillattua lohta & tzatzikia, tillivoissa pyöräytettyjä uusia perunoita ja kesäkasviksia",
             "Terassimenu Summer plate: Graavilohta, tzatzikia, uusia perunoita, juustoa, serranoa, oliivi-tomaatti-rucolasalaattia, + pikkulimu"
           ]
         }
@@ -248,36 +248,36 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Nakkikeitto",
-            "Kinkkukiusaus"
+            "Siskonmakkarakeitto",
+            "Kaalikääryleet"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lihakeitto",
-            "Nakkikastike"
+            "Makkarakeitto",
+            "Jauhelihakiusaus"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Jauhelihakeitto",
-            "Porsaanlihakastike"
+            "Lihakeitto",
+            "Läskisoosi |"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
             "Hernekeitto",
-            "Pekonipasta"
+            "Broilerkastike"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Makkarakeitto",
-            "Makaronilaatikko"
+            "Kermainen lohikeitto",
+            "Porsaan sisäfilettä"
           ]
         }
       ]
@@ -350,7 +350,46 @@
       "kategoria": 1,
       "url": "https://ruskonhelmi.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "MAKKARAPIHVIT",
+            "SPAGHETTI BOLOGNESE"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "LOHIKEITTO",
+            "BBQ-POSSULASAGNE",
+            "VALKOSIPULIBROILER"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "KEBABMUNAKAS",
+            "SITRUUNAKALA",
+            "LIHAMUREKE"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "HERNEKEITTO G,L JA PANNARI",
+            "KARJALANPAISTI",
+            "SIENIRISOTTO"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "TÄYTETTY POSSULEIKE",
+            "MAKSAA KERMASSA"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Gate of India",
@@ -562,7 +601,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Pinaattiohukaisia",
+            "Pinaattiohukaisia 3kpl/annos, extra (gluteeniton ja vegaaninen vaihtoehto saatavilla)",
             "Puolukkahilloa",
             "Paahdettua perunaa",
             "Kebabia kiinalaisessa soijakastikkeessa",
