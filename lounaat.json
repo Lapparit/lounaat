@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-04T06:00:26.175139+00:00",
+  "paivitetty": "2026-07-04T23:38:59.820218+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,20 +55,19 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Crispy Chicken (suomalaista broileria)",
-            "Valkosipulimajoneesia",
-            "Caffitellan kebabia (suomalaista naudanlihaa)",
-            "Juustoperunaa",
-            "Riisiä",
+            "Paneroitua porsaanleikettä (suomalaista possua)",
+            "Chimichurri Majoneesi",
+            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
+            "Perunamuusia",
             "Salaattibuffet"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lihapullia kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa",
-            "Sitruunaista kermaviilikastiketta",
+            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
+            "(suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa pinaatti-feta täytteellä",
             "Perunamuusia",
             "Salaattibuffet"
           ]
@@ -76,40 +75,40 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Ylikypsää possua BBQ -kastikkeessa (suomalaista possua)",
-            "Yrttimarinoitua broileria (suomalaista broileria)",
-            "Lohkoperunaa",
+            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
+            "Bearnaise kanaa (suomalaista broileria)",
+            "Paahdettua perunaa",
+            "Riisiä",
             "Salaattibuffet"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Sitruuna-smetanabroileria (suomalaista broileria)",
-            "Chili-possua (suomalaista possua)",
-            "Varhaisperunaa",
-            "Riisiä",
+            "Paneroitua broileria",
+            "Caffitellan Chorizopyörykät",
+            "Kolmen Sipulin kermaviili",
+            "Kermaperunaa",
             "Salaattibuffet"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Pannupihvejä ruskeassa kastikkeessa (suomalaista nautaa ja possua)",
-            "Juustoista makkaravuokaa",
-            "Perunamuusia",
+            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
+            "Broileria & kasviksia (suomalaista broileria)",
             "Salaattibuffet"
           ]
         },
         {
           "paiva": "Lauantai",
           "ruoat": [
-            "Kievin kanaa (suomalaista broileria)",
-            "Nakki & lihapulla mixiä",
-            "Caffitellan majoneesia",
+            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Uunijuurekset",
             "Kermaperunaa",
             "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
+            "vko 28"
           ]
         }
       ]
