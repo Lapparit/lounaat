@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-05T04:43:51.882514+00:00",
+  "paivitetty": "2026-07-05T06:25:57.762160+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -235,7 +235,53 @@
       "kategoria": 1,
       "url": "https://ravintolaosku.fi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kanawokki, basmati, suolapähkinää",
+            "Kasviskebabkiusaus",
+            "Delisalaatti (savulohi), katkarapukeitto & krutonkia",
+            "Raparperirahka / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihalasagne, kasviksia",
+            "Kesäkurpitsalasagne & kasvikset",
+            "Delisalaatti (tapaspöytä) & kasviskeitto",
+            "Vadelmakiisseli / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Kalaa & smetanakastike, uudet perunat, höyrytetyt kasvikset / Kinkku-sinihomejuustopasta & juusto",
+            "Kasvispihvit, currykastike, lohkoperunat",
+            "Delisalaatti (siemenkuorrutettu kalkkuna) & kevyt kasvis-linssikeitto"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Stifado, valkosipulilohkoperunat, tsatsiki-coleslaw / Hernekeitto",
+            "Keväinen peruna-kasvis-oumphvuoka & tomaattinen chili-jogurttidippi",
+            "Delisalaatti (Rub-grillattua kanaa) & lehtikaali-bataattikeitto",
+            "Pannukakku, raparperihillo & kermavaahto / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Broileritortillat, riisi, salsaa, valkosipulidippi, jalapenoa",
+            "Mustapapu-kasvistacot, riisi, salsaa, valkosipulidippi, jalapenoa",
+            "Delisalaatti (tonnikala) & vegaaninen juurisellerikeitto",
+            "Makea herkku / hedelmä",
+            "RAVINTOLA SULJETTU 6.7-2.8.2026, HYVÄÄ KESÄÄ!"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Ruskon Helmi",
@@ -243,7 +289,46 @@
       "kategoria": 1,
       "url": "https://ruskonhelmi.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "MAKKARAPIHVIT",
+            "SPAGHETTI BOLOGNESE"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "LOHIKEITTO",
+            "BBQ-POSSULASAGNE",
+            "VALKOSIPULIBROILER"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "KEBABMUNAKAS",
+            "SITRUUNAKALA",
+            "LIHAMUREKE"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "HERNEKEITTO G,L JA PANNARI",
+            "KARJALANPAISTI",
+            "SIENIRISOTTO"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "TÄYTETTY POSSULEIKE",
+            "MAKSAA KERMASSA"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Gate of India",
@@ -473,7 +558,55 @@
       "kategoria": 3,
       "url": "https://www.speakeasy.fi/hervanta/lounas/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Sweet&sour broileria, basmatiriisi",
+            "Jauhelihakiusaus",
+            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
+            "Marjarahka"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Naudanlihaa teriyakikastikkeessa, basmatiriisi",
+            "Kebab ranskalaisilla",
+            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
+            "Porkkanakakku"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Pulled pork bbq-kastikkeella, mac&cheese",
+            "Paistettua riisiä ja kanaa",
+            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
+            "Suklaa-dominomousse"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "SPEAKEASYN LOHIBUFFET",
+            "Uunilohta hollandaisella, tilli-voiperunat",
+            "Porsaanleike maustevoilla, ranskalaiset",
+            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla",
+            "Pannari mansikkahillolla ja kermavaahdolla"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "SPEAKEASYN GRILLIBUFFET",
+            "Talon ribsejä, bratwurstia, grillattua broileria ja maissia.",
+            "Maalaisranskalaisia ja paneroituja sipulirenkaita",
+            "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla",
+            "Hedelmäsalaatti"
+          ]
+        }
+      ]
     }
   ]
 }
