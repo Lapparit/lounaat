@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-05T06:25:57.762160+00:00",
+  "paivitetty": "2026-07-05T23:40:02.551683+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -59,57 +59,7 @@
       "kategoria": 1,
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Itte tehtyjä wieninleikkeitä",
-            "Tandoorikanaa",
-            "Satay-tofukastiketta",
-            "Bearnaiselohta ranskalaisilla",
-            "Paahdettuja tandoorikasviksia"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Teriyakikalaa",
-            "Bearnaise-kanaa",
-            "Itte tehtyjä punajuuripihvejä",
-            "Smash-burger",
-            "Maalaisranskalaisia"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Sitruuna-valkosipulikalaa",
-            "Antellin lasagnea",
-            "Linssidahl – linssimuhennosta",
-            "Lehtipihvi ranskalaisilla",
-            "Remoulade-majoneesia"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Itte tehtyjä kotletteja",
-            "Tulista smetana-uunimakkaraa",
-            "Itte tehtyjä juurespihvejä",
-            "Smash-burger",
-            "Maalaislohkoperunoita"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Sticky wings – mausteisia kanansiipiä",
-            "Nyhtöpossuburgereita",
-            "Tomaatti-basilikamunakasta",
-            "Vuohenjuustokana lohkoperunoilla #"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Fastelle",
@@ -129,41 +79,41 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Paistettua seitiä kapris-persiljavoissa, tilliperunoita L, G / Palak paneer-juustocurrya ja basmatiriisiä",
-            "Porsaanleikkeitä, grillattua ananasta, choronkastiketta ja talon omia lohkoperunoita",
+            "Butter Chicken, basmatiriisiä ja kurkkuraitaa / Italialaisia kasvispullia tomaattikastikkeessa, marokkolaisia porkkanoita",
+            "Uunifetapastaa sekä rucolaa ja pinaattia",
             "Terassimenu: Hermian corn chicken, valkosipuli & harissamajoneesia sekä lohkoperunoita + pikkulimu"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Libanonilaista broileria, minttujugurttia, basmatiriisiä L, G / Pannupihvejä, ruskeaa sipulikastiketta ja Dijon-perunamuusia",
-            "Terassimenu: Uuniperunaa savulohi- ja broilertäytteellä + pikku limu",
-            "Terassimenu: Metsästäjänleipä, vihersalaattia ja pikkulimu"
+            "Lihamureketta, herkkusienikastiketta, keitettyjä perunoita, paahdettua parsakaalia / Kasvismoussakaa",
+            "Cobb-salaattia: kanaa, pekonia ja sinihomejuustoa",
+            "Terassimenu: Metsästäjänleipä ja vihersalaattia + pikkulimu"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pollo limonello pastaa ja parsakaalia L / Falafelpyöryköitä, hummusta, tomaattikastiketta ja linssi-riisiä",
-            "Bacon burger, bataattiranet & majoneesia",
-            "Terassimenu: Broken halloumipitaa ja tzatzikia + pikkulimu"
+            "Juustokuorrutettua uunimakkaraa / Maissi-kasvispihvejä, Bombay-perunoita, linssijogurttia, aurinkokuivattua tomaattia ja rucolaa",
+            "Tonnikala-katkarapupizzaa / Tomaatti-mozzarella-pestopizzaa",
+            "Terassimenu: Uuniperunaa savulohi- ja broilertäytteillä + pikkulimu"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Paneroitua kampelaleikettä, remouladekastiketta, lämpimiä kasviksia ja keitettyjä perunoita M / Mozzarella-härkisperunavuokaa",
-            "BBQ kana-ananaspizzaa tai tomaatti-mozzarella-pestopizzaa",
-            "Terassimenu: Bearnaisekuorrutettu kanaleipä, ananasta, paholaisenhilloa + pikkulimu"
+            "Suolaisen makeaa porsaankylkeä ja bataattilohkoja / Linssisoijatäytteisiä paprikoita, kylmää sitruunakastiketta ja couscous kasviksilla",
+            "Grillattua lohta, tzatzikia, sitruuna-tillivoissa pyöräytettyjä uusia perunoita ja kesäkasviksia",
+            "Terassimenu: Bearnaisekuorrutettu kanaleipä, ananasta ja paholaisen hilloa + pikkulimu"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kebabia tomaattikastikkeessa, pitaleipää, valkosipulikermaviilikastiketta L / Kasvismoussakaa",
-            "Grillattua lohta & tzatzikia, tillivoissa pyöräytettyjä uusia perunoita ja kesäkasviksia",
-            "Terassimenu Summer plate: Graavilohta, tzatzikia, uusia perunoita, juustoa, serranoa, oliivi-tomaatti-rucolasalaattia, + pikkulimu"
+            "Broilerin paistia, kasviksia pestokastikkeessa ja paahdettua parsakaalia / Butter tofua, paistettuja kasviksia ja riisiä",
+            "BBQ-burger, maalaislohkot ja aiolia",
+            "Terassimenu: summerplate: Graavilohta, tzatzikia, uusia perunoita, juustoa, serranoa, oliivi-tomaatti-rucolasalaattia + pikkulimu"
           ]
         }
       ]
@@ -518,6 +468,8 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
+            "Pyttipannua",
+            "Broileripaistia",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -525,6 +477,9 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
+            "Lohikeittoa l g salaattia",
+            "Pangasius l",
+            "Pihvipataa",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -532,6 +487,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
+            "Pizzaa l",
+            "Pariloitua maksaa",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -539,6 +496,9 @@
         {
           "paiva": "Torstai",
           "ruoat": [
+            "Siivet",
+            "Lasagne l",
+            "Munkkeja l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -546,6 +506,10 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
+            "Talonpippuri",
+            "Wieninleike l",
+            "Kasvisgratiini",
+            "Kukkoa viinissä",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -562,36 +526,37 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Sweet&sour broileria, basmatiriisi",
-            "Jauhelihakiusaus",
+            "6.7.",
+            "Broileria chili-bearnaisella, ranskalaiset",
+            "Lohikiusaus",
             "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
-            "Marjarahka"
+            "Mansikkarahka"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Naudanlihaa teriyakikastikkeessa, basmatiriisi",
-            "Kebab ranskalaisilla",
+            "Porsaan ulkofilee pippurikastikkeella, lohkoperunat",
+            "Kebab-pastavuoka",
             "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
-            "Porkkanakakku"
+            "Donitsi"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pulled pork bbq-kastikkeella, mac&cheese",
-            "Paistettua riisiä ja kanaa",
+            "Lihamureke sinappi-kermakastikkeella, muusi",
             "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla(",
-            "Suklaa-dominomousse"
+            "Paistettua nuudelia ja katkarapuja",
+            "Marjaherkku"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
             "SPEAKEASYN LOHIBUFFET",
-            "Uunilohta hollandaisella, tilli-voiperunat",
-            "Porsaanleike maustevoilla, ranskalaiset",
+            "Uunilohta remouladella, pariisinperunat",
+            "Porsaanleike choronkastikkeella, ranskalaiset",
             "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla",
             "Pannari mansikkahillolla ja kermavaahdolla"
           ]
@@ -599,11 +564,11 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "SPEAKEASYN GRILLIBUFFET",
-            "Talon ribsejä, bratwurstia, grillattua broileria ja maissia.",
+            "SPEAKEASYN BURGERBUFFET",
+            "Talon naudanlihapihvejä ja paneroitua kanaa",
             "Maalaisranskalaisia ja paneroituja sipulirenkaita",
             "Speakeasyn Original Wingsejä hot- ja medium-kastikkeilla",
-            "Hedelmäsalaatti"
+            "Mansikkapirtelö"
           ]
         }
       ]
