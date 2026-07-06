@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-06T06:54:14.664278+00:00",
+  "paivitetty": "2026-07-06T23:42:03.560724+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -51,7 +51,67 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Paneroitua porsaanleikettä (suomalaista possua)",
+            "Chimichurri Majoneesi",
+            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
+            "Perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
+            "(suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa pinaatti-feta täytteellä",
+            "Perunamuusia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
+            "Bearnaise kanaa (suomalaista broileria)",
+            "Paahdettua perunaa",
+            "Riisiä",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Paneroitua broileria",
+            "Caffitellan Chorizopyörykät",
+            "Kolmen Sipulin kermaviili",
+            "Kermaperunaa",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
+            "Broileria & kasviksia (suomalaista broileria)",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Uunijuurekset",
+            "Kermaperunaa",
+            "Salaattibuffet",
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
+            "vko 28"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Farmi",
@@ -79,7 +139,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Butter Chicken, basmatiriisiä ja kurkkuraitaa L, G / Italialaisia kasvispullia ja tomaattikastiketta, marokkolaisia porkkanoita",
+            "Butter turkey, basmatiriisiä ja kurkkuraitaa L, G / Italialaisia kasvispullia ja tomaattikastiketta, marokkolaisia porkkanoita",
             "Uunifetapastaa sekä rucolaa ja pinaattia",
             "Terassimenu: Hermian corn chicken, valkosipuli & harissamajoneesia sekä lohkoperunoita + pikkulimu"
           ]
@@ -96,7 +156,7 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Juustokuorrutettua uunimakkaraa / Maissi-kasvispihvejä, Bombay-perunoita, linssijogurttia, aurinkokuivattua tomaattia ja rucolaa",
-            "Tonnikala-katkarapupizzaa / Tomaatti-mozzarella-pestopizzaa",
+            "Tonnikala-katkarapu pannupizzaa / Tomaatti-mozzarella-pestopizzaa",
             "Terassimenu: Uuniperunaa savulohi- ja broilertäytteillä + pikkulimu"
           ]
         },
@@ -298,9 +358,10 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Puerto Ricon Pannu L , chilimajoneesi",
+            "Linkosuon Puerto Ricon pannu",
+            "– chilimajoneesi",
             "BBQ paahdettuja broilerin koipinuijia & siipiä",
-            "Riisiä",
+            "– riisiä",
             "Keitto: Linssi-porkkanasosekeitto",
             "Vegaani ruoka keittiöstä: Puerto Ricon härkäpapupannu"
           ]
@@ -342,7 +403,7 @@
             "Nakki hodareita M & sriracha Majoneesia",
             "Paahdetut perunat",
             "Keitto: kasvis minestrone",
-            "Jälkiruoaksi: Hedelmä rahkaa"
+            "Jälkiruoaksi: Hedelmä salaattia"
           ]
         }
       ]
@@ -353,7 +414,38 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu. kontukeittiö hervanta kesätauolla 6.7-5.8. ja pyynikki kesätauolla 6.7.-2.8"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
@@ -482,6 +574,7 @@
           "ruoat": [
             "Pizzaa l",
             "Pariloitua maksaa",
+            "Kanaa cordon blue l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
