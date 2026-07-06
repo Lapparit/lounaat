@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-05T23:40:02.551683+00:00",
+  "paivitetty": "2026-07-06T04:55:35.517216+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -298,54 +298,51 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Alabama style chicken M, G (",
-            "Currywurst & perunamuusia",
-            "Keitto: Kikherne-myskikurpitsakeitto",
-            "Chef´s menu: Falafel pitaleipä tsatsikilla & raikkaalla coleslawlla",
-            "VEG ruoka keittiöstä: Alabama style seitan"
+            "Puerto Ricon Pannu L , chilimajoneesi",
+            "BBQ paahdettuja broilerin koipinuijia & siipiä",
+            "Riisiä",
+            "Keitto: Linssi-porkkanasosekeitto",
+            "Vegaani ruoka keittiöstä: Puerto Ricon härkäpapupannu"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Jauhelihalasagne",
-            "(M, G jauhelihakastiketta keittöstä)",
-            "Kasvis caponata",
-            "– paahdettuja perunoita",
-            "Keitto: Samettinen kasvissosekeitto",
-            "Jälkiruoaksi Banoffee rahkaa",
-            "M, G, VEG banaani-suklaavaahto keittiöstä"
+            "Naudan pannupihvejä sipulikastikkeella",
+            "Yrtti – gratinoitua seitä",
+            "Peruna muussia",
+            "Keitto: Kookos myskikurpitsakeitto",
+            "Jälkiruoaksi: Mansikkainen chia vanukas"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Butter chicken L, G SAA M, G keittiöstä",
-            "– pilahviriisiä",
-            "Porkkananapit M, G, VEG & sitruuna-chilidippi",
-            "SAA M, G, VEG dippi keittiöstä!",
-            "Keitto: Jauhelihakeitto"
+            "Louisiana tyylinen possu pata",
+            "Maissipihvejä sekä ruohosipuli-sitrus dippi",
+            "KASVIS",
+            "Riisiä",
+            "Keitto: Purjo-perunasosekeitto"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Tapolan mustaa makkaraa",
-            "– perunamuusia",
-            "G, M bratwurstia ja perunamuusia keittiöstä!",
-            "Tonnikalapastaa",
-            "Keitto: Paahteinen palsternakka-juurisellerikeitto",
-            "M, VEG kasvispasta soijarouheella keittiöstä"
+            "Broilerin filettä Napolilaiseen tapaan",
+            "Kauraleivitettyjä silakkapihvejä",
+            "Juures muusi",
+            "riisi",
+            "Keitto: Täyteläinen Kukkakaalikeitto"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Maissikanaa M, G & parmesan perunoita",
-            "Pulled pork nachopelti",
-            "Keitto: Basilika-bataattikeitto",
-            "Chef`s Menu: Talon burgeri ranskanperunoilla",
-            "Jälkiruoaksi omena-kaurapaistosta"
+            "sinihomejuustolla gratinoitua broileria",
+            "Nakki hodareita M & sriracha Majoneesia",
+            "Paahdetut perunat",
+            "Keitto: kasvis minestrone",
+            "Jälkiruoaksi: Hedelmä rahkaa"
           ]
         }
       ]
@@ -408,51 +405,47 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Porkkana-kvinoapyöryköitä 6kpl/annos, extra",
-            "Ruohosipulijogurttia",
-            "Paahdettua perunaa",
-            "Porkkana-kvinoapyöryköitä 6kpl/annos, extra",
-            "Ruohosipulijogurttia",
-            "Paahdettua perunaa",
-            "Paneroitu kampelafile 1kpl/annos ,extra",
-            "Ruohosipulijogurttia"
+            "Tofua ja penneä limonellokastikkeessa",
+            "Rapeaa seitifilettä",
+            "Tartarjogurttia",
+            "Perunamuusia"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Mifupataa gochujang (gluteeniton ja vegaaninen kasviskepukka saatavilla)",
+            "Mifua Sweet & Sour",
             "Tummaa riisiä",
-            "Jauhelihakebakoita 3kpl/annos, extra (gluteeniton lihapyörykkä saatavilla)",
-            "BBQ -majoneesia",
-            "Paahdettua perunaa"
+            "Juustoista savukirjolohikastiketta",
+            "Luomutäysjyväpastaa"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Kikherneitä ja kasviksia kormakastikkeessa (vegaaninen kasvispyörykkä saatavilla)",
+            "Seitan-kookoscurrya ja korianteria",
             "Tummaa riisiä",
-            "Pekonilla ja sipulilla täytettyä uunimakkaraa 1kpl/annos, extra",
-            "Perunamuusia"
+            "Lindströminpihvejä",
+            "Sipulikastiketta",
+            "Paahdettua perunaa"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Tomaatti-vuohenjuustokastiketta (vegaaninen kasvispyörykkä saatavilla)",
-            "Luomutäysjyväpastaa",
-            "Burgundin broileripataa",
-            "Tummaa riisiä"
+            "Kasvisbolognese-pastavuokaa",
+            "Broileripyöryköitä",
+            "Tzatsiki-jogurttia",
+            "Paahdettua perunaa"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Pinaattiohukaisia 3kpl/annos, extra (gluteeniton ja vegaaninen vaihtoehto saatavilla)",
-            "Puolukkahilloa",
+            "Marokkolaisia kasvispihvejä",
+            "Tzatsiki-jogurttia",
             "Paahdettua perunaa",
-            "Kebabia kiinalaisessa soijakastikkeessa",
+            "Broileria teriyakikastikkeessa",
             "Tummaa riisiä"
           ]
         }
