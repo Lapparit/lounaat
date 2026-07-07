@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-07T06:30:46.500751+00:00",
+  "paivitetty": "2026-07-07T23:32:40.960873+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,43 +7,7 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Pekoninen kinkkukiusaus",
-            "Mozzarella-basilikabroileria ja riisiä",
-            "Kebabkastiketta ja ranskalaisia",
-            "Suklaamoussea",
-            "Keittiöstä: Fetasalaatti",
-            "Hernekeittoa",
-            "Naudan palapaistia ja keitettyjä perunoita",
-            "Butter Chicken ja riisiä"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Metsästäjänleikettä ja varhaisperunoita",
-            "Nachovuoka",
-            "Paahdettuja kanansiipiä",
-            "Mascarponeherkkua",
-            "Keittiöstä: Kana-caesarsalaatti",
-            "Mantelikalaa ja muusia",
-            "Possuwok ja riisiä",
-            "Mokkapaloja"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Mustaamakkaraa ja muusia",
-            "Pinaattilettuja ja puolukkahilloa",
-            "Intialaisia lihapullia ja riisiä",
-            "Keittiöstä: Mozzarellasalaatti"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Caffitella",
@@ -147,7 +111,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lihamureketta, herkkusienikastiketta, keitettyjä perunoita, paahdettua parsakaalia / Kasvismoussakaa",
+            "Lihapullia, herkkusienikastiketta, keitettyjä perunoita, paahdettua parsakaalia L / Kasvismoussakaa",
             "Cobb-salaattia: kanaa, pekonia ja sinihomejuustoa",
             "Terassimenu: Metsästäjänleipä ja vihersalaattia + pikkulimu"
           ]
@@ -318,6 +282,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
+            "LOUNAS PÄÄTTYY 12.30",
             "KEBABMUNAKAS",
             "SITRUUNAKALA",
             "LIHAMUREKE"
@@ -326,6 +291,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
+            "LOUNAS PÄÄTTYY 12.30",
             "HERNEKEITTO G,L JA PANNARI",
             "KARJALANPAISTI",
             "SIENIRISOTTO"
@@ -334,6 +300,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
+            "LOUNAS PÄÄTTYY 12.30",
             "TÄYTETTY POSSULEIKE",
             "MAKSAA KERMASSA"
           ]
@@ -371,18 +338,19 @@
           "ruoat": [
             "Naudan pannupihvejä sipulikastikkeella",
             "Yrtti – gratinoitua seitä",
-            "Peruna muussia",
+            "– perunamuussia",
             "Keitto: Kookos myskikurpitsakeitto",
-            "Jälkiruoaksi: Mansikkainen chia vanukas"
+            "Jälkiruoaksi: Mansikkainen chia vanukas",
+            "M, VEG jälkiruoka keittiöstä",
+            "Vegaaniruoka kasvis-sipulihöystö keittiöstä"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Louisiana tyylinen possu pata",
-            "Maissipihvejä sekä ruohosipuli-sitrus dippi",
-            "KASVIS",
-            "Riisiä",
+            "Louisiana tyylinen possupata",
+            "Maissipihvejä sekä ruohosipuli-sitrus dippiä",
+            "– riisiä",
             "Keitto: Purjo-perunasosekeitto"
           ]
         },
@@ -391,19 +359,19 @@
           "ruoat": [
             "Broilerin filettä Napolilaiseen tapaan",
             "Kauraleivitettyjä silakkapihvejä",
-            "Juures muusi",
-            "riisi",
-            "Keitto: Täyteläinen Kukkakaalikeitto"
+            "– juuresmuussia",
+            "– riisi",
+            "Keitto: Täyteläinen kukkakaalikeitto"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "sinihomejuustolla gratinoitua broileria",
-            "Nakki hodareita M & sriracha Majoneesia",
-            "Paahdetut perunat",
-            "Keitto: kasvis minestrone",
-            "Jälkiruoaksi: Hedelmä salaattia"
+            "Sinihomejuustolla gratinoitua broileria",
+            "Nakki hodareita M & sriracha majoneesia",
+            "– paahdetut perunat",
+            "Keitto: Kasvis minestrone",
+            "Jälkiruoaksi Hedelmäsalaattia"
           ]
         }
       ]
