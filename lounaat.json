@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-08T05:37:35.993790+00:00",
+  "paivitetty": "2026-07-08T23:41:08.319984+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -155,7 +155,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Juustokuorrutettua uunimakkaraa / Maissi-kasvispihvejä, Bombay-perunoita, linssijogurttia, aurinkokuivattua tomaattia ja rucolaa",
+            "Paneroitua possun pihviä L / Maissi-kasvispihvejä, Bombay-perunoita, linssijogurttia, aurinkokuivattua tomaattia ja rucolaa",
             "Tonnikala-katkarapu pannupizzaa / Tomaatti-mozzarella-pestopizzaa",
             "Terassimenu: Uuniperunaa savulohi- ja broilertäytteillä + pikkulimu"
           ]
@@ -384,8 +384,9 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Louisiana tyylinen possupata",
-            "Maissipihvejä sekä ruohosipuli-sitrus dippiä",
+            "Louisiana tyylinen possu- makkarapata",
+            "Maissipihvejä",
+            "– ruohosipuli-sitrus dippiä",
             "– riisiä",
             "Keitto: Purjo-perunasosekeitto"
           ]
@@ -519,9 +520,9 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Seitan-kookoscurrya ja korianteria",
+            "Seitan-kookoscurrya ja korianteria (gluteeniton vaihtoehto marokkolaiset kasvispihvit)",
             "Tummaa riisiä",
-            "Lindströminpihvejä",
+            "Lindströminpihvejä 3kpl/annos, extra",
             "Sipulikastiketta",
             "Paahdettua perunaa"
           ]
@@ -529,8 +530,8 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kasvisbolognese-pastavuokaa",
-            "Broileripyöryköitä",
+            "Kasvisbolognese-pastavuokaa (gluteeniton vaihtoehto kasvisbolognesekastike ja paahdetut perunat)",
+            "Broileripyöryköitä 6kpl/annos, extra (gluteeniton pyörykkä saatavilla)",
             "Tzatsiki-jogurttia",
             "Paahdettua perunaa"
           ]
@@ -538,7 +539,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Marokkolaisia kasvispihvejä",
+            "Marokkolaisia kasvispihvejä 3kpl/annos, extra",
             "Tzatsiki-jogurttia",
             "Paahdettua perunaa",
             "Broileria teriyakikastikkeessa",
