@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-10T06:27:34.619097+00:00",
+  "paivitetty": "2026-07-10T23:33:54.498767+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -171,8 +171,8 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Broilerin paistia, kasviksia pestokastikkeessa ja paahdettua parsakaalia / Butter tofua, paistettuja kasviksia ja riisiä",
-            "BBQ-burger, maalaislohkot ja aiolia",
+            "Broilerin paistia pestokastikkeessa ja paahdettua parsakaalia L, G / Butter tofua M, G, Paistettua riisiä ja kasviksia",
+            "BBQ-burger, maalaislohkot ja aiolia, saatavana myös gluteenittomana",
             "Terassimenu: summerplate: Graavilohta, tzatzikia, uusia perunoita, juustoa, serranoa, oliivi-tomaatti-rucolasalaattia + pikkulimu"
           ]
         }
@@ -197,36 +197,36 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Siskonmakkarakeitto",
-            "Kaalikääryleet"
+            "Lihakeitto",
+            "Uunimakkara"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Makkarakeitto",
-            "Jauhelihakiusaus"
+            "Nakkikeitto",
+            "Lihamureke"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Lihakeitto",
-            "Läskisoosi |"
+            "Jauhelihakeitto",
+            "Broilerin fileet"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
             "Hernekeitto",
-            "Broilerkastike"
+            "Kinkkupasta |"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kermainen lohikeitto",
-            "Porsaan sisäfilettä"
+            "Curry-kanakeitto",
+            "Kebabkastike"
           ]
         }
       ]
@@ -303,42 +303,36 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "MAKKARAPIHVIT",
-            "SPAGHETTI BOLOGNESE"
+            "NAKKI-PEKONIKASTIKE",
+            "LASAGNETTE"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "LOHIKEITTO",
-            "BBQ-POSSULASAGNE",
-            "VALKOSIPULIBROILER"
+            "PALAPAISTI",
+            "TERIYAKIBROILER"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "LOUNAS PÄÄTTYY 12.30",
-            "KEBABMUNAKAS",
-            "SITRUUNAKALA",
-            "LIHAMUREKE"
+            "RAPEA KALA",
+            "JAUHELIHAPIHVIT"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "LOUNAS PÄÄTTYY 12.30",
-            "HERNEKEITTO G,L JA PANNARI",
-            "KARJALANPAISTI",
-            "SIENIRISOTTO"
+            "PORSAANFILE JA PIPPURIKASTIKE",
+            "BROILER-PASTAVUOKA"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "LOUNAS PÄÄTTYY 12.30",
-            "TÄYTETTY POSSULEIKE",
-            "MAKSAA KERMASSA"
+            "SMETANA MAKKARAT",
+            "PANEROITU"
           ]
         }
       ]
@@ -410,7 +404,8 @@
             "Nakki hodareita M & sriracha majoneesia",
             "– paahdetut perunat",
             "Keitto: Kasvis minestrone",
-            "Jälkiruoaksi Hedelmäsalaattia"
+            "Jälkiruoaksi Hedelmäsalaattia",
+            "Vegaaniruoka keittiöstä: Seitan-kasvispaistos"
           ]
         }
       ]
