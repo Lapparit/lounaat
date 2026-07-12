@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-11T23:33:37.402400+00:00",
+  "paivitetty": "2026-07-12T04:09:19.720255+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -51,67 +51,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Paneroitua porsaanleikettä (suomalaista possua)",
-            "Chimichurri Majoneesi",
-            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
-            "Perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
-            "(suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa pinaatti-feta täytteellä",
-            "Perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
-            "Bearnaise kanaa (suomalaista broileria)",
-            "Paahdettua perunaa",
-            "Riisiä",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Paneroitua broileria",
-            "Caffitellan Chorizopyörykät",
-            "Kolmen Sipulin kermaviili",
-            "Kermaperunaa",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
-            "Broileria & kasviksia (suomalaista broileria)",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Uunijuurekset",
-            "Kermaperunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "vko 28"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -351,7 +291,64 @@
       "kategoria": 2,
       "url": "https://linkosuo.fi/toimipaikka/hertta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Linkosuon Puerto Ricon pannu",
+            "– chilimajoneesi",
+            "BBQ paahdettuja broilerin koipinuijia & siipiä",
+            "– riisiä",
+            "Keitto: Linssi-porkkanasosekeitto",
+            "Vegaani ruoka keittiöstä: Puerto Ricon härkäpapupannu"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Naudan pannupihvejä sipulikastikkeella",
+            "Yrtti – gratinoitua seitä",
+            "– perunamuussia",
+            "Keitto: Kookos myskikurpitsakeitto",
+            "Jälkiruoaksi: Mansikkainen chia vanukas",
+            "M, VEG jälkiruoka keittiöstä",
+            "Vegaaniruoka kasvis-sipulihöystö keittiöstä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Louisiana tyylinen possu- makkarapata",
+            "Maissipihvejä",
+            "– ruohosipuli-sitrus dippiä",
+            "– riisiä",
+            "Keitto: Purjo-perunasosekeitto"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Broilerin filettä Napolilaiseen tapaan",
+            "Kauraleivitettyjä silakkapihvejä",
+            "– kermaviilikastike",
+            "– juuresmuussia L",
+            "– riisi",
+            "Keitto: Täyteläinen kukkakaalikeitto",
+            "Vegaaniruoka keittiöstä: Nochickeniä Napolilaiseen tapaan"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Sinihomejuustolla gratinoitua broileria",
+            "Nakki hodareita M & sriracha majoneesia",
+            "– paahdetut perunat",
+            "Keitto: Kasvis minestrone",
+            "Jälkiruoaksi Hedelmäsalaattia",
+            "Vegaaniruoka keittiöstä: Seitan-kasvispaistos"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Kontukeittiö",
