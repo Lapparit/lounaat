@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-12T23:32:39.817763+00:00",
+  "paivitetty": "2026-07-13T04:11:07.956417+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -346,64 +346,7 @@
       "kategoria": 2,
       "url": "https://linkosuo.fi/toimipaikka/hertta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Linkosuon Puerto Ricon pannu",
-            "– chilimajoneesi",
-            "BBQ paahdettuja broilerin koipinuijia & siipiä",
-            "– riisiä",
-            "Keitto: Linssi-porkkanasosekeitto",
-            "Vegaani ruoka keittiöstä: Puerto Ricon härkäpapupannu"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Naudan pannupihvejä sipulikastikkeella",
-            "Yrtti – gratinoitua seitä",
-            "– perunamuussia",
-            "Keitto: Kookos myskikurpitsakeitto",
-            "Jälkiruoaksi: Mansikkainen chia vanukas",
-            "M, VEG jälkiruoka keittiöstä",
-            "Vegaaniruoka kasvis-sipulihöystö keittiöstä"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Louisiana tyylinen possu- makkarapata",
-            "Maissipihvejä",
-            "– ruohosipuli-sitrus dippiä",
-            "– riisiä",
-            "Keitto: Purjo-perunasosekeitto"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Broilerin filettä Napolilaiseen tapaan",
-            "Kauraleivitettyjä silakkapihvejä",
-            "– kermaviilikastike",
-            "– juuresmuussia L",
-            "– riisi",
-            "Keitto: Täyteläinen kukkakaalikeitto",
-            "Vegaaniruoka keittiöstä: Nochickeniä Napolilaiseen tapaan"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Sinihomejuustolla gratinoitua broileria",
-            "Nakki hodareita M & sriracha majoneesia",
-            "– paahdetut perunat",
-            "Keitto: Kasvis minestrone",
-            "Jälkiruoaksi Hedelmäsalaattia",
-            "Vegaaniruoka keittiöstä: Seitan-kasvispaistos"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Kontukeittiö",
@@ -463,48 +406,47 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Tofua ja penneä limonellokastikkeessa (gluteeniton ja vegaaninen vaihtoehto saatavilla)",
-            "Rapeaa seitifilettä 1kpl/annos, extra (gluteeniton vaihtoehto saatavilla)",
-            "Tartarjogurttia",
-            "Perunamuusia"
+            "Kvinoa pihvejä",
+            "Hummuksella maustettua kauragurttia",
+            "Paahdettua perunaa",
+            "Tandoorikanaa jogurttikastikkeessa",
+            "Tummaa riisiä"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Mifua Sweet & Sour (vegaaninen vaihtoehto saatavilla)",
-            "Tummaa riisiä",
-            "Juustoista savukirjolohikastiketta",
-            "Luomutäysjyväpastaa"
+            "Bolognan mummon kasvislasagnette",
+            "Jauhelihapyöryköitä Korea bbq",
+            "Seesammajoneesia",
+            "Paahdettua perunaa"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Seitan-kookoscurrya ja korianteria (gluteeniton vaihtoehto marokkolaiset kasvispihvit)",
-            "Tummaa riisiä",
-            "Lindströminpihvejä 3kpl/annos, extra",
-            "Sipulikastiketta",
-            "Paahdettua perunaa"
+            "Porkkanaohukaisia",
+            "Hillottua puolukkaa",
+            "Perunamuusia",
+            "Juustokuorrutettua uunimakkaraa",
+            "Perunamuusia"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kasvisbolognese-pastavuokaa (gluteeniton vaihtoehto kasvisbolognesekastike ja paahdetut perunat)",
-            "Broileripyöryköitä 6kpl/annos, extra (gluteeniton pyörykkä saatavilla)",
-            "Tzatsiki-jogurttia",
+            "Sisilialaista seitanpastaa",
+            "Aasialainen kalapihvi",
+            "Wasabilla maustettua hernejogurttia",
             "Paahdettua perunaa"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Marokkolaisia kasvispihvejä 3kpl/annos, extra",
-            "Tzatsiki-jogurttia",
-            "Paahdettua perunaa",
-            "Broileria teriyakikastikkeessa",
-            "Tummaa riisiä"
+            "Quornia tomaattikastikkeessa",
+            "Tummaa riisiä",
+            "Ruotsalaista pyttipannua"
           ]
         }
       ]
