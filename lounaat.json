@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-15T03:46:27.164509+00:00",
+  "paivitetty": "2026-07-15T05:16:54.610219+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -51,67 +51,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Kanaa pippurisessa koskenlaskija kastikkeessa (suomalaista broileria)",
-            "Caffitellan kebabia",
-            "Paahdettua perunaa",
-            "Riisiä",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Kievinkanaa (suomalaista broileria)",
-            "Limeaioli",
-            "Talon lihakastiketta (suomalaista possua ja nautaa)",
-            "Perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Karamellisoitua ylikypsää possua (suomalaista possua)",
-            "Yrttimarinoitua broileria (suomalaista broileria)",
-            "Kermaperunaa",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Jauhelihapyörykät ruskeassa kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa",
-            "tilli-kermaviilikastiketta",
-            "Yrttiperunaa",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Juustoinen uunimakkara",
-            "Paneroitua broileria (suomalaistya broileria)",
-            "Perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Jauhelihapihvit kermakastikkeessa (suomalaista possua ja nautaa)",
-            "Kaalikääryle & puolukkahillo (suomalaista possua ja nautaa)",
-            "Paahdettu perunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 29"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
