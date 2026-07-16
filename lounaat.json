@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-16T05:25:51.099894+00:00",
+  "paivitetty": "2026-07-16T23:32:19.043613+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -385,16 +385,18 @@
             "Paneroitua broileria",
             "– Ranch dippi",
             "Tofu- kasviswokki",
-            "Keitto:kasvishernekeitto",
-            "Jälkiruoaksi pannukakkua & hilloa"
+            "– riisiä",
+            "Keitto: Kasvishernekeitto",
+            "Jälkiruoaksi pannukakkua & hilloa",
+            "M, G, VEG jälkiruoka keittiöstä"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Aromaattista possupataa",
-            "Juustoinen cheddar- feta pannupizza marinoidulla punasipulilla ja rucolalla",
+            "Mausteinen possupata",
             "– varhaisperunoita",
+            "Juustoinen cheddar- feta pannupizza marinoidulla punasipulilla ja rucolalla",
             "Keitto: Juuressosekeitto"
           ]
         }
@@ -518,10 +520,10 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kasvislasagnette",
-            "Kasvislasagnette",
-            "Aasialainen kalapihvi",
-            "Wasabilla maustettua hernejogurttia",
+            "Kasvislasagnette (gluteeniton ja vegaaninen vaihtoehto kasvisbolognesekastike ja paahdetut perunat)",
+            "Kasvislasagnette (gluteeniton ja vegaaninen vaihtoehto kasvisbolognesekastike ja paahdetut perunat)",
+            "Kalapyörykät 6kpl/annos, extra",
+            "Seesammajoneesia",
             "Paahdettua perunaa"
           ]
         },
