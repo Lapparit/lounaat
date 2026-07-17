@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-17T05:28:20.254777+00:00",
+  "paivitetty": "2026-07-17T23:30:29.521681+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,43 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Pekoninen kinkkukiusaus",
+            "Mozzarella-basilikabroileria ja riisiä",
+            "Kebabkastiketta ja ranskalaisia",
+            "Suklaamoussea",
+            "Keittiöstä: Fetasalaatti",
+            "Hernekeittoa",
+            "Naudan palapaistia ja keitettyjä perunoita",
+            "Butter Chicken ja riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Metsästäjänleikettä ja varhaisperunoita",
+            "Nachovuoka",
+            "Paahdettuja kanansiipiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Kana-caesarsalaatti",
+            "Mantelikalaa ja muusia",
+            "Possuwok ja riisiä",
+            "Mokkapaloja"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Mustaamakkaraa ja muusia",
+            "Pinaattilettuja ja puolukkahilloa",
+            "Intialaisia lihapullia ja riisiä",
+            "Keittiöstä: Mozzarellasalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -152,43 +188,7 @@
       "kategoria": 1,
       "url": "https://munkkimiehet.fi/kuluttajille/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Lihakeitto",
-            "Uunimakkara"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Nakkikeitto",
-            "Jauhelihakastike"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Jauhelihakeitto",
-            "Broilerin fileet"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Hernekeitto",
-            "Kinkkupasta |"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Curry-kanakeitto",
-            "Kebabkastike"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Ravintola Idaho",
@@ -361,7 +361,8 @@
             "Mausteinen possupata",
             "– varhaisperunoita",
             "Juustoinen cheddar- feta pannupizza marinoidulla punasipulilla ja rucolalla",
-            "Keitto: Juuressosekeitto"
+            "Keitto: Juuressosekeitto",
+            "Chef´s menu: Falafel pyöryköitä, ranskanperunoita ja valkosipulimajoneesia"
           ]
         }
       ]
@@ -494,7 +495,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Quornia tomaattikastikkeessa",
+            "Quornia tomaattikastikkeessa (vegaaninen vaihtoehto marokkolaiset kasvispihvit)",
             "Tummaa riisiä",
             "Ruotsalaista pyttipannua"
           ]
