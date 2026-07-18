@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-17T23:30:29.521681+00:00",
+  "paivitetty": "2026-07-18T03:43:31.670497+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -310,62 +310,7 @@
       "kategoria": 2,
       "url": "https://linkosuo.fi/toimipaikka/hertta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Paneroitua turskaa",
-            "– remoulade kastiketta",
-            "Tomaattiset lihapullat",
-            "– perunamuusi",
-            "Keitto: Kesäkeitto",
-            "Vegaaniruoka keittiöstä: Meksikon kasvispihvit tomaattikastikkeella"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Luuttomia possun BBQ ribsejä",
-            "Tikka masala – intialaista kanapataa",
-            "– basmati riisi",
-            "Keitto: Lempeän tulinen fenkolikeitto",
-            "Vegaaniruoka keittiöstä: Tofua Tikka masala",
-            "Jälkiruoaksi pullaa ja kahvia",
-            "M, G, VEG jälkiruoka keittiöstä"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Broileria Hot honey kastikkeessa",
-            "Pinaatti-härkäpapu pastaa",
-            "– varhaisperunoita",
-            "Keitto: Mustapapu-kikhernekeitto"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Paneroitua broileria",
-            "– Ranch dippi",
-            "Tofu- kasviswokki",
-            "– riisiä",
-            "Keitto: Kasvishernekeitto",
-            "Jälkiruoaksi pannukakkua & hilloa",
-            "M, G, VEG jälkiruoka keittiöstä"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Mausteinen possupata",
-            "– varhaisperunoita",
-            "Juustoinen cheddar- feta pannupizza marinoidulla punasipulilla ja rucolalla",
-            "Keitto: Juuressosekeitto",
-            "Chef´s menu: Falafel pyöryköitä, ranskanperunoita ja valkosipulimajoneesia"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Kontukeittiö",
@@ -373,38 +318,7 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Ravintolamme on tänään suljettu. kontukeittiö hervanta kesätauolla 6.7-5.8. ja pyynikki kesätauolla 6.7.-2.8"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Ravintolamme on tänään suljettu"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Ravintolamme on tänään suljettu"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Ravintolamme on tänään suljettu"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Ravintolamme on tänään suljettu"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Malabadi",
@@ -512,9 +426,6 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Uunimakkaraa",
-            "Broilerileike",
-            "Kasvisgratiini",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -522,9 +433,6 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lohikeitto+salaatti",
-            "Mausteporsasta",
-            "Pangasius l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -532,9 +440,6 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pizzaa l",
-            "Kebablihaa",
-            "Uunifilettä",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -542,9 +447,6 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Siivet",
-            "Broilerin sisäfilettä",
-            "Munkkeja l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -552,10 +454,6 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Wieninleike l",
-            "Pippuripihvi",
-            "Broileria curry",
-            "Kasvisgratiini",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
