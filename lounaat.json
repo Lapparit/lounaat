@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-18T05:12:05.157268+00:00",
+  "paivitetty": "2026-07-18T23:32:40.745692+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,43 +7,7 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Pekoninen kinkkukiusaus",
-            "Mozzarella-basilikabroileria ja riisiä",
-            "Kebabkastiketta ja ranskalaisia",
-            "Suklaamoussea",
-            "Keittiöstä: Fetasalaatti",
-            "Hernekeittoa",
-            "Naudan palapaistia ja keitettyjä perunoita",
-            "Butter Chicken ja riisiä"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Metsästäjänleikettä ja varhaisperunoita",
-            "Nachovuoka",
-            "Paahdettuja kanansiipiä",
-            "Mascarponeherkkua",
-            "Keittiöstä: Kana-caesarsalaatti",
-            "Mantelikalaa ja muusia",
-            "Possuwok ja riisiä",
-            "Mokkapaloja"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Mustaamakkaraa ja muusia",
-            "Pinaattilettuja ja puolukkahilloa",
-            "Intialaisia lihapullia ja riisiä",
-            "Keittiöstä: Mozzarellasalaatti"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Caffitella",
@@ -55,47 +19,48 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kanaa pippurisessa koskenlaskija kastikkeessa (suomalaista broileria)",
-            "Caffitellan kebabia",
-            "Paahdettua perunaa",
-            "Riisiä",
+            "Maanantai",
+            "Jauhelihamureke talon kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Crispy chicken nuggets (suomalaista broileria)",
+            "Yrttinen kermaviilikastike",
+            "Perunamuusia",
             "Salaattibuffet"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kievinkanaa (suomalaista broileria)",
-            "Limeaioli",
-            "Talon lihakastiketta (suomalaista possua ja nautaa)",
-            "Perunamuusia",
-            "Salaattibuffet"
+            "Kanaa talon marinadissa (suomalaista broileria)",
+            "Paneroitua Possua",
+            "Jalapeno-valkosipuli majoneesi",
+            "Juustoinen perunapaistos",
+            "Riisi"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Karamellisoitua ylikypsää possua (suomalaista possua)",
-            "Yrttimarinoitua broileria (suomalaista broileria)",
-            "Kermaperunaa",
+            "Possun sisäfilettä tummassa rosmariini kastikeessa (suomalaista possua)",
+            "Parmesan broileria (suomalaista broileria)",
+            "Paahdettua perunaa",
             "Salaattibuffet"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Jauhelihapyörykät ruskeassa kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa",
-            "tilli-kermaviilikastiketta",
-            "Yrttiperunaa",
+            "Paneroitua kanaa (suomalaista broileria)",
+            "Talon Ranch majoneesi",
+            "Makkaramix",
+            "Lohkoperunaa",
             "Salaattibuffet"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Juustoinen uunimakkara",
-            "Paneroitua broileria (suomalaistya broileria)",
+            "Smetanainen uunilohi (suomalaista kirjolohta)",
+            "Uunimakkaraa juustokuorrutteella",
             "Perunamuusia",
             "Salaattibuffet"
           ]
@@ -103,12 +68,12 @@
         {
           "paiva": "Lauantai",
           "ruoat": [
-            "Jauhelihapihvit kermakastikkeessa (suomalaista possua ja nautaa)",
-            "Kaalikääryle & puolukkahillo (suomalaista possua ja nautaa)",
-            "Paahdettu perunaa",
+            "Crispy chicken (suomalaista broileria)",
+            "Sweetchili majoneesi",
+            "Chorizo & lihapulla mix",
+            "Grilliperunaa",
             "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 29"
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
           ]
         }
       ]
@@ -310,7 +275,57 @@
       "kategoria": 2,
       "url": "https://linkosuo.fi/toimipaikka/hertta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "sitruuna-timjami paahdettua broileria",
+            "Jauheliha kaalikääryleitäM,G (keittiöstä kasvisM,G,VEG)",
+            "Paahdettua perunaa",
+            "Puolukkasurvosta",
+            "Keitto: Kaurakermaista parsakaalikeittoa"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Lihamureketta feta murulla & pinaatilla",
+            "Kuorrutettuja maissipihvejä",
+            "Paahdettua pikkuperunaa",
+            "Lime-yrttidippiä",
+            "Keitto: Paprika-kikhernekeitto",
+            "Jälkiruoaksi: Mango persikka rahkaa"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Kananpoja filettä savuisessa paprikakastikkeessa",
+            "Chili con carne",
+            "Riisiä",
+            "Keitto:Samettinen punajuurikeitto"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Broileri bulgogia",
+            "Miilunpolttajan pastaa",
+            "Riisiä",
+            "Keitto: Kermainen kalakeitto L;G"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Balsamico-karamellipossua",
+            "Rapeaa turskaa",
+            "aiolilla",
+            "Paahdettuja yrttiperunoita",
+            "Jälkiruoaksi: mansikka-raparperikiisseliä"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Kontukeittiö",
