@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-18T23:32:40.745692+00:00",
+  "paivitetty": "2026-07-19T04:05:14.537838+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -279,50 +279,55 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "sitruuna-timjami paahdettua broileria",
-            "Jauheliha kaalikääryleitäM,G (keittiöstä kasvisM,G,VEG)",
-            "Paahdettua perunaa",
-            "Puolukkasurvosta",
-            "Keitto: Kaurakermaista parsakaalikeittoa"
+            "Paneroitua turskaa",
+            "– remoulade kastiketta",
+            "Tomaattiset lihapullat",
+            "– perunamuusi",
+            "Keitto: Kesäkeitto",
+            "Vegaaniruoka keittiöstä: Meksikon kasvispihvit tomaattikastikkeella"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lihamureketta feta murulla & pinaatilla",
-            "Kuorrutettuja maissipihvejä",
-            "Paahdettua pikkuperunaa",
-            "Lime-yrttidippiä",
-            "Keitto: Paprika-kikhernekeitto",
-            "Jälkiruoaksi: Mango persikka rahkaa"
+            "Luuttomia possun BBQ ribsejä",
+            "Tikka masala – intialaista kanapataa",
+            "– basmati riisi",
+            "Keitto: Lempeän tulinen fenkolikeitto",
+            "Vegaaniruoka keittiöstä: Tofua Tikka masala",
+            "Jälkiruoaksi pullaa ja kahvia",
+            "M, G, VEG jälkiruoka keittiöstä"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Kananpoja filettä savuisessa paprikakastikkeessa",
-            "Chili con carne",
-            "Riisiä",
-            "Keitto:Samettinen punajuurikeitto"
+            "Broileria Hot honey kastikkeessa",
+            "Pinaatti-härkäpapu pastaa",
+            "– varhaisperunoita",
+            "Keitto: Mustapapu-kikhernekeitto"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Broileri bulgogia",
-            "Miilunpolttajan pastaa",
-            "Riisiä",
-            "Keitto: Kermainen kalakeitto L;G"
+            "Paneroitua broileria",
+            "– Ranch dippi",
+            "Tofu- kasviswokki",
+            "– riisiä",
+            "Keitto: Kasvishernekeitto",
+            "Jälkiruoaksi pannukakkua & hilloa",
+            "M, G, VEG jälkiruoka keittiöstä"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Balsamico-karamellipossua",
-            "Rapeaa turskaa",
-            "aiolilla",
-            "Paahdettuja yrttiperunoita",
-            "Jälkiruoaksi: mansikka-raparperikiisseliä"
+            "Mausteinen possupata",
+            "– varhaisperunoita",
+            "Juustoinen cheddar- feta pannupizza marinoidulla punasipulilla ja rucolalla",
+            "Keitto: Juuressosekeitto",
+            "Chef´s menu: Falafel pyöryköitä, ranskanperunoita ja valkosipulimajoneesia"
           ]
         }
       ]
