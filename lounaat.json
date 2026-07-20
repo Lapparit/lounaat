@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-20T05:54:51.433757+00:00",
+  "paivitetty": "2026-07-20T23:35:20.129846+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,43 +7,7 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Pekoninen kinkkukiusaus",
-            "Mozzarella-basilikabroileria ja riisiä",
-            "Kebabkastiketta ja ranskalaisia",
-            "Suklaamoussea",
-            "Keittiöstä: Fetasalaatti",
-            "Hernekeittoa",
-            "Naudan palapaistia ja keitettyjä perunoita",
-            "Butter Chicken ja riisiä"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Metsästäjänleikettä ja varhaisperunoita",
-            "Nachovuoka",
-            "Paahdettuja kanansiipiä",
-            "Mascarponeherkkua",
-            "Keittiöstä: Kana-caesarsalaatti",
-            "Mantelikalaa ja muusia",
-            "Possuwok ja riisiä",
-            "Mokkapaloja"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Mustaamakkaraa ja muusia",
-            "Pinaattilettuja ja puolukkahilloa",
-            "Intialaisia lihapullia ja riisiä",
-            "Keittiöstä: Mozzarellasalaatti"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Caffitella",
@@ -67,7 +31,7 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Kanaa talon marinadissa (suomalaista broileria)",
-            "Paneroitua Possua",
+            "Paneroitua kampelaa",
             "Jalapeno-valkosipuli majoneesi",
             "Juustoinen perunapaistos",
             "Riisi"
@@ -369,7 +333,38 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu. kontukeittiö hervanta kesätauolla 6.7-5.8. ja pyynikki kesätauolla 6.7.-2.8"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
@@ -423,6 +418,7 @@
           "ruoat": [
             "Seitanpataa Stifado",
             "Tummaa riisiä",
+            "Gluteeniton tofupata saatavilla.",
             "Tomaattista jauhelihakastiketta",
             "Tummaa riisiä"
           ]
@@ -566,8 +562,8 @@
           "paiva": "Torstai",
           "ruoat": [
             "SPEAKEASYN LOHIBUFFET",
-            "Uunilohta kermaviilikastikkeella, tilli-voiperunat (",
-            "Porsaanleike maustevoilla, ranskalaiset (",
+            "Uunilohta remouladella, pariisinperunat",
+            "Porsaanleike choronkastikkeella, ranskalaiset",
             "Speakeasyn original wingsejä eri kastikevahvuuksilla",
             "Pannukakut ja mansikkahillo"
           ]
@@ -576,10 +572,10 @@
           "paiva": "Perjantai",
           "ruoat": [
             "SPEAKEASYN BURGERBUFFET",
-            "Talon ribsejä, bratwurstia, grillattua broileria ja maissia.",
-            "Maalaisranskalaisia ja paneroituja sipulirenkaita",
+            "Talon naudanlihapihvejä ja paneroitua kanaa",
             "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Mansikkapirtelö"
+            "Maalaisranskalaisia ja paneroituja sipuliren",
+            "kaita"
           ]
         }
       ]
