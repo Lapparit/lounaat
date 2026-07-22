@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-22T05:35:28.475313+00:00",
+  "paivitetty": "2026-07-22T23:35:13.992617+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -189,7 +189,43 @@
       "kategoria": 1,
       "url": "https://munkkimiehet.fi/kuluttajille/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Lihakeitto",
+            "Makkarakastike"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Nakkikeitto",
+            "Kebabkiusaus"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Makkarakeitto",
+            "Naudanlihakastike"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Hernekeitto",
+            "Kanapasta |"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Kalakeitto",
+            "Pyttipannu"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Ravintola Idaho",
@@ -338,7 +374,9 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Mureaa kananpojan fileetä savuisessa paprikakastikkeessa",
+            "– kasvisruoka L,G keittiöstä",
             "Chili con carne",
+            "– vegeruoka VEG,G keittiöstä",
             "Riisiä ja paahdettuja kauden kasviksia",
             "Keitto: Samettinen punajuurikeitto"
           ]
@@ -475,7 +513,8 @@
           "ruoat": [
             "Tofua, kasviksia ja pähkinää -Tahu goreng Indonesia",
             "Tummaa riisiä",
-            "Kylmäsavulohipastaa ja tilliä"
+            "Kylmäsavulohipastaa ja tilliä",
+            "Gluteeniton vaihtoehto saatavilla"
           ]
         },
         {
@@ -541,7 +580,7 @@
           "paiva": "Torstai",
           "ruoat": [
             "Siivet",
-            "Uunifilettä",
+            "Uunimakkaraa",
             "Munkkeja l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
