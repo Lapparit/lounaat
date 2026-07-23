@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-23T05:40:25.919673+00:00",
+  "paivitetty": "2026-07-23T23:32:26.307602+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -384,7 +384,8 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Broileria bulgogikastikkeessa",
+            "Broileria bulgogikastikkeessa M,G (seesam, soija)",
+            "– härkistä bulgogikastikkeessa keittiöstä",
             "Miilunpolttajan spagettia Amerikan pekonilla",
             "Riisiä",
             "Keitto: Kermainen kalakeitto"
@@ -397,6 +398,8 @@
             "Rapeaa turskaa",
             "– aiolia",
             "Paahdettuja yrttiperunoita",
+            "Perinteinen pinaattikeitto",
+            "– keitetyt kananmunat",
             "Jälkiruoaksi: mansikka-raparperikiisseliä"
           ]
         }
@@ -522,6 +525,7 @@
           "ruoat": [
             "Halloumia mausteisessa tomaatti-jogurttikastikkeessa - Shahi Paneer",
             "Tummaa riisiä",
+            "Saatavana vegaaninen vaihtoehto",
             "Rapeat kalapalat",
             "Tartarjogurttia",
             "Paahdettua perunaa"
