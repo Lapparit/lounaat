@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-25T23:37:04.120817+00:00",
+  "paivitetty": "2026-07-26T04:08:38.894638+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,43 +7,7 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Pekoninen kinkkukiusaus",
-            "Mozzarella-basilikabroileria ja riisiä",
-            "Kebabkastiketta ja ranskalaisia",
-            "Suklaamoussea",
-            "Keittiöstä: Fetasalaatti",
-            "Hernekeittoa",
-            "Naudan palapaistia ja keitettyjä perunoita",
-            "Butter Chicken ja riisiä"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Metsästäjänleikettä ja varhaisperunoita",
-            "Nachovuoka",
-            "Paahdettuja kanansiipiä",
-            "Mascarponeherkkua",
-            "Keittiöstä: Kana-caesarsalaatti",
-            "Mantelikalaa ja muusia",
-            "Possuwok ja riisiä",
-            "Mokkapaloja"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Mustaamakkaraa ja muusia",
-            "Pinaattilettuja ja puolukkahilloa",
-            "Intialaisia lihapullia ja riisiä",
-            "Keittiöstä: Mozzarellasalaatti"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Caffitella",
@@ -351,52 +315,57 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Argentiinalaista chimichurribroileria",
-            "– kasvisriisiä",
-            "Kebabpannua paprika-valkosipulikastikkeessa",
-            "– aiolia",
-            "Kermainen metsäsienikeitto"
+            "Sitruuna-timjami paahdettua broileria",
+            "Jauheliha-kaalikääryleitäM,G (keittiöstä kasvisM,G,VEG)",
+            "Paahdettua perunaa",
+            "Puolukkasurvosta",
+            "Keitto: Kaurakermaista parsakaalikeittoa"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Juustoinen uunimakkara",
-            "– kermaperunat",
-            "Metsäsieniletut",
-            "– puolukkahilloa",
-            "Maissichowder",
-            "Jälkiruoaksi biscoffmoussea"
+            "Lihamureketta fetamurulla & pinaatilla",
+            "– keittiöstä lihamureketta",
+            "– paahdettua pikkuperunaa",
+            "Juustokuorrutetut maissipihvit L,G (glut.kaura, maito)",
+            "– lime-yrttidippiä",
+            "Keitto: Paprika-kikhernekeitto VEG, G (glut.kaura)",
+            "Jälkiruoaksi: Mango-persikkarahkaa"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pähkinä-kookosbroileria",
-            "– riisiä",
-            "Kauraleivitetyt silakkapihvit",
-            "– yrttinen sitruunadippi",
-            "Paahdettu juuressosekeitto"
+            "Mureaa kananpojan fileetä savuisessa paprikakastikkeessa",
+            "– kasvisruoka L,G keittiöstä",
+            "Chili con carne",
+            "– vegeruoka VEG,G keittiöstä",
+            "Riisiä ja paahdettuja kauden kasviksia",
+            "Keitto: Samettinen punajuurikeitto"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kalkkunaa cordon bleu",
-            "– sweet chili mayo M,G ja riisiä",
-            "Sinihomejuustoinen kasvislasagne",
-            "Hernekeitto palvikinkulla",
-            "– pannukakkua ja hilloa"
+            "Broileria bulgogikastikkeessa M,G (seesam, soija)",
+            "– härkistä bulgogikastikkeessa keittiöstä",
+            "Miilunpolttajan spagettia Amerikan pekonilla",
+            "Riisiä",
+            "Keitto: Kermainen kalakeitto"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Rapeaa porsaanleikettä",
-            "– pippurifraiche",
-            "Kasvisfrittata",
-            "Tomaattikeitto tuoreella basilikalla",
-            "Jälkiruoaksi omena-raparperikaurapaistos ja vaniljakastike"
+            "Balsamico-karamellipossua",
+            "Rapeaa turskaa",
+            "– aiolia",
+            "Paahdettuja yrttiperunoita",
+            "Perinteinen pinaattikeitto",
+            "– keitetyt kananmunat",
+            "Nochicken balsamico-karamellikastikkeella keittiöstä",
+            "Jälkiruoaksi: Mansikka-raparperipiirakkaa"
           ]
         }
       ]
