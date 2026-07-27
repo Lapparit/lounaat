@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-27T06:06:32.052147+00:00",
+  "paivitetty": "2026-07-27T23:40:22.251622+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -51,7 +51,72 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Crispy Chicken (suomalaista broileria)",
+            "Valkosipulimajoneesi",
+            "Caffitellan kebabia (suomalaista naudanlihaa)",
+            "Juustoperunaa",
+            "Riisiä",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Lihapullia kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Paneroitua pinaatti-feta Kampelaa",
+            "Sitruunainen kermaviilikastike",
+            "Perunamuusia",
+            "Salaattibuffet",
+            "Lounasannokset keittiöstä: Chicken & fries Halloumi poke"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Ylikypsää possua BBQ kastikkeessa (suomalaista possua)",
+            "Yrttimarinoitua broileria (suomalaista broileria)",
+            "Lohkoperunaa",
+            "Salaattibuffet",
+            "Lounasannokset keittiöstä: Aioli burger Tofu salaatti"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Sitruuna-smetana broileria (suomalaista broileria)",
+            "Chili-possua (suomalaista possua)",
+            "Varhaisperunaa",
+            "Riisiä",
+            "Salaattibuffet",
+            "Lounasannokset keittiöstä: Vuohenjuusto burger Teriyaki poke"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Pannupihvejä ruskeassa kastikkeessa (suomalaista nautaa ja possua)",
+            "Juustoinen makkaravuoka",
+            "Perunamuusia",
+            "Salaattibuffet",
+            "Lounasannos keittiöstä: Pulled Pork burger"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Kievin Kanaa (suomalaista broileria)",
+            "Nakki & lihapulla mix",
+            "Caffitellan majoneesia",
+            "Kermaperunaa",
+            "Salaattibuffet",
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Farmi",
@@ -59,7 +124,19 @@
       "kategoria": 1,
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Sticky wings – mausteisia kanansiipiä",
+            "Nyhtöpossuburgereita",
+            "Tomaatti-basilikamunakasta",
+            "Vuohenjuustokana lohkoperunoilla #",
+            "Pepperonipizzaa",
+            "Vihreää salaattia"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Fastelle",
@@ -138,7 +215,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Smetanakuorrutettua kirjolohta, keitettyjä perunoita, vihreää pestopastaa / Paistettua halloumia, wokattuja kasviksia",
+            "Smetanakuorrutettua kirjolohta, keitettyjä perunoita, vihreää pestopastaa / Paistettua halloumia ja wokattuja kasviksia",
             "Terassimenu: Hermian corn chicken, valkosipuli & harissamajoneesia sekä lohkoperunoita + pikkulimu"
           ]
         },
@@ -239,7 +316,53 @@
       "kategoria": 1,
       "url": "https://ravintolaosku.fi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kanawokki, basmati, suolapähkinää",
+            "Kasviskebabkiusaus",
+            "Delisalaatti (savulohi), katkarapukeitto & krutonkia",
+            "Raparperirahka / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihalasagne, kasviksia",
+            "Kesäkurpitsalasagne & kasvikset",
+            "Delisalaatti (tapaspöytä) & kasviskeitto",
+            "Vadelmakiisseli / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Kalaa & smetanakastike, uudet perunat, höyrytetyt kasvikset / Kinkku-sinihomejuustopasta & juusto",
+            "Kasvispihvit, currykastike, lohkoperunat",
+            "Delisalaatti (siemenkuorrutettu kalkkuna) & kevyt kasvis-linssikeitto"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Stifado, valkosipulilohkoperunat, tsatsiki-coleslaw / Hernekeitto",
+            "Keväinen peruna-kasvis-oumphvuoka & tomaattinen chili-jogurttidippi",
+            "Delisalaatti (Rub-grillattua kanaa) & lehtikaali-bataattikeitto",
+            "Pannukakku, raparperihillo & kermavaahto / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Broileritortillat, riisi, salsaa, valkosipulidippi, jalapenoa",
+            "Mustapapu-kasvistacot, riisi, salsaa, valkosipulidippi, jalapenoa",
+            "Delisalaatti (tonnikala) & vegaaninen juurisellerikeitto",
+            "Makea herkku / hedelmä",
+            "RAVINTOLA SULJETTU 6.7-2.8.2026, HYVÄÄ KESÄÄ!"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Ruskon Helmi",
@@ -247,7 +370,43 @@
       "kategoria": 1,
       "url": "https://ruskonhelmi.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "NAKKI-PEKONIKASTIKE",
+            "LASAGNETTE"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "PALAPAISTI",
+            "TERIYAKIBROILER"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "RAPEA KALA",
+            "JAUHELIHAPIHVIT"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "PORSAANFILE JA PIPPURIKASTIKE",
+            "BROILER-PASTAVUOKA"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "SMETANA MAKKARAT",
+            "PANEROITU"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Gate of India",
@@ -323,7 +482,38 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu. kontukeittiö hervanta kesätauolla 6.7-5.8. ja pyynikki kesätauolla 6.7.-5.8"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Ravintolamme on tänään suljettu"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
@@ -414,11 +604,12 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Rapeita kasvispuikkoja",
+            "Rapeita kasvispuikkoja 3kpl/annos, extra",
             "Piparjuurimajoneesi",
             "Paahdettua perunaa",
-            "Jauhelihapihvejä ja metsäsienikastiketta",
-            "Paahdettua perunaa"
+            "Jauhelihapihvejä ja metsäsienikastiketta 2kpl/annos, extra",
+            "Perunamuusi",
+            "Gluteenittomana vaihtoehtona saatavana lihapullia"
           ]
         },
         {
@@ -481,7 +672,7 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Lohikeitto+salaatti",
-            "Pangasius l",
+            "Kalaleike cheddar l",
             "Uunifilettä",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
