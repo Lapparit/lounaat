@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-27T23:40:22.251622+00:00",
+  "paivitetty": "2026-07-28T03:48:53.258852+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -51,72 +51,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Crispy Chicken (suomalaista broileria)",
-            "Valkosipulimajoneesi",
-            "Caffitellan kebabia (suomalaista naudanlihaa)",
-            "Juustoperunaa",
-            "Riisiä",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Lihapullia kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Paneroitua pinaatti-feta Kampelaa",
-            "Sitruunainen kermaviilikastike",
-            "Perunamuusia",
-            "Salaattibuffet",
-            "Lounasannokset keittiöstä: Chicken & fries Halloumi poke"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Ylikypsää possua BBQ kastikkeessa (suomalaista possua)",
-            "Yrttimarinoitua broileria (suomalaista broileria)",
-            "Lohkoperunaa",
-            "Salaattibuffet",
-            "Lounasannokset keittiöstä: Aioli burger Tofu salaatti"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Sitruuna-smetana broileria (suomalaista broileria)",
-            "Chili-possua (suomalaista possua)",
-            "Varhaisperunaa",
-            "Riisiä",
-            "Salaattibuffet",
-            "Lounasannokset keittiöstä: Vuohenjuusto burger Teriyaki poke"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Pannupihvejä ruskeassa kastikkeessa (suomalaista nautaa ja possua)",
-            "Juustoinen makkaravuoka",
-            "Perunamuusia",
-            "Salaattibuffet",
-            "Lounasannos keittiöstä: Pulled Pork burger"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Kievin Kanaa (suomalaista broileria)",
-            "Nakki & lihapulla mix",
-            "Caffitellan majoneesia",
-            "Kermaperunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -124,19 +59,7 @@
       "kategoria": 1,
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Sticky wings – mausteisia kanansiipiä",
-            "Nyhtöpossuburgereita",
-            "Tomaatti-basilikamunakasta",
-            "Vuohenjuustokana lohkoperunoilla #",
-            "Pepperonipizzaa",
-            "Vihreää salaattia"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Fastelle",
