@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-28T05:33:26.847966+00:00",
+  "paivitetty": "2026-07-28T23:34:33.698391+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,43 +7,7 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Pekoninen kinkkukiusaus",
-            "Mozzarella-basilikabroileria ja riisiä",
-            "Kebabkastiketta ja ranskalaisia",
-            "Suklaamoussea",
-            "Keittiöstä: Fetasalaatti",
-            "Hernekeittoa",
-            "Naudan palapaistia ja keitettyjä perunoita",
-            "Butter Chicken ja riisiä"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Metsästäjänleikettä ja varhaisperunoita",
-            "Nachovuoka",
-            "Paahdettuja kanansiipiä",
-            "Mascarponeherkkua",
-            "Keittiöstä: Kana-caesarsalaatti",
-            "Mantelikalaa ja muusia",
-            "Possuwok ja riisiä",
-            "Mokkapaloja"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Mustaamakkaraa ja muusia",
-            "Pinaattilettuja ja puolukkahilloa",
-            "Intialaisia lihapullia ja riisiä",
-            "Keittiöstä: Mozzarellasalaatti"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Caffitella",
@@ -51,7 +15,72 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Crispy Chicken (suomalaista broileria)",
+            "Valkosipulimajoneesi",
+            "Caffitellan kebabia (suomalaista naudanlihaa)",
+            "Juustoperunaa",
+            "Riisiä",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Lihapullia kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Paneroitua pinaatti-feta Kampelaa",
+            "Sitruunainen kermaviilikastike",
+            "Perunamuusia",
+            "Salaattibuffet",
+            "Lounasannokset keittiöstä: Chicken & fries Halloumi poke"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Ylikypsää possua BBQ kastikkeessa (suomalaista possua)",
+            "Yrttimarinoitua broileria (suomalaista broileria)",
+            "Lohkoperunaa",
+            "Salaattibuffet",
+            "Lounasannokset keittiöstä: Aioli burger Tofu salaatti"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Sitruuna-smetana broileria (suomalaista broileria)",
+            "Chili-possua (suomalaista possua)",
+            "Varhaisperunaa",
+            "Riisiä",
+            "Salaattibuffet",
+            "Lounasannokset keittiöstä: Vuohenjuusto burger Teriyaki poke"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Pannupihvejä ruskeassa kastikkeessa (suomalaista nautaa ja possua)",
+            "Juustoinen makkaravuoka",
+            "Perunamuusia",
+            "Salaattibuffet",
+            "Lounasannos keittiöstä: Pulled Pork burger"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Kievin Kanaa (suomalaista broileria)",
+            "Nakki & lihapulla mix",
+            "Caffitellan majoneesia",
+            "Kermaperunaa",
+            "Salaattibuffet",
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Farmi",
@@ -59,7 +88,19 @@
       "kategoria": 1,
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Sticky wings – mausteisia kanansiipiä",
+            "Nyhtöpossuburgereita",
+            "Tomaatti-basilikamunakasta",
+            "Vuohenjuustokana lohkoperunoilla #",
+            "Pepperonipizzaa",
+            "Vihreää salaattia"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Fastelle",
@@ -146,7 +187,7 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Lihapullia, Arrabiatakastiketta, pennepastaa / Halloumi-punajuuripihvejä, sitruunakermaviilikastiketta, lämmintä siitakesieni-kasvissalaattia",
-            "Terassimenu: Cobb-salaattia: kanaa, pekonia ja sinihomejuustoa + pikkulimu"
+            "Terassimenu: Cobb-salaattia: kanaa, pekonia ja sinihomejuustoa + pikkulimu (pyydä erikseen gluteeniton"
           ]
         },
         {
@@ -363,8 +404,7 @@
             "– kermaperunat",
             "Metsäsieniletut",
             "– puolukkahilloa",
-            "Maissichowder",
-            "Jälkiruoaksi biscoffmoussea"
+            "Maissichowder"
           ]
         },
         {
@@ -540,8 +580,11 @@
           "ruoat": [
             "Bataatti-kookoscurrya",
             "Tummaa riisiä",
-            "Mausteista broileripataa - Broileripataa Mexicali",
-            "Tummaa riisiä"
+            "Gluteeniton vaihtoehto saatavilla",
+            "Tummaa riisiä",
+            "Gluteeniton vaihtoehto saatavilla",
+            "Broilerpyöryköitä 6kpl/annos",
+            "Currymajoneesia"
           ]
         },
         {
@@ -615,7 +658,7 @@
           "paiva": "Torstai",
           "ruoat": [
             "Siivet",
-            "Maustepossua",
+            "Kebablihaa",
             "Mustaa makkaraa l",
             "Munkit l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
