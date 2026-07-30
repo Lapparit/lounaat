@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-30T05:25:03.557285+00:00",
+  "paivitetty": "2026-07-30T23:36:22.276171+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -124,7 +124,19 @@
       "kategoria": 1,
       "url": "https://antell.fi/lounas/tampere/hermianfarmi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Sticky wings – mausteisia kanansiipiä",
+            "Nyhtöpossuburgereita",
+            "Tomaatti-basilikamunakasta",
+            "Vuohenjuustokana lohkoperunoilla #",
+            "Pepperonipizzaa",
+            "Vihreää salaattia"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Fastelle",
@@ -232,7 +244,7 @@
           "paiva": "Perjantai",
           "ruoat": [
             "Wieninleikettä, kermaperunoita, pippurikastiketta / Tofucurrya",
-            "Terassimenu: summerplate: Graavilohta, tzatzikia, uusia perunoita, juustoa, serranoa, oliivi-tomaatti-rucolasalaattia + pikkulimu"
+            "Terassimenu: summerplate: Graavilohta, tzatzikia, uusia perunoita, juustoa, serranoa, oliivi-tomaatti-rucolasalaattia"
           ]
         }
       ]
@@ -308,46 +320,42 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kanawokki, basmati, suolapähkinää",
-            "Kasviskebabkiusaus",
-            "Delisalaatti (savulohi), katkarapukeitto & krutonkia",
-            "Raparperirahka / hedelmä"
+            "Pekoninen jauhelihapihvi, kermainen pippurikastike, perunat, grillattuja kasviksia",
+            "Punajuurifalafelpihvi, kookos-currykastike, basmati, grillattuja kasviksia",
+            "Delisalaatti (tonnikala) & kesäkeitto",
+            "Mangomousse / hedelmä"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Jauhelihalasagne, kasviksia",
-            "Kesäkurpitsalasagne & kasvikset",
-            "Delisalaatti (tapaspöytä) & kasviskeitto",
-            "Vadelmakiisseli / hedelmä"
+            "Kirjolohta, tartarkastike, perunasose, parsakaalia / Välimeren kanapasta & juusto",
+            "Linssi-kasvispihvi, tartarkastike, perunasose, parsakaalia",
+            "Delisalaatti (härkä bulgogi) & kimchikeitto",
+            "Mansikkasmoothie / hedelmä"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Kalaa & smetanakastike, uudet perunat, höyrytetyt kasvikset / Kinkku-sinihomejuustopasta & juusto",
-            "Kasvispihvit, currykastike, lohkoperunat",
-            "Delisalaatti (siemenkuorrutettu kalkkuna) & kevyt kasvis-linssikeitto"
+            "Broilerinfilee, gochujangkastike, tumma riisi, wokatatut kesäkasvikset",
+            "Halloumi-kasvissalaatti, paistetut perunat",
+            "Delisalaatti (lämmin parmesan-valkosipulikalaa), kasviskeitto & krutonki",
+            "Raparperikiisseli & kanelikermavaahto / hedelmä"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Stifado, valkosipulilohkoperunat, tsatsiki-coleslaw / Hernekeitto",
-            "Keväinen peruna-kasvis-oumphvuoka & tomaattinen chili-jogurttidippi",
-            "Delisalaatti (Rub-grillattua kanaa) & lehtikaali-bataattikeitto",
-            "Pannukakku, raparperihillo & kermavaahto / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Broileritortillat, riisi, salsaa, valkosipulidippi, jalapenoa",
-            "Mustapapu-kasvistacot, riisi, salsaa, valkosipulidippi, jalapenoa",
-            "Delisalaatti (tonnikala) & vegaaninen juurisellerikeitto",
-            "Makea herkku / hedelmä",
-            "RAVINTOLA SULJETTU 6.7-2.8.2026, HYVÄÄ KESÄÄ!"
+            "Uunimakkaraa sinappirelishkastikkeella, lohkoperunat, yrtti-porkkanaa / Kala-katkarapupasta & juusto",
+            "Kasvismakkaraa sinappirelishkastikkeella, lohkoperunat, yrtti-porkkanaa",
+            "Delisalaatti (halloumi) & bataattikeitto",
+            "Passion-ananasrahka / hedelmä",
+            "Pe. 7.8.",
+            "Paneroitu possunleike, pekoni-perunat & bbq-dippi, lämmin",
+            "Kukkakaaliwingsit, sinihomejuustodippi, lohkoperunat",
+            "Delisalaatti (paneroitu kana) ja savujuustokeitto",
+            "Marjapiirakka / hedelmä"
           ]
         }
       ]
@@ -444,10 +452,12 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kalkkunaa cordon bleu",
+            "Kievin kanaa",
             "– sweet chili mayo M,G ja riisiä",
+            "Keittiöstä possun niskaa",
             "Sinihomejuustoinen kasvislasagne",
-            "Hernekeitto palvikinkulla",
+            "Keittiöstä kasvislasagnea",
+            "Hernekeitto murealla possulla",
             "– pannukakkua ja hilloa"
           ]
         },
@@ -627,7 +637,8 @@
           "ruoat": [
             "Välimeren juusto-kasvispataa",
             "Luomutäysjyväpastaa",
-            "Uunimakkaraa TexMex",
+            "Vegaaninen vaihtoehto saatavilla",
+            "Uunimakkaraa TexMex 1kp/annos, extra",
             "Perunamuusia"
           ]
         },
