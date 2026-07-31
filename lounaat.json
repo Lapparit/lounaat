@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-07-31T04:03:54.973926+00:00",
+  "paivitetty": "2026-07-31T05:51:34.703384+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,43 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Pekoninen kinkkukiusaus",
+            "Mozzarella-basilikabroileria ja riisiä",
+            "Kebabkastiketta ja ranskalaisia",
+            "Suklaamoussea",
+            "Keittiöstä: Fetasalaatti",
+            "Hernekeittoa",
+            "Naudan palapaistia ja keitettyjä perunoita",
+            "Butter Chicken ja riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Metsästäjänleikettä ja varhaisperunoita",
+            "Nachovuoka",
+            "Paahdettuja kanansiipiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Kana-caesarsalaatti",
+            "Mantelikalaa ja muusia",
+            "Possuwok ja riisiä",
+            "Mokkapaloja"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Mustaamakkaraa ja muusia",
+            "Pinaattilettuja ja puolukkahilloa",
+            "Intialaisia lihapullia ja riisiä",
+            "Keittiöstä: Mozzarellasalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -112,7 +148,8 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Silkkinen keitto paahdetusta paprikasta & inkivääristä",
-            "Fish & Chips",
+            "Tempura paneroitua turskaa",
+            "Paahdettuja perunoita",
             "Sitruksinen kevätsipulidippi",
             "Artesaani makkarapannu",
             "Paahdetut satokauden kasvikset",
