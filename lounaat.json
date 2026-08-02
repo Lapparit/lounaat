@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-02T04:07:11.272387+00:00",
+  "paivitetty": "2026-08-02T05:42:33.023518+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -56,65 +56,65 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Crispy Chicken (suomalaista broileria)",
-            "Valkosipulimajoneesi",
-            "Caffitellan kebabia (suomalaista naudanlihaa)",
-            "Juustoperunaa",
-            "Riisiä",
-            "Salaattibuffet"
+            "Paneroitua porsaanleikettä (suomalaista possua)",
+            "Chimichurri Majoneesi",
+            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
+            "Perunamuusia",
+            "Salaattibuffet",
+            "Paprika burger Halloumi salaatti (Annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lihapullia kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Paneroitua pinaatti-feta Kampelaa",
-            "Sitruunainen kermaviilikastike",
+            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
+            "(suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa pinaatti-feta täytteellä",
             "Perunamuusia",
             "Salaattibuffet",
-            "Lounasannokset keittiöstä: Chicken & fries Halloumi poke"
+            "Yrttibroileri burger Vuohenjuusto poke (Annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Ylikypsää possua BBQ kastikkeessa (suomalaista possua)",
-            "Yrttimarinoitua broileria (suomalaista broileria)",
-            "Lohkoperunaa",
+            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
+            "Bearnaise kanaa (suomalaista broileria)",
+            "Paahdettua perunaa",
+            "Riisiä",
             "Salaattibuffet",
-            "Lounasannokset keittiöstä: Aioli burger Tofu salaatti"
+            "Halloumi burger Burger salaatti (Annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Sitruuna-smetana broileria (suomalaista broileria)",
-            "Chili-possua (suomalaista possua)",
-            "Varhaisperunaa",
-            "Riisiä",
+            "Paneroitua broileria",
+            "Caffitellan Chorizopyörykät",
+            "Kolmen Sipulin kermaviili",
+            "Kermaperunaa",
             "Salaattibuffet",
-            "Lounasannokset keittiöstä: Vuohenjuusto burger Teriyaki poke"
+            "Pulled Pork fries & fries Paneroitu broileri poke (Annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Pannupihvejä ruskeassa kastikkeessa (suomalaista nautaa ja possua)",
-            "Juustoinen makkaravuoka",
-            "Perunamuusia",
+            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
+            "Broileria & kasviksia (suomalaista broileria)",
             "Salaattibuffet",
-            "Lounasannos keittiöstä: Pulled Pork burger"
+            "Kanaburger (Annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Lauantai",
           "ruoat": [
-            "Kievin Kanaa (suomalaista broileria)",
-            "Nakki & lihapulla mix",
-            "Caffitellan majoneesia",
+            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Uunijuurekset",
             "Kermaperunaa",
             "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
+            "VKO 32"
           ]
         }
       ]
