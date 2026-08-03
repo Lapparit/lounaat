@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-03T05:58:39.978531+00:00",
+  "paivitetty": "2026-08-03T23:42:30.334767+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -244,10 +244,10 @@
           "paiva": "Torstai",
           "ruoat": [
             "Perinteistä hernekeittoa palvikinkulla",
-            "Kananpojan filettä savuisessa paprikakastikkeessa",
+            "Kalkkunan paistileikettä savuisessa paprikakastikkeessa",
             "Riisiä",
             "Paahdetut satokauden kasvikset",
-            "Kebab stroganoff",
+            "Kebabstroganoff",
             "Kasvis-nuudeliwok tofulla",
             "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa"
           ]
@@ -276,7 +276,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kiovan kanaa, currymajoneesia sekä basmatiriisiä / Pinaatti-munakoisolasagnea, lehtikaali-kurpitsansiemensalaattia",
+            "Kiovan kanaa, currymajoneesia sekä basmatiriisiä VL/ Pinaatti-munakoisolasagnea L, lehtikaali-kurpitsansiemensalaattia",
             "Grillattua lohta, tzatzikia, tillivoissa pyöräytettyjä uusia perunoita ja kesäkasviksia"
           ]
         },
@@ -523,9 +523,10 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Mureaa broileria mallaskastiikkeessa",
+            "Mureaa broileria mallaskastikkeessa",
             "Halloumi palak paneer",
-            "Keitto: Mustajuurikeitto"
+            "Keitto: Mustajuurikeitto",
+            "Vegaaniruoka keittiöstä: Nochicken-kikhernepata"
           ]
         },
         {
@@ -568,7 +569,42 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Ei lounasta tänään"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Ei lounasta tänään"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Ei lounasta tänään"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Kermaista fenkoli-kalakeittoa",
+            "Bbq broileria",
+            "Soija-kasviskastiketta"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Yrttistä kasviskeittoa",
+            "Lamminpään lumousta",
+            "Kikherne-kukkakaalicurrya g"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
@@ -662,7 +698,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Porkkanapihvejä",
+            "Porkkanapihvejä 3kpl/annos, extra",
             "Paahdettua perunaa",
             "Ruohosipulijogurttia",
             "Burgundin broileripataa",
