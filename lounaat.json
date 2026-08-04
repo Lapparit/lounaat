@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-04T05:32:57.391157+00:00",
+  "paivitetty": "2026-08-04T23:37:04.178051+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -221,17 +221,20 @@
           "ruoat": [
             "Silkkinen keitto paahdetusta paprikasta & inkivääristä",
             "Tempura paneroitua turskaa",
-            "Paahdettuja perunoita",
+            "Keitettyjä perunoita",
             "Sitruksinen kevätsipulidippi",
             "Artesaani makkarapannu",
-            "Paahdetut satokauden kasvikset",
-            "Tofua & kasviksia satay kastikkeella"
+            "Paahdetut kauden kasvikset",
+            "Tofua & kasviksia satay kastikkeella M,G,V – sis pähkinää",
+            "*Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Paahdettua halloumia",
+            "-Raejuustoa"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Tuorehernesosekeitto",
+            "Täyteläinen bataattisosekeitto",
             "Kreikkalainen lihamureke",
             "Broilerin koipinuija bbq",
             "Tomaattinen sriracha-dippi",
@@ -283,7 +286,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Savulohimurekepihvejä, tartarkastiketta sekä paahdettuja perunoita / Herkkusieni-soijapastaa, lämmintä kasvissalaattia",
+            "Itse tehtyjä savulohimurekepihvejä L, tartarkastiketta M, G sekä paahdettuja perunoita M, G / Herkkusieni-soijapastaa L, lämmintä kasvissalaattia",
             "Korean burger & bataattiranskalaisia"
           ]
         },
@@ -328,8 +331,8 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lihapullia Arrabiatakastikkeessa, paahdettuja perunoita / Fenkoli-tillipaistettua turskaa, sitruuna-voikastiketta",
-            "Chicken Wings buffet",
+            "Lihapullia Arrabiatakastikkeessa, paahdettuja perunoita / Fenkoli-tillipaistettua turskaa, sitruuna-voikastiketta/Tofua Garam masala",
+            "Chicken Wings buffet sekä kukkakaaliwingsejä, ranskikset, limejoneesia, dippikasviksia",
             "Yrteillä maustettua tuoreherkkusienikeittoa ja salaattibuffet"
           ]
         },
@@ -534,14 +537,15 @@
           "ruoat": [
             "Puna-ahventa Jamaican jerk- kastiikkeella",
             "Pyttipannua",
-            "Keitto: Porkkana-rakuunakeitto"
+            "Keitto: Porkkana-rakuunakeitto",
+            "Vegaaniruoka keittiöstä: falafel pyöryköitä Jerk kastikkeella"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
             "Cherry-BBQ paahdettua possua",
-            "Kernainen broileri-herrkusienipasta",
+            "Kermainen broileri-herkkusienipasta",
             "Keitto: Mausteinen linssikeitto"
           ]
         },
@@ -651,7 +655,9 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Savuinen kentuckyn possu",
+            "– cajunperunaa",
             "Havaijin huli huli kanaa",
+            "– riisiä",
             "Perinteinen pinaattikeitto",
             "– keitetyt kananmunat"
           ]
@@ -672,7 +678,7 @@
             "– wasabiaiolia",
             "Kebabstroganoff",
             "– riisiä",
-            "Kasvishernekeittoa",
+            "Härkishernekeittoa",
             "– pannukakkua ja hilloa"
           ]
         },
@@ -708,8 +714,8 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Välimeren juusto-kasvispataa",
-            "Luomutäysjyväpastaa",
+            "Välimeren juusto-kasvispataa, kysy vegaaninen vaihtoehto",
+            "Tumma riisi",
             "BBQ maustettua broileripastaa ja soijapapuja"
           ]
         },
