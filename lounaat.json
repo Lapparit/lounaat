@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-05T05:32:13.572109+00:00",
+  "paivitetty": "2026-08-05T23:33:24.306108+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -52,72 +52,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Paneroitua porsaanleikettä (suomalaista possua)",
-            "Chimichurri Majoneesi",
-            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
-            "Perunamuusia",
-            "Salaattibuffet",
-            "Paprika burger Halloumi salaatti (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
-            "(suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa pinaatti-feta täytteellä",
-            "Perunamuusia",
-            "Salaattibuffet",
-            "Yrttibroileri burger Vuohenjuusto poke (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
-            "Bearnaise kanaa (suomalaista broileria)",
-            "Paahdettua perunaa",
-            "Riisiä",
-            "Salaattibuffet",
-            "Halloumi burger Burger salaatti (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Paneroitua broileria",
-            "Caffitellan Chorizopyörykät",
-            "Kolmen Sipulin kermaviili",
-            "Kermaperunaa",
-            "Salaattibuffet",
-            "Pulled Pork fries & fries Paneroitu broileri poke (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
-            "Broileria & kasviksia (suomalaista broileria)",
-            "Salaattibuffet",
-            "Kanaburger (Annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Uunijuurekset",
-            "Kermaperunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 32"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -161,10 +96,10 @@
             "Kasvismoussakaa",
             "Bearnaiselohta ranskalaisilla",
             "Kahden kalan keittoa",
-            "Gremolata-maustettua kanaa",
             "BBQ-majoneesia",
             "Täytettyjä paprikoita",
-            "Katkarapu-caesarsalaatti"
+            "Katkarapu-caesarsalaatti",
+            "Aioli-katkarapuja"
           ]
         },
         {
@@ -173,13 +108,13 @@
             "Butter chicken – kanaa intialaisittain",
             "Cheddar-burgereita",
             "Feta-pinaattimunakasta",
-            "Lehtipihvi ranskalaisilla",
+            "Lehtipihvi valkosipulikermaperunoilla",
             "Kermaista pippurikastiketta",
             "Parsakeittoa",
-            "Chorizopyörykkä, Suomi",
             "Mangomajoneesia",
             "Porsaanpaisti, viipaloitu",
-            "Caesar-kanasalaattia"
+            "Caesar-kanasalaattia",
+            "Tacomaustettua jauhelihaa"
           ]
         },
         {
@@ -189,7 +124,7 @@
             "Rapeita chilikalafileitä",
             "Falafelpihvejä",
             "Smash-burger",
-            "Maalaisranskalaisia"
+            "Maalaislohkoperunoita"
           ]
         }
       ]
@@ -252,7 +187,10 @@
             "Paahdetut satokauden kasvikset",
             "Kebabstroganoff",
             "Kasvis-nuudeliwok tofulla",
-            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa"
+            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa",
+            "*Kilohinnalla punnittavan salaatin proteiinit",
+            "– Marinoitua broileria",
+            "– Salaattijuustoa"
           ]
         },
         {
@@ -293,7 +231,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Anopin lihapyöryköitä, sinappi-kermakastiketta ja perunamuusia / Kreikkalaista kasvispataa mifusta & minttujugurttia, marinoitua parsakaalia",
+            "Anopin lihapyöryköitä sinappi-kermakastikkeessa L, perunamuusia L, G / Kreikkalaista kasvispataa mifusta & minttujugurttia L, G, lämpimiä kasviksia",
             "Porsaan lehtipihvi, basilika-aiolia, mausteisia lohkoperunoita, kesäkasviksia ja pinaattia"
           ]
         },
@@ -339,7 +277,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pollo limonello-pastaa / Ylikypsää possunposkea, gremolataa, paprikalla maustettua tuoreherkkusienikastiketta / Italialaisia kasvispullia basilika-tomaattikastikkeessa",
+            "Pollo limonello-pastaa / Ylikypsää possunposkea paprikalla maustetussa tuoreherkkusienikastikeessa / Italialaisia kasvispullia basilika-tomaattikastikkeessa",
             "Chicken Wings buffet",
             "Inkivääri-porkkanasosekeittoa ja salaattibuffet"
           ]
@@ -546,7 +484,10 @@
           "ruoat": [
             "Cherry-BBQ paahdettua possua",
             "Kermainen broileri-herkkusienipasta",
-            "Keitto: Mausteinen linssikeitto"
+            "Keitto: Mausteinen linssikeitto",
+            "Vegaaniruoka keittiöstä: Nochicken herkkusienipasta",
+            "Jälkiruoaksi mansikkarahkaa",
+            "M, VEG mansikkavaahto keittiöstä"
           ]
         },
         {
@@ -667,7 +608,7 @@
           "ruoat": [
             "Buffalokanaa",
             "– sinihomejuustodippiä L,G ja valkosipulilohkoperunoita",
-            "Juustokuorrutetut kasvispihvit",
+            "Juustokuorrutetut kasvispihvit L,G (keittiöstä M,G)",
             "Tomaattikeitto tuoreella basilikalla ja vuohenjuustolla"
           ]
         },
@@ -722,9 +663,9 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Bolognesekastiketta Unlimited® jauhismurusta",
+            "Bolognesekastiketta Unlimited® jauhismurusta, kysy gluteeniton vaihtoehto",
             "Luomutäysjyväpastaa",
-            "Rapeaa yrttikalaa",
+            "Rapeaa yrttikalaa 2kpl/annos, extra",
             "Tzatsiki-jogurttia",
             "Paahdettua perunaa"
           ]
