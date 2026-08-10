@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-10T02:54:31.839731+00:00",
+  "paivitetty": "2026-08-10T04:15:50.208535+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -234,7 +234,7 @@
             "Lohi-pinaatti lasagne",
             "Paahdetut satokauden kasvikset",
             "Peruna-juuressose",
-            "Chili sin Härkis"
+            "Soijabolognese"
           ]
         },
         {
@@ -416,7 +416,53 @@
       "kategoria": 1,
       "url": "https://ravintolaosku.fi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Ragu alla bolognese, spagetti & parmesan",
+            "Kasvis-sitruunapasta & parmesan",
+            "Delisalaatti (paahtopaisti) ja peruna-fenkolikeitto",
+            "Mustaherukkavaahto / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Slaavilainen kanapata, täysjyväriisi, grillatut kasvikset",
+            "Kasvis-soijarouhe-juustotäytteiset kesäkurpitsat, valkosipuli-lohkoperunat",
+            "Delisalaatti (cheddar-kinkku) ja juureskeitto",
+            "Raparperi-kaurapaistos & vaniljakastike / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Lohimurekepihvit, sitruuna-tillidippi, pinaatti-perunasose, höyrytetty kasvis / Kanapaella & aioli",
+            "Välimeren pesto-fetakiusaus",
+            "Delisalaatti (kanacaesar) ja mustajuurikeitto",
+            "Vaniljarahka / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Liha Wokki teriyakikastikkeella, suolapähkinää, korianteria & riisiä / Hernekeitto",
+            "Nyhtökaura-kasvislasagne",
+            "Delisalaatti (poke bowl valkosipuli-seesamikatkarapu) ja ramenkeitto",
+            "Ohukainen & raparperihillo / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Pizza Perjantai",
+            "Mozzarella-tomaattipizza",
+            "Delisalaatti (gorgonzola) ja palsternakka-porkkanakeitto",
+            "Jäätelöä / hedelmä"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Ruskon Helmi",
@@ -424,7 +470,45 @@
       "kategoria": 1,
       "url": "https://ruskonhelmi.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "UUNIMAKKARA",
+            "PANEROITU KALA"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "MANDARIINIBROILER",
+            "JAUHELIHAPIHVIT"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "KIPPARIN KALAKEITTO",
+            "POSSUKORMA",
+            "KASVISPYÖRYKÄT"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "HERNEKEITTO G,L JA PANNARI",
+            "RIISTAPANNU",
+            "UUNIKALAA"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "BROILER-SAVUJUUSTOKIUSAUS",
+            "WIENIN LEIKE"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Gate of India",
@@ -653,7 +737,60 @@
       "kategoria": 3,
       "url": "https://www.speakeasy.fi/hervanta/lounas/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "0.8.",
+            "Kievin kanaa ja mango-chilimajoneesia",
+            ", ranskalaiset (",
+            "Tomaatti-halloumipasta (",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla (",
+            "Puolukkarahka ("
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "1.8.",
+            "Chili con carne, basmatiriisi",
+            "Uuniperuna savulohitäytteellä",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla (",
+            "Suklaadonitsi"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "2.8.",
+            "Possun sipulipihvit, lohkoperunat",
+            "Tonnikala-pastavuoka",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla (",
+            "Mansikka-valkosuklaamousse"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "3.8.",
+            "Uunilohta hollandaisella, yrttiperunat",
+            "Porsaanleike maustevoilla, ranskalaiset",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla (",
+            "Pannukakut ja mansikkahillo"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "14.8.",
+            "SPEAKEASYN GRILLIBUFFET",
+            "Talon ribsejä, bratwurstia, grillattua broileria ja maissia.",
+            "Maalaisranskalaisia ja paneroituja sipulirenkaita",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla (",
+            "Hedelm"
+          ]
+        }
+      ]
     }
   ]
 }
