@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-11T02:37:07.295065+00:00",
+  "paivitetty": "2026-08-11T04:03:39.688679+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -224,12 +224,16 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
+            "Muutokset ruokalistalla mahdollisia!",
             "Pinaattikeitto & keitettyä kananmunaa",
             "Argentiinalaista chimichurri kanaa",
             "Uunimakkaraa sweet chili ranskankermalla gratinoituna",
             "Paahdetut satokauden kasvikset",
             "Talon perunoita",
-            "Seitan kasvis-paella"
+            "Seitan kasvis-paella",
+            "Kilohinnalla punnittavan salaatin proteiinilisukkeet",
+            "-Raejuustoa",
+            "– Vuohenjuustoa"
           ]
         },
         {
@@ -584,7 +588,48 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Metsäsienikeittoa",
+            "Lindströminpihvejä kermasipulikastikkeessa",
+            "Halloumi – punajuuripihvejä ja kylmäkastiketta"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Juustoista kesäkeittoa",
+            "Broileria pestokastikkeessa",
+            "Kikherne-bataattipataa"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Lohikeittoa",
+            "Pekonista porsaanlihakastiketta",
+            "Soija-kasvispataa"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Broilerjauhelihakeittoa",
+            "Silakkapihvejä ja kylmää munakastiketta l",
+            "Tuorejuustotäytteisiä pinaatti-kasvispihvejä"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Pinaattikeittoa ja kananmunia",
+            "Koskenlaskijan lihapataa",
+            "Tortilloita soija-paputäytteellä"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
