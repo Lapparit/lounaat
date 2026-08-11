@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-11T04:03:39.688679+00:00",
+  "paivitetty": "2026-08-11T23:21:15.210486+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -164,7 +164,7 @@
             "Itte tehtyjä pinaattiohukaisia",
             "Chilipaahdettua uunilohta",
             "Parsarisottoa",
-            "Balsamico-punajuuret #",
+            "Balsamico-punajuuret",
             "Omena-sellerikeittoa",
             "Tomaatti-basilikamunakasta",
             "Chili-mangokanaa",
@@ -289,7 +289,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Libanonilaista broileria, minttujogurttia, basmatiriisiä / Pannupihvejä, ruskeaa sipulikastiketta, dijon-perunamuusia",
+            "Libanonilaista broileria L, G, minttujogurttia L, G, basmatiriisiä M, G / Lihamureketta M, ruskeaa sipulikastiketta L, G, perunamuusia",
             "Broken halloumipita ja tzatzikia"
           ]
         },
@@ -335,15 +335,15 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Porsaan ulkofileetä, herkkusieni-viherpippurikastiketta ja paahdettuja perunoita / Goalaista kalacurrya, basmatiriisiä / Marry me-pasta kaurasuikaleilla ja paahdettuja kasviksia",
-            "Burger Bar: Naudanlihaa, kanaa ja kesäkurpitsa-halloumipihvejä, cheddarkastiketta ja BBQ-kastiketta, valkosipuli- ja crirachamajoneesia sekä ranskalaisia",
-            "Purjo-perunasosekeittoa ja salaattibuffet"
+            "Porsaan ulkofileetä herkkusieni-viherpippurikastikkeessa ja paahdettuja perunoita / Goalaista kalacurrya, basmatiriisiä / Marry me-pasta kaurasuikaleilla ja paahdettuja kasviksia",
+            "Burger Bar: Naudanlihaa, kanaa ja kesäkurpitsa-halloumipihvejä, cheddarkastiketta ja BBQ-kastiketta, valkosipuli- ja texasmajoneesia sekä ranskalaisia",
+            "Kukkakaali-purjo-perunasosekeittoa ja salaattibuffet"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Japchae paistettua nuudelia, kasviksia / Kylmäsavulohi-haukimurekepihvejä, chilimuhennettuja perunoita, fenkoli-appelsiinisalaattia / Kasvismoussakaa",
+            "Japchae paistettua härkää ja nuudelia, kasviksia / Kylmäsavulohi-haukimurekepihvejä, chilimuhennettuja perunoita, fenkoli-appelsiinisalaattia / Kasvismoussakaa",
             "Burger Bar: Naudanlihaa, kanaa ja kesäkurpitsa-halloumipihvejä, cheddarkastiketta, BBQ-kastiketta, Valkosipuli- ja crirachamajoneesia, ranskalaisia",
             "Tomaatti-kookos-linssikeittoa ja salaattibuffet"
           ]
@@ -351,7 +351,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kanaa cajun-kastikkeessa, mexican chiliriisiä / Mustamakkaraa, puolukkaa ja dijon-perunamuusia, höyrytettyjä kasviksia / Falafelpyöryköitä, tomaattikastiketta ja hummusta",
+            "Kanaa cajun-kastikkeessa, mexican chiliriisiä / Lihapullia kermakastikkeessa, puolukkaa ja dijon-perunamuusia, höyrytettyjä kasviksia / Falafelpyöryköitä, tomaattikastiketta ja hummusta",
             "Burger Bar: Naudanlihaa, kanaa ja kesäkurpitsa-halloumipihvejä, Cheddarkastiketta, BBQ-kastiketta, valkosipuli- ja crirachamajoneesia sekä ranskiksia",
             "Jeeralla maustettua palsternakkakeittoa ja salaattibuffet"
           ]
@@ -548,9 +548,9 @@
           "ruoat": [
             "Butter chicken",
             "– basmatiriisi",
-            "Kasvis-chavre pyörykät & sitruuna-chilidippi",
+            "Kasvis-chavre pyörykät M, VEG (sis.kaura) & sitruuna-chilidippi M,G,Veg (sis.sinappi)",
             "Keitto: Basilika-bataattikeitto",
-            "Jälkiruoaksi mansikkainen riisifrutti"
+            "Jälkiruoaksi mansikkainen riisifrutti L,G SAA VEG (sis.soija)"
           ]
         },
         {
@@ -677,7 +677,9 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Perinteiset jauhelihapihvit pekoni-pippurikastikkeessa",
+            "– savupaprikaperunat",
             "Punajuuri-vuohenjuustopastavuoka",
+            "– sitruunaiset kesäkurpitsalohkot tuoreilla yrteillä",
             "Keltainen kanakeitto"
           ]
         },
