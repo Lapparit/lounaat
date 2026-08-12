@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-12T04:24:27.964921+00:00",
+  "paivitetty": "2026-08-12T23:20:15.858024+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -244,7 +244,11 @@
             "Lohi-pinaatti lasagne",
             "Paahdetut satokauden kasvikset",
             "Paahdetut perunat",
-            "Soijabolognese"
+            "Soijabolognese",
+            "*Proteiinilisukkeet kilohinnalla punnittavaan salaattiin",
+            "– Mozzarellaa",
+            "– Marinoitua broileria",
+            "– Vuohenjuustoa"
           ]
         },
         {
@@ -296,7 +300,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pollo limonellopastaa / falafelpyöryköitä, hummusta, linssi-täysjyväriisiä, tuoretta parsakaalia, tomaattikastiketta",
+            "Pollo limonellopastaa L / falafelpyöryköitä M, G, hummusta M, G, linssi-riisiä M, G, tomaattikastiketta M, G ja lämpimiä kasviksia",
             "Bacon burger, bataattiranet & chilimayo"
           ]
         },
@@ -343,8 +347,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Japchae paistettua härkää ja nuudelia, kasviksia / Kylmäsavulohi-haukimurekepihvejä, chilimuhennettuja perunoita, fenkoli-appelsiinisalaattia / Kasvismoussakaa",
-            "Burger Bar: Naudanlihaa, kanaa ja kesäkurpitsa-halloumipihvejä, cheddarkastiketta, BBQ-kastiketta, Valkosipuli- ja crirachamajoneesia, ranskalaisia",
+            "Japchae paistettua härkää ja nuudelia, kasviksia / Kylmäsavulohi-haukimurekepihvejä, chilimuhennettuja perunoita, fenkoli-appelsiinisalaattia / Kasvismoussakaa, Keittiöltä lisää gluteenittomia vaihtoehtoja",
+            "Burger Bar: Naudanlihaa, kanaa ja kesäkurpitsa-halloumipihvejä, cheddarkastiketta, BBQ-kastiketta, Valkosipuli- ja Texasmajoneesia, ranskalaisia",
             "Tomaatti-kookos-linssikeittoa ja salaattibuffet"
           ]
         },
@@ -556,7 +560,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Jauhelihalasagne",
+            "Jauhelihalasagne L (sis.vehnä,maito)",
             "Härkis red curry",
             "Keitto: Kermainen parsakaalikeitto"
           ]
@@ -688,6 +692,7 @@
           "ruoat": [
             "Jamaican jerk kana",
             "– dirty rice VEG,G ja korianteridippi",
+            "– seesam-paahdettua punajuurta ja lehtikaalia",
             "Orvokin oma: Pinaattiletut",
             "– puolukkaa",
             "Juustoinen porkkanasosekeitto",
@@ -700,7 +705,7 @@
             "Voissa paistetut muikut",
             "– kermaperunat L,G ja kylmä kananmunakastike",
             "Pitkään haudutettu lihakaalilaatikko uuden sadon kaalista",
-            "– puolukkahilloa",
+            "– puolukkahilloa ja paahdettua rakuunaporkkanaa",
             "Sinihomejuustoinen kukkakaalisosekeitto"
           ]
         },
@@ -751,12 +756,10 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pennepastaa, vuohenjuustoa ja tomaattia",
-            "Pennepastaa, vuohenjuustoa ja tomaattia",
-            "Savustetulla paprikalla maustettua makkarapataa",
-            "Paahdettua perunaa",
-            "Savustetulla paprikalla maustettua makkarapataa",
-            "Paahdettua perunaa",
+            "Pennepastaa, vuohenjuustoa ja tomaattia , kysy vegaaninen vaihtoehto",
+            "Pennepastaa, vuohenjuustoa ja tomaattia , kysy vegaaninen vaihtoehto",
+            "Kylmäsavukirjolohikiusausta",
+            "Kylmäsavukirjolohikiusausta",
             "Kylmäsavukirjolohikiusausta"
           ]
         },
