@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-17T03:28:59.068895+00:00",
+  "paivitetty": "2026-08-17T22:55:17.156035+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -137,8 +137,8 @@
             "Lehtipihvi lohkoperunoilla",
             "Paahdettua valkosipulikeittoa",
             "Teriyaki-maustettua kalkkunaa",
-            "Feta-pinaattimunakasta",
-            "Kreikkalainen salaatti #"
+            "Juustoista kasvismunakasta",
+            "Kesäkurpitsa-soijapapusalaattia"
           ]
         },
         {
@@ -152,8 +152,7 @@
             "Kermaista lohikeittoa",
             "Inkivääri-korianterikanaa",
             "Falafelpyöryköitä",
-            "Halloumi-melonisalaatti",
-            "Vihreää salaattia"
+            "Halloumi-melonisalaatti"
           ]
         },
         {
@@ -221,7 +220,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Parsakaalisosekeitto tuorejuustolla",
+            "Juustoinen kasvissosekeitto",
             "Pinaatti-fetatäytteistä kalaleikettä",
             "Juustoista makaronilaatikkoa",
             "Paahdetut satokauden kasvikset",
@@ -274,7 +273,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Butter chicken, basmatiriisiä ja marokkolaisia porkkanoita / Italialaisia kasvispullia tomaattikastikkeessa, kurkkuraitaa",
+            "Butter chicken L, G, basmatiriisiä ja kasviksia M, G / Italialaisia kasvispullia tomaattikastikkeessa M, G, kurkkuraitaa",
             "Uunifetapastaa sekä rucolaa ja pinaattia"
           ]
         },
@@ -321,7 +320,7 @@
             "Kalkkuna-tomaattipestopastaa / Kalaa tikka masala, lämmintä kasvissalaattia / Kikherne-kasvistagine, jasmineriisiä",
             "Chicken naanbread",
             "Blue cheese beef burger ja bataattiranskalaisia",
-            "Kookos-bataattikeittoa ja salaattibuffet"
+            "Kasvissosekeittoa ja salaattibuffet"
           ]
         },
         {
@@ -460,8 +459,7 @@
             "Mureaa härkää pekoni-punaviinikastikkeessa, kermaperunat, raitajuurta",
             "Kasvis-jalapenonugget, kermaperunat & bbq-dippi",
             "Delisalaatti & tomaatti-vuohenjuustokeitto",
-            "Karkkivaahto / hedelmä",
-            "Jäätelöä / hedelmä"
+            "Karkkivaahto / hedelmä"
           ]
         }
       ]
@@ -623,8 +621,8 @@
             "Ylikypsää possun niskaa ja paahdettua paprikakastiketta",
             "– yrttiset perunanpuolikkaat",
             "Siirappiset kasviskaalikääryleet",
-            "– puolukkaa",
-            "Tomaattinen papukeitto ja lehtikaalipesto"
+            "– puolukkaa ja paahdettua lanttua",
+            "Tomaattinen papukeitto yrttiöljyllä"
           ]
         },
         {
@@ -672,7 +670,67 @@
       "kategoria": 3,
       "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/reaktori/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Sriracha-gurttikastiketta",
+            "Tummaa riisiä",
+            "Rapea porkkana-kvinoa pyörykkä 6 kpl/annos ( extra)",
+            "Aasialaista broileripataa ja tuoretta korianteria",
+            "Tummaa riisiä",
+            "Aasialaista broileripataa ja tuoretta korianteria",
+            "Tummaa riisiä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Vehnätortillat",
+            "TexMex paprikatäytettä",
+            "Chili con Carnea jauhelihasta",
+            "Tummaa riisiä",
+            "Rapeaa seitifilettä",
+            "Tartarjogurttia",
+            "Perunamuusia"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Tulista ja aromaattista tofucurrya - Madras Tofu",
+            "Punajuurisosekeittoa",
+            "Juustoista savukirjolohikastiketta",
+            "Luomutäysjyväpastaa",
+            "Lindströminpihvejä",
+            "Sipulikastiketta",
+            "Paahdettua perunaa"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Halloumi-kasvispataa ja lehtipinaattia",
+            "Paahdettua perunaa",
+            "Broileripataa Sweet & Sour",
+            "Tummaa riisiä",
+            "Jauhelihakebakoita",
+            "Chili-kermaviilikastiketta",
+            "Paahdettua perunaa"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Linssipihvejä",
+            "Basilika-valkosipulijogurttia",
+            "Paahdettua perunaa",
+            "Nakkistroganoffia",
+            "Keitettyjä perunoita",
+            "Meidän keittiön lasagnettea"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Sisu",
