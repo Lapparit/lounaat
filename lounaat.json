@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-17T02:06:23.666125+00:00",
+  "paivitetty": "2026-08-17T03:28:59.068895+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -680,7 +680,57 @@
       "kategoria": 3,
       "url": "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Pyttipannua",
+            "Kanaleike l",
+            "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
+            "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Lohikeittop+salaatti",
+            "Sipulipihviä",
+            "Cheddar-kalaleike l",
+            "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
+            "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Pizzaa l",
+            "Pariloitua maksaa",
+            "MaUSTEPORSASTA",
+            "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
+            "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Siivet",
+            "Lihapullat",
+            "Munkkeja l",
+            "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
+            "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Wieninleike l",
+            "Talonpippuripihvi",
+            "Broileria",
+            "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
+            "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Speakeasy",
