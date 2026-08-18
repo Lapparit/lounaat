@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-18T03:24:38.860595+00:00",
+  "paivitetty": "2026-08-18T22:55:50.337646+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -221,7 +221,8 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Juustoinen kasvissosekeitto",
-            "Pinaatti-fetatäytteistä kalaleikettä",
+            "Kalaleike",
+            "Lohipyörykät",
             "Juustoista makaronilaatikkoa",
             "Paahdetut satokauden kasvikset",
             "Kasvis Tikka Masala halloumilla"
@@ -280,7 +281,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lihamureketta, paahdettua perunaa sekä herkkusienikastiketta, parsakaalia, valkosipulia ja sitruunaa / Kasvismoussakaa",
+            "Lihamureketta M, paahdettua perunaa M, G, herkkusienikastiketta L, G, parsakaalia, valkosipulia ja sitruunaa M, G/ Kasvismoussakaa",
             "Cobb-salaattia: kanaa, pekonia ja sinihomejuustoa"
           ]
         },
@@ -539,12 +540,12 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Linkosuon Puerto Ricon pannu",
+            "Linkosuon Puerto Ricon pannu L /SAA M,G",
             "Chili majoneesi",
-            "Härkäpapu wokki",
-            "Kasvis riisiä",
-            "Keitto:Myskikurpitsa keitto",
-            "Jälkiruoaksi: Persikka chia vanukas"
+            "nyhtökaura wokki M,G,VEG (sis.selleri)",
+            "Kasvis riisiä M,G,VEG (sis.selleri)",
+            "Keitto:Myskikurpitsa-kookos keitto M,G,VEG (sis.selleri)",
+            "Jälkiruoaksi: Persikka rahka L,G (sis.maito) SAA M,G;veg sis.soija)"
           ]
         },
         {
@@ -582,48 +583,7 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Savulohikeittoa",
-            "Kaalilaatikkoa",
-            "Kasviskaalilaatikkoa"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Basilika-broilerikeittoa",
-            "Paneroitua kampelaa ja kylmäkastiketta l",
-            "Juustoisia kasvispihvejä ja kylmäkastiketta"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Jauhelihakeittoa",
-            "Broileria tomaatti-mozzarellakastikkeessa",
-            "Kasvisjauhispyöryköitä tomaattikastikkeessa"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Koskenlaskijan kasvissosekeittoa",
-            "Lihapullia kermapippurikastikkeessa",
-            "Hernepihvejä ja kylmäkastiketta"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Borssikeittoa ja hunajasmetanaa",
-            "Miilunpolttajan kinkkukastiketta",
-            "Miilunpolttajan kasviskastiketta"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Malabadi",
@@ -674,7 +634,8 @@
             "Pekoniset jauhemaksapihvit kermakastikkeella",
             "– maustekurkkuveneitä ja punajuurilohkoja",
             "Hernekeitto",
-            "– Ahvenanmaan pannukakkua ja mansikkahilloa"
+            "– Ahvenanmaan pannukakkua L ja mansikkahilloa",
+            "Saa myös gluteenittomia lettuja"
           ]
         },
         {
@@ -727,11 +688,11 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Vehnätortillat",
+            "Vehnätortillat 1kpl/annos, extra (gluteeniton vaihtoehto porkkana-kvinoapyörykät)",
             "TexMex paprikatäytettä",
             "Chili con Carnea jauhelihasta",
             "Tummaa riisiä",
-            "Rapeaa seitifilettä",
+            "Rapeaa seitifilettä 1kpl/annos, extra (gluteeniton vaihtoehto saatavilla)",
             "Tartarjogurttia",
             "Perunamuusia"
           ]
@@ -794,7 +755,7 @@
           "ruoat": [
             "Lohikeittop+salaatti",
             "Sipulipihviä",
-            "Cheddar-kalaleike l",
+            "Tomaatti-kalaleike l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
