@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-17T22:55:17.156035+00:00",
+  "paivitetty": "2026-08-18T02:02:12.096204+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -582,7 +582,48 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Savulohikeittoa",
+            "Kaalilaatikkoa",
+            "Kasviskaalilaatikkoa"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Basilika-broilerikeittoa",
+            "Paneroitua kampelaa ja kylmäkastiketta l",
+            "Juustoisia kasvispihvejä ja kylmäkastiketta"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Jauhelihakeittoa",
+            "Broileria tomaatti-mozzarellakastikkeessa",
+            "Kasvisjauhispyöryköitä tomaattikastikkeessa"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Koskenlaskijan kasvissosekeittoa",
+            "Lihapullia kermapippurikastikkeessa",
+            "Hernepihvejä ja kylmäkastiketta"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Borssikeittoa ja hunajasmetanaa",
+            "Miilunpolttajan kinkkukastiketta",
+            "Miilunpolttajan kasviskastiketta"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
