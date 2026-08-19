@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-19T03:28:04.164596+00:00",
+  "paivitetty": "2026-08-19T22:55:57.893600+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -194,7 +194,7 @@
             "Sriracha-maustettuja kanaburgereita",
             "Maalaisranskalaisia",
             "Vihreää salaattia",
-            "Kebabpizzaa"
+            "Kinkku-ananaspizzaa"
           ]
         }
       ]
@@ -237,7 +237,11 @@
             "Paahdetut satokauden kasvikset",
             "Täällä paistetut ruispaneroidut muikut",
             "Kananmuna tar tar-kastike",
-            "Buttertofu"
+            "Buttertofu",
+            "Proteiinit punnittavaan salaattiin",
+            "-Salaattijuusto",
+            "-Keitetty kananmuna",
+            "-Pestobroileria"
           ]
         },
         {
@@ -289,7 +293,7 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Talon omaa lasagnea / Maissi-kasvispihvejä, linssijogurttia, Bombay-perunoita, aurinkokuivattua tomaattia ja rucolaa",
-            "Tonnikala-katkarapupizzaa ja tomaatti-mozzarella-pestopizzaa"
+            "Tonnikala-katkarapupannupizzaa ja tomaatti-mozzarella-pestopizzaa"
           ]
         },
         {
@@ -335,8 +339,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Red curry-kanaa ja jasmineriisiä / Välimeren seitä, oliiveja, yrttejä ja tomaattia / Pinaattilettuja ja puolukkaa",
-            "Poke Bowl lohella, katkaravuilla tai tofulla",
+            "Red curry-kanaa ja jasmineriisiä / Välimeren seitä, oliiveja, yrttejä ja tomaattia / falafelpyörykkää ja puolukkaa",
+            "Kokoa oman maun mukaan Poke Bowl lohella, katkaravuilla ja tofulla",
             "Jeeralla maustettua porkkanakeittoa ja salaattibuffet"
           ]
         },
@@ -344,7 +348,7 @@
           "paiva": "Torstai",
           "ruoat": [
             "Kreikkalaista pastavuokaa / Turskaa sinappi-sitruunakastikkeella ja herne-perunamuusia / Halloumi-punajuuripihvejä, jogurtti-kurkkukastiketta ja lämmintä kasvissalaattia",
-            "Poke Bowl lohella, katkaravuilla tai tofulla",
+            "Kokoa oman maun mukaan Poke Bowl lohella, katkaravuilla tai tofulla",
             "Cheddar-parsakaalikeittoa ja salaattibuffet"
           ]
         },
@@ -551,9 +555,9 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Naudan pannupihvejä sipulikastikkeella M (sis. kananmuna,vehnäjauho)",
+            "Naudan pannupihvejä sipulikastikkeella L (sis. kananmuna,vehnäjauho, maito, sinappi)",
             "Yrtti gratinoitua seitä",
-            "Peruna muussia",
+            "Perunaa",
             "Keitto: Mausteinen linssikeitto"
           ]
         },
@@ -563,7 +567,8 @@
             "Sinihomejuusto broileria",
             "UUni makkara pannu paahdetulla sipulilla ja paprikalla",
             "Paahdettua perunaa",
-            "Riisiä"
+            "Riisiä",
+            "Keitto: Juuressose keitto"
           ]
         },
         {
@@ -572,6 +577,7 @@
             "Loiusiana tyylinen possupata",
             "BBQ paahdettuja broilerin koipinuijia",
             "Perunagratiinia",
+            "Keitto: Porkkana keitto",
             "Jälkiruoaksi: Pullavanukasta"
           ]
         }
@@ -682,9 +688,10 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Chicken schnitzeliä M,G ja ceasarsalaattia",
+            "Chicken schnitzeliä M,G ja ceasarsalaattia (sis.anjovis)",
             "– persiljalohkoperunat",
             "Orvokin juustoburgerpasta",
+            "– hot honey porkkanat",
             "Punajuurisosekeitto"
           ]
         },
@@ -742,11 +749,11 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Tulista ja aromaattista tofucurrya - Madras Tofu",
+            "Tummaa riisiä",
             "Punajuurisosekeittoa",
             "Juustoista savukirjolohikastiketta",
             "Luomutäysjyväpastaa",
-            "Lindströminpihvejä",
-            "Sipulikastiketta",
+            "Lindströminpihvejä sipulikastikkeessa 3kpl/annos, extra",
             "Paahdettua perunaa"
           ]
         },
