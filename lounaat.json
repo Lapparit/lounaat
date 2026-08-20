@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-20T03:26:16.509497+00:00",
+  "paivitetty": "2026-08-20T22:58:52.924203+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -179,10 +179,10 @@
             "Smash-burger",
             "Maalaisranskalaisia",
             "Paahdettua tomaattikeittoa",
-            "Sitruuna-timjamimarinoitua kanaa",
+            "Sitruuna-yrttimarinoitu kana",
             "Kaura-punajuuripyörykkä",
             "Katkarapu-lasinuudelisalaatti #",
-            "Vihreää salaattia"
+            "Herne-punajuuripihvejä"
           ]
         },
         {
@@ -248,12 +248,16 @@
           "paiva": "Torstai",
           "ruoat": [
             "Perinteistä hernekeittoa palvikinkulla",
-            "Testissä: Appelsiinibroiler",
+            "Testissä: Appelsiinibroiler M,G,valkosipuli",
             "Pekoni-herkkusienipasta",
             "Juustoripote",
             "Paahdetut satokauden kasvikset",
-            "Kasvispyttipannua",
-            "Jälkiruoaksi: Pannukakkua, hilloa ja kermavaahtoa <3"
+            "Kasvispyttipannua M,G,V,sipuli,valkosipuli",
+            "Jälkiruoaksi: Pannukakkua, hilloa ja kermavaahtoa <3",
+            "Proteiinit punnittavaan salaattiin",
+            "-Salaattijuustoa",
+            "-Thai curry tofua",
+            "-Marinoitua broileria"
           ]
         },
         {
@@ -299,8 +303,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Suolaisen makeaa porsaankylkeä, bataaattilohkoja / Linssi-soijatäytteisiä paprikoita, kasviscouscousia ja sitruunakastiketta",
-            "Grillattua lohta & tzatzikia, tillivoissa pyöräytettyjä uusia perunoita ja kasviksia"
+            "Suolaisen makeaa porsaankylkeä M, G, bataaattilohkoja M, G / Linssi-soijatäytteisiä paprikoita L, G, kasviscouscousia M ja sitruunakastiketta"
           ]
         },
         {
@@ -347,7 +350,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kreikkalaista pastavuokaa / Turskaa sinappi-sitruunakastikkeella ja herne-perunamuusia / Halloumi-punajuuripihvejä, jogurtti-kurkkukastiketta ja lämmintä kasvissalaattia",
+            "Pastitsio kreikkalaista liha-pastavuokaa / Turskaa sinappi-sitruunakastikkeella ja herne-perunamuusia / Halloumi-punajuuripihvejä, jogurtti-kurkkukastiketta ja lämmintä kasvissalaattia",
             "Kokoa oman maun mukaan Poke Bowl lohella, katkaravuilla tai tofulla",
             "Cheddar-parsakaalikeittoa ja salaattibuffet"
           ]
@@ -760,11 +763,11 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Halloumi-kasvispataa ja lehtipinaattia",
+            "Halloumi-kasvispataa ja lehtipinaattia (gluteeniton ja vegaaninen tofu-kasvispata saatavilla)",
             "Paahdettua perunaa",
             "Broileripataa Sweet & Sour",
             "Tummaa riisiä",
-            "Jauhelihakebakoita",
+            "Jauhelihakebakoita 3kpl/annos, extra",
             "Chili-kermaviilikastiketta",
             "Paahdettua perunaa"
           ]
