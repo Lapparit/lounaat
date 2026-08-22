@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-22T03:22:56.511587+00:00",
+  "paivitetty": "2026-08-22T22:54:21.250140+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -11,38 +11,37 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kasvispaellaa",
-            "Tonnikalapastavuoka",
-            "Puna-ahvenleikettä ja paistettuja perunoita",
-            "Lihapullat ja muusia",
-            "Suklaamoussea",
-            "Keittiöstä: Kana-caesarsalaatti",
+            "Porkkanapihvejä",
+            "Kalaleikettä ja muusia",
+            "Kanaa Igorin tapaan ja riisiä",
+            "mango-jogurttirahkaa",
+            "Keittiöstä: Kana-pekonisalaatti",
             "Hernekeittoa",
-            "Kasvisgratiinia"
+            "Uunimakkaraa ja muusia",
+            "Porsaan uunifilettä ja kanttarellikastiketta"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Soija-kasvislasagne",
-            "Wieninleikettä ja lohkoperunoita",
+            "Kebabkastiketta ja ranskalaiset",
+            "Kanan paistileikettä, kermaista pippurikastiketta ja muusia",
             "Kanansiipiä",
-            "Teriyakikanaa ja riisiä",
-            "Banaani-suklaarahkaa",
-            "Keittiöstä: Mozzarellasalaatti",
-            "Kasvisrisottoa",
-            "Chili con carne ja riisiä"
+            "Kerroskiisseliä",
+            "Keittiöstä: Fetasalaatti",
+            "Juustoinen kinkku-pekonikiusaus",
+            "Jauhelihapihvejä ja kermaperunaa",
+            "BBQ-kanaa ja paahdettua perunaa"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Pinaattilettuja ja puolukkahilloa",
-            "Pekoninakkeja ja muusia",
-            "Naudanlihapataa ja keitettyjä perunoita",
-            "Aurajuusto-broilerfileitä ja valkosipuliperunoita",
-            "Kuivakakkua ja vaniljakastiketta",
-            "Keittiöstä: Savulohisalaatti"
+            "Lohipastaa",
+            "Pyttipannua ja paistettua kananmunaa",
+            "Intialaisia lihapullia ja riisiä",
+            "Mascarponeherkkua",
+            "Keittiöstä: Leipäjuustosalaatti"
           ]
         }
       ]
