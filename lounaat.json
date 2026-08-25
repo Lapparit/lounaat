@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-25T03:27:39.412322+00:00",
+  "paivitetty": "2026-08-25T22:58:59.555643+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -14,11 +14,11 @@
             "Porkkanapihvejä",
             "Kalaleikettä ja muusia",
             "Kanaa Igorin tapaan ja riisiä",
-            "mango-jogurttirahkaa",
+            "Mango-jogurttirahkaa",
             "Keittiöstä: Kana-pekonisalaatti",
             "Hernekeittoa",
             "Uunimakkaraa ja muusia",
-            "Porsaan uunifilettä ja kanttarellikastiketta"
+            "*Porsaan uunifilettä ja kanttarellikastiketta"
           ]
         },
         {
@@ -164,7 +164,7 @@
             "Linssidahl – linssimuhennosta",
             "Lehtipihvi ranskalaisilla",
             "Remoulade-majoneesia",
-            "Kanttarellikeittoa ja briossia #",
+            "Metsäsienikeittoa",
             "Maalaisperunasalaattia",
             "Chili-mangokanaa",
             "Italialainen kasvispyörykkä",
@@ -193,7 +193,7 @@
             "Nyhtöpossuburgereita",
             "Tomaatti-basilikamunakasta",
             "Vuohenjuustokana lohkoperunoilla #",
-            "Pepperonipizzaa",
+            "Pepperoni-jalopenopizza",
             "Vihreää salaattia"
           ]
         }
@@ -289,8 +289,8 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kanaa aurinkotomaatti-tuorejuustokastikkeessa, lämmintä kasvissalaattia , jasmineriisiä / Västerbotten juustopiirakkaa",
-            "Hermian grillipossua, mustapapu-maissisalaattia ja savupaprikaaiolia"
+            "Kanaa aurinkotomaatti-tuorejuustokastikkeessa L, G, lämpimiä kasviksia M, G , riisiä M, G / Kolmen juustonpiirakkaa",
+            "Hermian grillipossua, mustapapu-maissisalaattia , kermaperunat ja savupaprika-aiolia"
           ]
         },
         {
@@ -334,9 +334,9 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Stifado, kreikkalainen lihapata, pilahviriisiä / Sitruuna-lohivuokaa, paahdettua punajuurta ja balsamicoa / Kreikkalaista kasvispataa mifusta, marinoitua parsakaalia",
-            "Pinsa pepperoni / Pinsa bianca con salmone / Pinsa tomaatilla ja mozzarellalla",
-            "Massaman-porkkanakeittoa ja salaattibuffet"
+            "Stifado, kreikkalainen lihapata M,G, pilahviriisiä M,G / Sitruuna-lohivuokaa L, paahdettua punajuurta ja balsamicoa M,G / Kreikkalaista kasvispataa mifusta L,G, marinoitua parsakaalia",
+            "Pinsa pepperoni L / Pinsa bianca con salmone L / Pinsa tomaatilla ja mozzarellalla",
+            "Massaman-porkkanakeittoa L,G ja salaattibuffet"
           ]
         },
         {
@@ -507,13 +507,6 @@
             "BROILERWOKKI",
             "BURGUNDINPATA"
           ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "KANA CORDON",
-            "SALAMIKIUSAUS"
-          ]
         }
       ]
     },
@@ -548,9 +541,11 @@
           "ruoat": [
             "Luuttomia possun BBQ ribsejä",
             "Tikka masala- intialainen kanapata",
-            "Chef: Sitruunaista puna-ahventa, paahdettuja perunoita & kasviksia & bearnaise kastiketta",
             "Keitto: Kesäkeitto",
-            "Jälkiruoaksi: mustikka-päärynä rahkaa"
+            "Chef: Sitruunaista puna-ahventa, paahdettuja perunoita ja kasviksia & bearnaise kastiketta",
+            "VEGAANIRUOKA keittiöstä: Linssi-papu- kasvispata",
+            "Jälkiruoaksi: mustikka-päärynä rahkaa",
+            "M, G, VEG mustikkavaahto keittiöstä"
           ]
         },
         {
@@ -588,48 +583,7 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Kookos-bataattikeittoa",
-            "Italialaisia lihapullia tomaattikastikkeessa",
-            "Välimeren kasvispyöryköitä tomaattikastikkeessa"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Juustoista savuriistakeittoa",
-            "Mantelikalaa l",
-            "Kasvisjauhispyöryköitä pestokastikkeessa"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Nakkikeittoa",
-            "Pannupihvejä ja kermaista sipulikastiketta",
-            "Kikherne-porkkanapihvejä ja kylmäkastiketta"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Kahden kalan keittoa",
-            "Aasialaista jogurttibroileria",
-            "Tofucurrya"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Lihakeittoa",
-            "Smetana-uunilohta",
-            "Halloumi – punajuuripihvejä ja kylmäkastiketta"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Malabadi",
@@ -678,6 +632,8 @@
             "Kebab ranskalaisilla",
             "– aiolia M,G ja jalapenoja",
             "Lohipyörykät",
+            "– sitruunaperunat",
+            "– paahdetut kasvikset yrttiöljyllä",
             "– Myrttisen suolakurkkudippi",
             "Kermainen lehtikaalikeitto",
             "– keitetyt kananmunat"
@@ -689,7 +645,7 @@
             "Possua ja vihreitä papuja cajunkastikkeessa",
             "Maapähkinävoicurry kukkakaalilla ja kikherneillä",
             "Kirsikkatomaattikeitto",
-            "Kahvin kanssa omena-murupiirakkaa ja vaniljakastiketta"
+            "Kahvin kanssa omenapiirakkaa L,G ja vaniljakastiketta"
           ]
         },
         {
@@ -725,10 +681,6 @@
           "ruoat": [
             "Punajuurikroketteja 6kpl/annos kpl",
             "Sinappirelish-kastiketta",
-            "Paahdettua perunaa",
-            "Kookoksella maustettua broileria ja nuudelia",
-            "Aasialainen kalapihvi 3kpl/annos kpl",
-            "Wasabilla maustettua hernejogurttia",
             "Paahdettua perunaa"
           ]
         },
@@ -736,11 +688,7 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Tofua ja herneita mausteisessa kastikkeessa - Tofu Matar Paneer",
-            "Tummaa riisiä",
-            "Mausteista linssisosekeittoa",
-            "Broileria teriyakikastikkeessa",
-            "Tummaa riisiä",
-            "Ruotsalaista pyttipannua"
+            "Tummaa riisiä"
           ]
         },
         {
@@ -748,23 +696,13 @@
           "ruoat": [
             "Porkkanaohukaisia",
             "Hillottua puolukkaa",
-            "Perunamuusia",
-            "Tomaatti-linssikeittoa",
-            "Tonnikala-pastavuokaa",
-            "Juustokuorrutettua uunimakkaraa",
             "Perunamuusia"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Sisilialaista seitanpastaa",
-            "Linssisosekeittoa",
-            "Tulista ja aromaattista katkarapucurrya - Katkarapuja Madras",
-            "Tummaa riisiä",
-            "Broilerinkoipi intialaisittain",
-            "Aiolia",
-            "Tummaa riisiä"
+            "Sisilialaista seitanpastaa"
           ]
         },
         {
@@ -772,11 +710,6 @@
           "ruoat": [
             "Punajuuri falafelpihvejä",
             "Kukkakaali-tzatzikia",
-            "Paahdettua perunaa",
-            "Burgundin possupataa",
-            "Tummaa riisiä",
-            "Rapeita kalapyöryköitä",
-            "Tartarjogurttia",
             "Paahdettua perunaa"
           ]
         }
