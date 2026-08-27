@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-26T03:34:27.333035+00:00",
+  "paivitetty": "2026-08-27T03:32:29.513625+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -167,8 +167,7 @@
             "Metsäsienikeittoa",
             "Maalaisperunasalaattia",
             "Chili-mangokanaa",
-            "Italialainen kasvispyörykkä",
-            "Mozzarella-kirsikkatomaattipizzaa"
+            "Italialainen kasvispyörykkä"
           ]
         },
         {
@@ -240,12 +239,16 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Kasvisborssikeittoa",
-            "Alabama style chicken",
+            "Alabama style chicken M,G,sipuli,valkosipuli",
             "Mustamakkara",
             "Puolukkasurvos",
             "Perinteinen perunamuusi",
             "Paahdetut satokauden kasvikset",
-            "Curry-kukkakaalipyörykät"
+            "Kasvis-kaalikääryleet",
+            "Proteiinilisukkeet punnittavaan salaattiin",
+            "-Salaattijuustoa",
+            "-Halloumia",
+            "-Broileria (linjasta)"
           ]
         },
         {
@@ -296,8 +299,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Naudanlihaa ja kasviksia gochujang kastikkeessa, jasmineriisiä / Kikherne-kukkakaalicurrya, kasviksia ja sitruunajogurttia",
-            "Pannupizza keskiviikko! Kana-ananaspannupizzaa ja Mozzarella-tomaatti-pestopannupizzaa"
+            "Naudanlihaa ja kasviksia gochujang kastikkeessa M, riisiä M, G / Kikherne-kukkakaalicurrya M, G, kasviksia M, G ja sitruuna-soijajogurttia",
+            "Pannupizza keskiviikko! Kana-ananaspannupizzaa L ja Mozzarella-tomaatti-pestopannupizzaa"
           ]
         },
         {
@@ -342,16 +345,16 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Hoisin possunkylkeä, mango-mustapapusalsaa / Goalaista kalacurryä, jasmineriisiä / Herkkutatti-soijapastaa, rucolapestoa",
-            "Pinsa pepperoni / Pinsa bianca con salmone / Pinsa tomaatilla ja mozzarellalla",
-            "Kukkakaali-parsakaalikeittoa ja salaattibuffet"
+            "Hoisin possunkylkeä M, mango-mustapapusalsaa M,G / Goalaista kalacurryä M,G, riisiä M,G/ Falafelpyöryköitä M,G, rucolapestoa",
+            "Pinsa pepperoni L / Pinsa bianca con salmone L / Pinsa tomaatilla ja mozzarellalla",
+            "Kukkakaali-parsakaalikeittoa L,G ja salaattibuffet"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
             "Marry me kanapastaa / Smetanakuorrutettua seitä, perunoita ja tillivoita, herne-tomaatti-sipulisalaattia / Paistettua riisiä kananmunalla ja pavuilla, korianteria ja chiliä",
-            "Pinsa pepperoni / Pinsa bianca con salmone / Pinsa tomaatilla ja mozzarellalla",
+            "Grillistä: Chicken naan tai Pork naan ja ranut",
             "Purjo-perunasosekeittoa ja salaattibuffet"
           ]
         },
@@ -552,9 +555,9 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Broileria Hot honey kastikkeella",
-            "Pinaatti-härkäpapu lasagne",
-            "Keitto: Mustapapu-kikhernekeitto",
-            "Chef: Mureaa häränrintaa, rosmariini perunoita ja tummaa mustaherukkakastiketta"
+            "Pinaatti-härkäpapu lasagne L, KASVIS (SAA VEG keittiöstä, sis. vehnä ja glut. kaura)",
+            "Keitto: Kikhernekeitto",
+            "Chef: Possun poskea, rosmariini perunoita ja tummaa mustaherukkakastiketta"
           ]
         },
         {
@@ -562,7 +565,7 @@
           "ruoat": [
             "Mallas glaseerattua possunniskaa",
             "Kalamureke pihvit M, G & tilli dippi",
-            "Keitto: Hernekeitto",
+            "Keitto: Hernekeitto M, G, pannukakkua & hilloa",
             "Chef: Halloumiburgeri"
           ]
         },
@@ -583,7 +586,48 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Kookos-bataattikeittoa",
+            "Italialaisia lihapullia tomaattikastikkeessa",
+            "Välimeren kasvispyöryköitä tomaattikastikkeessa"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Juustoista savuriistakeittoa",
+            "Mantelikalaa l",
+            "Kasvisjauhispyöryköitä pestokastikkeessa"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Nakkikeittoa",
+            "Pannupihvejä ja kermaista sipulikastiketta",
+            "Kikherne-porkkanapihvejä ja kylmäkastiketta"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Kahden kalan keittoa",
+            "Aasialaista jogurttibroileria",
+            "Tofucurrya"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Lihakeittoa",
+            "Smetana-uunilohta",
+            "Halloumi – punajuuripihvejä ja kylmäkastiketta"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
@@ -694,7 +738,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Porkkanaohukaisia",
+            "Porkkanaohukaisia 3kpl/annos, extra (gluteeniton ja vegaaninen porkkanaohukainen saatavilla)",
             "Hillottua puolukkaa",
             "Perunamuusia"
           ]
