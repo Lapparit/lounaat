@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-27T03:32:29.513625+00:00",
+  "paivitetty": "2026-08-27T10:26:18.551332+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -257,9 +257,14 @@
             "Perinteistä hernekeittoa palvikinkulla",
             "Butter Chicken",
             "Riisiä",
-            "Kebabpannua paprika-valkosipulikastikkeessa",
+            "Kebabpannua",
+            "Valkosipulijogurtti",
             "Pähkinäinen tofuwok",
-            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa <3"
+            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa <3",
+            "Proteiinilisukkeet punnittavaan salaattiin",
+            "-Halloumia",
+            "-Broileria (linjasta)",
+            "-Salaattijuustoa"
           ]
         },
         {
@@ -306,8 +311,8 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Paistettua punakampelaa, vihannesriisiä ja sitruuna-kermaviilikastiketta sekä Marry Me kasvispastakastiketta ja pastaa",
-            "Oscarinleikettä, ranuja ja rucolaa"
+            "Paneroitua punakampelaa M, vihannesriisiä M, G ja sitruuna-kermaviilikastiketta L, G / Marry Me kasvispastaa",
+            "Oscarinleikettä, choronkastiketta ja ranuja"
           ]
         },
         {
@@ -353,9 +358,9 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Marry me kanapastaa / Smetanakuorrutettua seitä, perunoita ja tillivoita, herne-tomaatti-sipulisalaattia / Paistettua riisiä kananmunalla ja pavuilla, korianteria ja chiliä",
-            "Grillistä: Chicken naan tai Pork naan ja ranut",
-            "Purjo-perunasosekeittoa ja salaattibuffet"
+            "Marry me kanaa L,G ja pastaa M,G / Smetanakuorrutettua seitä, perunoita ja tillivoita L,G, / Thaimaalaista paistettua riisiä, papuja, korianteria ja chiliä",
+            "Chicken massaman naanleipää ja tzatsikia L / Pork naan, kaalisalaattia, pikkelöityä punasipulia ja tuoretta korianteria",
+            "Purjo-perunasosekeittoa L,G ja salaattibuffet"
           ]
         },
         {
@@ -563,10 +568,11 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Mallas glaseerattua possunniskaa",
-            "Kalamureke pihvit M, G & tilli dippi",
-            "Keitto: Hernekeitto M, G, pannukakkua & hilloa",
-            "Chef: Halloumiburgeri"
+            "Mallas glaseerattua possunniskaa M (sis.ruis)",
+            "ITÄMERIPÄIVÄ: Kalamureke pihvit M, G & tilli dippi",
+            "Keitto: Hernekeitto M, G (sis.sinappi), pannukakkua & hilloa",
+            "VEGAANIRUOKA keittiöstä: Falafel pyöryköitä curry-chilikastikkeella & riisiä",
+            "M, G, VEG jälkiruoka keittiöstä"
           ]
         },
         {
@@ -698,7 +704,7 @@
             "Lihamureke valkosipulituorejuustokastikkeella",
             "Kasvistortillavuoka",
             "– salsa Rio grande",
-            "Kahden kalan keitto L,G – Leppäsavukirjolohta ja puna-ahventa"
+            "Makkarakeitto ripauksella chiliä"
           ]
         },
         {
@@ -746,7 +752,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Sisilialaista seitanpastaa"
+            "Sisilialaista seitanpastaa (gluteeniton tofu-kasvispasta saatavilla)"
           ]
         },
         {
