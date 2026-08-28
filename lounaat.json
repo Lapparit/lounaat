@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-27T13:03:36.148018+00:00",
+  "paivitetty": "2026-08-28T06:17:36.890100+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -275,7 +275,11 @@
             "Aurinkokuivattu tomaatti dippi",
             "Parmesaani & persilja ‑lohkoperunat",
             "Talon kasvikset",
-            "Halloum-punajuuri röstit"
+            "Talon halloum-punajuuri röstit",
+            "Proteiinilisukkeet punnittavaan salaattiin",
+            "-Salaattijuustoa",
+            "-Kananmunaa",
+            "-Broileria"
           ]
         }
       ]
@@ -578,10 +582,11 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Paneroitua broileria M & ranch dippiä",
+            "Paneroitua broileria M, G & ranch dippiä",
+            "M, G dippi keittiöstä",
             "Juustoinen riista-peruna gratiini",
             "Keitto: Juuressosekeitto",
-            "Chef: Caesar salaatti lohella"
+            "Chef: Caesar salaatti pariloidulla lohella"
           ]
         }
       ]
@@ -759,7 +764,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Punajuuri falafelpihvejä",
+            "Punajuuri falafelpihvejä 4kpl/annos, extra",
             "Kukkakaali-tzatzikia",
             "Paahdettua perunaa"
           ]
