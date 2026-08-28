@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-28T06:17:36.890100+00:00",
+  "paivitetty": "2026-08-28T12:06:00.425606+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -188,7 +188,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Sticky wings – mausteisia kanansiipiä",
+            "Mausteiset kanansiivet ja Texaspetekastike",
             "Nyhtöpossuburgereita",
             "Tomaatti-basilikamunakasta",
             "Vuohenjuustokana lohkoperunoilla #",
@@ -322,8 +322,8 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Grillattua lohta / Kasvispihvejä, hunajapaahdettu maissintähkä, lämmintä perunasalaattia, basilikakermaviilikastiketta",
-            "Savujuustoburger / Bortobelloburger, maalaisranskalaisia"
+            "Grillattua lohta M,G / Kasvispihvejä M, G, hunajapaahdettuja maissintähkiä M, G, lämmintä perunasalaattia M, G, basilikakermaviilikastiketta",
+            "Savujuustoburger naudan tai kalkkunanlihalla / Bortobelloburger, maalaisranskalaisia"
           ]
         }
       ]
@@ -370,9 +370,9 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kana-chorizopaellaa, chilimarinoitua kurkkua ja varhaiskaalia / Paneroitua kampelaleikettä, ranskalaisia, herneitä ja valkosipulimajoneesia / Butter tofua, jasmineriisiä",
-            "Tonnikala-katkarapu-kaprispizzaa / Mozzarella-tomaattipizzaa",
-            "Maalaissalaatti grillatulla kanalla ja vuohenjuustolla sekä Tomaatti-kookoskeittoa"
+            "Kana-chorizopaellaa M,G, chilimarinoitua kurkkua ja varhaiskaalia M,G / Paneroitua kampelaleikettä M, perunamuusia L,G, ja valkosipulimajoneesia M,G / Butter tofua M,G, ja riisiä",
+            "Tonnikala-katkarapu-kaprispizzaa L / Mozzarella-tomaattipizzaa VL Pyydä erikseen gluteeniton",
+            "Maalaissalaatti grillatulla kanalla G ja halloumia sekä Tomaatti-kookoskeittoa"
           ]
         }
       ]
@@ -493,31 +493,38 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "SPAGHETTI BOLOGNESE",
-            "PYTTIPANNU"
+            "SALAMIKIUSAUS",
+            "KOOKOS-CURRYBROILER"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "PANEROITU PUNA-AHVEN",
-            "BBQ POSSUA"
+            "NAKKIKEITTO",
+            "JAUHELIHA-KANTTARELLIPIHVIT",
+            "KALAPUIKOT"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "KERMAINEN LOHIKEITTO",
-            "SIENIRISOTTO",
-            "LIHAMUREKE"
+            "LASAGNETTE",
+            "PIPPURIPOSSUA"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
             "HERNEKEITTO G,L JA PANNARI",
-            "BROILERWOKKI",
-            "BURGUNDINPATA"
+            "BALILAINEN PUNA-AHVEN",
+            "MUSTAMAKKARA"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "KANAA CORDON",
+            "LOHILAATIKKO"
           ]
         }
       ]
@@ -586,7 +593,8 @@
             "M, G dippi keittiöstä",
             "Juustoinen riista-peruna gratiini",
             "Keitto: Juuressosekeitto",
-            "Chef: Caesar salaatti pariloidulla lohella"
+            "Chef: Caesar salaatti pariloidulla lohella",
+            "Vegaaniruoka keittiöstä: Kasvis-perunagratiini"
           ]
         }
       ]
