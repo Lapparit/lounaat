@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-29T07:19:34.129549+00:00",
+  "paivitetty": "2026-08-29T09:20:21.132823+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -374,36 +374,36 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Nakkikeitto",
-            "Lihaperunasoselaatikko"
+            "Lihakeitto",
+            "Jauhelihakastike"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Jauhelihakeitto",
-            "Kebabkastike"
+            "Makkarakeitto",
+            "Sweet chili broileria"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Lihakeitto",
-            "Läskisoosi"
+            "Jauhelihakeitto",
+            "Kalapuikkovuoka"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
             "Hernekeitto",
-            "Jauhelihapasta"
+            "Possu-pekonikastike"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kermainen lohikeitto",
-            "Karjalanpaisti"
+            "Kanakeitto",
+            "Burger + ranskalaiset"
           ]
         }
       ]
@@ -426,46 +426,46 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Lihapullat, kermainen olutkastike, perunasose paahdetulla sipulilla, lämmin",
-            "Linssi-papupata, täysjyväriisi & fetacreme",
-            "Delisalaatti (yrttinen kana) ja sienikeitto",
-            "Mansikka-herukkarahka / hedelmä"
+            "Aasialainen kanapata, basmati, kasvikset",
+            "Kukkakaalipyörykkä, kookos-currykastike, basmati, kasvikset",
+            "Delisalaatti (sinihomejuusto) & kesäkurpitsakeitto",
+            "Appelsiini-keksirahka / hedelmä"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Juustoinen kanalasagnette",
-            "Mifustroganoff, perunat & hunaja-punajuurta",
-            "Delisalaatti (vuohenjuusto), lempeän tulinen katkarapukeitto",
-            "Suklaa-kookoshelmivanukas & vadelmamelba / hedelmä"
+            "Mustamakkaraa, puolukkaa, sinappinen juustokastike, perunasose, höyrytetyt kasvikset / Sitruunainen kalakeitto",
+            "Kasvisgratiini, perunasose & linssisalaatti",
+            "Delisalaatti (lammaspulla & hummus) & porkkana-inkiväärikeitto",
+            "Sitrushedelmäsalaatti / hedelmä"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Kirjolohta, feta-ruohosipulidippi, perunasose, höyrytetyt kasvikset / Kinkku-sinihomejuustokiusaus",
-            "Juures-sienipyttipannu & paistettu kananmuna",
-            "Delisalaatti (kebab), kevyt tomaattikeitto & turkkilainen jogurtti",
-            "Paahtokiisseli / hedelmä"
+            "Liha-stroganoff, perunasose paahdetulla sipulilla, grillattua punajuurta",
+            "Risotto limonello",
+            "Delisalaatti (uuniperuna savulohitäytteellä) & tomaattinen linssikeitto",
+            "Mustikka-herukkakiisseli & kermavaahto / hedelmä"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "HärkäWokki Hoisin-kastikkeella, basmati & suolapähkinää / Hernekeitto",
-            "Kasvispihvit, juustokastike & perunat",
-            "Delisalaatti (katkarapu) & maissi-kookoskeitto",
-            "Pannukakku, hillo & kermavaahto / hedelmä"
+            "Fish & Chips, hernepesto, aiolia / Kana-chorizopasta & juusto",
+            "Tomaattinen fenkoli-feta-orzopastavuoka",
+            "Delisalaatti (Välimeren kana), juustoinen sipulikeitto, patonkia & tapenadea",
+            "Marjasmoothie / hedelmä"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kana sandwich, sinihomejuustokastiketta, paahdettua sipulia, lime-ananassalsa, savuchili-majoneesi, ranskalaiset",
-            "Wege-falafelpita, savuchili-majoneesi, ranskalaiset",
-            "Delisalaatti (kinkku-juusto) & peruna-purjokeitto",
-            "Pannacotta & marjakastiketta / hedelmä"
+            "Ylikypsää possua pekoni-kermakastikkeessa, lohkoperunat & kasviksia",
+            "Kasvis hot dog, lohkoperunat & aiolia",
+            "Delisalaatti (tonnikala) & kasviskeitto",
+            "Raparperi-kaurapaistos & vaniljajäätelö / hedelmä"
           ]
         }
       ]
