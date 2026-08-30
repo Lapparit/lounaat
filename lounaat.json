@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-30T05:43:42.907028+00:00",
+  "paivitetty": "2026-08-30T08:31:09.380264+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -56,66 +56,65 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Pannupihvejä ruskeassa kastikkeessa (suomalaista nautaa ja possua)",
-            "Kanakebab (suomalaista broileria)",
-            "Yrttipaahdettua perunaa",
-            "Riisiä",
+            "Parmesan broileria (suomalaista broileria)",
+            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
+            "Perunamuusia",
             "Salaattibuffet",
-            "Broiler burger Tofu poke (annosruoka ei sis. buffettiin)"
+            "Paprika burger Halloumi salaatti (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Omenaista ylikypsää possua (suomalaista possua)",
-            "Crispy Chicken (Suomalaista broileria)",
-            "Kurkkumajoneesia",
-            "Lohkoperunaa",
+            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
+            "Bearnaise kanaa (suomalaista broileria)",
+            "Yrttiperunaa",
+            "Riisiä",
             "Salaattibuffet",
-            "Chicken & fries Halloumi poke (annosruoka ei sis. buffettiin)"
+            "Yrttibroileri burger Vuohenjuusto poke (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Yrttimarinoitua broileria (Suomalaista broileria)",
-            "Chilipossua (suomalaista possua)",
-            "Yrttinen perunamuusi",
-            "Salaattibuffet",
-            "Aioli burger Tofu salaatti (annosruoka ei sis. buffettiin)"
+            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
+            "(suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa pinaatti-feta täytteellä",
+            "Remoulade-kastike",
+            "perunamuusia",
+            "Salaattibuffet"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Sitruuna-smetana broileria (suomalaista broileria)",
-            "Caffitellan kebabia (Suomalaista naudanlihaa)",
-            "Paahdettua perunaa",
-            "Riisiä",
+            "Paneroitua porsaanleikettä (suomalaista possua)",
+            "Rosmariininen kylmäkastike",
+            "Caffitellan Chorizopyörykät (suomalaista nautaa ja possua)",
+            "Pariisinperunat",
             "Salaattibuffet",
-            "Vuohenjuusto burger Teriyaki poke (annosruoka ei sis. buffettiin)"
+            "Tofu salaatti Paneroitu broileri poke (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Lihapullia kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Paneroitua pinaatti-feta Kampelaa",
-            "Sitruunainen kermaviilikastike",
-            "Juustoperunaa",
+            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
+            "Broileria & kasviksia (suomalaista broileria)",
+            "Riisiä",
             "Salaattibuffet",
-            "Pekoni smash burger (annosruoka ei sis. buffettiin)"
+            "Kanaburger (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Lauantai",
           "ruoat": [
-            "Kievin Kanaa (suomalaista broileria)",
-            "Chorizo pyörykkä & lihapulla mix",
-            "Caffitellan majoneesia",
-            "Kermaperunaa",
+            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Savulohikiusausta (suomalaista kirjolohta)",
+            "Paahdettua perunaa",
             "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
+            "VKO 36"
           ]
         }
       ]
