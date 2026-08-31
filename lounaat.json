@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-30T08:31:09.380264+00:00",
+  "paivitetty": "2026-08-31T00:48:53.890104+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -129,69 +129,69 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Itte tehtyjä wieninleikkeitä",
-            "Tandoorikanaa",
-            "Satay-tofukastiketta",
-            "Grillilohta",
-            "Maa-artisokkarisottoa",
-            "Paahdettuja tandoorikasviksia",
-            "Kermaista lohikeittoa",
-            "Porsaanpaistia (Suomi)",
-            "Falafelpyöryköitä",
-            "Katkarapu-lasinuudelisalaatti #"
+            "Pyttipannua",
+            "Yrttivoissa paahdettua rapeaa kanaa",
+            "Kukkakaalicurrya ja korianterijogurttia",
+            "Grillattua lohta ja kasviksia",
+            "Tomaatti-mozzarellakeittoa",
+            "BBQ-maustettua kanaa",
+            "Peruna-pinaatti-oliivimunakasta",
+            "Kreikkalainen salaatti #"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Teriyakikalaa",
-            "Bearnaise-kanaa",
-            "Itte tehtyjä punajuuripihvejä",
-            "Smash-burger",
-            "Maalaisranskalaisia",
-            "Kanakeittoa thaimaalaisittain",
-            "Kasvis-munakasrullaa",
-            "Chimichurri-maustettua possua",
-            "Katkarapu-lasinuudelisalaatti"
+            "Kanaa Napolin tapaan",
+            "Piparjuurihollandaise kuorrutettua kalaa",
+            "Itte tehtyä omena-hapankaalipiirakkaa",
+            "Lehtipihvi ranskalaisilla",
+            "Valkosipuli- maustevoi",
+            "Kanakeittoa",
+            "Kaura-punajuuripyöryköitä",
+            "Aioli-katkarapuja",
+            "Caesar-salaattia"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Sitruuna-valkosipulikalaa",
-            "Antellin lasagnea",
-            "Linssidahl – linssimuhennosta",
-            "Lehtipihvi ranskalaisilla",
-            "Remoulade-majoneesia",
-            "Metsäsienikeittoa",
-            "Maalaisperunasalaattia",
-            "Chili-mangokanaa",
-            "Italialainen kasvispyörykkä"
+            "Rapeita kanansiipiä",
+            "Valkosipulihärkää",
+            "Kasvismoussakaa",
+            "Paahdettua lohta & kantarellikastike #",
+            "Kahden kalan keittoa",
+            "Gremolata-maustettua kanaa",
+            "BBQ-majoneesia",
+            "Täytettyjä paprikoita",
+            "Katkarapu-caesarsalaatti",
+            "Kinkku-ananas-aurajuustopizzaa"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Itte tehtyjä kotletteja",
-            "Tulista smetana-uunimakkaraa",
-            "Itte tehtyjä juurespihvejä",
-            "Smash-burger",
-            "Maalaisranskalaisia",
-            "Bataattisosekeittoa",
-            "Piri piri -majoneesia",
-            "Caesar-salaattia",
-            "Kasviskoftat – kasvispihvejä marokkolaisittain",
-            "BBQ-possua"
+            "Butter chicken – kanaa intialaisittain",
+            "Cheddar-burgereita",
+            "Feta-pinaattimunakasta",
+            "Lehtipihvi ranskalaisilla",
+            "Kermaista pippurikastiketta",
+            "Parsakeittoa",
+            "Chorizopyörykkä, Suomi",
+            "Mangomajoneesia",
+            "Porsaanpaisti, viipaloitu",
+            "Caesar-kanasalaattia"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Mausteiset kanansiivet ja Texaspetekastike",
-            "Nyhtöpossuburgereita",
-            "Tomaatti-basilikamunakasta",
-            "Vuohenjuustokana lohkoperunoilla #",
-            "Pepperoni-jalopenopizza",
+            "Lamminpään lumous – possua mausteisessa kastikkeessa",
+            "Kermaista kirjolohikeittoa",
+            "Falafelpihvejä",
+            "Smash-burger",
+            "Ranskalaisia perunoita",
+            "Kana-ananas-aurajuustopizzaa",
             "Vihreää salaattia"
           ]
         }
@@ -207,78 +207,65 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kermainen parsakaalisosekeitto",
-            "Täysjyväpaneroitua kalafilettä",
-            "Basilika-kermaviilikastiketta",
-            "Chili con carne – jauhelihasta",
-            "Paahdetut satokauden kasvikset",
-            "Riisiä",
-            "*Punnittavan salaatin proteiinilisukkeet",
-            "-Paahdettua halloumia",
-            "-Raejuustoa",
-            "-Keitettyä kananmunaa"
+            "Kermainen kukkakaalisosekeitto sinihomejuustolla",
+            "Lyonin kana – ranskalainen klassikko",
+            "Possupyörykät chili-tomaattikastikkeessa",
+            "Paahdetut talon kasvikset",
+            "Paahdetut yrttiperunat",
+            "Mausteinen kikherne-curry",
+            "Proteiinilisäkkeet punnittavaan salaattiin",
+            "-Salaattijuustoa",
+            "-Broileria (linjastosta)",
+            "-Vuohenjuustoa"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Samettinen kasvissosekeitto",
-            "Ylikypsää karamellisoitua BBQ possua",
-            "Kylmäsavulohipasta",
-            "Juustoripote",
+            "Itämainen bataattisosekeitto kookoksella",
+            "Pinaatti-fetatäytteinen kalaleike",
+            "Lime-jogurttikastike",
+            "Bibimbap Korealainen pyttipannu",
             "Paahdetut satokauden kasvikset",
-            "Ratatouillea jättipavuilla",
-            "-Proteiinilisukkeet kilohinnalla punnittavaan salaattiin",
-            "-Halloumia",
-            "-Teriyakilohta",
-            "-Jättipapua"
+            "Paahdettua perunaa",
+            "Kukkakaalicurrypyörykkä"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Kasvisborssikeittoa",
-            "Alabama style chicken M,G,sipuli,valkosipuli",
-            "Mustamakkara",
-            "Puolukkasurvos",
-            "Perinteinen perunamuusi",
+            "Chili-inkivääri-kookoskeittoa",
+            "Kiinalaista bangbang broileria",
+            "Tomaatti-mozzarella kala",
+            "Riisiä",
             "Paahdetut satokauden kasvikset",
-            "Kasvis-kaalikääryleet",
-            "Proteiinilisukkeet punnittavaan salaattiin",
-            "-Salaattijuustoa",
-            "-Halloumia",
-            "-Broileria (linjasta)"
+            "Mausteinen linssibolognese"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
+            "Vähemmän asiakaspaikkoja käytettävissä, pahoittelut!",
             "Perinteistä hernekeittoa palvikinkulla",
-            "Butter Chicken",
-            "Riisiä",
-            "Kebabpannua",
-            "Valkosipulijogurtti",
-            "Pähkinäinen tofuwok",
-            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa <3",
-            "Proteiinilisukkeet punnittavaan salaattiin",
-            "-Halloumia",
-            "-Broileria (linjasta)",
-            "-Salaattijuustoa"
+            "Mureaa kananpoikaa tikka masalakastikkeessa",
+            "Stroganoff artesaanimakkarasta",
+            "Paahdettua perunaa",
+            "Paahdetut satokauden kasvikset",
+            "Kasvis-nuudeliwokkia marinoiduilla soijasuikaleilla",
+            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa <3"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kermaista kalakeittoa",
-            "Rapeaa kievin kanaa",
-            "Aurinkokuivattu tomaatti dippi",
-            "Parmesaani & persilja ‑lohkoperunat",
-            "Talon kasvikset",
-            "Talon halloum-punajuuri röstit",
-            "Proteiinilisukkeet punnittavaan salaattiin",
-            "-Salaattijuustoa",
-            "-Kananmunaa",
-            "-Broileria"
+            "Siskonmakkarakeitto",
+            "Burgeribaari",
+            "Hampurilaissämpylöitä",
+            "Jauhelihapihviä",
+            "Big Mac-majoneesia",
+            "Frittiperunoita",
+            "Paahdetut satokauden kasvikset",
+            "Kasvis-cheddarburgeria"
           ]
         }
       ]
@@ -293,36 +280,36 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Sveitsinleikettä, Dijonmajoneesia M, G, paahdettuja yrttiperunoita M, G / Mie goreng tofua M, riisiä M, G, kasviksia",
-            "Savulohipastaa ja fenkoli-appelsiinisalaattia"
+            "Sitruuna-lohivuokaa, paahdettua porkkanaa ja fenkolia, srirachalla maustettuja kasviksia / Kasvismoussakaa",
+            "Cajun maustettuja kalkkunan paistileikkeitä ja mango-ananassalsaa, mexican chiliriisiä"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kanaa aurinkotomaatti-tuorejuustokastikkeessa L, G, lämpimiä kasviksia M, G , riisiä M, G / Kolmen juustonpiirakkaa",
-            "Hermian grillipossua, mustapapu-maissisalaattia , kermaperunat ja savupaprika-aiolia"
+            "Spaghetti bolognese ja parmesaania / Tandooripaistettua turskaa, limejogurttikastiketta, bombayperunoita, sitrusmarinoitua ja paahdettua parsakaalia",
+            "Hawaijinleike, maustevoi ja ranskalaisia"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Naudanlihaa ja kasviksia gochujang kastikkeessa M, riisiä M, G / Kikherne-kukkakaalicurrya M, G, kasviksia M, G ja sitruuna-soijajogurttia",
-            "Pannupizza keskiviikko! Kana-ananaspannupizzaa L ja Mozzarella-tomaatti-pestopannupizzaa"
+            "Kebabkiusausta, paistettua kaalia / Bataatti-munakoisopataa, couscousia, herneitä ja tomaattia",
+            "Pizzakeskiviikko! Pizza Mexicana tai pizza artisokalla ja oliiveilla"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Paneroitua punakampelaa M, vihannesriisiä M, G ja sitruuna-kermaviilikastiketta L, G / Marry Me kasvispastaa",
-            "Oscarinleikettä, choronkastiketta ja ranuja"
+            "Kalkkunaleikettä Cordon Bleu, paahdettua tomaattimajoneesia, kermaperunoita, basilikaöljyllä maustettuja herneitä / Härkis-nuudeliwokkia, soija-seesamkastiketta",
+            "Kanacaesar hunajamelonilla ja rapeilla itsetehdyillä krutongeilla"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Grillattua lohta M,G / Kasvispihvejä M, G, hunajapaahdettuja maissintähkiä M, G, lämmintä perunasalaattia M, G, basilikakermaviilikastiketta",
-            "Savujuustoburger naudan tai kalkkunanlihalla / Bortobelloburger, maalaisranskalaisia"
+            "Grillattu kana, chipotle-spelttiburritoja ja korianteri-chilijogurttia / Linssi-fetajuustopihvejä, maissitortillaa, mustapapu-maissisalaattia ja ruohosipuli-kermaviilikastiketta, salsaa",
+            "Pullet pork-burger / juusto-kasvisburger, ranut ja talon dippi"
           ]
         }
       ]
@@ -337,41 +324,43 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Juustokuorrutettua uunimakkaraa L,G, juures-perunamuusia L,G / Cha cha hanoi turskaa inkiväärin ja maapähkinöiden kera M,G, basmatiriisiä M,G / Kvinoaa arrabbiata-kasviksilla, paahdettua kukkakaalia ja parsakaalia",
-            "Katkarapu smörrebröd L / Ramen-keittoa tofulla tai kanalla",
-            "Tomaatti-vuohenjuustokeittoa ja salaattibuffet"
+            "BBQ-marinoitua kanaa, mexican-chiliriisiä, mintturaitaa / Provencelaista kasvispataa, grillattuja maissintähkiä / Yrttivoissa paistettua turskaa, paahdettuja perunoita",
+            "Loaded fries pekonilla",
+            "Oscarinleike ja maalaislohkoperunoita",
+            "Porkkana-kurkumakeittoa ja salaattibuffet"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Stifado, kreikkalainen lihapata M,G, pilahviriisiä M,G / Sitruuna-lohivuokaa L, paahdettua punajuurta ja balsamicoa M,G / Kreikkalaista kasvispataa mifusta L,G, marinoitua parsakaalia",
-            "Pinsa pepperoni L / Pinsa bianca con salmone L / Pinsa tomaatilla ja mozzarellalla",
-            "Massaman-porkkanakeittoa L,G ja salaattibuffet"
+            "Härkää Szechuan, basmatiriisiä / Seitiä ala Vizcaina, paahdettuja perunoita / Intialaista kikherne-tofupataa, parsakaalia, kesäkurpitsaa ja paprikaa",
+            "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nacho sipsejä pico de callo & ranskankermaa",
+            "Herkkusienikeittoa ja salaattibuffet"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Hoisin possunkylkeä M, mango-mustapapusalsaa M,G / Goalaista kalacurryä M,G, riisiä M,G/ Falafelpyöryköitä M,G, rucolapestoa",
-            "Pinsa pepperoni L / Pinsa bianca con salmone L / Pinsa tomaatilla ja mozzarellalla",
-            "Kukkakaali-parsakaalikeittoa L,G ja salaattibuffet"
+            "Jauhelihalasagnettea, street mex salsaa / Avocadopastaa / Thaikalaa, curry-kookoskastikkeessa, jasmiiniriisiä, kukka- ja parsakaalista sekä paistetusta sipulista lämminsalaatti",
+            "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nacho sipsejä pico de callo & ranskankermaa",
+            "Tomaatti-linssikeittoa ja salaattibuffet"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Marry me kanaa L,G ja pastaa M,G / Smetanakuorrutettua seitä, perunoita ja tillivoita L,G, / Thaimaalaista paistettua riisiä, papuja, korianteria ja chiliä",
-            "Chicken massaman naanleipää ja tzatsikia L / Pork naan, kaalisalaattia, pikkelöityä punasipulia ja tuoretta korianteria",
-            "Purjo-perunasosekeittoa L,G ja salaattibuffet"
+            "Maalaisranskalaista porsaanposkea, perunamuusia / Mantelikalaa, fenkoli-hernesalaattia / Vihannes-jalfrezia, kurkumariisiä",
+            "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nacho sipsejä pico de callo & ranskankermaa",
+            "Kukkakaali-parsakaalisosekeittoa ja salaattibuffet"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kana-chorizopaellaa M,G, chilimarinoitua kurkkua ja varhaiskaalia M,G / Paneroitua kampelaleikettä M, perunamuusia L,G, ja valkosipulimajoneesia M,G / Butter tofua M,G, ja riisiä",
-            "Tonnikala-katkarapu-kaprispizzaa L / Mozzarella-tomaattipizzaa VL Pyydä erikseen gluteeniton",
-            "Maalaissalaatti grillatulla kanalla G ja halloumia sekä Tomaatti-kookoskeittoa"
+            "Hainanilaista kanaa ja riisiä, marinoitua parsakaalia / Härkis-nuudeliwokkia, korianteria, suolapähkinöitä / Kermaista savukirjolohikeittoa, riisipiirakoita ja munavoita, tuoretta tilliä",
+            "Pizzaperjantai!: Pepperonipizza, mozzarella-kirsikkatomaattipizza",
+            "Maalaissalaattia grillatulla kanalla tai vuohenjuustolla",
+            "Koskenlaskijan kasvisosekeittoa"
           ]
         }
       ]
@@ -546,54 +535,52 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Paneroitua korianteri-lime turskaa",
-            "– sitruskastike",
-            "Tomaattiset lihapullat",
-            "– perunamuussia L",
-            "Keitto: Lempeän tulinen fenkolikeitto",
-            "VEGAANIRUOKA keittiöstä: MUU fava kasvispata & perunamuussia"
+            "Appelsiini marinoitua broilerinleikettä",
+            "Chili con carne naudanlihasta",
+            "Keitto: Paahdettu paprika- inkiväärikeitto",
+            "Chef: Chavre pyörykkä pita, raikas sitrus coleslaw & vihersalaatti"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Luuttomia possun BBQ ribsejä",
-            "Tikka masala- intialainen kanapata",
-            "Keitto: Kesäkeitto",
-            "Chef: Sitruunaista puna-ahventa, paahdettuja perunoita ja kasviksia & bearnaise kastiketta",
-            "VEGAANIRUOKA keittiöstä: Linssi-papu- kasvispata",
-            "Jälkiruoaksi: mustikka-päärynä rahkaa",
-            "M, G, VEG mustikkavaahto keittiöstä"
+            "Välimeren lihamureketta",
+            "Kasvis rogan josh curry",
+            "– paahdettuja yrttiperunoita",
+            "– sitruuna riisiä",
+            "Keitto: Basillikalla höystetty kanakeitto",
+            "Jälkiruoaksi: Raikas ”Pina Colada” smoothie",
+            "Chef: Pulled pork hot dog L, paahdettua sipulia & kurkkusalaattia"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Broileria Hot honey kastikkeella",
-            "Pinaatti-härkäpapu lasagne L, KASVIS (SAA VEG keittiöstä, sis. vehnä ja glut. kaura)",
-            "Keitto: Kikhernekeitto",
-            "Chef: Possun poskea, rosmariini perunoita ja tummaa mustaherukkakastiketta"
+            "”Linkosuon klassikko” Ranskalainen kanapata broilerin fileestä",
+            "Jerk uunikalaa",
+            "– kasvis- riisiä",
+            "Keitto: Täyteläinen yrtti- porkkanakeitto",
+            "Chef: Härkäpapu poke bowl"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Mallas glaseerattua possunniskaa M (sis.ruis)",
-            "ITÄMERIPÄIVÄ: Kalamureke pihvit M, G & tilli dippi",
-            "Keitto: Hernekeitto M, G (sis.sinappi), pannukakkua & hilloa",
-            "VEGAANIRUOKA keittiöstä: Falafel pyöryköitä curry-chilikastikkeella & riisiä",
-            "M, G, VEG jälkiruoka keittiöstä"
+            "Havajin leikettä",
+            "Tofu Palak paneer",
+            "– riisiä & parmesaani perunoita",
+            "Keitto: Kermainen kukkakaalikeitto",
+            "Chef: Cajun paahdettua lohta & sitruuna risonia"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Paneroitua broileria M, G & ranch dippiä",
-            "M, G dippi keittiöstä",
-            "Juustoinen riista-peruna gratiini",
-            "Keitto: Juuressosekeitto",
-            "Chef: Caesar salaatti pariloidulla lohella",
-            "Vegaaniruoka keittiöstä: Kasvis-perunagratiini"
+            "Satay broileria maapähkinä kastikkeesa",
+            "Paneroitu Alaskan seiti pinaatti feta täytteellä",
+            "Keitto: Tomaattikeitto",
+            "Chef: Kikherne-pinjansiemen waldorf wrap",
+            "Jälkiruoaksi: Raparperi-mansikka kaurapaistos"
           ]
         }
       ]
@@ -640,52 +627,52 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kievin kanaa",
-            "– curry-omenamajoneesi",
-            "Havaijin perunavuoka – kinkkua, ananasta ja sinihomejuustoa",
-            "– paahdettua punajuurta",
-            "Paahdettu paprikasosekeitto"
+            "Porsaan niskaa chili-karamellikastikkeella",
+            "– paahdetut valkosipuliperunat",
+            "Härkistä ja kasviksia stir fry",
+            "Pinaattikeitto",
+            "– keitetyt kananmunat",
+            "Kahvin kanssa puutarhamarjarahkaa"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kebab ranskalaisilla",
-            "– aiolia M,G ja jalapenoja",
-            "Lohipyörykät",
-            "– sitruunaperunat",
-            "– paahdetut kasvikset yrttiöljyllä",
-            "– Myrttisen suolakurkkudippi",
-            "Kermainen lehtikaalikeitto",
-            "– keitetyt kananmunat"
+            "Sitruunabroileria",
+            "– inkiväärijogurttia",
+            "Klassikko: Juustoinen uunimakkara",
+            "Kermainen metsäsienikeitto"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Possua ja vihreitä papuja cajunkastikkeessa",
-            "Maapähkinävoicurry kukkakaalilla ja kikherneillä",
-            "Kirsikkatomaattikeitto",
-            "Kahvin kanssa omenapiirakkaa L,G ja vaniljakastiketta"
+            "Chorizopullat savupaprikakastikkeessa",
+            "– parmesankermaperunat",
+            "Orvokin oma: Porkkanaletut",
+            "– puolukkahilloa",
+            "Parsakaalisosekeittoa",
+            "Kahvin kanssa mokkapalat"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Lihamureke valkosipulituorejuustokastikkeella",
-            "Kasvistortillavuoka",
-            "– salsa Rio grande",
-            "Makkarakeitto ripauksella chiliä"
+            "Rapeat kananpojan sisäfileet",
+            "– mango-chiliriisiä VEG,G ja cheddardippiä",
+            "Linssi-kasvislasagnea",
+            "Hernekeittoa Amerikan pekonilla",
+            "– Orvokin omia lettuja, hilloa ja kermavaahtoa (lettuja saa myös M,G)"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Wieninleike M (saa possua myös M,G)",
-            "– sitruunadippiä L,G ja kapriksia",
-            "Kasvislämppärit vuohenjuustolla",
-            "Kookos-kanakeitto",
-            "Kahvin kanssa Snickers-vaahtoa"
+            "Puolalainen bigos-possupata L,G – possua, bratwurstia ja hapankaalia smetanassa ja punaviinissä haudutettuna",
+            "– perinteinen perunamuusi",
+            "Texas peten kanapizzaa ja pikkelöityä punasipulia",
+            "Karibialainen tofu-kasviskeitto",
+            "Kahvin kanssa cookiemoussea"
           ]
         }
       ]
@@ -700,38 +687,36 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Punajuurikroketteja 6kpl/annos kpl",
-            "Sinappirelish-kastiketta",
-            "Paahdettua perunaa"
+            "Makean hapanta tofu-kasviswokkia - Tofua Kung Pao",
+            "Tummaa riisiä"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Tofua ja herneita mausteisessa kastikkeessa - Tofu Matar Paneer",
-            "Tummaa riisiä"
+            "Tex Mex maustettuja kasvispyöryköitä",
+            "Chilimajoneesia",
+            "Paahdettua perunaa"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Porkkanaohukaisia 3kpl/annos, extra (gluteeniton ja vegaaninen porkkanaohukainen saatavilla)",
-            "Hillottua puolukkaa",
-            "Perunamuusia"
+            "Tomaattista vuohenjuustolasagnettea"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Porkkanaohukaisia 3kpl/annos, extra (gluteeniton vaihtoehto kasvispasta saatavilla) , hillottua puolukkaa",
-            "Porkkanaohukaisia 3kpl/annos, extra (gluteeniton vaihtoehto kasvispasta saatavilla) , hillottua puolukkaa"
+            "Halloumia mausteisessa tomaatti-jogurttikastikkeessa - Shahi Paneer",
+            "Tummaa riisiä"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Punajuuri falafelpihvejä 4kpl/annos, extra",
-            "Kukkakaali-tzatzikia",
+            "Porkkana-kvinoapyöryköitä",
+            "Tomaatti-basilikajogurttia",
             "Paahdettua perunaa"
           ]
         }
@@ -747,6 +732,9 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
+            "Uunimakkaraa",
+            "Broilerileike",
+            "Kebabpastaa l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -754,6 +742,9 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
+            "Lohikeitti+salaatti",
+            "Pangasius l",
+            "Uunifilettä",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -761,6 +752,9 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
+            "Pizzaa l",
+            "Pariloitua maksaa",
+            "Liha-kasvispataa",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -768,6 +762,9 @@
         {
           "paiva": "Torstai",
           "ruoat": [
+            "Siivet",
+            "Lihamureke",
+            "Munkkeja l",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
@@ -775,6 +772,10 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
+            "Wideninleikew l",
+            "Talonpippuripihvi",
+            "Kukkoa viinissä",
+            "Kasvisgratiini",
             "Buffetin hinta ,opiskeliat ,eläkeläiset klo 13 jälkeen eläkeläiset",
             "Jätski ,kahvi aina jälkkäriksi,pyrimme valmistamaan itse niin paljon kun mahdollista,reilua, rehellistä, ravitsevaa,terveellistä,yksinkertaista syötävää"
           ]
