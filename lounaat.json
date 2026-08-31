@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-31T00:48:53.890104+00:00",
+  "paivitetty": "2026-08-31T06:00:27.438879+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -209,7 +209,7 @@
           "ruoat": [
             "Kermainen kukkakaalisosekeitto sinihomejuustolla",
             "Lyonin kana – ranskalainen klassikko",
-            "Possupyörykät chili-tomaattikastikkeessa",
+            "Possupyörykät rosepipppurikastikkeessa",
             "Paahdetut talon kasvikset",
             "Paahdetut yrttiperunat",
             "Mausteinen kikherne-curry",
@@ -258,7 +258,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Siskonmakkarakeitto",
+            "Mausteinen kasvissosekeitto",
             "Burgeribaari",
             "Hampurilaissämpylöitä",
             "Jauhelihapihviä",
@@ -548,7 +548,7 @@
             "Kasvis rogan josh curry",
             "– paahdettuja yrttiperunoita",
             "– sitruuna riisiä",
-            "Keitto: Basillikalla höystetty kanakeitto",
+            "Keitto: Basilikalla höystetty kanakeitto",
             "Jälkiruoaksi: Raikas ”Pina Colada” smoothie",
             "Chef: Pulled pork hot dog L, paahdettua sipulia & kurkkusalaattia"
           ]
@@ -566,7 +566,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Havajin leikettä",
+            "Havaijin leikettä",
             "Tofu Palak paneer",
             "– riisiä & parmesaani perunoita",
             "Keitto: Kermainen kukkakaalikeitto",
@@ -576,8 +576,8 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Satay broileria maapähkinä kastikkeesa",
-            "Paneroitu Alaskan seiti pinaatti feta täytteellä",
+            "Sataybroileria maapähkinäkastikkeessa",
+            "Paneroitu Alaskan seiti pinaatti-fetatäytteellä",
             "Keitto: Tomaattikeitto",
             "Chef: Kikherne-pinjansiemen waldorf wrap",
             "Jälkiruoaksi: Raparperi-mansikka kaurapaistos"
@@ -629,7 +629,8 @@
           "ruoat": [
             "Porsaan niskaa chili-karamellikastikkeella",
             "– paahdetut valkosipuliperunat",
-            "Härkistä ja kasviksia stir fry",
+            "Hedelmäinen curry-broileripasta",
+            "Päivän vegaani: Härkistä ja kasviksia stir fry",
             "Pinaattikeitto",
             "– keitetyt kananmunat",
             "Kahvin kanssa puutarhamarjarahkaa"
@@ -639,7 +640,7 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Sitruunabroileria",
-            "– inkiväärijogurttia",
+            "– inkivääridippi",
             "Klassikko: Juustoinen uunimakkara",
             "Kermainen metsäsienikeitto"
           ]
@@ -688,7 +689,7 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Makean hapanta tofu-kasviswokkia - Tofua Kung Pao",
-            "Tummaa riisiä"
+            "Riisiä"
           ]
         },
         {
