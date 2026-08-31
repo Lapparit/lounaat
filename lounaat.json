@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-31T06:00:27.438879+00:00",
+  "paivitetty": "2026-08-31T08:53:17.227373+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -52,72 +52,7 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Parmesan broileria (suomalaista broileria)",
-            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
-            "Perunamuusia",
-            "Salaattibuffet",
-            "Paprika burger Halloumi salaatti (annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Possun sisäfileetä hunaja-sinappi kastikkeessa (suomalaista possua)",
-            "Bearnaise kanaa (suomalaista broileria)",
-            "Yrttiperunaa",
-            "Riisiä",
-            "Salaattibuffet",
-            "Yrttibroileri burger Vuohenjuusto poke (annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
-            "(suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa pinaatti-feta täytteellä",
-            "Remoulade-kastike",
-            "perunamuusia",
-            "Salaattibuffet"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Paneroitua porsaanleikettä (suomalaista possua)",
-            "Rosmariininen kylmäkastike",
-            "Caffitellan Chorizopyörykät (suomalaista nautaa ja possua)",
-            "Pariisinperunat",
-            "Salaattibuffet",
-            "Tofu salaatti Paneroitu broileri poke (annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Caffitellan Jauhelihalasagnea (suomalaista nautaa ja possua)",
-            "Broileria & kasviksia (suomalaista broileria)",
-            "Riisiä",
-            "Salaattibuffet",
-            "Kanaburger (annosruoka ei sis. buffettiin)"
-          ]
-        },
-        {
-          "paiva": "Lauantai",
-          "ruoat": [
-            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Savulohikiusausta (suomalaista kirjolohta)",
-            "Paahdettua perunaa",
-            "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 36"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Farmi",
@@ -148,7 +83,7 @@
             "Lehtipihvi ranskalaisilla",
             "Valkosipuli- maustevoi",
             "Kanakeittoa",
-            "Kaura-punajuuripyöryköitä",
+            "Falafelpihvejä",
             "Aioli-katkarapuja",
             "Caesar-salaattia"
           ]
@@ -280,7 +215,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Sitruuna-lohivuokaa, paahdettua porkkanaa ja fenkolia, srirachalla maustettuja kasviksia / Kasvismoussakaa",
+            "Sitruuna-lohipastavuokaa L, paahdettua porkkanaa ja fenkolia M, G / Kasvismoussakaa",
             "Cajun maustettuja kalkkunan paistileikkeitä ja mango-ananassalsaa, mexican chiliriisiä"
           ]
         },
@@ -324,10 +259,10 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "BBQ-marinoitua kanaa, mexican-chiliriisiä, mintturaitaa / Provencelaista kasvispataa, grillattuja maissintähkiä / Yrttivoissa paistettua turskaa, paahdettuja perunoita",
+            "BBQ-marinoitua kanaa L, mexican-chiliriisiä M,G, mintturaitaa L,G / Provencelaista kasvispataaM,G grillattuja maissintähkiä L,G / Yrttivoissa paistettua turskaa L,G, paahdettuja perunoita",
             "Loaded fries pekonilla",
             "Oscarinleike ja maalaislohkoperunoita",
-            "Porkkana-kurkumakeittoa ja salaattibuffet"
+            "Porkkana-kurkumakeittoa L,G ja salaattibuffet"
           ]
         },
         {
@@ -538,7 +473,7 @@
             "Appelsiini marinoitua broilerinleikettä",
             "Chili con carne naudanlihasta",
             "Keitto: Paahdettu paprika- inkiväärikeitto",
-            "Chef: Chavre pyörykkä pita, raikas sitrus coleslaw & vihersalaatti"
+            "Chef: Chavre pyörykkä pita, raikas sitrus coleslaw & vihersalaatti M, VEG (sis.sinappi,vehnä)"
           ]
         },
         {
@@ -591,7 +526,48 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Lohikeittoa",
+            "Juustoista uunimakkaraa",
+            "Kasvispyöryköitä ja paprikakastiketta"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Jauhelihakeittoa",
+            "Broileri-savujuustokiusausta",
+            "Juustoista mifukiusausta"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Kermaista kanakeittoa",
+            "Kaalikääryleitä",
+            "Kasviskaalikääryleitä"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Unkarilaista lihakeittoa",
+            "Slaavilaista kanaa",
+            "Halloumi - tomaattikastiketta"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Siskonmakkarakeittoa",
+            "Juustomestarin uuniseitä",
+            "Feta-pinaattimunakasta"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",
