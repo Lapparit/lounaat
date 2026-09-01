@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-01T05:33:35.371347+00:00",
+  "paivitetty": "2026-09-01T07:57:51.799561+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -287,7 +287,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Spaghetti bolognese ja parmesaania / Tandooripaistettua turskaa, limejogurttikastiketta, bombayperunoita, sitrusmarinoitua ja paahdettua parsakaalia",
+            "Spaghettia M, bolognesekastiketta M, G ja parmesaania VL, G / Tandooripaistettua turskaa L, G, limejogurttikastiketta L, G, bombayperunoita M, G, lämpimiä kasviksia",
             "Hawaijinleike, maustevoi ja ranskalaisia"
           ]
         },
@@ -333,9 +333,9 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Härkää Szechuan, basmatiriisiä / Seitiä ala Vizcaina, paahdettuja perunoita / Intialaista kikherne-tofupataa, parsakaalia, kesäkurpitsaa ja paprikaa",
-            "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nacho sipsejä pico de callo & ranskankermaa",
-            "Herkkusienikeittoa ja salaattibuffet"
+            "Härkää Szechuan M,G, riisiä M,G / Seitiä ala Vizcaina M, paahdettuja perunoita M,G / Intialaista kikherne-tofupataa , parsakaalia, kesäkurpitsaa ja paprikaa",
+            "Tacomania! Korean tacoja, fetatortilloja, maissia ja korianteria, nacho sipsejä pico de callo & ranskankermaa",
+            "Herkkusienikeittoa L,G ja salaattibuffet"
           ]
         },
         {
@@ -423,7 +423,53 @@
       "kategoria": 1,
       "url": "https://ravintolaosku.fi/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Aasialainen kanapata, basmati, kasvikset",
+            "Kukkakaalipyörykkä, kookos-currykastike, basmati, kasvikset",
+            "Delisalaatti (sinihomejuusto) & kesäkurpitsakeitto",
+            "Appelsiini-keksirahka / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Mustamakkaraa, puolukkaa, sinappinen juustokastike, perunasose, höyrytetyt kasvikset / Sitruunainen kalakeitto",
+            "Kasvisgratiini, perunasose & linssisalaatti",
+            "Delisalaatti (lammaspulla & hummus) & porkkana-inkiväärikeitto",
+            "Sitrushedelmäsalaatti / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Liha-stroganoff, perunasose paahdetulla sipulilla, grillattua punajuurta",
+            "Risotto limonello",
+            "Delisalaatti (uuniperuna savulohitäytteellä) & tomaattinen linssikeitto",
+            "Mustikka-herukkakiisseli & kermavaahto / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Fish & Chips, hernepesto, aiolia / Kana-chorizopasta & juusto",
+            "Tomaattinen fenkoli-feta-orzopastavuoka",
+            "Delisalaatti (Välimeren kana), juustoinen sipulikeitto, patonkia & tapenadea",
+            "Marjasmoothie / hedelmä"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Ylikypsää possua pekoni-kermakastikkeessa, lohkoperunat & kasviksia",
+            "Kasvis hot dog, lohkoperunat & aiolia",
+            "Delisalaatti (tonnikala) & kasviskeitto",
+            "Raparperi-kaurapaistos & vaniljajäätelö / hedelmä"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Ruskon Helmi",
@@ -431,7 +477,45 @@
       "kategoria": 1,
       "url": "https://ruskonhelmi.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "SALAMIKIUSAUS",
+            "KOOKOS-CURRYBROILER"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "NAKKIKEITTO",
+            "JAUHELIHA-KANTTARELLIPIHVIT",
+            "KALAPUIKOT"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "LASAGNETTE",
+            "PIPPURIPOSSUA"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "HERNEKEITTO G,L JA PANNARI",
+            "BALILAINEN PUNA-AHVEN",
+            "MUSTAMAKKARA"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "KANAA CORDON",
+            "LOHILAATIKKO"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Gate of India",
@@ -460,13 +544,13 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Välimeren lihamureketta",
+            "Välimeren lihamureketta G",
             "Kasvis rogan josh curry",
             "– paahdettuja yrttiperunoita",
             "– sitruuna riisiä",
             "Keitto: Basilikalla höystetty kanakeitto",
             "Jälkiruoaksi: Raikas ”Pina Colada” smoothie",
-            "Chef: Pulled pork hot dog L, paahdettua sipulia & kurkkusalaattia"
+            "Chef: Pulled pork hot dog, paahdettua sipulia, kurkkusalaattia & ranskanperunoita"
           ]
         },
         {
@@ -597,7 +681,8 @@
             "Sitruunabroileria",
             "– inkivääridippi",
             "Klassikko: Juustoinen uunimakkara",
-            "Kermainen metsäsienikeitto"
+            "Kermainen metsäsienikeitto",
+            "Päivän kasvis: Quornia sitruunakastikkeessa"
           ]
         },
         {
@@ -650,7 +735,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Tex Mex maustettuja kasvispyöryköitä",
+            "Tex Mex maustettuja kasvispyöryköitä 10kpl/annos, extra",
             "Chilimajoneesia",
             "Paahdettua perunaa"
           ]
