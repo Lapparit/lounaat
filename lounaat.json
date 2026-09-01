@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-08-31T08:53:17.227373+00:00",
+  "paivitetty": "2026-09-01T01:23:28.968093+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -52,7 +52,72 @@
       "kategoria": 1,
       "url": "https://www.caffitella.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Parmesan broileria (suomalaista broileria)",
+            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
+            "Perunamuusia",
+            "Salaattibuffet",
+            "Paprikaburger Halloumisalaatti (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Possun sisäfileetä hunaja-sinappikastikkeessa (suomalaista possua)",
+            "Kanaa bearnaisekastikkeessa (suomalaista broileria)",
+            "Yrttiperunaa",
+            "Riisiä",
+            "Salaattibuffet",
+            "Yrttibroileriburger Vuohenjuusto poke -kulho (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
+            "(suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa pinaatti-fetatäytteellä",
+            "Remoulade -kastiketta",
+            "Perunamuussia",
+            "Salaattibuffet"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Paneroitua porsaanleikettä (suomalaista possua)",
+            "Rosmariinilla maustettua kermaviili-majoneesikastiketta",
+            "Caffitellan Chorizopyöryköitä (suomalaista nautaa ja possua)",
+            "Pariisinperunoita",
+            "Salaattibuffet",
+            "Tofusalaatti Paneroitu broileri poke -kulho (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Caffitellan jauhelihalasagnea (suomalaista nautaa ja possua)",
+            "Broileria & kasviksia (suomalaista broileria)",
+            "Riisiä",
+            "Salaattibuffet",
+            "Kanaburger (annosruoka ei sis. buffettiin)"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
+            "Savulohikiusausta (suomalaista kirjolohta)",
+            "Paahdettua perunaa",
+            "Salaattibuffet",
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
+            "VKO 36"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Farmi",
@@ -606,10 +671,8 @@
             "Porsaan niskaa chili-karamellikastikkeella",
             "– paahdetut valkosipuliperunat",
             "Hedelmäinen curry-broileripasta",
-            "Päivän vegaani: Härkistä ja kasviksia stir fry",
             "Pinaattikeitto",
-            "– keitetyt kananmunat",
-            "Kahvin kanssa puutarhamarjarahkaa"
+            "– keitetyt kananmunat"
           ]
         },
         {
@@ -664,7 +727,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Makean hapanta tofu-kasviswokkia - Tofua Kung Pao",
+            "Punajuuri falafelpihvejä 4kpl/annos, extra",
             "Riisiä"
           ]
         },
@@ -765,60 +828,7 @@
       "kategoria": 3,
       "url": "https://www.speakeasy.fi/hervanta/lounas/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "31.8.",
-            "Kanaa kermaisella sweet chili-kastikkeella, riisi",
-            "Lohipasta",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Kuningatarrahka"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "1.9.",
-            "Chorizopyörykät tomaattikastikkeessa, yrttiperunat",
-            "Täytetyt paprikat",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Munkki"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "2.9.",
-            "Kassler korealaisittain, riisi",
-            "Kebabkiusaus",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Mango-passionmousse"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "3.9.",
-            "SPEAKEASYN LOHIBUFFET (",
-            "Uunilohi jogurttikastikkeella, pariisinperunat",
-            "Porsaanleike mangomajoneesilla, ranskalaiset",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Pannari mansikkahillolla ja kermavaahdolla"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "4.9.",
-            "SPEAKEASYN TORTILLABUFFET",
-            "Tortilloja liha-, kana- ja kasvistäytteillä",
-            "Maalaisranskalaisia ja paneroituja sipulirenkaita",
-            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Mangolassi"
-          ]
-        }
-      ]
+      "paivat": []
     }
   ]
 }
