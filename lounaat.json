@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-01T01:23:28.968093+00:00",
+  "paivitetty": "2026-09-01T05:33:35.371347+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -423,53 +423,7 @@
       "kategoria": 1,
       "url": "https://ravintolaosku.fi/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "Aasialainen kanapata, basmati, kasvikset",
-            "Kukkakaalipyörykkä, kookos-currykastike, basmati, kasvikset",
-            "Delisalaatti (sinihomejuusto) & kesäkurpitsakeitto",
-            "Appelsiini-keksirahka / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Mustamakkaraa, puolukkaa, sinappinen juustokastike, perunasose, höyrytetyt kasvikset / Sitruunainen kalakeitto",
-            "Kasvisgratiini, perunasose & linssisalaatti",
-            "Delisalaatti (lammaspulla & hummus) & porkkana-inkiväärikeitto",
-            "Sitrushedelmäsalaatti / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Liha-stroganoff, perunasose paahdetulla sipulilla, grillattua punajuurta",
-            "Risotto limonello",
-            "Delisalaatti (uuniperuna savulohitäytteellä) & tomaattinen linssikeitto",
-            "Mustikka-herukkakiisseli & kermavaahto / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Fish & Chips, hernepesto, aiolia / Kana-chorizopasta & juusto",
-            "Tomaattinen fenkoli-feta-orzopastavuoka",
-            "Delisalaatti (Välimeren kana), juustoinen sipulikeitto, patonkia & tapenadea",
-            "Marjasmoothie / hedelmä"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "Ylikypsää possua pekoni-kermakastikkeessa, lohkoperunat & kasviksia",
-            "Kasvis hot dog, lohkoperunat & aiolia",
-            "Delisalaatti (tonnikala) & kasviskeitto",
-            "Raparperi-kaurapaistos & vaniljajäätelö / hedelmä"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Ruskon Helmi",
@@ -477,45 +431,7 @@
       "kategoria": 1,
       "url": "https://ruskonhelmi.fi/lounaslista/",
       "huom": "",
-      "paivat": [
-        {
-          "paiva": "Maanantai",
-          "ruoat": [
-            "SALAMIKIUSAUS",
-            "KOOKOS-CURRYBROILER"
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "NAKKIKEITTO",
-            "JAUHELIHA-KANTTARELLIPIHVIT",
-            "KALAPUIKOT"
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "LASAGNETTE",
-            "PIPPURIPOSSUA"
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "HERNEKEITTO G,L JA PANNARI",
-            "BALILAINEN PUNA-AHVEN",
-            "MUSTAMAKKARA"
-          ]
-        },
-        {
-          "paiva": "Perjantai",
-          "ruoat": [
-            "KANAA CORDON",
-            "LOHILAATIKKO"
-          ]
-        }
-      ]
+      "paivat": []
     },
     {
       "nimi": "Gate of India",
