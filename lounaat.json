@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-01T07:57:51.799561+00:00",
+  "paivitetty": "2026-09-02T00:29:51.193047+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -159,13 +159,13 @@
             "Rapeita kanansiipiä",
             "Valkosipulihärkää",
             "Kasvismoussakaa",
-            "Paahdettua lohta & kantarellikastike #",
+            "Smash-burger",
+            "Ranskalaisia perunoita",
             "Kahden kalan keittoa",
             "Gremolata-maustettua kanaa",
             "BBQ-majoneesia",
             "Täytettyjä paprikoita",
-            "Katkarapu-caesarsalaatti",
-            "Kinkku-ananas-aurajuustopizzaa"
+            "Katkarapu-caesarsalaatti"
           ]
         },
         {
@@ -174,13 +174,13 @@
             "Butter chicken – kanaa intialaisittain",
             "Cheddar-burgereita",
             "Feta-pinaattimunakasta",
-            "Lehtipihvi ranskalaisilla",
-            "Kermaista pippurikastiketta",
+            "Paahdettua lohta & kantarellikastike #",
             "Parsakeittoa",
             "Chorizopyörykkä, Suomi",
             "Mangomajoneesia",
             "Porsaanpaisti, viipaloitu",
-            "Caesar-kanasalaattia"
+            "Caesar-kanasalaattia",
+            "Kinkku-ananas-aurajuustopizzaa"
           ]
         },
         {
@@ -189,8 +189,7 @@
             "Lamminpään lumous – possua mausteisessa kastikkeessa",
             "Kermaista kirjolohikeittoa",
             "Falafelpihvejä",
-            "Smash-burger",
-            "Ranskalaisia perunoita",
+            "Lehtipihvi pippurikastikkeella ja ranskalaisilla perunoilla",
             "Kana-ananas-aurajuustopizzaa",
             "Vihreää salaattia"
           ]
@@ -735,9 +734,12 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Tex Mex maustettuja kasvispyöryköitä 10kpl/annos, extra",
+            "Paahdettua perunaa *",
             "Chilimajoneesia",
-            "Paahdettua perunaa"
+            "Linssi-kasvispihvit 3 kpl/ annos ( extra) Kysy vegaanista",
+            "Paahdettua perunaa *",
+            "Chilimajoneesia",
+            "Linssi-kasvispihvit 3 kpl/ annos ( extra) Kysy vegaanista"
           ]
         },
         {
@@ -829,7 +831,60 @@
       "kategoria": 3,
       "url": "https://www.speakeasy.fi/hervanta/lounas/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "31.8.",
+            "Kanaa kermaisella sweet chili-kastikkeella, riisi",
+            "Lohipasta",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
+            "Kuningatarrahka"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "1.9.",
+            "Chorizopyörykät tomaattikastikkeessa, yrttiperunat",
+            "Täytetyt paprikat",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
+            "Munkki"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "2.9.",
+            "Kassler korealaisittain, riisi",
+            "Kebabkiusaus",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
+            "Mango-passionmousse"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "3.9.",
+            "SPEAKEASYN LOHIBUFFET (",
+            "Uunilohi jogurttikastikkeella, pariisinperunat",
+            "Porsaanleike mangomajoneesilla, ranskalaiset",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
+            "Pannari mansikkahillolla ja kermavaahdolla"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "4.9.",
+            "SPEAKEASYN TORTILLABUFFET",
+            "Tortilloja liha-, kana- ja kasvistäytteillä",
+            "Maalaisranskalaisia ja paneroituja sipulirenkaita",
+            "Speakeasyn original wingsejä eri kastikevahvuuksilla",
+            "Mangolassi"
+          ]
+        }
+      ]
     }
   ]
 }
