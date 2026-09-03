@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-03T04:56:05.318176+00:00",
+  "paivitetty": "2026-09-03T07:21:39.445753+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -174,11 +174,11 @@
             "Butter chicken – kanaa intialaisittain",
             "Cheddar-burgereita",
             "Feta-pinaattimunakasta",
-            "Paahdettua lohta & kantarellikastike #",
+            "Paahdettua lohta & kantarellikastike",
             "Parsakeittoa",
-            "Chorizopyörykkä, Suomi",
+            "Chorizopyörykkä",
             "Mangomajoneesia",
-            "Porsaanpaisti, viipaloitu",
+            "Porsaanpaisti",
             "Caesar-kanasalaattia",
             "Kinkku-ananas-aurajuustopizzaa"
           ]
@@ -254,8 +254,12 @@
             "Stroganoff artesaanimakkarasta",
             "Paahdettua perunaa",
             "Paahdetut satokauden kasvikset",
-            "Kasvis-nuudeliwokkia marinoiduilla soijasuikaleilla",
-            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa <3"
+            "Kasvis-nuudeliwokkia seitanilla",
+            "Jälkiruoaksi: pannukakkua, kermavaahtoa ja hilloa <3",
+            "Proteiinilisukkeet punnittavaan salaattiin",
+            "-Sinihomejuustoa",
+            "-Paahdettua halloumia",
+            "-Broileria (linjasta)"
           ]
         },
         {
@@ -304,8 +308,8 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kalkkunaleikettä Cordon Bleu, paahdettua tomaattimajoneesia, kermaperunoita, basilikaöljyllä maustettuja herneitä / Härkis-nuudeliwokkia, soija-seesamkastiketta",
-            "Kanacaesar hunajamelonilla ja rapeilla itsetehdyillä krutongeilla"
+            "Porsaanleikettä Cordon Bleu, tomaattimajoneesia M, G, kermaperunoitaL, G, lämpimiä kasviksia M, G / Härkis-nuudeliwokkia soija-seesamkastikkeessa",
+            "Kanacaesar rapeilla itsetehdyillä krutongeilla"
           ]
         },
         {
@@ -352,7 +356,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Maalaisranskalaista porsaanposkea, perunamuusia / Mantelikalaa, fenkoli-hernesalaattia / Vihannes-jalfrezia, kurkumariisiä",
+            "Maalaisranskalaista porsaanposkea L,G, perunamuusia L,G / Mantelikalaa L, paahdettua porkkanaa ja kesäkurpitsaa M,G / Vihannes-jalfrezia M,G, kurkumariisiä",
             "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nacho sipsejä pico de callo & ranskankermaa",
             "Kukkakaali-parsakaalisosekeittoa ja salaattibuffet"
           ]
@@ -570,8 +574,9 @@
           "paiva": "Torstai",
           "ruoat": [
             "Havaijin leikettä",
+            "– ranch majoneesia",
             "Tofu Palak paneer",
-            "– riisiä & parmesaani perunoita",
+            "– riisiä M, G, VEG & parmesaani perunoita",
             "Keitto: Kermainen kukkakaalikeitto",
             "Chef: Cajun paahdettua lohta & sitruuna risonia"
           ]
@@ -754,7 +759,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Halloumia mausteisessa tomaatti-jogurttikastikkeessa - Shahi Paneer",
+            "Halloumia mausteisessa tomaatti-jogurttikastikkeessa - Shahi Paneer (vegaaninen vaihtoehto linssipata)",
             "Tummaa riisiä"
           ]
         },
