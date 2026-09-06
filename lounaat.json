@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-06T05:00:52.557706+00:00",
+  "paivitetty": "2026-09-06T07:17:13.965988+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -56,65 +56,67 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Parmesan broileria (suomalaista broileria)",
-            "Jauheliha-kaalikääryleitä & puolukkahillo (suomalaista possua ja nautaa)",
-            "Perunamuusia",
+            "Mausteinen curry-kana (suomalaista broileria)",
+            "Porsaan kassler viherpippuri-kermakastikkeessa (Suomalaista possua)",
+            "Yrttiperunaa",
+            "Riisiä",
             "Salaattibuffet",
-            "Paprikaburger Halloumisalaatti (annosruoka ei sis. buffettiin)"
+            "Halloum burger ja Yrttibroileri poke (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Possun sisäfileetä hunaja-sinappikastikkeessa (suomalaista possua)",
-            "Kanaa bearnaisekastikkeessa (suomalaista broileria)",
-            "Yrttiperunaa",
-            "Riisiä",
+            "Kievinkanaa (suomalaista broileria)",
+            "Kolmen sipulin kermaviilikastike",
+            "Syksyinen liharuukku (suomalaista possua ja nautaa)",
+            "Perunamuusia",
             "Salaattibuffet",
-            "Yrttibroileriburger Vuohenjuusto poke -kulho (annosruoka ei sis. buffettiin)"
+            "Paneroitu broileri burger ja Vuohenjuusto salaatti (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Jauhelihapihvit talon pippuri-kermakastikkeessa",
-            "(suomalaista nautaa ja possua)",
-            "Paneroitua kampelaa pinaatti-fetatäytteellä",
-            "Remoulade -kastiketta",
-            "Perunamuussia",
-            "Salaattibuffet"
+            "Karamellisoitua ylikypsää possua (suomalaista possua)",
+            "Paahdetut wingsit (suomalaista broileria)",
+            "Buffalo-dippi",
+            "Lohkoperunaa",
+            "Salaattibuffet",
+            "Tofu burger Juusto burger (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Paneroitua porsaanleikettä (suomalaista possua)",
-            "Rosmariinilla maustettua kermaviili-majoneesikastiketta",
-            "Caffitellan Chorizopyöryköitä (suomalaista nautaa ja possua)",
-            "Pariisinperunoita",
+            "Jauhelihamureke pippurikastikeessa (suomalaista nautaa ja possua) i",
+            "Paneroitua kampelaa",
+            "Välimeren kermaviilikastiketta",
+            "Juustoinen perunapaistos",
             "Salaattibuffet",
-            "Tofusalaatti Paneroitu broileri poke -kulho (annosruoka ei sis. buffettiin)"
+            "Broilerisalaatti Halloum poke (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Caffitellan jauhelihalasagnea (suomalaista nautaa ja possua)",
-            "Broileria & kasviksia (suomalaista broileria)",
-            "Riisiä",
+            "Paneroitua broileria (suomalaista broileria)",
+            "Currymajoneesi",
+            "Juustoinen uunimakkara",
+            "Perunamuusia",
             "Salaattibuffet",
-            "Kanaburger (annosruoka ei sis. buffettiin)"
+            "Smash burger (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Lauantai",
           "ruoat": [
-            "Lihamureketta kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Savulohikiusausta (suomalaista kirjolohta)",
-            "Paahdettua perunaa",
+            "Jauhelihapyörykät ruskeassa kermakastikkeessa",
+            "(suomalaista nautaa ja possua)",
+            "Crispy chicken nuggets (suomalaista broileria)",
+            "Kermaperunaa",
             "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa",
-            "VKO 36"
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Savela, Muurame, Vaajakoski, Laukaa"
           ]
         }
       ]
