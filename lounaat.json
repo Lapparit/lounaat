@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-09T05:05:28.436701+00:00",
+  "paivitetty": "2026-09-09T07:33:18.548291+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -246,9 +246,9 @@
             "Juustoinen chili-tomaattikeitto",
             "Lamminpään lumous – possua mausteisessa kastikkeessa",
             "Tonnikala-tortillavuoka",
-            "Paahdetut yrttiperunat",
+            "Riisi",
             "Paahdetut satokauden kasvikset",
-            "Chili con Härkis"
+            "Härkis pata"
           ]
         },
         {
@@ -299,8 +299,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Libanonilaista kanaa, garam masala-tofua, couscousia ja ras el hanout porkkanoita / Paistettua munakoisoa ja paprikaa, jasmineriisiä",
-            "Lohikeittoa"
+            "Libanonilaista kanaa L, G, garam masala-tofua M, G, couscousia ja ras el hanout porkkanoita, lämpimiä kasviksia M, G, riisiä",
+            "Kermaista lohikeittoa L, G, maalahdenlimppua ja voita"
           ]
         },
         {
@@ -346,9 +346,9 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Kalkkunan paistileikkeitä sinappi-kermakastikkeessa / Kylmäsavulohipiirakkaa, mummon kurkkuja ja päärynä-rucolasalaattia / Soija-caponata ja pilahviriisiä",
-            "KOREAN HODARIT! Bulgoginautaa, sataykanaa, hoisinkauraa, gochujangmajoneesia, kevätsipulia ja korianteria, thai-kurkkusalaattia, pikkelöityä vihannessalaattia, paistettua riisiä ja kananmunaa",
-            "Mustajuurisosekeittoa ja salaattibuffet"
+            "Kalkkunan paistileikkeitä sinappi-kermakastikkeessa L,G / Kylmäsavulohipiirakkaa L ja päärynä-rucolasalaattia M,G / Soija-caponata M,G ja pilahviriisiä",
+            "KOREAN HODARIT! Bulgoginautaa, sataykanaa, hoisinkauraa, gochujangmajoneesia, thai-kurkkusalaattia, pikkelöityä vihannessalaattia, paistettua riisiä ja kananmunaa",
+            "Mustajuurisosekeittoa L,G ja salaattibuffet"
           ]
         },
         {
@@ -562,10 +562,12 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Teriyaki possua",
-            "Paneroitua broilerin sisäfilettä",
-            "– juures- perunamuusia",
+            "Paneroitua broilerin sisäfilettä M, G & valkosipulidippi L",
+            "– juures- perunamuusia L",
             "Keitto: Mausteinen kurpitsakeitto",
-            "Chef: Nochicken kasvispata & riisiä"
+            "Chef: Nochicken kasvispata & riisiä",
+            "Jälkiruoaksi suklaavanukasta",
+            "M, VEG piirakkaa keittiöstä"
           ]
         },
         {
@@ -698,6 +700,7 @@
             "Rapeaa kalaa",
             "– smetanainen perunamuusi L,G ja kylmä kalastajan kastike",
             "Orvokin oma: Voissa paistetut metsäsieniletut",
+            "– hunajaiset uunijuurekset",
             "– puolukkahilloa",
             "Vihreä kesäkurpitsakeitto",
             "Kahvin kanssa toivejälkiruokana lakritsirahkaa"
