@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-09T07:33:18.548291+00:00",
+  "paivitetty": "2026-09-10T00:33:16.217723+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -254,11 +254,15 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Perinteistä hernekeittoa palvikinkulla",
-            "Uunilohta ja sitruuna-smetanakastiketta",
+            "-Perinteistä hernekeittoa palvikinkulla",
+            "-Uunilohta ja sitruuna-smetanakastiketta",
             "Perinteinen perunamuusi",
             "Paahdetut satokauden kasvikset",
-            "Kasvislasagne punaisella pestolla maustettuna"
+            "-Kasvislasagne punaisella pestolla maustettuna L, sis pähkinää",
+            "*Proteiinilisäkkeet punnittavaan salaattiin",
+            "-Keitettyä kananmunaa",
+            "-Valkosipuli-teriyakitofua",
+            "-Paahdettua halloumia"
           ]
         },
         {
