@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-11T05:06:10.659607+00:00",
+  "paivitetty": "2026-09-11T07:27:29.749506+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -318,7 +318,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Wienerleikkeitä ja kermaperunoita, pippurikastiketta sekä paistettuja kasviksia, falafel pyöryköitä ja tomaattikastiketta, pulled pork burgeria"
+            "Wienerleikkeitä ja kermaperunoita, pippurikastiketta sekä paistettuja kasviksia, falafel pyöryköitä tomaattikastikkeessa, pulled pork burgeria ja ranskalaisia"
           ]
         }
       ]
@@ -367,9 +367,9 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Shawarma-broileria, lavashleipää, harissa coleslawta ja minttujogurttia sekä chilimifua / Sitruunaruoholla maustettua turskaa, kookos-chiliriisiä ja limemarinoituja kasviksia / Uunifetapastaa ja aurinkokuivattutomaatti-rucolasalaattia",
-            "Maalaissalaattia grillatulla kanalla tai vuohenjuustolla",
-            "Pizza mexicana / Pizza artisokalla ja oliiveilla, Meiltä myös gluteenitonta pizzaa!",
+            "Shawarma-broileria M,G, tortillalettuja M, harissa coleslawta M,G ja minttujogurttia L,G sekä chilimifua L,G / Smetanaseitä L,G, chiliriisiä M,G ja limemarinoituja kasviksia M,G / Uunifetapastaa L ja aurinkokuivattutomaatti-rucolasalaattia",
+            "Maalaissalaattia grillatulla kanalla M,G tai vuohenjuustolla",
+            "Jauheliha-ananas-jalapenopizzaa / Zukkini-mozzarella-paprikapizzaa, Meiltä myös gluteenitonta pizzaa!",
             "Inkivääriporkkanasosekeittoa"
           ]
         }
@@ -773,7 +773,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "BBQ maustettua Unlimited® jauhismuru pastaa"
+            "BBQ maustettua Unlimited® jauhismuru pastaa (gluteeniton ja vegaaninen Unlimited® jauhismurukastike saatavilla)"
           ]
         }
       ]
