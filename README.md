@@ -114,7 +114,7 @@ Tila tarkistettu 13.9.2026 GitHub Actions -lokeista ja tallennetusta datasta:
 
 | Ravintola | Tila | Lähde |
 |-----------|------|-------|
-| Aito kotilounas Sääksjärvi | ⚠️ PDF-lista, sivun rakenne muuttui 9/2026 — tarkista | Oma sivu (PDF) |
+| Aito kotilounas Sääksjärvi | ✅ Toimii (HTML-lista, PDF varalla) | Oma sivu |
 | Caffitella | ✅ Toimii | Oma sivu |
 | Farmi (Antell) | ✅ Toimii | Antell |
 | Fastelle | ✅ Toimii | Linkosuo |
@@ -126,7 +126,7 @@ Tila tarkistettu 13.9.2026 GitHub Actions -lokeista ja tallennetusta datasta:
 | Hertta | ✅ Toimii | Linkosuo |
 | Kontukeittiö | ✅ Toimii arkisin (viikonloppuna lounaat.info ei vielä näytä uutta viikkoa) | Lounaat.info |
 | Orvokki | ✅ Toimii | Linkosuo |
-| Reaktori | ⚠️ Vain kasvis-/vegaanilinja löytyy | Compass Group |
+| Reaktori | ✅ Toimii (sivun upotettu JSON) | Compass Group |
 | Sisu | ✅ Toimii arkisin (viikonloppuna lounaat.info ei vielä näytä uutta viikkoa) | Lounaat.info |
 | Speakeasy | ✅ Toimii | Oma sivu |
 | Gate of India | 🔗 Vain linkki | — |
