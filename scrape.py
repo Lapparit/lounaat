@@ -14,6 +14,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -161,6 +162,13 @@ def siivoa_ruoka(rivi: str) -> str | None:
     if not s:
         return None
 
+    # 0) Pudota allergeeniselitteet ("G=gluteeniton", "L = laktoositon",
+    #    "VEG = vegaaninen") ja saatavuusinfot ("SAA M, G, VEG keittiöstä").
+    if re.match(r"^[A-Za-zÄÖäö]{1,4}\s*=", s):
+        return None
+    if re.match(r"^(saa|saatavana|saatavilla)\b", s, flags=re.I):
+        return None
+
     # 1) Poista hinnat: "á 2,30 €", "8,90e", "1,50€/kpl", "12,20€", "10€"
     # Numero (mahdollisella desimaalilla) + e/E/€ + mahdollinen suffiksi.
     # Lookahead varmistaa että €/e on oikea hintamerkki (ei osa sanaa).
@@ -216,14 +224,26 @@ def siivoa_ruoka(rivi: str) -> str | None:
     #   "l g k", "M G"                         ← välilyönnillä erotettu, lyhyet
     #   "L KASVIS", "Riisi Veg"                ← yksi koodi lopussa
 
-    # 4a) Pilkulla erotetut: vähintään 2 lyhyttä "sanaa" (1-6 merkkiä)
-    # Sallitaan 6 merkkiä koska KASVIS on 6 ja vegaani 7 — tämä riskeeraa
-    # syödä oikeita sanoja jos rivi päättyy esim. "Salaatti, kurkku"
-    s = re.sub(
-        r"\s+[A-Za-zÄÖäö]{1,7}(?:\s*,\s*[A-Za-zÄÖäö]{1,7}){1,}\s*$",
-        "",
-        s,
-    )
+    # Roikkuva välimerkki pois ennen loppukoodien tunnistusta, jotta
+    # "broileri L," käsitellään samoin kuin "broileri L" (idempotenssi).
+    s = s.strip().rstrip(",;:-").strip()
+
+    def on_allergeenikoodi(sana: str) -> bool:
+        """Onko sana allergeenikoodi (L, G, VL, VEG, Kasvis...) eikä ruokasana?"""
+        w = sana.strip().rstrip(".")
+        if not w:
+            return False
+        if w.lower() in ALLERGEENISANAT:
+            return True
+        # Lyhyt isokirjaiminen koodi: "L", "G", "VL", "VEG", "SAA"
+        return len(w) <= 4 and w.isalpha() and w.isupper()
+
+    # 4a) Pilkulla erotetut: vähintään 2 koodia, esim. "M, G", "L, G, M",
+    #     "A, G, L, M, Veg". Poistetaan VAIN jos jokainen osa on tunnettu
+    #     allergeenikoodi — muuten "kasviksia M, G, riisiä" menettäisi riisin.
+    m = re.search(r"\s+([A-Za-zÄÖäö]{1,7}(?:\s*,\s*[A-Za-zÄÖäö]{1,7}){1,})\s*$", s)
+    if m and all(on_allergeenikoodi(o) for o in m.group(1).split(",")):
+        s = s[:m.start()]
     # 4b) Välilyönnillä erotetut LYHYET (1-3 merkkiä), vähintään 2 peräkkäin
     #     Esim. "l g k", "M G", "A, L M G" (loppupätkä)
     s = re.sub(
@@ -239,6 +259,9 @@ def siivoa_ruoka(rivi: str) -> str | None:
     # Siisti välilyönnit
     s = re.sub(r"\s+", " ", s).strip()
     s = s.rstrip(",;:-")  # Joskus jää roikkumaan välimerkki
+    # Rivinvaihdon takia katkennut sulku: "SPEAKEASYN LOHIBUFFET (" → ilman sulkua
+    s = re.sub(r"\s*[(\[]\s*$", "", s)
+    s = re.sub(r"^\s*[)\]]\s*", "", s)
 
     if not s or len(s) < 4:
         return None
@@ -293,7 +316,9 @@ def scrape_speakeasy() -> list[dict]:
             rivit = [r.strip() for r in pala.split("\n") if r.strip()]
             ruoat = []
             for rivi in rivit:
-                if rivi.startswith("L =") or rivi == "Texas Pete Burger":
+                # Allergeeniselite ("L = laktoositon", "G=gluteeniton")
+                # tai à la carte -osio päättää päivän listan
+                if re.match(r"^[A-Za-zÄÖäö]{1,4}\s*=", rivi) or rivi == "Texas Pete Burger":
                     break
                 if len(rivi) < 4:
                     continue
@@ -330,17 +355,33 @@ def _scrape_lounaat_info_yleinen(url: str) -> list[dict]:
         ruoat = []
         for li in ul.find_all("li"):
             t = siivoa(li.get_text(" "))
-            if "katso päivän lounaslista" in t.lower():
-                continue
-            if t.lower().startswith("lounas kello"):
-                continue
-            if "alkaen lounaan hinta" in t.lower():
+            tl = t.lower()
+            if any(k in tl for k in LOUNAAT_INFO_OHITA):
                 continue
             if t and len(t) > 2:
                 ruoat.append(t)
         if ruoat:
             paivat.append({"paiva": otsikko, "ruoat": ruoat})
+
+    # Jos jokaisella päivällä on täsmälleen sama sisältö, kyse on ravintolan
+    # yleistekstistä (esim. Sisu viikonloppuna ennen uuden listan julkaisua),
+    # ei oikeasta ruokalistasta.
+    if len(paivat) > 1 and len({tuple(p["ruoat"]) for p in paivat}) == 1:
+        print("  [lounaat.info] Sama teksti joka päivälle — ei vielä listaa")
+        return []
     return paivat
+
+
+# Lounaat.info-rivit jotka eivät ole ruokia (ravintolan yleistekstiä)
+LOUNAAT_INFO_OHITA = (
+    "katso päivän lounaslista",
+    "lounas kello",
+    "alkaen lounaan hinta",
+    "buffetin hinta",
+    "jälkkäriksi",
+    "pyrimme valmistamaan",
+    "tervetuloa",
+)
 
 
 def scrape_reaktori() -> list[dict]:
@@ -862,8 +903,27 @@ def scrape_aito_kotilounas() -> list[dict]:
             continue
 
     if not pdf_url:
-        print("  [Aito] PDF-URL ei löytynyt HTML:stä")
+        # Varasuunnitelma 1: linkki, iframe, embed tai object joka viittaa PDF:ään
+        for tag in soup.find_all(["a", "iframe", "embed", "object"]):
+            viite = tag.get("href") or tag.get("src") or tag.get("data") or ""
+            if ".pdf" in viite.lower():
+                pdf_url = viite
+                break
+
+    if not pdf_url:
+        # Varasuunnitelma 2: mikä tahansa .pdf-osoite sivun lähdekoodissa
+        # (myös JSON-koodattu muoto "https:\/\/...")
+        m = re.search(r"https?://[^\s\"'<>]+?\.pdf", html.replace("\\/", "/"), re.I)
+        if m:
+            pdf_url = m.group(0)
+
+    if not pdf_url:
+        print("  [Aito] PDF-URL ei löytynyt HTML:stä — sivun rakenne on "
+              "muuttunut, tarkista https://www.aitokotilounas.fi/lounaslista/")
         return []
+
+    # Suhteellinen osoite → absoluuttinen
+    pdf_url = urljoin(url, pdf_url)
 
     print(f"  [Aito] PDF: {pdf_url}")
 
@@ -921,6 +981,11 @@ def _parsi_aito_pdf_teksti(teksti: str) -> list[dict]:
     paivat_dict: dict[str, list[str]] = {}
     nykyinen_vasen: str | None = None
     nykyinen_oikea: str | None = None
+    # pypdf tulostaa 2-sarakkeisen PDF:n niin, että vasemman sarakkeen päivän
+    # kaikki rivit tulevat ensin ja oikean sarakkeen päivän rivit sen jälkeen.
+    # Päivän viimeinen rivi on aina "Keittiöstä: ..." — sen jälkeen siirrytään
+    # oikeaan sarakkeeseen.
+    sarake_oikea = False
 
     # Rivit jotka eivät ole ruokia (header/footer)
     def on_otsikko_tai_footer(rivi: str) -> bool:
@@ -966,6 +1031,7 @@ def _parsi_aito_pdf_teksti(teksti: str) -> list[dict]:
 
         if loydot:
             # Otsikkorivi
+            sarake_oikea = False
             nykyinen_vasen = NIMET_NORM[loydot[0][1]]
             paivat_dict.setdefault(nykyinen_vasen, [])
             if len(loydot) >= 2:
@@ -999,14 +1065,22 @@ def _parsi_aito_pdf_teksti(teksti: str) -> list[dict]:
                             rivi.lower().startswith("keittiöstä") or
                             (rivi[0].isupper() if rivi else False))
 
-        if on_jatkorivi and paivat_dict[nykyinen_vasen]:
-            # Yhdistä edelliseen
-            paivat_dict[nykyinen_vasen][-1] += " " + rivi
+        # Kumman sarakkeen päivälle rivi kuuluu?
+        kohde = nykyinen_oikea if (sarake_oikea and nykyinen_oikea) else nykyinen_vasen
+
+        if on_jatkorivi:
+            # Yhdistä edelliseen riviin (jos oikea sarake on vielä tyhjä,
+            # jatkorivi kuuluu vasemman sarakkeen viimeiseen riviin)
+            jatko_kohde = kohde if paivat_dict[kohde] else nykyinen_vasen
+            if paivat_dict[jatko_kohde]:
+                paivat_dict[jatko_kohde][-1] += " " + rivi
         else:
             # Poista bullet ja whitespace alusta
             puhdas = _re.sub(r"^[•\-\*]\s*", "", rivi)
             if puhdas:
-                paivat_dict[nykyinen_vasen].append(puhdas)
+                paivat_dict[kohde].append(puhdas)
+                if puhdas.lower().startswith("keittiöstä") and nykyinen_oikea:
+                    sarake_oikea = True
 
     # Muunna ma-pe-järjestykseen
     JARJESTYS = ["Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai"]
@@ -1045,21 +1119,32 @@ def scrape_caffitella() -> list[dict]:
         if not teksti or len(teksti) > 200:
             continue
         on_paiva = False
+        valmis = False
         for paiva in paivat_nimet:
             if teksti.lower().startswith(paiva.lower()) and len(teksti) < 30:
+                on_paiva = True
                 if paiva.lower() in nahdyt_paivat:
-                    continue
+                    # Sama päivä toistuu. Jos välissä ei ole ruokia, kyse on
+                    # sisäkkäisestä elementistä (div > p) → ohitetaan. Jos
+                    # ruokia on jo kerätty, lista on päättynyt ja sivun
+                    # alaosa (aukioloajat "MAANANTAI ...") alkaa → lopetetaan.
+                    if nykyiset_ruoat:
+                        valmis = True
+                    break
                 nahdyt_paivat.add(paiva.lower())
                 if nykyinen_paiva and nykyiset_ruoat:
                     paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat[:6]})
                 nykyinen_paiva = teksti
                 nykyiset_ruoat = []
-                on_paiva = True
                 break
+        if valmis:
+            break
         if on_paiva:
             continue
         if nykyinen_paiva and 5 < len(teksti) < 150:
-            ohita = ["lounaslista", "tilaa", "leipomo", "vapun", "ole hyvä"]
+            ohita = ["lounaslista", "tilaa", "leipomo", "vapun", "ole hyvä",
+                     # Sivun alaosan toimipaikkalista
+                     "prisma", "äänekoski", "keljo", "vaajakoski", "muurame"]
             if any(o in teksti.lower() for o in ohita):
                 continue
             if teksti not in nykyiset_ruoat:
@@ -1125,14 +1210,6 @@ RAVINTOLAT = [
         "kategoria": 1,
         "url": "https://munkkimiehet.fi/kuluttajille/",
         "scraper": lambda: scrape_munkkimiehet(),
-    },
-    {
-        "nimi": "Ravintola Idaho",
-        "alue": "Sääksjärvi",
-        "kategoria": 1,
-        "url": "https://www.facebook.com/people/Ravintola-Idaho-Oy/100070629319742/",
-        "scraper": None,
-        "huom": "Lounaslista löytyy Facebookista",
     },
     {
         "nimi": "Ravintola Osku",

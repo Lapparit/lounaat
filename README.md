@@ -110,27 +110,28 @@ Tämä on melko todennäköistä — jokainen ravintolasivu on erilainen ja niid
 
 ## Tämän hetkinen tila ravintoloittain
 
-Kaikki on parhaan arvioni mukaan, mutta ensimmäisen ajon jälkeen pitää tarkistaa jotka oikeasti toimivat:
+Tila tarkistettu 13.9.2026 GitHub Actions -lokeista ja tallennetusta datasta:
 
 | Ravintola | Tila | Lähde |
 |-----------|------|-------|
-| Sisu Buffet | ✅ Pitäisi toimia | Lounaat.info |
-| Speakeasy | ✅ Pitäisi toimia | Oma sivu |
-| Reaktori (FoodCo) | ✅ Pitäisi toimia | Oma sivu |
-| Hertta | ✅ Pitäisi toimia | Linkosuo |
-| Orvokki | ✅ Pitäisi toimia | Linkosuo |
-| Fastelle | ✅ Pitäisi toimia | Linkosuo |
-| Hermia 5 | ✅ Pitäisi toimia | Sodexo JSON |
-| Hermia 6 | ⚠️ ID tarkistettava | Sodexo JSON |
-| Hermianfarmi (Antell) | ⚠️ Yleisscraperi | Antell |
-| Munkkimiehet | ⚠️ Yleisscraperi | Oma sivu |
-| Ruskonhelmi | ⚠️ Yleisscraperi | Oma sivu |
-| Ravintola Osku | ⚠️ Yleisscraperi | Oma sivu |
-| Aitokoti | ⚠️ Yleisscraperi | Oma sivu |
-| Caffitella | ⚠️ Yleisscraperi | Oma sivu |
-| Kontukeittiö | ⚠️ Yleisscraperi | Oma sivu |
-| Idaho | 🔗 Vain linkki | Facebook |
-| Malabadi | 🔗 Vain linkki | — |
+| Aito kotilounas Sääksjärvi | ⚠️ PDF-lista, sivun rakenne muuttui 9/2026 — tarkista | Oma sivu (PDF) |
+| Caffitella | ✅ Toimii | Oma sivu |
+| Farmi (Antell) | ✅ Toimii | Antell |
+| Fastelle | ✅ Toimii | Linkosuo |
+| Hermia 5 | ✅ Toimii | Sodexo JSON |
+| Hermia 6 | ✅ Toimii | Sodexo JSON |
+| Munkkimiehet | ✅ Toimii (OCR kuvasta) | Oma sivu |
+| Ravintola Osku | ✅ Toimii | Oma sivu |
+| Ruskon Helmi | ✅ Toimii | Oma sivu |
+| Hertta | ✅ Toimii | Linkosuo |
+| Kontukeittiö | ✅ Toimii arkisin (viikonloppuna lounaat.info ei vielä näytä uutta viikkoa) | Lounaat.info |
+| Orvokki | ✅ Toimii | Linkosuo |
+| Reaktori | ⚠️ Vain kasvis-/vegaanilinja löytyy | Compass Group |
+| Sisu | ✅ Toimii arkisin (viikonloppuna lounaat.info ei vielä näytä uutta viikkoa) | Lounaat.info |
+| Speakeasy | ✅ Toimii | Oma sivu |
 | Gate of India | 🔗 Vain linkki | — |
+| Heval | 🔗 Vain linkki | — |
+| Malabadi | 🔗 Vain linkki | — |
+| Malakai | 🔗 Vain linkki | — |
 
 ⚠️ = scrapaus saattaa tuottaa hassuja tuloksia, korjattava sen mukaan miltä lopputulos näyttää
