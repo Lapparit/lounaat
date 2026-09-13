@@ -16,6 +16,8 @@ on:
 
 permissions:
   contents: write
+  # Laatutarkistus avaa ja sulkee issueita rikkinäisistä scrapereista
+  issues: write
 
 jobs:
   paivita:
@@ -37,8 +39,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Tarkista että koodi toimii
+        run: python -m unittest test_scrape -v
+
       - name: Aja scraperit
         run: python scrape.py
+
+      # Jos data on rakenteeltaan rikki, ajo pysähtyy tähän eikä
+      # kelvotonta lounaat.jsonia committoida — sivustolle jää edellinen.
+      - name: Tarkista tuotettu data
+        run: python tarkista_data.py
 
       - name: Tallenna muutokset
         run: |
@@ -48,3 +58,12 @@ jobs:
           # Commit vain jos jotain muuttui
           git diff --staged --quiet || git commit -m "Päivitä lounaat $(date -u +%Y-%m-%d)"
           git push
+
+      # Avaa issuen ravintolasta joka on ollut rikki yli kaksi vuorokautta,
+      # ja sulkee issuen kun lista taas toimii. Ei koskaan kaada ajoa.
+      - name: Ilmoita rikkinäisistä scrapereista
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/issuet.py

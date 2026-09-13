@@ -1,0 +1,39 @@
+name: Testit
+
+# Ajetaan jokaisesta muutoksesta: pull requestit ja pushit main-haaraan.
+# Näin rikkinäinen muutos ei pääse sivustolle asti.
+on:
+  # Yöajon data-commitit tarkistetaan jo Päivitä lounaat -workflow'ssa,
+  # joten pelkkä lounaat.jsonin muutos ei käynnistä testejä uudelleen.
+  pull_request:
+    paths-ignore: ["lounaat.json"]
+  push:
+    branches: [main]
+    paths-ignore: ["lounaat.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  testit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hae repo
+        uses: actions/checkout@v4
+
+      - name: Asenna Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Asenna riippuvuudet
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Yksikkötestit
+        run: python -m unittest test_scrape -v
+
+      - name: Tarkista että lounaat.json on kelvollinen
+        run: python tarkista_data.py
