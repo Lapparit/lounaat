@@ -45,6 +45,11 @@ jobs:
       - name: Aja scraperit
         run: python scrape.py
 
+      # Jos data on rakenteeltaan rikki, ajo pysähtyy tähän eikä
+      # kelvotonta lounaat.jsonia committoida — sivustolle jää edellinen.
+      - name: Tarkista tuotettu data
+        run: python tarkista_data.py
+
       - name: Tallenna muutokset
         run: |
           git config user.name "github-actions[bot]"

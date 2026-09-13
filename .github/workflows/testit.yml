@@ -3,9 +3,13 @@ name: Testit
 # Ajetaan jokaisesta muutoksesta: pull requestit ja pushit main-haaraan.
 # Näin rikkinäinen muutos ei pääse sivustolle asti.
 on:
+  # Yöajon data-commitit tarkistetaan jo Päivitä lounaat -workflow'ssa,
+  # joten pelkkä lounaat.jsonin muutos ei käynnistä testejä uudelleen.
   pull_request:
+    paths-ignore: ["lounaat.json"]
   push:
     branches: [main]
+    paths-ignore: ["lounaat.json"]
   workflow_dispatch:
 
 permissions:
