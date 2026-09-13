@@ -5,6 +5,7 @@ Ajo: python -m unittest -v test_scrape
 Testit eivät tee verkkoyhteyksiä — HTML/PDF-tekstit on upotettu tähän.
 """
 import json
+import sys
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -13,6 +14,9 @@ from unittest import mock
 import laatu
 import scrape
 import tarkista_data
+
+sys.path.insert(0, str(Path(__file__).parent / ".github" / "scripts"))
+import issuet  # noqa: E402
 
 
 class SiivoaRuoka(unittest.TestCase):
@@ -355,6 +359,55 @@ class Osastot(unittest.TestCase):
         self.assertEqual(f("So Good."), "So Good")
         self.assertEqual(f("Pop Up Grill lounasannos 10:30 - 13:30 (Break Cafe)"), "Pop Up Grill")
         self.assertEqual(f("So Fresh. (Salaattilounaan proteiini) (Linjastot 3-4)"), "Salaattilounaan proteiini")
+
+
+class Tietoturva(unittest.TestCase):
+    def test_sama_sivusto(self):
+        f = scrape.sama_sivusto
+        self.assertTrue(f("https://munkkimiehet.fi/kuva.png", "munkkimiehet.fi"))
+        self.assertTrue(f("https://www.munkkimiehet.fi/kuva.png", "munkkimiehet.fi"))
+        # Huijausyritykset: oikea domain vain osana toista nimeä tai polkua
+        self.assertFalse(f("https://munkkimiehet.fi.paha.example/x.png", "munkkimiehet.fi"))
+        self.assertFalse(f("https://paha.example/munkkimiehet.fi/x.png", "munkkimiehet.fi"))
+        self.assertFalse(f("https://eimunkkimiehet.fi/x.png", "munkkimiehet.fi"))
+        self.assertFalse(f("ei-osoite", "munkkimiehet.fi"))
+
+    def test_hae_tavut_hylkaa_muut_kuin_verkko_osoitteet(self):
+        for url in ("javascript:alert(1)", "file:///etc/passwd", "data:text/html,x", ""):
+            self.assertIsNone(scrape.hae_tavut(url), url)
+
+    def test_hae_tavut_hylkaa_vaaran_sivuston(self):
+        # Ei verkkopyyntöä: tarkistus tehdään ennen latausta
+        with mock.patch.object(scrape.requests, "get",
+                               side_effect=AssertionError("ei saa hakea")):
+            self.assertIsNone(scrape.hae_tavut("https://paha.example/x.pdf",
+                                               sallittu_domain="aitokotilounas.fi"))
+
+    def test_latausraja_on_asetettu(self):
+        self.assertLessEqual(scrape.MAKS_LATAUS_TAVUA, 20 * 1024 * 1024)
+
+    def test_issuen_teksti_siivotaan(self):
+        siivoa = issuet.siivoa_teksti
+        self.assertEqual(siivoa("rivi: <b>paha</b> [linkki](http://paha.example)"),
+                         "rivi: bpaha/b linkki([linkki poistettu]")
+        self.assertEqual(siivoa("rivi\nkahdella\nrivillä"), "rivi kahdella rivillä")
+        self.assertTrue(siivoa("x" * 500).endswith("…"))
+        self.assertLessEqual(len(siivoa("x" * 500)), 201)
+
+    def test_issuen_runko_ei_paasta_javascript_osoitetta(self):
+        runko = issuet.runko({"nimi": "X", "url": "javascript:alert(1)",
+                              "ongelmat": ["ei löytynyt yhtään päivää"],
+                              "tunteja_rikki": 72, "vanhentunut": False})
+        self.assertNotIn("javascript:", runko)
+        self.assertIn("(osoite puuttuu)", runko)
+
+    def test_sivun_skriptit_ovat_omassa_tiedostossa(self):
+        html = Path("index.html").read_text(encoding="utf-8")
+        # Sivun sisään kirjoitettu JavaScript estäisi tiukan CSP:n
+        self.assertNotIn("<script>", html)
+        self.assertIn('<script src="app.js">', html)
+        self.assertIn("Content-Security-Policy", html)
+        self.assertIn("script-src 'self'", html)
 
 
 class Ravintolalista(unittest.TestCase):

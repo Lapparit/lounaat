@@ -10,6 +10,7 @@ Ei kaadu koskaan: jos gh-komento epäonnistuu, virhe tulostetaan ja ajo jatkuu.
 """
 
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -50,15 +51,36 @@ def avoimet_issuet() -> dict[str, int]:
     return tulos
 
 
+def siivoa_teksti(teksti: str, maksimi: int = 200) -> str:
+    """
+    Siivoaa ravintolan sivulta peräisin olevan tekstin ennen kuin se
+    kirjoitetaan issueen.
+
+    Havaintoteksti voi sisältää pätkän ravintolan sivun sisältöä. Sitä ei saa
+    tulkita issuessa muotoiluna eikä ohjeena: linkit, kuvat, komentomerkinnät
+    ja rivinvaihdot poistetaan ja pituus rajataan.
+    """
+    t = re.sub(r"\s+", " ", str(teksti)).strip()
+    t = re.sub(r"[`<>\[\]|*_#]", "", t)      # markdown- ja HTML-merkinnät pois
+    t = re.sub(r"https?://\S+", "[linkki poistettu]", t)
+    if len(t) > maksimi:
+        t = t[:maksimi] + "…"
+    return t
+
+
 def runko(tieto: dict) -> str:
-    ongelmat = "\n".join(f"- {o}" for o in tieto["ongelmat"])
+    ongelmat = "\n".join(f"- {siivoa_teksti(o)}" for o in tieto["ongelmat"])
     tila = ("Sivustolla näytetään toistaiseksi edellisen onnistuneen ajon lista."
             if tieto["vanhentunut"] else
             "Ravintolalta ei ole aiempaa listaa näytettäväksi.")
+    nimi = siivoa_teksti(tieto["nimi"], 80)
+    url = tieto.get("url", "")
+    if not re.match(r"^https?://[^\s<>\"']+$", str(url)):
+        url = "(osoite puuttuu)"
     return f"""Automaattinen laatutarkistus havaitsi, ettei tämän ravintolan lounaslistaa saada haettua.
 
-**Ravintola:** {tieto['nimi']}
-**Lähde:** {tieto['url']}
+**Ravintola:** {nimi}
+**Lähde:** {url}
 **Rikki:** noin {tieto['tunteja_rikki']} tuntia
 
 **Havainnot**
