@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-13T16:51:00.706597+00:00",
+  "paivitetty": "2026-09-13T17:10:44.180495+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -525,14 +525,6 @@
       ]
     },
     {
-      "nimi": "Gate of India",
-      "alue": "Hervanta",
-      "kategoria": 2,
-      "url": "https://www.gateofindia.fi/",
-      "huom": "Ei lounaslistaa nettisivulla",
-      "paivat": []
-    },
-    {
       "nimi": "Hertta",
       "alue": "Hermia",
       "kategoria": 2,
@@ -599,7 +591,48 @@
       "kategoria": 2,
       "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Metsäsienikeittoa",
+            "Lindströminpihvejä kermasipulikastikkeessa",
+            "Halloumi – punajuuripihvejä ja kylmäkastiketta"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Juustoista kesäkeittoa",
+            "Broileria pestokastikkeessa",
+            "Kikherne-bataattipataa"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Lohikeittoa",
+            "Pekonista porsaanlihakastiketta",
+            "Soija-kasvispataa"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Broilerjauhelihakeittoa",
+            "Silakkapihvejä ja kylmää munakastiketta",
+            "Tuorejuustotäytteisiä pinaatti-kasvispihvejä"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Pinaattikeittoa ja kananmunia",
+            "Koskenlaskijan lihapataa",
+            "Tortilloita soija-paputäytteellä"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Malabadi",

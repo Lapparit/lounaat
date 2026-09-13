@@ -345,10 +345,67 @@ def scrape_speakeasy() -> list[dict]:
     return paivat
 
 
+# Kontukeittiön sivu (kontukoti.fi) näyttää listan Lounastaja-widgetillä.
+# Widgetin julkinen API-avain on sivun HTML:ssä (data-api-key). Luetaan se
+# sivulta ajon yhteydessä; jos ei löydy, käytetään viimeksi tunnettua.
+KONTUKEITTIO_SIVU = "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/"
+KONTUKEITTIO_API_AVAIN = "0d173806-41da-4600-ae6e-a1c7fd3e8246"
+
+
+def _lounastaja_viikko(api_avain: str) -> list[dict]:
+    """
+    Lounastaja-palvelun viikkolista (lounastaja.app/api/v1/week/<avain>/active).
+
+    Rakenne: data.week.days[] → {dayName.fi, dateString, isHidden, isClosed,
+    lunches[] → {title.fi, description.fi, allergens[]}}.
+    """
+    url = f"https://lounastaja.app/api/v1/week/{api_avain}/active?language=fi"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        print(f"  [Lounastaja] virhe: {e}")
+        return []
+    return _parsi_lounastaja(data)
+
+
+def _parsi_lounastaja(data: dict) -> list[dict]:
+    viikko = ((data or {}).get("data") or {}).get("week") or {}
+    paivat = []
+    for day in viikko.get("days", []):
+        if day.get("isHidden") or day.get("isClosed"):
+            continue
+        ruoat = []
+        for lounas in day.get("lunches", []):
+            nimi = siivoa(((lounas.get("title") or {}).get("fi") or ""))
+            kuvaus = siivoa(((lounas.get("description") or {}).get("fi") or ""))
+            if not nimi:
+                continue
+            ruoat.append(f"{nimi} – {kuvaus}" if kuvaus else nimi)
+        if ruoat:
+            # dateString ("2026-09-14") → normalisoi_paiva tunnistaa viikonpäivän
+            paivat.append({"paiva": day.get("dateString") or (day.get("dayName") or {}).get("fi", ""),
+                           "ruoat": ruoat})
+    return paivat
+
+
 def scrape_kontukeittio() -> list[dict]:
-    """Kontukeittiö Hervanta — Lounaat.infosta."""
-    url = "https://lounaat.info/lounas/konnun-keittio-hervanta/tampere"
-    return _scrape_lounaat_info_yleinen(url)
+    """
+    Kontukeittiö Hervanta — ravintolan oman sivun Lounastaja-widgetin data.
+    Varalla lounaat.info (näyttää vain kuluvan viikon).
+    """
+    api_avain = KONTUKEITTIO_API_AVAIN
+    html = hae_sivu(KONTUKEITTIO_SIVU)
+    if html:
+        m = re.search(r'data-api-key="([0-9a-f\-]{20,})"', html)
+        if m:
+            api_avain = m.group(1)
+    paivat = _lounastaja_viikko(api_avain)
+    if paivat:
+        return paivat
+    print("  [Kontukeittiö] Lounastaja ei palauttanut listaa, kokeillaan lounaat.infoa")
+    return _scrape_lounaat_info_yleinen("https://lounaat.info/lounas/konnun-keittio-hervanta/tampere")
 
 
 def _scrape_lounaat_info_yleinen(url: str) -> list[dict]:
@@ -1385,14 +1442,6 @@ RAVINTOLAT = [
 
     # ----- KATEGORIA 2 -----
     {
-        "nimi": "Gate of India",
-        "alue": "Hervanta",
-        "kategoria": 2,
-        "url": "https://www.gateofindia.fi/",
-        "scraper": None,
-        "huom": "Ei lounaslistaa nettisivulla",
-    },
-    {
         "nimi": "Hertta",
         "alue": "Hermia",
         "kategoria": 2,
@@ -1403,7 +1452,7 @@ RAVINTOLAT = [
         "nimi": "Kontukeittiö",
         "alue": "Hervanta",
         "kategoria": 2,
-        "url": "https://kontukoti.fi/kontukeittio/kontukeittio-hervanta/",
+        "url": KONTUKEITTIO_SIVU,
         "scraper": lambda: scrape_kontukeittio(),
     },
     {

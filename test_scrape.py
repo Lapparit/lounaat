@@ -183,6 +183,47 @@ class Reaktori(unittest.TestCase):
         self.assertEqual(paivat, [{"paiva": "Maanantai 14.9.2026", "ruoat": ["Makkarakastiketta (A, G)"]}])
 
 
+class Kontukeittio(unittest.TestCase):
+    DATA = {"success": True, "data": {"week": {"days": [
+        {"dayNumber": 0, "dayName": {"fi": "Sunnuntai"}, "dateString": "2026-09-20", "isHidden": True, "isClosed": True, "lunches": []},
+        {"dayNumber": 1, "dayName": {"fi": "Maanantai"}, "dateString": "2026-09-14", "isHidden": False, "isClosed": False, "lunches": [
+            {"title": {"fi": "Metsäsienikeittoa"}, "description": {"fi": ""}},
+            {"title": {"fi": "Lindströminpihvejä kermasipulikastikkeessa"}, "description": {"fi": ""}},
+            {"title": {"fi": "Halloumi – punajuuripihvejä"}, "description": {"fi": "kylmäkastiketta"}},
+        ]},
+        {"dayNumber": 6, "dayName": {"fi": "Lauantai"}, "dateString": "2026-09-19", "isHidden": False, "isClosed": True, "lunches": []},
+    ]}}}
+
+    def test_parsi(self):
+        paivat = scrape._parsi_lounastaja(self.DATA)
+        self.assertEqual(paivat, [{"paiva": "2026-09-14", "ruoat": [
+            "Metsäsienikeittoa",
+            "Lindströminpihvejä kermasipulikastikkeessa",
+            "Halloumi – punajuuripihvejä – kylmäkastiketta",
+        ]}])
+        self.assertEqual(scrape.normalisoi_paivat(paivat)[0]["paiva"], "Maanantai")
+
+    def test_api_avain_luetaan_sivulta(self):
+        html = '<div data-lounastaja-widget-id="x" data-api-key="11111111-2222-3333-4444-555555555555"></div>'
+        kutsut = []
+        class Vastaus:
+            def raise_for_status(self): pass
+            def json(self): return Kontukeittio.DATA
+        def feikki_get(url, **kw):
+            kutsut.append(url); return Vastaus()
+        with mock.patch.object(scrape, "hae_sivu", return_value=html), \
+             mock.patch.object(scrape.requests, "get", side_effect=feikki_get):
+            paivat = scrape.scrape_kontukeittio()
+        self.assertIn("11111111-2222-3333-4444-555555555555", kutsut[0])
+        self.assertEqual(len(paivat), 1)
+
+    def test_tyhja_vastaus_palaa_lounaat_infoon(self):
+        with mock.patch.object(scrape, "hae_sivu", return_value="<h3>Maanantai 14.9.</h3><ul><li>Kaalikeittoa</li></ul>"), \
+             mock.patch.object(scrape, "_lounastaja_viikko", return_value=[]):
+            paivat = scrape.scrape_kontukeittio()
+        self.assertEqual(paivat, [{"paiva": "Maanantai 14.9.", "ruoat": ["Kaalikeittoa"]}])
+
+
 class LounaatInfo(unittest.TestCase):
     def _aja(self, html):
         with mock.patch.object(scrape, "hae_sivu", return_value=html):
