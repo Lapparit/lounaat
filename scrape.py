@@ -19,6 +19,8 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+import laatu
+
 TIMEOUT = 25
 
 HEADERS = {
@@ -1743,7 +1745,23 @@ RAVINTOLAT = [
 ]
 
 
+def lue_edellinen(polku: Path) -> dict[str, dict]:
+    """Edellisen ajon tulokset ravintolan nimen mukaan (tyhjä jos ei tiedostoa)."""
+    if not polku.exists():
+        return {}
+    try:
+        data = json.loads(polku.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"! Edellistä lounaat.jsonia ei voitu lukea: {e}")
+        return {}
+    return {r["nimi"]: r for r in data.get("ravintolat", []) if r.get("nimi")}
+
+
 def main():
+    polku = Path(__file__).parent / "lounaat.json"
+    edellinen = lue_edellinen(polku)
+    nyt = datetime.now(timezone.utc)
+
     tulokset = []
     for ravintola in RAVINTOLAT:
         print(f"Haetaan: {ravintola['nimi']}...")
@@ -1774,15 +1792,30 @@ def main():
                 rivi["virhe"] = str(e)
         else:
             print(f"  -> vain linkki")
+
+        if ravintola["scraper"] is not None:
+            # Laadunvalvonta: rikkinäisen tuloksen tilalle edellinen lista,
+            # jotta yhden lähteen muutos ei tyhjennä sivustoa.
+            rivi = laatu.yhdista(rivi, edellinen.get(rivi["nimi"]), nyt)
+            if rivi.get("ongelmat"):
+                for o in rivi["ongelmat"]:
+                    print(f"  ! Laatuongelma: {o}")
+                if rivi.get("vanhentunut"):
+                    print("  -> säilytetään edellisen ajon lista")
         tulokset.append(rivi)
 
     ulos = {
-        "paivitetty": datetime.now(timezone.utc).isoformat(),
+        "paivitetty": nyt.isoformat(),
         "ravintolat": tulokset,
     }
-    polku = Path(__file__).parent / "lounaat.json"
     polku.write_text(json.dumps(ulos, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\nValmis. Tallennettu: {polku}")
+
+    rap = laatu.raportti(tulokset, nyt)
+    laatu.tulosta_raportti(rap)
+    raportti_polku = Path(__file__).parent / "laaturaportti.json"
+    raportti_polku.write_text(json.dumps(rap, ensure_ascii=False, indent=2),
+                              encoding="utf-8")
 
 
 if __name__ == "__main__":

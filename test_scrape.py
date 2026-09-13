@@ -4,10 +4,15 @@ Offline-testit scrape.py:n parsereille ja siivousfunktioille.
 Ajo: python -m unittest -v test_scrape
 Testit eivät tee verkkoyhteyksiä — HTML/PDF-tekstit on upotettu tähän.
 """
+import json
 import unittest
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from unittest import mock
 
+import laatu
 import scrape
+import tarkista_data
 
 
 class SiivoaRuoka(unittest.TestCase):
@@ -365,6 +370,141 @@ class Ravintolalista(unittest.TestCase):
             self.assertIn(r["kategoria"], (1, 2, 3))
             if r["scraper"] is None:
                 self.assertTrue(r.get("huom"), f"{r['nimi']}: linkkiravintola tarvitsee huom-tekstin")
+
+
+class Laatutarkistus(unittest.TestCase):
+    def paiva(self, ruoat, nimi="Maanantai"):
+        return {"paiva": nimi, "ruoat": list(ruoat)}
+
+    def test_kelvollinen_ei_ongelmia(self):
+        uusi = {"nimi": "X", "paivat": [self.paiva(["Lihapullia"]), self.paiva(["Kalaa"], "Tiistai")]}
+        self.assertEqual(laatu.tarkista(uusi, None), [])
+
+    def test_tyhja_lista_on_ongelma(self):
+        vanha = {"paivat": [self.paiva(["Lihapullia"])] * 5}
+        self.assertEqual(laatu.tarkista({"paivat": []}, vanha),
+                         ["ei löytynyt yhtään päivää (edellisessä ajossa 5)"])
+
+    def test_kaatunut_scraper(self):
+        self.assertEqual(laatu.tarkista({"virhe": "timeout"}, None), ["scraper kaatui: timeout"])
+
+    def test_roskarivit_ja_pituus(self):
+        self.assertIn("rivi ei näytä ruoalta: Lounas 12,20 €",
+                      laatu.tarkista({"paivat": [self.paiva(["Lounas 12,20 €"])]}, None))
+        pitka = "a" * 300
+        ongelmat = laatu.tarkista({"paivat": [self.paiva([pitka])]}, None)
+        self.assertTrue(any("liian pitkä rivi" in o for o in ongelmat), ongelmat)
+
+    def test_identtiset_paivat(self):
+        paivat = [self.paiva(["Sama"], p) for p in ("Maanantai", "Tiistai", "Keskiviikko")]
+        self.assertIn("kaikilla päivillä sama sisältö", laatu.tarkista({"paivat": paivat}, None))
+
+    def test_paivien_romahdus(self):
+        vanha = {"paivat": [self.paiva(["Ruokaa"], p) for p in
+                            ("Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai")]}
+        ongelmat = laatu.tarkista({"paivat": [self.paiva(["Ruokaa"])]}, vanha)
+        self.assertEqual(ongelmat, ["päiviä vain 1 (edellisessä ajossa 5)"])
+
+    def test_yhdista_sailyttaa_vanhan_listan(self):
+        nyt = datetime(2026, 9, 14, 6, 0, tzinfo=timezone.utc)
+        vanha = {"nimi": "X", "paivat": [self.paiva(["Lihapullia"])] * 5,
+                 "paivitetty": "2026-09-13T06:00:00+00:00"}
+        rivi = laatu.yhdista({"nimi": "X", "paivat": []}, vanha, nyt)
+        self.assertEqual(rivi["paivat"], vanha["paivat"])
+        self.assertTrue(rivi["vanhentunut"])
+        self.assertEqual(rivi["paivitetty"], "2026-09-13T06:00:00+00:00")
+        self.assertEqual(rivi["rikki_alkaen"], nyt.isoformat())
+
+    def test_yhdista_muistaa_milloin_rikkoutui(self):
+        nyt = datetime(2026, 9, 15, 6, 0, tzinfo=timezone.utc)
+        vanha = {"nimi": "X", "paivat": [self.paiva(["Lihapullia"])] * 5,
+                 "paivitetty": "2026-09-13T06:00:00+00:00",
+                 "rikki_alkaen": "2026-09-14T06:00:00+00:00"}
+        rivi = laatu.yhdista({"nimi": "X", "paivat": []}, vanha, nyt)
+        self.assertEqual(rivi["rikki_alkaen"], "2026-09-14T06:00:00+00:00")
+
+    def test_yhdista_siivoaa_merkinnat_kun_korjaantuu(self):
+        nyt = datetime(2026, 9, 15, 6, 0, tzinfo=timezone.utc)
+        vanha = {"nimi": "X", "paivat": [], "vanhentunut": True,
+                 "ongelmat": ["ei löytynyt yhtään päivää"],
+                 "rikki_alkaen": "2026-09-13T06:00:00+00:00"}
+        rivi = laatu.yhdista({"nimi": "X", "paivat": [self.paiva(["Lihapullia"])]}, vanha, nyt)
+        self.assertNotIn("vanhentunut", rivi)
+        self.assertNotIn("ongelmat", rivi)
+        self.assertNotIn("rikki_alkaen", rivi)
+        self.assertEqual(rivi["paivitetty"], nyt.isoformat())
+
+    def test_raportti_ilmoittaa_vasta_rajan_jalkeen(self):
+        nyt = datetime(2026, 9, 15, 6, 0, tzinfo=timezone.utc)
+        tuore = {"nimi": "Tuore", "url": "https://a.fi", "ongelmat": ["ei löytynyt yhtään päivää"],
+                 "rikki_alkaen": "2026-09-14T18:00:00+00:00"}
+        vanha = {"nimi": "Pitkaan", "url": "https://b.fi", "ongelmat": ["ei löytynyt yhtään päivää"],
+                 "rikki_alkaen": "2026-09-12T06:00:00+00:00", "vanhentunut": True}
+        kunnossa = {"nimi": "Kunnossa", "url": "https://c.fi"}
+        rap = laatu.raportti([tuore, vanha, kunnossa], nyt)
+        self.assertEqual([r["nimi"] for r in rap["rikki"]], ["Tuore", "Pitkaan"])
+        self.assertEqual([r["nimi"] for r in rap["ilmoitettavat"]], ["Pitkaan"])
+        self.assertEqual(rap["kunnossa"], ["Kunnossa"])
+        self.assertEqual(rap["ilmoitettavat"][0]["tunteja_rikki"], 72)
+
+    def test_viikonlopun_katko_ei_aiheuta_ilmoitusta(self):
+        # Lauantain ensimmäisestä ajosta maanantain ensimmäiseen = 48 h
+        lauantai = datetime(2026, 9, 19, 0, 37, tzinfo=timezone.utc)
+        maanantai = lauantai + timedelta(hours=48)
+        rivi = {"nimi": "Sisu", "url": "https://a.fi",
+                "ongelmat": ["ei löytynyt yhtään päivää"],
+                "rikki_alkaen": lauantai.isoformat()}
+        self.assertEqual(laatu.raportti([rivi], maanantai)["ilmoitettavat"], [])
+
+
+class DataTarkistus(unittest.TestCase):
+    def kirjoita(self, data):
+        import tempfile
+        polku = Path(tempfile.mkdtemp()) / "lounaat.json"
+        polku.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        return polku
+
+    def kelvollinen(self):
+        return {
+            "paivitetty": "2026-09-14T06:00:00+00:00",
+            "ravintolat": [
+                {"nimi": f"R{i}", "alue": "Hervanta", "kategoria": 1,
+                 "url": "https://example.fi",
+                 "paivat": [{"paiva": "Maanantai", "ruoat": ["Lihapullia"]}]}
+                for i in range(laatu_vahimmais())
+            ],
+        }
+
+    def test_oikea_repo_data_kelpaa(self):
+        self.assertEqual(tarkista_data.tarkista(Path("lounaat.json")), [])
+
+    def test_kelvollinen_menee_lapi(self):
+        self.assertEqual(tarkista_data.tarkista(self.kirjoita(self.kelvollinen())), [])
+
+    def test_tuntematon_paiva_ja_tyhja_ruoka(self):
+        d = self.kelvollinen()
+        d["ravintolat"][0]["paivat"][0]["paiva"] = "Maanatai"
+        d["ravintolat"][1]["paivat"][0]["ruoat"] = []
+        virheet = tarkista_data.tarkista(self.kirjoita(d))
+        self.assertTrue(any("tuntematon päivä" in v for v in virheet), virheet)
+        self.assertTrue(any("ruoat puuttuu" in v for v in virheet), virheet)
+
+    def test_osastot_eivat_vastaa_ruokia(self):
+        d = self.kelvollinen()
+        d["ravintolat"][0]["paivat"][0]["osastot"] = [{"nimi": "Buffet", "ruoat": ["Muuta"]}]
+        virheet = tarkista_data.tarkista(self.kirjoita(d))
+        self.assertTrue(any("eivät vastaa" in v for v in virheet), virheet)
+
+    def test_liian_harva_lista_havaitaan(self):
+        d = self.kelvollinen()
+        for r in d["ravintolat"][1:]:
+            r["paivat"] = []
+        virheet = tarkista_data.tarkista(self.kirjoita(d))
+        self.assertTrue(any("vain 1 ravintolalla" in v for v in virheet), virheet)
+
+
+def laatu_vahimmais() -> int:
+    return tarkista_data.VAHIMMAIS_LISTALLISET
 
 
 if __name__ == "__main__":

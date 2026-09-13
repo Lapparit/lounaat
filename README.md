@@ -5,10 +5,14 @@ Automaattisesti päivittyvä HTML-sivu joka näyttää Hervannan ravintoloiden l
 ## Mitä tämä sisältää
 
 - `scrape.py` — Python-scripti joka käy hakemassa lounaslistat
+- `laatu.py` — Tarkistaa haetun datan ja päättää julkaistaanko se
+- `tarkista_data.py` — Varmistaa että `lounaat.json` on rakenteeltaan ehjä
+- `test_scrape.py` — Testit, jotka ajetaan jokaisesta muutoksesta
 - `lounaat.json` — Tallennettu data (luodaan ensimmäisen ajon jälkeen)
 - `index.html` — Sivu joka näyttää lounaat selaimessa
-- `.github/workflows/paivita.yml` — Hakee uudet listat joka aamu
+- `.github/workflows/paivita.yml` — Hakee uudet listat joka yö
 - `.github/workflows/julkaise.yml` — Julkaisee sivun GitHub Pagesissa
+- `.github/workflows/testit.yml` — Ajaa testit jokaisesta muutoksesta
 
 ## Vaiheittainen pystytys (sinulle joka et osaa koodata)
 
@@ -86,9 +90,35 @@ Voi mennä 5-10 minuuttia ennen kuin sivu on saatavilla ensimmäisen kerran.
 
 ## Mitä jatkossa?
 
-- **Joka arkiaamu klo 7** GitHub Actions ajaa scriptin automaattisesti ja päivittää lounaat
+- **Joka yö** GitHub Actions ajaa scriptin automaattisesti ja päivittää lounaat
 - Sivu päivittyy itsestään
-- **Et joudu tekemään mitään** ellei jonkin ravintolan sivu muutu
+- **Et joudu tekemään mitään** ellei jonkin ravintolan sivu muutu — ja silloinkin
+  saat siitä automaattisen ilmoituksen (katso "Automaattinen laadunvalvonta")
+
+## Automaattinen laadunvalvonta
+
+Ravintoloiden sivut muuttuvat aika ajoin, ja silloin jokin scraperi lakkaa
+toimimasta. Tämä hoituu ilman että sinun tarvitsee seurata mitään:
+
+1. **Sivusto ei mene tyhjäksi.** Jos ravintolan lista näyttää rikkinäiseltä
+   (tyhjä, sama teksti joka päivälle, hintoja tai yhteystietoja ruokien
+   seassa, poikkeuksellisen pitkiä rivejä), edellisen onnistuneen haun lista
+   jää näkyviin. Kortissa lukee silloin "Ei päivittynyt" ja päivämäärä.
+2. **Saat ilmoituksen.** Jos sama ravintola on rikki yli 60 tuntia, GitHub
+   avaa automaattisesti issuen "Scraper rikki: <ravintola>". Sähköposti tulee
+   GitHubin omista ilmoituksista. Yksi issue per ravintola — samasta viasta ei
+   tule uutta viestiä joka aamu. Kun lista toimii taas, issue sulkeutuu itse.
+3. **Rikkinäinen muutos ei pääse sivustolle.** Jokaisesta pull requestista ja
+   main-haaran pushista ajetaan testit ja `lounaat.json`:n rakennetarkistus.
+
+Viikonloppu ei laukaise hälytystä: osa lähteistä julkaisee uuden viikon listan
+vasta maanantaina, ja 60 tunnin raja on tätä väljempi.
+
+### Kun issue ilmestyy
+
+Avaa Claude Code ja sano esimerkiksi *"korjaa Kontukeittiön scraper, katso
+issue #12"*. Issuessa on ravintolan nimi, lähdeosoite ja mitä tarkistus havaitsi.
+Korjauksen jälkeen issue sulkeutuu automaattisesti seuraavassa yöajossa.
 
 ## Jos jokin ei toimi
 

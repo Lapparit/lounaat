@@ -248,6 +248,17 @@
   }
   .meta a:hover { text-decoration: underline; }
   .meta svg { width: 12px; height: 12px; }
+  .vanha {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 1px 7px;
+    border-radius: 999px;
+    background: var(--warn-bg);
+    color: var(--warn-text);
+    font-size: 0.72rem;
+    font-weight: 500;
+  }
 
   .tahti {
     flex: 0 0 auto;
@@ -561,6 +572,14 @@ function siistiRivi(r) {
   return r;
 }
 
+function paivamaara(iso) {
+  try {
+    const d = new Date(iso);
+    if (isNaN(d)) return "";
+    return "· " + d.toLocaleDateString("fi-FI", { day: "numeric", month: "numeric" });
+  } catch (e) { return ""; }
+}
+
 function rendoiOsastot(osastot, q) {
   return osastot.map(o => {
     const otsikko = o.nimi ? `<li class="valiotsikko">${escapoi(o.nimi)}</li>` : "";
@@ -593,10 +612,16 @@ function rendoiKortti(r, q) {
             aria-pressed="${suosikki}" aria-label="${suosikki ? "Poista suosikeista" : "Lisää suosikiksi"}: ${escapoi(r.nimi)}"
             title="${suosikki ? "Poista suosikeista" : "Lisää suosikiksi"}">${SVG_TAHTI}</button>`;
 
+  const vanhaMerkki = r.vanhentunut
+    ? `<span class="vanha" title="Lista ei päivittynyt viimeisimmässä haussa — tarkista ravintolan sivu">
+         Ei päivittynyt${r.paivitetty ? " " + paivamaara(r.paivitetty) : ""}</span>`
+    : "";
+
   const meta = `
     <div class="meta">
       <span>${escapoi(r.alue || "")}</span>
       <a href="${escapoi(r.url)}" target="_blank" rel="noopener">Ravintolan sivu ${SVG_ULOS}</a>
+      ${vanhaMerkki}
     </div>`;
 
   let sisalto;
