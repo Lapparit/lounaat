@@ -154,8 +154,23 @@ def siivoa_ruoka(rivi: str) -> str | None:
     Siivoaa yksittäisen ruokarivin: poistaa allergeenitiedot, hinnat ja
     kellonajat. Pudottaa puuro-/aamupala-rivit.
 
+    Siivous ajetaan uudelleen kunnes tulos ei enää muutu, koska yhden
+    kierroksen jälkeen loppuun voi jäädä uusi irrallinen koodi
+    (esim. "broileri L (" → "broileri L" → "broileri").
+
     Palauttaa puhdistetun rivin tai None jos rivi pitää pudottaa.
     """
+    s = rivi
+    for _ in range(4):
+        uusi = _siivoa_ruoka_kerran(s)
+        if uusi is None or uusi == s:
+            return uusi
+        s = uusi
+    return s
+
+
+def _siivoa_ruoka_kerran(rivi: str) -> str | None:
+    """Yksi siivouskierros — katso siivoa_ruoka."""
     if not rivi:
         return None
     s = rivi.strip()

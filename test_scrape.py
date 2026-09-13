@@ -41,6 +41,10 @@ class SiivoaRuoka(unittest.TestCase):
                          "lämpimiä kasviksia M, G, riisiä")
         self.assertEqual(scrape.siivoa_ruoka("Salaatti, kurkku"), "Salaatti, kurkku")
 
+    def test_useampi_kierros(self):
+        self.assertEqual(scrape.siivoa_ruoka("Sinappinen hunaja broileri L ("), "Sinappinen hunaja broileri")
+        self.assertEqual(scrape.siivoa_ruoka("Lohta M, G Veg"), "Lohta")
+
     def test_idempotentti(self):
         import json
         rivit = [x for r in json.load(open("lounaat.json", encoding="utf-8"))["ravintolat"]
