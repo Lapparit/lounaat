@@ -340,7 +340,11 @@ function rendoiRavintola(r) {
       }
     } else {
       // Ei tätä päivää eikä tulevia (esim. perjantai-ilta tai viikonloppu)
-      sisalto = `<p class="huom">Loppuviikon lounaslistaa ei löytynyt — avaa ravintolan sivu linkistä.</p>`;
+      if (tanaanIdx >= 5) {
+        sisalto = `<p class="huom">Viikonloppu — uuden viikon lista päivittyy maanantaina.</p>`;
+      } else {
+        sisalto = `<p class="huom">Loppuviikon lounaslistaa ei löytynyt — avaa ravintolan sivu linkistä.</p>`;
+      }
     }
   }
 

@@ -1,2 +1,6 @@
 requests
 beautifulsoup4
+pypdf
+Pillow
+pytesseract
+numpy
