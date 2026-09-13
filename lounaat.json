@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-13T05:17:48.638794+00:00",
+  "paivitetty": "2026-09-13T07:38:21.192923+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -19,67 +19,62 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Mausteinen curry-kana (suomalaista broileria)",
-            "Porsaan kassler viherpippuri-kermakastikkeessa (Suomalaista possua)",
-            "Yrttiperunaa",
-            "Riisiä",
+            "Jauhelihapyöryköitä cheddar-pekonikastikkeessa (suomalaista nautaa ja possua)",
+            "BBQ-broileria (suomalaista broileria)",
+            "Kermaperunaa",
             "Salaattibuffet",
-            "Halloum burger ja Yrttibroileri poke (annosruoka ei sis. buffettiin)"
+            "Chicken & fries Burger salaatti (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kievinkanaa (suomalaista broileria)",
-            "Kolmen sipulin kermaviilikastike",
-            "Syksyinen liharuukku (suomalaista possua ja nautaa)",
-            "Perunamuusia",
+            "Cheddar-broileria (suomalaista broileria)",
+            "Paneroitua possua & valkosipulimajoneesi (suomalaista possua)",
+            "Mausteista grilliperunaa",
             "Salaattibuffet",
-            "Paneroitu broileri burger ja Vuohenjuusto salaatti (annosruoka ei sis. buffettiin)"
+            "Vuohenjuusto burger Teriyaki poke (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Karamellisoitua ylikypsää possua (suomalaista possua)",
-            "Paahdetut wingsit (suomalaista broileria)",
-            "Buffalo-dippi",
-            "Lohkoperunaa",
+            "Possun sisäfilettä tuorejuustokastikkeessa (suomalaista possua)",
+            "Broilerin paistileikettä chimichurri-kastikkeella (suomalaista broileria)",
+            "Paahdettua perunaa & riisiä",
             "Salaattibuffet",
-            "Tofu burger Juusto burger (annosruoka ei sis. buffettiin)"
+            "Chili burger Paneroitu broileri poke (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Jauhelihamureke pippurikastikeessa (suomalaista nautaa ja possua) i",
-            "Paneroitua kampelaa",
-            "Välimeren kermaviilikastiketta",
-            "Juustoinen perunapaistos",
+            "Crispy chicken & curry-jogurttikastike (suomalaista broileria)",
+            "Kaalikääryleet & puolukkahillo (suomalaista nautaa ja possua)",
+            "Perunamuusia",
             "Salaattibuffet",
-            "Broilerisalaatti Halloum poke (annosruoka ei sis. buffettiin)"
+            "Juusto burger ja Broilerisalaatti (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Paneroitua broileria (suomalaista broileria)",
-            "Currymajoneesi",
-            "Juustoinen uunimakkara",
-            "Perunamuusia",
+            "Naudan flank steak paahdetussa valkosipuli-pippurikastikkeessa (suomalaista nautaa)",
+            "Makkaramix (suomalaista possua)",
+            "Lohkoperunoita",
             "Salaattibuffet",
-            "Smash burger (annosruoka ei sis. buffettiin)"
+            "Halloum burger (annosruoka ei sis. buffettiin)"
           ]
         },
         {
           "paiva": "Lauantai",
           "ruoat": [
-            "Jauhelihapyörykät ruskeassa kermakastikkeessa",
-            "(suomalaista nautaa ja possua)",
-            "Crispy chicken nuggets (suomalaista broileria)",
-            "Kermaperunaa",
+            "Smoky BBQ -jauhelihapihvejä (suomalaista nautaa ja possua)",
+            "Paneroitua kampelaa & remouladekastike",
+            "Paahdettua perunaa",
             "Salaattibuffet",
-            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Muurame, Vaajakoski, Laukaa"
+            "Äänekoski, Seppälä, Cm keljo, Prisma keljo, Muurame, Vaajakoski, Laukaa",
+            "MAANANTAI"
           ]
         }
       ]
