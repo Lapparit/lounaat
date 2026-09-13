@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-13T17:26:39.984982+00:00",
+  "paivitetty": "2026-09-13T18:11:03.856333+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -139,7 +139,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -292,7 +293,8 @@
             "Salaattibuffet"
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Farmi",
@@ -624,7 +626,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -764,7 +767,8 @@
             "Talon porkkanaletut"
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -877,7 +881,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1054,7 +1059,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1168,7 +1174,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1331,7 +1338,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1377,7 +1385,8 @@
             "WIENINLEIKE"
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1560,7 +1569,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1709,7 +1719,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1800,7 +1811,8 @@
             "Kahvin kanssa toivejälkiruokana Orvokin omaa porkkanakakkua L, saa myös jälkiruokaa"
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2161,7 +2173,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2169,7 +2182,12 @@
       "kategoria": 3,
       "url": "https://lounaat.info/lounas/sisu-buffet-hervanta/tampere",
       "huom": "",
-      "paivat": []
+      "paivat": [],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää"
+      ],
+      "rikki_alkaen": "2026-09-13T18:11:03.856333+00:00",
+      "paivitetty": ""
     },
     {
       "nimi": "Speakeasy",
@@ -2245,7 +2263,8 @@
             }
           ]
         }
-      ]
+      ],
+      "paivitetty": "2026-09-13T18:11:03.856333+00:00"
     }
   ]
 }
