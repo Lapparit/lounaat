@@ -1,0 +1,21 @@
+# Dependabot seuraa riippuvuuksien uusia versioita ja avaa päivityksestä
+# pull requestin. Testit ajetaan automaattisesti, joten näet heti jos päivitys
+# rikkoisi jotain. Näin kiinnitetyt versiot eivät jää vanhoiksi ja
+# tietoturvakorjaukset tulevat käyttöön.
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "Päivitä riippuvuus"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "Päivitä workflow"

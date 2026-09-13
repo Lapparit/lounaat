@@ -10,6 +10,7 @@ Automaattisesti päivittyvä HTML-sivu joka näyttää Hervannan ravintoloiden l
 - `test_scrape.py` — Testit, jotka ajetaan jokaisesta muutoksesta
 - `lounaat.json` — Tallennettu data (luodaan ensimmäisen ajon jälkeen)
 - `index.html` — Sivu joka näyttää lounaat selaimessa
+- `app.js` — Sivun toiminnallisuus (erillään, jotta tietoturvasääntö toimii)
 - `.github/workflows/paivita.yml` — Hakee uudet listat joka yö
 - `.github/workflows/julkaise.yml` — Julkaisee sivun GitHub Pagesissa
 - `.github/workflows/testit.yml` — Ajaa testit jokaisesta muutoksesta
@@ -119,6 +120,55 @@ vasta maanantaina, ja 60 tunnin raja on tätä väljempi.
 Avaa Claude Code ja sano esimerkiksi *"korjaa Kontukeittiön scraper, katso
 issue #12"*. Issuessa on ravintolan nimi, lähdeosoite ja mitä tarkistus havaitsi.
 Korjauksen jälkeen issue sulkeutuu automaattisesti seuraavassa yöajossa.
+
+## Tietoturva pähkinänkuoressa
+
+Tämä sivusto on **staattinen**: se on pelkkiä tiedostoja GitHubin palvelimella.
+Ei tietokantaa, ei käyttäjätilejä, ei salasanoja, ei lomakkeita. Siksi suurin
+osa verkkosivujen tavallisista riskeistä ei koske tätä lainkaan.
+
+Yksi todellinen riski silti on. Sivu näyttää tekstiä, joka on haettu
+ravintoloiden omilta sivuilta. Jos jonkun ravintolan sivu joutuisi vääriin
+käsiin, sinne voisi ilmestyä lounaslistan sekaan koodia. Ilman suojausta
+selain voisi ajaa sen sinun sivullasi. Tätä kutsutaan nimellä **XSS**
+(cross-site scripting). Näin se on estetty:
+
+| Suojaus | Mitä se tekee |
+|---|---|
+| Tekstin muuntaminen (`escapoi`) | Ravintoloilta tuleva sisältö näytetään aina tekstinä, ei koodina. `<script>` näkyy ruudulla kirjaimina eikä tee mitään. |
+| Tietoturvasääntö (CSP) | Selain saa ladata vain tämän sivuston omia tiedostoja. Vaikka koodia jotenkin päätyisi sivulle, selain kieltäytyy ajamasta sitä eikä sivu voi lähettää tietoa muualle. |
+| Osoitteiden tarkistus | Linkkeihin kelpaa vain tavallinen `http`- tai `https`-osoite. Esimerkiksi `javascript:`-alkuinen osoite jätetään kokonaan pois. |
+| `rel="noopener noreferrer"` | Ravintolan sivu ei uudessa välilehdessä pääse käsiksi tähän sivuun eikä saa tietoa siitä, mistä kävijä tuli. |
+
+Myös listojen hakeminen on suojattu:
+
+- **Latauskoko rajattu 10 megatavuun.** Rikkinäinen tai vihamielinen palvelin ei
+  voi jumittaa ajoa syöttämällä loputtomasti dataa.
+- **Seuratut osoitteet rajattu.** Kun scraperi seuraa ravintolan sivulta
+  löytynyttä PDF:ää tai kuvaa, osoitteen on oltava saman ravintolan sivustolla.
+- **Kuvapommin esto.** Pieni kuvatiedosto ei voi purkautua jättikokoiseksi ja
+  syödä muistia.
+- **Issue-tekstin siivous.** Automaattiseen vikailmoitukseen päätyvä pätkä
+  ravintolan sivua siivotaan ensin, jotta se ei voi esiintyä linkkinä tai ohjeena.
+- **Riippuvuudet kiinnitetty versioon.** Jos jonkin käytetyn kirjaston uusi
+  julkaisu joutuisi vääriin käsiin, se ei päädy ajoon itsestään. Dependabot
+  ehdottaa päivitykset pull requestina ja testit ajetaan ennen yhdistämistä.
+
+### Mitä sinun on hyvä tietää
+
+- **Älä koskaan laita salasanoja tai avaimia tähän repoon.** Repo on julkinen,
+  joten kaikki sen tiedostot näkyvät kaikille. Scrape.py:ssä oleva
+  Lounastaja-avain ei ole salaisuus: se on ravintolan omalla sivulla julkisesti
+  esillä, jotta selain voi hakea listan.
+- **GitHub-tunnuksesi on tämän sivuston avain.** Ota siihen käyttöön
+  kaksivaiheinen tunnistautuminen, jos et ole vielä tehnyt sitä. Jos joku pääsee
+  tunnuksellesi, hän voi muuttaa sivuston sisältöä.
+- **Kävijöistä ei kerätä mitään.** Sivu ei käytä seurantaa eikä evästeitä.
+  Suosikit tallentuvat vain sinun oman selaimesi muistiin, eivät palvelimelle.
+- **Mahdollinen lisäaskel:** GitHub Actions -paketit voi kiinnittää tarkkaan
+  versiotunnisteeseen (SHA) pelkän `v4`-merkinnän sijaan. Se suojaa siltä, että
+  paketin uusi versio muuttuisi haitalliseksi. Dependabot osaa päivittää myös
+  näitä.
 
 ## Jos jokin ei toimi
 

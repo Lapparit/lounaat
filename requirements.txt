@@ -1,6 +1,10 @@
-requests
-beautifulsoup4
-pypdf
-Pillow
-pytesseract
-numpy
+# Riippuvuudet on kiinnitetty tarkkaan versioon tietoturvasyistä: jos jonkin
+# kirjaston uusi julkaisu joutuisi vääriin käsiin, se ei päädy ajoon itsestään.
+# Dependabot ehdottaa päivityksiä pull requestina, ja testit ajetaan ennen
+# yhdistämistä (.github/dependabot.yml).
+requests==2.34.2
+beautifulsoup4==4.15.0
+pypdf==6.18.1
+Pillow==12.3.0
+pytesseract==0.3.13
+numpy==2.5.3

@@ -14,7 +14,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -22,6 +22,11 @@ from bs4 import BeautifulSoup
 import laatu
 
 TIMEOUT = 25
+
+# Turvarajat ulkopuolisten sivujen lataamiseen. Ravintoloiden sivut ovat
+# lähtökohtaisesti luotettavia, mutta jos jokin niistä hajoaa tai joutuu
+# vääriin käsiin, se ei saa kaataa ajoa eikä täyttää levyä.
+MAKS_LATAUS_TAVUA = 10 * 1024 * 1024   # 10 Mt riittää kaikille lähteille
 
 HEADERS = {
     "User-Agent": (
@@ -45,13 +50,92 @@ PAIVA_INDEKSI.update({
 })
 
 
-def hae_sivu(url: str) -> str | None:
-    """Hakee yhden URLin sisällön. Palauttaa None jos epäonnistuu."""
+def sama_sivusto(url: str, sallittu_domain: str) -> bool:
+    """
+    Onko osoite luvatulla sivustolla? Esimerkiksi
+    sama_sivusto("https://www.munkkimiehet.fi/kuva.png", "munkkimiehet.fi") → True
+
+    Käytetään kun scraperi seuraa sivulta löytynyttä osoitetta (PDF, kuva).
+    Näin sivun muutos ei voi ohjata hakua tuntemattomalle palvelimelle.
+    """
+    isanta = (urlparse(url).hostname or "").lower()
+    sallittu = sallittu_domain.lower()
+    return isanta == sallittu or isanta.endswith("." + sallittu)
+
+
+def hae_tavut(url: str, sallittu_domain: str | None = None,
+              maksimi: int = MAKS_LATAUS_TAVUA, aikakatkaisu: int = 15) -> bytes | None:
+    """
+    Lataa tiedoston (PDF, kuva) turvarajojen kanssa.
+
+    - Osoitteen on oltava http(s) ja halutessa tietyllä sivustolla
+    - Lataus keskeytetään jos tiedosto on liian iso
+    - Uudelleenohjauksen päätepisteen sivusto tarkistetaan
+    """
+    if not url.lower().startswith(("http://", "https://")):
+        print(f"  ! Osoite ei ole verkko-osoite: {url[:80]}")
+        return None
+    if sallittu_domain and not sama_sivusto(url, sallittu_domain):
+        print(f"  ! Osoite ei ole sivustolla {sallittu_domain}: {url[:80]}")
+        return None
     try:
-        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-        r.raise_for_status()
-        r.encoding = r.apparent_encoding or "utf-8"
-        return r.text
+        with requests.get(url, headers=HEADERS, timeout=aikakatkaisu, stream=True) as r:
+            r.raise_for_status()
+            if sallittu_domain and not sama_sivusto(r.url, sallittu_domain):
+                print(f"  ! Uudelleenohjaus pois sivustolta {sallittu_domain}: {r.url[:80]}")
+                return None
+            pituus = r.headers.get("content-length")
+            if pituus and pituus.isdigit() and int(pituus) > maksimi:
+                print(f"  ! Tiedosto liian suuri ({int(pituus)} tavua): {url[:80]}")
+                return None
+            data = bytearray()
+            for pala in r.iter_content(chunk_size=65536):
+                data.extend(pala)
+                if len(data) > maksimi:
+                    print(f"  ! Lataus keskeytetty, yli {maksimi} tavua: {url[:80]}")
+                    return None
+            return bytes(data)
+    except Exception as e:
+        print(f"  ! Virhe ladattaessa {url[:80]}: {e}")
+        return None
+
+
+def paattele_merkisto(r: "requests.Response") -> str:
+    """
+    Päättelee sivun merkistön luotettavimmassa järjestyksessä:
+    1. HTTP-otsakkeen charset
+    2. HTML:n oma <meta charset=...>
+    3. Sisällöstä arvattu merkistö
+    4. UTF-8
+
+    Väärä merkistö näkyy ruokalistassa sotkuna ("LohikeittoÃ¤"), joten
+    arvaus on vasta viimeinen keino.
+    """
+    otsake = r.headers.get("content-type", "")
+    if "charset=" in otsake.lower():
+        return r.encoding or "utf-8"
+    alku = r.content[:4096]
+    m = re.search(rb"""<meta[^>]+charset=["']?\s*([A-Za-z0-9_\-]+)""", alku, re.I)
+    if m:
+        return m.group(1).decode("ascii", errors="ignore")
+    return r.apparent_encoding or "utf-8"
+
+
+def hae_sivu(url: str) -> str | None:
+    """Hakee yhden URLin sisällön tekstinä. Palauttaa None jos epäonnistuu."""
+    try:
+        with requests.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True) as r:
+            r.raise_for_status()
+            data = bytearray()
+            for pala in r.iter_content(chunk_size=65536):
+                data.extend(pala)
+                if len(data) > MAKS_LATAUS_TAVUA:
+                    print(f"  ! Sivu liian suuri (yli {MAKS_LATAUS_TAVUA} tavua): {url}")
+                    return None
+            r._content = bytes(data)          # jotta r.text/apparent_encoding toimii
+            r._content_consumed = True
+            r.encoding = paattele_merkisto(r)
+            return r.text
     except Exception as e:
         print(f"  ! Virhe haettaessa {url}: {e}")
         return None
@@ -980,13 +1064,10 @@ def scrape_munkkimiehet() -> list[dict]:
 
     print(f"  [Munkki] Kuva: {kuva_url}")
 
-    # 2) Lataa kuva
-    try:
-        r = requests.get(kuva_url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        kuva_data = r.content
-    except Exception as e:
-        print(f"  [Munkki] Kuvan lataus epäonnistui: {e}")
+    # 2) Lataa kuva (vain munkkimiehet.fi-sivustolta, korkeintaan 10 Mt)
+    kuva_data = hae_tavut(kuva_url, sallittu_domain="munkkimiehet.fi")
+    if kuva_data is None:
+        print("  [Munkki] Kuvan lataus epäonnistui")
         return []
 
     # 3) Esikäsittely: pidä vain valkoinen ja punainen teksti
@@ -996,6 +1077,10 @@ def scrape_munkkimiehet() -> list[dict]:
     except ImportError:
         print("  [Munkki] Pillow tai numpy puuttuu — lisää requirements.txt:hen")
         return []
+
+    # Suojaa "pakkauspommilta": pieni tiedosto joka purkautuu jättikuvaksi ja
+    # söisi koko muistin. Lounaslistakuva on korkeintaan muutama megapikseli.
+    Image.MAX_IMAGE_PIXELS = 50_000_000
 
     try:
         img = Image.open(BytesIO(kuva_data)).convert("RGB")
@@ -1295,13 +1380,10 @@ def scrape_aito_kotilounas() -> list[dict]:
 
     print(f"  [Aito] PDF: {pdf_url}")
 
-    # 2) Lataa PDF
-    try:
-        r = requests.get(pdf_url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        pdf_data = r.content
-    except Exception as e:
-        print(f"  [Aito] PDF-lataus epäonnistui: {e}")
+    # 2) Lataa PDF (vain aitokotilounas.fi-sivustolta, korkeintaan 10 Mt)
+    pdf_data = hae_tavut(pdf_url, sallittu_domain="aitokotilounas.fi")
+    if pdf_data is None:
+        print("  [Aito] PDF-lataus epäonnistui")
         return []
 
     # 3) Lue teksti pypdf:llä
