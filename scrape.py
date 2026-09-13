@@ -300,7 +300,8 @@ def siivoa_ruoat(ruoat: list[str]) -> list[str]:
     return tulos
 
 
-# ============================================================
+# =====================================================
+
 # RAVINTOLAKOHTAISET SCRAPERIT
 # ============================================================
 
@@ -399,12 +400,81 @@ LOUNAAT_INFO_OHITA = (
 )
 
 
+# Reaktorin linjastot joita EI näytetä (jälkiruoka, leipä)
+REAKTORI_OHITA = ("so sweet", "so bread")
+
+
+def _reaktori_siivoa_nimi(nimi: str) -> str:
+    """Poistaa Reaktorin annoskoot ja lisähinnat: "8kpl/annos 0,50€/extra kpl"."""
+    nimi = re.sub(r"\s*\d+\s*kpl\s*/\s*annos.*$", "", nimi, flags=re.I)
+    nimi = re.sub(r",?\s*extra\b.*$", "", nimi, flags=re.I)
+    return siivoa(nimi)
+
+
+def _parsi_reaktori_json(html: str) -> list[dict]:
+    """
+    Compass Groupin sivu sisältää valmiin viikkolistan JavaScript-muuttujassa
+    window.__INITIAL_MENU__ = {..., "weekMenu": {"menus": [{"date": ...,
+    "menuPackages": [{"name": "So Good.", "meals": [{"name": ...}]}]}]}}.
+
+    Jokainen menuPackage (linjasto) on yksi rivi: ruoat pilkulla erotettuna.
+    """
+    m = re.search(r"window\.__INITIAL_MENU__\s*=\s*(\{)", html)
+    if not m:
+        return []
+    try:
+        data, _ = json.JSONDecoder().raw_decode(html[m.start(1):])
+    except json.JSONDecodeError as e:
+        print(f"  [Reaktori] JSON-virhe: {e}")
+        return []
+
+    paivat = []
+    for menu in (data.get("weekMenu") or {}).get("menus", []):
+        ruoat = []
+        for paketti in menu.get("menuPackages", []):
+            nimi = (paketti.get("name") or "").strip()
+            nimi_l = nimi.lower()
+            if any(o in nimi_l for o in REAKTORI_OHITA):
+                continue
+            ateriat = [_reaktori_siivoa_nimi(a.get("name") or "")
+                       for a in paketti.get("meals", [])]
+            ateriat = [a for a in ateriat if a]
+            if not ateriat:
+                continue
+            rivi = ", ".join(ateriat)
+            if "pop up grill" in nimi_l:
+                rivi = "Pop Up Grill: " + rivi
+            elif "soup" in nimi_l or "keitto" in nimi_l:
+                rivi = "Keitto: " + rivi
+            elif "salaattilounaan" in nimi_l or "salaattilounas" in nimi_l:
+                rivi = "Salaattilounas: " + rivi
+            elif "vegan" in nimi_l:
+                rivi = "Vegaaninen: " + rivi
+            elif "green" in nimi_l or "kasvis" in nimi_l:
+                rivi = "Kasvis: " + rivi
+            ruoat.append(rivi)
+        if ruoat:
+            paivat.append({"paiva": menu.get("date", ""), "ruoat": ruoat[:8]})
+    return paivat
+
+
 def scrape_reaktori() -> list[dict]:
-    """Reaktori (FoodCo / Compass-Group)."""
+    """
+    Reaktori (FoodCo / Compass-Group).
+
+    Ensisijaisesti sivun upotettu JSON (window.__INITIAL_MENU__), varalla
+    HTML-otsikoiden (h3 päivä, h4 linjasto) parsinta.
+    """
     url = "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/reaktori/"
     html = hae_sivu(url)
     if not html:
         return []
+
+    paivat = _parsi_reaktori_json(html)
+    if paivat:
+        return paivat
+    print("  [Reaktori] Upotettua JSONia ei löytynyt, käytetään HTML-parsintaa")
+
     soup = BeautifulSoup(html, "html.parser")
 
     paivat = []
@@ -419,14 +489,15 @@ def scrape_reaktori() -> list[dict]:
             if sis.name == "h3":
                 break
             if sis.name == "h4":
-                ryhma = sis.get_text(strip=True)
-                if any(s in ryhma for s in ["Lounas", "Kasvislounas", "Vegaaninen"]):
-                    ul = sis.find_next("ul")
-                    if ul:
-                        for li in ul.find_all("li"):
-                            t = siivoa(li.get_text(" "))
-                            if t and len(t) > 3:
-                                ruoat.append(t)
+                ryhma = sis.get_text(strip=True).lower()
+                if any(o in ryhma for o in REAKTORI_OHITA):
+                    continue
+                ul = sis.find_next("ul")
+                if ul:
+                    for li in ul.find_all("li"):
+                        t = _reaktori_siivoa_nimi(li.get_text(" "))
+                        if t and len(t) > 3:
+                            ruoat.append(t)
         if ruoat:
             paivat.append({"paiva": teksti, "ruoat": ruoat[:8]})
     return paivat
@@ -903,6 +974,12 @@ def scrape_aito_kotilounas() -> list[dict]:
 
     soup = BeautifulSoup(html, "html.parser")
 
+    # 0) Syyskuusta 2026 lista on suoraan sivun HTML:ssä (ei PDF:nä)
+    paivat = _parsi_aito_html(soup)
+    if paivat:
+        return paivat
+    print("  [Aito] HTML-listaa ei löytynyt, kokeillaan PDF:ää")
+
     # 1) Etsi PDF-URL data-attributes -atribuutista
     pdf_url = None
     for div in soup.find_all(class_="wp-block-pdfp-pdf-poster"):
@@ -974,6 +1051,71 @@ def scrape_aito_kotilounas() -> list[dict]:
 
     # 4) Parsi teksti viikonpäiviksi ja ruoiksi
     return _parsi_aito_pdf_teksti(teksti)
+
+
+def _parsi_aito_html(soup: BeautifulSoup) -> list[dict]:
+    """
+    Aito kotilounaan HTML-lista (Elementor):
+
+        <p><strong>Maanantai 14.09.</strong></p>
+        <ul>
+          <li>Lohileikettä sitruuna-tillikastikkeella ja muusia (L)</li>
+          <li>Suklaarahkaa (G,L) Keittiöstä: Fetasalaatti (G,L)</li>
+        </ul>
+        <p>Keittiöstä: Mozzarellasalaatti (G,L)</p>   ← joskus omana p:nä
+
+    "Keittiöstä: X" voi olla liimautunut edellisen ruoan perään samaan li:hin,
+    joten se erotetaan omaksi rivikseen.
+    """
+    paiva_re = re.compile(
+        r"^(Maanantai|Tiistai|Keskiviikko|Torstai|Perjantai|Lauantai)\s+\d{1,2}\.\d{1,2}",
+        re.I,
+    )
+    ohita = ("etusivulle", "yhteyslomake", "tietosuoja", "katso sijaintimme",
+             "catering", "pysäköinti", "lounas tarjoillaan", "lounashinta",
+             "annokset saatavilla")
+
+    paivat: list[dict] = []
+    nykyinen: str | None = None
+    ruoat: list[str] = []
+
+    def lopeta_paiva():
+        nonlocal nykyinen, ruoat
+        if nykyinen and ruoat:
+            paivat.append({"paiva": nykyinen, "ruoat": ruoat[:8]})
+        nykyinen, ruoat = None, []
+
+    for el in soup.find_all(["p", "li", "h2", "h3", "h4"]):
+        # Sisäkkäiset elementit (li > p) tuottaisivat duplikaatteja
+        if el.find(["p", "li"]):
+            continue
+        teksti = siivoa(el.get_text(" "))
+        if not teksti:
+            continue
+        if paiva_re.match(teksti) and len(teksti) < 40:
+            lopeta_paiva()
+            nykyinen = teksti
+            continue
+        if not nykyinen:
+            continue
+        # Navigaatio/footer-listat (Elementorin icon-list) päättävät listan
+        luokat = " ".join(el.get("class") or [])
+        if "icon-list" in luokat or any(o in teksti.lower() for o in ohita):
+            lopeta_paiva()
+            continue
+        if el.name in ("h2", "h3", "h4"):
+            lopeta_paiva()
+            continue
+        if len(teksti) > 200:
+            continue
+        # "Suklaarahkaa (G,L) Keittiöstä: Fetasalaatti (G,L)" → kaksi riviä
+        osat = re.split(r"\s*(?=Keittiöstä:)", teksti)
+        for osa in osat:
+            osa = osa.strip()
+            if len(osa) >= 4:
+                ruoat.append(osa)
+    lopeta_paiva()
+    return paivat
 
 
 def _parsi_aito_pdf_teksti(teksti: str) -> list[dict]:

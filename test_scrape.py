@@ -105,6 +105,84 @@ Lounas tarjoillaan klo 10.30-14
         self.assertEqual(paivat["Keskiviikko"], ["Borssikeittoa", "Keittiöstä: Halloumisalaatti"])
 
 
+class AitoHtml(unittest.TestCase):
+    HTML = """
+<div><ul class="elementor-icon-list-items"><li class="elementor-icon-list-item">Pitkäahteentie 1</li></ul>
+<p><strong>Lounas tarjoillaan arkisin klo 10:30 – 14:30</strong></p>
+<p>Annokset saatavilla myös mukaan ja toimitettuna, puh. 03 410 230 38</p>
+<p><strong><span>Maanantai 14.09.</span></strong></p>
+<ul><li>Lohileikettä sitruuna-tillikastikkeella ja muusia (L)</li>
+<li>Italialainen parmesanpasta (L)</li>
+<li>Suklaarahkaa (G,L) Keittiöstä: Fetasalaatti (G,L)</li></ul>
+<p><strong>Torstai 17.09.</strong></p>
+<ul><li>Hernekeittoa (G,L)</li></ul>
+<p>Keittiöstä: Mozzarellasalaatti (G,L)</p>
+<p><strong>Perjantai 18.09.</strong></p>
+<ul><li>Kanawok (L)</li></ul>
+<div><span>KATSO SIJAINTIMME</span></div>
+<ul class="elementor-icon-list-items"><li class="elementor-icon-list-item"><span>Etusivulle</span></li>
+<li class="elementor-icon-list-item"><span>Yhteyslomake</span></li></ul></div>"""
+
+    def test_html_lista(self):
+        with mock.patch.object(scrape, "hae_sivu", return_value=self.HTML):
+            paivat = scrape.scrape_aito_kotilounas()
+        self.assertEqual(paivat, [
+            {"paiva": "Maanantai 14.09.", "ruoat": [
+                "Lohileikettä sitruuna-tillikastikkeella ja muusia (L)",
+                "Italialainen parmesanpasta (L)",
+                "Suklaarahkaa (G,L)",
+                "Keittiöstä: Fetasalaatti (G,L)"]},
+            {"paiva": "Torstai 17.09.", "ruoat": ["Hernekeittoa (G,L)", "Keittiöstä: Mozzarellasalaatti (G,L)"]},
+            {"paiva": "Perjantai 18.09.", "ruoat": ["Kanawok (L)"]},
+        ])
+
+    def test_ilman_listaa_palaa_pdf_polkuun(self):
+        # Ei päiväotsikoita, ei PDF:ää → tyhjä (ei poikkeusta)
+        with mock.patch.object(scrape, "hae_sivu", return_value="<p>Tervetuloa</p>"):
+            self.assertEqual(scrape.scrape_aito_kotilounas(), [])
+
+
+class Reaktori(unittest.TestCase):
+    MENU = {
+        "weekMenu": {"weekNumber": 38, "menus": [
+            {"dayOfWeek": 1, "date": "2026-09-14T00:00:00", "menuPackages": [
+                {"name": "So Green. (Kasvislounas)", "meals": [
+                    {"name": "Italialaisia kasvispyöryköitä 8kpl/annos 0,50€/extra kpl"},
+                    {"name": "Paahdettua perunaa"}]},
+                {"name": "So Green Soup. (Linjastot 3-4)", "meals": [{"name": "Pinaattikeittoa"}]},
+                {"name": "So Good.", "meals": [{"name": "Makkarakastiketta"}, {"name": "Tummaa riisiä"}]},
+                {"name": "So Tasty.", "meals": [{"name": "Kalapyörykät 6kpl/annos, extra 0,50€/kpl"}]},
+                {"name": "So Sweet. (Jälkiruoka)", "meals": [{"name": "Banoffee-mousse"}]},
+                {"name": "So Bread. (Break Cafe)", "meals": [{"name": "Sämpylä"}]},
+                {"name": "Pop Up Grill salaattilounas 10:30 - 13:30 (Break Cafe)", "meals": [{"name": "Mozzarellasalaattia"}]},
+            ]},
+            {"dayOfWeek": 2, "date": "2026-09-15T00:00:00", "menuPackages": []},
+        ]}}
+
+    def test_upotettu_json(self):
+        import json
+        html = ("<html><script>window.__INITIAL_MENU__ = " + json.dumps(self.MENU)
+                + ";</script><h3>Maanantai 14.9.2026</h3></html>")
+        with mock.patch.object(scrape, "hae_sivu", return_value=html):
+            paivat = scrape.scrape_reaktori()
+        self.assertEqual(paivat, [{"paiva": "2026-09-14T00:00:00", "ruoat": [
+            "Kasvis: Italialaisia kasvispyöryköitä, Paahdettua perunaa",
+            "Keitto: Pinaattikeittoa",
+            "Makkarakastiketta, Tummaa riisiä",
+            "Kalapyörykät",
+            "Pop Up Grill: Mozzarellasalaattia",
+        ]}])
+        self.assertEqual(scrape.normalisoi_paivat(paivat)[0]["paiva"], "Maanantai")
+
+    def test_html_varapolku(self):
+        html = ("<h3>Maanantai 14.9.2026</h3><h4>So Good.</h4><p>hinta</p>"
+                "<ul><li>Makkarakastiketta (A, G)</li></ul>"
+                "<h4>So Sweet. (Jälkiruoka)</h4><ul><li>Mousse</li></ul>")
+        with mock.patch.object(scrape, "hae_sivu", return_value=html):
+            paivat = scrape.scrape_reaktori()
+        self.assertEqual(paivat, [{"paiva": "Maanantai 14.9.2026", "ruoat": ["Makkarakastiketta (A, G)"]}])
+
+
 class LounaatInfo(unittest.TestCase):
     def _aja(self, html):
         with mock.patch.object(scrape, "hae_sivu", return_value=html):
