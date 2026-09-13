@@ -126,15 +126,14 @@ class AitoHtml(unittest.TestCase):
     def test_html_lista(self):
         with mock.patch.object(scrape, "hae_sivu", return_value=self.HTML):
             paivat = scrape.scrape_aito_kotilounas()
-        self.assertEqual(paivat, [
-            {"paiva": "Maanantai 14.09.", "ruoat": [
-                "Lohileikettä sitruuna-tillikastikkeella ja muusia (L)",
-                "Italialainen parmesanpasta (L)",
-                "Suklaarahkaa (G,L)",
-                "Keittiöstä: Fetasalaatti (G,L)"]},
-            {"paiva": "Torstai 17.09.", "ruoat": ["Hernekeittoa (G,L)", "Keittiöstä: Mozzarellasalaatti (G,L)"]},
-            {"paiva": "Perjantai 18.09.", "ruoat": ["Kanawok (L)"]},
+        self.assertEqual([p["paiva"] for p in paivat], ["Maanantai 14.09.", "Torstai 17.09.", "Perjantai 18.09."])
+        self.assertEqual([(o["nimi"], o["ruoat"]) for o in paivat[0]["osastot"]], [
+            ("Lounas", ["Lohileikettä sitruuna-tillikastikkeella ja muusia (L)",
+                        "Italialainen parmesanpasta (L)", "Suklaarahkaa (G,L)"]),
+            ("Keittiöstä", ["Fetasalaatti (G,L)"]),
         ])
+        self.assertEqual(paivat[2], {"paiva": "Perjantai 18.09.", "ruoat": ["Kanawok (L)"],
+                                     "osastot": [{"nimi": "", "ruoat": ["Kanawok (L)"]}]})
 
     def test_ilman_listaa_palaa_pdf_polkuun(self):
         # Ei päiväotsikoita, ei PDF:ää → tyhjä (ei poikkeusta)
@@ -165,13 +164,15 @@ class Reaktori(unittest.TestCase):
                 + ";</script><h3>Maanantai 14.9.2026</h3></html>")
         with mock.patch.object(scrape, "hae_sivu", return_value=html):
             paivat = scrape.scrape_reaktori()
-        self.assertEqual(paivat, [{"paiva": "2026-09-14T00:00:00", "ruoat": [
-            "Kasvis: Italialaisia kasvispyöryköitä, Paahdettua perunaa",
-            "Keitto: Pinaattikeittoa",
-            "Makkarakastiketta, Tummaa riisiä",
-            "Kalapyörykät",
-            "Pop Up Grill: Mozzarellasalaattia",
-        ]}])
+        self.assertEqual(paivat[0]["paiva"], "2026-09-14T00:00:00")
+        self.assertEqual([(o["nimi"], o["ruoat"]) for o in paivat[0]["osastot"]], [
+            ("Kasvislounas", ["Italialaisia kasvispyöryköitä", "Paahdettua perunaa"]),
+            ("Keitto", ["Pinaattikeittoa"]),
+            ("So Good", ["Makkarakastiketta", "Tummaa riisiä"]),
+            ("So Tasty", ["Kalapyörykät"]),
+            ("Pop Up Grill salaatti", ["Mozzarellasalaattia"]),
+        ])
+        self.assertEqual(len(paivat), 1)
         self.assertEqual(scrape.normalisoi_paivat(paivat)[0]["paiva"], "Maanantai")
 
     def test_html_varapolku(self):
@@ -196,11 +197,13 @@ class Kontukeittio(unittest.TestCase):
 
     def test_parsi(self):
         paivat = scrape._parsi_lounastaja(self.DATA)
-        self.assertEqual(paivat, [{"paiva": "2026-09-14", "ruoat": [
+        self.assertEqual(paivat[0]["paiva"], "2026-09-14")
+        self.assertEqual(paivat[0]["ruoat"], [
             "Metsäsienikeittoa",
             "Lindströminpihvejä kermasipulikastikkeessa",
             "Halloumi – punajuuripihvejä – kylmäkastiketta",
-        ]}])
+        ])
+        self.assertEqual([o["nimi"] for o in paivat[0]["osastot"]], ["Keitto", "Lounas"])
         self.assertEqual(scrape.normalisoi_paivat(paivat)[0]["paiva"], "Maanantai")
 
     def test_api_avain_luetaan_sivulta(self):
@@ -283,10 +286,70 @@ class Speakeasy(unittest.TestCase):
 class Munkki(unittest.TestCase):
     def test_ocr_teksti(self):
         teksti = "RUSKO LOUNAS viikko 38\nMAANANTAI\n. Jauhelihakeitto\nUunimakkara\nTIISTAI\nSiskonmakkarakeitto\n"
-        self.assertEqual(scrape._parsi_munkki_teksti(teksti), [
-            {"paiva": "Maanantai", "ruoat": ["Jauhelihakeitto", "Uunimakkara"]},
-            {"paiva": "Tiistai", "ruoat": ["Siskonmakkarakeitto"]},
+        paivat = scrape._parsi_munkki_teksti(teksti)
+        self.assertEqual(paivat[0]["ruoat"], ["Jauhelihakeitto", "Uunimakkara"])
+        self.assertEqual([(o["nimi"], o["ruoat"]) for o in paivat[0]["osastot"]],
+                         [("Keitto", ["Jauhelihakeitto"]), ("Lounas", ["Uunimakkara"])])
+        self.assertEqual(paivat[1], {"paiva": "Tiistai", "ruoat": ["Siskonmakkarakeitto"]})
+
+
+class Osastot(unittest.TestCase):
+    def test_etuliitteet(self):
+        rivit = ["Paneroitua hietakampelaa M & dippi", "Kukkakaali-kikherne muhennos",
+                 "– riisiä", "Keitto: Kaalikeitto", "Chef: Puna-ahventa",
+                 "Vegaaniruoka keittiöstä: Kasvispata",
+                 "Proteiinilisäkkeet punnittavaan salaattiin:", "– Salaattijuustoa", "– Kikherneitä"]
+        osastot = scrape.osastot_etuliitteista(rivit)
+        self.assertEqual([(o["nimi"], o["ruoat"]) for o in osastot], [
+            ("Lounas", ["Paneroitua hietakampelaa M & dippi", "Kukkakaali-kikherne muhennos", "– riisiä"]),
+            ("Keitto", ["Kaalikeitto"]),
+            ("Chef", ["Puna-ahventa"]),
+            ("Vegaaninen keittiöstä", ["Kasvispata"]),
+            ("Proteiinilisäkkeet punnittavaan salaattiin", ["Salaattijuustoa", "Kikherneitä"]),
         ])
+
+    def test_ilman_etuliitteita_ei_osastoja(self):
+        self.assertEqual(scrape.osastot_etuliitteista(["Makkarapannu", "Lohilasagnette"]),
+                         [{"nimi": "", "ruoat": ["Makkarapannu", "Lohilasagnette"]}])
+        p = scrape.siivoa_paiva(scrape.paiva_osastoista("Maanantai", scrape.osastot_etuliitteista(["Makkarapannu"])))
+        self.assertEqual(p, {"paiva": "Maanantai", "ruoat": ["Makkarapannu"]})
+
+    def test_siivoa_paiva_osastoilla(self):
+        p = scrape.paiva_osastoista("Maanantai", [
+            scrape.osasto("Buffet", ["Lihapullia M, G / Kasvispihvejä VEG", "Puuroa"]),
+            scrape.osasto("Grilli", ["Burgeri 13,80 €"]),
+            scrape.osasto("Tyhjä", []),
+        ])
+        self.assertEqual(scrape.siivoa_paiva(p), {
+            "paiva": "Maanantai",
+            "ruoat": ["Lihapullia", "Kasvispihvejä", "Burgeri"],
+            "osastot": [{"nimi": "Buffet", "ruoat": ["Lihapullia", "Kasvispihvejä"]},
+                        {"nimi": "Grilli", "ruoat": ["Burgeri"]}],
+        })
+
+    def test_kauttaviivajako(self):
+        self.assertEqual(scrape.jaa_vaihtoehdot("Naudanlihapataa M,G / Kala-äyriäiswok M / Kasvispyöryköitä"),
+                         ["Naudanlihapataa M,G", "Kala-äyriäiswok M", "Kasvispyöryköitä"])
+        self.assertEqual(scrape.jaa_vaihtoehdot("Kaurapuuro/oatmeal porridge"), ["Kaurapuuro/oatmeal porridge"])
+        self.assertEqual(scrape.siivoa_ruoka("Kanaa, yrtti-lohkoperunat & lämmin kasvis"),
+                         "Kanaa, yrtti-lohkoperunat & lämmin kasvis")
+        self.assertEqual(scrape.siivoa_ruoka("Lihapullat L KASVIS"), "Lihapullat")
+        self.assertEqual(scrape.siivoa_ruoka("Sitruuna-timjami beurre blanc #"), "Sitruuna-timjami beurre blanc")
+
+    def test_sodexo_osaston_nimi(self):
+        self.assertEqual(scrape._sodexo_osaston_nimi("Kitchen Buffet 13,80 €"), "Kitchen Buffet")
+        self.assertEqual(scrape._sodexo_osaston_nimi("FROM THE GRILL"), "Grilli")
+        self.assertEqual(scrape._sodexo_osaston_nimi("Special Grilli 13,80 /11,20 €"), "Special Grilli")
+        self.assertEqual(scrape._sodexo_osaston_nimi(" Pop Up Lunch 13,80 €"), "Pop Up Lunch")
+        self.assertEqual(scrape._sodexo_osaston_nimi(""), "Lounas")
+
+    def test_reaktori_osaston_nimi(self):
+        f = scrape._reaktori_osaston_nimi
+        self.assertEqual(f("So Green. (Kasvislounas)"), "Kasvislounas")
+        self.assertEqual(f("So Green Soup. (Linjastot 3-4)"), "Keitto")
+        self.assertEqual(f("So Good."), "So Good")
+        self.assertEqual(f("Pop Up Grill lounasannos 10:30 - 13:30 (Break Cafe)"), "Pop Up Grill")
+        self.assertEqual(f("So Fresh. (Salaattilounaan proteiini) (Linjastot 3-4)"), "Salaattilounaan proteiini")
 
 
 class Ravintolalista(unittest.TestCase):

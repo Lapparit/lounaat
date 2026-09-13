@@ -120,7 +120,10 @@ def normalisoi_paivat(paivat: list[dict]) -> list[dict]:
         nimi = normalisoi_paiva(p.get("paiva", ""))
         if nimi and nimi in PAIVA_NIMET and nimi not in nahdyt:
             nahdyt.add(nimi)
-            tulos.append({"paiva": nimi, "ruoat": p.get("ruoat", [])})
+            uusi = {"paiva": nimi, "ruoat": p.get("ruoat", [])}
+            if p.get("osastot"):
+                uusi["osastot"] = p["osastot"]
+            tulos.append(uusi)
     # Järjestä ma-pe
     tulos.sort(key=lambda p: PAIVA_NIMET.index(p["paiva"]))
     return tulos
@@ -269,11 +272,11 @@ def _siivoa_ruoka_kerran(rivi: str) -> str | None:
     # 4c) Yksittäinen isokirjaiminen koodi tai "Veg"/"Kasvis" lopussa
     s = re.sub(r"\s+[A-ZÄÖ]{1,4}\s*$", "", s)
     s = re.sub(r"\s+[Vv]eg\.?\s*$", "", s)
-    s = re.sub(r"\s+[Kk]asvis\s*$", "", s)
+    s = re.sub(r"(?:\s+KASVIS|,\s*[Kk]asvis)\s*$", "", s)
 
     # Siisti välilyönnit
     s = re.sub(r"\s+", " ", s).strip()
-    s = s.rstrip(",;:-")  # Joskus jää roikkumaan välimerkki
+    s = s.rstrip(",;:-#*")  # Joskus jää roikkumaan välimerkki tai huomautusmerkki
     # Rivinvaihdon takia katkennut sulku: "SPEAKEASYN LOHIBUFFET (" → ilman sulkua
     s = re.sub(r"\s*[(\[]\s*$", "", s)
     s = re.sub(r"^\s*[)\]]\s*", "", s)
@@ -290,14 +293,152 @@ def _siivoa_ruoka_kerran(rivi: str) -> str | None:
     return s
 
 
+def jaa_vaihtoehdot(rivi: str) -> list[str]:
+    """
+    Jakaa yhdelle riville kirjoitetut vaihtoehtoiset pääruoat omiksi riveikseen:
+    "Naudanlihapataa M,G / Kala-äyriäiswok M / Kasvispyöryköitä" → 3 riviä.
+    Jaetaan vain välilyönnein ympäröidystä kauttaviivasta ("vesi/maito" jää).
+    """
+    osat = [o.strip() for o in re.split(r"\s+/\s+", rivi)]
+    return [o for o in osat if o] or [rivi]
+
+
 def siivoa_ruoat(ruoat: list[str]) -> list[str]:
-    """Soveltaa siivoa_ruoka kaikkiin ruokariveihin, suodattaa Nonet pois."""
+    """Jakaa vaihtoehdot omille riveilleen, siivoaa ne ja suodattaa tyhjät pois."""
     tulos = []
     for r in ruoat:
-        siivottu = siivoa_ruoka(r)
-        if siivottu is not None:
-            tulos.append(siivottu)
+        for osa in jaa_vaihtoehdot(r):
+            siivottu = siivoa_ruoka(osa)
+            if siivottu is not None and siivottu not in tulos:
+                tulos.append(siivottu)
     return tulos
+
+
+def osasto(nimi: str, ruoat: list[str]) -> dict:
+    """Yksi listan osasto (esim. "Buffet", "Grilli", "Salaatti") ruokineen."""
+    return {"nimi": siivoa(nimi), "ruoat": list(ruoat)}
+
+
+def paiva_osastoista(paiva: str, osastot: list[dict]) -> dict:
+    """
+    Rakentaa päivän jossa ruoat on jaettu osastoihin. "ruoat" sisältää kaikki
+    rivit litteänä (haku ja vanhat asiakkaat), "osastot" säilyttää jaon.
+    """
+    osastot = [o for o in osastot if o.get("ruoat")]
+    return {
+        "paiva": paiva,
+        "ruoat": [r for o in osastot for r in o["ruoat"]],
+        "osastot": osastot,
+    }
+
+
+# Etuliitteet joita ravintolat käyttävät rivin alussa osoittamaan linjastoa:
+# "Keitto: Kaalikeitto", "Chef: Puna-ahventa...", "Keittiöstä: Fetasalaatti".
+OSASTO_ETULIITTEET = {
+    "keitto": "Keitto",
+    "keittolounas": "Keitto",
+    "chef": "Chef",
+    "chefin": "Chef",
+    "jälkiruoaksi": "Jälkiruoka",
+    "jälkiruoka": "Jälkiruoka",
+    "vegaaniruoka keittiöstä": "Vegaaninen keittiöstä",
+    "vegaaninen": "Vegaaninen",
+    "kasvis": "Kasvis",
+    "kasvisruoka": "Kasvis",
+    "keittiöstä": "Keittiöstä",
+    "salaatti": "Salaatti",
+    "salaattilounas": "Salaatti",
+    "grilli": "Grilli",
+    "grillistä": "Grilli",
+    "buffet": "Buffet",
+    "deli": "Deli",
+}
+
+
+def osastot_etuliitteista(rivit: list[str], oletus: str = "Lounas") -> list[dict]:
+    """
+    Jakaa rivit osastoihin rivin alun etuliitteen perusteella.
+
+    - "Keitto: Kaalikeitto"        → osasto "Keitto", rivi "Kaalikeitto"
+    - "Proteiinilisäkkeet ...:"    → seuraavat "– x"-rivit tähän osastoon
+    - "– riisiä"                   → edellisen rivin alarivi (sama osasto)
+    - muut rivit                   → oletus-osasto ("Lounas")
+
+    Jos kaikki rivit päätyvät oletusosastoon, palautetaan yksi nimetön
+    osasto (käyttöliittymä ei näytä väliotsikkoa).
+    """
+    osastot: list[dict] = []
+
+    def hae_osasto(nimi: str) -> dict:
+        for o in osastot:
+            if o["nimi"] == nimi:
+                return o
+        o = {"nimi": nimi, "ruoat": []}
+        osastot.append(o)
+        return o
+
+    listaosasto: str | None = None  # "Otsikko:"-rivin jälkeiset "– x"-rivit
+    edellinen_osasto: str = oletus
+    for raaka in rivit:
+        rivi = siivoa(raaka)
+        if not rivi:
+            continue
+        # Alarivi: kuuluu samaan osastoon kuin edellinen (tai listaotsikon osastoon)
+        if re.match(r"^[–\-•]\s*\S", rivi):
+            if listaosasto:
+                # "Otsikko:"-rivin alla viiva on luettelomerkki → pois
+                hae_osasto(listaosasto)["ruoat"].append(re.sub(r"^[–\-•]\s*", "", rivi))
+            else:
+                hae_osasto(edellinen_osasto)["ruoat"].append(rivi)
+            continue
+        # "Otsikko:" ilman sisältöä → seuraavat alarivit tähän osastoon
+        if rivi.endswith(":") and len(rivi) < 60:
+            listaosasto = rivi.rstrip(":").strip()
+            edellinen_osasto = listaosasto
+            hae_osasto(listaosasto)
+            continue
+        # "Etuliite: ruoka"
+        m = re.match(r"^([A-Za-zÄÖÅäöå][\wÄÖÅäöå \-]{1,30}):\s+(.+)$", rivi)
+        if m and m.group(1).strip().lower() in OSASTO_ETULIITTEET:
+            listaosasto = None
+            nimi = OSASTO_ETULIITTEET[m.group(1).strip().lower()]
+            hae_osasto(nimi)["ruoat"].append(m.group(2).strip())
+            edellinen_osasto = nimi
+            continue
+        if listaosasto:
+            # "Otsikko:"-rivin jälkeiset rivit kuuluvat otsikon osastoon
+            # (Fastelle: "Proteiinilisäkkeet punnittavaan salaattiin:" + rivit)
+            hae_osasto(listaosasto)["ruoat"].append(rivi)
+            continue
+        hae_osasto(oletus)["ruoat"].append(rivi)
+        edellinen_osasto = oletus
+
+    osastot = [o for o in osastot if o["ruoat"]]
+    if len(osastot) <= 1:
+        return [{"nimi": "", "ruoat": osastot[0]["ruoat"]}] if osastot else []
+    # Oletusosasto ensin
+    osastot.sort(key=lambda o: 0 if o["nimi"] == oletus else 1)
+    return osastot
+
+
+def siivoa_paiva(p: dict) -> dict | None:
+    """Siivoaa päivän ruoat (ja osastot). Palauttaa None jos mitään ei jää."""
+    if p.get("osastot"):
+        osastot = []
+        for o in p["osastot"]:
+            puhtaat = siivoa_ruoat(o.get("ruoat", []))
+            if puhtaat:
+                osastot.append({"nimi": o.get("nimi", ""), "ruoat": puhtaat})
+        if not osastot:
+            return None
+        ruoat = [r for o in osastot for r in o["ruoat"]]
+        if len(osastot) == 1 and not osastot[0]["nimi"]:
+            return {"paiva": p["paiva"], "ruoat": ruoat}
+        return {"paiva": p["paiva"], "ruoat": ruoat, "osastot": osastot}
+    puhtaat = siivoa_ruoat(p.get("ruoat", []))
+    if not puhtaat:
+        return None
+    return {"paiva": p["paiva"], "ruoat": puhtaat}
 
 
 # =====================================================
@@ -331,6 +472,7 @@ def scrape_speakeasy() -> list[dict]:
         elif nykyinen:
             rivit = [r.strip() for r in pala.split("\n") if r.strip()]
             ruoat = []
+            otsikko = ""
             for rivi in rivit:
                 # Allergeeniselite ("L = laktoositon", "G=gluteeniton")
                 # tai à la carte -osio päättää päivän listan
@@ -338,9 +480,17 @@ def scrape_speakeasy() -> list[dict]:
                     break
                 if len(rivi) < 4:
                     continue
+                # "SPEAKEASYN LOHIBUFFET (L)" → päivän buffetin nimi väliotsikoksi
+                if "BUFFET" in rivi.upper() and rivi.upper() == rivi.upper() and len(rivi) < 40 \
+                        and re.sub(r"[^A-Za-zÄÖÅäöå]", "", rivi).isupper():
+                    otsikko = re.sub(r"\s*\(.*$", "", rivi).strip().capitalize()
+                    continue
                 ruoat.append(rivi)
             if ruoat:
-                paivat.append({"paiva": nykyinen, "ruoat": ruoat[:6]})
+                if otsikko:
+                    paivat.append(paiva_osastoista(nykyinen, [osasto(otsikko, ruoat[:6])]))
+                else:
+                    paivat.append({"paiva": nykyinen, "ruoat": ruoat[:6]})
             nykyinen = None
     return paivat
 
@@ -376,17 +526,27 @@ def _parsi_lounastaja(data: dict) -> list[dict]:
     for day in viikko.get("days", []):
         if day.get("isHidden") or day.get("isClosed"):
             continue
-        ruoat = []
+        keitto, lounas_, kasvis = [], [], []
         for lounas in day.get("lunches", []):
             nimi = siivoa(((lounas.get("title") or {}).get("fi") or ""))
             kuvaus = siivoa(((lounas.get("description") or {}).get("fi") or ""))
             if not nimi:
                 continue
-            ruoat.append(f"{nimi} – {kuvaus}" if kuvaus else nimi)
-        if ruoat:
+            rivi = f"{nimi} – {kuvaus}" if kuvaus else nimi
+            koodit = {((a.get("abbreviation") or {}).get("fi") or "").upper()
+                      for a in lounas.get("allergens", [])}
+            if "keitto" in nimi.lower():
+                keitto.append(rivi)
+            elif koodit & {"K", "VEG"}:
+                kasvis.append(rivi)
+            else:
+                lounas_.append(rivi)
+        if keitto or lounas_ or kasvis:
             # dateString ("2026-09-14") → normalisoi_paiva tunnistaa viikonpäivän
-            paivat.append({"paiva": day.get("dateString") or (day.get("dayName") or {}).get("fi", ""),
-                           "ruoat": ruoat})
+            paiva = day.get("dateString") or (day.get("dayName") or {}).get("fi", "")
+            paivat.append(paiva_osastoista(paiva, [osasto("Keitto", keitto),
+                                                   osasto("Lounas", lounas_),
+                                                   osasto("Kasvis", kasvis)]))
     return paivat
 
 
@@ -487,32 +647,39 @@ def _parsi_reaktori_json(html: str) -> list[dict]:
 
     paivat = []
     for menu in (data.get("weekMenu") or {}).get("menus", []):
-        ruoat = []
+        osastot: list[dict] = []
         for paketti in menu.get("menuPackages", []):
             nimi = (paketti.get("name") or "").strip()
-            nimi_l = nimi.lower()
-            if any(o in nimi_l for o in REAKTORI_OHITA):
+            if any(o in nimi.lower() for o in REAKTORI_OHITA):
                 continue
             ateriat = [_reaktori_siivoa_nimi(a.get("name") or "")
                        for a in paketti.get("meals", [])]
             ateriat = [a for a in ateriat if a]
             if not ateriat:
                 continue
-            rivi = ", ".join(ateriat)
-            if "pop up grill" in nimi_l:
-                rivi = "Pop Up Grill: " + rivi
-            elif "soup" in nimi_l or "keitto" in nimi_l:
-                rivi = "Keitto: " + rivi
-            elif "salaattilounaan" in nimi_l or "salaattilounas" in nimi_l:
-                rivi = "Salaattilounas: " + rivi
-            elif "vegan" in nimi_l:
-                rivi = "Vegaaninen: " + rivi
-            elif "green" in nimi_l or "kasvis" in nimi_l:
-                rivi = "Kasvis: " + rivi
-            ruoat.append(rivi)
-        if ruoat:
-            paivat.append({"paiva": menu.get("date", ""), "ruoat": ruoat[:8]})
+            osastot.append(osasto(_reaktori_osaston_nimi(nimi), ateriat))
+        if osastot:
+            paivat.append(paiva_osastoista(menu.get("date", ""), osastot))
     return paivat
+
+
+def _reaktori_osaston_nimi(nimi: str) -> str:
+    """
+    "So Green. (Kasvislounas)" → "Kasvislounas", "So Green Soup. (Linjastot 3-4)"
+    → "Keitto", "So Good." → "So Good", "Pop Up Grill lounasannos 10:30 - 13:30
+    (Break Cafe)" → "Pop Up Grill".
+    """
+    n = siivoa(nimi)
+    nl = n.lower()
+    if "pop up grill" in nl:
+        return "Pop Up Grill salaatti" if "salaatti" in nl else "Pop Up Grill"
+    if "soup" in nl or "keitto" in nl:
+        return "Keitto"
+    sulut = re.findall(r"\(([^)]*)\)", n)
+    kuvaus = next((x.strip() for x in sulut if not x.lower().startswith("linjasto")), "")
+    if kuvaus:
+        return kuvaus
+    return re.sub(r"\s*\(.*?\)", "", n).strip().rstrip(".")
 
 
 def scrape_reaktori() -> list[dict]:
@@ -576,7 +743,7 @@ def scrape_linkosuo(url: str) -> list[dict]:
             teksti = dd.get_text("\n", strip=True)
             ruoat = [r.strip() for r in teksti.split("\n") if r.strip()]
             if paiva and ruoat:
-                paivat.append({"paiva": paiva, "ruoat": ruoat})
+                paivat.append(paiva_osastoista(paiva, osastot_etuliitteista(ruoat)))
     return paivat
 
 
@@ -605,8 +772,13 @@ def scrape_fastelle() -> list[dict]:
 
             ruoat = [r.strip() for r in teksti.split("\n") if r.strip()]
             ruoat = [r for r in ruoat if r and r != "*" and r != "**"]
+            # Fastelle merkitsee pääruoat ajatusviivalla ("– Lasagnea"); ne ovat
+            # tavallisia rivejä, eivät edellisen rivin alarivejä.
+            ruoat = [re.sub(r"^[–\-•]\s*", "", r) for r in ruoat]
             if paiva and ruoat:
-                paivat.append({"paiva": paiva, "ruoat": ruoat})
+                # "Proteiinilisäkkeet punnittavaan salaattiin:" + "– x"-rivit
+                # → oma osasto; muut rivit "Lounas"
+                paivat.append(paiva_osastoista(paiva, osastot_etuliitteista(ruoat)))
     return paivat
 
 
@@ -623,15 +795,35 @@ def scrape_sodexo(rajapinta_id: int) -> list[dict]:
 
     paivat = []
     for paiva in data.get("mealdates", []):
-        ruoat = []
-        for kategoria in paiva.get("courses", {}).values():
-            nimi = (kategoria.get("title_fi") or kategoria.get("title_en") or "").strip()
+        osastot: list[dict] = []
+        for kurssi in paiva.get("courses", {}).values():
+            nimi = (kurssi.get("title_fi") or kurssi.get("title_en") or "").strip()
             nimi = re.sub(r"^\*\s*", "", nimi).strip()
-            if nimi:
-                ruoat.append(nimi)
-        if ruoat:
-            paivat.append({"paiva": paiva.get("date", ""), "ruoat": ruoat})
+            if not nimi or nimi in ("-", "–"):
+                continue
+            linjasto = _sodexo_osaston_nimi(kurssi.get("category") or "")
+            kohde = next((o for o in osastot if o["nimi"] == linjasto), None)
+            if kohde is None:
+                kohde = {"nimi": linjasto, "ruoat": []}
+                osastot.append(kohde)
+            kohde["ruoat"].append(nimi)
+        if osastot:
+            paivat.append(paiva_osastoista(paiva.get("date", ""), osastot))
     return paivat
+
+
+def _sodexo_osaston_nimi(category: str) -> str:
+    """
+    Sodexon linjaston nimi siistittynä: "Kitchen Buffet 13,80 €" → "Kitchen Buffet",
+    "FROM THE GRILL" → "Grilli", " Pop Up Lunch 13,80 €" → "Pop Up Lunch".
+    """
+    c = siivoa(category)
+    c = re.sub(r"\s*\d+[,.]\d+\s*(?:/\s*\d+[,.]\d+\s*)?€?\s*$", "", c).strip()
+    if not c:
+        return "Lounas"
+    if c.upper() == c:  # "FROM THE GRILL"
+        c = "Grilli" if "GRILL" in c else c.capitalize()
+    return c
 
 
 def scrape_hermian_farmi() -> list[dict]:
@@ -671,10 +863,10 @@ def scrape_hermian_farmi() -> list[dict]:
         "Thursday": "Torstai", "Friday": "Perjantai",
     }
 
-    # Hyväksyttävät kategoriat
-    hyvaksytyt = ("pääruo", "grill", "deli", "pizza", "kasvis", "keitto")
-    # Skipataan jälkkärit ja kaverit-linjat
-    hylataan = ("jälkiruo", "kaveri")
+    # Hyväksyttävät kategoriat (h5-otsikot). Hintaotsikot ("13,80 €") toistavat
+    # edellisen listan, ne ohitetaan.
+    hyvaksytyt = ("pääruo", "grill", "deli", "pizza", "kasvis", "keitto", "kaveri", "jälkiruo")
+    hylataan: tuple[str, ...] = ()
 
     # Sanat joista ruoan nimen jälkeen tulee info-osio
     # (järjestys ei ole tärkeä: etsitään AIKAISIN esiintymä)
@@ -693,9 +885,10 @@ def scrape_hermian_farmi() -> list[dict]:
         panel = soup.find(id=f"panel-{eng}")
         if not panel:
             continue
-        ruoat = []
+        osastot: list[dict] = []
         for h5 in panel.find_all("h5"):
-            ryhma = siivoa(h5.get_text()).lower()
+            ryhma_nimi = siivoa(h5.get_text())
+            ryhma = ryhma_nimi.lower()
             if not any(k in ryhma for k in hyvaksytyt):
                 continue
             if any(k in ryhma for k in hylataan):
@@ -703,6 +896,7 @@ def scrape_hermian_farmi() -> list[dict]:
             ul = h5.find_next("ul")
             if not ul:
                 continue
+            ruoat: list[str] = []
             for li in ul.find_all("li", recursive=False):
                 # Otetaan li:n KOKO teksti
                 teksti = li.get_text(separator=" ", strip=True)
@@ -726,19 +920,14 @@ def scrape_hermian_farmi() -> list[dict]:
 
                 if not ruoan_nimi or len(ruoan_nimi) < 4:
                     continue
+                if ruoan_nimi not in ruoat:
+                    ruoat.append(ruoan_nimi)
 
-                ruoat.append(ruoan_nimi)
+            if ruoat and not any(o["nimi"] == ryhma_nimi for o in osastot):
+                osastot.append(osasto(ryhma_nimi, ruoat[:8]))
 
-        # Poista duplikaatit järjestyksen säilyen
-        nahdyt = set()
-        ruoat_uniq = []
-        for r in ruoat:
-            if r not in nahdyt:
-                nahdyt.add(r)
-                ruoat_uniq.append(r)
-
-        if ruoat_uniq:
-            paivat.append({"paiva": fi, "ruoat": ruoat_uniq[:10]})
+        if osastot:
+            paivat.append(paiva_osastoista(fi, osastot))
 
     return paivat
 
@@ -907,7 +1096,13 @@ def _parsi_munkki_teksti(teksti: str) -> list[dict]:
     paivat = []
     for p in JARJESTYS:
         if p in paivat_dict and paivat_dict[p]:
-            paivat.append({"paiva": p, "ruoat": paivat_dict[p][:6]})
+            rivit = paivat_dict[p][:6]
+            keitot = [r for r in rivit if "keitto" in r.lower()]
+            muut = [r for r in rivit if "keitto" not in r.lower()]
+            if keitot and muut:
+                paivat.append(paiva_osastoista(p, [osasto("Keitto", keitot), osasto("Lounas", muut)]))
+            else:
+                paivat.append({"paiva": p, "ruoat": rivit})
     return paivat
 
 
@@ -1003,7 +1198,29 @@ def scrape_osku() -> list[dict]:
     if nykyinen_paiva and nykyiset_ruoat:
         paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat})
 
-    return paivat
+    return [_osku_osastot(p) for p in paivat]
+
+
+def _osku_osastot(paiva: dict) -> dict:
+    """
+    Oskun rivit ovat aina samassa järjestyksessä: pääruoka (/ vaihtoehto),
+    kasvisruoka, "Delisalaatti (...) & keitto", jälkiruoka "/ hedelmä".
+    """
+    lounas, deli, jalkiruoka = [], [], []
+    for r in paiva["ruoat"]:
+        r = re.sub(r"\s*/\s*hedelmä\s*$", " tai hedelmä", r, flags=re.I)
+        rl = r.lower()
+        if rl.startswith("delisalaatti") or "delisalaatti" in rl:
+            deli.append(r)
+        elif re.search(r"\bhedelmä\s*$", rl) or re.search(r"rahka|mousse|kiisseli|smoothie|vanukas|jälkiruo", rl):
+            jalkiruoka.append(r)
+        else:
+            lounas.append(r)
+    if not deli and not jalkiruoka:
+        return paiva
+    return paiva_osastoista(paiva["paiva"], [osasto("Lounas", lounas),
+                                             osasto("Delisalaatti & keitto", deli),
+                                             osasto("Jälkiruoka", jalkiruoka)])
 
 
 def scrape_aito_kotilounas() -> list[dict]:
@@ -1139,7 +1356,7 @@ def _parsi_aito_html(soup: BeautifulSoup) -> list[dict]:
     def lopeta_paiva():
         nonlocal nykyinen, ruoat
         if nykyinen and ruoat:
-            paivat.append({"paiva": nykyinen, "ruoat": ruoat[:8]})
+            paivat.append(paiva_osastoista(nykyinen, osastot_etuliitteista(ruoat[:8])))
         nykyinen, ruoat = None, []
 
     for el in soup.find_all(["p", "li", "h2", "h3", "h4"]):
@@ -1367,7 +1584,21 @@ def scrape_caffitella() -> list[dict]:
     if nykyinen_paiva and nykyiset_ruoat:
         paivat.append({"paiva": nykyinen_paiva, "ruoat": nykyiset_ruoat[:6]})
 
-    return paivat
+    return [_caffitella_osastot(p) for p in paivat]
+
+
+def _caffitella_osastot(paiva: dict) -> dict:
+    """Caffitella: "(annosruoka ei sis. buffettiin)" -rivit omaan osastoon."""
+    buffet, annokset = [], []
+    for r in paiva["ruoat"]:
+        if "annosruoka" in r.lower():
+            annokset.append(re.sub(r"\s*\(annosruoka[^)]*\)", "", r, flags=re.I).strip())
+        else:
+            buffet.append(r)
+    if not annokset:
+        return paiva
+    return paiva_osastoista(paiva["paiva"], [osasto("Buffet", buffet),
+                                             osasto("Annosruoat (ei sis. buffettiin)", annokset)])
 
 
 # ============================================================
@@ -1533,9 +1764,9 @@ def main():
                 # ja pudota päivät joilla ei jäänyt yhtään ruokaa
                 siivotut = []
                 for p in normalisoidut:
-                    puhtaat = siivoa_ruoat(p["ruoat"])
-                    if puhtaat:
-                        siivotut.append({"paiva": p["paiva"], "ruoat": puhtaat})
+                    puhdas = siivoa_paiva(p)
+                    if puhdas:
+                        siivotut.append(puhdas)
                 rivi["paivat"] = siivotut
                 print(f"  -> {len(rivi['paivat'])} päivää löytyi")
             except Exception as e:
