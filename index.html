@@ -3,64 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#faf6ef" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1a1a1c" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f3eee4">
 <title>Lähilounaat Tampere</title>
 <style>
   * { box-sizing: border-box; }
 
-  /* VAALEA TEEMA — kerma + sammalvihreä */
+  /* TEEMA — lämmin pellava + sammalvihreä. Vain vaalea; ei puhdasta valkoista. */
   :root {
-    --bg:            #faf6ef;
-    --bg-elev:       rgba(250, 246, 239, 0.92);
-    --bg-card:       #ffffff;
-    --bg-card-soft:  #f5f0e6;
-    --bg-input:      #ffffff;
-    --border:        #e8e0d0;
-    --border-strong: #d8cdb8;
-    --divider:       #efe8da;
-    --text:          #2d2a24;
-    --text-2:        #5a5448;
-    --text-3:        #8a857a;
-    --accent:        #4a6b58;
-    --accent-strong: #3b5847;
-    --accent-bg:     #e3eee5;
-    --accent-text:   #2d4936;
-    --on-accent:     #ffffff;
-    --star:          #d99a1e;
-    --warn-bg:       #fdf3dc;
-    --warn-text:     #7a5a12;
-    --err:           #b94a48;
-    --shadow:        0 1px 2px rgba(60, 50, 30, 0.06), 0 6px 18px -10px rgba(60, 50, 30, 0.25);
+    color-scheme: light;
+    --bg:            #f3eee4;
+    --bg-elev:       rgba(243, 238, 228, 0.92);
+    --bg-card:       #faf7f0;
+    --bg-card-soft:  #efe9dc;
+    --bg-input:      #faf7f0;
+    --border:        #e2dac9;
+    --border-strong: #cfc4ad;
+    --divider:       #e9e2d3;
+    --text:          #33302a;
+    --text-2:        #605a4e;
+    --text-3:        #8a8478;
+    --accent:        #4f6f5c;
+    --accent-strong: #3f5c4a;
+    --accent-bg:     #dfe9df;
+    --accent-text:   #32503e;
+    --on-accent:     #f7f5ee;
+    --star:          #c9932a;
+    --warn-bg:       #f4e9cf;
+    --warn-text:     #6f5416;
+    --err:           #a8524f;
+    --shadow:        0 1px 2px rgba(70, 60, 40, 0.05), 0 6px 16px -10px rgba(70, 60, 40, 0.22);
     --radius:        14px;
-  }
-
-  /* TUMMA TEEMA — neutraali harmaa + sammalvihreä */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg:            #1a1a1c;
-      --bg-elev:       rgba(26, 26, 28, 0.92);
-      --bg-card:       #24252a;
-      --bg-card-soft:  #1f2024;
-      --bg-input:      #2a2b30;
-      --border:        #33343a;
-      --border-strong: #44454c;
-      --divider:       #2f3036;
-      --text:          #e6e3dd;
-      --text-2:        #b8b0a4;
-      --text-3:        #8c877f;
-      --accent:        #9bb5a4;
-      --accent-strong: #b3cbbb;
-      --accent-bg:     #2a3530;
-      --accent-text:   #c4dccb;
-      --on-accent:     #15201a;
-      --star:          #e6b447;
-      --warn-bg:       #3a3220;
-      --warn-text:     #ead9a8;
-      --err:           #e08c8a;
-      --shadow:        0 1px 2px rgba(0,0,0,0.3), 0 8px 20px -12px rgba(0,0,0,0.6);
-    }
   }
 
   html { -webkit-text-size-adjust: 100%; }
@@ -318,6 +291,18 @@
     opacity: 0.7;
   }
   ul.ruoat li.osasto::before { display: none; }
+  ul.ruoat li.valiotsikko {
+    padding: 0.7rem 0 0.2rem;
+    border-top: 0;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--accent-text);
+  }
+  ul.ruoat li.valiotsikko::before { display: none; }
+  ul.ruoat li.valiotsikko:first-child { padding-top: 0.1rem; }
+  ul.ruoat li.valiotsikko + li { border-top: 0; }
   ul.ruoat li.alarivi {
     border-top: 0;
     padding: 0.05rem 0 0.3rem 1.9rem;
@@ -517,8 +502,11 @@ function korosta(teksti, q) {
   return e.slice(0, i) + "<mark>" + e.slice(i, i + qe.length) + "</mark>" + e.slice(i + qe.length);
 }
 function onMenu(r) { return r.paivat && r.paivat.length > 0; }
+function paivanTiedot(r, idx) {
+  return (r.paivat || []).find(p => paivanIndeksi(p.paiva) === idx) || null;
+}
 function paivanRuoat(r, idx) {
-  const p = (r.paivat || []).find(p => paivanIndeksi(p.paiva) === idx);
+  const p = paivanTiedot(r, idx);
   return p ? p.ruoat : null;
 }
 
@@ -573,6 +561,13 @@ function siistiRivi(r) {
   return r;
 }
 
+function rendoiOsastot(osastot, q) {
+  return osastot.map(o => {
+    const otsikko = o.nimi ? `<li class="valiotsikko">${escapoi(o.nimi)}</li>` : "";
+    return otsikko + rendoiRuoat(o.ruoat, q);
+  }).join("");
+}
+
 function rendoiRuoat(ruoat, q) {
   return ruoat.map(rivi => {
     // "– riisiä" tai "- Salaattijuustoa" → edellisen ruoan alarivi
@@ -611,7 +606,11 @@ function rendoiKortti(r, q) {
       : `<p class="huom">${escapoi(r.huom || "Lounaslistaa ei löytynyt.")}</p>`;
     sisalto = teksti + `<a class="linkkinappi" href="${escapoi(r.url)}" target="_blank" rel="noopener">Avaa lounaslista ${SVG_ULOS}</a>`;
   } else if (ruoat) {
-    sisalto = `<ul class="ruoat">${rendoiRuoat(ruoat, q)}</ul>`;
+    const tiedot = paivanTiedot(r, tila.paiva);
+    const sisus = tiedot.osastot && tiedot.osastot.length
+      ? rendoiOsastot(tiedot.osastot, q)
+      : rendoiRuoat(ruoat, q);
+    sisalto = `<ul class="ruoat">${sisus}</ul>`;
   } else {
     sisalto = `<p class="huom">Ei listaa ${PAIVAT_NIMI[tila.paiva].toLowerCase().replace(/i$/, "ille").replace(/o$/, "olle")}.</p>`;
   }
