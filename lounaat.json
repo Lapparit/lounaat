@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-13T16:35:35.345433+00:00",
+  "paivitetty": "2026-09-13T16:51:00.706597+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -7,7 +7,56 @@
       "kategoria": 1,
       "url": "https://www.aitokotilounas.fi/lounaslista/",
       "huom": "",
-      "paivat": []
+      "paivat": [
+        {
+          "paiva": "Maanantai",
+          "ruoat": [
+            "Lohileikettä sitruuna-tillikastikkeella ja muusia",
+            "Italialainen parmesanpasta",
+            "Kermaista kanapataa ja riisiä",
+            "Suklaarahkaa",
+            "Keittiöstä: Fetasalaatti"
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Naudan sisäfilettä punaviinikastikkeella ja valkosipuliperunaa",
+            "Yrttimarinoitua kanankoipea uunista, pippurikastiketta ja muusia",
+            "Mustikkapiirakkaa ja vaniljakastiketta",
+            "Keittiöstä: Tonnikalasalaatti"
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Pyttipannua ja paistettua kananmunaa",
+            "Tonnikalapastaa",
+            "Kanaa Igorin tapaan ja riisiä",
+            "Keittiöstä: Halloumisalaatti"
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Hernekeittoa",
+            "Matelikalaa ja muusia",
+            "Uunimakkaraa ja muusia",
+            "Chicken Tikka Masala ja riisiä",
+            "Keittiöstä: Mozzarellasalaatti"
+          ]
+        },
+        {
+          "paiva": "Perjantai",
+          "ruoat": [
+            "Wieninleikettä ja kermaperunaa",
+            "Kanawok",
+            "Kanafilettä currykastikkeella ja uunikasvikset",
+            "Mokkapaloja",
+            "Keittiöstä: Katkarapusalaatti"
+          ]
+        }
+      ]
     },
     {
       "nimi": "Caffitella",
@@ -653,35 +702,67 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Italialaisia kasvispyöryköitä 8kpl/annos kpl",
-            "Paahdettua perunaa",
-            "Harissajogurttia"
+            "Kasvis: Italialaisia kasvispyöryköitä, Paahdettua perunaa, Harissajogurttia",
+            "Keitto: Pinaattikeittoa, Keitetty kananmuna",
+            "Salaattilounas: Bbq-broileria",
+            "Makkarakastiketta, Tummaa riisiä",
+            "Kalapyörykät, Tartarjogurttia, Paahdettua perunaa",
+            "Pop Up Grill: Kanaa Kiovan tapaan, Pestorossojogurttia, Lämmintä perunasalaattia ja pikkelöityä punasipulia, Satokauden kasviksia",
+            "Pop Up Grill: Buffalomozzarellasalaattia"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kanaton kukkakaali-punajuurigratiini ja paahdettuja siemeniä"
+            "Vegaaninen: Kanaton kukkakaali-punajuurigratiini ja paahdettuja siemeniä",
+            "Keitto: Tomaattikeittoa",
+            "Salaattilounas: Bbq-broileria",
+            "Savupalvi-pekonipastaa (Gluteeniton vaihtoehto savupalvi-pekonikastike ja riisi)",
+            "Mausteista broileripataa - Broileripataa Mexicali, Tummaa riisiä",
+            "Pop Up Grill: Kanaa Kiovan tapaan, Pestorossojogurttia, Lämmintä perunasalaattia ja pikkelöityä punasipulia, Satokauden kasviksia",
+            "Pop Up Grill: Buffalomozzarellasalaattia"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Tofua, kasviksia ja pähkinää -Tahu goreng Indonesia",
-            "Tummaa riisiä"
+            "Vegaaninen: Tofua, kasviksia ja pähkinää -Tahu goreng Indonesia, Tummaa riisiä",
+            "Keitto: Linssi-kikhernekeitto Berkoukeh",
+            "Salaattilounas: Salaattijuustoa",
+            "Aasialainen kalapihvi, Paahdettua perunaa",
+            "Broilerinugetteja, Currymajoneesia, Paahdettua perunaa",
+            "Pop Up Grill: Spicy Pulled Pork Hot Dog, Maalaisranskalaisia, BBQ -majoneesia",
+            "Pop Up Grill: Aasialainen broileri-nuudelisalaatti"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kasvisnakkistroganoffia (vegaaninen vaihtoehto italialaiset kasvispyörykät)",
-            "Paahdettua perunaa"
+            "Kasvis: Kasvisnakkistroganoffia (vegaaninen vaihtoehto italialaiset kasvispyörykät), Paahdettua perunaa",
+            "Keitto: Kukkakaalisosekeittoa",
+            "Salaattilounas: Fetajuustoa",
+            "Kalacurrya ja maapähkinää, Tummaa riisiä",
+            "Italialaista jauheliha-cappelipastaa",
+            "Pop Up Grill: Briossi BRG Spicy Pulled Pork, Maalaisranskalaisia, BBQ -majoneesia",
+            "Pop Up Grill: Aasialainen broileri-nuudelisalaatti"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "BBQ maustettua Unlimited® jauhismuru pastaa (gluteeniton ja vegaaninen Unlimited® jauhismurukastike saatavilla)"
+            "Kasvis: BBQ maustettua Unlimited® jauhismuru pastaa (gluteeniton ja vegaaninen Unlimited® jauhismurukastike saatavilla)",
+            "Keitto: Yrttistä porkkanasosekeittoa",
+            "Salaattilounas: Lämminsavukirjolohta",
+            "Jauhelihakebakot, Tartarjogurttia, Paahdettua perunaa",
+            "Pop Up Grill: Briossi BRG Spicy Pulled Pork, Maalaisranskalaisia, BBQ -majoneesia",
+            "Pop Up Grill: Aasialainen broileri-nuudelisalaatti"
+          ]
+        },
+        {
+          "paiva": "Lauantai",
+          "ruoat": [
+            "Vegaaninen: Marokkolaisia kasvispihvejä, Chiligurttia, Paahdettua perunaa",
+            "Broileria ja penneä limonellokastikkeessa (Gluteeniton vaihtoehto saatavilla)"
           ]
         }
       ]
