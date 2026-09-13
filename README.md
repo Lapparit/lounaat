@@ -124,12 +124,11 @@ Tila tarkistettu 13.9.2026 GitHub Actions -lokeista ja tallennetusta datasta:
 | Ravintola Osku | ✅ Toimii | Oma sivu |
 | Ruskon Helmi | ✅ Toimii | Oma sivu |
 | Hertta | ✅ Toimii | Linkosuo |
-| Kontukeittiö | ✅ Toimii arkisin (viikonloppuna lounaat.info ei vielä näytä uutta viikkoa) | Lounaat.info |
+| Kontukeittiö | ✅ Toimii (oman sivun Lounastaja-widgetin rajapinta, lounaat.info varalla) | Oma sivu |
 | Orvokki | ✅ Toimii | Linkosuo |
 | Reaktori | ✅ Toimii (sivun upotettu JSON) | Compass Group |
 | Sisu | ✅ Toimii arkisin (viikonloppuna lounaat.info ei vielä näytä uutta viikkoa) | Lounaat.info |
 | Speakeasy | ✅ Toimii | Oma sivu |
-| Gate of India | 🔗 Vain linkki | — |
 | Heval | 🔗 Vain linkki | — |
 | Malabadi | 🔗 Vain linkki | — |
 | Malakai | 🔗 Vain linkki | — |
