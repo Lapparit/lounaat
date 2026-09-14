@@ -407,6 +407,34 @@
   footer a { color: var(--accent); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
 
+  /* Sivun alkuun -nappi oikeassa alanurkassa. Näkyy vasta kun sivua on
+     rullattu alaspäin (app.js lisää luokan "nakyvissa"). */
+  .ylos {
+    position: fixed;
+    right: max(1rem, env(safe-area-inset-right));
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    z-index: 20;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid var(--accent-strong);
+    background: var(--accent);
+    color: var(--on-accent);
+    box-shadow: 0 2px 4px rgba(50, 40, 20, 0.15), 0 8px 20px -8px rgba(50, 40, 20, 0.4);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(12px);
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.2s, background 0.15s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .ylos.nakyvissa { opacity: 1; transform: none; pointer-events: auto; }
+  .ylos:hover { background: var(--accent-strong); }
+  .ylos svg { width: 22px; height: 22px; }
+
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; }
   }
@@ -445,6 +473,10 @@
   <a href="https://lounaat.info" target="_blank" rel="noopener">lounaat.infosta</a>.
   Tarkista aina ravintolan sivulta.
 </footer>
+
+<button id="ylos" class="ylos" type="button" aria-label="Takaisin sivun alkuun" title="Sivun alkuun">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
 
 <script src="app.js"></script>
 </body>
