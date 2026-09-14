@@ -236,6 +236,41 @@ class Kontukeittio(unittest.TestCase):
         self.assertEqual(paivat, [{"paiva": "Maanantai 14.9.", "ruoat": ["Kaalikeittoa"]}])
 
 
+class Fastelle(unittest.TestCase):
+    HTML = """<dl><dt>Maanantai 14.09.</dt><dd>Kaurapuuro/oatmeal porridge &amp;<br>
+Punnittava aamiaisleipä/Breakfast bread to be weighed from 8:00 to 9:30<br><br>
+Lempiruokaviikko!<br><br>
+-Välimeren tomaattikeitto M,G,V<br><br>
+-Maissipaneroitua kananfilettä M,G<br>
+Ranch kastiketta L,G<br><br>
+-Lempiruokatoive: Perinteisiä kaalikääryleitä M,G,sipuli<br>
+Puolukkahillo M,G,V<br><br>
+*Proteiinit punnittavaan salaattiin:<br>
+– Keitettyä kananmunaa M,G,V<br>
+– Broileria (linjasta)<br>
+**<br>
+Favorite Food Week!<br>
+– Mediterranean tomato soup M,G,V</dd></dl>"""
+
+    def test_uusi_muoto(self):
+        with mock.patch.object(scrape, "hae_sivu", return_value=self.HTML):
+            paivat = [scrape.siivoa_paiva(p) for p in scrape.normalisoi_paivat(scrape.scrape_fastelle())]
+        self.assertEqual(len(paivat), 1)
+        self.assertEqual([(o["nimi"], o["ruoat"]) for o in paivat[0]["osastot"]], [
+            ("Lounas", ["Välimeren tomaattikeitto",
+                        "Maissipaneroitua kananfilettä", "– Ranch kastiketta",
+                        "Lempiruokatoive: Perinteisiä kaalikääryleitä", "– Puolukkahillo"]),
+            ("Proteiinit punnittavaan salaattiin", ["Keitettyä kananmunaa", "Broileria (linjasta)"]),
+        ])
+
+    def test_siivous(self):
+        self.assertIsNone(scrape.siivoa_ruoka("Lempiruokaviikko!"))
+        self.assertIsNone(scrape.siivoa_ruoka("Punnittava aamiaisleipä/Breakfast bread 8:00 to 9:30"))
+        self.assertEqual(scrape.siivoa_ruoka("Kermainen lohikiusaus L,G,sipuli"), "Kermainen lohikiusaus")
+        self.assertEqual(scrape.siivoa_ruoka("pannukakkua ja hilloa <3"), "pannukakkua ja hilloa")
+        self.assertEqual(scrape.siivoa_ruoka("Sipulikeitto"), "Sipulikeitto")
+
+
 class LounaatInfo(unittest.TestCase):
     def _aja(self, html):
         with mock.patch.object(scrape, "hae_sivu", return_value=html):

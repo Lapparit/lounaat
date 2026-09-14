@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-14T08:04:57.373372+00:00",
+  "paivitetty": "2026-09-14T08:54:04.365436+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Farmi",
@@ -608,7 +608,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -620,16 +620,14 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Punnittava aamiaisleipä/Breakfast bread to be weighed from 8:00 to 9:30",
-            "Lempiruokaviikko!",
             "Välimeren tomaattikeitto",
             "Maissipaneroitua kananfilettä",
-            "Ranch kastiketta",
-            "Lempiruokatoive: Perinteisiä kaalikääryleitä M,G,sipuli",
-            "Puolukkahillo",
-            "Paahdetut yrttiperunat",
-            "Paahdetut satokauden kasvikset",
-            "Säkylän kasvispyöryköitä M,G,V,sipuli",
+            "– Ranch kastiketta",
+            "Lempiruokatoive: Perinteisiä kaalikääryleitä",
+            "– Puolukkahillo",
+            "– Paahdetut yrttiperunat",
+            "– Paahdetut satokauden kasvikset",
+            "Säkylän kasvispyöryköitä",
             "Keitettyä kananmunaa",
             "Raejuustoa",
             "Broileria (linjasta)"
@@ -638,20 +636,18 @@
             {
               "nimi": "Lounas",
               "ruoat": [
-                "Punnittava aamiaisleipä/Breakfast bread to be weighed from 8:00 to 9:30",
-                "Lempiruokaviikko!",
                 "Välimeren tomaattikeitto",
                 "Maissipaneroitua kananfilettä",
-                "Ranch kastiketta",
-                "Lempiruokatoive: Perinteisiä kaalikääryleitä M,G,sipuli",
-                "Puolukkahillo",
-                "Paahdetut yrttiperunat",
-                "Paahdetut satokauden kasvikset",
-                "Säkylän kasvispyöryköitä M,G,V,sipuli"
+                "– Ranch kastiketta",
+                "Lempiruokatoive: Perinteisiä kaalikääryleitä",
+                "– Puolukkahillo",
+                "– Paahdetut yrttiperunat",
+                "– Paahdetut satokauden kasvikset",
+                "Säkylän kasvispyöryköitä"
               ]
             },
             {
-              "nimi": "*Proteiinit punnittavaan salaattiin",
+              "nimi": "Proteiinit punnittavaan salaattiin",
               "ruoat": [
                 "Keitettyä kananmunaa",
                 "Raejuustoa",
@@ -663,49 +659,45 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Punnittava aamiaisleipä/Breakfast bread to be weighed from 8:00 to 9:30",
             "Parsakaalisosekeitto tuorejuustolla",
             "Lempiruokatoive: Kirjolohimureketta",
-            "Tilli-kermaviilikastiketta",
+            "– Tilli-kermaviilikastiketta",
             "Marry me makaronilaatikko (Fastelle)",
             "Keitettyä riisiä",
-            "Paahdetut satokauden kasvikset",
+            "– Paahdetut satokauden kasvikset",
             "Kasvisrisotto Limonello – Sitruunaista risottoa belugalinsseillä"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Punnittava aamiaisleipä/Breakfast bread to be weighed from 8:00 to 9:30",
             "Kookos-porkkanakeitto",
             "Tuplapaneroidut kananpojan siivet",
-            "Sinihomejuustodippi",
+            "– Sinihomejuustodippi",
             "Lempiruokatoive: Perinteinen jauheliha-kaalilaatikko",
-            "Paahdetut satokauden kasvikset",
+            "– Paahdetut satokauden kasvikset",
             "Lempiruokatoive: Pad thai tofulla – Thaiklassikko; paistettuja nuudeleita tofulla"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Punnittava aamiaisleipä/Breakfast bread to be weighed from 8:00 to 9:30",
             "Perinteistä hernekeittoa palvikinkulla",
             "Lempiruokatoive: Paneroitua porsaanleikettä",
-            "Ananassalsa",
-            "Kermainen lohikiusaus L,G,sipuli",
+            "– Ananassalsa",
+            "Kermainen lohikiusaus",
             "Paahdetut satokauden kasvikset",
             "Vegepyttipannua",
-            "pannukakkua, kermavaahtoa ja hilloa <3"
+            "pannukakkua, kermavaahtoa ja hilloa"
           ],
           "osastot": [
             {
               "nimi": "Lounas",
               "ruoat": [
-                "Punnittava aamiaisleipä/Breakfast bread to be weighed from 8:00 to 9:30",
                 "Perinteistä hernekeittoa palvikinkulla",
                 "Lempiruokatoive: Paneroitua porsaanleikettä",
-                "Ananassalsa",
-                "Kermainen lohikiusaus L,G,sipuli",
+                "– Ananassalsa",
+                "Kermainen lohikiusaus",
                 "Paahdetut satokauden kasvikset",
                 "Vegepyttipannua"
               ]
@@ -713,7 +705,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "pannukakkua, kermavaahtoa ja hilloa <3"
+                "pannukakkua, kermavaahtoa ja hilloa"
               ]
             }
           ]
@@ -721,17 +713,16 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Punnittava aamiaisleipä/Breakfast bread to be weighed from 8:00 to 9:30",
             "Lempiruokatoive: Perinteinen lohikeitto",
             "Tex Mex jauheliha-nachovuoka",
-            "Pippuriset yrtti lohkoperunat",
-            "Paahdetut satokauden kasvikset",
+            "– Pippuriset yrtti lohkoperunat",
+            "– Paahdetut satokauden kasvikset",
             "Lempiruokatoive: Talon pinaattiletut",
-            "Puolukkahillo"
+            "– Puolukkahillo"
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -857,7 +848,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1063,7 +1054,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1178,7 +1169,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1342,7 +1333,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1389,7 +1380,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1403,7 +1394,7 @@
           "ruoat": [
             "Paneroitua kalaa & kurkkusalaatti dippiä",
             "– perunamuussia",
-            "Tomaattinen lihapullavuoka",
+            "Tomaattinen lihapullavuoka L, G SAA VEG Tomaattinen No chiken pata)",
             "Härkäpapu Borssi keitto",
             "BURGERIVIIKKO! Rapea kanaburgeri, avocado fraiche & ranskanperunat"
           ],
@@ -1413,7 +1404,7 @@
               "ruoat": [
                 "Paneroitua kalaa & kurkkusalaatti dippiä",
                 "– perunamuussia",
-                "Tomaattinen lihapullavuoka"
+                "Tomaattinen lihapullavuoka L, G SAA VEG Tomaattinen No chiken pata)"
               ]
             },
             {
@@ -1557,7 +1548,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1707,7 +1698,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1792,7 +1783,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2177,7 +2168,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2227,7 +2218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2304,7 +2295,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T08:04:57.373372+00:00"
+      "paivitetty": "2026-09-14T08:54:04.365436+00:00"
     }
   ]
 }
