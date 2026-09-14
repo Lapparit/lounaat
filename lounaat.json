@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-14T00:23:17.827338+00:00",
+  "paivitetty": "2026-09-14T05:21:32.025375+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Farmi",
@@ -608,7 +608,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -703,7 +703,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -717,8 +717,7 @@
           "ruoat": [
             "Kievin kanaa & currymajoneesia, basmatiriisiä",
             "Pinaatti-munakoisolasagnea, lehtikaali-kurpitsansiemensalaattia",
-            "Grillattua lohta & tzatzikia, tillivoissa pyöräytetyt perunat ja kauden kasviksia",
-            "Kanakookoskeittoa"
+            "Grillattua lohta & tzatzikia, tillivoissa pyöräytetyt perunat ja kauden kasviksia"
           ],
           "osastot": [
             {
@@ -731,8 +730,7 @@
             {
               "nimi": "Grilli",
               "ruoat": [
-                "Grillattua lohta & tzatzikia, tillivoissa pyöräytetyt perunat ja kauden kasviksia",
-                "Kanakookoskeittoa"
+                "Grillattua lohta & tzatzikia, tillivoissa pyöräytetyt perunat ja kauden kasviksia"
               ]
             }
           ]
@@ -831,7 +829,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1037,7 +1035,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1152,7 +1150,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1316,7 +1314,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1363,7 +1361,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1531,7 +1529,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1681,7 +1679,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1760,13 +1758,13 @@
           "ruoat": [
             "Orvokin oma: Possun rosvopaistia",
             "Mausteiset kanan koipinuijat",
-            "– BBQ-dippiä, sinihomejuustodippiä, bataattiranskalaisia",
+            "– BBQ-dippiä, sinihomejuustodippiä, bataattiranskalaisia…",
             "– salaattipöydästä kurkkutikkuja, porkkanatikkuja, coleslawia…",
             "Kahvin kanssa Orvokin tiramisu"
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2151,7 +2149,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2201,7 +2199,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2278,7 +2276,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-14T00:23:17.827338+00:00"
+      "paivitetty": "2026-09-14T05:21:32.025375+00:00"
     }
   ]
 }
