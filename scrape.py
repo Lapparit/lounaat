@@ -233,7 +233,7 @@ ALLERGEENISANAT = {
     "nivelelain", "siemen", "siemenet", "seesami", "seesaminsiemen", "pähkinä",
     "pähkinät", "maapähkinä", "maapähkinät",
     "lupiini", "simpukka", "simpukat", "sulfiitti", "sulfiitit",
-    "rikkidioksidi", "gluteeni",
+    "rikkidioksidi", "gluteeni", "sipuli", "valkosipuli",
     # Joskus listattuja: alkuperätietojen yhteydessä (jätetään pois suoraan)
 }
 
@@ -363,6 +363,7 @@ def _siivoa_ruoka_kerran(rivi: str) -> str | None:
     # Siisti välilyönnit
     s = re.sub(r"\s+", " ", s).strip()
     s = s.rstrip(",;:-#*")  # Joskus jää roikkumaan välimerkki tai huomautusmerkki
+    s = re.sub(r"\s*<3\s*$", "", s)  # sydän rivin lopussa
     # Rivinvaihdon takia katkennut sulku: "SPEAKEASYN LOHIBUFFET (" → ilman sulkua
     s = re.sub(r"\s*[(\[]\s*$", "", s)
     s = re.sub(r"^\s*[)\]]\s*", "", s)
@@ -370,10 +371,15 @@ def _siivoa_ruoka_kerran(rivi: str) -> str | None:
     if not s or len(s) < 4:
         return None
 
-    # 5) Pudota aamupala-/puurorivit (Hertta, Fastelle alkavat puurolla)
+    # 5) Pudota aamupala-/puurorivit (Hertta, Fastelle alkavat puurolla ja
+    #    aamiaisleivällä)
     s_lower = s.lower()
-    aamupala_avainsanat = ("puuro", "porridge")
+    aamupala_avainsanat = ("puuro", "porridge", "aamiais", "aamupala", "breakfast")
     if any(w in s_lower for w in aamupala_avainsanat):
+        return None
+
+    # 6) Pudota teemaviikon otsikot: "Lempiruokaviikko!", "Orvokin sadonkorjuuviikko"
+    if re.fullmatch(r"(?:\S+\s+){0,2}\S*viikko!?", s, flags=re.I):
         return None
 
     return s
@@ -479,7 +485,7 @@ def osastot_etuliitteista(rivit: list[str], oletus: str = "Lounas") -> list[dict
             continue
         # "Otsikko:" ilman sisältöä → seuraavat alarivit tähän osastoon
         if rivi.endswith(":") and len(rivi) < 60:
-            listaosasto = rivi.rstrip(":").strip()
+            listaosasto = rivi.rstrip(":").strip().lstrip("*–- ").strip()
             edellinen_osasto = listaosasto
             hae_osasto(listaosasto)
             continue
@@ -850,22 +856,75 @@ def scrape_fastelle() -> list[dict]:
         dd_lista = dl.find_all("dd")
         for dt, dd in zip(dt_lista, dd_lista):
             paiva = dt.get_text(" ", strip=True)
-            teksti = dd.get_text("\n", strip=True)
-
+            # Tyhjät rivit (kaksi <br>) säilytetään: ne erottavat ruokaryhmät.
+            # get_text() hukkaisi ne, joten <br> muunnetaan rivinvaihdoksi itse.
+            teksti = _dd_teksti_riveina(dd)
             # Katkaistaan englannin osuus pois
             if "**" in teksti:
                 teksti = teksti.split("**")[0]
-
-            ruoat = [r.strip() for r in teksti.split("\n") if r.strip()]
-            ruoat = [r for r in ruoat if r and r != "*" and r != "**"]
-            # Fastelle merkitsee pääruoat ajatusviivalla ("– Lasagnea"); ne ovat
-            # tavallisia rivejä, eivät edellisen rivin alarivejä.
-            ruoat = [re.sub(r"^[–\-•]\s*", "", r) for r in ruoat]
+            ruoat = _fastelle_ryhmat(teksti)
             if paiva and ruoat:
-                # "Proteiinilisäkkeet punnittavaan salaattiin:" + "– x"-rivit
-                # → oma osasto; muut rivit "Lounas"
                 paivat.append(paiva_osastoista(paiva, osastot_etuliitteista(ruoat)))
     return paivat
+
+
+def _dd_teksti_riveina(elementti) -> str:
+    """Elementin teksti niin, että jokainen <br> on rivinvaihto (myös tyhjät rivit)."""
+    palat: list[str] = []
+    for lapsi in elementti.descendants:
+        nimi = getattr(lapsi, "name", None)
+        if nimi == "br":
+            palat.append("\n")
+        elif nimi is None:
+            # Lähdekoodin omat rivinvaihdot <br>-tagien ympärillä eivät ole
+            # sisältöä — vain <br> merkitsee rivinvaihtoa.
+            teksti = str(lapsi).replace("\n", " ").replace("\r", " ")
+            if teksti.strip():
+                palat.append(teksti)
+    return "".join(palat)
+
+
+def _fastelle_ryhmat(teksti: str) -> list[str]:
+    """
+    Fastellen lista on ryhmitelty tyhjillä riveillä:
+
+        -Maissipaneroitua kananfilettä M,G     ← pääruoka (viiva alussa)
+        Ranch kastiketta L,G                   ← sen lisäke
+
+        *Proteiinit punnittavaan salaattiin:   ← otsikko
+        – Keitettyä kananmunaa                 ← otsikon alle kuuluvat rivit
+
+    Palauttaa rivit muodossa, jonka osastot_etuliitteista ymmärtää:
+    pääruoka ilman viivaa, lisäkkeet "– "-alkuisina alariveinä, otsikot
+    sellaisenaan.
+    """
+    ryhmat: list[list[str]] = [[]]
+    for raaka in teksti.split("\n"):
+        rivi = siivoa(raaka)
+        if not rivi or rivi in ("*", "**"):
+            if ryhmat[-1]:
+                ryhmat.append([])
+            continue
+        ryhmat[-1].append(rivi)
+
+    tulos: list[str] = []
+    for ryhma in ryhmat:
+        if not ryhma:
+            continue
+        eka = ryhma[0]
+        if eka.endswith(":"):
+            # Otsikkoryhmä ("*Proteiinit punnittavaan salaattiin:")
+            tulos.append(eka.lstrip("*–- ").strip())
+            tulos.extend(ryhma[1:])
+            continue
+        tulos.append(re.sub(r"^[–\-•]\s*", "", eka))
+        for lisake in ryhma[1:]:
+            if re.match(r"^[–\-•]\s*\S", lisake):
+                # Uusi pääruoka samassa ryhmässä
+                tulos.append(re.sub(r"^[–\-•]\s*", "", lisake))
+            else:
+                tulos.append("– " + lisake)
+    return tulos
 
 
 def scrape_sodexo(rajapinta_id: int) -> list[dict]:
