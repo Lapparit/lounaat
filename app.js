@@ -346,6 +346,29 @@ function asetaTapahtumat() {
   });
 }
 
+// ---------- Sivun alkuun -nappi ----------
+function asetaYlosNappi() {
+  const nappi = document.getElementById("ylos");
+  if (!nappi) return;
+  const RAJA = 400; // pikseliä: tämän jälkeen nappi tulee näkyviin
+  let ajastettu = false;
+  const paivita = () => {
+    ajastettu = false;
+    nappi.classList.toggle("nakyvissa", window.scrollY > RAJA);
+  };
+  window.addEventListener("scroll", () => {
+    if (!ajastettu) { ajastettu = true; requestAnimationFrame(paivita); }
+  }, { passive: true });
+  nappi.addEventListener("click", () => {
+    const pehmea = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: pehmea ? "smooth" : "auto" });
+    // Siirrä kohdistus hakukenttään ilman että näppäimistö aukeaa puhelimessa
+    const haku = document.getElementById("haku");
+    if (haku && window.matchMedia("(hover: hover)").matches) haku.focus({ preventScroll: true });
+  });
+  paivita();
+}
+
 // ---------- Käynnistys ----------
 async function lataa() {
   try {
@@ -361,6 +384,7 @@ async function lataa() {
     tila.paiva = idx <= 4 ? idx : (idx === 5 && onLauantai ? 5 : 0);
 
     asetaTapahtumat();
+    asetaYlosNappi();
     rendoiKaikki();
   } catch (e) {
     document.getElementById("lista").innerHTML =
