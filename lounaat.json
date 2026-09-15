@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-15T00:51:54.185763+00:00",
+  "paivitetty": "2026-09-15T05:12:54.550586+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Farmi",
@@ -608,7 +608,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -665,7 +665,32 @@
             "Marry me makaronilaatikko (Fastelle)",
             "Keitettyä riisiä",
             "– Paahdetut satokauden kasvikset",
-            "Kasvisrisotto Limonello – Sitruunaista risottoa belugalinsseillä"
+            "Kasvisrisotto Limonello – Sitruunaista risottoa belugalinsseillä",
+            "Keitettyä kananmunaa",
+            "Raejuustoa",
+            "Marinoitua broileria"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Parsakaalisosekeitto tuorejuustolla",
+                "Lempiruokatoive: Kirjolohimureketta",
+                "– Tilli-kermaviilikastiketta",
+                "Marry me makaronilaatikko (Fastelle)",
+                "Keitettyä riisiä",
+                "– Paahdetut satokauden kasvikset",
+                "Kasvisrisotto Limonello – Sitruunaista risottoa belugalinsseillä"
+              ]
+            },
+            {
+              "nimi": "Proteiinit punnittavaan salaattiin",
+              "ruoat": [
+                "Keitettyä kananmunaa",
+                "Raejuustoa",
+                "Marinoitua broileria"
+              ]
+            }
           ]
         },
         {
@@ -722,7 +747,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -848,7 +873,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1054,7 +1079,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1169,7 +1194,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1333,7 +1358,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1380,7 +1405,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1548,7 +1573,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1698,7 +1723,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1783,7 +1808,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2168,7 +2193,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2218,7 +2243,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2295,7 +2320,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T00:51:54.185763+00:00"
+      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
     }
   ]
 }
