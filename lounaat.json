@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-15T05:12:54.550586+00:00",
+  "paivitetty": "2026-09-15T07:59:46.272433+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Farmi",
@@ -608,7 +608,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -660,10 +660,9 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Parsakaalisosekeitto tuorejuustolla",
-            "Lempiruokatoive: Kirjolohimureketta",
-            "– Tilli-kermaviilikastiketta",
+            "Lempiruokatoive: Kirjolohimureketta tillikastikkeella",
             "Marry me makaronilaatikko (Fastelle)",
-            "Keitettyä riisiä",
+            "– Talon perunoita",
             "– Paahdetut satokauden kasvikset",
             "Kasvisrisotto Limonello – Sitruunaista risottoa belugalinsseillä",
             "Keitettyä kananmunaa",
@@ -675,10 +674,9 @@
               "nimi": "Lounas",
               "ruoat": [
                 "Parsakaalisosekeitto tuorejuustolla",
-                "Lempiruokatoive: Kirjolohimureketta",
-                "– Tilli-kermaviilikastiketta",
+                "Lempiruokatoive: Kirjolohimureketta tillikastikkeella",
                 "Marry me makaronilaatikko (Fastelle)",
-                "Keitettyä riisiä",
+                "– Talon perunoita",
                 "– Paahdetut satokauden kasvikset",
                 "Kasvisrisotto Limonello – Sitruunaista risottoa belugalinsseillä"
               ]
@@ -747,7 +745,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -782,7 +780,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Hermia goes Ranska: Lyonin kanaa, dijon-perunamuusia, ratatouillea",
+            "Hermia goes Ranska: Lyonin kanaa M, G, dijon-perunamuusia L, G, ratatouillea",
             "Ranskalaisia yrtti-kasvispihvejä",
             "Korean burger & bataattiranskalaisia",
             "Kanakookoskeitto"
@@ -791,7 +789,7 @@
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Hermia goes Ranska: Lyonin kanaa, dijon-perunamuusia, ratatouillea",
+                "Hermia goes Ranska: Lyonin kanaa M, G, dijon-perunamuusia L, G, ratatouillea",
                 "Ranskalaisia yrtti-kasvispihvejä"
               ]
             },
@@ -873,7 +871,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -924,40 +922,40 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Lihapullia Arrabiatakastikkeessa, minttuherneitä, paahdettuja perunoita ja porkkanoita",
-            "Fenkoli-tillipaistettua turskaa, sitruuna-voikastiketta",
-            "Garam masala tofua ja jasmineriisiä",
-            "Hermia goes Ranska: Burgundin pataa, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
-            "Yrttilohta, kasvis quiche sekä paahdetusta paprikasta ja rucolasta salaatti",
-            "Bowl Factory:Satay kanaa, kevät kääryleitä, riisiä, retikkaa, marinoitua tofua, chili-mangoa, erilaisia kastikkeita, pikkelöityjä vihanneksia, korianteria ja kevätsipulia",
-            "Tomaatti-vuohenjuustokeittoa, yrttileipäsiä"
+            "Lihapullia Arrabiatakastikkeessa L, minttuherneitä M,G, paahdettuja perunoita ja porkkanoita",
+            "Fenkoli-paistettua turskaa, sitruuna-voikastiketta",
+            "Garam masala tofua M,G ja basmatiriisiä",
+            "Hermia goes Ranska: Burgundin pataa L,G, gratinoitua perunavuokaa L,G, haricot-papuja ja mantelia",
+            "Yrttilohta M,G, kasvis quiche L sekä paahdetusta paprikasta ja rucolasta salaatti",
+            "Bowl Factory:Satay kanaa M, kevät kääryleitä M, riisiä M,G, retikkaa, marinoitua tofua, chili-mangoa, erilaisia kastikkeita, pikkelöityjä vihanneksia, korianteria ja kevätsipulia",
+            "Tomaatti-vuohenjuustokeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Lihapullia Arrabiatakastikkeessa, minttuherneitä, paahdettuja perunoita ja porkkanoita",
-                "Fenkoli-tillipaistettua turskaa, sitruuna-voikastiketta",
-                "Garam masala tofua ja jasmineriisiä"
+                "Lihapullia Arrabiatakastikkeessa L, minttuherneitä M,G, paahdettuja perunoita ja porkkanoita",
+                "Fenkoli-paistettua turskaa, sitruuna-voikastiketta",
+                "Garam masala tofua M,G ja basmatiriisiä"
               ]
             },
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Hermia goes Ranska: Burgundin pataa, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
-                "Yrttilohta, kasvis quiche sekä paahdetusta paprikasta ja rucolasta salaatti"
+                "Hermia goes Ranska: Burgundin pataa L,G, gratinoitua perunavuokaa L,G, haricot-papuja ja mantelia",
+                "Yrttilohta M,G, kasvis quiche L sekä paahdetusta paprikasta ja rucolasta salaatti"
               ]
             },
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Bowl Factory:Satay kanaa, kevät kääryleitä, riisiä, retikkaa, marinoitua tofua, chili-mangoa, erilaisia kastikkeita, pikkelöityjä vihanneksia, korianteria ja kevätsipulia"
+                "Bowl Factory:Satay kanaa M, kevät kääryleitä M, riisiä M,G, retikkaa, marinoitua tofua, chili-mangoa, erilaisia kastikkeita, pikkelöityjä vihanneksia, korianteria ja kevätsipulia"
               ]
             },
             {
               "nimi": "Soup of the day",
               "ruoat": [
-                "Tomaatti-vuohenjuustokeittoa, yrttileipäsiä"
+                "Tomaatti-vuohenjuustokeittoa"
               ]
             }
           ]
@@ -1079,7 +1077,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1194,7 +1192,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1358,7 +1356,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1405,7 +1403,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1573,7 +1571,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1723,7 +1721,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1769,7 +1767,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kermainen sweet chili broileri",
+            "Sweet chili broileria",
             "Rapeat kalapihvit",
             "– smetanaiset tillihölskyperunat L,G ja sitruunakermaviili",
             "Savujuustoinen porkkanasosekeitto"
@@ -1808,7 +1806,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1890,11 +1888,11 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Välimeren juusto-kasvispataa",
+            "Välimeren juusto-kasvispataa (Vegaaninen vaihtoehto tofu-kasvispata)",
             "Luomutäysjyväpastaa",
             "Bataattisosekeittoa",
-            "Katkarapuja",
-            "Perinteistä jauhelihakastiketta",
+            "Fetajuustoa",
+            "Perinteistä jauhelihakastiketta (Gluteeniton vaihtoehto saatavilla)",
             "Keitettyjä perunoita",
             "BBQ maustettua broileripastaa ja soijapapuja",
             "Mureaa possua omenakuorrutettuna",
@@ -1906,7 +1904,7 @@
             {
               "nimi": "Kasvislounas",
               "ruoat": [
-                "Välimeren juusto-kasvispataa",
+                "Välimeren juusto-kasvispataa (Vegaaninen vaihtoehto tofu-kasvispata)",
                 "Luomutäysjyväpastaa"
               ]
             },
@@ -1919,13 +1917,13 @@
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Katkarapuja"
+                "Fetajuustoa"
               ]
             },
             {
               "nimi": "So Good",
               "ruoat": [
-                "Perinteistä jauhelihakastiketta",
+                "Perinteistä jauhelihakastiketta (Gluteeniton vaihtoehto saatavilla)",
                 "Keitettyjä perunoita"
               ]
             },
@@ -2193,7 +2191,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2243,7 +2241,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2320,7 +2318,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T05:12:54.550586+00:00"
+      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
     }
   ]
 }
