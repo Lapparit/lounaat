@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-16T00:45:07.841290+00:00",
+  "paivitetty": "2026-09-16T05:07:46.874520+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Farmi",
@@ -434,6 +434,7 @@
             "Tikka masala -tofua luomutofusta",
             "Paistettuja perunoita",
             "Paahdettua punajuurta",
+            "Sitruunamajoneesia",
             "Mustikka-kardemummapiirakkaa",
             "Kahvi",
             "Bearnaiselohta ranskalaisilla",
@@ -458,7 +459,8 @@
               "nimi": "Pääruoan kaveriksi",
               "ruoat": [
                 "Paistettuja perunoita",
-                "Paahdettua punajuurta"
+                "Paahdettua punajuurta",
+                "Sitruunamajoneesia"
               ]
             },
             {
@@ -608,7 +610,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -699,7 +701,31 @@
             "– Sinihomejuustodippi",
             "Lempiruokatoive: Perinteinen jauheliha-kaalilaatikko",
             "– Paahdetut satokauden kasvikset",
-            "Lempiruokatoive: Pad thai tofulla – Thaiklassikko; paistettuja nuudeleita tofulla"
+            "Lempiruokatoive: Pad thai tofulla – Thaiklassikko; paistettuja nuudeleita tofulla",
+            "Salaattijuustoa",
+            "Keitettyä kananmunaa",
+            "Broileria (linjastosta)"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Kookos-porkkanakeitto",
+                "Tuplapaneroidut kananpojan siivet",
+                "– Sinihomejuustodippi",
+                "Lempiruokatoive: Perinteinen jauheliha-kaalilaatikko",
+                "– Paahdetut satokauden kasvikset",
+                "Lempiruokatoive: Pad thai tofulla – Thaiklassikko; paistettuja nuudeleita tofulla"
+              ]
+            },
+            {
+              "nimi": "Proteiinit punnittavaan salaattiin",
+              "ruoat": [
+                "Salaattijuustoa",
+                "Keitettyä kananmunaa",
+                "Broileria (linjastosta)"
+              ]
+            }
           ]
         },
         {
@@ -745,7 +771,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -871,7 +897,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1077,7 +1103,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1192,7 +1218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1356,7 +1382,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1403,7 +1429,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1479,9 +1505,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Bangbang broileria M, G SAA VEG no chicken Bang bang",
-            "Aasialaisia kalapihvejä, kevätsipuli dippiä",
-            "– kermaperunaa & riisiä",
+            "Bangbang broileria",
+            "Aasialaisia kalapihvejä M, G, kevätsipuli dippiä",
             "Basillikalla höystettyä linssi-juureskeittoa",
             "BURGERIVIIKKO! Pulled pork Sloppy Joe Burger & ranskanperunat"
           ],
@@ -1489,9 +1514,8 @@
             {
               "nimi": "Lounas",
               "ruoat": [
-                "Bangbang broileria M, G SAA VEG no chicken Bang bang",
-                "Aasialaisia kalapihvejä, kevätsipuli dippiä",
-                "– kermaperunaa & riisiä"
+                "Bangbang broileria",
+                "Aasialaisia kalapihvejä M, G, kevätsipuli dippiä"
               ]
             },
             {
@@ -1571,7 +1595,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1721,7 +1745,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1806,7 +1830,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2184,7 +2208,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2213,7 +2237,7 @@
           "ruoat": [
             "Pizzaa l",
             "Pariloitua maksaa",
-            "Spagetti jauheliha l"
+            "Kebablihaa"
           ]
         },
         {
@@ -2234,7 +2258,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2311,7 +2335,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
+      "paivitetty": "2026-09-16T05:07:46.874520+00:00"
     }
   ]
 }
