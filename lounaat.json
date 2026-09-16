@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-15T07:59:46.272433+00:00",
+  "paivitetty": "2026-09-16T00:45:07.841290+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Farmi",
@@ -608,7 +608,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -745,7 +745,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -871,7 +871,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -926,7 +926,7 @@
             "Fenkoli-paistettua turskaa, sitruuna-voikastiketta",
             "Garam masala tofua M,G ja basmatiriisiä",
             "Hermia goes Ranska: Burgundin pataa L,G, gratinoitua perunavuokaa L,G, haricot-papuja ja mantelia",
-            "Yrttilohta M,G, kasvis quiche L sekä paahdetusta paprikasta ja rucolasta salaatti",
+            "Rapeaa kalaa M, kasvis quiche L sekä paahdetusta paprikasta ja rucolasta salaatti",
             "Bowl Factory:Satay kanaa M, kevät kääryleitä M, riisiä M,G, retikkaa, marinoitua tofua, chili-mangoa, erilaisia kastikkeita, pikkelöityjä vihanneksia, korianteria ja kevätsipulia",
             "Tomaatti-vuohenjuustokeittoa"
           ],
@@ -943,7 +943,7 @@
               "nimi": "Pop Up Lunch",
               "ruoat": [
                 "Hermia goes Ranska: Burgundin pataa L,G, gratinoitua perunavuokaa L,G, haricot-papuja ja mantelia",
-                "Yrttilohta M,G, kasvis quiche L sekä paahdetusta paprikasta ja rucolasta salaatti"
+                "Rapeaa kalaa M, kasvis quiche L sekä paahdetusta paprikasta ja rucolasta salaatti"
               ]
             },
             {
@@ -964,9 +964,9 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Pollo limonello-pastaa ja parmesania",
-            "Ylikypsää possun poskea paprikalla maustetussa tuore-herkkusienikastikkeessa, ratatouillea, paahdettua paprikariisiä",
+            "Gordon Bleu paprikalla maustetussa tuore-herkkusienikastikkeessa, ratatouillea, paahdettua paprikariisiä",
             "Italialaisia kasvispullia, basilika-tomaattikastiketta",
-            "Hermia goes Ranska: Burgundin pataa, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
+            "Hermia goes Ranska: Ranskalaista possunposkea, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
             "Rapeaa kalaleikettä, kasvis quiche sekä paahdetusta paprikasta ja rucolasta salaatti",
             "Bowl Factory:Kevätkääryleitä, satay kanaa, riisiä, retikkaa, marinoitua tofua, chili-mangoa, erilaisia kastikkeita, pikkelöityjä vihanneksia, korianteria ja kevätsipulia",
             "Ranskalaista sipulikeittoa, juustoleipäsiä"
@@ -976,14 +976,14 @@
               "nimi": "Kitchen Buffet",
               "ruoat": [
                 "Pollo limonello-pastaa ja parmesania",
-                "Ylikypsää possun poskea paprikalla maustetussa tuore-herkkusienikastikkeessa, ratatouillea, paahdettua paprikariisiä",
+                "Gordon Bleu paprikalla maustetussa tuore-herkkusienikastikkeessa, ratatouillea, paahdettua paprikariisiä",
                 "Italialaisia kasvispullia, basilika-tomaattikastiketta"
               ]
             },
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Hermia goes Ranska: Burgundin pataa, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
+                "Hermia goes Ranska: Ranskalaista possunposkea, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
                 "Rapeaa kalaleikettä, kasvis quiche sekä paahdetusta paprikasta ja rucolasta salaatti"
               ]
             },
@@ -1007,7 +1007,7 @@
             "Libanonilaista kanaa, tuoretta korianteria, valkosipulimajoneesia, couscousia, herneitä ja tomaattia",
             "Lohi-perunapaistosta, fenkoli-päärynäsalaattia",
             "Tofucurrya, sulapähkinöitä ja jasmineriisiä",
-            "Hermia goes Ranska: Burgundin pataa, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
+            "Hermia goes Ranska: Ranskalaista possunposkea, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
             "Rapeaa kalaleikettä, kasvis quiche sekä paahdetusta paprikasta ja rucolasta salaatti",
             "Bowl Factory:Kevätkääryleitä, satay kanaa, riisiä, retikkaa, marinoitua tofua, chili-mangoa, erilaisia kastikkeita, pikkelöityjä vihanneksia, korianteria ja kevätsipulia",
             "Samettista kurpitsakeittoa, karamellisoituja kurpitsan siemeniä"
@@ -1024,7 +1024,7 @@
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Hermia goes Ranska: Burgundin pataa, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
+                "Hermia goes Ranska: Ranskalaista possunposkea, gratinoitua perunavuokaa, haricot-papuja ja mantelia",
                 "Rapeaa kalaleikettä, kasvis quiche sekä paahdetusta paprikasta ja rucolasta salaatti"
               ]
             },
@@ -1077,7 +1077,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1192,7 +1192,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1356,7 +1356,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1403,7 +1403,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1571,7 +1571,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1721,7 +1721,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1806,7 +1806,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1890,7 +1890,6 @@
           "ruoat": [
             "Välimeren juusto-kasvispataa (Vegaaninen vaihtoehto tofu-kasvispata)",
             "Luomutäysjyväpastaa",
-            "Bataattisosekeittoa",
             "Fetajuustoa",
             "Perinteistä jauhelihakastiketta (Gluteeniton vaihtoehto saatavilla)",
             "Keitettyjä perunoita",
@@ -1906,12 +1905,6 @@
               "ruoat": [
                 "Välimeren juusto-kasvispataa (Vegaaninen vaihtoehto tofu-kasvispata)",
                 "Luomutäysjyväpastaa"
-              ]
-            },
-            {
-              "nimi": "Keitto",
-              "ruoat": [
-                "Bataattisosekeittoa"
               ]
             },
             {
@@ -2191,7 +2184,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2241,7 +2234,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2318,7 +2311,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-15T07:59:46.272433+00:00"
+      "paivitetty": "2026-09-16T00:45:07.841290+00:00"
     }
   ]
 }
