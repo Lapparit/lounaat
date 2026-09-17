@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-17T00:51:10.783638+00:00",
+  "paivitetty": "2026-09-17T05:13:28.340684+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Farmi",
@@ -610,7 +610,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -771,7 +771,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -860,7 +860,6 @@
           "ruoat": [
             "Hermia goes Ranska: Kanaa kermaisessa yrttikastikkeessa, lämmintä perunasalaattia, kasvis-couscousia",
             "Juustopiirakkaa ja paprika-rucolavinegrettiä",
-            "Gratinoitua moussakaa, Halloumi-Hot Honey salaattia",
             "Tex mex jauhelihakeittoa, nachoja, ruohosipulikermaa ja tulista salsaa"
           ],
           "osastot": [
@@ -874,7 +873,6 @@
             {
               "nimi": "Grilli",
               "ruoat": [
-                "Gratinoitua moussakaa, Halloumi-Hot Honey salaattia",
                 "Tex mex jauhelihakeittoa, nachoja, ruohosipulikermaa ja tulista salsaa"
               ]
             }
@@ -897,7 +895,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1103,7 +1101,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1218,7 +1216,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1382,7 +1380,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1429,7 +1427,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1599,7 +1597,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1749,7 +1747,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1833,7 +1831,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2198,7 +2196,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2249,7 +2247,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2326,7 +2324,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
+      "paivitetty": "2026-09-17T05:13:28.340684+00:00"
     }
   ]
 }
