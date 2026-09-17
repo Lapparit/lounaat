@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-16T07:52:45.708587+00:00",
+  "paivitetty": "2026-09-17T00:51:10.783638+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Farmi",
@@ -610,7 +610,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -771,7 +771,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -897,7 +897,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1103,7 +1103,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1218,7 +1218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1382,7 +1382,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1429,7 +1429,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1599,7 +1599,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1749,7 +1749,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1809,8 +1809,7 @@
             "– perunamuusia",
             "Orvokin oma: Pinaattiletut",
             "– puolukkahilloa",
-            "Kahden lohen keitto runsaalla tillillä",
-            "Kahvin kanssa mustikkapaistosta sis. manteli ja puutarhamarjavaahtoa"
+            "Kahden lohen keitto runsaalla tillillä"
           ]
         },
         {
@@ -1834,7 +1833,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1974,14 +1973,10 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Bolognesekastiketta Unlimited® jauhismurusta (gluteeniton vaihtoehto kasvisnakkistroganoff)",
-            "Pastaa",
             "Peruna-purjososekeittoa ja persiljaa",
             "Fetajuustoa",
-            "Chilimaustettua possupataa",
-            "Paahdettua perunaa",
-            "Rapeaa yrttikalaa",
-            "Tzatsiki-jogurttia",
-            "Paahdettua perunaa",
+            "Aasialainen kalapihvi 3pkl/annos",
+            "Riisi",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
@@ -1993,8 +1988,7 @@
             {
               "nimi": "Vegaaninen kasvislounas",
               "ruoat": [
-                "Bolognesekastiketta Unlimited® jauhismurusta (gluteeniton vaihtoehto kasvisnakkistroganoff)",
-                "Pastaa"
+                "Bolognesekastiketta Unlimited® jauhismurusta (gluteeniton vaihtoehto kasvisnakkistroganoff)"
               ]
             },
             {
@@ -2012,16 +2006,8 @@
             {
               "nimi": "So Good",
               "ruoat": [
-                "Chilimaustettua possupataa",
-                "Paahdettua perunaa"
-              ]
-            },
-            {
-              "nimi": "So Tasty",
-              "ruoat": [
-                "Rapeaa yrttikalaa",
-                "Tzatsiki-jogurttia",
-                "Paahdettua perunaa"
+                "Aasialainen kalapihvi 3pkl/annos",
+                "Riisi"
               ]
             },
             {
@@ -2212,7 +2198,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2263,7 +2249,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2340,7 +2326,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-16T07:52:45.708587+00:00"
+      "paivitetty": "2026-09-17T00:51:10.783638+00:00"
     }
   ]
 }
