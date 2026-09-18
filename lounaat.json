@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-18T05:05:47.432448+00:00",
+  "paivitetty": "2026-09-18T07:35:36.358597+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Farmi",
@@ -610,7 +610,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -808,7 +808,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -920,21 +920,21 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Pizza Americano ja tomaatti-mozzarellapizza",
-            "Gratinoitu Spicy pork and bean burritos, ranskalaisia, cheddarkastiketta"
+            "Peltipizzaa buffana grillissä: Pizza Americano & Tomaatti-mozzarellapizza",
+            "Spicy pork and beans tortillaa, ranskalaisia ja cheddarkastiketta"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Pizza Americano ja tomaatti-mozzarellapizza",
-                "Gratinoitu Spicy pork and bean burritos, ranskalaisia, cheddarkastiketta"
+                "Peltipizzaa buffana grillissä: Pizza Americano & Tomaatti-mozzarellapizza",
+                "Spicy pork and beans tortillaa, ranskalaisia ja cheddarkastiketta"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1106,27 +1106,27 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Jauhelihalasagnea, rucolaa, pinaattia ja paahdettuja porkkanoita",
-            "Paistettuja muikkuja, yrttivinegrettiä, valkosipulimajoneesia, ranskanperunoita ja hernepestoa",
-            "Madrascurryakikherneistä, jasmineriisiä",
-            "Parmankinkku-kirsikkatomaattipizza ja Pizza Melanzane: munakoiso-paprika-punasipuli",
-            "Maalaissalaattia bbq kanalla ja halloumilla",
+            "Jauhelihalasagnea L, rucolaa, pinaattia ja paahdettuja kasviksia",
+            "Paistettuja muikkuja L, yrttivinegrettiä M,G, valkosipulimajoneesia M,G, kermaperunoita L,G ja hernepestoa",
+            "Madrascurryakikherneistä M,G, basmatiriisiä",
+            "Parmankinkku-kirsikkatomaattipizza L ja Pizza Melanzane L: munakoiso-paprika-punasipuli",
+            "Maalaissalaattia bbq kanalla M,G ja fetalla",
             "Tomaatti-chili-korianterikeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Jauhelihalasagnea, rucolaa, pinaattia ja paahdettuja porkkanoita",
-                "Paistettuja muikkuja, yrttivinegrettiä, valkosipulimajoneesia, ranskanperunoita ja hernepestoa",
-                "Madrascurryakikherneistä, jasmineriisiä"
+                "Jauhelihalasagnea L, rucolaa, pinaattia ja paahdettuja kasviksia",
+                "Paistettuja muikkuja L, yrttivinegrettiä M,G, valkosipulimajoneesia M,G, kermaperunoita L,G ja hernepestoa",
+                "Madrascurryakikherneistä M,G, basmatiriisiä"
               ]
             },
             {
               "nimi": "Special Grilli",
               "ruoat": [
-                "Parmankinkku-kirsikkatomaattipizza ja Pizza Melanzane: munakoiso-paprika-punasipuli",
-                "Maalaissalaattia bbq kanalla ja halloumilla"
+                "Parmankinkku-kirsikkatomaattipizza L ja Pizza Melanzane L: munakoiso-paprika-punasipuli",
+                "Maalaissalaattia bbq kanalla M,G ja fetalla"
               ]
             },
             {
@@ -1138,7 +1138,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1253,7 +1253,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1417,7 +1417,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1464,7 +1464,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1606,7 +1606,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Marry-Me broileria aurinkokuivattuja tomaatteja& samettista parmesaanikastiketta",
+            "Marry-Me broileria aurinkokuivattuja tomaatteja & samettista parmesankastiketta",
             "Mausteinen härkäpapu stir fry",
             "Jälkiruoaksi Suklaista kakkua",
             "Vegaaninen omenapiirakka keittiöstä",
@@ -1617,7 +1617,7 @@
             {
               "nimi": "Lounas",
               "ruoat": [
-                "Marry-Me broileria aurinkokuivattuja tomaatteja& samettista parmesaanikastiketta",
+                "Marry-Me broileria aurinkokuivattuja tomaatteja & samettista parmesankastiketta",
                 "Mausteinen härkäpapu stir fry",
                 "Jälkiruoaksi Suklaista kakkua",
                 "Vegaaninen omenapiirakka keittiöstä"
@@ -1638,7 +1638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1788,7 +1788,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1873,7 +1873,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2143,13 +2143,12 @@
           "ruoat": [
             "Mexican kasvispihvejä",
             "Sriracha-gurttikastiketta",
-            "Paahdettua perunaa",
+            "Perunaa",
             "Täyteläistä mustajuurisosekeittoa",
-            "Katkarapuja",
+            "Fetajuustoa",
             "Kirjolohta ja seitiä tomaattikastikkeessa",
-            "Luomutäysjyväpastaa",
-            "Vehnätortillat",
-            "Savustetulla paprikalla maustettua kebabtäytettä",
+            "Tummaa riisiä",
+            "Vehnätortilla savupaprika-kebabtäytetteellä",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
@@ -2163,7 +2162,7 @@
               "ruoat": [
                 "Mexican kasvispihvejä",
                 "Sriracha-gurttikastiketta",
-                "Paahdettua perunaa"
+                "Perunaa"
               ]
             },
             {
@@ -2175,21 +2174,20 @@
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Katkarapuja"
+                "Fetajuustoa"
               ]
             },
             {
               "nimi": "So Good",
               "ruoat": [
                 "Kirjolohta ja seitiä tomaattikastikkeessa",
-                "Luomutäysjyväpastaa"
+                "Tummaa riisiä"
               ]
             },
             {
               "nimi": "So Hungry",
               "ruoat": [
-                "Vehnätortillat",
-                "Savustetulla paprikalla maustettua kebabtäytettä"
+                "Vehnätortilla savupaprika-kebabtäytetteellä"
               ]
             },
             {
@@ -2236,7 +2234,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2369,7 +2367,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
+      "paivitetty": "2026-09-18T07:35:36.358597+00:00"
     }
   ]
 }
