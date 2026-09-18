@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-18T00:44:41.945346+00:00",
+  "paivitetty": "2026-09-18T05:05:47.432448+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -294,7 +294,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Farmi",
@@ -610,7 +610,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -775,15 +775,40 @@
           "ruoat": [
             "Lempiruokatoive: Perinteinen lohikeitto",
             "Lempiruokatoive: Tex Mex jauheliha-nachovuoka",
-            "– Pippuriset yrtti lohkoperunat",
+            "– Talon perunat",
             "– Paahdetut satokauden kasvikset",
             "Fastellen kasvisletut",
             "– Puolukkahillo",
+            "Salaattijuustoa",
+            "Marinoitua broileria",
+            "Raejuusto",
             "Jälkiruoaksi karkkia <3 Hyvää viikonloppua!"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Lempiruokatoive: Perinteinen lohikeitto",
+                "Lempiruokatoive: Tex Mex jauheliha-nachovuoka",
+                "– Talon perunat",
+                "– Paahdetut satokauden kasvikset",
+                "Fastellen kasvisletut",
+                "– Puolukkahillo"
+              ]
+            },
+            {
+              "nimi": "Proteiinit punnittavaan salaattiin",
+              "ruoat": [
+                "Salaattijuustoa",
+                "Marinoitua broileria",
+                "Raejuusto",
+                "Jälkiruoaksi karkkia <3 Hyvää viikonloppua!"
+              ]
+            }
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -909,7 +934,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1113,7 +1138,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1228,7 +1253,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1392,7 +1417,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1439,7 +1464,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1581,25 +1606,27 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Marry me kanaa",
+            "Marry-Me broileria aurinkokuivattuja tomaatteja& samettista parmesaanikastiketta",
             "Mausteinen härkäpapu stir fry",
             "Jälkiruoaksi Suklaista kakkua",
-            "Tomaattinen minestrone",
+            "Vegaaninen omenapiirakka keittiöstä",
+            "Tomaattinen minestrone keitto",
             "BURGERIVIIKKO! Fish & chips burger"
           ],
           "osastot": [
             {
               "nimi": "Lounas",
               "ruoat": [
-                "Marry me kanaa",
+                "Marry-Me broileria aurinkokuivattuja tomaatteja& samettista parmesaanikastiketta",
                 "Mausteinen härkäpapu stir fry",
-                "Jälkiruoaksi Suklaista kakkua"
+                "Jälkiruoaksi Suklaista kakkua",
+                "Vegaaninen omenapiirakka keittiöstä"
               ]
             },
             {
               "nimi": "Keitto",
               "ruoat": [
-                "Tomaattinen minestrone"
+                "Tomaattinen minestrone keitto"
               ]
             },
             {
@@ -1611,7 +1638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1761,7 +1788,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1846,7 +1873,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2209,7 +2236,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2342,7 +2369,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-18T00:44:41.945346+00:00"
+      "paivitetty": "2026-09-18T05:05:47.432448+00:00"
     }
   ]
 }
