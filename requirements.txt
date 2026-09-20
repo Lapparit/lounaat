@@ -4,7 +4,7 @@
 # yhdistämistä (.github/dependabot.yml).
 requests==2.34.2
 beautifulsoup4==4.15.0
-pypdf==6.18.1
+pypdf==6.19.0
 Pillow==12.3.0
 pytesseract==0.3.13
 numpy==2.5.3
