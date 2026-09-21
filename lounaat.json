@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-21T08:58:58.478079+00:00",
+  "paivitetty": "2026-09-21T09:03:39.737880+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Farmi",
@@ -636,7 +636,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -741,7 +741,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -865,7 +865,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1057,7 +1057,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1172,7 +1172,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1336,7 +1336,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1384,7 +1384,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1555,7 +1555,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1680,7 +1680,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1762,7 +1762,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1783,10 +1783,12 @@
             "Kalamurekepihvejä",
             "Ruohosipulijogurttia",
             "Paahdettua perunaa",
+            "Vaahtokarkkirahkaa & kinuskia",
             "Rapeaa kanaa korealaisittain - Chicken Gochujang",
             "Limemajoneesia",
             "Paistettua nuudelia, kasviksia ja pähkinää (saatavilla myös ilman pähkinää)",
-            "Halloumisalaattia"
+            "Halloumisalaattia",
+            "Ruisleipä Vuohenjuustoa & punajuurihummusta"
           ],
           "osastot": [
             {
@@ -1824,6 +1826,12 @@
               ]
             },
             {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "Vaahtokarkkirahkaa & kinuskia"
+              ]
+            },
+            {
               "nimi": "Pop Up Grill",
               "ruoat": [
                 "Rapeaa kanaa korealaisittain - Chicken Gochujang",
@@ -1835,6 +1843,12 @@
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
                 "Halloumisalaattia"
+              ]
+            },
+            {
+              "nimi": "Leipälounas (Break Cafe)",
+              "ruoat": [
+                "Ruisleipä Vuohenjuustoa & punajuurihummusta"
               ]
             }
           ]
@@ -1850,10 +1864,12 @@
             "Tummaa riisiä",
             "Pekonilla ja sipulilla täytettyä uunimakkaraa",
             "Dijon-perunamuusia",
+            "Vaahtokarkkirahkaa & kinuskia",
             "Rapeaa kanaa korealaisittain - Chicken Gochujang",
             "Limemajoneesia",
             "Paistettua nuudelia, kasviksia ja pähkinää (saatavilla myös ilman pähkinää)",
-            "Halloumisalaattia"
+            "Halloumisalaattia",
+            "Ruisleipä Vuohenjuustoa & punajuurihummusta"
           ],
           "osastot": [
             {
@@ -1890,6 +1906,12 @@
               ]
             },
             {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "Vaahtokarkkirahkaa & kinuskia"
+              ]
+            },
+            {
               "nimi": "Pop Up Grill",
               "ruoat": [
                 "Rapeaa kanaa korealaisittain - Chicken Gochujang",
@@ -1901,6 +1923,12 @@
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
                 "Halloumisalaattia"
+              ]
+            },
+            {
+              "nimi": "Leipälounas (Break Cafe)",
+              "ruoat": [
+                "Ruisleipä Vuohenjuustoa & punajuurihummusta"
               ]
             }
           ]
@@ -1918,11 +1946,14 @@
             "Valkosipuli-jogurttikastiketta",
             "Chorizo-papukastiketta",
             "Paahdettua perunaa",
+            "Manteli pannukakkua",
+            "Appelsiinivaahtoa",
             "Porsaan grillipihvi",
             "Tummaa piparjuurikastiketta",
             "Paahdettua perunaa",
             "Satokauden kasviksia",
-            "Lämminsavukirjolohisalaattia ja marinoitua perunaa"
+            "Lämminsavukirjolohisalaattia ja marinoitua perunaa",
+            "Chorizo focaccia"
           ],
           "osastot": [
             {
@@ -1961,6 +1992,13 @@
               ]
             },
             {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "Manteli pannukakkua",
+                "Appelsiinivaahtoa"
+              ]
+            },
+            {
               "nimi": "Pop Up Grill",
               "ruoat": [
                 "Porsaan grillipihvi",
@@ -1974,6 +2012,12 @@
               "ruoat": [
                 "Lämminsavukirjolohisalaattia ja marinoitua perunaa"
               ]
+            },
+            {
+              "nimi": "Leipälounas (Break Cafe)",
+              "ruoat": [
+                "Chorizo focaccia"
+              ]
             }
           ]
         },
@@ -1986,11 +2030,13 @@
             "Jauheliha-pastavuokaa",
             "Tandoorikanaa jogurttikastikkeessa",
             "Tummaa riisiä",
+            "Suklaamoussea, kinuskia ja pähkinää",
             "Porsaan grillipihvi",
             "Tummaa piparjuurikastiketta",
             "Paahdettua perunaa",
             "Satokauden kasviksia",
-            "Lämminsavukirjolohisalaattia ja marinoitua perunaa"
+            "Lämminsavukirjolohisalaattia ja marinoitua perunaa",
+            "Chorizo focaccia"
           ],
           "osastot": [
             {
@@ -2025,6 +2071,12 @@
               ]
             },
             {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "Suklaamoussea, kinuskia ja pähkinää"
+              ]
+            },
+            {
               "nimi": "Pop Up Grill",
               "ruoat": [
                 "Porsaan grillipihvi",
@@ -2037,6 +2089,12 @@
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
                 "Lämminsavukirjolohisalaattia ja marinoitua perunaa"
+              ]
+            },
+            {
+              "nimi": "Leipälounas (Break Cafe)",
+              "ruoat": [
+                "Chorizo focaccia"
               ]
             }
           ]
@@ -2053,11 +2111,13 @@
             "Tummaa riisiä",
             "Juustogratinoitua seitiä",
             "Perunamuusia",
+            "Banaanirahkaa",
             "Porsaan grillipihvi",
             "Tummaa piparjuurikastiketta",
             "Paahdettua perunaa",
             "Satokauden kasviksia",
-            "Lämminsavukirjolohisalaattia ja marinoitua perunaa"
+            "Lämminsavukirjolohisalaattia ja marinoitua perunaa",
+            "Chorizo focaccia"
           ],
           "osastot": [
             {
@@ -2095,6 +2155,12 @@
               ]
             },
             {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "Banaanirahkaa"
+              ]
+            },
+            {
               "nimi": "Pop Up Grill",
               "ruoat": [
                 "Porsaan grillipihvi",
@@ -2107,6 +2173,12 @@
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
                 "Lämminsavukirjolohisalaattia ja marinoitua perunaa"
+              ]
+            },
+            {
+              "nimi": "Leipälounas (Break Cafe)",
+              "ruoat": [
+                "Chorizo focaccia"
               ]
             }
           ]
@@ -2137,7 +2209,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2188,7 +2260,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2265,7 +2337,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T08:58:58.478079+00:00"
+      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
     }
   ]
 }

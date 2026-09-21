@@ -179,6 +179,8 @@ class Reaktori(unittest.TestCase):
             ("Keitto", ["Pinaattikeittoa"]),
             ("So Good", ["Makkarakastiketta", "Tummaa riisiä"]),
             ("So Tasty", ["Kalapyörykät"]),
+            ("Jälkiruoka", ["Banoffee-mousse"]),
+            ("Leipälounas (Break Cafe)", ["Sämpylä"]),
             ("Pop Up Grill salaatti", ["Mozzarellasalaattia"]),
         ])
         self.assertEqual(len(paivat), 1)
@@ -190,7 +192,8 @@ class Reaktori(unittest.TestCase):
                 "<h4>So Sweet. (Jälkiruoka)</h4><ul><li>Mousse</li></ul>")
         with mock.patch.object(scrape, "hae_sivu", return_value=html):
             paivat = scrape.scrape_reaktori()
-        self.assertEqual(paivat, [{"paiva": "Maanantai 14.9.2026", "ruoat": ["Makkarakastiketta (A, G)"]}])
+        self.assertEqual(paivat, [{"paiva": "Maanantai 14.9.2026",
+                                   "ruoat": ["Makkarakastiketta (A, G)", "Mousse"]}])
 
 
 class Kontukeittio(unittest.TestCase):
