@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-21T00:27:45.472963+00:00",
+  "paivitetty": "2026-09-21T05:21:03.657526+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -267,7 +267,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Farmi",
@@ -419,7 +419,7 @@
             "Kahvi",
             "Lehtipihvi ranskalaisilla",
             "Remoulade-majoneesia",
-            "Kanttarellikeittoa ja briossia",
+            "Kanttarellikeittoa",
             "Maalaisperunasalaattia",
             "Chili-mangokanaa",
             "Italialainen kasvispyörykkä",
@@ -459,7 +459,7 @@
             {
               "nimi": "Delilounas",
               "ruoat": [
-                "Kanttarellikeittoa ja briossia",
+                "Kanttarellikeittoa",
                 "Maalaisperunasalaattia",
                 "Chili-mangokanaa",
                 "Italialainen kasvispyörykkä"
@@ -595,7 +595,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -608,12 +608,35 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Samettinen kasvissosekeitto",
-            "Rapeaa turskaa",
-            "– Basilika-sitruunakermaviiliä",
+            "Turskaa kermaisessa tillikastikkeessa",
             "Chili con carne – jauhelihasta",
             "Paahdetut satokauden kasvikset",
-            "– Riisiä",
-            "Tex-Mex Härkis nacho vuoka"
+            "– Talon perunat",
+            "Tex-Mex Härkis nacho vuoka",
+            "Mozzarella",
+            "Keitettyä kananmunaa",
+            "Teriyakitofua"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Samettinen kasvissosekeitto",
+                "Turskaa kermaisessa tillikastikkeessa",
+                "Chili con carne – jauhelihasta",
+                "Paahdetut satokauden kasvikset",
+                "– Talon perunat",
+                "Tex-Mex Härkis nacho vuoka"
+              ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Mozzarella",
+                "Keitettyä kananmunaa",
+                "Teriyakitofua"
+              ]
+            }
           ]
         },
         {
@@ -677,7 +700,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -801,7 +824,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -993,7 +1016,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1108,7 +1131,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1272,7 +1295,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1320,7 +1343,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1392,7 +1415,7 @@
             "Hoisin glaseerattua possua",
             "Aromikas kasvis-vindaloo & riisiä",
             "Chef´s menu: Caprese salaatti paahdetulla broilerilla",
-            "Juustoinen parsakaalikeitto"
+            "Juustoinen myskikurpitsakeitto"
           ],
           "osastot": [
             {
@@ -1407,7 +1430,7 @@
             {
               "nimi": "Keitto",
               "ruoat": [
-                "Juustoinen parsakaalikeitto"
+                "Juustoinen myskikurpitsakeitto"
               ]
             }
           ]
@@ -1463,7 +1486,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1613,7 +1636,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1651,6 +1674,7 @@
           "ruoat": [
             "Lyonin kanaa",
             "– välimeren riisiä aurinkokuivatulla tomaatilla ja pestolla",
+            "– paahdettua rakuunaporkkanaa ja kesäkurpitsaa",
             "Pinaattiset kasvispihvit tuorejuustosydämellä",
             "– tsatsikia",
             "Juustoinen chili-tomaattikeitto"
@@ -1660,7 +1684,7 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Ylikypsää possun niskaa Kansas cityn BBQ-kastikkeessa",
-            "– chimichurriperunat",
+            "– paahdetut valkosipuliperunat",
             "Palak paneer paneer-juustolla ja halloumilla",
             "Parsakaalisosekeitto"
           ]
@@ -1694,7 +1718,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2078,7 +2102,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2212,7 +2236,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T00:27:45.472963+00:00"
+      "paivitetty": "2026-09-21T05:21:03.657526+00:00"
     }
   ]
 }
