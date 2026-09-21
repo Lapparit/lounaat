@@ -738,8 +738,8 @@ LOUNAAT_INFO_OHITA = (
 )
 
 
-# Reaktorin linjastot joita EI näytetä (jälkiruoka, leipä)
-REAKTORI_OHITA = ("so sweet", "so bread")
+# Reaktorin linjastot joita EI näytetä (tyhjä: kaikki näytetään omina osastoinaan)
+REAKTORI_OHITA: tuple[str, ...] = ()
 
 
 def _reaktori_siivoa_nimi(nimi: str) -> str:
@@ -796,6 +796,10 @@ def _reaktori_osaston_nimi(nimi: str) -> str:
         return "Pop Up Grill salaatti" if "salaatti" in nl else "Pop Up Grill"
     if "soup" in nl or "keitto" in nl:
         return "Keitto"
+    if "sweet" in nl or "jälkiruoka" in nl:
+        return "Jälkiruoka"
+    if "bread" in nl:
+        return "Leipälounas (Break Cafe)"
     sulut = re.findall(r"\(([^)]*)\)", n)
     kuvaus = next((x.strip() for x in sulut if not x.lower().startswith("linjasto")), "")
     if kuvaus:
