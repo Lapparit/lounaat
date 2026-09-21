@@ -199,7 +199,8 @@ class Kontukeittio(unittest.TestCase):
         {"dayNumber": 1, "dayName": {"fi": "Maanantai"}, "dateString": "2026-09-14", "isHidden": False, "isClosed": False, "lunches": [
             {"title": {"fi": "Metsäsienikeittoa"}, "description": {"fi": ""}},
             {"title": {"fi": "Lindströminpihvejä kermasipulikastikkeessa"}, "description": {"fi": ""}},
-            {"title": {"fi": "Halloumi – punajuuripihvejä"}, "description": {"fi": "kylmäkastiketta"}},
+            {"title": {"fi": "Halloumi – punajuuripihvejä"}, "description": {"fi": "kylmäkastiketta"},
+             "allergens": [{"abbreviation": {"fi": "K"}}]},
         ]},
         {"dayNumber": 6, "dayName": {"fi": "Lauantai"}, "dateString": "2026-09-19", "isHidden": False, "isClosed": True, "lunches": []},
     ]}}}
@@ -210,9 +211,11 @@ class Kontukeittio(unittest.TestCase):
         self.assertEqual(paivat[0]["ruoat"], [
             "Metsäsienikeittoa",
             "Lindströminpihvejä kermasipulikastikkeessa",
-            "Halloumi – punajuuripihvejä – kylmäkastiketta",
+            "Halloumi – punajuuripihvejä – kylmäkastiketta (kasvisvaihtoehto)",
         ])
-        self.assertEqual([o["nimi"] for o in paivat[0]["osastot"]], ["Keitto", "Lounas"])
+        self.assertEqual([o["nimi"] for o in paivat[0]["osastot"]], ["Keitto", "Lounasbuffet"])
+        self.assertEqual(scrape.siivoa_ruoka("Halloumi – punajuuripihvejä (kasvisvaihtoehto)"),
+                         "Halloumi – punajuuripihvejä (kasvisvaihtoehto)")
         self.assertEqual(scrape.normalisoi_paivat(paivat)[0]["paiva"], "Maanantai")
 
     def test_api_avain_luetaan_sivulta(self):
@@ -234,6 +237,88 @@ class Kontukeittio(unittest.TestCase):
              mock.patch.object(scrape, "_lounastaja_viikko", return_value=[]):
             paivat = scrape.scrape_kontukeittio()
         self.assertEqual(paivat, [{"paiva": "Maanantai 14.9.", "ruoat": ["Kaalikeittoa"]}])
+
+
+class HerttaJaLinkosuo(unittest.TestCase):
+    HTML = """<dl><dt>Maanantai 21.09.</dt><dd>Kaurapuuro M &amp; hillo klo 7.45-9.30 á 2,30 €<br>
+Naudanliha kebabia ranskalaisilla perunoilla M, G<br>
+Punajuuripihvejä M, G, VEG &amp; raikas piparjuuridippi M, G (SAA VEG dippi keittiöstä)<br>
+Keitto: Kermainen basilika-tomaattikeitto L, G<br>
+Chef´s menu: Paistettua puna-ahventa &amp; beurre blanc- kastiketta L, G<br>
+Jälkiruoaksi pähkinäistä snickers rahkaa L, G</dd>
+<dt>Keskiviikko 23.09.</dt><dd>HUOM! Lounas tänään klo 10.30-13.00!<br>
+Hoisin glaseerattua possua M</dd></dl>"""
+
+    def test_chef_annos_ja_jalkiruoka_omiin_osastoihin(self):
+        with mock.patch.object(scrape, "hae_sivu", return_value=self.HTML):
+            paivat = [scrape.siivoa_paiva(p) for p in
+                      scrape.normalisoi_paivat(scrape.scrape_linkosuo("https://linkosuo.fi/toimipaikka/hertta/"))]
+        self.assertEqual([(o["nimi"], o["ruoat"]) for o in paivat[0]["osastot"]], [
+            ("Buffet", ["Naudanliha kebabia ranskalaisilla perunoilla",
+                        "Punajuuripihvejä M, G, VEG & raikas piparjuuridippi"]),
+            ("Keitto", ["Kermainen basilika-tomaattikeitto"]),
+            ("Chef-annos", ["Paistettua puna-ahventa & beurre blanc- kastiketta"]),
+            ("Jälkiruoka", ["pähkinäistä snickers rahkaa"]),
+        ])
+        # HUOM-rivi pois, ruoka jää
+        self.assertEqual(paivat[1]["ruoat"], ["Hoisin glaseerattua possua"])
+
+
+class CaffitellaUusi(unittest.TestCase):
+    HTML = """<main><p>MAANANTAI</p>
+<p>Pannupihvi sipuli-kermakastikkeessa (G,L) (suomalaista nautaa ja possua)</p>
+<p>BBQ-broileria (G,M) (suomalaista broileria)<br>Paahdettua perunaa (G,M) &amp; riisiä (G,M)</p>
+<p>Salaattibuffet</p>
+<p><span>Broiler burger (L) Tofu poke (G,VE) (annosruoka ei sis.buffettiin)</span></p>
+<p><br>TIISTAI</p><p>Ylikypsää possua (G,L)</p></main>"""
+
+    def test_br_rivit_ja_annokset(self):
+        with mock.patch.object(scrape, "hae_sivu", return_value=self.HTML):
+            paivat = [scrape.siivoa_paiva(p) for p in scrape.normalisoi_paivat(scrape.scrape_caffitella())]
+        self.assertEqual([(o["nimi"], o["ruoat"]) for o in paivat[0]["osastot"]], [
+            ("Lounasbuffet", ["Pannupihvi sipuli-kermakastikkeessa (suomalaista nautaa ja possua)",
+                              "BBQ-broileria (suomalaista broileria)", "Paahdettua perunaa & riisiä",
+                              "Salaattibuffet"]),
+            ("Annosruoat (ei sis. buffettiin)", ["Broiler burger", "Tofu poke"]),
+        ])
+        self.assertEqual(paivat[1]["ruoat"], ["Ylikypsää possua"])
+
+
+class SpeakeasySpanit(unittest.TestCase):
+    HTML = """<body><p><strong><span>MAANANTAI 21</span><span>.9.<br></span></strong>
+<b><span>Kievinkana ja mango-chilimajoneesi</span><span>, ranskalaiset (</span><span>L</span><span>)<br></span></b>
+<b>Speakeasyn original wingsejä (L,G)<br></b></p>
+<p><strong>TIISTAI 22<span>.9.<br></span></strong><b>Mustamakkara ja puolukkahillo (L)<br></b></p>
+<p>L=laktoositon</p></body>"""
+
+    def test_spanit_yhdistyvat_ja_paivamaara_pois(self):
+        with mock.patch.object(scrape, "hae_sivu", return_value=self.HTML):
+            paivat = [scrape.siivoa_paiva(p) for p in scrape.normalisoi_paivat(scrape.scrape_speakeasy())]
+        self.assertEqual(paivat[0]["ruoat"], ["Kievinkana ja mango-chilimajoneesi, ranskalaiset",
+                                             "Speakeasyn original wingsejä"])
+        self.assertEqual(paivat[1]["ruoat"], ["Mustamakkara ja puolukkahillo"])
+
+
+class SiivousLisat(unittest.TestCase):
+    def test_pienet_koodit_ja_paivamaarat(self):
+        self.assertEqual(scrape.siivoa_ruoka("Muikkuja l"), "Muikkuja")
+        self.assertEqual(scrape.siivoa_ruoka("Pangasius g"), "Pangasius")
+        self.assertIsNone(scrape.siivoa_ruoka("21.9."))
+        self.assertIsNone(scrape.siivoa_ruoka("HUOM! Lounas tänään klo 10.30-13.00!"))
+        self.assertEqual(scrape.siivoa_ruoka("Piparjuuridippi M, G (SAA VEG dippi keittiöstä)"), "Piparjuuridippi")
+
+    def test_sodexo_kaannokset_ja_etuliite(self):
+        self.assertEqual(scrape._sodexo_osaston_nimi("Soup of the day"), "Päivän keitto")
+        data = {"mealdates": [{"date": "Maanantai", "courses": {
+            "1": {"title_fi": "Bowl Factory: Nuudeleita ja kanaa", "category": "Bowl Factory 13,80 €"},
+            "2": {"title_fi": "Bowl Factory Nuudeleita", "category": "Bowl Factory 13,80 €"}}}]}
+        class R:
+            def raise_for_status(self): pass
+            def json(self): return data
+        with mock.patch.object(scrape.requests, "get", return_value=R()):
+            paivat = scrape.scrape_sodexo(110)
+        self.assertEqual(paivat[0]["osastot"][0], {"nimi": "Bowl Factory",
+                                                    "ruoat": ["Nuudeleita ja kanaa", "Nuudeleita"]})
 
 
 class Fastelle(unittest.TestCase):
@@ -347,7 +432,7 @@ class Osastot(unittest.TestCase):
         self.assertEqual([(o["nimi"], o["ruoat"]) for o in osastot], [
             ("Lounas", ["Paneroitua hietakampelaa M & dippi", "Kukkakaali-kikherne muhennos", "– riisiä"]),
             ("Keitto", ["Kaalikeitto"]),
-            ("Chef", ["Puna-ahventa"]),
+            ("Chef-annos", ["Puna-ahventa"]),
             ("Vegaaninen keittiöstä", ["Kasvispata"]),
             ("Proteiinilisäkkeet punnittavaan salaattiin", ["Salaattijuustoa", "Kikherneitä"]),
         ])
