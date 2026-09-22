@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-22T05:18:07.491478+00:00",
+  "paivitetty": "2026-09-22T07:55:14.660679+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Farmi",
@@ -636,7 +636,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -685,7 +685,7 @@
           "ruoat": [
             "Kiinalaista egg drop-keittoa",
             "Porsaan ulkofilettä bbq-kirsikkatomaattikastikkeessa",
-            "Kylmäsavulohipasta",
+            "Lohipasta",
             "– Juustoripote",
             "Paahdetut satokauden kasvikset",
             "– Kasviskaalikääryleitä"
@@ -741,7 +741,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -778,24 +778,24 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kanankoipia, currykastiketta, mustaherukoita ja riisiä",
-            "Talon omia pannupihvejä, ruskeaa sipulikastiketta ja dijon-perunamuusia",
+            "Broileria currykastikkeessa L, G, mustaherukoita M, G ja riisiä",
+            "Jauhelihapihvejä ruskeassa sipulikastikkeessa L ja dijon-perunamuusia",
             "Broken halloumipita ja tzatzikia",
-            "Lihakeittoa ja riisipiirakoita"
+            "Lihakeittoa M, G ja riisipiirakoita"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Kanankoipia, currykastiketta, mustaherukoita ja riisiä",
-                "Talon omia pannupihvejä, ruskeaa sipulikastiketta ja dijon-perunamuusia"
+                "Broileria currykastikkeessa L, G, mustaherukoita M, G ja riisiä",
+                "Jauhelihapihvejä ruskeassa sipulikastikkeessa L ja dijon-perunamuusia"
               ]
             },
             {
               "nimi": "Grilli",
               "ruoat": [
                 "Broken halloumipita ja tzatzikia",
-                "Lihakeittoa ja riisipiirakoita"
+                "Lihakeittoa M, G ja riisipiirakoita"
               ]
             }
           ]
@@ -865,7 +865,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -916,36 +916,36 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Possua kermakastikkeessa ja paahdettuja perunoita",
-            "Marry Me-kasvispastaa, paahdettuja perunoita ja kasviksia",
-            "Burger Bar: Naudanlihaa, kanaa ja kesäkurpitsa-halloumipihvejä, cheddarkastiketta, BBQ-kastiketta, valkosipuli- ja srirachamajoneesia, salaattia, tomaattia, suolakurkkuja ja ranskiksia",
-            "Nuudeleita, kasvis dumplingeja, marinoitua kanaa, seesam-chilimangoa, pikkelöityä porkkanaa ja retiisejä, kimchiä, herneitä,kurkkua,edamame papuja, seesam-parsakaalia ja erilaisia kastikkeita",
-            "Purjo-perunasosekeittoa"
+            "Possua kermakastikkeessa L,G ja paahdettuja perunoita",
+            "Marry Me-kasvispastaa L,G, pastaa M ja kasviksia",
+            "Burger Bar: Naudanlihaa, kanaa M,G ja punajuuri-halloumipihvejä VL,G, cheddarkastiketta L,G, BBQ-kastiketta M, valkosipuli- ja srirachamajoneesia M,G, salaattia, tomaattia, suolakurkkuja ja ranskiksia",
+            "Nuudeleita M, kasvis dumplingeja M, marinoitua kanaa M,G, seesam-chilimangoa, pikkelöityä porkkanaa ja retiisejä, kimchiä, herneitä,kurkkua,edamame papuja, seesam-parsakaalia ja erilaisia kastikkeita",
+            "Itämaista porkkanakeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Possua kermakastikkeessa ja paahdettuja perunoita",
-                "Marry Me-kasvispastaa, paahdettuja perunoita ja kasviksia"
+                "Possua kermakastikkeessa L,G ja paahdettuja perunoita",
+                "Marry Me-kasvispastaa L,G, pastaa M ja kasviksia"
               ]
             },
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Burger Bar: Naudanlihaa, kanaa ja kesäkurpitsa-halloumipihvejä, cheddarkastiketta, BBQ-kastiketta, valkosipuli- ja srirachamajoneesia, salaattia, tomaattia, suolakurkkuja ja ranskiksia"
+                "Burger Bar: Naudanlihaa, kanaa M,G ja punajuuri-halloumipihvejä VL,G, cheddarkastiketta L,G, BBQ-kastiketta M, valkosipuli- ja srirachamajoneesia M,G, salaattia, tomaattia, suolakurkkuja ja ranskiksia"
               ]
             },
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Nuudeleita, kasvis dumplingeja, marinoitua kanaa, seesam-chilimangoa, pikkelöityä porkkanaa ja retiisejä, kimchiä, herneitä,kurkkua,edamame papuja, seesam-parsakaalia ja erilaisia kastikkeita"
+                "Nuudeleita M, kasvis dumplingeja M, marinoitua kanaa M,G, seesam-chilimangoa, pikkelöityä porkkanaa ja retiisejä, kimchiä, herneitä,kurkkua,edamame papuja, seesam-parsakaalia ja erilaisia kastikkeita"
               ]
             },
             {
               "nimi": "Päivän keitto",
               "ruoat": [
-                "Purjo-perunasosekeittoa"
+                "Itämaista porkkanakeittoa"
               ]
             }
           ]
@@ -1057,7 +1057,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1172,7 +1172,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1336,7 +1336,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1384,7 +1384,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1555,7 +1555,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1680,7 +1680,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1762,7 +1762,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1856,12 +1856,12 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Paneer Koseli -leipäjuustokastiketta",
+            "Paneer Koseli -leipäjuustokastiketta (vegaaninen vaihtoehto kasvispihvit)",
             "Tummaa riisiä",
             "Parsakaalisosekeittoa",
-            "Pestomarinoitua mozzarellaa",
+            "Kirjolohta",
             "Broileria currykastikkeessa",
-            "Tummaa riisiä",
+            "Dijon-perunamuusia",
             "Pekonilla ja sipulilla täytettyä uunimakkaraa",
             "Dijon-perunamuusia",
             "Vaahtokarkkirahkaa & kinuskia",
@@ -1875,7 +1875,7 @@
             {
               "nimi": "Kasvislounas",
               "ruoat": [
-                "Paneer Koseli -leipäjuustokastiketta",
+                "Paneer Koseli -leipäjuustokastiketta (vegaaninen vaihtoehto kasvispihvit)",
                 "Tummaa riisiä"
               ]
             },
@@ -1888,14 +1888,14 @@
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Pestomarinoitua mozzarellaa"
+                "Kirjolohta"
               ]
             },
             {
               "nimi": "So Good",
               "ruoat": [
                 "Broileria currykastikkeessa",
-                "Tummaa riisiä"
+                "Dijon-perunamuusia"
               ]
             },
             {
@@ -2209,7 +2209,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2260,7 +2260,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2337,7 +2337,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T05:18:07.491478+00:00"
+      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     }
   ]
 }
