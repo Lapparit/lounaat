@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-21T09:03:39.737880+00:00",
+  "paivitetty": "2026-09-22T01:06:05.568281+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Farmi",
@@ -394,7 +394,7 @@
             "Kanakeittoa thaimaalaisittain",
             "Kasvis-munakasrullaa",
             "Chimichurri-maustettua possua",
-            "Katkarapu-lasinuudelisalaatti",
+            "Katkarapu-caesarsalaatti",
             "Paholaisen kanapizzaa",
             "Vihreää salaattia"
           ],
@@ -436,7 +436,7 @@
                 "Kanakeittoa thaimaalaisittain",
                 "Kasvis-munakasrullaa",
                 "Chimichurri-maustettua possua",
-                "Katkarapu-lasinuudelisalaatti"
+                "Katkarapu-caesarsalaatti"
               ]
             },
             {
@@ -636,7 +636,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -700,7 +700,7 @@
             "– Puolukkasurvos",
             "Paahdetut satokauden kasvikset",
             "– Paahdetut yrttiperunat",
-            "Kasvispyörykkä"
+            "Paistettua pinaattia ja pastaa pähkinöillä"
           ]
         },
         {
@@ -709,7 +709,7 @@
             "Perinteistä hernekeittoa palvikinkulla",
             "Pad thai possulla – Paistettuja nuudeleita possulla",
             "Täällä tehtyä mantelikalaa",
-            "Paistettua pastaa, tuoretta pinaattia ja pähkinöitä",
+            "Kasvispyörykät",
             "pannukakkua, kermavaahtoa ja hilloa"
           ],
           "osastot": [
@@ -719,7 +719,7 @@
                 "Perinteistä hernekeittoa palvikinkulla",
                 "Pad thai possulla – Paistettuja nuudeleita possulla",
                 "Täällä tehtyä mantelikalaa",
-                "Paistettua pastaa, tuoretta pinaattia ja pähkinöitä"
+                "Kasvispyörykät"
               ]
             },
             {
@@ -741,7 +741,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -865,7 +865,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1057,7 +1057,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1172,7 +1172,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1336,7 +1336,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1384,7 +1384,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1555,7 +1555,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1680,7 +1680,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1762,7 +1762,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1784,7 +1784,7 @@
             "Ruohosipulijogurttia",
             "Paahdettua perunaa",
             "Vaahtokarkkirahkaa & kinuskia",
-            "Rapeaa kanaa korealaisittain - Chicken Gochujang",
+            "Kanaa korealaisittain - Chicken Gochujang",
             "Limemajoneesia",
             "Paistettua nuudelia, kasviksia ja pähkinää (saatavilla myös ilman pähkinää)",
             "Halloumisalaattia",
@@ -1834,7 +1834,7 @@
             {
               "nimi": "Pop Up Grill",
               "ruoat": [
-                "Rapeaa kanaa korealaisittain - Chicken Gochujang",
+                "Kanaa korealaisittain - Chicken Gochujang",
                 "Limemajoneesia",
                 "Paistettua nuudelia, kasviksia ja pähkinää (saatavilla myös ilman pähkinää)"
               ]
@@ -1865,7 +1865,7 @@
             "Pekonilla ja sipulilla täytettyä uunimakkaraa",
             "Dijon-perunamuusia",
             "Vaahtokarkkirahkaa & kinuskia",
-            "Rapeaa kanaa korealaisittain - Chicken Gochujang",
+            "Kanaa korealaisittain - Chicken Gochujang",
             "Limemajoneesia",
             "Paistettua nuudelia, kasviksia ja pähkinää (saatavilla myös ilman pähkinää)",
             "Halloumisalaattia",
@@ -1914,7 +1914,7 @@
             {
               "nimi": "Pop Up Grill",
               "ruoat": [
-                "Rapeaa kanaa korealaisittain - Chicken Gochujang",
+                "Kanaa korealaisittain - Chicken Gochujang",
                 "Limemajoneesia",
                 "Paistettua nuudelia, kasviksia ja pähkinää (saatavilla myös ilman pähkinää)"
               ]
@@ -2209,7 +2209,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2260,7 +2260,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2337,7 +2337,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-21T09:03:39.737880+00:00"
+      "paivitetty": "2026-09-22T01:06:05.568281+00:00"
     }
   ]
 }
