@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-22T07:55:14.660679+00:00",
+  "paivitetty": "2026-09-23T00:53:33.145234+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,6 +308,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 6)"
+      ],
+      "rikki_alkaen": "2026-09-23T00:53:33.145234+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
@@ -636,6 +641,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
+      ],
+      "rikki_alkaen": "2026-09-23T00:53:33.145234+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
@@ -741,7 +751,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -865,7 +875,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1057,7 +1067,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1172,7 +1182,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1336,6 +1346,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
+      ],
+      "rikki_alkaen": "2026-09-23T00:53:33.145234+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     },
     {
@@ -1384,7 +1399,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1426,7 +1441,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Sitruunaista uunilohta",
+            "Sitruunaista uunikalaa",
             "– tilli-kermaviilikastiketta",
             "– täyteläistä perunamuusia",
             "Kukkoa viinissä",
@@ -1438,7 +1453,7 @@
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Sitruunaista uunilohta",
+                "Sitruunaista uunikalaa",
                 "– tilli-kermaviilikastiketta",
                 "– täyteläistä perunamuusia",
                 "Kukkoa viinissä"
@@ -1555,7 +1570,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1680,7 +1695,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1762,7 +1777,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1861,9 +1876,9 @@
             "Parsakaalisosekeittoa",
             "Kirjolohta",
             "Broileria currykastikkeessa",
-            "Dijon-perunamuusia",
+            "Tummaa riisiä",
             "Pekonilla ja sipulilla täytettyä uunimakkaraa",
-            "Dijon-perunamuusia",
+            "Tummaa riisiä",
             "Vaahtokarkkirahkaa & kinuskia",
             "Kanaa korealaisittain - Chicken Gochujang",
             "Limemajoneesia",
@@ -1895,14 +1910,14 @@
               "nimi": "So Good",
               "ruoat": [
                 "Broileria currykastikkeessa",
-                "Dijon-perunamuusia"
+                "Tummaa riisiä"
               ]
             },
             {
               "nimi": "So Tasty",
               "ruoat": [
                 "Pekonilla ja sipulilla täytettyä uunimakkaraa",
-                "Dijon-perunamuusia"
+                "Tummaa riisiä"
               ]
             },
             {
@@ -2209,7 +2224,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2260,7 +2275,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2337,6 +2352,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
+      ],
+      "rikki_alkaen": "2026-09-23T00:53:33.145234+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-09-22T07:55:14.660679+00:00"
     }
   ]
