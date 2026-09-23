@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-23T00:53:33.145234+00:00",
+  "paivitetty": "2026-09-23T05:04:31.364381+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           "ruoat": [
             "Lihapullia pippurikermakastikkeessa (suomalaista nautaa ja possua)",
             "Savulohivuokaa (suomalaista kirjolohta)",
-            "Paahdettua perunaa & riisiä",
+            "Paahdettua perunaa",
             "Salaattibuffet",
             "Aioli burger",
             "Tofu salaatti"
@@ -229,7 +229,7 @@
               "ruoat": [
                 "Lihapullia pippurikermakastikkeessa (suomalaista nautaa ja possua)",
                 "Savulohivuokaa (suomalaista kirjolohta)",
-                "Paahdettua perunaa & riisiä",
+                "Paahdettua perunaa",
                 "Salaattibuffet"
               ]
             },
@@ -246,8 +246,8 @@
           "paiva": "Torstai",
           "ruoat": [
             "Sitruuna-smetanabroileria (suomalaista broileria)",
-            "Kebabia tomaatti-paprikakastikkeessa (suomalaista nautaa)",
-            "Lohkoperunoita",
+            "Caffitellan kebabia (suomalaista nautaa)",
+            "Lohkoperunoita & riisiä",
             "Salaattibuffet",
             "Vuohenjuusto burger",
             "Teriyaki poke"
@@ -257,8 +257,8 @@
               "nimi": "Lounasbuffet",
               "ruoat": [
                 "Sitruuna-smetanabroileria (suomalaista broileria)",
-                "Kebabia tomaatti-paprikakastikkeessa (suomalaista nautaa)",
-                "Lohkoperunoita",
+                "Caffitellan kebabia (suomalaista nautaa)",
+                "Lohkoperunoita & riisiä",
                 "Salaattibuffet"
               ]
             },
@@ -308,12 +308,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 6)"
-      ],
-      "rikki_alkaen": "2026-09-23T00:53:33.145234+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Farmi",
@@ -400,6 +395,7 @@
             "Kasvis-munakasrullaa",
             "Chimichurri-maustettua possua",
             "Katkarapu-caesarsalaatti",
+            "Falafelpyörykkä",
             "Paholaisen kanapizzaa",
             "Vihreää salaattia"
           ],
@@ -441,7 +437,8 @@
                 "Kanakeittoa thaimaalaisittain",
                 "Kasvis-munakasrullaa",
                 "Chimichurri-maustettua possua",
-                "Katkarapu-caesarsalaatti"
+                "Katkarapu-caesarsalaatti",
+                "Falafelpyörykkä"
               ]
             },
             {
@@ -641,12 +638,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-09-23T00:53:33.145234+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -751,7 +743,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -875,7 +867,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1067,7 +1059,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1182,7 +1174,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1346,12 +1338,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-09-23T00:53:33.145234+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1399,7 +1386,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1570,7 +1557,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1695,7 +1682,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1753,7 +1740,7 @@
           "ruoat": [
             "Puna-ahventa hollandaisekastikkeessa",
             "– ruohosipuliperunamuusia",
-            "Cajunbroileria kirsikkakastikkeessa",
+            "Cajun-maustettua broilerin sisäfileetä kirsikkakastikkeessa",
             "Jauhelihakaalikeitto",
             "Kahvin kanssa suklaapiirakkaa"
           ]
@@ -1777,7 +1764,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2224,7 +2211,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2275,7 +2262,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-23T00:53:33.145234+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2352,12 +2339,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-09-23T00:53:33.145234+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-09-22T07:55:14.660679+00:00"
+      "paivitetty": "2026-09-23T05:04:31.364381+00:00"
     }
   ]
 }
