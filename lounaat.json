@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-24T00:50:55.228614+00:00",
+  "paivitetty": "2026-09-24T05:15:57.352935+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Farmi",
@@ -635,7 +635,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -731,25 +731,42 @@
           "paiva": "Torstai",
           "ruoat": [
             "Perinteistä hernekeittoa palvikinkulla",
-            "Pad thai possulla – Paistettuja nuudeleita possulla",
-            "Täällä tehtyä mantelikalaa",
+            "Pad thai possulla – Paistettuja nuudeleita possulla M,vs,sipuli – saatavana gluteeniton vaihtoehto!",
+            "Täällä tehtyä mantelikalaa L – saatavana gluteeniton vaihtoehto!",
+            "– Keitetyt perunat",
+            "– Talon kasvikset",
             "Kasvispyörykät",
-            "pannukakkua, kermavaahtoa ja hilloa"
+            "– Jogurttikastike",
+            "pannukakkua, kermavaahtoa ja hilloa",
+            "Raejuustoa",
+            "Marinoitua broileria",
+            "Paahdettua halloumia"
           ],
           "osastot": [
             {
               "nimi": "Lounas",
               "ruoat": [
                 "Perinteistä hernekeittoa palvikinkulla",
-                "Pad thai possulla – Paistettuja nuudeleita possulla",
-                "Täällä tehtyä mantelikalaa",
-                "Kasvispyörykät"
+                "Pad thai possulla – Paistettuja nuudeleita possulla M,vs,sipuli – saatavana gluteeniton vaihtoehto!",
+                "Täällä tehtyä mantelikalaa L – saatavana gluteeniton vaihtoehto!",
+                "– Keitetyt perunat",
+                "– Talon kasvikset",
+                "Kasvispyörykät",
+                "– Jogurttikastike"
               ]
             },
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
                 "pannukakkua, kermavaahtoa ja hilloa"
+              ]
+            },
+            {
+              "nimi": "Proteiinit punnittavaan salaattiin",
+              "ruoat": [
+                "Raejuustoa",
+                "Marinoitua broileria",
+                "Paahdettua halloumia"
               ]
             }
           ]
@@ -765,7 +782,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -889,7 +906,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1081,7 +1098,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1196,7 +1213,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1360,7 +1377,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1408,7 +1425,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1579,7 +1596,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1704,7 +1721,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1787,7 +1804,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2219,7 +2236,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2270,7 +2287,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2347,7 +2364,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-24T00:50:55.228614+00:00"
+      "paivitetty": "2026-09-24T05:15:57.352935+00:00"
     }
   ]
 }
