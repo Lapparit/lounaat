@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-28T05:45:50.802707+00:00",
+  "paivitetty": "2026-09-28T08:55:15.675316+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Farmi",
@@ -392,7 +392,7 @@
             "Kaura-punajuuripyöryköitä",
             "Aioli-katkarapuja",
             "Caesar-salaattia",
-            "Meetwursti-paprika-valkosipulipizza",
+            "Kinkku-ananas-aurajuustopizzaa",
             "Vihreää salaattia"
           ],
           "osastot": [
@@ -436,7 +436,7 @@
             {
               "nimi": "Pizzalounas",
               "ruoat": [
-                "Meetwursti-paprika-valkosipulipizza",
+                "Kinkku-ananas-aurajuustopizzaa",
                 "Vihreää salaattia"
               ]
             }
@@ -460,7 +460,7 @@
             "BBQ-majoneesia",
             "Täytettyjä paprikoita",
             "Katkarapu-caesarsalaatti",
-            "Kinkku-ananas-aurajuustopizzaa",
+            "Meetwursti-paprikapizzaa",
             "Vihreää salaattia"
           ],
           "osastot": [
@@ -507,7 +507,7 @@
             {
               "nimi": "Pizzalounas",
               "ruoat": [
-                "Kinkku-ananas-aurajuustopizzaa",
+                "Meetwursti-paprikapizzaa",
                 "Vihreää salaattia"
               ]
             }
@@ -597,7 +597,7 @@
             "Mangomajoneesia",
             "Keksiannos",
             "Kahvi",
-            "Paahdettua lohta & kantarellikastike"
+            "Paahdettua kirjolohta & kantarellikastike"
           ],
           "osastot": [
             {
@@ -626,13 +626,13 @@
             {
               "nimi": "Grilliannos",
               "ruoat": [
-                "Paahdettua lohta & kantarellikastike"
+                "Paahdettua kirjolohta & kantarellikastike"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -644,11 +644,34 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Juures-linssikeittoa",
+            "Juureskeittoa",
             "Kananpoikaa napolilaisessa tomaattikastikkeessa",
             "Puerto Ricon pataa possulla",
             "– Paahdetut satokauden kasvikset",
-            "Tofu-bataatticurrya"
+            "Tofu-bataatticurrya",
+            "Leipäjuusto",
+            "Marinoitu broiler",
+            "Raejuusto"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Juureskeittoa",
+                "Kananpoikaa napolilaisessa tomaattikastikkeessa",
+                "Puerto Ricon pataa possulla",
+                "– Paahdetut satokauden kasvikset",
+                "Tofu-bataatticurrya"
+              ]
+            },
+            {
+              "nimi": "Proteiinit punnittavaan salaattiin",
+              "ruoat": [
+                "Leipäjuusto",
+                "Marinoitu broiler",
+                "Raejuusto"
+              ]
+            }
           ]
         },
         {
@@ -693,7 +716,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -819,7 +842,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -831,19 +854,19 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Miilunpolttajan pastaa, parmesaania ja lämmintä kasvissalaattia",
-            "Kikherne-kasvistaginea, couscousia, herneitä ja tomaattia",
+            "Miilunpolttajan pastaa L, parmesaania L,G ja lämmintä kasvissalaattia",
+            "Kikherne-kasvistaginea M,G, couscousia, herneitä ja tomaattia",
             "Chicken Naanbread",
             "Beef-blue cheeseburgeria ja bataattiranskalaisia",
-            "Basmatia, tonnikalaa, chili mifua, seesami-chilimangoa,pikkelöityä porkkanaa ja retiisiä, kimchiä, herneitä, kurkkua, edamame papuja, seesam parsakaalia, suolapähkinöitä ja korianteria sekä erilaisia kastikkeita",
+            "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Kookos-bataattisosekeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Miilunpolttajan pastaa, parmesaania ja lämmintä kasvissalaattia",
-                "Kikherne-kasvistaginea, couscousia, herneitä ja tomaattia"
+                "Miilunpolttajan pastaa L, parmesaania L,G ja lämmintä kasvissalaattia",
+                "Kikherne-kasvistaginea M,G, couscousia, herneitä ja tomaattia"
               ]
             },
             {
@@ -856,7 +879,7 @@
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Basmatia, tonnikalaa, chili mifua, seesami-chilimangoa,pikkelöityä porkkanaa ja retiisiä, kimchiä, herneitä, kurkkua, edamame papuja, seesam parsakaalia, suolapähkinöitä ja korianteria sekä erilaisia kastikkeita"
+                "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -873,7 +896,7 @@
             "Wokattua valkosipulihärkää, kasviksia ja riisiä",
             "Mexicolaisia kasvispihvejä, jogurttikastiketta, kauden kasviksia",
             "Hermia goes Octoberfest!: Currywurstia, ylikypsää porsaankylkeä, tomaattista currykastiketta, smetana-hapankaalia, ryytisinapilla maustettua perunasalaattia, omena-sellerisalaattia, brezeleitä ja alkoholitonta olutta",
-            "Basmatia, bulgogi nautaa, chili mifua, seesami-chilimangoa,pikkelöityä porkkanaa ja retiisiä, kimchiä, herneitä, kurkkua, edamame papuja, seesam parsakaalia, suolapähkinöitä ja korianteria sekä erilaisia kastikkeita",
+            "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Herkkusienikeittoa"
           ],
           "osastot": [
@@ -893,7 +916,7 @@
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Basmatia, bulgogi nautaa, chili mifua, seesami-chilimangoa,pikkelöityä porkkanaa ja retiisiä, kimchiä, herneitä, kurkkua, edamame papuja, seesam parsakaalia, suolapähkinöitä ja korianteria sekä erilaisia kastikkeita"
+                "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -910,7 +933,7 @@
             "Red currykanaa ja basmatia",
             "Pinaattilettuja, puolukkaa ja paahdettuja perunoita, kasviksia",
             "Hermia goes Octoberfest!: Currywurstia, ylikypsää porsaankylkeä, tomaattista currykastiketta, smetana-hapankaalia, ryytisinapilla maustettua perunasalaattia, omena-sellerisalaattia, brezeleitä ja alkoholitonta olutta",
-            "Basmatia, tonnikalaa, chili mifua, seesami-chilimangoa,pikkelöityä porkkanaa ja retiisiä, kimchiä, herneitä, kurkkua, edamame papuja, seesam parsakaalia, suolapähkinöitä ja korianteria sekä erilaisia kastikkeita",
+            "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Jeeralla maustettua porkkanakeittoa"
           ],
           "osastot": [
@@ -930,7 +953,7 @@
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Basmatia, tonnikalaa, chili mifua, seesami-chilimangoa,pikkelöityä porkkanaa ja retiisiä, kimchiä, herneitä, kurkkua, edamame papuja, seesam parsakaalia, suolapähkinöitä ja korianteria sekä erilaisia kastikkeita"
+                "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -947,7 +970,7 @@
             "Turskaa uunista sinappi-sitruunakastikkeella, herne-perunasurvosta ja lämpimiä kasviksia",
             "Riisinuudelia, tofua, mangoa ja vihreää currya",
             "Hermia goes Octoberfest!: Currywurstia, ylikypsää porsaankylkeä, tomaattista currykastiketta, smetana-hapankaalia, ryytisinapilla maustettua perunasalaattia, omena-sellerisalaattia, brezeleitä ja alkoholitonta olutta",
-            "Basmatia, tonnikalaa, chili mifua, seesami-chilimangoa,pikkelöityä porkkanaa ja retiisiä, kimchiä, herneitä, kurkkua, edamame papuja, seesam parsakaalia, suolapähkinöitä ja korianteria sekä erilaisia kastikkeita",
+            "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Cheddar-parsakaalikeittoa"
           ],
           "osastot": [
@@ -967,7 +990,7 @@
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Basmatia, tonnikalaa, chili mifua, seesami-chilimangoa,pikkelöityä porkkanaa ja retiisiä, kimchiä, herneitä, kurkkua, edamame papuja, seesam parsakaalia, suolapähkinöitä ja korianteria sekä erilaisia kastikkeita"
+                "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -1011,7 +1034,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1126,7 +1149,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1290,7 +1313,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1337,7 +1360,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1352,7 +1375,8 @@
             "Blackened broileria ja tumman makeaa kirsikkakastiketta",
             "Lempeän täyteläistä leipäjuusto Palak paneer pataa",
             "Silkkinen keitto paahdetusta paprikasta ja inkivääristä",
-            "Pulled pork El pastor quesadilla, paistettua papu- riisiä & avokado kreemiä"
+            "Pulled pork El pastor quesadilla, paistettua papu- riisiä & avokado kreemiä",
+            "Nochickeniä tummalla kirsikkakastikkeella"
           ],
           "osastot": [
             {
@@ -1372,6 +1396,12 @@
               "nimi": "Chef-annos",
               "ruoat": [
                 "Pulled pork El pastor quesadilla, paistettua papu- riisiä & avokado kreemiä"
+              ]
+            },
+            {
+              "nimi": "Vegaaninen keittiöstä",
+              "ruoat": [
+                "Nochickeniä tummalla kirsikkakastikkeella"
               ]
             }
           ]
@@ -1497,7 +1527,7 @@
           "ruoat": [
             "Aromaattista Marrakesh broileria",
             "– sitruunaista kasvis couscousia",
-            "Juustoinen pitsa rucolalla",
+            "Juustoinen pizza rucolalla",
             "Umaminen Tom Yum keitto",
             "Pariloitua lohta salsa verde kastikkeella sekä parmesaani risotolla",
             "Suklaakiisseliä"
@@ -1508,7 +1538,7 @@
               "ruoat": [
                 "Aromaattista Marrakesh broileria",
                 "– sitruunaista kasvis couscousia",
-                "Juustoinen pitsa rucolalla"
+                "Juustoinen pizza rucolalla"
               ]
             },
             {
@@ -1532,7 +1562,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1657,7 +1687,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1694,6 +1724,7 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Balsamico-karamellipossua",
+            "– basmatiriisiä",
             "Rapeat korianteri-limekalapalat",
             "– perunamuusia L,G ja chimichurrikermaviiliä",
             "Lempeä linssikeitto"
@@ -1741,7 +1772,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2196,7 +2227,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2247,7 +2278,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2327,7 +2358,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
+      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
     }
   ]
 }
