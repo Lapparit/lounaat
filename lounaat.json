@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-28T01:08:03.057686+00:00",
+  "paivitetty": "2026-09-28T05:45:50.802707+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Farmi",
@@ -325,18 +325,14 @@
             "Kukkakaalicurrya ja korianterijogurttia",
             "Juuresriisiä",
             "Timjamilla maustettua porkkanaa",
-            "Porkkanaraastetta",
             "Paistettuja kananmunia",
             "Mansikkasmoothieta",
-            "Porkkanaraastetta",
             "Kahvi",
             "Grillattua lohta ja kasviksia",
-            "Porkkanaraastetta",
             "Tomaatti-mozzarellakeittoa",
             "BBQ-maustettua kanaa",
             "Peruna-pinaatti-oliivimunakasta",
             "Kreikkalainen salaatti",
-            "Porkkanaraastetta",
             "Porkkanaraastetta"
           ],
           "osastot": [
@@ -353,7 +349,6 @@
               "ruoat": [
                 "Juuresriisiä",
                 "Timjamilla maustettua porkkanaa",
-                "Porkkanaraastetta",
                 "Paistettuja kananmunia"
               ]
             },
@@ -361,15 +356,13 @@
               "nimi": "Jälkiruoaksi",
               "ruoat": [
                 "Mansikkasmoothieta",
-                "Porkkanaraastetta",
                 "Kahvi"
               ]
             },
             {
               "nimi": "Grilliannos",
               "ruoat": [
-                "Grillattua lohta ja kasviksia",
-                "Porkkanaraastetta"
+                "Grillattua lohta ja kasviksia"
               ]
             },
             {
@@ -379,12 +372,6 @@
                 "BBQ-maustettua kanaa",
                 "Peruna-pinaatti-oliivimunakasta",
                 "Kreikkalainen salaatti",
-                "Porkkanaraastetta"
-              ]
-            },
-            {
-              "nimi": "Pizzalounas",
-              "ruoat": [
                 "Porkkanaraastetta"
               ]
             }
@@ -645,7 +632,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -706,7 +693,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -832,7 +819,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1024,7 +1011,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1139,7 +1126,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1303,7 +1290,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1350,7 +1337,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1363,16 +1350,16 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Blackened broileria ja tumman makeaa kirsikkakastiketta",
-            "Lempeän täyteläistä Leipäjuusto Palak paneer pataa",
+            "Lempeän täyteläistä leipäjuusto Palak paneer pataa",
             "Silkkinen keitto paahdetusta paprikasta ja inkivääristä",
-            "Pulled pork El pastor quesadilla, paistettua papu riisiä & avokado kreemiä"
+            "Pulled pork El pastor quesadilla, paistettua papu- riisiä & avokado kreemiä"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
                 "Blackened broileria ja tumman makeaa kirsikkakastiketta",
-                "Lempeän täyteläistä Leipäjuusto Palak paneer pataa"
+                "Lempeän täyteläistä leipäjuusto Palak paneer pataa"
               ]
             },
             {
@@ -1384,7 +1371,7 @@
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "Pulled pork El pastor quesadilla, paistettua papu riisiä & avokado kreemiä"
+                "Pulled pork El pastor quesadilla, paistettua papu- riisiä & avokado kreemiä"
               ]
             }
           ]
@@ -1392,12 +1379,12 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "OCTOBER",
-            "Olut kastikkeessa haudutettua possua",
+            "OKTOBERFEST",
+            "Olutkastikkeessa haudutettua possua",
             "Käsepätzle- karamelisoidulla sipulilla viimeisteltyä juustopasta paistosta",
-            "Kirkas Perunasalaatti",
-            "punakaali-omenasalaattia",
-            "beef goulash",
+            "– kirkas perunasalaatti",
+            "– punakaali-omenasalaattia",
+            "Beef goulash",
             "Döner kebab- mit alles und scharf (kaikilla mausteilla ja tulisena)",
             "Käsekuchen- rahkainen juustokakku"
           ],
@@ -1405,17 +1392,17 @@
             {
               "nimi": "Buffet",
               "ruoat": [
-                "OCTOBER",
-                "Olut kastikkeessa haudutettua possua",
+                "OKTOBERFEST",
+                "Olutkastikkeessa haudutettua possua",
                 "Käsepätzle- karamelisoidulla sipulilla viimeisteltyä juustopasta paistosta",
-                "Kirkas Perunasalaatti",
-                "punakaali-omenasalaattia"
+                "– kirkas perunasalaatti",
+                "– punakaali-omenasalaattia"
               ]
             },
             {
               "nimi": "Keitto",
               "ruoat": [
-                "beef goulash"
+                "Beef goulash"
               ]
             },
             {
@@ -1435,11 +1422,11 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "OCTOBER",
+            "OKTOBERFEST",
             "Hendl- Baijerilaista uunibroileria",
             "Bratwurstia-sipulikastikkeella",
-            "Vuolukermaista perunamuusia",
-            "Kermaista hapankaalia",
+            "– vuolukermaista perunamuusia",
+            "– kermaista hapankaalia",
             "Käse-lauch suppe, juustoinen purjokeitto jauhelihalla",
             "Paneroitua kukkakaalia shnitzel tyyliin",
             "Kaurainen omena-kanelipaistos"
@@ -1448,11 +1435,11 @@
             {
               "nimi": "Buffet",
               "ruoat": [
-                "OCTOBER",
+                "OKTOBERFEST",
                 "Hendl- Baijerilaista uunibroileria",
                 "Bratwurstia-sipulikastikkeella",
-                "Vuolukermaista perunamuusia",
-                "Kermaista hapankaalia"
+                "– vuolukermaista perunamuusia",
+                "– kermaista hapankaalia"
               ]
             },
             {
@@ -1479,8 +1466,8 @@
           "paiva": "Torstai",
           "ruoat": [
             "Rapeaa tempura turskaa M remoulade dipillä",
-            "Kasvis lasagnea täytettynä lempeän yrttisellä aurinkokuivatulla tomaatilla",
-            "Keitto:Kaalikeittoa",
+            "Kasvislasagnea täytettynä lempeän yrttisellä aurinkokuivatulla tomaatilla",
+            "Kaalikeittoa",
             "Yakitory paahdettu chicken bowl"
           ],
           "osastot": [
@@ -1488,8 +1475,13 @@
               "nimi": "Buffet",
               "ruoat": [
                 "Rapeaa tempura turskaa M remoulade dipillä",
-                "Kasvis lasagnea täytettynä lempeän yrttisellä aurinkokuivatulla tomaatilla",
-                "Keitto:Kaalikeittoa"
+                "Kasvislasagnea täytettynä lempeän yrttisellä aurinkokuivatulla tomaatilla"
+              ]
+            },
+            {
+              "nimi": "Keitto",
+              "ruoat": [
+                "Kaalikeittoa"
               ]
             },
             {
@@ -1503,25 +1495,32 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Aromaattista Marakesh broileria",
-            "Sitruunaista kasvis couscousia",
-            "Pepperoni punasipuli pizzaa rukolalla",
+            "Aromaattista Marrakesh broileria",
+            "– sitruunaista kasvis couscousia",
+            "Juustoinen pitsa rucolalla",
             "Umaminen Tom Yum keitto",
+            "Pariloitua lohta salsa verde kastikkeella sekä parmesaani risotolla",
             "Suklaakiisseliä"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Aromaattista Marakesh broileria",
-                "Sitruunaista kasvis couscousia",
-                "Pepperoni punasipuli pizzaa rukolalla"
+                "Aromaattista Marrakesh broileria",
+                "– sitruunaista kasvis couscousia",
+                "Juustoinen pitsa rucolalla"
               ]
             },
             {
               "nimi": "Keitto",
               "ruoat": [
                 "Umaminen Tom Yum keitto"
+              ]
+            },
+            {
+              "nimi": "Chef-annos",
+              "ruoat": [
+                "Pariloitua lohta salsa verde kastikkeella sekä parmesaani risotolla"
               ]
             },
             {
@@ -1533,7 +1532,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1658,7 +1657,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1742,7 +1741,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1758,7 +1757,7 @@
             "Sriracha-gurttikastiketta",
             "Paahdettua perunaa",
             "Myskikurpitsasosekeittoa",
-            "Pariloitu broilerinfilee",
+            "Fetajuustoa",
             "Kinkku-juustokastiketta",
             "Luomutäysjyväpastaa",
             "Aasialaista broileripataa ja tuoretta korianteria",
@@ -1787,7 +1786,7 @@
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Pariloitu broilerinfilee"
+                "Fetajuustoa"
               ]
             },
             {
@@ -2197,7 +2196,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2248,7 +2247,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2328,7 +2327,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T01:08:03.057686+00:00"
+      "paivitetty": "2026-09-28T05:45:50.802707+00:00"
     }
   ]
 }
