@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-29T06:05:06.615738+00:00",
+  "paivitetty": "2026-09-29T08:57:46.746561+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Farmi",
@@ -632,7 +632,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -761,7 +761,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -798,24 +798,24 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Talon omaa lihamureketta, tuoreherkkusienikastiketta ja perunoita, paahdettua parsakaalia, valkosipulia ja sitruunaa",
-            "Kasvismoussakaa",
-            "Makkaraperunat kaikilla mausteilla",
-            "Kermaista kirjolohikeittoa, maalahden limppua, voita ja tuoretta tilliä"
+            "Talon omaa lihamureketta M, tuoreherkkusienikastiketta L, G, perunoita M, G ja lämpimiä kasviksia",
+            "Fetapastavuokaa",
+            "Makkaraperunat kaikilla mausteilla eli Maggispekkis",
+            "Kermaista kirjolohikeittoa L, G , maalahden limppua ja voita"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Talon omaa lihamureketta, tuoreherkkusienikastiketta ja perunoita, paahdettua parsakaalia, valkosipulia ja sitruunaa",
-                "Kasvismoussakaa"
+                "Talon omaa lihamureketta M, tuoreherkkusienikastiketta L, G, perunoita M, G ja lämpimiä kasviksia",
+                "Fetapastavuokaa"
               ]
             },
             {
               "nimi": "Grilli",
               "ruoat": [
-                "Makkaraperunat kaikilla mausteilla",
-                "Kermaista kirjolohikeittoa, maalahden limppua, voita ja tuoretta tilliä"
+                "Makkaraperunat kaikilla mausteilla eli Maggispekkis",
+                "Kermaista kirjolohikeittoa L, G , maalahden limppua ja voita"
               ]
             }
           ]
@@ -887,7 +887,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1079,7 +1079,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1194,7 +1194,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1358,7 +1358,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1405,7 +1405,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1609,7 +1609,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1734,7 +1734,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1819,7 +1819,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2268,7 +2268,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2319,7 +2319,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2398,7 +2398,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T06:05:06.615738+00:00"
+      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
     }
   ]
 }
