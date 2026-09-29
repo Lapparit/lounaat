@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-28T08:55:15.675316+00:00",
+  "paivitetty": "2026-09-29T02:15:33.552925+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Farmi",
@@ -632,7 +632,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -716,7 +716,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -842,7 +842,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1034,7 +1034,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1149,7 +1149,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1313,7 +1313,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1360,7 +1360,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1414,6 +1414,7 @@
             "Käsepätzle- karamelisoidulla sipulilla viimeisteltyä juustopasta paistosta",
             "– kirkas perunasalaatti",
             "– punakaali-omenasalaattia",
+            "Pretzeleitä leipäpöydässä",
             "Beef goulash",
             "Döner kebab- mit alles und scharf (kaikilla mausteilla ja tulisena)",
             "Käsekuchen- rahkainen juustokakku"
@@ -1426,7 +1427,8 @@
                 "Olutkastikkeessa haudutettua possua",
                 "Käsepätzle- karamelisoidulla sipulilla viimeisteltyä juustopasta paistosta",
                 "– kirkas perunasalaatti",
-                "– punakaali-omenasalaattia"
+                "– punakaali-omenasalaattia",
+                "Pretzeleitä leipäpöydässä"
               ]
             },
             {
@@ -1562,7 +1564,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1687,7 +1689,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1744,7 +1746,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Metsästäjän lihamureke",
+            "Metsästäjän lihamureke L,G – lihamureketta ja herkkusieni-sipulipaistosta",
             "– juuresperunamuusia",
             "Pinaatti-ricottacannelonit italialaisittain",
             "Sitruunainen fenkoli-lohikeitto",
@@ -1772,7 +1774,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1784,9 +1786,9 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Kvinoa pihvejä",
             "Sriracha-gurttikastiketta",
             "Paahdettua perunaa",
+            "Punajuurifalafelpihvit",
             "Myskikurpitsasosekeittoa",
             "Fetajuustoa",
             "Kinkku-juustokastiketta",
@@ -1795,7 +1797,7 @@
             "Tummaa riisiä",
             "Mangovaahtoa",
             "BBQ Chicken toast",
-            "Maalaislohkoperunoita",
+            "Bataattiranskalaiset",
             "Chilillä maustettu katkarapusalaatti",
             "Pannupizza, paahdettua kukkakaalia, pestoa ja cashewpähkinää"
           ],
@@ -1803,9 +1805,9 @@
             {
               "nimi": "Vegaaninen kasvislounas",
               "ruoat": [
-                "Kvinoa pihvejä",
                 "Sriracha-gurttikastiketta",
-                "Paahdettua perunaa"
+                "Paahdettua perunaa",
+                "Punajuurifalafelpihvit"
               ]
             },
             {
@@ -1844,7 +1846,7 @@
               "nimi": "Pop Up Grill",
               "ruoat": [
                 "BBQ Chicken toast",
-                "Maalaislohkoperunoita"
+                "Bataattiranskalaiset"
               ]
             },
             {
@@ -2227,7 +2229,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2278,7 +2280,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2310,9 +2312,8 @@
           "ruoat": [
             "Lihapullat pippurikastikkeessa, perunamuusi",
             "Paneroitu kampela ja kermaviilikastike",
-            "Marjoja ja jogurttia",
             "Speakeasyn original wingsejä eri kastikevahvuuksilla",
-            "Mango-kinuskimousse"
+            "Marjoja ja jogurttia"
           ]
         },
         {
@@ -2358,7 +2359,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-28T08:55:15.675316+00:00"
+      "paivitetty": "2026-09-29T02:15:33.552925+00:00"
     }
   ]
 }
