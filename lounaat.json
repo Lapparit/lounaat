@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-29T08:57:46.746561+00:00",
+  "paivitetty": "2026-09-30T01:29:48.427758+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Farmi",
@@ -632,7 +632,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -729,7 +729,7 @@
             "Appelsiinibroileria Fastellen tapaan",
             "– Riisiä",
             "– Paahdetut uunikasvikset",
-            "Bellamannin pyttipannua Huberin huilulla ja Kravokanmakkaralla",
+            "Bellamannin pyttipannua – Leppäsavu-cheddar & Krakovan makkaralla",
             "Härkisstroganoff"
           ]
         },
@@ -761,7 +761,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -887,7 +887,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1079,7 +1079,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1194,7 +1194,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1358,7 +1358,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1405,7 +1405,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1457,11 +1457,12 @@
             "OKTOBERFEST",
             "Olutkastikkeessa haudutettua possua",
             "Käsepätzle- karamelisoidulla sipulilla viimeisteltyä juustopasta paistosta",
+            "Paneroituja kasvispihvejä umamisessa tomattikastikkeessa M,G,VEG KEITTIÖSTÄ",
             "– kirkas perunasalaatti",
             "– punakaali-omenasalaattia",
             "Pretzeleitä leipäpöydässä",
             "Kasvis gulassikeitto",
-            "Döner kebab- mit alles und scharf (kaikilla mausteilla ja tulisena)",
+            "Tortilla kebab kaikilla mausteilla ja tulisena",
             "Käsekuchen- rahkainen juustokakku"
           ],
           "osastot": [
@@ -1471,6 +1472,7 @@
                 "OKTOBERFEST",
                 "Olutkastikkeessa haudutettua possua",
                 "Käsepätzle- karamelisoidulla sipulilla viimeisteltyä juustopasta paistosta",
+                "Paneroituja kasvispihvejä umamisessa tomattikastikkeessa M,G,VEG KEITTIÖSTÄ",
                 "– kirkas perunasalaatti",
                 "– punakaali-omenasalaattia",
                 "Pretzeleitä leipäpöydässä"
@@ -1485,7 +1487,7 @@
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "Döner kebab- mit alles und scharf (kaikilla mausteilla ja tulisena)"
+                "Tortilla kebab kaikilla mausteilla ja tulisena"
               ]
             },
             {
@@ -1609,7 +1611,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1734,7 +1736,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1819,7 +1821,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1911,14 +1913,15 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Vehnätortillat TexMex paprikatäytteellä",
+            "Falafel pihvit",
+            "Paahdettua perunaa",
             "Bataattikeittoa",
             "Fetajuustoa",
-            "Chili con Carnea jauhelihasta (Gluteeniton vaihtoehto saatavilla)",
-            "Tummaa riisiä",
+            "Kinkku-juustokastiketta",
+            "Paahdettua perunaa",
             "Rapeaa seitifilettä",
             "Tartarjogurttia",
-            "Perunamuusia",
+            "Paahdettua perunaa",
             "Mangovaahtoa",
             "BBQ Chicken toast",
             "Maalaislohkoperunoita",
@@ -1929,7 +1932,8 @@
             {
               "nimi": "Vegaaninen kasvislounas",
               "ruoat": [
-                "Vehnätortillat TexMex paprikatäytteellä"
+                "Falafel pihvit",
+                "Paahdettua perunaa"
               ]
             },
             {
@@ -1947,8 +1951,8 @@
             {
               "nimi": "So Hungry",
               "ruoat": [
-                "Chili con Carnea jauhelihasta (Gluteeniton vaihtoehto saatavilla)",
-                "Tummaa riisiä"
+                "Kinkku-juustokastiketta",
+                "Paahdettua perunaa"
               ]
             },
             {
@@ -1956,7 +1960,7 @@
               "ruoat": [
                 "Rapeaa seitifilettä",
                 "Tartarjogurttia",
-                "Perunamuusia"
+                "Paahdettua perunaa"
               ]
             },
             {
@@ -2268,7 +2272,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2319,7 +2323,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2398,7 +2402,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-29T08:57:46.746561+00:00"
+      "paivitetty": "2026-09-30T01:29:48.427758+00:00"
     }
   ]
 }
