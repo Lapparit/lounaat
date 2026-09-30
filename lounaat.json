@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-30T05:53:00.583520+00:00",
+  "paivitetty": "2026-09-30T08:56:09.043515+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Farmi",
@@ -535,7 +535,7 @@
             "Kermaista pippurikastiketta",
             "OKTOBER Myskikurpitsakeitto",
             "Chorizopyörykkä, Suomi",
-            "Mangomajoneesia",
+            "Mango-jogurttikastiketta",
             "Porsaanpaisti, viipaloitu",
             "Caesar-kanasalaattia",
             "Kinkku-ananas-aurajuustopizzaa",
@@ -578,7 +578,7 @@
               "ruoat": [
                 "OKTOBER Myskikurpitsakeitto",
                 "Chorizopyörykkä, Suomi",
-                "Mangomajoneesia",
+                "Mango-jogurttikastiketta",
                 "Porsaanpaisti, viipaloitu",
                 "Caesar-kanasalaattia"
               ]
@@ -638,7 +638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -722,12 +722,13 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
+            "Päivän keitto: Kukkakaalikeitto",
             "Yön yli haudutettua possua Dijon-kermakastikkeessa",
             "Broiler-pestogratiinia",
-            "– Paahdetut satokauden kasvikset",
+            "Paahdetut satokauden kasvikset",
             "– Riisiä",
             "Falafelpyörykät",
-            "– Jogurttikastike",
+            "– Korianteri jogurttikastike",
             "Keitettyä kananmunaa",
             "Leipäjuustoa"
           ],
@@ -735,12 +736,13 @@
             {
               "nimi": "Lounas",
               "ruoat": [
+                "Päivän keitto: Kukkakaalikeitto",
                 "Yön yli haudutettua possua Dijon-kermakastikkeessa",
                 "Broiler-pestogratiinia",
-                "– Paahdetut satokauden kasvikset",
+                "Paahdetut satokauden kasvikset",
                 "– Riisiä",
                 "Falafelpyörykät",
-                "– Jogurttikastike"
+                "– Korianteri jogurttikastike"
               ]
             },
             {
@@ -790,7 +792,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -853,23 +855,23 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Jauhelihalasagnea",
-            "Maissi-kasvispihvejä, aurinkokuivattua tomaattia ja rucolaa, linssijogurttia, bombayperunoita",
+            "Maissi-kasvispihvejä M, aurinkokuivattua tomaattia ja rucolaa M, G, linssijogurttia L, G, bombayperunoita",
             "Tonnikala-katkarapupizzaa ja tomaatti-mozzarella-pestopizzaa",
-            "Lohikeittoa"
+            "Kermaista kirjolohikeittoa, maalahdenlimppua ja voita"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
                 "Jauhelihalasagnea",
-                "Maissi-kasvispihvejä, aurinkokuivattua tomaattia ja rucolaa, linssijogurttia, bombayperunoita"
+                "Maissi-kasvispihvejä M, aurinkokuivattua tomaattia ja rucolaa M, G, linssijogurttia L, G, bombayperunoita"
               ]
             },
             {
               "nimi": "Grilli",
               "ruoat": [
                 "Tonnikala-katkarapupizzaa ja tomaatti-mozzarella-pestopizzaa",
-                "Lohikeittoa"
+                "Kermaista kirjolohikeittoa, maalahdenlimppua ja voita"
               ]
             }
           ]
@@ -916,7 +918,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1004,30 +1006,30 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Red currykanaa ja basmatia",
-            "Pinaattilettuja, puolukkaa ja paahdettuja perunoita, kasviksia",
-            "Hermia goes Octoberfest!: Currywurstia, ylikypsää porsaankylkeä, tomaattista currykastiketta, smetana-hapankaalia, ryytisinapilla maustettua perunasalaattia, omena-sellerisalaattia, brezeleitä ja alkoholitonta olutta",
-            "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
+            "Red currykanaa L,G ja basmatia",
+            "Pinaattilettuja L, puolukkaa, paahdettuja perunoita ja kasviksia",
+            "Hermia goes Octoberfest!: Currywurstia M,G, ylikypsää porsaankylkeä M,G, tomaattista currykastiketta M,G, smetana-hapankaalia L,G, ryytisinapilla maustettua perunasalaattia M,G, omena-sellerisalaattia M,G ja brezeleitä",
+            "Basmatia M,G, bulgogi kanaa M, chili mifua L,G, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Jeeralla maustettua porkkanakeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Red currykanaa ja basmatia",
-                "Pinaattilettuja, puolukkaa ja paahdettuja perunoita, kasviksia"
+                "Red currykanaa L,G ja basmatia",
+                "Pinaattilettuja L, puolukkaa, paahdettuja perunoita ja kasviksia"
               ]
             },
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Hermia goes Octoberfest!: Currywurstia, ylikypsää porsaankylkeä, tomaattista currykastiketta, smetana-hapankaalia, ryytisinapilla maustettua perunasalaattia, omena-sellerisalaattia, brezeleitä ja alkoholitonta olutta"
+                "Hermia goes Octoberfest!: Currywurstia M,G, ylikypsää porsaankylkeä M,G, tomaattista currykastiketta M,G, smetana-hapankaalia L,G, ryytisinapilla maustettua perunasalaattia M,G, omena-sellerisalaattia M,G ja brezeleitä"
               ]
             },
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Basmatia, bulgogi nautaa, chili mifua, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
+                "Basmatia M,G, bulgogi kanaa M, chili mifua L,G, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -1108,7 +1110,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1223,7 +1225,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1387,7 +1389,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1434,7 +1436,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1532,12 +1534,12 @@
           "ruoat": [
             "OKTOBERFEST",
             "Hendl- Baijerilaista uunibroileria",
-            "Bratwurstia-sipulikastikkeella",
+            "Bratwurstia curry-sipulikastikkeella",
             "– vuolukermaista perunamuusia",
             "– kermaista hapankaalia",
             "Käse-lauch suppe, juustoinen purjokeitto jauhelihalla",
             "Paneroitua kukkakaalia shnitzel tyyliin",
-            "Kaurainen omena-kanelipaistos"
+            "Kaurainen omena-kanelipaistos ja vaniljakastiketta"
           ],
           "osastot": [
             {
@@ -1545,7 +1547,7 @@
               "ruoat": [
                 "OKTOBERFEST",
                 "Hendl- Baijerilaista uunibroileria",
-                "Bratwurstia-sipulikastikkeella",
+                "Bratwurstia curry-sipulikastikkeella",
                 "– vuolukermaista perunamuusia",
                 "– kermaista hapankaalia"
               ]
@@ -1565,7 +1567,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Kaurainen omena-kanelipaistos"
+                "Kaurainen omena-kanelipaistos ja vaniljakastiketta"
               ]
             }
           ]
@@ -1640,7 +1642,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1765,7 +1767,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1850,7 +1852,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2299,7 +2301,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2350,7 +2352,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2429,7 +2431,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T05:53:00.583520+00:00"
+      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
     }
   ]
 }
