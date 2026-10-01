@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-09-30T08:56:09.043515+00:00",
+  "paivitetty": "2026-10-01T01:30:27.350788+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Farmi",
@@ -638,7 +638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -757,16 +757,38 @@
         {
           "paiva": "Torstai",
           "ruoat": [
+            "Perinteistä hernekeittoa",
             "Appelsiinibroileria Fastellen tapaan",
-            "– Riisiä",
+            "– Paahdettuja perunoita",
             "– Paahdetut uunikasvikset",
             "Bellamannin pyttipannua – Leppäsavu-cheddar & Krakovan makkaralla",
-            "Härkisstroganoff"
+            "Härkisstroganoff",
+            "pannukakkua, kermavaahtoa ja hilloa"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Perinteistä hernekeittoa",
+                "Appelsiinibroileria Fastellen tapaan",
+                "– Paahdettuja perunoita",
+                "– Paahdetut uunikasvikset",
+                "Bellamannin pyttipannua – Leppäsavu-cheddar & Krakovan makkaralla",
+                "Härkisstroganoff"
+              ]
+            },
+            {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "pannukakkua, kermavaahtoa ja hilloa"
+              ]
+            }
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
+            "Kermainen lohikeitto",
             "Pepperoni-mozzarellaapizzaa rucolalla",
             "– Paahdettuja perunoita",
             "– Kauden kasviksia",
@@ -777,6 +799,7 @@
             {
               "nimi": "Lounas",
               "ruoat": [
+                "Kermainen lohikeitto",
                 "Pepperoni-mozzarellaapizzaa rucolalla",
                 "– Paahdettuja perunoita",
                 "– Kauden kasviksia",
@@ -792,7 +815,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -918,7 +941,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1110,7 +1133,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1225,7 +1248,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1389,7 +1412,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1436,7 +1459,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1539,7 +1562,7 @@
             "– kermaista hapankaalia",
             "Käse-lauch suppe, juustoinen purjokeitto jauhelihalla",
             "Paneroitua kukkakaalia shnitzel tyyliin",
-            "Kaurainen omena-kanelipaistos ja vaniljakastiketta"
+            "Hedelmäpaistos"
           ],
           "osastot": [
             {
@@ -1567,7 +1590,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Kaurainen omena-kanelipaistos ja vaniljakastiketta"
+                "Hedelmäpaistos"
               ]
             }
           ]
@@ -1642,7 +1665,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1767,7 +1790,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1852,7 +1875,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2024,10 +2047,10 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Tulista ja aromaattista tofucurrya - Madras Tofu",
+            "Falafel pihvit",
+            "Sriracha-gurttikastiketta",
             "Tummaa riisiä",
             "Punajuurisosekeittoa",
-            "Fetajuustoa",
             "Juustoista savukirjolohikastiketta",
             "Luomutäysjyväpastaa",
             "Lindströminpihvejä ja sipulikastiketta",
@@ -2044,7 +2067,8 @@
             {
               "nimi": "Vegaaninen kasvislounas",
               "ruoat": [
-                "Tulista ja aromaattista tofucurrya - Madras Tofu",
+                "Falafel pihvit",
+                "Sriracha-gurttikastiketta",
                 "Tummaa riisiä"
               ]
             },
@@ -2052,12 +2076,6 @@
               "nimi": "Keitto",
               "ruoat": [
                 "Punajuurisosekeittoa"
-              ]
-            },
-            {
-              "nimi": "Salaattilounaan proteiini",
-              "ruoat": [
-                "Fetajuustoa"
               ]
             },
             {
@@ -2301,7 +2319,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2352,7 +2370,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2431,7 +2449,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-09-30T08:56:09.043515+00:00"
+      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
     }
   ]
 }
