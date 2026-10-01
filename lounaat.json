@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-01T01:30:27.350788+00:00",
+  "paivitetty": "2026-10-01T06:27:11.995671+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Farmi",
@@ -452,6 +452,8 @@
             "OKTOBER Rapea mallaskana",
             "Ylikypsää porsaan potkaa omena-mallaskastikkeessa",
             "OKTOBER Peruna-sienipihvit",
+            "Kanaa Napolin tapaan",
+            "Itte tehtyä omena-hapankaalipiirakkaa",
             "OKTOBER Sinappiset perunat",
             "Herneitä",
             "Ohrahelmiä",
@@ -474,7 +476,9 @@
               "ruoat": [
                 "OKTOBER Rapea mallaskana",
                 "Ylikypsää porsaan potkaa omena-mallaskastikkeessa",
-                "OKTOBER Peruna-sienipihvit"
+                "OKTOBER Peruna-sienipihvit",
+                "Kanaa Napolin tapaan",
+                "Itte tehtyä omena-hapankaalipiirakkaa"
               ]
             },
             {
@@ -532,12 +536,11 @@
             "Vaniljakastiketta",
             "Kahvi",
             "Lehtipihvi ranskalaisilla",
-            "Kermaista pippurikastiketta",
             "OKTOBER Myskikurpitsakeitto",
             "Chorizopyörykkä, Suomi",
             "Mango-jogurttikastiketta",
             "Porsaanpaisti, viipaloitu",
-            "Caesar-kanasalaattia",
+            "Kana-pastasalaatti",
             "Kinkku-ananas-aurajuustopizzaa",
             "Vihreää salaattia"
           ],
@@ -569,8 +572,7 @@
             {
               "nimi": "Grilliannos",
               "ruoat": [
-                "Lehtipihvi ranskalaisilla",
-                "Kermaista pippurikastiketta"
+                "Lehtipihvi ranskalaisilla"
               ]
             },
             {
@@ -580,7 +582,7 @@
                 "Chorizopyörykkä, Suomi",
                 "Mango-jogurttikastiketta",
                 "Porsaanpaisti, viipaloitu",
-                "Caesar-kanasalaattia"
+                "Kana-pastasalaatti"
               ]
             },
             {
@@ -638,7 +640,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -761,9 +763,12 @@
             "Appelsiinibroileria Fastellen tapaan",
             "– Paahdettuja perunoita",
             "– Paahdetut uunikasvikset",
-            "Bellamannin pyttipannua – Leppäsavu-cheddar & Krakovan makkaralla",
+            "Bellmanin pyttipannua – Leppäsavu-cheddar & Krakovan makkaralla",
             "Härkisstroganoff",
-            "pannukakkua, kermavaahtoa ja hilloa"
+            "pannukakkua, kermavaahtoa ja hilloa",
+            "Pulled pork",
+            "Broileria (linjastosta)",
+            "Halloumia"
           ],
           "osastot": [
             {
@@ -773,7 +778,7 @@
                 "Appelsiinibroileria Fastellen tapaan",
                 "– Paahdettuja perunoita",
                 "– Paahdetut uunikasvikset",
-                "Bellamannin pyttipannua – Leppäsavu-cheddar & Krakovan makkaralla",
+                "Bellmanin pyttipannua – Leppäsavu-cheddar & Krakovan makkaralla",
                 "Härkisstroganoff"
               ]
             },
@@ -781,6 +786,14 @@
               "nimi": "Jälkiruoka",
               "ruoat": [
                 "pannukakkua, kermavaahtoa ja hilloa"
+              ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Pulled pork",
+                "Broileria (linjastosta)",
+                "Halloumia"
               ]
             }
           ]
@@ -815,7 +828,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -941,7 +954,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1133,7 +1146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1248,7 +1261,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1412,7 +1425,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1459,7 +1472,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1665,7 +1678,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1790,7 +1803,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1875,7 +1888,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2124,31 +2137,28 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Halloumi-kasvispataa ja lehtipinaattia",
+            "Halloumi-kasvispataa ja lehtipinaattia (gluteeniton ja vegaaninen vaihtoehto tofu-kasvispata)",
             "Paahdettua perunaa",
             "Pinaattikeittoa",
-            "Keitetty kananmuna",
-            "Pariloitu broilerinfilee",
+            "Keitetty kananmuna 1kpl/keittolounas",
+            "Yrttimarinoitua mozzarellaa",
             "Broileripataa Sweet & Sour",
             "Tummaa riisiä",
             "Jauhelihakebakoita",
             "Chili-kermaviilikastiketta",
             "Paahdettua perunaa",
-            "Meidän keittiön pannukakkua",
-            "Hillottua mansikkaa",
-            "Kermavaahtoa",
+            "Mansikkamoussea",
             "Mureaa possua ja makkaraa",
             "Smetanassa haudutettua hapankaalia ja omenaa",
             "Paahdettua juustoperunaa",
             "Satokauden kasviksia",
-            "Pariloitua vuohenjuustosalaattia",
-            "Spicy tuna focaccia"
+            "Pariloitua vuohenjuustosalaattia"
           ],
           "osastot": [
             {
               "nimi": "Kasvislounas",
               "ruoat": [
-                "Halloumi-kasvispataa ja lehtipinaattia",
+                "Halloumi-kasvispataa ja lehtipinaattia (gluteeniton ja vegaaninen vaihtoehto tofu-kasvispata)",
                 "Paahdettua perunaa"
               ]
             },
@@ -2156,13 +2166,13 @@
               "nimi": "Keitto",
               "ruoat": [
                 "Pinaattikeittoa",
-                "Keitetty kananmuna"
+                "Keitetty kananmuna 1kpl/keittolounas"
               ]
             },
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Pariloitu broilerinfilee"
+                "Yrttimarinoitua mozzarellaa"
               ]
             },
             {
@@ -2183,9 +2193,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Meidän keittiön pannukakkua",
-                "Hillottua mansikkaa",
-                "Kermavaahtoa"
+                "Mansikkamoussea"
               ]
             },
             {
@@ -2202,12 +2210,6 @@
               "ruoat": [
                 "Pariloitua vuohenjuustosalaattia"
               ]
-            },
-            {
-              "nimi": "Leipälounas (Break Cafe)",
-              "ruoat": [
-                "Spicy tuna focaccia"
-              ]
             }
           ]
         },
@@ -2222,7 +2224,6 @@
             "Nakkistroganoffia",
             "Keitettyjä perunoita",
             "Meidän keittiön lasagnettea",
-            "Mansikkamoussea",
             "Mureaa possua ja makkaraa",
             "Smetanassa haudutettua hapankaalia ja omenaa",
             "Paahdettua juustoperunaa",
@@ -2262,12 +2263,6 @@
               "nimi": "So Hungry",
               "ruoat": [
                 "Meidän keittiön lasagnettea"
-              ]
-            },
-            {
-              "nimi": "Jälkiruoka",
-              "ruoat": [
-                "Mansikkamoussea"
               ]
             },
             {
@@ -2319,7 +2314,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2370,7 +2365,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2449,7 +2444,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-01T01:30:27.350788+00:00"
+      "paivitetty": "2026-10-01T06:27:11.995671+00:00"
     }
   ]
 }
