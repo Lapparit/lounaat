@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-06T02:28:45.759199+00:00",
+  "paivitetty": "2026-10-06T06:47:17.549937+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -304,7 +304,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Farmi",
@@ -387,7 +387,7 @@
             "Chimichurri-maustettua possua",
             "Kasviskoftat – kasvispihvejä marokkolaisittain",
             "Mangomajoneesia",
-            "Kinkku-ananas-aurajuustopizzaa",
+            "Kinkku-pepperoni-ananas-aurajuustopizza",
             "Vihreää salaattia"
           ],
           "osastot": [
@@ -432,7 +432,7 @@
             {
               "nimi": "Pizzalounas",
               "ruoat": [
-                "Kinkku-ananas-aurajuustopizzaa",
+                "Kinkku-pepperoni-ananas-aurajuustopizza",
                 "Vihreää salaattia"
               ]
             }
@@ -630,7 +630,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -679,7 +679,30 @@
             "Bibimbap Korealainen pyttipannu",
             "Rapeaa kalaa pinaatti-fetatäytteellä",
             "– Limejogurttikastike",
-            "Stickytofu"
+            "Stickytofu",
+            "Keitettyä kananmunaa",
+            "Marinoitua broileria",
+            "Mozzarellaa"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Kesäkeitto",
+                "Bibimbap Korealainen pyttipannu",
+                "Rapeaa kalaa pinaatti-fetatäytteellä",
+                "– Limejogurttikastike",
+                "Stickytofu"
+              ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Keitettyä kananmunaa",
+                "Marinoitua broileria",
+                "Mozzarellaa"
+              ]
+            }
           ]
         },
         {
@@ -740,7 +763,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -777,8 +800,8 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kanaa aurinkotomaatti-tuorejuustokastikkeessa, jasmineriisiä",
-            "Västerbotten juustopiirakkaa ja lämmintä kasvissalaattia",
+            "Kanaa aurinkotomaatti-tuorejuustokastikkeessa L, G, riisiä",
+            "Västerbotten juustopiirakkaa L ja lämpimiä kasviksia",
             "Hermian grillipossua, maissisalaattia ja lohkoperunoita, savupaprika-aiolia",
             "Kana-kookoskeittoa"
           ],
@@ -786,8 +809,8 @@
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Kanaa aurinkotomaatti-tuorejuustokastikkeessa, jasmineriisiä",
-                "Västerbotten juustopiirakkaa ja lämmintä kasvissalaattia"
+                "Kanaa aurinkotomaatti-tuorejuustokastikkeessa L, G, riisiä",
+                "Västerbotten juustopiirakkaa L ja lämpimiä kasviksia"
               ]
             },
             {
@@ -875,7 +898,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1071,7 +1094,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1188,7 +1211,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1352,7 +1375,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1399,7 +1422,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1579,7 +1602,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1704,7 +1727,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1792,7 +1815,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1885,7 +1908,7 @@
             "Tofua ja herneita mausteisessa kastikkeessa - Tofu Matar Paneer",
             "Tummaa riisiä",
             "Mausteista linssisosekeittoa",
-            "Lämminsavukirjolohta",
+            "Fetajuustoa",
             "Broileria teriyakikastikkeessa",
             "Tummaa riisiä",
             "Ruotsalaista pyttipannua",
@@ -1911,7 +1934,7 @@
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Lämminsavukirjolohta"
+                "Fetajuustoa"
               ]
             },
             {
@@ -2225,7 +2248,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2247,7 +2270,8 @@
           "ruoat": [
             "Lohikeitti+salaatti",
             "Kassleria bbq",
-            "Pangasiusta"
+            "Pangasiusta",
+            "Muikkuja"
           ]
         },
         {
@@ -2276,7 +2300,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2353,7 +2377,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T02:28:45.759199+00:00"
+      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     }
   ]
 }
