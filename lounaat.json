@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-06T06:47:17.549937+00:00",
+  "paivitetty": "2026-10-06T09:19:35.317892+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -304,7 +304,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Farmi",
@@ -630,7 +630,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -763,7 +763,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -827,7 +827,7 @@
           "ruoat": [
             "Karjalanpaistia ja perunamuusia, uunivihanneksia",
             "Kikherne-kukkakaalicurrya, riisiä ja sitruunajogurttia",
-            "Pannupizza keskiviikko!: Kanalla ja ananaksella",
+            "Peltipizzabuffa keskiviikko!: Kanalla ja ananaksella",
             "Mozzarellalla, tomaatilla ja pestolla",
             "Makkarakeittoa"
           ],
@@ -842,7 +842,7 @@
             {
               "nimi": "Grilli",
               "ruoat": [
-                "Pannupizza keskiviikko!: Kanalla ja ananaksella",
+                "Peltipizzabuffa keskiviikko!: Kanalla ja ananaksella",
                 "Mozzarellalla, tomaatilla ja pestolla",
                 "Makkarakeittoa"
               ]
@@ -879,7 +879,7 @@
           "ruoat": [
             "Savujuusto-nautaburger, maalaisranskalaisia",
             "Portobelloburger (saatavana myös gluteenittomina)",
-            "Gratinoitu Spicy pork and bean burritos, ranskalaisia ja cheddarkastiketta"
+            "Spicy pork and bean burritos, ranskalaisia ja cheddarkastiketta"
           ],
           "osastot": [
             {
@@ -892,13 +892,13 @@
             {
               "nimi": "Grilli",
               "ruoat": [
-                "Gratinoitu Spicy pork and bean burritos, ranskalaisia ja cheddarkastiketta"
+                "Spicy pork and bean burritos, ranskalaisia ja cheddarkastiketta"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1094,6 +1094,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "liian pitkä rivi (241 merkkiä): Hermia goes healthy: Mangokanaa M,G, riisiä M,G, itsetehtyjä…"
+      ],
+      "rikki_alkaen": "2026-10-06T09:19:35.317892+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-10-06T06:47:17.549937+00:00"
     },
     {
@@ -1211,7 +1216,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1375,7 +1380,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1422,7 +1427,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1602,7 +1607,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1727,7 +1732,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1779,7 +1784,7 @@
             "Kartoffelpuffer L – Saksalaiset perunapannukakut",
             "– yrttinen kylmäsavulohidippi",
             "Olut-juustokeitto",
-            "Kahvin kanssa Orvokin Schwarzwälder Kirschtorte"
+            "Kahvin kanssa Orvokin Schwarzwälder Kirschtorte L sis.manteli"
           ]
         },
         {
@@ -1815,7 +1820,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2248,7 +2253,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2300,7 +2305,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2377,7 +2382,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T06:47:17.549937+00:00"
+      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
     }
   ]
 }
