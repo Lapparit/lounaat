@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-06T09:19:35.317892+00:00",
+  "paivitetty": "2026-10-07T01:46:36.586159+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -304,7 +304,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Farmi",
@@ -377,9 +377,11 @@
             "Koskenlaskija-uunimakkaraa",
             "Antellin lasagnea",
             "Linssidahl – linssimuhennosta",
+            "Maissipaneroitua kanaa",
             "Maalaislohkoperunoita",
             "Paahdettuja juureksia",
             "Mustikka-kardemummapiirakkaa",
+            "Itte tehtyä raparperi-herukkapiirakkaa",
             "Kahvi",
             "Smash-burger",
             "Maalaisranskalaisia",
@@ -396,7 +398,8 @@
               "ruoat": [
                 "Koskenlaskija-uunimakkaraa",
                 "Antellin lasagnea",
-                "Linssidahl – linssimuhennosta"
+                "Linssidahl – linssimuhennosta",
+                "Maissipaneroitua kanaa"
               ]
             },
             {
@@ -410,6 +413,7 @@
               "nimi": "Jälkiruoaksi",
               "ruoat": [
                 "Mustikka-kardemummapiirakkaa",
+                "Itte tehtyä raparperi-herukkapiirakkaa",
                 "Kahvi"
               ]
             },
@@ -630,7 +634,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -763,7 +767,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -898,7 +902,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1216,7 +1220,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1380,7 +1384,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1427,7 +1431,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1607,7 +1611,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1732,7 +1736,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1820,7 +1824,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2253,7 +2257,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2305,7 +2309,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2382,7 +2386,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-06T09:19:35.317892+00:00"
+      "paivitetty": "2026-10-07T01:46:36.586159+00:00"
     }
   ]
 }
