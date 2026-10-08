@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-08T02:14:29.763557+00:00",
+  "paivitetty": "2026-10-08T06:33:35.153101+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -304,7 +304,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Farmi",
@@ -448,6 +448,7 @@
             "Dijon-bearnaisekalaa",
             "Kookoskanaa maapähkinäkastikkeessa",
             "Itte tehtyjä punajuuri-halloumipihvejä",
+            "Antellin lasagnea",
             "Maalaislohkoperunoita",
             "Pinaattiriisiä",
             "Yrttisiä neulapapuja",
@@ -467,7 +468,8 @@
               "ruoat": [
                 "Dijon-bearnaisekalaa",
                 "Kookoskanaa maapähkinäkastikkeessa",
-                "Itte tehtyjä punajuuri-halloumipihvejä"
+                "Itte tehtyjä punajuuri-halloumipihvejä",
+                "Antellin lasagnea"
               ]
             },
             {
@@ -521,7 +523,7 @@
             "Kaura-omenapaistosta",
             "Vaniljakastiketta",
             "Kahvi",
-            "Hiillostettua kirjolohta",
+            "Grillattu kirjolohi",
             "Punajuuririsottoa",
             "Sitruuna-timjami beurre blanc",
             "Uunijuureksia",
@@ -561,7 +563,7 @@
             {
               "nimi": "Grilliannos",
               "ruoat": [
-                "Hiillostettua kirjolohta",
+                "Grillattu kirjolohi",
                 "Punajuuririsottoa",
                 "Sitruuna-timjami beurre blanc",
                 "Uunijuureksia"
@@ -636,7 +638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -753,7 +755,7 @@
             "Paahdettua broilerin koipea – Gegrilltes Hähnchenschenkel",
             "– Sinappidippiä",
             "– Paahdetut röstiperunat",
-            "– Karamellisoitua sipulia",
+            "– Karamellisoitua sipulia & uunikasviksia",
             "Juustopastaa – Käsespätzle",
             "omenaista pannukakkua, kermavaahtoa ja hilloa"
           ],
@@ -767,7 +769,7 @@
                 "Paahdettua broilerin koipea – Gegrilltes Hähnchenschenkel",
                 "– Sinappidippiä",
                 "– Paahdetut röstiperunat",
-                "– Karamellisoitua sipulia",
+                "– Karamellisoitua sipulia & uunikasviksia",
                 "Juustopastaa – Käsespätzle"
               ]
             },
@@ -784,15 +786,15 @@
           "ruoat": [
             "Kalakeittoa",
             "Octoberfest! 2/2",
-            "Bratwurtsia, olutnakkia ja currywurstia",
+            "Bratwurtsia & olutnakkia",
             "– Maalaisranskanperunoita",
-            "– Olutjuustodippiä",
+            "– Uunikasviksia",
             "Dumplings – kanatäytteellä",
-            "Vegeschnitzel"
+            "NoChicken nugetit – soijanugetit"
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -927,7 +929,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1245,7 +1247,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1409,7 +1411,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1456,7 +1458,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1636,7 +1638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1761,7 +1763,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1848,7 +1850,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2087,14 +2089,14 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Sisilialaista seitanpastaa",
+            "Sisilialaista seitanpastaa (gluteeniton ja vegaaninen tofupastavuoka saatavilla)",
             "Linssisosekeittoa",
-            "Lämminsavukirjolohta",
+            "Fetajuustoa",
             "Tulista ja aromaattista katkarapucurrya - Katkarapuja Madras",
             "Tummaa riisiä",
             "Tomaattista kebabkastiketta kasviksilla",
             "Tummaa riisiä",
-            "Vegaanista vaniljakastiketta",
+            "Nugatti trifle",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
@@ -2106,7 +2108,7 @@
             {
               "nimi": "Vegaaninen kasvislounas",
               "ruoat": [
-                "Sisilialaista seitanpastaa"
+                "Sisilialaista seitanpastaa (gluteeniton ja vegaaninen tofupastavuoka saatavilla)"
               ]
             },
             {
@@ -2118,7 +2120,7 @@
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Lämminsavukirjolohta"
+                "Fetajuustoa"
               ]
             },
             {
@@ -2138,7 +2140,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Vegaanista vaniljakastiketta"
+                "Nugatti trifle"
               ]
             },
             {
@@ -2274,7 +2276,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2326,7 +2328,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2403,7 +2405,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T02:14:29.763557+00:00"
+      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
     }
   ]
 }
