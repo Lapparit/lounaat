@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-08T06:33:35.153101+00:00",
+  "paivitetty": "2026-10-08T09:24:12.256074+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -304,7 +304,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Farmi",
@@ -638,7 +638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -752,12 +752,15 @@
             "Perinteistä hernekeittoa palvikinkulla",
             "Oktoberfest! 1/2",
             "Olutkastikkeessa haudutettua porsaanlapaa – Schweineschulter in Biersoße geschmort",
-            "Paahdettua broilerin koipea – Gegrilltes Hähnchenschenkel",
+            "Paahdettua broilerin koipea – Gegrilltes Hähnchenschenkel M, sis ohramallasta",
             "– Sinappidippiä",
             "– Paahdetut röstiperunat",
             "– Karamellisoitua sipulia & uunikasviksia",
             "Juustopastaa – Käsespätzle",
-            "omenaista pannukakkua, kermavaahtoa ja hilloa"
+            "Pestotofua",
+            "Keitettyä kananmunaa",
+            "Salaattijuustoa",
+            "omenaista pannukakkua, kaneli-kermavaahtoa ja hilloa"
           ],
           "osastot": [
             {
@@ -766,7 +769,7 @@
                 "Perinteistä hernekeittoa palvikinkulla",
                 "Oktoberfest! 1/2",
                 "Olutkastikkeessa haudutettua porsaanlapaa – Schweineschulter in Biersoße geschmort",
-                "Paahdettua broilerin koipea – Gegrilltes Hähnchenschenkel",
+                "Paahdettua broilerin koipea – Gegrilltes Hähnchenschenkel M, sis ohramallasta",
                 "– Sinappidippiä",
                 "– Paahdetut röstiperunat",
                 "– Karamellisoitua sipulia & uunikasviksia",
@@ -774,9 +777,17 @@
               ]
             },
             {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Pestotofua",
+                "Keitettyä kananmunaa",
+                "Salaattijuustoa"
+              ]
+            },
+            {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "omenaista pannukakkua, kermavaahtoa ja hilloa"
+                "omenaista pannukakkua, kaneli-kermavaahtoa ja hilloa"
               ]
             }
           ]
@@ -794,7 +805,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -883,24 +894,24 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kreikkalaista kasvismoussakaa ja tomaatti-sipulisalaattia",
-            "Kievinkanaa, muusia, marinoituja kasviksia ja currymajoneesia",
+            "Kreikkalaista kasvismoussakaa L, G ja tomaatti-sipulisalaattia",
+            "Kievinkanaa VL, muusia L, G, lämpimiä kasviksia M, G ja currymajoneesia M, G | Ravintolassamme tänään isompi tilaisuus klo 12 alkaen, pöytä paikkoja rajoitetusti",
             "Hermian maalaissalaattia vuohenjuustolla ja pekonilla",
-            "Tex mex-jauhelihakeittoa, nachoja, Sour cream & chives tulista salsaa"
+            "Tex mex-jauhelihakeittoa M, G, nachoja M, G, Sour cream & chives L, G, tulista salsaa M, G Ravintolassamme tänään isompi tilaisuus klo 12 alkaen, pöytä paikkoja rajoitetusti"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Kreikkalaista kasvismoussakaa ja tomaatti-sipulisalaattia",
-                "Kievinkanaa, muusia, marinoituja kasviksia ja currymajoneesia"
+                "Kreikkalaista kasvismoussakaa L, G ja tomaatti-sipulisalaattia",
+                "Kievinkanaa VL, muusia L, G, lämpimiä kasviksia M, G ja currymajoneesia M, G | Ravintolassamme tänään isompi tilaisuus klo 12 alkaen, pöytä paikkoja rajoitetusti"
               ]
             },
             {
               "nimi": "Grilli",
               "ruoat": [
                 "Hermian maalaissalaattia vuohenjuustolla ja pekonilla",
-                "Tex mex-jauhelihakeittoa, nachoja, Sour cream & chives tulista salsaa"
+                "Tex mex-jauhelihakeittoa M, G, nachoja M, G, Sour cream & chives L, G, tulista salsaa M, G Ravintolassamme tänään isompi tilaisuus klo 12 alkaen, pöytä paikkoja rajoitetusti"
               ]
             }
           ]
@@ -929,7 +940,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1247,7 +1258,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1411,7 +1422,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1458,7 +1469,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1638,7 +1649,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1763,7 +1774,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1850,7 +1861,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2276,7 +2287,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2328,7 +2339,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2405,7 +2416,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-08T06:33:35.153101+00:00"
+      "paivitetty": "2026-10-08T09:24:12.256074+00:00"
     }
   ]
 }
