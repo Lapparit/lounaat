@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-13T07:01:34.029271+00:00",
+  "paivitetty": "2026-10-13T09:41:59.461263+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Farmi",
@@ -446,7 +446,7 @@
             "Grillattua tofua",
             "Riisiä",
             "Paahdettuja tandoorikasviksia",
-            "Itte tehtyä toscapiirakkaa",
+            "Marjapiirakkaa",
             "Kahvi",
             "Lehtipihvi ranskalaisilla",
             "Tomaatti-mozzarellakeittoa",
@@ -473,7 +473,7 @@
             {
               "nimi": "Jälkiruoaksi",
               "ruoat": [
-                "Itte tehtyä toscapiirakkaa",
+                "Marjapiirakkaa",
                 "Kahvi"
               ]
             },
@@ -599,7 +599,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -718,7 +718,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -834,7 +834,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -887,32 +887,32 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Tacomania!: Korean tacoja, fetatortilloja, maissia, nacho sipsejä, pico de Gallo & ranskankermaa ja cheddarkastiketta",
-            "Maissipaneroitua kanaa, soijapyöryköitä, nuudelia, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
+            "Tacomania!: Tortillalettuja M, nachoja M,G, ylikypsääpossua M, tacokanaa M,G, cheddaskastiketta LG, rapu gochujang M, fetaa VL,G, kurkkukaalisalaattia M,G, kasvissalsaa M,G ja ranskankermaa",
+            "Maissipaneroitua kanaa M, kasvispyöryköitä M, nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Lihapullat Johanneksen pippurikastikkeella",
-            "Härkää Szechuan, basmatiriisiä",
-            "Intialaista kikherne-tofupataa, parsakaalia, kesäkurpitsaa ja paprikaa",
+            "Härkää Szechuan M,G, riisiä",
+            "Intialaista kikherne-tofupataa M,G, parsakaalia, kesäkurpitsaa ja paprikaa",
             "Herkkusienikeittoa"
           ],
           "osastot": [
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Tacomania!: Korean tacoja, fetatortilloja, maissia, nacho sipsejä, pico de Gallo & ranskankermaa ja cheddarkastiketta"
+                "Tacomania!: Tortillalettuja M, nachoja M,G, ylikypsääpossua M, tacokanaa M,G, cheddaskastiketta LG, rapu gochujang M, fetaa VL,G, kurkkukaalisalaattia M,G, kasvissalsaa M,G ja ranskankermaa"
               ]
             },
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Maissipaneroitua kanaa, soijapyöryköitä, nuudelia, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
+                "Maissipaneroitua kanaa M, kasvispyöryköitä M, nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
                 "Lihapullat Johanneksen pippurikastikkeella",
-                "Härkää Szechuan, basmatiriisiä",
-                "Intialaista kikherne-tofupataa, parsakaalia, kesäkurpitsaa ja paprikaa"
+                "Härkää Szechuan M,G, riisiä",
+                "Intialaista kikherne-tofupataa M,G, parsakaalia, kesäkurpitsaa ja paprikaa"
               ]
             },
             {
@@ -1038,7 +1038,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1153,7 +1153,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1317,7 +1317,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1364,7 +1364,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1515,7 +1515,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1640,7 +1640,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1723,7 +1723,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2135,7 +2135,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2185,7 +2185,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2262,7 +2262,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T07:01:34.029271+00:00"
+      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
     }
   ]
 }
