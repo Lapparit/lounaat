@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-13T09:41:59.461263+00:00",
+  "paivitetty": "2026-10-14T01:21:34.766150+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Farmi",
@@ -446,7 +446,7 @@
             "Grillattua tofua",
             "Riisiä",
             "Paahdettuja tandoorikasviksia",
-            "Marjapiirakkaa",
+            "Keksiannos",
             "Kahvi",
             "Lehtipihvi ranskalaisilla",
             "Tomaatti-mozzarellakeittoa",
@@ -473,7 +473,7 @@
             {
               "nimi": "Jälkiruoaksi",
               "ruoat": [
-                "Marjapiirakkaa",
+                "Keksiannos",
                 "Kahvi"
               ]
             },
@@ -599,7 +599,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -686,11 +686,11 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Chili-inkivääri-kookoskeittoa",
-            "Yön yli haudutettua karjalanpaistia",
+            "Karjalanpaistia",
             "Rapeaa turskaa",
-            "– Remoulade kastike",
-            "– Paahdetut yrttiperunat",
-            "– Paahdetut satokauden kasvikset",
+            "– Remoulade-kastike",
+            "– Talon perunat",
+            "– Paahdetut kasvikset",
             "Soijabolognese"
           ]
         },
@@ -711,14 +711,14 @@
           "ruoat": [
             "Kermaista lohikeittoa",
             "Talon naudanlihaburgeria",
-            "– Big Mac- majoneesia & Frittiperunat",
-            "Paahdetut satokauden kasvikset",
-            "Kasvis-cheddarburgeria",
-            "– Papusalsa"
+            "– Big Mac- majoneesia",
+            "– Talon perunat",
+            "– Paahdetut satokauden kasvikset",
+            "Kasvis-cheddarburgeria"
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -834,7 +834,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1038,7 +1038,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1153,7 +1153,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1317,7 +1317,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1364,7 +1364,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1515,7 +1515,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1640,7 +1640,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1697,10 +1697,10 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Chorizopullat savupaprikakastikkeessa",
-            "– parmesankermaperunat",
-            "Orvokin oma: Porkkanaletut",
+            "– valkosipuliset parmesankermaperunat L,G ja riisiä",
+            "Orvokin oma: Voissa paistetut porkkanaletut",
             "Juustoinen parsakaalikeitto",
-            "Kahvin kanssa biscoff-keksimoussea"
+            "Kahvin kanssa Biscoff-keksimoussea"
           ]
         },
         {
@@ -1723,7 +1723,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1813,9 +1813,7 @@
             "Paahdettua perunaa",
             "Juuressosekeittoa ja paahdettua mantelia",
             "Paahdettua kirjolohta",
-            "Kebab-pastavuokaa",
             "Rapeaa siemenpaneroitua kalaa",
-            "Tillijogurttia",
             "Paahdettua perunaa",
             "Glögikuula tähtitorttu",
             "Voissa paistettuja muikkuja",
@@ -1847,16 +1845,9 @@
               ]
             },
             {
-              "nimi": "So Good",
-              "ruoat": [
-                "Kebab-pastavuokaa"
-              ]
-            },
-            {
               "nimi": "So Tasty",
               "ruoat": [
                 "Rapeaa siemenpaneroitua kalaa",
-                "Tillijogurttia",
                 "Paahdettua perunaa"
               ]
             },
@@ -2135,7 +2126,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2185,7 +2176,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2262,7 +2253,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-13T09:41:59.461263+00:00"
+      "paivitetty": "2026-10-14T01:21:34.766150+00:00"
     }
   ]
 }
