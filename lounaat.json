@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-14T07:57:50.067355+00:00",
+  "paivitetty": "2026-10-15T00:48:13.080872+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Farmi",
@@ -603,7 +603,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -722,7 +722,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -838,7 +838,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1042,7 +1042,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1157,7 +1157,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1321,7 +1321,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1368,7 +1368,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1439,6 +1439,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
+            "SULJEMME RAVINTOLAN JO KLO 14.00",
             "Rapeaa korianteri-lime turskaa",
             "– inkivääri-jogurtti dippi",
             "Lihapullia yrttisessä tomaattikastikkeessa",
@@ -1450,6 +1451,7 @@
             {
               "nimi": "Buffet",
               "ruoat": [
+                "SULJEMME RAVINTOLAN JO KLO 14.00",
                 "Rapeaa korianteri-lime turskaa",
                 "– inkivääri-jogurtti dippi",
                 "Lihapullia yrttisessä tomaattikastikkeessa",
@@ -1468,6 +1470,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
+            "SULJEMME RAVINTOLAN JO KLO 14.00",
             "Luuttomia possun BBQ ribsejä",
             "Täyteläinen butter chicken",
             "Kookos-porkkana keittoa",
@@ -1477,6 +1480,7 @@
             {
               "nimi": "Buffet",
               "ruoat": [
+                "SULJEMME RAVINTOLAN JO KLO 14.00",
                 "Luuttomia possun BBQ ribsejä",
                 "Täyteläinen butter chicken",
                 "Kookos-porkkana keittoa"
@@ -1523,7 +1527,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1648,7 +1652,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1733,7 +1737,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2130,7 +2134,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2180,7 +2184,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2257,7 +2261,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-14T07:57:50.067355+00:00"
+      "paivitetty": "2026-10-15T00:48:13.080872+00:00"
     }
   ]
 }
