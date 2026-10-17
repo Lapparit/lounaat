@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-17T04:54:21.377579+00:00",
+  "paivitetty": "2026-10-17T07:09:24.139008+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Farmi",
@@ -609,7 +609,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -701,7 +701,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -817,7 +817,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1021,7 +1021,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1033,8 +1033,50 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
+            "Makkarakeitto",
+            "Currybroileria"
+          ],
+          "osastot": [
+            {
+              "nimi": "Keitto",
+              "ruoat": [
+                "Makkarakeitto"
+              ]
+            },
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Currybroileria"
+              ]
+            }
+          ]
+        },
+        {
+          "paiva": "Tiistai",
+          "ruoat": [
+            "Tomaattinen jauhelihakeitto",
+            "Kinkkukiusaus"
+          ],
+          "osastot": [
+            {
+              "nimi": "Keitto",
+              "ruoat": [
+                "Tomaattinen jauhelihakeitto"
+              ]
+            },
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Kinkkukiusaus"
+              ]
+            }
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
             "Nakkikeitto",
-            "Kaalikääryleet"
+            "Juustoinen jauhelihakastike"
           ],
           "osastot": [
             {
@@ -1046,49 +1088,7 @@
             {
               "nimi": "Lounas",
               "ruoat": [
-                "Kaalikääryleet"
-              ]
-            }
-          ]
-        },
-        {
-          "paiva": "Tiistai",
-          "ruoat": [
-            "Jauhelihakeitto",
-            "Marry me chicken"
-          ],
-          "osastot": [
-            {
-              "nimi": "Keitto",
-              "ruoat": [
-                "Jauhelihakeitto"
-              ]
-            },
-            {
-              "nimi": "Lounas",
-              "ruoat": [
-                "Marry me chicken"
-              ]
-            }
-          ]
-        },
-        {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Lihakeitto",
-            "Nakkikastike"
-          ],
-          "osastot": [
-            {
-              "nimi": "Keitto",
-              "ruoat": [
-                "Lihakeitto"
-              ]
-            },
-            {
-              "nimi": "Lounas",
-              "ruoat": [
-                "Nakkikastike"
+                "Juustoinen jauhelihakastike"
               ]
             }
           ]
@@ -1097,7 +1097,7 @@
           "paiva": "Torstai",
           "ruoat": [
             "Hernekeitto",
-            "Pippuripossua"
+            "Pekonipasta"
           ],
           "osastot": [
             {
@@ -1109,7 +1109,7 @@
             {
               "nimi": "Lounas",
               "ruoat": [
-                "Pippuripossua"
+                "Pekonipasta"
               ]
             }
           ]
@@ -1117,26 +1117,26 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Kalakeitto",
-            "Porsaanleike"
+            "Kanakeitto",
+            "Jauheliharunasoselaatikko"
           ],
           "osastot": [
             {
               "nimi": "Keitto",
               "ruoat": [
-                "Kalakeitto"
+                "Kanakeitto"
               ]
             },
             {
               "nimi": "Lounas",
               "ruoat": [
-                "Porsaanleike"
+                "Jauheliharunasoselaatikko"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1295,7 +1295,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1342,7 +1342,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1506,7 +1506,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1631,7 +1631,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1717,7 +1717,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2128,7 +2128,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2260,7 +2260,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-17T04:54:21.377579+00:00"
+      "paivitetty": "2026-10-17T07:09:24.139008+00:00"
     }
   ]
 }
