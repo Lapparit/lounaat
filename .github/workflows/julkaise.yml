@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hae repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # Tärkeää: hae viimeisin commit main-haarasta
           # (workflow_run-eventti voi muuten käyttää workflow:in alkuperäistä SHA:ta)
