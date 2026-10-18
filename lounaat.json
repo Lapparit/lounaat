@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-18T05:02:11.586683+00:00",
+  "paivitetty": "2026-10-18T07:23:39.663028+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -150,7 +150,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -162,28 +162,28 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Jauhelihapyöryköitä cheddar-pekonikastikkeessa (suomalaista nautaa ja possua)",
+            "Pannupihvi sipuli-kermakastikkeessa (suomalaista nautaa ja possua)",
             "BBQ-broileria (suomalaista broileria)",
-            "Kermaperunaa",
+            "Paahdettua perunaa & riisiä",
             "Salaattibuffet",
-            "Chicken & fries",
-            "Burger salaatti"
+            "Broiler burger",
+            "Tofu poke"
           ],
           "osastot": [
             {
               "nimi": "Lounasbuffet",
               "ruoat": [
-                "Jauhelihapyöryköitä cheddar-pekonikastikkeessa (suomalaista nautaa ja possua)",
+                "Pannupihvi sipuli-kermakastikkeessa (suomalaista nautaa ja possua)",
                 "BBQ-broileria (suomalaista broileria)",
-                "Kermaperunaa",
+                "Paahdettua perunaa & riisiä",
                 "Salaattibuffet"
               ]
             },
             {
               "nimi": "Annosruoat (ei sis. buffettiin)",
               "ruoat": [
-                "Chicken & fries",
-                "Burger salaatti"
+                "Broiler burger",
+                "Tofu poke"
               ]
             }
           ]
@@ -191,9 +191,67 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Cheddar-broileria (suomalaista broileria)",
-            "Paneroitua possua & valkosipulimajoneesi (suomalaista possua)",
-            "Mausteista grilliperunaa",
+            "Ylikypsää possua omenaisessa kastikkeessa (suomalaista possua)",
+            "Yrtti-valkosipulibroileria (suomalaista broileria)",
+            "Pariisinperunoita",
+            "Salaattibuffet",
+            "Chicken & fries",
+            "Halloumi poke"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounasbuffet",
+              "ruoat": [
+                "Ylikypsää possua omenaisessa kastikkeessa (suomalaista possua)",
+                "Yrtti-valkosipulibroileria (suomalaista broileria)",
+                "Pariisinperunoita",
+                "Salaattibuffet"
+              ]
+            },
+            {
+              "nimi": "Annosruoat (ei sis. buffettiin)",
+              "ruoat": [
+                "Chicken & fries",
+                "Halloumi poke"
+              ]
+            }
+          ]
+        },
+        {
+          "paiva": "Keskiviikko",
+          "ruoat": [
+            "Lihapullia pippurikermakastikkeessa (suomalaista nautaa ja possua)",
+            "Savulohivuokaa (suomalaista kirjolohta)",
+            "Paahdettua perunaa",
+            "Salaattibuffet",
+            "Aioli burger",
+            "Tofu salaatti"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounasbuffet",
+              "ruoat": [
+                "Lihapullia pippurikermakastikkeessa (suomalaista nautaa ja possua)",
+                "Savulohivuokaa (suomalaista kirjolohta)",
+                "Paahdettua perunaa",
+                "Salaattibuffet"
+              ]
+            },
+            {
+              "nimi": "Annosruoat (ei sis. buffettiin)",
+              "ruoat": [
+                "Aioli burger",
+                "Tofu salaatti"
+              ]
+            }
+          ]
+        },
+        {
+          "paiva": "Torstai",
+          "ruoat": [
+            "Sitruuna-smetanabroileria (suomalaista broileria)",
+            "Caffitellan kebabia (suomalaista nautaa)",
+            "Lohkoperunoita & riisiä",
             "Salaattibuffet",
             "Vuohenjuusto burger",
             "Teriyaki poke"
@@ -202,9 +260,9 @@
             {
               "nimi": "Lounasbuffet",
               "ruoat": [
-                "Cheddar-broileria (suomalaista broileria)",
-                "Paneroitua possua & valkosipulimajoneesi (suomalaista possua)",
-                "Mausteista grilliperunaa",
+                "Sitruuna-smetanabroileria (suomalaista broileria)",
+                "Caffitellan kebabia (suomalaista nautaa)",
+                "Lohkoperunoita & riisiä",
                 "Salaattibuffet"
               ]
             },
@@ -218,76 +276,20 @@
           ]
         },
         {
-          "paiva": "Keskiviikko",
-          "ruoat": [
-            "Possun sisäfilettä tuorejuustokastikkeessa (suomalaista possua)",
-            "Broilerin paistileikettä chimichurri-kastikkeella (suomalaista broileria)",
-            "Paahdettua perunaa & riisiä",
-            "Salaattibuffet",
-            "Chili burger",
-            "Paneroitu broileri poke"
-          ],
-          "osastot": [
-            {
-              "nimi": "Lounasbuffet",
-              "ruoat": [
-                "Possun sisäfilettä tuorejuustokastikkeessa (suomalaista possua)",
-                "Broilerin paistileikettä chimichurri-kastikkeella (suomalaista broileria)",
-                "Paahdettua perunaa & riisiä",
-                "Salaattibuffet"
-              ]
-            },
-            {
-              "nimi": "Annosruoat (ei sis. buffettiin)",
-              "ruoat": [
-                "Chili burger",
-                "Paneroitu broileri poke"
-              ]
-            }
-          ]
-        },
-        {
-          "paiva": "Torstai",
-          "ruoat": [
-            "Crispy chicken & curry-jogurttikastike (suomalaista broileria)",
-            "Kaalikääryleet & puolukkahillo (suomalaista nautaa ja possua)",
-            "Perunamuusia",
-            "Salaattibuffet",
-            "Juusto burger ja Broilerisalaatti"
-          ],
-          "osastot": [
-            {
-              "nimi": "Lounasbuffet",
-              "ruoat": [
-                "Crispy chicken & curry-jogurttikastike (suomalaista broileria)",
-                "Kaalikääryleet & puolukkahillo (suomalaista nautaa ja possua)",
-                "Perunamuusia",
-                "Salaattibuffet"
-              ]
-            },
-            {
-              "nimi": "Annosruoat (ei sis. buffettiin)",
-              "ruoat": [
-                "Juusto burger ja Broilerisalaatti"
-              ]
-            }
-          ]
-        },
-        {
           "paiva": "Perjantai",
           "ruoat": [
-            "Smetanainen uunilohi",
-            "Makkaramix (suomalaista possua)",
+            "Smetanainen liharuukku",
+            "Juustoista uunimakkaraa (suomalaista possua)",
             "Perunamuusia",
             "Salaattibuffet",
-            "Halloum burger"
+            "Pekoni smash burger"
           ],
           "osastot": [
             {
               "nimi": "Lounasbuffet",
               "ruoat": [
-                "Smetanainen uunilohi",
-                "Makkaramix (suomalaista possua)",
+                "Smetanainen liharuukku",
+                "Juustoista uunimakkaraa (suomalaista possua)",
                 "Perunamuusia",
                 "Salaattibuffet"
               ]
@@ -295,7 +297,7 @@
             {
               "nimi": "Annosruoat (ei sis. buffettiin)",
               "ruoat": [
-                "Halloum burger"
+                "Pekoni smash burger"
               ]
             }
           ]
@@ -303,14 +305,14 @@
         {
           "paiva": "Lauantai",
           "ruoat": [
-            "Smoky BBQ -jauhelihapihvejä (suomalaista nautaa ja possua)",
-            "Paneroitua kalaa & remouladekastike",
-            "Paahdettua perunaa",
+            "Kievin kanaa + valkosipuli-yrttidippi (suomalaista broileria)",
+            "Chorizo-lihapullia (suomalaista nautaa ja possua)",
+            "Kermaperunaa",
             "Salaattibuffet"
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Farmi",
@@ -611,7 +613,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -730,7 +732,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -846,7 +848,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1050,7 +1052,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1165,7 +1167,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1324,7 +1326,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1370,7 +1372,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1529,7 +1531,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1654,7 +1656,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1741,7 +1743,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2159,7 +2161,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2291,7 +2293,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-18T05:02:11.586683+00:00"
+      "paivitetty": "2026-10-18T07:23:39.663028+00:00"
     }
   ]
 }
