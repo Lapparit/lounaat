@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-19T08:02:45.479485+00:00",
+  "paivitetty": "2026-10-20T01:13:03.728659+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -150,7 +150,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -312,7 +312,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Farmi",
@@ -626,7 +626,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -744,7 +744,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -872,7 +872,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1074,7 +1074,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1189,7 +1189,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1348,7 +1348,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1394,7 +1394,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1440,9 +1440,10 @@
           "ruoat": [
             "Rapeaa panko-parmesan broileria",
             "Uunijuures- makkarapannu",
-            "Banaanikakkua vaniljakastikkeella",
+            "VEG ruoka keittiöstä: chavrepyörykät aiolilla",
             "Kermainen kukkakaalikeitto",
-            "sweet & sour kalaa, sticky rice"
+            "Täysjyväpaneroitua kalaa, bearnaisekastiketta & ranskanperunoita",
+            "Mokkapalat (M, VEG ja G jälkiruoka keittiöstä)"
           ],
           "osastot": [
             {
@@ -1450,7 +1451,7 @@
               "ruoat": [
                 "Rapeaa panko-parmesan broileria",
                 "Uunijuures- makkarapannu",
-                "Banaanikakkua vaniljakastikkeella"
+                "VEG ruoka keittiöstä: chavrepyörykät aiolilla"
               ]
             },
             {
@@ -1462,7 +1463,13 @@
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "sweet & sour kalaa, sticky rice"
+                "Täysjyväpaneroitua kalaa, bearnaisekastiketta & ranskanperunoita"
+              ]
+            },
+            {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "Mokkapalat (M, VEG ja G jälkiruoka keittiöstä)"
               ]
             }
           ]
@@ -1558,7 +1565,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1683,7 +1690,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1770,7 +1777,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1788,11 +1795,9 @@
             "Pinaattikeittoa",
             "Keitetty kananmuna",
             "Salaattijuustoa",
-            "Täyteläisen maustettua broileria - Broileria Tikka Masala",
-            "Tummaa riisiä",
             "Rapeita kalapuikkoja",
             "Tartarjogurttia",
-            "Perunamuusia",
+            "Paahdettua perunaa",
             "Banoffee-juustokakkumousse",
             "Kanaa Kiovan tapaan",
             "Pestorossojogurttia",
@@ -1824,18 +1829,11 @@
               ]
             },
             {
-              "nimi": "So Good",
-              "ruoat": [
-                "Täyteläisen maustettua broileria - Broileria Tikka Masala",
-                "Tummaa riisiä"
-              ]
-            },
-            {
               "nimi": "So Tasty",
               "ruoat": [
                 "Rapeita kalapuikkoja",
                 "Tartarjogurttia",
-                "Perunamuusia"
+                "Paahdettua perunaa"
               ]
             },
             {
@@ -2207,7 +2205,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2258,7 +2256,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2335,7 +2333,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-19T08:02:45.479485+00:00"
+      "paivitetty": "2026-10-20T01:13:03.728659+00:00"
     }
   ]
 }
