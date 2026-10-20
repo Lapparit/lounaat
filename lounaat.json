@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-20T05:10:12.401485+00:00",
+  "paivitetty": "2026-10-20T07:53:15.304415+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -150,7 +150,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -312,7 +312,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Farmi",
@@ -524,7 +524,7 @@
             "Tzazikia",
             "Mariannerahkaa",
             "Kahviannos, maito ja sokeri",
-            "Lehtipihvi bataattiranskalaisilla",
+            "Lehtipihvi ristikkoperunoilla",
             "Valkosipulivoita",
             "Kermaista kirjolohikeittoa",
             "Linssi-kasvispihvjä",
@@ -559,7 +559,7 @@
             {
               "nimi": "Grilliannos",
               "ruoat": [
-                "Lehtipihvi bataattiranskalaisilla",
+                "Lehtipihvi ristikkoperunoilla",
                 "Valkosipulivoita"
               ]
             },
@@ -626,7 +626,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -769,7 +769,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -807,7 +807,7 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Arrabiata lihapullia ja pastaa",
-            "Halloumi-punajuuripihvejä sekä sitruuna-kermaviilikastiketta, kasviksia",
+            "Halloumi-punajuuripihvejä VL,G sekä sitruuna-kermaviilikastiketta L,G, kasviksia",
             "Caesar pekonilla, hunajamelonilla ja isolla, rapealla yrtti-valkosipulileivällä",
             "Kermaista kirjolohikeittoa ja tuoretta tilliä"
           ],
@@ -816,7 +816,7 @@
               "nimi": "Buffet",
               "ruoat": [
                 "Arrabiata lihapullia ja pastaa",
-                "Halloumi-punajuuripihvejä sekä sitruuna-kermaviilikastiketta, kasviksia"
+                "Halloumi-punajuuripihvejä VL,G sekä sitruuna-kermaviilikastiketta L,G, kasviksia"
               ]
             },
             {
@@ -897,7 +897,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -948,32 +948,32 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Ylikypsää BBQ-porsasta, paahdettuja perunoita",
+            "Ylikypsää BBQ-porsasta M,G, paahdettuja perunoita",
             "Lihapullia Johanneksen pippurikastikkeella",
-            "Sieni-siemenpyöryköitä, jogurtti-tahinikastiketta ja uunikasviksia",
-            "Hermia goes chicken wings heaven!: Chicken wingsejä ja kukkakaaliwingsejä hot-ja mediumkastikkeella sekä BBQ-kastikkeella, ranuja, sipulirenkaita, vihannestikkuja, valkosipuli- ja aurajuustodippiä",
-            "Red curry kanaa, kookos-härkistä, nuudelia, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
+            "Sieni-siemenpyöryköitä M,G, jogurtti-tahinikastiketta L,G ja uunikasviksia",
+            "Hermia goes chicken wings heaven!: Chicken wingsejä M,G ja kukkakaaliwingsejä M hot-ja mediumkastikkeella M sekä BBQ-kastikkeella M,G , ranuja M,G, sipulirenkaita M, vihannestikkuja, valkosipuli- ja aurajuustodippiä",
+            "Red curry kanaa M, kookos-härkistä M,G, nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Purjo-perunasosekeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Ylikypsää BBQ-porsasta, paahdettuja perunoita",
+                "Ylikypsää BBQ-porsasta M,G, paahdettuja perunoita",
                 "Lihapullia Johanneksen pippurikastikkeella",
-                "Sieni-siemenpyöryköitä, jogurtti-tahinikastiketta ja uunikasviksia"
+                "Sieni-siemenpyöryköitä M,G, jogurtti-tahinikastiketta L,G ja uunikasviksia"
               ]
             },
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Hermia goes chicken wings heaven!: Chicken wingsejä ja kukkakaaliwingsejä hot-ja mediumkastikkeella sekä BBQ-kastikkeella, ranuja, sipulirenkaita, vihannestikkuja, valkosipuli- ja aurajuustodippiä"
+                "Hermia goes chicken wings heaven!: Chicken wingsejä M,G ja kukkakaaliwingsejä M hot-ja mediumkastikkeella M sekä BBQ-kastikkeella M,G , ranuja M,G, sipulirenkaita M, vihannestikkuja, valkosipuli- ja aurajuustodippiä"
               ]
             },
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Red curry kanaa, kookos-härkistä, nuudelia, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
+                "Red curry kanaa M, kookos-härkistä M,G, nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -1099,7 +1099,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1214,7 +1214,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1373,7 +1373,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1419,7 +1419,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1590,7 +1590,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1715,7 +1715,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1803,7 +1803,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1896,7 +1896,7 @@
           "ruoat": [
             "Kanaton kukkakaali-punajuurigratiini ja paahdettuja siemeniä",
             "Tomaattikeittoa",
-            "Lämminsavukirjolohta",
+            "Salaattijuustoa",
             "Savupalvi-pekonipastaa",
             "Kalapyöryköitä",
             "Tillijogurttia",
@@ -1925,7 +1925,7 @@
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Lämminsavukirjolohta"
+                "Salaattijuustoa"
               ]
             },
             {
@@ -2231,7 +2231,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2282,7 +2282,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2359,7 +2359,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-20T05:10:12.401485+00:00"
+      "paivitetty": "2026-10-20T07:53:15.304415+00:00"
     }
   ]
 }
