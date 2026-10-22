@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-22T00:51:34.819099+00:00",
+  "paivitetty": "2026-10-22T05:15:46.656937+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -150,7 +150,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -312,7 +312,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Farmi",
@@ -630,7 +630,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -757,12 +757,16 @@
           "ruoat": [
             "Perinteistä hernekeittoa palvikinkulla",
             "Lihamureketta kahden pippurin kastikkeella",
-            "– Paahdetut talon perunat",
+            "– Paistettua riisiä",
+            "– Talon perunat",
             "Lohipastaa",
             "– Paahdetut satokauden kasvikset",
             "Punajuuripyörykät",
             "– Jogurttinen yrttikastike",
-            "pannukakkua, kermavaahtoa ja hilloa"
+            "pannukakkua, kermavaahtoa ja hilloa",
+            "Keitettyä kananmunaa",
+            "Raejuustoa",
+            "Marinoitua broileria"
           ],
           "osastot": [
             {
@@ -770,7 +774,8 @@
               "ruoat": [
                 "Perinteistä hernekeittoa palvikinkulla",
                 "Lihamureketta kahden pippurin kastikkeella",
-                "– Paahdetut talon perunat",
+                "– Paistettua riisiä",
+                "– Talon perunat",
                 "Lohipastaa",
                 "– Paahdetut satokauden kasvikset",
                 "Punajuuripyörykät",
@@ -781,6 +786,14 @@
               "nimi": "Jälkiruoka",
               "ruoat": [
                 "pannukakkua, kermavaahtoa ja hilloa"
+              ]
+            },
+            {
+              "nimi": "Proteiinit punnittavaan salaattiin",
+              "ruoat": [
+                "Keitettyä kananmunaa",
+                "Raejuustoa",
+                "Marinoitua broileria"
               ]
             }
           ]
@@ -798,7 +811,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -924,7 +937,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1126,7 +1139,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1241,7 +1254,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1400,7 +1413,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1446,7 +1459,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1612,7 +1625,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1737,7 +1750,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1809,7 +1822,7 @@
           "paiva": "Torstai",
           "ruoat": [
             "Cheddarjuustolla kuorrutettua uunimakkaraa",
-            "– uuniranskalaiset",
+            "– uuniranskalaiset VEG,G ja valkosipulidippiä",
             "Pitkään haudutettu lihakaalilaatikko",
             "– puolukkaa",
             "Sitruunainen kylmäsavulohikeitto"
@@ -1826,7 +1839,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2240,7 +2253,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2291,7 +2304,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2368,7 +2381,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T00:51:34.819099+00:00"
+      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
     }
   ]
 }
