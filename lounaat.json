@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-22T05:15:46.656937+00:00",
+  "paivitetty": "2026-10-22T07:53:38.338315+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -150,7 +150,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -312,7 +312,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Farmi",
@@ -630,7 +630,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -811,7 +811,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -900,24 +900,24 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Sitruunaruoholla maustettua uunikalaa, chilisoijalla maustettua paistettua riisiä",
-            "Kikherne-mifupataa ja lämmintä kasvissalaattia",
+            "Sitruunaruoholla maustettua turskaa M, G, chilisoijalla maustettua paistettua riisiä",
+            "Kikherne-mifupataa L, G ja lämpimiä kasviksia",
             "Gratinoitua Pollo limonello-pastaa ja tomaatti-rucolasalaattia",
-            "Hernekeittoa, ohukaisia ja hilloa"
+            "Hernekeittoa M, G, ohukaisia L ja hilloa"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Sitruunaruoholla maustettua uunikalaa, chilisoijalla maustettua paistettua riisiä",
-                "Kikherne-mifupataa ja lämmintä kasvissalaattia"
+                "Sitruunaruoholla maustettua turskaa M, G, chilisoijalla maustettua paistettua riisiä",
+                "Kikherne-mifupataa L, G ja lämpimiä kasviksia"
               ]
             },
             {
               "nimi": "Grilli",
               "ruoat": [
                 "Gratinoitua Pollo limonello-pastaa ja tomaatti-rucolasalaattia",
-                "Hernekeittoa, ohukaisia ja hilloa"
+                "Hernekeittoa M, G, ohukaisia L ja hilloa"
               ]
             }
           ]
@@ -937,7 +937,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1066,40 +1066,40 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Appelsiinikanaa, wokattuja kasviksia ja kurkumariisiä",
-            "Lihapullia Johanneksen pippurikastikkeella",
-            "Tandooripossua, naanleipää ja raitaa",
+            "Beef burger ananaksella ja aurajuustokastikkeella tai kasvisburger, ranut ja talon dippi",
             "Gratinoitua avocado-katkarapupastaa ja rucola-pinaattisalaattia",
-            "Beef burger ananaksella ja aurajuustokastikkeella, ranut ja talon dippi",
-            "Chilikanaa, seesam härkistä, nuudelia, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
-            "Kukkakaali-parsakaalisosekeittoa"
+            "Chilikanaa L,G, seesam-soija-härkistä M,G, nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
+            "Appelsiinikanaa L,G, wokattuja kasviksia M,G ja kurkumariisiä",
+            "Lihapullia Johanneksen pippurikastikkeella",
+            "Tandooripossua L,G, naanleipää M ja raitaa",
+            "Kukkakaalisosekeittoa"
           ],
           "osastot": [
             {
-              "nimi": "Kitchen Buffet",
-              "ruoat": [
-                "Appelsiinikanaa, wokattuja kasviksia ja kurkumariisiä",
-                "Lihapullia Johanneksen pippurikastikkeella",
-                "Tandooripossua, naanleipää ja raitaa"
-              ]
-            },
-            {
               "nimi": "Special Grilli",
               "ruoat": [
-                "Gratinoitua avocado-katkarapupastaa ja rucola-pinaattisalaattia",
-                "Beef burger ananaksella ja aurajuustokastikkeella, ranut ja talon dippi"
+                "Beef burger ananaksella ja aurajuustokastikkeella tai kasvisburger, ranut ja talon dippi",
+                "Gratinoitua avocado-katkarapupastaa ja rucola-pinaattisalaattia"
               ]
             },
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Chilikanaa, seesam härkistä, nuudelia, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
+                "Chilikanaa L,G, seesam-soija-härkistä M,G, nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
+              ]
+            },
+            {
+              "nimi": "Kitchen Buffet",
+              "ruoat": [
+                "Appelsiinikanaa L,G, wokattuja kasviksia M,G ja kurkumariisiä",
+                "Lihapullia Johanneksen pippurikastikkeella",
+                "Tandooripossua L,G, naanleipää M ja raitaa"
               ]
             },
             {
               "nimi": "Päivän keitto",
               "ruoat": [
-                "Kukkakaali-parsakaalisosekeittoa"
+                "Kukkakaalisosekeittoa"
               ]
             }
           ]
@@ -1139,7 +1139,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1254,7 +1254,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1413,7 +1413,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1459,7 +1459,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1625,7 +1625,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1750,7 +1750,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1839,7 +1839,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2079,10 +2079,10 @@
           "paiva": "Torstai",
           "ruoat": [
             "Rapeita kasvispuikkoja",
-            "Harissajogurttia",
+            "Harissajogurttia (vegaaninen kastike saatavilla)",
             "Paahdettua perunaa",
             "Kukkakaalisosekeittoa",
-            "Lämminsavukirjolohta",
+            "Mozzarellaa",
             "Kalacurrya ja maapähkinää",
             "Paahdettua perunaa",
             "Uunimakkaraa TexMex",
@@ -2090,8 +2090,8 @@
             "Meidän keittiön pannukakkua",
             "Hillottua mansikkaa",
             "Kermavaahtoa",
-            "Maalaisranskalaisia",
             "Briossi BRG Spicy Pulled Pork",
+            "Maalaisranskalaisia",
             "BBQ -majoneesia",
             "Aasialainen broileri-nuudelisalaatti",
             "Kana Banh Mi -sandwich"
@@ -2101,7 +2101,7 @@
               "nimi": "Kasvislounas",
               "ruoat": [
                 "Rapeita kasvispuikkoja",
-                "Harissajogurttia",
+                "Harissajogurttia (vegaaninen kastike saatavilla)",
                 "Paahdettua perunaa"
               ]
             },
@@ -2114,7 +2114,7 @@
             {
               "nimi": "Salaattilounaan proteiini",
               "ruoat": [
-                "Lämminsavukirjolohta"
+                "Mozzarellaa"
               ]
             },
             {
@@ -2142,8 +2142,8 @@
             {
               "nimi": "Pop Up Grill",
               "ruoat": [
-                "Maalaisranskalaisia",
                 "Briossi BRG Spicy Pulled Pork",
+                "Maalaisranskalaisia",
                 "BBQ -majoneesia"
               ]
             },
@@ -2172,8 +2172,8 @@
             "Tartarjogurttia",
             "Perunamuusia",
             "Banoffee-juustokakkumousse",
-            "Maalaisranskalaisia",
             "Briossi BRG Spicy Pulled Pork",
+            "Maalaisranskalaisia",
             "BBQ -majoneesia",
             "Kana Banh Mi -sandwich"
           ],
@@ -2214,8 +2214,8 @@
             {
               "nimi": "Pop Up Grill",
               "ruoat": [
-                "Maalaisranskalaisia",
                 "Briossi BRG Spicy Pulled Pork",
+                "Maalaisranskalaisia",
                 "BBQ -majoneesia"
               ]
             },
@@ -2253,7 +2253,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2304,7 +2304,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2381,7 +2381,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T05:15:46.656937+00:00"
+      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
     }
   ]
 }
