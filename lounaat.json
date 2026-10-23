@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-23T05:15:07.584319+00:00",
+  "paivitetty": "2026-10-23T07:56:42.176361+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -150,7 +150,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -312,7 +312,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Farmi",
@@ -630,7 +630,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -810,7 +810,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -924,19 +924,19 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Burger perjantai!: Burgereita nyhtöpossulla tai kasvispihvillä, maalaisranskalaisia, paprika-mojodippiä ja valkosipulimajoneesia"
+            "Burger perjantai! Burgereita nyhtöpossulla tai kasvispihvillä, maalaisranskalaisia, paprika-mojodippiä ja valkosipulimajoneesia"
           ],
           "osastot": [
             {
               "nimi": "Grilli",
               "ruoat": [
-                "Burger perjantai!: Burgereita nyhtöpossulla tai kasvispihvillä, maalaisranskalaisia, paprika-mojodippiä ja valkosipulimajoneesia"
+                "Burger perjantai! Burgereita nyhtöpossulla tai kasvispihvillä, maalaisranskalaisia, paprika-mojodippiä ja valkosipulimajoneesia"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1106,27 +1106,27 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Shawarma-kanaa, harissa coleslaw, minttujogurttia, basmatia",
+            "Shawarma-kanaa M,G, harissa coleslaw M,G, minttujogurttia L,G, riisiä",
             "lihapullia Johanneksen pippurikastikkeella",
-            "Sitruunaruoholla maustettua uunikalaa, paahdettuja kasviksia",
-            "Pizza perjantai!: Pizza pollo havaiji ja pizza melanzane",
-            "Maalaissalaattia grillatulla kanalla tai halloumilla",
+            "Sitruunaruoholla maustettua uunikalaa L,G, paahdettuja kasviksia",
+            "Pizza perjantai!: Pizza pollo havaiji L, Kasvispizza melanzane L, Jauheliha-jalapenopizzaa",
+            "Maalaissalaattia grillatulla kanalla M,G tai halloumilla",
             "Inkivääri-porkkanasosekeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Shawarma-kanaa, harissa coleslaw, minttujogurttia, basmatia",
+                "Shawarma-kanaa M,G, harissa coleslaw M,G, minttujogurttia L,G, riisiä",
                 "lihapullia Johanneksen pippurikastikkeella",
-                "Sitruunaruoholla maustettua uunikalaa, paahdettuja kasviksia"
+                "Sitruunaruoholla maustettua uunikalaa L,G, paahdettuja kasviksia"
               ]
             },
             {
               "nimi": "Special Grilli",
               "ruoat": [
-                "Pizza perjantai!: Pizza pollo havaiji ja pizza melanzane",
-                "Maalaissalaattia grillatulla kanalla tai halloumilla"
+                "Pizza perjantai!: Pizza pollo havaiji L, Kasvispizza melanzane L, Jauheliha-jalapenopizzaa",
+                "Maalaissalaattia grillatulla kanalla M,G tai halloumilla"
               ]
             },
             {
@@ -1138,7 +1138,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1253,7 +1253,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1412,6 +1412,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
+      ],
+      "rikki_alkaen": "2026-10-23T07:56:42.176361+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-10-23T05:15:07.584319+00:00"
     },
     {
@@ -1458,7 +1463,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1631,7 +1636,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1756,7 +1761,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1845,7 +1850,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1876,7 +1881,7 @@
           ],
           "osastot": [
             {
-              "nimi": "Kasvislounas",
+              "nimi": "So Green",
               "ruoat": [
                 "Italialaisia kasvispyöryköitä",
                 "Pestorossojogurttia",
@@ -1891,7 +1896,7 @@
               ]
             },
             {
-              "nimi": "Salaattilounaan proteiini",
+              "nimi": "So Fresh",
               "ruoat": [
                 "Salaattijuustoa"
               ]
@@ -1951,7 +1956,7 @@
           ],
           "osastot": [
             {
-              "nimi": "Vegaaninen kasvislounas",
+              "nimi": "So Vegan",
               "ruoat": [
                 "Kanaton kukkakaali-punajuurigratiini ja paahdettuja siemeniä"
               ]
@@ -1963,7 +1968,7 @@
               ]
             },
             {
-              "nimi": "Salaattilounaan proteiini",
+              "nimi": "So Fresh",
               "ruoat": [
                 "Salaattijuustoa"
               ]
@@ -2020,7 +2025,7 @@
           ],
           "osastot": [
             {
-              "nimi": "Vegaaninen kasvislounas",
+              "nimi": "So Vegan",
               "ruoat": [
                 "Tofua, kasviksia ja pähkinää -Tahu goreng Indonesia (Gluteeniton vaihtoehto saatavilla)",
                 "Tummaa riisiä"
@@ -2033,7 +2038,7 @@
               ]
             },
             {
-              "nimi": "Salaattilounaan proteiini",
+              "nimi": "So Fresh",
               "ruoat": [
                 "Mozzarellajuustoa"
               ]
@@ -2104,7 +2109,7 @@
           ],
           "osastot": [
             {
-              "nimi": "Kasvislounas",
+              "nimi": "So Green",
               "ruoat": [
                 "Rapeita kasvispuikkoja",
                 "Harissajogurttia (vegaaninen kastike saatavilla)",
@@ -2118,7 +2123,7 @@
               ]
             },
             {
-              "nimi": "Salaattilounaan proteiini",
+              "nimi": "So Fresh",
               "ruoat": [
                 "Mozzarellaa"
               ]
@@ -2170,8 +2175,9 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "BBQ maustettua Unlimited® jauhismuru pastaa",
+            "BBQ maustettua Unlimited® jauhismuru pastaa (gluteeniton ja vegaaninen vaihtoehto italialaiset kasvispyörykät)",
             "Yrttistä porkkanasosekeittoa",
+            "Mozzarellaa",
             "Lempeän tulista kebabkastiketta",
             "Tummaa riisiä",
             "Sitruunaista rapeaa kalaa",
@@ -2181,19 +2187,26 @@
             "Briossi BRG Spicy Pulled Pork",
             "Maalaisranskalaisia",
             "BBQ -majoneesia",
+            "Aasialainen broileri-nuudelisalaatti",
             "Kana Banh Mi -sandwich"
           ],
           "osastot": [
             {
-              "nimi": "Kasvislounas",
+              "nimi": "So Green",
               "ruoat": [
-                "BBQ maustettua Unlimited® jauhismuru pastaa"
+                "BBQ maustettua Unlimited® jauhismuru pastaa (gluteeniton ja vegaaninen vaihtoehto italialaiset kasvispyörykät)"
               ]
             },
             {
               "nimi": "Keitto",
               "ruoat": [
                 "Yrttistä porkkanasosekeittoa"
+              ]
+            },
+            {
+              "nimi": "So Fresh",
+              "ruoat": [
+                "Mozzarellaa"
               ]
             },
             {
@@ -2226,6 +2239,12 @@
               ]
             },
             {
+              "nimi": "Pop Up Grill salaatti",
+              "ruoat": [
+                "Aasialainen broileri-nuudelisalaatti"
+              ]
+            },
+            {
               "nimi": "Leipälounas (Break Cafe)",
               "ruoat": [
                 "Kana Banh Mi -sandwich"
@@ -2243,7 +2262,7 @@
           ],
           "osastot": [
             {
-              "nimi": "Vegaaninen kasvislounas",
+              "nimi": "So Vegan",
               "ruoat": [
                 "Marokkolaisia kasvispihvejä",
                 "Chiligurttia",
@@ -2259,7 +2278,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2310,7 +2329,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2387,7 +2406,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-23T05:15:07.584319+00:00"
+      "paivitetty": "2026-10-23T07:56:42.176361+00:00"
     }
   ]
 }
