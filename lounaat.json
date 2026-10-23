@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-22T07:53:38.338315+00:00",
+  "paivitetty": "2026-10-23T00:53:44.487700+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -150,7 +150,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -312,7 +312,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Farmi",
@@ -630,7 +630,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -803,7 +803,6 @@
           "ruoat": [
             "Juustoinen savuporokeitto",
             "Luuttomat chili-kookosribsit",
-            "– Savuchilimajoneesi",
             "– Talon perunat",
             "– Paahdetut kasvikset",
             "Porkkanaletut Fastellen tapaan",
@@ -811,7 +810,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -900,7 +899,7 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Sitruunaruoholla maustettua turskaa M, G, chilisoijalla maustettua paistettua riisiä",
+            "Sitruunaruoholla maustettua uunikalaaM, G, chilisoijalla maustettua paistettua riisiä",
             "Kikherne-mifupataa L, G ja lämpimiä kasviksia",
             "Gratinoitua Pollo limonello-pastaa ja tomaatti-rucolasalaattia",
             "Hernekeittoa M, G, ohukaisia L ja hilloa"
@@ -909,7 +908,7 @@
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Sitruunaruoholla maustettua turskaa M, G, chilisoijalla maustettua paistettua riisiä",
+                "Sitruunaruoholla maustettua uunikalaaM, G, chilisoijalla maustettua paistettua riisiä",
                 "Kikherne-mifupataa L, G ja lämpimiä kasviksia"
               ]
             },
@@ -937,7 +936,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1139,7 +1138,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1254,7 +1253,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1413,7 +1412,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1459,7 +1458,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1575,7 +1574,8 @@
             "Broilerin sisäfilettä satay- maapähkinäkastikkeessa",
             "Lempeän porkkanaisia lettuja suoraan pannulta",
             "Ei chef annosta tänään henkilöstövajeen vuoksi",
-            "Hernekeitto palvikinkulla M, G & pannukakkua & hilloa"
+            "Hernekeitto kinkulla M, G & pannukakkua & hilloa L (M, VEG ja G jälkkärit keittiöstä)",
+            "Meksikon kasvispihvejä pähkinäisellä satay kastikkeella"
           ],
           "osastot": [
             {
@@ -1589,7 +1589,13 @@
             {
               "nimi": "Keitto",
               "ruoat": [
-                "Hernekeitto palvikinkulla M, G & pannukakkua & hilloa"
+                "Hernekeitto kinkulla M, G & pannukakkua & hilloa L (M, VEG ja G jälkkärit keittiöstä)"
+              ]
+            },
+            {
+              "nimi": "Vegaaninen keittiöstä",
+              "ruoat": [
+                "Meksikon kasvispihvejä pähkinäisellä satay kastikkeella"
               ]
             }
           ]
@@ -1625,7 +1631,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1750,7 +1756,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1822,7 +1828,7 @@
           "paiva": "Torstai",
           "ruoat": [
             "Cheddarjuustolla kuorrutettua uunimakkaraa",
-            "– uuniranskalaiset VEG,G ja valkosipulidippiä",
+            "– uuniranskalaisia VEG,G ja aiolia",
             "Pitkään haudutettu lihakaalilaatikko",
             "– puolukkaa",
             "Sitruunainen kylmäsavulohikeitto"
@@ -1839,7 +1845,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2253,7 +2259,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2304,7 +2310,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2381,7 +2387,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-22T07:53:38.338315+00:00"
+      "paivitetty": "2026-10-23T00:53:44.487700+00:00"
     }
   ]
 }
