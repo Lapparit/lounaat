@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-26T08:03:47.424858+00:00",
+  "paivitetty": "2026-10-27T01:36:03.251423+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -191,7 +191,7 @@
           "ruoat": [
             "Paneroitua porsaanleikettä & rosmariini-kermaviilikastike (suomalaista possua)",
             "Chorizopyöryköitä tomaatti-kermakastikkeessa (suomalaista nautaa ja possua)",
-            "Pariisinperunoita Kasvissosekeitto",
+            "Pariisinperunoita",
             "Salaattibuffet",
             "Yrttibroileri burger",
             "Vuohenjuusto poke"
@@ -202,7 +202,7 @@
               "ruoat": [
                 "Paneroitua porsaanleikettä & rosmariini-kermaviilikastike (suomalaista possua)",
                 "Chorizopyöryköitä tomaatti-kermakastikkeessa (suomalaista nautaa ja possua)",
-                "Pariisinperunoita Kasvissosekeitto",
+                "Pariisinperunoita",
                 "Salaattibuffet"
               ]
             },
@@ -310,7 +310,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Farmi",
@@ -601,7 +601,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -648,7 +648,7 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Parsakaalisosekeitto tuorejuustolla",
+            "Parsakaali-kasvissosekeitto tuorejuustolla",
             "Kirjolohipyörykät",
             "– Tillikermaviili",
             "Kebabia tomaattikastikkeessa",
@@ -714,7 +714,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -840,7 +840,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1036,7 +1036,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1151,7 +1151,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1315,7 +1315,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1361,7 +1361,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1544,7 +1544,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1669,7 +1669,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1750,7 +1750,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1763,13 +1763,13 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Porkkananappeja",
-            "Paahdettua perunaa",
+            "Riisi",
             "Ruohosipulijogurttia (Vegaaninen kastike saatavilla)",
             "Basilikalla maustettua tomaattikeittoa",
             "Kylmäsavustettua kirjolohta",
             "Burgundin broileripataa",
-            "Paahdettua perunaa",
-            "Ahvenpyöryköitä",
+            "Riisi",
+            "Rapea vaalea kalapyörykkä",
             "Perunamuusia",
             "Ruohosipulijogurttia",
             "Vaniljamoussea ja herukkaa",
@@ -1784,7 +1784,7 @@
               "nimi": "So Green",
               "ruoat": [
                 "Porkkananappeja",
-                "Paahdettua perunaa",
+                "Riisi",
                 "Ruohosipulijogurttia (Vegaaninen kastike saatavilla)"
               ]
             },
@@ -1804,13 +1804,13 @@
               "nimi": "So Good",
               "ruoat": [
                 "Burgundin broileripataa",
-                "Paahdettua perunaa"
+                "Riisi"
               ]
             },
             {
               "nimi": "So Tasty",
               "ruoat": [
-                "Ahvenpyöryköitä",
+                "Rapea vaalea kalapyörykkä",
                 "Perunamuusia",
                 "Ruohosipulijogurttia"
               ]
@@ -2182,7 +2182,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2232,7 +2232,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2301,7 +2301,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-26T08:03:47.424858+00:00"
+      "paivitetty": "2026-10-27T01:36:03.251423+00:00"
     }
   ]
 }
