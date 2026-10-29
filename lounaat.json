@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-28T08:55:44.964744+00:00",
+  "paivitetty": "2026-10-29T01:55:41.578656+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -310,7 +310,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Farmi",
@@ -607,7 +607,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -720,7 +720,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -856,7 +856,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -946,7 +946,7 @@
           "ruoat": [
             "Possu cordon bleu, muhennettuja valkosipuliperunoita tai kermaperunoita L,G ja paahdettuja kasviksia L,M/ Lihapullat Johanneksen pippurikastikkeella",
             "Kasvispihvejä",
-            "Pinsa Pop Up: Pinsa pepperoni L, Pinsa salmon L ja Pinsa tomaatilla ja mozzarellalla",
+            "Pinsa Pop Up: Pinsa pepperoni L, Pinsa salmon",
             "Yakiniku-paistettua härkää M,G, chilimifua L,G, basmatia M,G, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Ranskalaista sipulikeittoa L,G ja juustoleipäsiä"
           ],
@@ -961,7 +961,7 @@
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Pinsa Pop Up: Pinsa pepperoni L, Pinsa salmon L ja Pinsa tomaatilla ja mozzarellalla"
+                "Pinsa Pop Up: Pinsa pepperoni L, Pinsa salmon"
               ]
             },
             {
@@ -1050,7 +1050,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1165,7 +1165,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1329,7 +1329,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1375,7 +1375,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1567,7 +1567,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1692,7 +1692,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1748,7 +1748,6 @@
             "Lihapullat BBQ-kermakastikkeella",
             "– steakhouse-maustetut paahdetut perunat",
             "Broileria Tikka masala",
-            "– valkosipulinaanleipää",
             "Samettinen kukkakaalisosekeitto",
             "Kahvin kanssa ananas-kookosmurupiirakkaa"
           ]
@@ -1774,7 +1773,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1952,8 +1951,6 @@
             "Luomutäysjyväpastaa",
             "Peruna-purjososekeittoa ja persiljaa",
             "Katkarapuja",
-            "Chilimaustettua possupataa",
-            "Tummaa riisiä",
             "Rapeaa yrttikalaa",
             "Tzatsiki-jogurttia",
             "Tummaa riisiä",
@@ -1984,13 +1981,6 @@
               "nimi": "So Fresh",
               "ruoat": [
                 "Katkarapuja"
-              ]
-            },
-            {
-              "nimi": "So Good",
-              "ruoat": [
-                "Chilimaustettua possupataa",
-                "Tummaa riisiä"
               ]
             },
             {
@@ -2204,7 +2194,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2254,7 +2244,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2323,7 +2313,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-28T08:55:44.964744+00:00"
+      "paivitetty": "2026-10-29T01:55:41.578656+00:00"
     }
   ]
 }
