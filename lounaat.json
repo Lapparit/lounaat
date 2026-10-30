@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-29T08:50:29.455298+00:00",
+  "paivitetty": "2026-10-30T02:07:01.283870+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -310,7 +310,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Farmi",
@@ -609,7 +609,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -722,7 +722,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -860,7 +860,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -985,26 +985,26 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Hummeri paistettua uunikalaa L,G, paahdettua perunaa M,G ja yrttikasviksia M,G/ Kurpitsa-juusto quiche",
-            "Lihapullat Johanneksen pippurikastikkeella",
             "Possun lehtipihviä maustevoilla, lohkoperunat, kasvissalaattia ja talon dippiä",
             "Paholaisen kanaa, vuohenjuustokreemiä, coleslaw ja lohkoperunat",
+            "Hummeri paistettua uunikalaa L,G, paahdettua perunaa M,G ja yrttikasviksia M,G/ Kurpitsa-juusto quiche",
+            "Lihapullat Johanneksen pippurikastikkeella",
             "Savulohimunakasta L,G, kasvispyöryköitä M,G ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Samettista kurpitsakeittoa ja karamellisoituja kurpitsansiemeniä"
           ],
           "osastot": [
             {
-              "nimi": "Kitchen Buffet",
-              "ruoat": [
-                "Hummeri paistettua uunikalaa L,G, paahdettua perunaa M,G ja yrttikasviksia M,G/ Kurpitsa-juusto quiche",
-                "Lihapullat Johanneksen pippurikastikkeella"
-              ]
-            },
-            {
               "nimi": "Special Grilli",
               "ruoat": [
                 "Possun lehtipihviä maustevoilla, lohkoperunat, kasvissalaattia ja talon dippiä",
                 "Paholaisen kanaa, vuohenjuustokreemiä, coleslaw ja lohkoperunat"
+              ]
+            },
+            {
+              "nimi": "Kitchen Buffet",
+              "ruoat": [
+                "Hummeri paistettua uunikalaa L,G, paahdettua perunaa M,G ja yrttikasviksia M,G/ Kurpitsa-juusto quiche",
+                "Lihapullat Johanneksen pippurikastikkeella"
               ]
             },
             {
@@ -1054,7 +1054,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1169,7 +1169,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1333,7 +1333,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1379,7 +1379,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1506,6 +1506,7 @@
           "ruoat": [
             "Karjalanpaistia M, G sekä Juuresmuusia",
             "Kasvis Lo Mein noodeleita",
+            "Vegaaniset chavre pyörykät taivaallisessa tomaattikastikkeessa",
             "Kahden kalan keitto",
             "Broilerin filettä vuohenjuustokastikkeella ja paahdetulla bataatilla"
           ],
@@ -1514,7 +1515,8 @@
               "nimi": "Buffet",
               "ruoat": [
                 "Karjalanpaistia M, G sekä Juuresmuusia",
-                "Kasvis Lo Mein noodeleita"
+                "Kasvis Lo Mein noodeleita",
+                "Vegaaniset chavre pyörykät taivaallisessa tomaattikastikkeessa"
               ]
             },
             {
@@ -1539,7 +1541,7 @@
             "Kasvis-nachopelti mausteisella papukastikkeella ja cheddar juustolla",
             "Mustajuurikeitto",
             "Karmaisevan herkullinen New york cheesecake",
-            "BBQ ribbsejä, röstiperunoilla ja raikas kaalisalaatti"
+            "Punajuuripihvejä kaurakermaisilla perunoilla ja salsa verdellä"
           ],
           "osastot": [
             {
@@ -1565,13 +1567,13 @@
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "BBQ ribbsejä, röstiperunoilla ja raikas kaalisalaatti"
+                "Punajuuripihvejä kaurakermaisilla perunoilla ja salsa verdellä"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1696,7 +1698,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1777,7 +1779,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2183,7 +2185,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2233,7 +2235,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2302,7 +2304,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-29T08:50:29.455298+00:00"
+      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
     }
   ]
 }
