@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-10-30T02:07:01.283870+00:00",
+  "paivitetty": "2026-10-30T06:19:10.662353+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -310,7 +310,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Farmi",
@@ -505,11 +505,13 @@
             "Makkaramix",
             "Rapeita kalaleikkeitä",
             "Itte tehtyjä punajuuriohukaisia",
+            "Vegaanista lehtikaalimoussakaa",
             "Paistettuja perunoita",
             "Höyrytettyä porkkanaa, parsakaalia ja papuja",
             "Mango-jogurttikastiketta",
             "Puolukkalisäkettä",
             "Itte tehty marjapiirakka",
+            "Itte tehtyä raparperipiirakkaa",
             "Kahviannos, maito ja sokeri",
             "Chilipaahdettua lohta",
             "Avocado-valkosipulipasta",
@@ -524,7 +526,8 @@
               "ruoat": [
                 "Makkaramix",
                 "Rapeita kalaleikkeitä",
-                "Itte tehtyjä punajuuriohukaisia"
+                "Itte tehtyjä punajuuriohukaisia",
+                "Vegaanista lehtikaalimoussakaa"
               ]
             },
             {
@@ -540,6 +543,7 @@
               "nimi": "Jälkiruoaksi",
               "ruoat": [
                 "Itte tehty marjapiirakka",
+                "Itte tehtyä raparperipiirakkaa",
                 "Kahviannos, maito ja sokeri"
               ]
             },
@@ -609,7 +613,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -722,7 +726,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -860,7 +864,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1054,7 +1058,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1169,7 +1173,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1333,7 +1337,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1379,7 +1383,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1573,7 +1577,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1698,7 +1702,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1779,7 +1783,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2185,7 +2189,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2235,7 +2239,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2304,7 +2308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-10-30T02:07:01.283870+00:00"
+      "paivitetty": "2026-10-30T06:19:10.662353+00:00"
     }
   ]
 }
