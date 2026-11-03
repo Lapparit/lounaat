@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-03T03:40:52.760271+00:00",
+  "paivitetty": "2026-11-03T07:09:46.939633+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Farmi",
@@ -327,7 +327,7 @@
             "Paahdettua porkkanaa",
             "Mango-chilimajoneesia",
             "Banaanismoothieta",
-            "Kahviannos, maito ja sokeri",
+            "Kahvi",
             "Smash-burger",
             "Maalaisranskalaisia",
             "Kermaista lohikeittoa",
@@ -355,7 +355,7 @@
               "nimi": "Jälkiruoaksi",
               "ruoat": [
                 "Banaanismoothieta",
-                "Kahviannos, maito ja sokeri"
+                "Kahvi"
               ]
             },
             {
@@ -385,7 +385,7 @@
             "Paahdettuja juureksia",
             "Vaniljakiisseliä",
             "Mansikkahilloa",
-            "Kahviannos, maito ja sokeri",
+            "Kahvi",
             "Lehtipihvi ranskalaisilla",
             "Kanakeittoa thaimaalaisittain",
             "Chimichurri-maustettua possua",
@@ -415,7 +415,7 @@
               "ruoat": [
                 "Vaniljakiisseliä",
                 "Mansikkahilloa",
-                "Kahviannos, maito ja sokeri"
+                "Kahvi"
               ]
             },
             {
@@ -452,7 +452,7 @@
             "Pinaattiriisiä",
             "Yrttisiä neulapapuja",
             "Mokka-kaakaorahkaa",
-            "Kahviannos, maito ja sokeri",
+            "Kahvi",
             "Crispy chicken tostada",
             "Maalaislohkoperunoita",
             "Aurajuustokeittoa",
@@ -482,7 +482,7 @@
               "nimi": "Jälkiruoaksi",
               "ruoat": [
                 "Mokka-kaakaorahkaa",
-                "Kahviannos, maito ja sokeri"
+                "Kahvi"
               ]
             },
             {
@@ -520,7 +520,7 @@
             "Metsäsienikastiketta",
             "Marja-kauramurupaistosta",
             "Vaniljakastiketta",
-            "Kahviannos, maito ja sokeri",
+            "Kahvi",
             "Grillattu kirjolohi",
             "Punajuuririsottoa",
             "Sitruuna-timjami beurre blanc",
@@ -554,7 +554,7 @@
               "ruoat": [
                 "Marja-kauramurupaistosta",
                 "Vaniljakastiketta",
-                "Kahviannos, maito ja sokeri"
+                "Kahvi"
               ]
             },
             {
@@ -595,7 +595,7 @@
             "Aiolia",
             "Puolukkasurvosta",
             "Churrot",
-            "Kahviannos, maito ja sokeri",
+            "Kahvi",
             "Smash-burger",
             "Maalaisranskalaisia"
           ],
@@ -621,7 +621,7 @@
               "nimi": "Jälkiruoaksi",
               "ruoat": [
                 "Churrot",
-                "Kahviannos, maito ja sokeri"
+                "Kahvi"
               ]
             },
             {
@@ -634,7 +634,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -742,7 +742,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -890,7 +890,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1088,7 +1088,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1205,7 +1205,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1371,7 +1371,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1419,7 +1419,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1456,22 +1456,17 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Italia päivä Hertassa",
-            "Pollo alla cacciatora",
-            "Täyteläinen jauheliha Lasagne al forno",
-            "– panzanella salaatti",
+            "Metsästäjän kanapata",
+            "Jauheliha lasagne",
             "Basillikalla höystettyä linssi-juureskeittoa",
-            ": Risotto alla puttanesca",
-            "mansikka-marenkikakkua"
+            "Kasvispihvejä metsästäjän kastikkeella"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Italia päivä Hertassa",
-                "Pollo alla cacciatora",
-                "Täyteläinen jauheliha Lasagne al forno",
-                "– panzanella salaatti"
+                "Metsästäjän kanapata",
+                "Jauheliha lasagne"
               ]
             },
             {
@@ -1481,15 +1476,9 @@
               ]
             },
             {
-              "nimi": "Chef-annos",
+              "nimi": "Vegaaninen keittiöstä",
               "ruoat": [
-                ": Risotto alla puttanesca"
-              ]
-            },
-            {
-              "nimi": "Jälkiruoka",
-              "ruoat": [
-                "mansikka-marenkikakkua"
+                "Kasvispihvejä metsästäjän kastikkeella"
               ]
             }
           ]
@@ -1560,7 +1549,8 @@
             "Wieninleikettä anjoviksella & kapriksilla",
             "Mausteinen härkäpapu stir fry",
             "Juustoinen tomaattikeitto",
-            "BBQ kana pizzaa punasipulilla ja rukolalla"
+            "BBQ kana pizzaa punasipulilla ja rukolalla",
+            "mansikka-marenkikakkua"
           ],
           "osastot": [
             {
@@ -1581,11 +1571,17 @@
               "ruoat": [
                 "BBQ kana pizzaa punasipulilla ja rukolalla"
               ]
+            },
+            {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "mansikka-marenkikakkua"
+              ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1710,7 +1706,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1794,7 +1790,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1888,15 +1884,15 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Paneer Koseli -leipäjuustokastiketta",
+            "Paneer Koseli -leipäjuustokastiketta, kysy vegaaninen vaihtoehto",
             "Tummaa riisiä",
             "Parsakaalisosekeittoa",
-            "Pestomarinoitua mozzarellaa",
+            "Vuohenjuusto",
             "Broileria currykastikkeessa",
             "Tummaa riisiä",
             "Pekoni-juustokuorrutettua uunimakkaraa",
             "Dijon-perunamuusia",
-            "Passionpannacottaa",
+            "Talon mokkapala",
             "Rapeaa kanaa korealaisittain - Chicken Gochujang",
             "Limemajoneesia",
             "Paistettua nuudelia, kasviksia ja pähkinää",
@@ -1907,7 +1903,7 @@
             {
               "nimi": "So Green",
               "ruoat": [
-                "Paneer Koseli -leipäjuustokastiketta",
+                "Paneer Koseli -leipäjuustokastiketta, kysy vegaaninen vaihtoehto",
                 "Tummaa riisiä"
               ]
             },
@@ -1920,7 +1916,7 @@
             {
               "nimi": "So Fresh",
               "ruoat": [
-                "Pestomarinoitua mozzarellaa"
+                "Vuohenjuusto"
               ]
             },
             {
@@ -1940,7 +1936,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Passionpannacottaa"
+                "Talon mokkapala"
               ]
             },
             {
@@ -2235,7 +2231,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2285,7 +2281,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2362,7 +2358,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-03T03:40:52.760271+00:00"
+      "paivitetty": "2026-11-03T07:09:46.939633+00:00"
     }
   ]
 }
