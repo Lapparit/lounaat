@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-04T02:40:23.320296+00:00",
+  "paivitetty": "2026-11-04T06:55:17.771184+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Farmi",
@@ -634,7 +634,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -766,7 +766,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -914,7 +914,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1112,7 +1112,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1229,7 +1229,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1395,7 +1395,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1443,7 +1443,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1512,8 +1512,8 @@
           "ruoat": [
             "Kiinalaista Hapanimelä possunniskaa",
             "Thai vihreää currya tofusta",
-            "Kaurakermainen fenkolikeitto",
-            "Broileri shawarma pita raikkaalla jugurtti kastikkeella ja mausteisella salsalla"
+            "Tuorehernesosekeitto",
+            "Broileri shawarma pita raikkaalla jugurtti kastikkeella ja mausteisella salsall & ranskanperunoilla"
           ],
           "osastot": [
             {
@@ -1526,13 +1526,13 @@
             {
               "nimi": "Keitto",
               "ruoat": [
-                "Kaurakermainen fenkolikeitto"
+                "Tuorehernesosekeitto"
               ]
             },
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "Broileri shawarma pita raikkaalla jugurtti kastikkeella ja mausteisella salsalla"
+                "Broileri shawarma pita raikkaalla jugurtti kastikkeella ja mausteisella salsall & ranskanperunoilla"
               ]
             }
           ]
@@ -1605,7 +1605,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1730,7 +1730,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1814,7 +1814,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1989,9 +1989,9 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Intialaista sieni-kookoscurrya",
-            "Tummaa riisiä",
+            "Intialaista mausteriisiä",
             "Papu-kasviskeittoa",
-            "Pestomarinoitua mozzarellaa",
+            "Halloumijuustoa",
             "Broileria tandoori-kookoskastikkeessa",
             "Intialaista mausteriisiä",
             "Seitifileetä intialaisittain",
@@ -2009,7 +2009,7 @@
               "nimi": "So Green",
               "ruoat": [
                 "Intialaista sieni-kookoscurrya",
-                "Tummaa riisiä"
+                "Intialaista mausteriisiä"
               ]
             },
             {
@@ -2021,7 +2021,7 @@
             {
               "nimi": "So Fresh",
               "ruoat": [
-                "Pestomarinoitua mozzarellaa"
+                "Halloumijuustoa"
               ]
             },
             {
@@ -2255,7 +2255,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2305,7 +2305,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2382,7 +2382,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T02:40:23.320296+00:00"
+      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
     }
   ]
 }
