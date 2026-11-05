@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-04T06:55:17.771184+00:00",
+  "paivitetty": "2026-11-05T02:43:45.090534+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Farmi",
@@ -448,10 +448,12 @@
             "Dijon-bearnaisekalaa",
             "Chili-kaakaokanaa",
             "Itte tehtyjä punajuuri-halloumipihvejä",
+            "Antellin lasagnea",
             "Maalaislohkoperunoita",
             "Pinaattiriisiä",
             "Yrttisiä neulapapuja",
             "Mokka-kaakaorahkaa",
+            "Vaniljakiisseliä",
             "Kahvi",
             "Crispy chicken tostada",
             "Maalaislohkoperunoita",
@@ -467,7 +469,8 @@
               "ruoat": [
                 "Dijon-bearnaisekalaa",
                 "Chili-kaakaokanaa",
-                "Itte tehtyjä punajuuri-halloumipihvejä"
+                "Itte tehtyjä punajuuri-halloumipihvejä",
+                "Antellin lasagnea"
               ]
             },
             {
@@ -482,6 +485,7 @@
               "nimi": "Jälkiruoaksi",
               "ruoat": [
                 "Mokka-kaakaorahkaa",
+                "Vaniljakiisseliä",
                 "Kahvi"
               ]
             },
@@ -634,7 +638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -719,9 +723,33 @@
             "Italia-teema! 2/2",
             "Italialainen kasviskeitto",
             "Broileria sitruunaisessa limonellokastikkeessa",
-            "– Pastaa",
+            "– Riisi",
             "Mausteista pepperonilasagnea",
-            "Melanzane – munakoiso-kasvisvuoka"
+            "Melanzane – munakoiso-kasvisvuoka",
+            "Mozzarellaa",
+            "Marinoituja kikherneitä",
+            "Keitettyä kananmunaa"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Italia-teema! 2/2",
+                "Italialainen kasviskeitto",
+                "Broileria sitruunaisessa limonellokastikkeessa",
+                "– Riisi",
+                "Mausteista pepperonilasagnea",
+                "Melanzane – munakoiso-kasvisvuoka"
+              ]
+            },
+            {
+              "nimi": "Proteiinit punnittavaan salaattiin",
+              "ruoat": [
+                "Mozzarellaa",
+                "Marinoituja kikherneitä",
+                "Keitettyä kananmunaa"
+              ]
+            }
           ]
         },
         {
@@ -766,7 +794,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -838,8 +866,8 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Bellmanninpannu pyttipannua ja paistettuja kananmunia",
-            "Talon omia halloumi-kesäkurpitsapihvejä, kurkkujogurttia ja syysjuureksia",
+            "Bellmanninpannua ja paistettuja kananmunia",
+            "Talon omia halloumi-kesäkurpitsapihvejä, Tzatzikia L, G ja lämpimiä kasviksia",
             "Bacon burger, bataattiranet & chilimayo",
             "Kermaista savulohikeittoa"
           ],
@@ -847,8 +875,8 @@
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Bellmanninpannu pyttipannua ja paistettuja kananmunia",
-                "Talon omia halloumi-kesäkurpitsapihvejä, kurkkujogurttia ja syysjuureksia"
+                "Bellmanninpannua ja paistettuja kananmunia",
+                "Talon omia halloumi-kesäkurpitsapihvejä, Tzatzikia L, G ja lämpimiä kasviksia"
               ]
             },
             {
@@ -914,7 +942,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1005,10 +1033,10 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Johanneksen lihapullia pippurikastikkeessa",
-            "Itse tehtyjä kylmäsavulohi-haukimurekepihvejä, chilimaustettuja perunoita, fenkoli-appelsiinisalaattia",
-            "Kreikkalaista juustoista munakoiso-linssimoussakaa ja minttujogurttia",
+            "Itse tehtyjä kylmäsavulohi-haukimurekepihvejä L, chilimaustettuja perunoita M,G, fenkoli-appelsiinisalaattia",
+            "Kreikkalaista juustoista munakoiso-linssimoussakaa G ja minttujogurttia",
             "Hermia goes baba foods!: Matbucha; Kanaa ja maustettua paprika-tomaattikastiketta, ohra tabouleh, pitaleipää, maustettuja hummuksia, marinoituja oliiveja, hummuslasagnea, mausteisia kasviksia ja perunaa",
-            "Satay härkää, kasvis-dumplingejä ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
+            "Satay härkää M, falafel M,G ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Tomaattinen kookos-linssikeitto"
           ],
           "osastot": [
@@ -1016,8 +1044,8 @@
               "nimi": "Kitchen Buffet",
               "ruoat": [
                 "Johanneksen lihapullia pippurikastikkeessa",
-                "Itse tehtyjä kylmäsavulohi-haukimurekepihvejä, chilimaustettuja perunoita, fenkoli-appelsiinisalaattia",
-                "Kreikkalaista juustoista munakoiso-linssimoussakaa ja minttujogurttia"
+                "Itse tehtyjä kylmäsavulohi-haukimurekepihvejä L, chilimaustettuja perunoita M,G, fenkoli-appelsiinisalaattia",
+                "Kreikkalaista juustoista munakoiso-linssimoussakaa G ja minttujogurttia"
               ]
             },
             {
@@ -1029,7 +1057,7 @@
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Satay härkää, kasvis-dumplingejä ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
+                "Satay härkää M, falafel M,G ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -1112,7 +1140,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1229,7 +1257,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1395,7 +1423,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1443,7 +1471,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1512,8 +1540,7 @@
           "ruoat": [
             "Kiinalaista Hapanimelä possunniskaa",
             "Thai vihreää currya tofusta",
-            "Tuorehernesosekeitto",
-            "Broileri shawarma pita raikkaalla jugurtti kastikkeella ja mausteisella salsall & ranskanperunoilla"
+            "Tuorehernesosekeitto"
           ],
           "osastot": [
             {
@@ -1527,12 +1554,6 @@
               "nimi": "Keitto",
               "ruoat": [
                 "Tuorehernesosekeitto"
-              ]
-            },
-            {
-              "nimi": "Chef-annos",
-              "ruoat": [
-                "Broileri shawarma pita raikkaalla jugurtti kastikkeella ja mausteisella salsall & ranskanperunoilla"
               ]
             }
           ]
@@ -1605,7 +1626,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1730,7 +1751,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1787,7 +1808,7 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Puna-ahventa sitruuna-smetanakastikkeessa",
+            "Rapeaa kalaa ja sitruunamajoneesia",
             "– perinteinen perunamuusi L,G ja höyryperunat",
             "Kiinalainen mustapippurikana",
             "– basmatiriisiä",
@@ -1814,7 +1835,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1989,13 +2010,13 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Intialaista sieni-kookoscurrya",
-            "Intialaista mausteriisiä",
-            "Papu-kasviskeittoa",
+            "Riisiä",
+            "Papu-kasviskeittoa ja turkkilaista jogurttia",
             "Halloumijuustoa",
-            "Broileria tandoori-kookoskastikkeessa",
-            "Intialaista mausteriisiä",
+            "Broileria currykastikkeessa",
+            "Riisiä",
             "Seitifileetä intialaisittain",
-            "Paahdettuja curry-valkosipuliperunoita",
+            "Paahdettuja perunoita",
             "Mangolassia",
             "Porsaan grillipihvi",
             "Tummaa piparjuurikastiketta",
@@ -2006,16 +2027,16 @@
           ],
           "osastot": [
             {
-              "nimi": "So Green",
+              "nimi": "So Vegan",
               "ruoat": [
                 "Intialaista sieni-kookoscurrya",
-                "Intialaista mausteriisiä"
+                "Riisiä"
               ]
             },
             {
               "nimi": "Keitto",
               "ruoat": [
-                "Papu-kasviskeittoa"
+                "Papu-kasviskeittoa ja turkkilaista jogurttia"
               ]
             },
             {
@@ -2027,15 +2048,15 @@
             {
               "nimi": "So Good",
               "ruoat": [
-                "Broileria tandoori-kookoskastikkeessa",
-                "Intialaista mausteriisiä"
+                "Broileria currykastikkeessa",
+                "Riisiä"
               ]
             },
             {
               "nimi": "So Hungry",
               "ruoat": [
                 "Seitifileetä intialaisittain",
-                "Paahdettuja curry-valkosipuliperunoita"
+                "Paahdettuja perunoita"
               ]
             },
             {
@@ -2255,7 +2276,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2305,7 +2326,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2382,7 +2403,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-04T06:55:17.771184+00:00"
+      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
     }
   ]
 }
