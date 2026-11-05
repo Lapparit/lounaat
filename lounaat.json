@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-05T02:43:45.090534+00:00",
+  "paivitetty": "2026-11-05T07:16:00.963090+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -272,7 +272,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Paneroitua broileria & hunaja-sinappidippi (suomalaista broileria)",
+            "Paneroitu porsaan fileeleike & hunaja-sinappidippi (suomalaista possua)",
             "Juustoista uunimakkaraa (suomalaista possua)",
             "Perunamuusia",
             "Salaattibuffet",
@@ -282,7 +282,7 @@
             {
               "nimi": "Lounasbuffet",
               "ruoat": [
-                "Paneroitua broileria & hunaja-sinappidippi (suomalaista broileria)",
+                "Paneroitu porsaan fileeleike & hunaja-sinappidippi (suomalaista possua)",
                 "Juustoista uunimakkaraa (suomalaista possua)",
                 "Perunamuusia",
                 "Salaattibuffet"
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Farmi",
@@ -638,7 +638,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -761,7 +761,10 @@
             "Bellmanin pyttipannua",
             "– Paahdetut satokauden kasvikset",
             "Kasvis-nuudeliwokkia härkäpavulla",
-            "pannukakkua, kermavaahtoa ja hilloa"
+            "pannukakkua, kermavaahtoa ja hilloa",
+            "Leipäjuustoa",
+            "Marinoitua broileria",
+            "Texmex härkistä"
           ],
           "osastot": [
             {
@@ -780,6 +783,14 @@
               "ruoat": [
                 "pannukakkua, kermavaahtoa ja hilloa"
               ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Leipäjuustoa",
+                "Marinoitua broileria",
+                "Texmex härkistä"
+              ]
             }
           ]
         },
@@ -794,7 +805,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -942,7 +953,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1140,7 +1151,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1257,7 +1268,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1423,7 +1434,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1471,7 +1482,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1626,7 +1637,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1751,7 +1762,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1835,7 +1846,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2091,9 +2102,9 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kasvisbolognese-pastavuokaa",
+            "Kasvisbolognese-pastavuokaa (gluteeniton vaihtoehto kasvisbolognesekastike ja riisi)",
             "Maissikeittoa",
-            "Pestomarinoitua mozzarellaa",
+            "Halloumijuustoa",
             "Jauheliha-pastavuokaa",
             "Tandoorikanaa jogurttikastikkeessa",
             "Tummaa riisiä",
@@ -2109,7 +2120,7 @@
             {
               "nimi": "So Vegan",
               "ruoat": [
-                "Kasvisbolognese-pastavuokaa"
+                "Kasvisbolognese-pastavuokaa (gluteeniton vaihtoehto kasvisbolognesekastike ja riisi)"
               ]
             },
             {
@@ -2121,7 +2132,7 @@
             {
               "nimi": "So Fresh",
               "ruoat": [
-                "Pestomarinoitua mozzarellaa"
+                "Halloumijuustoa"
               ]
             },
             {
@@ -2276,7 +2287,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2326,7 +2337,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2403,7 +2414,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T02:43:45.090534+00:00"
+      "paivitetty": "2026-11-05T07:16:00.963090+00:00"
     }
   ]
 }
