@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-06T07:15:51.587095+00:00",
+  "paivitetty": "2026-11-06T09:46:09.048571+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Farmi",
@@ -802,15 +802,36 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Borssikeittoa",
-            "Jauhelihatortillaa",
+            "Borssikeittoa vegenakilla",
+            "Jauhelihatortillaa L,sipuli – saatavana gluteeniton vaihtoehto!",
             "– Paistettua riisiä",
-            "– Paahdetut satokauden kasvikset",
-            "Härkis nachovuoka"
+            "– Paahdetut kasvikset",
+            "Härkis nachovuoka",
+            "Leipäjuustoa",
+            "Texmex härkistä"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Borssikeittoa vegenakilla",
+                "Jauhelihatortillaa L,sipuli – saatavana gluteeniton vaihtoehto!",
+                "– Paistettua riisiä",
+                "– Paahdetut kasvikset",
+                "Härkis nachovuoka"
+              ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Leipäjuustoa",
+                "Texmex härkistä"
+              ]
+            }
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -958,7 +979,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1124,25 +1145,25 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Tortilla perjantai!: chilinautaa, tacos al pastor, paahdettua kurpitsaa ja fetaa, mexican salsaa, cheddarkastiketta, lime-maissia, tortillalettuja, kermaviiliä, avokadosalsaa",
-            "Johanneksen lihapullat ja pikkuperunat",
-            "Pizza perjantai: salami-ananas-aurajuusto ja mozzarella-tomaatti-pesto",
-            "Maalaissalaattia halloumilla ja BBQ kanalla",
+            "Tortilla perjantai!: chilinautaa L,G paahdettua kurpitsaa ja fetaa G, mexican salsaa M,G, cheddarkastiketta L,G, lime-maissia M,G, tortillalettuja M, kermaviiliä L,G, limeavokadoa",
+            "Johanneksen lihapullat L, mexican riisiä",
+            "Pizza perjantai: salami-ananas-aurajuusto L ja mozzarella-tomaatti-pesto",
+            "Maalaissalaattia halloumilla G ja BBQ kanalla",
             "Vuohenjuustolla maustettua kasviskeittoa"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Tortilla perjantai!: chilinautaa, tacos al pastor, paahdettua kurpitsaa ja fetaa, mexican salsaa, cheddarkastiketta, lime-maissia, tortillalettuja, kermaviiliä, avokadosalsaa",
-                "Johanneksen lihapullat ja pikkuperunat"
+                "Tortilla perjantai!: chilinautaa L,G paahdettua kurpitsaa ja fetaa G, mexican salsaa M,G, cheddarkastiketta L,G, lime-maissia M,G, tortillalettuja M, kermaviiliä L,G, limeavokadoa",
+                "Johanneksen lihapullat L, mexican riisiä"
               ]
             },
             {
               "nimi": "Special Grilli",
               "ruoat": [
-                "Pizza perjantai: salami-ananas-aurajuusto ja mozzarella-tomaatti-pesto",
-                "Maalaissalaattia halloumilla ja BBQ kanalla"
+                "Pizza perjantai: salami-ananas-aurajuusto L ja mozzarella-tomaatti-pesto",
+                "Maalaissalaattia halloumilla G ja BBQ kanalla"
               ]
             },
             {
@@ -1154,7 +1175,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1271,7 +1292,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1437,7 +1458,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1485,7 +1506,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1640,7 +1661,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1765,7 +1786,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1851,7 +1872,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2292,7 +2313,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2342,7 +2363,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2419,7 +2440,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-06T07:15:51.587095+00:00"
+      "paivitetty": "2026-11-06T09:46:09.048571+00:00"
     }
   ]
 }
