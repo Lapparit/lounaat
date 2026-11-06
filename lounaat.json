@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-05T09:46:56.922996+00:00",
+  "paivitetty": "2026-11-06T02:46:45.747726+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -148,7 +148,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -308,7 +308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Farmi",
@@ -638,6 +638,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "yhdellä päivällä 21 riviä (yli 20)"
+      ],
+      "rikki_alkaen": "2026-11-06T02:46:45.747726+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-11-05T09:46:56.922996+00:00"
     },
     {
@@ -805,7 +810,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -953,7 +958,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1149,7 +1154,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1266,7 +1271,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1432,7 +1437,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1480,7 +1485,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1635,7 +1640,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1760,7 +1765,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1838,13 +1843,15 @@
           "paiva": "Perjantai",
           "ruoat": [
             "Kananpojan rapeat boneless wingsit medium-kastikkeella",
+            "– sinihomejuustokermaviiliä",
+            "– mango-chiliriisiä ja paahdettuja punajuuria",
             "Tuhti kinkku-pekonipastavuoka",
             "Lehtikaalikeitto ja keitetyt kananmunat",
             "Kahvin kanssa banoffeerahkaa"
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2285,7 +2292,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2335,7 +2342,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2412,7 +2419,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-05T09:46:56.922996+00:00"
+      "paivitetty": "2026-11-06T02:46:45.747726+00:00"
     }
   ]
 }
