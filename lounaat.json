@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-09T07:03:57.042784+00:00",
+  "paivitetty": "2026-11-09T10:12:02.599163+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -307,7 +307,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Farmi",
@@ -627,7 +627,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -641,9 +641,9 @@
           "ruoat": [
             "Juustoista bataatti-juureskeittoa",
             "Paneroitua kananpojan paistileikettä",
-            "– Savuchilimajoneesi",
+            "– Savuchilidippi",
             "Puna-ahventa hollandaisekastikkeessa",
-            "– Paahdetut satokauden kasvikset",
+            "– Paahdetut kasvikset",
             "– Keitetyt perunat",
             "Säkylän kasvispyörykkä",
             "Leipäjuustoa",
@@ -656,9 +656,9 @@
               "ruoat": [
                 "Juustoista bataatti-juureskeittoa",
                 "Paneroitua kananpojan paistileikettä",
-                "– Savuchilimajoneesi",
+                "– Savuchilidippi",
                 "Puna-ahventa hollandaisekastikkeessa",
-                "– Paahdetut satokauden kasvikset",
+                "– Paahdetut kasvikset",
                 "– Keitetyt perunat",
                 "Säkylän kasvispyörykkä"
               ]
@@ -717,7 +717,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -729,16 +729,16 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Voikanaa, basmatiriisiä, kurkkujogurttia",
-            "Italialaisia kasvispullia yrtti-tomaattikastikkeessa, mausteisia porkkanoita",
+            "Voikanaa L,G, basmatiriisiä M,G, kurkkujogurttia",
+            "Italialaisia kasvispullia yrtti-tomaattikastikkeessa M,G, mausteisia porkkanoita",
             "Uunifetapastaa sekä rucolaa ja pinaattia"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Voikanaa, basmatiriisiä, kurkkujogurttia",
-                "Italialaisia kasvispullia yrtti-tomaattikastikkeessa, mausteisia porkkanoita"
+                "Voikanaa L,G, basmatiriisiä M,G, kurkkujogurttia",
+                "Italialaisia kasvispullia yrtti-tomaattikastikkeessa M,G, mausteisia porkkanoita"
               ]
             },
             {
@@ -849,7 +849,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -861,21 +861,21 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Pitkään haudutettua syksyistä häränposkipataa ja pilahviriisiä",
+            "Pitkään haudutettua syksyistä häränposkipataa M,G ja pilahviriisiä",
             "Lihapullia Johanneksen kermakastikkeella L, uunipaahdettuja perunoita",
-            "Kikherne-kasvistaginea L, couscousia, herneitä ja tomaattia",
+            "Kikherne-kasvistaginea",
             "Chicken naanbread, savuisaa kanaa, tzatzikia ja ranskalaisia",
             "Hermian oma possuleike,rapeita sipulirenkaita, maalaisranskalaisia, dippiä ja hottia ananassalsaa",
-            "Teriyaki possua M,G, pankojauholla paneroituja tofupihvejä ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
+            "Teriyaki possua M, pankojauholla paneroituja tofupihvejä M ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Kookos-bataattisosekeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Pitkään haudutettua syksyistä häränposkipataa ja pilahviriisiä",
+                "Pitkään haudutettua syksyistä häränposkipataa M,G ja pilahviriisiä",
                 "Lihapullia Johanneksen kermakastikkeella L, uunipaahdettuja perunoita",
-                "Kikherne-kasvistaginea L, couscousia, herneitä ja tomaattia"
+                "Kikherne-kasvistaginea"
               ]
             },
             {
@@ -888,7 +888,7 @@
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Teriyaki possua M,G, pankojauholla paneroituja tofupihvejä ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
+                "Teriyaki possua M, pankojauholla paneroituja tofupihvejä M ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -1047,7 +1047,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1162,7 +1162,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1321,7 +1321,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1369,7 +1369,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1381,8 +1381,8 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Klassinen Kievin kana yrttisellä valkosipuli-voi täytteellä",
-            "Välimerellinen halloumi-kikhernepata",
+            "Klassinen Kievin kana yrtti-voi täytteellä",
+            "Välimerellinen halloumi-kikhernepata L, G, KASVIS (VEG ruoka keittiöstä sis. soija)",
             "Samettinen basilika-tomaatti keitto",
             "Mureaa häränrintaa punaviinikastikkeella, lohkoperunoilla ja kasviksilla"
           ],
@@ -1390,8 +1390,8 @@
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Klassinen Kievin kana yrttisellä valkosipuli-voi täytteellä",
-                "Välimerellinen halloumi-kikhernepata"
+                "Klassinen Kievin kana yrtti-voi täytteellä",
+                "Välimerellinen halloumi-kikhernepata L, G, KASVIS (VEG ruoka keittiöstä sis. soija)"
               ]
             },
             {
@@ -1543,7 +1543,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1668,7 +1668,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1751,7 +1751,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2204,7 +2204,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2255,7 +2255,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2324,7 +2324,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-09T07:03:57.042784+00:00"
+      "paivitetty": "2026-11-09T10:12:02.599163+00:00"
     }
   ]
 }
