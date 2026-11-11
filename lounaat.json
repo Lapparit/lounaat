@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-11T06:59:09.836502+00:00",
+  "paivitetty": "2026-11-11T09:47:10.280501+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -307,7 +307,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Farmi",
@@ -629,7 +629,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -719,7 +719,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -851,7 +851,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -941,18 +941,18 @@
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Red curry-kookoskanaa M,G ja wokattuja kasviksia M,G, basmatia",
+            "Red curry-kookoskanaa M,G, kasviksia M,G, riisiä",
             "Lihapullia Johanneksen pippurikastikkeella L ja paahdettuja perunoita",
             "Talon omatekemiä pinaattilettuja L ja puolukkaa",
             "Burger bar: Naudanliha, kana ja kesäkurpitsa-halloumipihvejä, cheddarkastiketta, BBQ-kastiketta, valkosipuli-, ja srirachamajoneesia, salaattia, tomaattia, suolakurkkuja, jalapenoja sekä ranskiksia",
-            "Teriyaki possua M,G, pankojauholla paneroituja tofupihvejä ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
+            "Teriyaki possua M, pankojauholla paneroituja tofupihvejä M ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Jeeralla maustettua porkkanakeittoa"
           ],
           "osastot": [
             {
               "nimi": "Kitchen Buffet",
               "ruoat": [
-                "Red curry-kookoskanaa M,G ja wokattuja kasviksia M,G, basmatia",
+                "Red curry-kookoskanaa M,G, kasviksia M,G, riisiä",
                 "Lihapullia Johanneksen pippurikastikkeella L ja paahdettuja perunoita",
                 "Talon omatekemiä pinaattilettuja L ja puolukkaa"
               ]
@@ -966,7 +966,7 @@
             {
               "nimi": "Bowl Factory",
               "ruoat": [
-                "Teriyaki possua M,G, pankojauholla paneroituja tofupihvejä ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
+                "Teriyaki possua M, pankojauholla paneroituja tofupihvejä M ja nuudelia M, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria"
               ]
             },
             {
@@ -1049,7 +1049,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1164,7 +1164,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1323,7 +1323,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1371,7 +1371,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1452,8 +1452,7 @@
           "ruoat": [
             "Mausteista naudanlihakebabia ranskanperunoilla",
             "Välimeren kasvispihvejä raikaan yrttisen dipin kera",
-            "Lempeän tulinen kasvissosekeitto",
-            "Pariloitu lohta, parmesaani risottoa sekä raikas yrttiöljy"
+            "Lempeän tulinen kasvissosekeitto"
           ],
           "osastot": [
             {
@@ -1467,12 +1466,6 @@
               "nimi": "Keitto",
               "ruoat": [
                 "Lempeän tulinen kasvissosekeitto"
-              ]
-            },
-            {
-              "nimi": "Chef-annos",
-              "ruoat": [
-                "Pariloitu lohta, parmesaani risottoa sekä raikas yrttiöljy"
               ]
             }
           ]
@@ -1545,7 +1538,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1670,7 +1663,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1753,7 +1746,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2159,7 +2152,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2210,7 +2203,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2279,7 +2272,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T06:59:09.836502+00:00"
+      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
     }
   ]
 }
