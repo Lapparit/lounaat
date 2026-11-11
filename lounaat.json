@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-10T10:17:12.202680+00:00",
+  "paivitetty": "2026-11-11T02:12:09.655772+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -307,7 +307,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Farmi",
@@ -382,6 +382,7 @@
             "Marry me chicken – tomaattista tuorejuustokanaa",
             "Mausteista porsaanniskaa",
             "Herkkutatti-hasselpähkinärisottoa",
+            "Pyttipannua",
             "Villiriisiä",
             "Perunamuusia",
             "Paahdettua porkkanaa ja ruusukaalia",
@@ -402,7 +403,8 @@
               "ruoat": [
                 "Marry me chicken – tomaattista tuorejuustokanaa",
                 "Mausteista porsaanniskaa",
-                "Herkkutatti-hasselpähkinärisottoa"
+                "Herkkutatti-hasselpähkinärisottoa",
+                "Pyttipannua"
               ]
             },
             {
@@ -627,7 +629,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -717,7 +719,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -849,7 +851,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1047,7 +1049,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1162,7 +1164,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1321,7 +1323,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1369,7 +1371,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1543,7 +1545,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1668,7 +1670,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1751,7 +1753,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1848,12 +1850,8 @@
             "(Gluteeniton vaihtoehto Porkkana-kvinoapyörykät)",
             "Bataattikeittoa",
             "Salaattijuustoa",
-            "Chili con Carnea jauhelihasta",
-            "Tummaa riisiä",
             "Rapeaa seitifilettä",
             "Tartarjogurttia",
-            "Perunamuusia",
-            "Vegaanista suklaakakkua ja vaniljavaahtoa",
             "BBQ Chicken toast",
             "Maalaislohkoperunoita",
             "Chilillä maustettu katkarapusalaatti",
@@ -1881,24 +1879,10 @@
               ]
             },
             {
-              "nimi": "So Hungry",
-              "ruoat": [
-                "Chili con Carnea jauhelihasta",
-                "Tummaa riisiä"
-              ]
-            },
-            {
               "nimi": "So Tasty",
               "ruoat": [
                 "Rapeaa seitifilettä",
-                "Tartarjogurttia",
-                "Perunamuusia"
-              ]
-            },
-            {
-              "nimi": "Jälkiruoka",
-              "ruoat": [
-                "Vegaanista suklaakakkua ja vaniljavaahtoa"
+                "Tartarjogurttia"
               ]
             },
             {
@@ -2204,7 +2188,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2255,7 +2239,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2324,7 +2308,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-10T10:17:12.202680+00:00"
+      "paivitetty": "2026-11-11T02:12:09.655772+00:00"
     }
   ]
 }
