@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-11T09:47:10.280501+00:00",
+  "paivitetty": "2026-11-12T03:17:59.675524+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -307,7 +307,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Farmi",
@@ -454,8 +454,10 @@
             "Texmex-kanaa",
             "Kermaista pestopastaa",
             "Grillattua tofua",
+            "Häränmurekepihvejä",
             "Riisiä",
             "Paahdettuja tandoorikasviksia",
+            "Perunamuusia",
             "Itte tehtyä toscapiirakkaa",
             "Kahvi",
             "Crispy chicken leipä",
@@ -473,14 +475,16 @@
                 "Smetanahärkää",
                 "Texmex-kanaa",
                 "Kermaista pestopastaa",
-                "Grillattua tofua"
+                "Grillattua tofua",
+                "Häränmurekepihvejä"
               ]
             },
             {
               "nimi": "Pääruoan kaveriksi",
               "ruoat": [
                 "Riisiä",
-                "Paahdettuja tandoorikasviksia"
+                "Paahdettuja tandoorikasviksia",
+                "Perunamuusia"
               ]
             },
             {
@@ -629,7 +633,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -719,7 +723,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -851,7 +855,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1049,7 +1053,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1164,7 +1168,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1323,7 +1327,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1371,7 +1375,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1452,7 +1456,8 @@
           "ruoat": [
             "Mausteista naudanlihakebabia ranskanperunoilla",
             "Välimeren kasvispihvejä raikaan yrttisen dipin kera",
-            "Lempeän tulinen kasvissosekeitto"
+            "Lempeän tulinen kasvissosekeitto",
+            "Rapeaa korianteri-lime tursakaa, kasvis-parmesaani risottoa sekä raikas yrttiöljy"
           ],
           "osastot": [
             {
@@ -1466,6 +1471,12 @@
               "nimi": "Keitto",
               "ruoat": [
                 "Lempeän tulinen kasvissosekeitto"
+              ]
+            },
+            {
+              "nimi": "Chef-annos",
+              "ruoat": [
+                "Rapeaa korianteri-lime tursakaa, kasvis-parmesaani risottoa sekä raikas yrttiöljy"
               ]
             }
           ]
@@ -1538,7 +1549,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1663,7 +1674,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1746,7 +1757,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1975,7 +1986,7 @@
             "Paahdettua juustoperunaa",
             "Satokauden kasviksia",
             "Pariloitua vuohenjuustosalaattia",
-            "Spicy tuna focaccia"
+            "Spicy tuna pannuleipä"
           ],
           "osastot": [
             {
@@ -2039,7 +2050,7 @@
             {
               "nimi": "Leipälounas (Break Cafe)",
               "ruoat": [
-                "Spicy tuna focaccia"
+                "Spicy tuna pannuleipä"
               ]
             }
           ]
@@ -2061,7 +2072,7 @@
             "Paahdettua juustoperunaa",
             "Satokauden kasviksia",
             "Pariloitua vuohenjuustosalaattia",
-            "Spicy tuna focaccia"
+            "Spicy tuna pannuleipä"
           ],
           "osastot": [
             {
@@ -2121,7 +2132,7 @@
             {
               "nimi": "Leipälounas (Break Cafe)",
               "ruoat": [
-                "Spicy tuna focaccia"
+                "Spicy tuna pannuleipä"
               ]
             }
           ]
@@ -2152,7 +2163,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2203,7 +2214,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2272,7 +2283,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-11T09:47:10.280501+00:00"
+      "paivitetty": "2026-11-12T03:17:59.675524+00:00"
     }
   ]
 }
