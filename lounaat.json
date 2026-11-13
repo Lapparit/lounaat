@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-12T10:10:39.256047+00:00",
+  "paivitetty": "2026-11-13T02:52:24.400832+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -146,7 +146,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -307,7 +307,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Farmi",
@@ -526,7 +526,9 @@
             "Itte tehdyt bataatti-tahinipihvit",
             "Perunoita",
             "Rakuunaporkkanoita",
+            "Paistettua riisiä",
             "Valkosipulijogurttia",
+            "Hiillostettua kirjolohta",
             "Mustikkasmoothieta",
             "Kahvi",
             "Teriyakilohta",
@@ -551,7 +553,9 @@
               "ruoat": [
                 "Perunoita",
                 "Rakuunaporkkanoita",
-                "Valkosipulijogurttia"
+                "Paistettua riisiä",
+                "Valkosipulijogurttia",
+                "Hiillostettua kirjolohta"
               ]
             },
             {
@@ -633,7 +637,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -754,7 +758,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -884,7 +888,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1082,7 +1086,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1197,7 +1201,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1356,7 +1360,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1404,7 +1408,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1515,27 +1519,22 @@
           "ruoat": [
             "Broileria täyteläisessä pekoni-kermakastikkeessa",
             "Tomaattista tonnikalapastaa",
-            "Paahdettu kukkakaalikeitto",
-            "Juustoburgeri, savuinen majoneesi & ranskanperunat"
+            "Vegaaninen tofupata keittiöstä",
+            "Paahdettu kukkakaalikeitto"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
                 "Broileria täyteläisessä pekoni-kermakastikkeessa",
-                "Tomaattista tonnikalapastaa"
+                "Tomaattista tonnikalapastaa",
+                "Vegaaninen tofupata keittiöstä"
               ]
             },
             {
               "nimi": "Keitto",
               "ruoat": [
                 "Paahdettu kukkakaalikeitto"
-              ]
-            },
-            {
-              "nimi": "Chef-annos",
-              "ruoat": [
-                "Juustoburgeri, savuinen majoneesi & ranskanperunat"
               ]
             }
           ]
@@ -1578,7 +1577,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1703,7 +1702,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1786,7 +1785,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1998,12 +1997,10 @@
           "paiva": "Torstai",
           "ruoat": [
             "Mifua Sweet & Sour, kysy vegaaninen vaihtoehto",
-            "Tummaa riisiä",
             "Pinaattikeittoa",
             "Keitetty kananmuna",
             "Sweet chili katkarapuja",
-            "Broileripataa Sweet & Sour",
-            "Tummaa riisiä",
+            "Kinkku-juustokastiketta",
             "Jauhelihakebakoita",
             "Chili-kermaviilikastiketta",
             "Paahdettua perunaa",
@@ -2021,8 +2018,7 @@
             {
               "nimi": "So Green",
               "ruoat": [
-                "Mifua Sweet & Sour, kysy vegaaninen vaihtoehto",
-                "Tummaa riisiä"
+                "Mifua Sweet & Sour, kysy vegaaninen vaihtoehto"
               ]
             },
             {
@@ -2041,8 +2037,7 @@
             {
               "nimi": "So Good",
               "ruoat": [
-                "Broileripataa Sweet & Sour",
-                "Tummaa riisiä"
+                "Kinkku-juustokastiketta"
               ]
             },
             {
@@ -2192,7 +2187,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2243,7 +2238,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2312,7 +2307,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-12T10:10:39.256047+00:00"
+      "paivitetty": "2026-11-13T02:52:24.400832+00:00"
     }
   ]
 }
