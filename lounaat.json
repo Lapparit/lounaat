@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-16T02:21:39.654225+00:00",
+  "paivitetty": "2026-11-16T07:10:26.092867+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Farmi",
@@ -508,11 +508,11 @@
             "Kahvi",
             "Smash-burger",
             "Lohkoperunoita",
+            "Lastenbuffet",
             "Perinteisiä lihapyöryköitä",
             "Dinosaurus kananugetit",
             "Pizzasliceja",
             "Maalaisranskalaisia",
-            "Talon vihersalaattia",
             "Porkkana ja kurkkutikkuja",
             "jätskipuikko"
           ],
@@ -549,11 +549,11 @@
             {
               "nimi": "Delilounas",
               "ruoat": [
+                "Lastenbuffet",
                 "Perinteisiä lihapyöryköitä",
                 "Dinosaurus kananugetit",
                 "Pizzasliceja",
                 "Maalaisranskalaisia",
-                "Talon vihersalaattia",
                 "Porkkana ja kurkkutikkuja",
                 "jätskipuikko"
               ]
@@ -561,7 +561,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -630,7 +630,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -762,7 +762,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -777,8 +777,6 @@
             "Marry me! kanapastaa",
             "Smetanakuorrutettua uunikalaa, tilli-voiperunaa, maustettua hernettä ja parsakaalia",
             "Paistettua riisiä ja tofua",
-            "Katkarapu smörrebröd",
-            "Ramen-keittoa tofulla tai kanalla",
             "Rapeeta kanaa, tofuröraa ja basmatia M,G, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Tomaatti-vuohenjuustokeittoa"
           ],
@@ -789,13 +787,6 @@
                 "Marry me! kanapastaa",
                 "Smetanakuorrutettua uunikalaa, tilli-voiperunaa, maustettua hernettä ja parsakaalia",
                 "Paistettua riisiä ja tofua"
-              ]
-            },
-            {
-              "nimi": "Special Grilli",
-              "ruoat": [
-                "Katkarapu smörrebröd",
-                "Ramen-keittoa tofulla tai kanalla"
               ]
             },
             {
@@ -938,7 +929,7 @@
             "Pizza perjantai!: Salami-ananas-aurajuustopizza ja mozzarella-paprika-zukkinipizza",
             "Maalaissalaattia grillatulla pestokanalla tai vuohenjuustolla",
             "Tomaatti-kookoskeittoa",
-            "Nalle luppakorvan lihapullia Nipen nauravat nakit Möhköfantin kasvispullia Nuuska Muikkusen kalapuikkoja Ranskalaisia, vihanneksia ja dippejä Jälkiruoaksi jäätelöä"
+            "Lapsi mukaan töihin päivä buffa: Nalle luppakorvan lihapullia Nipen nauravat nakit Möhköfantin kasvispullia Nuuska Muikkusen kalapuikkoja Ranskalaisia, vihanneksia ja dippejä Jälkiruoaksi jäätelöä"
           ],
           "osastot": [
             {
@@ -965,13 +956,13 @@
             {
               "nimi": "Lasten Buffet Alle 8 vuotiaat 1€ / ikävuosi, yli 8 vuotiaan 9€",
               "ruoat": [
-                "Nalle luppakorvan lihapullia Nipen nauravat nakit Möhköfantin kasvispullia Nuuska Muikkusen kalapuikkoja Ranskalaisia, vihanneksia ja dippejä Jälkiruoaksi jäätelöä"
+                "Lapsi mukaan töihin päivä buffa: Nalle luppakorvan lihapullia Nipen nauravat nakit Möhköfantin kasvispullia Nuuska Muikkusen kalapuikkoja Ranskalaisia, vihanneksia ja dippejä Jälkiruoaksi jäätelöä"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1071,7 +1062,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1233,7 +1224,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1280,7 +1271,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1444,7 +1435,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1569,7 +1560,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1606,7 +1597,7 @@
           "paiva": "Maanantai",
           "ruoat": [
             "Valkosipuli-yrttivoilla täytetyt Kievin kanapyörykät",
-            "– ranch-dippi L,G ja Espanjan patatas bravas-perunat",
+            "– ranch-dippi L,G ja Espanjalaiset patatas bravas-perunat",
             "Kimchi-edamamenuudelit",
             "Pekoni-sienikeitto"
           ]
@@ -1616,7 +1607,8 @@
           "ruoat": [
             "Chipotle-omenaglaseeratut possun luuttomat ribsit",
             "– savujuustoperunat",
-            "Juusto-ananaskuorrutetut Mexican-kasvispihvit",
+            "Mexican-kasvispihvit",
+            "– curry-ananasdippi",
             "Purjo-perunasosekeitto"
           ]
         },
@@ -1651,7 +1643,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1667,19 +1659,14 @@
             "Sinappirelish-kastiketta",
             "Paahdettua perunaa",
             "Kukkakaalisosekeittoa",
-            "Lämminsavukirjolohta",
+            "Yrttimarinoitua tofua",
             "Kookoksella maustettua broileria ja nuudelia",
             "Aasialainen kalapihvi",
             "Wasabilla maustettua hernejogurttia",
             "Paahdettua perunaa",
-            "Mustaherukkamoussea",
+            "Mustaherukka-vadelmamoussea",
             "Chicken & Chips",
-            "Broileria Jamaican tapaan - Jerk Chicken",
-            "Chili-mangochutneyta",
-            "Kurkkua",
-            "Tomaattia",
-            "Marinoitua punasipulia",
-            "Amerikan-herne-maissisalaattia",
+            "Jerk Chicken salaattia",
             "Maalaiskinkku-piparjuurimajoneesipatonki"
           ],
           "osastot": [
@@ -1700,7 +1687,7 @@
             {
               "nimi": "So Fresh",
               "ruoat": [
-                "Lämminsavukirjolohta"
+                "Yrttimarinoitua tofua"
               ]
             },
             {
@@ -1720,7 +1707,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Mustaherukkamoussea"
+                "Mustaherukka-vadelmamoussea"
               ]
             },
             {
@@ -1732,12 +1719,7 @@
             {
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
-                "Broileria Jamaican tapaan - Jerk Chicken",
-                "Chili-mangochutneyta",
-                "Kurkkua",
-                "Tomaattia",
-                "Marinoitua punasipulia",
-                "Amerikan-herne-maissisalaattia"
+                "Jerk Chicken salaattia"
               ]
             },
             {
@@ -1760,12 +1742,7 @@
             "Ruotsalaista pyttipannua",
             "Mariannerahkaa",
             "Chicken & Chips",
-            "Broileria Jamaican tapaan - Jerk Chicken",
-            "Chili-mangochutneyta",
-            "Kurkkua",
-            "Tomaattia",
-            "Marinoitua punasipulia",
-            "Amerikan-herne-maissisalaattia",
+            "Jerk Chicken salaattia",
             "Maalaiskinkku-piparjuurimajoneesipatonki"
           ],
           "osastot": [
@@ -1816,12 +1793,7 @@
             {
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
-                "Broileria Jamaican tapaan - Jerk Chicken",
-                "Chili-mangochutneyta",
-                "Kurkkua",
-                "Tomaattia",
-                "Marinoitua punasipulia",
-                "Amerikan-herne-maissisalaattia"
+                "Jerk Chicken salaattia"
               ]
             },
             {
@@ -2112,7 +2084,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2162,7 +2134,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2221,7 +2193,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-16T02:21:39.654225+00:00"
+      "paivitetty": "2026-11-16T07:10:26.092867+00:00"
     }
   ]
 }
