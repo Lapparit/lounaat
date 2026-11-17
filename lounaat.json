@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-17T04:45:11.640341+00:00",
+  "paivitetty": "2026-11-17T08:23:28.882355+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Farmi",
@@ -561,7 +561,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -613,10 +613,35 @@
             "Korealainen kasvis-nuudelikeitto",
             "Perinteinen karjalanpaisti",
             "– Perunamuusia",
-            "Tempurapaneroitua turskaa",
+            "Rapeaa turskaa",
             "– Umamimajoneesia",
             "– Paahdetut kasvikset",
-            "Sitruunarisotto belugalinsseillä"
+            "Sitruunarisotto belugalinsseillä",
+            "Leipäjuustoa",
+            "Paahdettua halloumia",
+            "Bbq-tofua"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Korealainen kasvis-nuudelikeitto",
+                "Perinteinen karjalanpaisti",
+                "– Perunamuusia",
+                "Rapeaa turskaa",
+                "– Umamimajoneesia",
+                "– Paahdetut kasvikset",
+                "Sitruunarisotto belugalinsseillä"
+              ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Leipäjuustoa",
+                "Paahdettua halloumia",
+                "Bbq-tofua"
+              ]
+            }
           ]
         },
         {
@@ -656,7 +681,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -691,17 +716,17 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Kanaa aurinkotomaatti-tuorejuustokastikkeessa, basmatiriisiä",
-            "Västerbotten juustopiirakkaa, lämmintä kasvissalaattia",
+            "Kanaa aurinkotomaatti-tuorejuustokastikkeessa L,G, basmatiriisiä",
+            "Västerbotten juustopiirakkaa L, lämmintä kasvissalaattia",
             "Hermian grillipossua, maissisalaattia ja lohkoperunoita, savupaprika-aiolia",
-            "Kermaista kirjolohikeittoa ja Maalahden limppua, voita ja tuoretta tilliä"
+            "Kermaista kirjolohikeittoa ja Maalahden limppua, voita ja tilliä"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Kanaa aurinkotomaatti-tuorejuustokastikkeessa, basmatiriisiä",
-                "Västerbotten juustopiirakkaa, lämmintä kasvissalaattia"
+                "Kanaa aurinkotomaatti-tuorejuustokastikkeessa L,G, basmatiriisiä",
+                "Västerbotten juustopiirakkaa L, lämmintä kasvissalaattia"
               ]
             },
             {
@@ -713,7 +738,7 @@
             {
               "nimi": "Keitto",
               "ruoat": [
-                "Kermaista kirjolohikeittoa ja Maalahden limppua, voita ja tuoretta tilliä"
+                "Kermaista kirjolohikeittoa ja Maalahden limppua, voita ja tilliä"
               ]
             }
           ]
@@ -788,7 +813,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -975,6 +1000,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "liian pitkä rivi (228 merkkiä): Hermia goes currybar!: Kana korma L,G, Kofta dopiaza M, viha…"
+      ],
+      "rikki_alkaen": "2026-11-17T08:23:28.882355+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-11-17T04:45:11.640341+00:00"
     },
     {
@@ -1075,7 +1105,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1237,7 +1267,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1284,7 +1314,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1450,7 +1480,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1575,7 +1605,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1658,7 +1688,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1751,7 +1781,7 @@
             "Tofua ja herneita mausteisessa kastikkeessa - Tofu Matar Paneer",
             "Tummaa riisiä",
             "Mausteista linssisosekeittoa",
-            "Lämminsavukirjolohta",
+            "Salaattijuustoa",
             "Broileria teriyakikastikkeessa",
             "Tummaa riisiä",
             "Ruotsalaista pyttipannua",
@@ -1777,7 +1807,7 @@
             {
               "nimi": "So Fresh",
               "ruoat": [
-                "Lämminsavukirjolohta"
+                "Salaattijuustoa"
               ]
             },
             {
@@ -2099,7 +2129,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2149,7 +2179,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2208,7 +2238,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T04:45:11.640341+00:00"
+      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
     }
   ]
 }
