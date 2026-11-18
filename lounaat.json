@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-18T03:51:48.405289+00:00",
+  "paivitetty": "2026-11-18T07:54:25.004344+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Farmi",
@@ -565,7 +565,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -652,12 +652,35 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Kermaista palsternakkakeittoa",
-            "Jauhelihapihviä",
-            "– Kolmen pippurin kastike",
+            "Jauhelihapihviä & kolmen pippurin kastike",
             "– Keitetyt perunat",
             "Täyteläinen kana-kirsikkatomaattipasta",
-            "– Paahdetut satokauden kasvikset",
-            "Juustoinen kasvistortillavuoka seitanilla"
+            "– Paahdetut kasvikset",
+            "Juustoinen kasvistortillavuoka seitanilla",
+            "Keitettyä kananmunaa",
+            "Marinoitua broileria",
+            "Sinihomejuustoa"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Kermaista palsternakkakeittoa",
+                "Jauhelihapihviä & kolmen pippurin kastike",
+                "– Keitetyt perunat",
+                "Täyteläinen kana-kirsikkatomaattipasta",
+                "– Paahdetut kasvikset",
+                "Juustoinen kasvistortillavuoka seitanilla"
+              ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Keitettyä kananmunaa",
+                "Marinoitua broileria",
+                "Sinihomejuustoa"
+              ]
+            }
           ]
         },
         {
@@ -685,7 +708,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -817,7 +840,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1109,7 +1132,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1271,6 +1294,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
+      ],
+      "rikki_alkaen": "2026-11-18T07:54:25.004344+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
@@ -1318,6 +1346,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
+      ],
+      "rikki_alkaen": "2026-11-18T07:54:25.004344+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
@@ -1484,7 +1517,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1609,7 +1642,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1669,7 +1702,7 @@
             "Chili con carne",
             "– riisiä",
             "Perinteinen pinaattikeitto ja keitetyt kananmunat",
-            "Kahvin kanssa Orvokin omenapiirakkaa L ja vaniljavaahtoa"
+            "Kahvin kanssa Orvokin omenapiirakkaa M ja vaniljavaahtoa"
           ]
         },
         {
@@ -1692,7 +1725,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1864,7 +1897,6 @@
             "Hillottua puolukkaa",
             "Perunamuusia",
             "Tomaatti-linssikeittoa",
-            "Lämminsavukirjolohta",
             "Tonnikala-pastavuokaa",
             "Juustokuorrutettua uunimakkaraa",
             "Perunamuusia",
@@ -1873,8 +1905,7 @@
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
             "Satokauden kasviksia",
-            "Caesarsalaattia",
-            "Katkarapuja",
+            "Katkarapu-caesarsalaatti",
             "Vönerpannupizzaa, harissaa & rucolaa"
           ],
           "osastot": [
@@ -1890,12 +1921,6 @@
               "nimi": "Keitto",
               "ruoat": [
                 "Tomaatti-linssikeittoa"
-              ]
-            },
-            {
-              "nimi": "So Fresh",
-              "ruoat": [
-                "Lämminsavukirjolohta"
               ]
             },
             {
@@ -1929,8 +1954,7 @@
             {
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
-                "Caesarsalaattia",
-                "Katkarapuja"
+                "Katkarapu-caesarsalaatti"
               ]
             },
             {
@@ -1957,8 +1981,7 @@
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
             "Satokauden kasviksia",
-            "Caesarsalaattia",
-            "Katkarapuja",
+            "Katkarapu-caesarsalaatti",
             "Vönerpannupizzaa, harissaa & rucolaa"
           ],
           "osastot": [
@@ -2013,8 +2036,7 @@
             {
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
-                "Caesarsalaattia",
-                "Katkarapuja"
+                "Katkarapu-caesarsalaatti"
               ]
             },
             {
@@ -2037,13 +2059,12 @@
             "Ruskeaa kastiketta",
             "Perunamuusia",
             "Intialaista jogurttikalaa",
-            "Limeposset",
+            "Mokkapalat (jälkkäri kuuluu lasten ruokailuun)",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
             "Satokauden kasviksia",
-            "Caesarsalaattia",
-            "Katkarapuja",
+            "Katkarapu-caesarsalaatti",
             "Vönerpannupizzaa, harissaa & rucolaa"
           ],
           "osastot": [
@@ -2084,7 +2105,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Limeposset"
+                "Mokkapalat (jälkkäri kuuluu lasten ruokailuun)"
               ]
             },
             {
@@ -2099,8 +2120,7 @@
             {
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
-                "Caesarsalaattia",
-                "Katkarapuja"
+                "Katkarapu-caesarsalaatti"
               ]
             },
             {
@@ -2137,7 +2157,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2187,7 +2207,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2246,6 +2266,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 4)"
+      ],
+      "rikki_alkaen": "2026-11-18T07:54:25.004344+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     }
   ]
