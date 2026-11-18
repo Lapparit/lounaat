@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-17T11:03:09.098737+00:00",
+  "paivitetty": "2026-11-18T03:51:48.405289+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Farmi",
@@ -293,6 +293,8 @@
             "Itte tehtyjä nduja maustettuja jauhelihapihvejä",
             "Bearnaise-kanaa",
             "Kasvis-fetapannua",
+            "Chorizopyöryköitä",
+            "Pankopaneroituja kananfileitä",
             "Perunoita",
             "Riisiä",
             "Paahdettua punajuurta",
@@ -313,7 +315,9 @@
               "ruoat": [
                 "Itte tehtyjä nduja maustettuja jauhelihapihvejä",
                 "Bearnaise-kanaa",
-                "Kasvis-fetapannua"
+                "Kasvis-fetapannua",
+                "Chorizopyöryköitä",
+                "Pankopaneroituja kananfileitä"
               ]
             },
             {
@@ -561,7 +565,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -681,7 +685,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -813,7 +817,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1105,7 +1109,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1267,12 +1271,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-11-17T11:03:09.098737+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1319,12 +1318,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-11-17T11:03:09.098737+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1490,7 +1484,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1615,7 +1609,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1698,7 +1692,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1788,13 +1782,15 @@
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Tofua ja herneita mausteisessa kastikkeessa - Tofu Matar Paneer",
+            "Falafel pihvit",
             "Tummaa riisiä",
             "Mausteista linssisosekeittoa",
             "Salaattijuustoa",
             "Broileria teriyakikastikkeessa",
             "Tummaa riisiä",
-            "Ruotsalaista pyttipannua",
+            "Aasialainen kalapihvi",
+            "Wasabilla maustettua hernejogurttia",
+            "Tummaa riisiä",
             "Mariannerahkaa",
             "Chicken & Chips",
             "Jerk Chicken salaattia",
@@ -1804,7 +1800,7 @@
             {
               "nimi": "So Vegan",
               "ruoat": [
-                "Tofua ja herneita mausteisessa kastikkeessa - Tofu Matar Paneer",
+                "Falafel pihvit",
                 "Tummaa riisiä"
               ]
             },
@@ -1830,7 +1826,9 @@
             {
               "nimi": "So Hungry",
               "ruoat": [
-                "Ruotsalaista pyttipannua"
+                "Aasialainen kalapihvi",
+                "Wasabilla maustettua hernejogurttia",
+                "Tummaa riisiä"
               ]
             },
             {
@@ -1990,7 +1988,7 @@
               ]
             },
             {
-              "nimi": "Lounas",
+              "nimi": "So Tasty",
               "ruoat": [
                 "Rapeita kalapyöryköitä",
                 "Tartarjogurttia",
@@ -2139,7 +2137,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2189,7 +2187,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-17T11:03:09.098737+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2248,12 +2246,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 4)"
-      ],
-      "rikki_alkaen": "2026-11-17T11:03:09.098737+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-17T08:23:28.882355+00:00"
+      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
     }
   ]
 }
