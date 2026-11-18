@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-18T07:54:25.004344+00:00",
+  "paivitetty": "2026-11-18T10:40:41.245106+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Farmi",
@@ -565,7 +565,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -708,7 +708,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -840,7 +840,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1132,7 +1132,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1294,12 +1294,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-11-18T07:54:25.004344+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1346,12 +1341,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-11-18T07:54:25.004344+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1428,7 +1418,7 @@
             "Possunniskaa Baskilaisittain",
             "Gratinoidut kasvispihvit aurinkokuivatulla tomaatilla & ananaksella",
             "täyteläinen punajuuri-porkkanakeitto",
-            "Pariloitu lohi teriyaki bowl, värikkäillä lisukkeilla"
+            "Pariloitu lohi teriyaki bowl värikkäillä lisukkeilla"
           ],
           "osastot": [
             {
@@ -1447,7 +1437,7 @@
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "Pariloitu lohi teriyaki bowl, värikkäillä lisukkeilla"
+                "Pariloitu lohi teriyaki bowl värikkäillä lisukkeilla"
               ]
             }
           ]
@@ -1456,25 +1446,25 @@
           "paiva": "Torstai",
           "ruoat": [
             "Tapolan mustaa makkaraa ja puolukkasurvosta",
-            "Myskikurpitsa-kaalipaistos feta murulla",
-            "Perunamuusia",
-            "Chef`s menu: Paneroitu broileri pihvi burgeri. Paholaisenhillolla, punasipulilla ja ranskanperunoilla",
-            "Hernekeittoa palvikinkulla"
+            "Myskikurpitsa-kaalipaistos fetamurulla",
+            "– perunamuusia",
+            "Chef`s menu: Kanaburgeri paholaisenhillolla, punasipulilla ja ranskanperunoilla",
+            "Hernekeittoa palvikinkulla M, G ja pannukakkua ja hilloa"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
                 "Tapolan mustaa makkaraa ja puolukkasurvosta",
-                "Myskikurpitsa-kaalipaistos feta murulla",
-                "Perunamuusia",
-                "Chef`s menu: Paneroitu broileri pihvi burgeri. Paholaisenhillolla, punasipulilla ja ranskanperunoilla"
+                "Myskikurpitsa-kaalipaistos fetamurulla",
+                "– perunamuusia",
+                "Chef`s menu: Kanaburgeri paholaisenhillolla, punasipulilla ja ranskanperunoilla"
               ]
             },
             {
               "nimi": "Keitto",
               "ruoat": [
-                "Hernekeittoa palvikinkulla"
+                "Hernekeittoa palvikinkulla M, G ja pannukakkua ja hilloa"
               ]
             }
           ]
@@ -1484,9 +1474,9 @@
           "ruoat": [
             "Aromaattista Marrakesh broileria",
             "Juustoinen kahden kalan vuoka",
-            "samettista Juuressosekeittoa",
-            "LASTEN PERJANTAI Lihapulla & nakki kori, kasvistikkuja ja jugurtti dippi",
-            "Lettu buffet, kermavaahtoa, hilloa sekä suklaakastiketta"
+            "Samettista Juuressosekeittoa",
+            "LASTEN PERJANTAI Lihapulla- & nakkikori, kasvistikkuja ja jugurtti dippiä",
+            "Lettubuffet, kermavaahtoa, hilloa sekä suklaakastiketta"
           ],
           "osastot": [
             {
@@ -1499,25 +1489,25 @@
             {
               "nimi": "Keitto",
               "ruoat": [
-                "samettista Juuressosekeittoa"
+                "Samettista Juuressosekeittoa"
               ]
             },
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "LASTEN PERJANTAI Lihapulla & nakki kori, kasvistikkuja ja jugurtti dippi"
+                "LASTEN PERJANTAI Lihapulla- & nakkikori, kasvistikkuja ja jugurtti dippiä"
               ]
             },
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Lettu buffet, kermavaahtoa, hilloa sekä suklaakastiketta"
+                "Lettubuffet, kermavaahtoa, hilloa sekä suklaakastiketta"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1642,7 +1632,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1725,7 +1715,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2157,7 +2147,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2193,7 +2183,7 @@
           "paiva": "Torstai",
           "ruoat": [
             "Siivet",
-            "Jauhelihapihvit",
+            "Lihapullat",
             "Munkkeja"
           ]
         },
@@ -2207,7 +2197,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T07:54:25.004344+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2266,12 +2256,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 4)"
-      ],
-      "rikki_alkaen": "2026-11-18T07:54:25.004344+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-18T03:51:48.405289+00:00"
+      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     }
   ]
 }
