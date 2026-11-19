@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-19T07:48:57.125943+00:00",
+  "paivitetty": "2026-11-19T10:42:31.296256+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Farmi",
@@ -567,7 +567,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -688,12 +688,43 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Perinteistä hernekeittoa palvikinkulla",
+            "Perinteistä hernekeittoa",
             "Paneroitu porsaanleike",
             "– Ananassalsa",
             "Kermainen lohikiusaus",
             "– Paahdetut satokauden kasvikset",
-            "Marry Me Tofu"
+            "Marry Me Tofu",
+            "pannukakkua, kermavaahtoa ja hilloa",
+            "Halloumia",
+            "Marinoitua broileria",
+            "Sinihomejuustoa"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Perinteistä hernekeittoa",
+                "Paneroitu porsaanleike",
+                "– Ananassalsa",
+                "Kermainen lohikiusaus",
+                "– Paahdetut satokauden kasvikset",
+                "Marry Me Tofu"
+              ]
+            },
+            {
+              "nimi": "Jälkiruoka",
+              "ruoat": [
+                "pannukakkua, kermavaahtoa ja hilloa"
+              ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Halloumia",
+                "Marinoitua broileria",
+                "Sinihomejuustoa"
+              ]
+            }
           ]
         },
         {
@@ -710,7 +741,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -842,7 +873,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1134,7 +1165,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1296,7 +1327,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1343,7 +1374,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1502,7 +1533,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1627,7 +1658,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1694,7 +1725,8 @@
           "paiva": "Torstai",
           "ruoat": [
             "Pulled pork burgerit bourbon whiskey BBQ-majoneesilla ja Monterey Jack-juustolla",
-            "Broileria Piri Piri",
+            "– mustapippuriketsuppia",
+            "Broileria Piri Piri M,G HOT!",
             "– jogurttikastike",
             "Itämainen bataattikeitto"
           ]
@@ -1710,7 +1742,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1961,7 +1993,7 @@
             "Tummaa riisiä",
             "Rapeita kalapyöryköitä",
             "Tartarjogurttia",
-            "Paahdettua perunaa",
+            "Tummaa riisiä",
             "Miljonäärileivos karamellimoussella",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
@@ -2002,7 +2034,7 @@
               "ruoat": [
                 "Rapeita kalapyöryköitä",
                 "Tartarjogurttia",
-                "Paahdettua perunaa"
+                "Tummaa riisiä"
               ]
             },
             {
@@ -2160,7 +2192,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2210,7 +2242,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2269,7 +2301,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
+      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
     }
   ]
 }
