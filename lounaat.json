@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-19T03:49:50.783429+00:00",
+  "paivitetty": "2026-11-19T07:48:57.125943+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Farmi",
@@ -567,7 +567,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -710,7 +710,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -798,16 +798,16 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Kievinkanaa, perunamuusia, marinoituja kasviksia ja currymajoneesia",
-            "Falafelit, tahinimaustettuja uunijuureksia sekä jogurttikastiketta",
+            "Kievinkanaa L,G, perunamuusia L,G, marinoituja kasviksia M,G ja currymajoneesia",
+            "Falafelit M,G, jogurttikastiketta",
             "Hermian maalaissalaatti vuohenjuustolla ja rapealla pekonilla"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Kievinkanaa, perunamuusia, marinoituja kasviksia ja currymajoneesia",
-                "Falafelit, tahinimaustettuja uunijuureksia sekä jogurttikastiketta"
+                "Kievinkanaa L,G, perunamuusia L,G, marinoituja kasviksia M,G ja currymajoneesia",
+                "Falafelit M,G, jogurttikastiketta"
               ]
             },
             {
@@ -842,7 +842,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1134,7 +1134,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1296,12 +1296,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-11-19T03:49:50.783429+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1348,12 +1343,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-11-19T03:49:50.783429+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1512,7 +1502,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1637,7 +1627,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1720,7 +1710,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1963,9 +1953,10 @@
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Smetanaista kaalivuokaa",
+            "Smetanaista kaalivuokaa (vegaaninen vaihtoehto falafelpihvit)",
+            "Tummaa riisiä",
             "Linssisosekeittoa",
-            "Lämminsavukirjolohta",
+            "Jerk broileria",
             "Tomaattista kebabkastiketta kasviksilla",
             "Tummaa riisiä",
             "Rapeita kalapyöryköitä",
@@ -1976,14 +1967,15 @@
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
             "Satokauden kasviksia",
-            "Katkarapu-caesarsalaatti",
+            "Katkarapu-caesarsalaattia",
             "Vönerpannupizzaa, harissaa & rucolaa"
           ],
           "osastot": [
             {
               "nimi": "So Green",
               "ruoat": [
-                "Smetanaista kaalivuokaa"
+                "Smetanaista kaalivuokaa (vegaaninen vaihtoehto falafelpihvit)",
+                "Tummaa riisiä"
               ]
             },
             {
@@ -1995,7 +1987,7 @@
             {
               "nimi": "So Fresh",
               "ruoat": [
-                "Lämminsavukirjolohta"
+                "Jerk broileria"
               ]
             },
             {
@@ -2031,7 +2023,7 @@
             {
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
-                "Katkarapu-caesarsalaatti"
+                "Katkarapu-caesarsalaattia"
               ]
             },
             {
@@ -2168,7 +2160,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2218,7 +2210,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2277,12 +2269,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 4)"
-      ],
-      "rikki_alkaen": "2026-11-19T03:49:50.783429+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T07:48:57.125943+00:00"
     }
   ]
 }
