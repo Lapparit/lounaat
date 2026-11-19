@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-18T10:40:41.245106+00:00",
+  "paivitetty": "2026-11-19T03:49:50.783429+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Farmi",
@@ -366,6 +366,7 @@
             "Rapeita kanansiipiä",
             "Cajun-maustettuja grillipihvejä",
             "Härkis-tacopastaa",
+            "Itte tehtyjä nduja maustettuja jauhelihapihvejä",
             "Paistettua riisiä",
             "Uunijuureksia",
             "Grilliperunoita",
@@ -388,7 +389,8 @@
               "ruoat": [
                 "Rapeita kanansiipiä",
                 "Cajun-maustettuja grillipihvejä",
-                "Härkis-tacopastaa"
+                "Härkis-tacopastaa",
+                "Itte tehtyjä nduja maustettuja jauhelihapihvejä"
               ]
             },
             {
@@ -565,7 +567,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -708,7 +710,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -840,7 +842,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1132,7 +1134,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1294,6 +1296,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
+      ],
+      "rikki_alkaen": "2026-11-19T03:49:50.783429+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
@@ -1341,6 +1348,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
+      ],
+      "rikki_alkaen": "2026-11-19T03:49:50.783429+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     },
     {
@@ -1417,8 +1429,7 @@
           "ruoat": [
             "Possunniskaa Baskilaisittain",
             "Gratinoidut kasvispihvit aurinkokuivatulla tomaatilla & ananaksella",
-            "täyteläinen punajuuri-porkkanakeitto",
-            "Pariloitu lohi teriyaki bowl värikkäillä lisukkeilla"
+            "täyteläinen punajuuri-porkkanakeitto"
           ],
           "osastot": [
             {
@@ -1432,12 +1443,6 @@
               "nimi": "Keitto",
               "ruoat": [
                 "täyteläinen punajuuri-porkkanakeitto"
-              ]
-            },
-            {
-              "nimi": "Chef-annos",
-              "ruoat": [
-                "Pariloitu lohi teriyaki bowl värikkäillä lisukkeilla"
               ]
             }
           ]
@@ -1507,7 +1512,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1632,7 +1637,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1715,7 +1720,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1885,11 +1890,11 @@
           "ruoat": [
             "Porkkanaohukaisia",
             "Hillottua puolukkaa",
-            "Perunamuusia",
+            "Paahdettua perunaa",
             "Tomaatti-linssikeittoa",
             "Tonnikala-pastavuokaa",
             "Juustokuorrutettua uunimakkaraa",
-            "Perunamuusia",
+            "Paahdettua perunaa",
             "Suklaamoussea ja paahdettua valkosuklaata",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
@@ -1904,7 +1909,7 @@
               "ruoat": [
                 "Porkkanaohukaisia",
                 "Hillottua puolukkaa",
-                "Perunamuusia"
+                "Paahdettua perunaa"
               ]
             },
             {
@@ -1923,7 +1928,7 @@
               "nimi": "So Tasty",
               "ruoat": [
                 "Juustokuorrutettua uunimakkaraa",
-                "Perunamuusia"
+                "Paahdettua perunaa"
               ]
             },
             {
@@ -1966,7 +1971,7 @@
             "Rapeita kalapyöryköitä",
             "Tartarjogurttia",
             "Paahdettua perunaa",
-            "Vegaanista vaniljakastiketta",
+            "Miljonäärileivos karamellimoussella",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
@@ -2011,7 +2016,7 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Vegaanista vaniljakastiketta"
+                "Miljonäärileivos karamellimoussella"
               ]
             },
             {
@@ -2049,12 +2054,15 @@
             "Ruskeaa kastiketta",
             "Perunamuusia",
             "Intialaista jogurttikalaa",
-            "Mokkapalat (jälkkäri kuuluu lasten ruokailuun)",
+            "Mokkapalat (jälkkäri sisältyy lasten lounaaseen)",
+            "Nugetit ja ranskalaiset",
+            "Nakit ja ranskalaiset",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
             "Satokauden kasviksia",
-            "Katkarapu-caesarsalaatti",
+            "Caesarsalaattia",
+            "Katkarapuja",
             "Vönerpannupizzaa, harissaa & rucolaa"
           ],
           "osastot": [
@@ -2095,7 +2103,19 @@
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Mokkapalat (jälkkäri kuuluu lasten ruokailuun)"
+                "Mokkapalat (jälkkäri sisältyy lasten lounaaseen)"
+              ]
+            },
+            {
+              "nimi": "Pop Up Grill",
+              "ruoat": [
+                "Nugetit ja ranskalaiset"
+              ]
+            },
+            {
+              "nimi": "Pop Up Grill",
+              "ruoat": [
+                "Nakit ja ranskalaiset"
               ]
             },
             {
@@ -2110,7 +2130,8 @@
             {
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
-                "Katkarapu-caesarsalaatti"
+                "Caesarsalaattia",
+                "Katkarapuja"
               ]
             },
             {
@@ -2147,7 +2168,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2197,7 +2218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-18T10:40:41.245106+00:00"
+      "paivitetty": "2026-11-19T03:49:50.783429+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2256,6 +2277,11 @@
           ]
         }
       ],
+      "ongelmat": [
+        "ei löytynyt yhtään päivää (edellisessä ajossa 4)"
+      ],
+      "rikki_alkaen": "2026-11-19T03:49:50.783429+00:00",
+      "vanhentunut": true,
       "paivitetty": "2026-11-18T10:40:41.245106+00:00"
     }
   ]
