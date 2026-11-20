@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-20T07:40:32.505122+00:00",
+  "paivitetty": "2026-11-20T10:22:46.031929+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Farmi",
@@ -571,7 +571,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -739,7 +739,6 @@
             "Kermainen lohikeitto",
             "Pepperoni-jauhelihapizza",
             "– Lapsille: Lihapyörykät ruskeassa kastikkeessa",
-            "– Talon perunat",
             "– Paahdetut kasvikset",
             "Kasvisburgeria L – saatavana gluteeniton vaihtoehto",
             "– Cheddarmajoneesia",
@@ -755,7 +754,6 @@
                 "Kermainen lohikeitto",
                 "Pepperoni-jauhelihapizza",
                 "– Lapsille: Lihapyörykät ruskeassa kastikkeessa",
-                "– Talon perunat",
                 "– Paahdetut kasvikset",
                 "Kasvisburgeria L – saatavana gluteeniton vaihtoehto",
                 "– Cheddarmajoneesia"
@@ -771,7 +769,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -903,7 +901,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1195,7 +1193,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1357,7 +1355,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1404,7 +1402,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1529,9 +1527,9 @@
           "paiva": "Perjantai",
           "ruoat": [
             "Aromaattista Marrakesh broileria",
-            "Juustoinen kahden kalan vuoka",
+            "Juustoinen kahden kalan vuoka lohella ja puna-ahvenella",
             "Samettista Juuressosekeittoa",
-            "LASTEN PERJANTAI Lihapulla- & nakkikori, kasvistikkuja ja jugurtti dippiä",
+            "LASTEN PERJANTAI Lihapulla- & nakkikori ranskalaisilla, kasvistikkuja, jugurttidippiä ja majoneesia",
             "Lettubuffet, kermavaahtoa, hilloa sekä suklaakastiketta"
           ],
           "osastot": [
@@ -1539,7 +1537,7 @@
               "nimi": "Buffet",
               "ruoat": [
                 "Aromaattista Marrakesh broileria",
-                "Juustoinen kahden kalan vuoka"
+                "Juustoinen kahden kalan vuoka lohella ja puna-ahvenella"
               ]
             },
             {
@@ -1551,7 +1549,7 @@
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "LASTEN PERJANTAI Lihapulla- & nakkikori, kasvistikkuja ja jugurtti dippiä"
+                "LASTEN PERJANTAI Lihapulla- & nakkikori ranskalaisilla, kasvistikkuja, jugurttidippiä ja majoneesia"
               ]
             },
             {
@@ -1563,7 +1561,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1688,7 +1686,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1772,7 +1770,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2216,7 +2214,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2266,7 +2264,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2325,7 +2323,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
+      "paivitetty": "2026-11-20T10:22:46.031929+00:00"
     }
   ]
 }
