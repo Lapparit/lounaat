@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-19T10:42:31.296256+00:00",
+  "paivitetty": "2026-11-20T03:41:54.807719+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Farmi",
@@ -441,8 +441,10 @@
             "Perinteisiä lihapyöryköitä mummonkastikkeella",
             "Tulista smetana-uunimakkaraa",
             "Herkkusieni-cashewkormaa",
+            "Härkis-tacopastaa",
             "Perunamuusia",
             "Paahdettua paprikaa ja munakoisoa",
+            "Paistettua riisiä",
             "Mariannerahkaa",
             "Kahvi",
             "Tostada – tortilloja rapealla kanalla",
@@ -460,14 +462,16 @@
               "ruoat": [
                 "Perinteisiä lihapyöryköitä mummonkastikkeella",
                 "Tulista smetana-uunimakkaraa",
-                "Herkkusieni-cashewkormaa"
+                "Herkkusieni-cashewkormaa",
+                "Härkis-tacopastaa"
               ]
             },
             {
               "nimi": "Pääruoan kaveriksi",
               "ruoat": [
                 "Perunamuusia",
-                "Paahdettua paprikaa ja munakoisoa"
+                "Paahdettua paprikaa ja munakoisoa",
+                "Paistettua riisiä"
               ]
             },
             {
@@ -567,7 +571,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -741,7 +745,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -873,7 +877,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1165,7 +1169,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1327,7 +1331,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1374,7 +1378,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1533,7 +1537,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1658,7 +1662,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1734,7 +1738,7 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Tempurapaneroidut turskapalat",
+            "Rapeat kalapihvit",
             "– uuniranskalaiset VEG,G ja tartarkastike",
             "Jauhelihapizza",
             "Juustoinen kasvissosekeitto",
@@ -1742,7 +1746,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -1991,9 +1995,7 @@
             "Jerk broileria",
             "Tomaattista kebabkastiketta kasviksilla",
             "Tummaa riisiä",
-            "Rapeita kalapyöryköitä",
-            "Tartarjogurttia",
-            "Tummaa riisiä",
+            "Tonnikala-pastavuoka",
             "Miljonäärileivos karamellimoussella",
             "Paahdettua kirjolohta",
             "Sitruunamajoneesia",
@@ -2032,9 +2034,7 @@
             {
               "nimi": "So Tasty",
               "ruoat": [
-                "Rapeita kalapyöryköitä",
-                "Tartarjogurttia",
-                "Tummaa riisiä"
+                "Tonnikala-pastavuoka"
               ]
             },
             {
@@ -2192,7 +2192,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2242,7 +2242,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2301,7 +2301,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-19T10:42:31.296256+00:00"
+      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
     }
   ]
 }
