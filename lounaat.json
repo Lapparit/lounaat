@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-20T03:41:54.807719+00:00",
+  "paivitetty": "2026-11-20T07:40:32.505122+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -218,7 +218,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Farmi",
@@ -571,7 +571,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -735,17 +735,43 @@
           "paiva": "Perjantai",
           "ruoat": [
             "Lapset mukaan töihin päivä – jokaiselle päivään osallistuvalle lapselle tarjolla yllätys!",
+            "– Lounaan ostajille pehmytjäätelö",
             "Kermainen lohikeitto",
             "Pepperoni-jauhelihapizza",
             "– Lapsille: Lihapyörykät ruskeassa kastikkeessa",
             "– Talon perunat",
             "– Paahdetut kasvikset",
-            "Kasvisburgeria",
-            "– Cheddarmajoneesia"
+            "Kasvisburgeria L – saatavana gluteeniton vaihtoehto",
+            "– Cheddarmajoneesia",
+            "Halloumia",
+            "Teriyakilohta"
+          ],
+          "osastot": [
+            {
+              "nimi": "Lounas",
+              "ruoat": [
+                "Lapset mukaan töihin päivä – jokaiselle päivään osallistuvalle lapselle tarjolla yllätys!",
+                "– Lounaan ostajille pehmytjäätelö",
+                "Kermainen lohikeitto",
+                "Pepperoni-jauhelihapizza",
+                "– Lapsille: Lihapyörykät ruskeassa kastikkeessa",
+                "– Talon perunat",
+                "– Paahdetut kasvikset",
+                "Kasvisburgeria L – saatavana gluteeniton vaihtoehto",
+                "– Cheddarmajoneesia"
+              ]
+            },
+            {
+              "nimi": "Proteiinilisukkeet punnittavaan salaattiin",
+              "ruoat": [
+                "Halloumia",
+                "Teriyakilohta"
+              ]
+            }
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -856,28 +882,28 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Paneroituja possunleikkeitä, valkosipuli-kermaperunoita ja viherpippurikastiketta",
-            "Kasvispihvejä, tzatzikia ja marinoituja kasviksia",
-            "Lapsi mukaan töihin!-päivä: Kinkku-ananaspizzaa, tomaatti-mozzarellapizzaa, vihannestikkuja ja paprikadippiä, melonia ja Jäätelöä"
+            "Paneroituja possunleikkeitä M, valkosipuli-kermaperunoita L,G ja viherpippurikastiketta",
+            "Kasvispihvejä L,G, tzatzikia L,G ja marinoituja kasviksia",
+            "Lapsi mukaan töihin!-päivä: Kinkku-ananaspizzaa L, tomaatti-mozzarellapizzaa, vihannestikkuja M,G ja sweet chili dippiä M,G, melonia M,G ja Jäätelöä"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
-                "Paneroituja possunleikkeitä, valkosipuli-kermaperunoita ja viherpippurikastiketta",
-                "Kasvispihvejä, tzatzikia ja marinoituja kasviksia"
+                "Paneroituja possunleikkeitä M, valkosipuli-kermaperunoita L,G ja viherpippurikastiketta",
+                "Kasvispihvejä L,G, tzatzikia L,G ja marinoituja kasviksia"
               ]
             },
             {
               "nimi": "Lasten Buffet Alle 8 vuotiaat 1€ / ikävuosi, yli 8 vuotiaan 9€",
               "ruoat": [
-                "Lapsi mukaan töihin!-päivä: Kinkku-ananaspizzaa, tomaatti-mozzarellapizzaa, vihannestikkuja ja paprikadippiä, melonia ja Jäätelöä"
+                "Lapsi mukaan töihin!-päivä: Kinkku-ananaspizzaa L, tomaatti-mozzarellapizzaa, vihannestikkuja M,G ja sweet chili dippiä M,G, melonia M,G ja Jäätelöä"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -1169,7 +1195,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1331,7 +1357,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1378,7 +1404,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1537,7 +1563,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1662,7 +1688,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1746,7 +1772,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2071,13 +2097,13 @@
           "ruoat": [
             "Punajuuri falafelpihvejä",
             "Kukkakaali-tzatzikia",
-            "Paahdettua perunaa",
+            "Perunamuusi (vegaaninen vaihtoehto riisi)",
             "Bataatti-maissikeittoa",
-            "Lämminsavukirjolohta",
-            "Jauhelihapyöryköitä",
-            "Ruskeaa kastiketta",
+            "Salaattijuustoa",
+            "Jauhelihapyöryköitä ja ruskeaa kastiketta",
             "Perunamuusia",
             "Intialaista jogurttikalaa",
+            "Perunamuusia",
             "Mokkapalat (jälkkäri sisältyy lasten lounaaseen)",
             "Nugetit ja ranskalaiset",
             "Nakit ja ranskalaiset",
@@ -2085,17 +2111,16 @@
             "Sitruunamajoneesia",
             "Dijon-perunamuusia",
             "Satokauden kasviksia",
-            "Caesarsalaattia",
-            "Katkarapuja",
+            "Katkarapu-caesarsalaattia",
             "Vönerpannupizzaa, harissaa & rucolaa"
           ],
           "osastot": [
             {
-              "nimi": "So Vegan",
+              "nimi": "So Green",
               "ruoat": [
                 "Punajuuri falafelpihvejä",
                 "Kukkakaali-tzatzikia",
-                "Paahdettua perunaa"
+                "Perunamuusi (vegaaninen vaihtoehto riisi)"
               ]
             },
             {
@@ -2107,21 +2132,21 @@
             {
               "nimi": "So Fresh",
               "ruoat": [
-                "Lämminsavukirjolohta"
+                "Salaattijuustoa"
               ]
             },
             {
               "nimi": "So Good",
               "ruoat": [
-                "Jauhelihapyöryköitä",
-                "Ruskeaa kastiketta",
+                "Jauhelihapyöryköitä ja ruskeaa kastiketta",
                 "Perunamuusia"
               ]
             },
             {
               "nimi": "So Tasty",
               "ruoat": [
-                "Intialaista jogurttikalaa"
+                "Intialaista jogurttikalaa",
+                "Perunamuusia"
               ]
             },
             {
@@ -2154,8 +2179,7 @@
             {
               "nimi": "Pop Up Grill salaatti",
               "ruoat": [
-                "Caesarsalaattia",
-                "Katkarapuja"
+                "Katkarapu-caesarsalaattia"
               ]
             },
             {
@@ -2192,7 +2216,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2242,7 +2266,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2301,7 +2325,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-20T03:41:54.807719+00:00"
+      "paivitetty": "2026-11-20T07:40:32.505122+00:00"
     }
   ]
 }
