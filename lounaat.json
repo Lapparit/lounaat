@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-23T08:04:51.906462+00:00",
+  "paivitetty": "2026-11-23T11:07:52.079122+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -217,7 +217,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Farmi",
@@ -551,7 +551,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -643,7 +643,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -749,19 +749,19 @@
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Burger perjantai! Juusto-kasvisburger, pullet pork-burger ja ranut + talon dippi"
+            "Burrito perjantai! Grillattu kana, linssi-fetajuustopihvi, maissitortilla ja mustapapusalaatti, ruohosipuli-kermaviilikastike + salsa"
           ],
           "osastot": [
             {
               "nimi": "Grilli",
               "ruoat": [
-                "Burger perjantai! Juusto-kasvisburger, pullet pork-burger ja ranut + talon dippi"
+                "Burrito perjantai! Grillattu kana, linssi-fetajuustopihvi, maissitortilla ja mustapapusalaatti, ruohosipuli-kermaviilikastike + salsa"
               ]
             }
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -965,7 +965,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1080,7 +1080,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1242,7 +1242,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1293,7 +1293,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1478,7 +1478,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1603,7 +1603,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1709,8 +1709,8 @@
             "Savujuustokeittoa",
             "Paahdettua kirjolohta",
             "Kinkkukiusausta",
-            "Tummaa riisiä",
             "Broileripyöryköitä ja omenalla maustettua currykastiketta",
+            "Tummaa riisiä",
             "Vaahtokarkkirahkaa & kinuskia",
             "Voissa paistettuja muikkuja",
             "Sitruuna-aiolia",
@@ -1748,8 +1748,8 @@
             {
               "nimi": "So Tasty",
               "ruoat": [
-                "Tummaa riisiä",
-                "Broileripyöryköitä ja omenalla maustettua currykastiketta"
+                "Broileripyöryköitä ja omenalla maustettua currykastiketta",
+                "Tummaa riisiä"
               ]
             },
             {
@@ -2110,7 +2110,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2160,7 +2160,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2219,7 +2219,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T08:04:51.906462+00:00"
+      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
     }
   ]
 }
