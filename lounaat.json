@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-23T11:07:52.079122+00:00",
+  "paivitetty": "2026-11-24T06:20:22.816497+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -217,7 +217,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Farmi",
@@ -551,7 +551,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -603,7 +603,7 @@
             "Koskenlaskijan kalavuoka",
             "– Paahdetut yrttiperunat",
             "– Paahdetut kasvikset",
-            "Ratatouillea"
+            "Ratatouillea soijasuikaleilla"
           ]
         },
         {
@@ -643,7 +643,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -761,7 +761,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -817,7 +817,7 @@
             "Seitiä ala Vizcaina, yrttistä makeaa tomaatti-paprikakastiketta, paahdettuja perunoita",
             "Szechuanin härkää, basmatiriisiä",
             "Intialaista kikherne-tofupataa, parsakaalia, kesäkurpitsaa ja paprikaa",
-            "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nachosipsejä, pico de Gallo & ranskankermaa, cheddarkastiketta",
+            "Tacomania!: Korean kana tacoja, fetatortilloja, maissia ja korianteria, nachosipsejä, pico de Gallo & ranskankermaa, cheddarkastiketta",
             "Paistettua kookos-tofua, vihreää kalacurrya, nuudelia, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Herkkusienikeittoa"
           ],
@@ -833,7 +833,7 @@
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nachosipsejä, pico de Gallo & ranskankermaa, cheddarkastiketta"
+                "Tacomania!: Korean kana tacoja, fetatortilloja, maissia ja korianteria, nachosipsejä, pico de Gallo & ranskankermaa, cheddarkastiketta"
               ]
             },
             {
@@ -858,7 +858,7 @@
             "Avocadopastaa, kukka- ja parsakaalista sekä paistetusta sipulista salaatti",
             "Teriyakipyöryköitä, marinoitua tofua, basmatia, erilaisia pikkelöityjä ja tuoreita, maustettuja kasviksia sekä erilaisia kastikkeita, pähkinää ja korianteria",
             "Tomaatti-linssikeittoa",
-            "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nachosipsejä, pico de Gallo & ranskankermaa, cheddarkastiketta"
+            "Tacomania!: Korean kana tacoja, fetatortilloja, maissia ja korianteria, nachosipsejä, pico de Gallo & ranskankermaa, cheddarkastiketta"
           ],
           "osastot": [
             {
@@ -884,7 +884,7 @@
             {
               "nimi": "Pop Up Lunch",
               "ruoat": [
-                "Tacomania!: Korean tacoja, fetatortilloja, maissia ja korianteria, nachosipsejä, pico de Gallo & ranskankermaa, cheddarkastiketta"
+                "Tacomania!: Korean kana tacoja, fetatortilloja, maissia ja korianteria, nachosipsejä, pico de Gallo & ranskankermaa, cheddarkastiketta"
               ]
             }
           ]
@@ -965,7 +965,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1080,7 +1080,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1242,7 +1242,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1293,7 +1293,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1343,8 +1343,8 @@
           "paiva": "Tiistai",
           "ruoat": [
             "Korealaista makean mausteista Char Siu possua",
-            "Värikäs kasvis- nuudeli stir fry",
-            "kermainen maissi chowder",
+            "Värikäs kasvis- nuudeli stir fry Tofulla",
+            "Kermainen maissi chowder",
             "Broilerinfilettä kermaisessa pesto-kastikkeessa, paahdettua perunaa ja porkkanaa",
             "Talon mokkapaloja"
           ],
@@ -1353,13 +1353,13 @@
               "nimi": "Buffet",
               "ruoat": [
                 "Korealaista makean mausteista Char Siu possua",
-                "Värikäs kasvis- nuudeli stir fry"
+                "Värikäs kasvis- nuudeli stir fry Tofulla"
               ]
             },
             {
               "nimi": "Keitto",
               "ruoat": [
-                "kermainen maissi chowder"
+                "Kermainen maissi chowder"
               ]
             },
             {
@@ -1380,17 +1380,17 @@
           "paiva": "Keskiviikko",
           "ruoat": [
             "Täyteläisen juustoista broileria",
-            "Tulinen kasvis- tortillavuoka seitanilla sekä jalapenoilla",
+            "Tulinen kasvis- nachovuoka seitanilla sekä jalapenoilla",
             "Karamellioitua sipulikeittoa",
-            "Porsaan lehtipihviä, Chipotle maustevoi jaröstiperunat",
-            "Raikas hedelmäsalaatti"
+            "Porsaan lehtipihvi, Chipotle maustevoita ja röstiperunoita",
+            "raikas hedelmäsalaatti"
           ],
           "osastot": [
             {
               "nimi": "Buffet",
               "ruoat": [
                 "Täyteläisen juustoista broileria",
-                "Tulinen kasvis- tortillavuoka seitanilla sekä jalapenoilla"
+                "Tulinen kasvis- nachovuoka seitanilla sekä jalapenoilla"
               ]
             },
             {
@@ -1402,13 +1402,13 @@
             {
               "nimi": "Chef-annos",
               "ruoat": [
-                "Porsaan lehtipihviä, Chipotle maustevoi jaröstiperunat"
+                "Porsaan lehtipihvi, Chipotle maustevoita ja röstiperunoita"
               ]
             },
             {
               "nimi": "Jälkiruoka",
               "ruoat": [
-                "Raikas hedelmäsalaatti"
+                "raikas hedelmäsalaatti"
               ]
             }
           ]
@@ -1478,7 +1478,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1603,7 +1603,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1704,7 +1704,7 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Makean hapanta tofu-kasviswokkia - Tofua Kung Pao",
+            "Porkkanaohukaisia",
             "Tummaa riisiä",
             "Savujuustokeittoa",
             "Paahdettua kirjolohta",
@@ -1721,9 +1721,9 @@
           ],
           "osastot": [
             {
-              "nimi": "So Vegan",
+              "nimi": "So Green",
               "ruoat": [
-                "Makean hapanta tofu-kasviswokkia - Tofua Kung Pao",
+                "Porkkanaohukaisia",
                 "Tummaa riisiä"
               ]
             },
@@ -2110,7 +2110,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2160,7 +2160,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2219,7 +2219,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-23T11:07:52.079122+00:00"
+      "paivitetty": "2026-11-24T06:20:22.816497+00:00"
     }
   ]
 }
