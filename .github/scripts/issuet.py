@@ -20,15 +20,20 @@ OTSIKKO = "Scraper rikki: {nimi}"
 JUURI = Path(__file__).resolve().parents[2]
 
 
-def gh(*args: str) -> str | None:
-    """Ajaa gh-komennon. Palauttaa tulosteen tai None jos komento epäonnistui."""
+def gh(*args: str, ohita_virhe: str | None = None) -> str | None:
+    """
+    Ajaa gh-komennon. Palauttaa tulosteen tai None jos komento epäonnistui.
+    ohita_virhe: jos virheilmoitus sisältää tämän tekstin, se on odotettu
+    (esim. tunniste on jo olemassa) eikä siitä tulosteta mitään.
+    """
     try:
         r = subprocess.run(["gh", *args], capture_output=True, text=True, timeout=60)
     except (OSError, subprocess.SubprocessError) as e:
         print(f"! gh ei käytettävissä: {e}")
         return None
     if r.returncode != 0:
-        print(f"! gh {' '.join(args[:2])} epäonnistui: {r.stderr.strip()[:300]}")
+        if not (ohita_virhe and ohita_virhe in r.stderr):
+            print(f"! gh {' '.join(args[:2])} epäonnistui: {r.stderr.strip()[:300]}")
         return None
     return r.stdout
 
@@ -104,7 +109,7 @@ def main() -> int:
     rap = json.loads(raportti_polku.read_text(encoding="utf-8"))
 
     gh("label", "create", LABEL, "--color", "d73a4a",
-       "--description", "Lounaslistan haku ei toimi")
+       "--description", "Lounaslistan haku ei toimi", ohita_virhe="already exists")
 
     avoimet = avoimet_issuet()
 

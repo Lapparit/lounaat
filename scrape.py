@@ -12,6 +12,7 @@ Käyttö: python scrape.py
 
 import json
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -22,6 +23,10 @@ from bs4 import BeautifulSoup
 import laatu
 
 TIMEOUT = 25
+# Jos ravintolan haku tuottaa tyhjän tuloksen vaikka edellisessä ajossa oli
+# lista, yritetään kerran uudelleen tämän tauon jälkeen. Ravintoloiden sivut
+# (ja GitHubin ajoympäristö) oikuttelevat joskus muutaman sekunnin.
+UUSINTAVIIVE_S = 20
 
 # Turvarajat ulkopuolisten sivujen lataamiseen. Ravintoloiden sivut ovat
 # lähtökohtaisesti luotettavia, mutta jos jokin niistä hajoaa tai joutuu
@@ -1960,6 +1965,30 @@ def lue_edellinen(polku: Path) -> dict[str, dict]:
     return {r["nimi"]: r for r in data.get("ravintolat", []) if r.get("nimi")}
 
 
+def hae_ja_siivoa(ravintola: dict) -> list[dict]:
+    """Ajaa ravintolan scraperin, normalisoi päivät ja siivoaa ruokarivit."""
+    raakapaivat = ravintola["scraper"]()
+    siivotut = []
+    for p in normalisoi_paivat(raakapaivat):
+        puhdas = siivoa_paiva(p)
+        if puhdas:
+            siivotut.append(puhdas)
+    return siivotut
+
+
+def hae_paivat(ravintola: dict, edellinen_rivi: dict | None) -> list[dict]:
+    """
+    Hakee ravintolan listan. Jos tulos on tyhjä vaikka edellisessä ajossa oli
+    lista, kyse on usein ohimenevästä häiriöstä — yritetään kerran uudelleen.
+    """
+    paivat = hae_ja_siivoa(ravintola)
+    if not paivat and (edellinen_rivi or {}).get("paivat"):
+        print(f"  ! Tyhjä tulos — yritetään uudelleen {UUSINTAVIIVE_S} s kuluttua")
+        time.sleep(UUSINTAVIIVE_S)
+        paivat = hae_ja_siivoa(ravintola)
+    return paivat
+
+
 def main():
     polku = Path(__file__).parent / "lounaat.json"
     edellinen = lue_edellinen(polku)
@@ -1978,17 +2007,7 @@ def main():
         }
         if ravintola["scraper"] is not None:
             try:
-                raakapaivat = ravintola["scraper"]()
-                # Normalisoi päivien nimet ja järjestä ma-pe
-                normalisoidut = normalisoi_paivat(raakapaivat)
-                # Siivoa jokaisen päivän ruokarivit (allergeenit, hinnat, kellonajat)
-                # ja pudota päivät joilla ei jäänyt yhtään ruokaa
-                siivotut = []
-                for p in normalisoidut:
-                    puhdas = siivoa_paiva(p)
-                    if puhdas:
-                        siivotut.append(puhdas)
-                rivi["paivat"] = siivotut
+                rivi["paivat"] = hae_paivat(ravintola, edellinen.get(rivi["nimi"]))
                 print(f"  -> {len(rivi['paivat'])} päivää löytyi")
             except Exception as e:
                 print(f"  ! Virhe: {e}")

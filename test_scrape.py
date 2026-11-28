@@ -533,6 +533,39 @@ class Tietoturva(unittest.TestCase):
         self.assertIn("script-src 'self'", html)
 
 
+class Uusintahaku(unittest.TestCase):
+    def test_tyhja_tulos_haetaan_uudelleen(self):
+        kutsut = []
+        def scraper():
+            kutsut.append(1)
+            return [] if len(kutsut) == 1 else [{"paiva": "Maanantai", "ruoat": ["Lihapullia"]}]
+        ravintola = {"nimi": "X", "scraper": scraper}
+        edellinen = {"paivat": [{"paiva": "Maanantai", "ruoat": ["Vanhaa"]}]}
+        with mock.patch.object(scrape.time, "sleep") as nukku:
+            paivat = scrape.hae_paivat(ravintola, edellinen)
+        self.assertEqual(len(kutsut), 2)
+        nukku.assert_called_once_with(scrape.UUSINTAVIIVE_S)
+        self.assertEqual(paivat, [{"paiva": "Maanantai", "ruoat": ["Lihapullia"]}])
+
+    def test_ei_uusintaa_jos_edellinenkin_oli_tyhja(self):
+        kutsut = []
+        ravintola = {"nimi": "X", "scraper": lambda: kutsut.append(1) or []}
+        with mock.patch.object(scrape.time, "sleep") as nukku:
+            paivat = scrape.hae_paivat(ravintola, {"paivat": []})
+        self.assertEqual(len(kutsut), 1)
+        nukku.assert_not_called()
+        self.assertEqual(paivat, [])
+
+    def test_ei_uusintaa_kun_tulos_loytyy(self):
+        kutsut = []
+        ravintola = {"nimi": "X", "scraper": lambda: kutsut.append(1) or [{"paiva": "Tiistai", "ruoat": ["Kalaa"]}]}
+        with mock.patch.object(scrape.time, "sleep") as nukku:
+            paivat = scrape.hae_paivat(ravintola, {"paivat": [{"paiva": "Tiistai", "ruoat": ["Vanhaa"]}]})
+        self.assertEqual(len(kutsut), 1)
+        nukku.assert_not_called()
+        self.assertEqual(paivat[0]["ruoat"], ["Kalaa"])
+
+
 class Ravintolalista(unittest.TestCase):
     def test_idaho_poistettu(self):
         self.assertNotIn("Ravintola Idaho", [r["nimi"] for r in scrape.RAVINTOLAT])
