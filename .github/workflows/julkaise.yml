@@ -30,24 +30,38 @@ jobs:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment2.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Hae repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # Tärkeää: hae viimeisin commit main-haarasta
           # (workflow_run-eventti voi muuten käyttää workflow:in alkuperäistä SHA:ta)
           ref: main
 
       - name: Aseta Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Pakkaa sivut
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: "."
 
+      # GitHubin pakettilistaus laahaa joskus muutaman sekunnin latauksen
+      # jäljessä, jolloin julkaisu kaatuu virheeseen "No artifacts named
+      # github-pages were found". Siksi ensimmäisen yrityksen epäonnistuminen
+      # ei kaada ajoa, vaan julkaisu yritetään hetken päästä uudelleen.
       - name: Julkaise
         id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Odota hetki (pakettilistaus laahaa)
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+
+      - name: Julkaise (toinen yritys)
+        id: deployment2
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4

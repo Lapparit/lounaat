@@ -1,5 +1,5 @@
 {
-  "paivitetty": "2026-11-28T10:47:29.748087+00:00",
+  "paivitetty": "2026-11-28T12:32:48.514042+00:00",
   "ravintolat": [
     {
       "nimi": "Aito kotilounas Sääksjärvi",
@@ -55,7 +55,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Caffitella",
@@ -217,7 +217,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Farmi",
@@ -547,7 +547,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Fastelle",
@@ -634,7 +634,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Hermia 5",
@@ -752,7 +752,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Hermia 6",
@@ -954,7 +954,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Munkkimiehet",
@@ -1071,7 +1071,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Ravintola Osku",
@@ -1237,12 +1237,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-11-28T10:47:29.748087+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-28T08:20:29.498615+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Ruskon Helmi",
@@ -1254,38 +1249,39 @@
         {
           "paiva": "Maanantai",
           "ruoat": [
-            "Makkarapihvit",
-            "Jalopeno-cheddarkanaa"
+            "Makkarapannu",
+            "Redcurry broiler"
           ]
         },
         {
           "paiva": "Tiistai",
           "ruoat": [
-            "Makkarakeitto",
-            "Paneroitu kampela",
-            "Kinkku-pekonikiusaus"
+            "Lohikeitto",
+            "Maksaa kermassa",
+            "BBQ possua"
           ]
         },
         {
           "paiva": "Keskiviikko",
           "ruoat": [
-            "Jauhemaksapihvit",
-            "Lihapullat"
+            "Sienirisotto",
+            "Jauhelihapihvit",
+            "Paneroitu kala"
           ]
         },
         {
           "paiva": "Torstai",
           "ruoat": [
-            "Hernekeitto G,L ja pannari",
-            "Lasagnette",
-            "Balilainen kala"
+            "Hernekeitto g,l ja pannari",
+            "Karjalanpaisti",
+            "Broilerpyörykät"
           ]
         },
         {
           "paiva": "Perjantai",
           "ruoat": [
-            "Härkäwokki",
-            "Kiewin kana",
+            "Kebabkiusaus",
+            "Kana cordon bleu",
             "Sopimusasiakkaille saatavilla myös 10 x lounaslipukkeet hintaan . Kysy lisää kassalla!",
             "Sopimusasiakkaille saatavilla myös 10 x lounaslipukkeet hintaan",
             "Jouluruokatilaukset 2026",
@@ -1293,12 +1289,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 5)"
-      ],
-      "rikki_alkaen": "2026-11-28T10:47:29.748087+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-28T08:20:29.498615+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Hertta",
@@ -1457,7 +1448,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Kontukeittiö",
@@ -1582,7 +1573,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Malabadi",
@@ -1666,7 +1657,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Reaktori",
@@ -2082,7 +2073,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Sisu",
@@ -2132,7 +2123,7 @@
           ]
         }
       ],
-      "paivitetty": "2026-11-28T10:47:29.748087+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     },
     {
       "nimi": "Speakeasy",
@@ -2191,12 +2182,7 @@
           ]
         }
       ],
-      "ongelmat": [
-        "ei löytynyt yhtään päivää (edellisessä ajossa 4)"
-      ],
-      "rikki_alkaen": "2026-11-28T10:47:29.748087+00:00",
-      "vanhentunut": true,
-      "paivitetty": "2026-11-28T08:20:29.498615+00:00"
+      "paivitetty": "2026-11-28T12:32:48.514042+00:00"
     }
   ]
 }
